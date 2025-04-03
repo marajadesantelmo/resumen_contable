@@ -224,7 +224,7 @@ def show_page():
             
             # Now that razon_social is defined, we can add the download button
             with col_download:
-                st.image("data/logo.png", use_column_width=True)
+                st.image("data/logo.png")
                 st.write("")  # Add some space
                 st.write("")  # Add some space to align with title          
                 filtered_emitidos_excel = filter_by_razon_social(emitidos_excel, razon_social)
