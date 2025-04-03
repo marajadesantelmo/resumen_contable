@@ -29,25 +29,30 @@ def apply_custom_css():
         --green: #859900;
     }
 
-    /* Overall app styling */
+    /* Force dark mode for the entire app, regardless of system settings */
     .stApp {
-        background-color: var(--base3);
-        color: var(--base00);
+        background-color: var(--base03) !important;
+        color: var(--base0) !important;
     }
 
     /* Header styling */
     h1, h2, h3, h4, h5, h6 {
-        color: var(--base01);
+        color: var(--base1) !important;
         font-weight: bold;
     }
     
-    /* Fancy table styling */
+    /* Force dark mode on all text elements */
+    p, span, div {
+        color: var(--base0) !important;
+    }
+    
+    /* Fancy table styling - dark mode always */
     div[data-testid="stDataFrame"] table {
         border-collapse: separate;
         border-spacing: 0;
         border-radius: 8px;
         overflow: hidden;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
 
     div[data-testid="stDataFrame"] thead tr th {
@@ -64,34 +69,37 @@ def apply_custom_css():
         z-index: 100;
     }
 
+    /* Dark table rows */
     div[data-testid="stDataFrame"] tbody tr:nth-child(even) {
-        background-color: var(--base2) !important;
+        background-color: var(--base02) !important;
     }
-
+    
     div[data-testid="stDataFrame"] tbody tr:nth-child(odd) {
-        background-color: var(--base3) !important;
+        background-color: var(--base03) !important;
     }
-
+    
     div[data-testid="stDataFrame"] tbody tr:hover {
-        background-color: #dfd9c2 !important;
+        background-color: #0a4252 !important;
     }
 
     div[data-testid="stDataFrame"] tbody td {
         padding: 10px 15px !important;
         border: none !important;
-        border-bottom: 1px solid #e0e0e0 !important;
+        border-bottom: 1px solid #15414b !important;
+        color: var(--base1) !important;
     }
 
     /* Style currency values */
     div[data-testid="stDataFrame"] td:has(div[style*="text-align: right"]) {
         font-family: 'Courier New', monospace;
         font-weight: 500;
+        color: var(--cyan) !important;
     }
 
     /* Buttons styling */
     .stButton button {
         background-color: var(--blue);
-        color: white;
+        color: white !important;
         font-weight: bold;
         border-radius: 6px;
         border: none;
@@ -101,37 +109,53 @@ def apply_custom_css():
 
     .stButton button:hover {
         background-color: var(--cyan);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     }
 
     /* Select box styling */
     div[data-baseweb="select"] {
         border-radius: 6px;
-        border: 1px solid var(--base1);
+        border: 1px solid var(--base01);
+        background-color: var(--base02) !important;
     }
-
-    /* Dark mode adjustments */
-    @media (prefers-color-scheme: dark) {
-        .stApp {
-            background-color: var(--base03);
-            color: var(--base0);
-        }
-        
-        h1, h2, h3, h4, h5, h6 {
-            color: var(--base1);
-        }
-        
-        div[data-testid="stDataFrame"] tbody tr:nth-child(even) {
-            background-color: var(--base02) !important;
-        }
-        
-        div[data-testid="stDataFrame"] tbody tr:nth-child(odd) {
-            background-color: var(--base03) !important;
-        }
-        
-        div[data-testid="stDataFrame"] tbody tr:hover {
-            background-color: #0a4252 !important;
-        }
+    
+    /* Input fields */
+    .stTextInput input, .stTextInput textarea, .stNumberInput input {
+        background-color: var(--base02) !important;
+        color: var(--base1) !important;
+        border: 1px solid var(--base01) !important;
+    }
+    
+    /* Login container */
+    .login-container {
+        background-color: var(--base02) !important;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+    
+    /* Streamlit widgets */
+    .stSelectbox, .stMultiselect {
+        background-color: var(--base02) !important;
+        color: var(--base1) !important;
+    }
+    
+    /* Sidebar */
+    section[data-testid="stSidebar"] {
+        background-color: var(--base03) !important;
+        border-right: 1px solid var(--base02);
+    }
+    
+    /* Success/info messages */
+    div[data-baseweb="notification"] {
+        background-color: var(--base02) !important;
+    }
+    
+    /* Links */
+    a {
+        color: var(--blue) !important;
+    }
+    a:hover {
+        color: var(--cyan) !important;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -301,13 +325,13 @@ def show_page():
         st.session_state.username = cookies.get("username", "")
     
     if not st.session_state.logged_in:
-        st.markdown('<h1 style="text-align: center; margin-bottom: 30px;">Resumen Contable - Login</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 style="text-align: center; margin-bottom: 30px; color: #93a1a1;">Resumen Contable - Login</h1>', unsafe_allow_html=True)
         
         # Add a container with some styling for the login form
         with st.container():
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.markdown('<div style="padding: 20px; background-color: #eee8d5; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">', unsafe_allow_html=True)
+                st.markdown('<div class="login-container" style="padding: 20px; background-color: #073642; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">', unsafe_allow_html=True)
                 username = st.text_input("Usuario")
                 password = st.text_input("Contraseña", type="password")
                 
@@ -344,10 +368,10 @@ def show_page():
         
         # Main application
         # Create a row with title and improve styling
-        st.markdown('<div style="padding: 10px 0; border-bottom: 2px solid #93a1a1; margin-bottom: 20px;">', unsafe_allow_html=True)
+        st.markdown('<div style="padding: 10px 0; border-bottom: 2px solid #586e75; margin-bottom: 20px;">', unsafe_allow_html=True)
         col_title, col_download = st.columns([3, 1])
         with col_title:
-            st.markdown('<h1 style="margin-bottom: 0;">Resumen Contable - Marzo 2025</h1>', unsafe_allow_html=True)
+            st.markdown('<h1 style="margin-bottom: 0; color: #93a1a1;">Resumen Contable - Marzo 2025</h1>', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
             
         # Display total summary with improved table styles
@@ -357,7 +381,7 @@ def show_page():
         st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
 
         # Improved section divider
-        st.markdown('<div style="margin: 30px 0; border-top: 1px solid #93a1a1;"></div>', unsafe_allow_html=True)
+        st.markdown('<div style="margin: 30px 0; border-top: 1px solid #586e75;"></div>', unsafe_allow_html=True)
 
         col1, col2 = st.columns(2)
         with col1:
