@@ -76,17 +76,6 @@ def show_page():
         # Main application
         st.title("Resumen Contable")
         
-        # Add logout button in sidebar
-        if st.sidebar.button("Cerrar sesión"):
-            cookies["logged_in"] = "False"
-            cookies.pop("username", None)
-            cookies.save()
-            st.session_state.logged_in = False
-            st.session_state.username = ""
-            st.rerun()
-            
-        st.sidebar.write(f"Usuario: {st.session_state.username}")
-        
         # Display the main content
         st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
 
@@ -122,6 +111,15 @@ def show_page():
         with col2:
             st.subheader("Detalle Comprobantes Recibidos")
             st.dataframe(filtered_recibidos, use_container_width=True, hide_index=True)
+        
+        # Add logout button at the end of the body
+        if st.button("Cerrar sesión"):
+            cookies["logged_in"] = "False"
+            cookies.pop("username", None)
+            cookies.save()
+            st.session_state.logged_in = False
+            st.session_state.username = ""
+            st.rerun()
 
 if __name__ == "__main__":
     show_page()
