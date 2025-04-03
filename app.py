@@ -185,7 +185,7 @@ def show_page():
                         filtered_emitidos_por_empresa_excel,
                         filtered_recibidos_por_empresa_excel
                     ),
-                    file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx",
+                    file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx")
             # Now that razon_social is defined, we can add the download button
             with col_download:
                 st.write("")  # Add some space
