@@ -106,15 +106,7 @@ def show_page():
             st.title("Resumen Contable")
         with col_download:
             st.write("")  # Add some space
-            st.write("")  # Add some space to align with title
-            razon_social_options = sorted(emitidos['razon_social'].unique().tolist())
-            razon_social = st.selectbox(
-                "Seleccionar Empresa", 
-                options=razon_social_options,
-                index=0 if razon_social_options else None,
-                key="download_selector"  # Add unique key
-            )
-            
+            st.write("")  # Add some space to align with title          
             filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
             filtered_recibidos = filter_by_razon_social(recibidos, razon_social)
             filtered_emitidos_por_empresa = filter_by_razon_social(emitidos_por_empresa, razon_social)
