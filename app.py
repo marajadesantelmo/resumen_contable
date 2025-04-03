@@ -15,7 +15,10 @@ def filter_by_razon_social(df, razon_social):
 def show_page(): 
     emitidos, recibidos, resumen_contable = fetch_data()
        
-    st.set_page_config(page_title="Comprobantes AFIP", layout="wide")
+    st.set_page_config(page_title="Resumen Contable", layout="wide")
+
+    st.title("Resumen Contable")
+    st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
 
     col1, col2 = st.columns(2)
     with col1:
@@ -36,10 +39,10 @@ def show_page():
         col1, col2 = st.columns(2)
         with col1:
             st.subheader("Emitidos")
-            st.dataframe(filtered_emitidos, use_container_width=True)
+            st.dataframe(filtered_emitidos, use_container_width=True, hide_index=True)
         with col2:
             st.subheader("Recibidos")
-            st.dataframe(filtered_recibidos, use_container_width=True)
+            st.dataframe(filtered_recibidos, use_container_width=True, hide_index=True)
     else:
         st.warning("No se encontraron empresas para filtrar.")
 
