@@ -10,67 +10,75 @@ def format_currency(x):
     return f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
 
 def fetch_data():
+    # Load emitidos data
     emitidos = pd.read_csv('data/emitidos_unified.csv')
     emitidos['Neto'] = emitidos['Imp. Neto Gravado'] + emitidos['Imp. Neto No Gravado'] + emitidos['Imp. Op. Exentas'] 
     emitidos = emitidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Receptor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
     emitidos['Denominación Receptor'] = emitidos['Denominación Receptor'].str.strip().str.title()
     
-    # Format currency columns in emitidos
+    # Store raw values for Excel export but don't show in UI
+    emitidos_excel = emitidos.copy()
+    
+    # Format currency columns in emitidos for display
     for column in ['Neto', 'IVA', 'Imp. Total']:
-        emitidos[column + '_raw'] = emitidos[column]  # Store raw values for calculations
         emitidos[column] = emitidos[column].apply(format_currency)
 
-    emitidos_por_empresa = emitidos.groupby(['razon_social', 'Denominación Receptor']).agg({
-        'Neto_raw': 'sum', 
-        'IVA_raw': 'sum', 
-        'Imp. Total_raw': 'sum'
+    # Create summary by company
+    emitidos_por_empresa = emitidos_excel.groupby(['razon_social', 'Denominación Receptor']).agg({
+        'Neto': 'sum', 
+        'IVA': 'sum', 
+        'Imp. Total': 'sum'
     }).reset_index()
     
-    # Rename columns back to original names and format
-    emitidos_por_empresa.rename(columns={
-        'Neto_raw': 'Neto',
-        'IVA_raw': 'IVA',
-        'Imp. Total_raw': 'Imp. Total'
-    }, inplace=True)
+    # Create a copy for Excel export
+    emitidos_por_empresa_excel = emitidos_por_empresa.copy()
     
-    # Format currency columns in emitidos_por_empresa
+    # Format currency columns for display
     for column in ['Neto', 'IVA', 'Imp. Total']:
         emitidos_por_empresa[column] = emitidos_por_empresa[column].apply(format_currency)
 
+    # Load recibidos data
     recibidos = pd.read_csv('data/recibidos_unified.csv')
     recibidos['Neto'] = recibidos['Imp. Neto Gravado'] + recibidos['Imp. Neto No Gravado'] + recibidos['Imp. Op. Exentas']
     recibidos = recibidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Emisor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
     recibidos['Denominación Emisor'] = recibidos['Denominación Emisor'].str.strip().str.title()
     
-    # Format currency columns in recibidos
+    # Store raw values for Excel export but don't show in UI
+    recibidos_excel = recibidos.copy()
+    
+    # Format currency columns in recibidos for display
     for column in ['Neto', 'IVA', 'Imp. Total']:
-        recibidos[column + '_raw'] = recibidos[column]  # Store raw values for calculations
         recibidos[column] = recibidos[column].apply(format_currency)
 
-    recibidos_por_empresa = recibidos.groupby(['razon_social', 'Denominación Emisor']).agg({
-        'Neto_raw': 'sum', 
-        'IVA_raw': 'sum', 
-        'Imp. Total_raw': 'sum'
+    # Create summary by company
+    recibidos_por_empresa = recibidos_excel.groupby(['razon_social', 'Denominación Emisor']).agg({
+        'Neto': 'sum', 
+        'IVA': 'sum', 
+        'Imp. Total': 'sum'
     }).reset_index()
     
-    # Rename columns back to original names and format
-    recibidos_por_empresa.rename(columns={
-        'Neto_raw': 'Neto',
-        'IVA_raw': 'IVA',
-        'Imp. Total_raw': 'Imp. Total'
-    }, inplace=True)
+    # Create a copy for Excel export
+    recibidos_por_empresa_excel = recibidos_por_empresa.copy()
     
-    # Format currency columns in recibidos_por_empresa
+    # Format currency columns for display
     for column in ['Neto', 'IVA', 'Imp. Total']:
         recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
 
+    # Load resumen contable data
     resumen_contable = pd.read_csv('data/resumen_contable.csv')
+    
+    # Create a copy for Excel export
+    resumen_contable_excel = resumen_contable.copy()
 
+    # Format currency columns for display
     for column in resumen_contable.columns:
         if column != 'Sociedad':
             resumen_contable[column] = resumen_contable[column].apply(format_currency)
             
-    return emitidos, recibidos, resumen_contable, emitidos_por_empresa, recibidos_por_empresa
+    return (
+        emitidos, recibidos, resumen_contable, emitidos_por_empresa, recibidos_por_empresa,
+        emitidos_excel, recibidos_excel, resumen_contable_excel, emitidos_por_empresa_excel, recibidos_por_empresa_excel
+    )
 
 def filter_by_razon_social(df, razon_social):
     if 'razon_social' in df.columns:
@@ -86,42 +94,12 @@ def login(username, password):
         return True
     return False
 
-def to_excel_multiple_sheets(resumen_contable, emitidos, recibidos, emitidos_por_empresa, recibidos_por_empresa):
+def to_excel_multiple_sheets(resumen_contable_excel, emitidos_excel, recibidos_excel, emitidos_por_empresa_excel, recibidos_por_empresa_excel):
     output = BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     
-    # Convert resumen_contable to numerical values for Excel
-    rc_excel = resumen_contable.copy()
-    for col in rc_excel.columns:
-        if col != 'Sociedad':
-            # This removes currency formatting and converts to float
-            rc_excel[col] = rc_excel[col].str.replace('$', '').str.replace('.', '').str.replace(',', '.').str.replace('(', '-').str.replace(')', '')
-            rc_excel[col] = pd.to_numeric(rc_excel[col], errors='coerce')
-    
-    # Convert emitidos and recibidos currency columns back to numerical for Excel
-    emitidos_excel = emitidos.copy()
-    recibidos_excel = recibidos.copy()
-    emitidos_por_empresa_excel = emitidos_por_empresa.copy()
-    recibidos_por_empresa_excel = recibidos_por_empresa.copy()
-    
-    # Helper function to convert formatted currency back to numeric
-    def currency_to_numeric(df, columns):
-        df_excel = df.copy()
-        for col in columns:
-            if col in df_excel.columns:
-                df_excel[col] = df_excel[col].str.replace('$', '').str.replace('.', '').str.replace(',', '.').str.replace('(', '-').str.replace(')', '')
-                df_excel[col] = pd.to_numeric(df_excel[col], errors='coerce')
-        return df_excel
-    
-    # Convert formatted currency columns back to numeric for Excel export
-    currency_columns = ['Neto', 'IVA', 'Imp. Total']
-    emitidos_excel = currency_to_numeric(emitidos, currency_columns)
-    recibidos_excel = currency_to_numeric(recibidos, currency_columns)
-    emitidos_por_empresa_excel = currency_to_numeric(emitidos_por_empresa, currency_columns)
-    recibidos_por_empresa_excel = currency_to_numeric(recibidos_por_empresa, currency_columns)
-    
     # Write each dataframe to a different worksheet
-    rc_excel.to_excel(writer, sheet_name='Resumen Contable', index=False)
+    resumen_contable_excel.to_excel(writer, sheet_name='Resumen Contable', index=False)
     emitidos_por_empresa_excel.to_excel(writer, sheet_name='Emitidos por Empresa', index=False)
     recibidos_por_empresa_excel.to_excel(writer, sheet_name='Recibidos por Empresa', index=False)
     emitidos_excel.to_excel(writer, sheet_name='Detalle Emitidos', index=False)
@@ -133,8 +111,11 @@ def to_excel_multiple_sheets(resumen_contable, emitidos, recibidos, emitidos_por
     return processed_data
 
 def show_page(): 
-    emitidos, recibidos, resumen_contable, emitidos_por_empresa, recibidos_por_empresa = fetch_data()
-    
+    # Get both formatted data (for display) and raw data (for Excel)
+    (
+        emitidos, recibidos, resumen_contable, emitidos_por_empresa, recibidos_por_empresa,
+        emitidos_excel, recibidos_excel, resumen_contable_excel, emitidos_por_empresa_excel, recibidos_por_empresa_excel
+    ) = fetch_data()
     
     # Initialize cookies manager
     cookies = EncryptedCookieManager(prefix="resumen_contable_", password="secure_password_here")
@@ -183,9 +164,28 @@ def show_page():
                 "Seleccionar Empresa", 
                 options=razon_social_options,
                 index=0 if razon_social_options else None,
-                key="display_selector"  # Add unique key
+                key="display_selector"
             )
             
+            # Now that razon_social is defined, we can add the download button
+            with col_download:
+                st.write("")  # Add some space
+                st.write("")  # Add some space to align with title          
+                filtered_emitidos_excel = filter_by_razon_social(emitidos_excel, razon_social)
+                filtered_recibidos_excel = filter_by_razon_social(recibidos_excel, razon_social)
+                filtered_emitidos_por_empresa_excel = filter_by_razon_social(emitidos_por_empresa_excel, razon_social)
+                filtered_recibidos_por_empresa_excel = filter_by_razon_social(recibidos_por_empresa_excel, razon_social)
+                
+                st.download_button(
+                    label="Descargar informe en Excel",
+                    data=to_excel_multiple_sheets(
+                        resumen_contable_excel,
+                        filtered_emitidos_excel,
+                        filtered_recibidos_excel,
+                        filtered_emitidos_por_empresa_excel,
+                        filtered_recibidos_por_empresa_excel
+                    ),
+                    file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx",
             # Now that razon_social is defined, we can add the download button
             with col_download:
                 st.write("")  # Add some space
