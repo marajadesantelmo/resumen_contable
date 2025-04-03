@@ -23,7 +23,6 @@ def show_page():
     emitidos, recibidos, resumen_contable = fetch_data()
        
     st.set_page_config(page_title="Resumen Contable", layout="wide")
-
     st.title("Resumen Contable")
     st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
 
