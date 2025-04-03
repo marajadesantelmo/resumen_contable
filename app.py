@@ -5,9 +5,16 @@ from streamlit_cookies_manager import EncryptedCookieManager
 import io
 from io import BytesIO
 
-# Estilo
-#with open("style.css") as f:
-#    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+# Apply simple custom styling for dataframes - darker background
+st.markdown("""
+<style>
+    .stDataFrame {
+        background-color: #f0f2f6;
+        padding: 10px;
+        border-radius: 5px;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 def format_currency(x):
     """Format number as Argentine peso currency"""
@@ -214,11 +221,13 @@ def show_page():
         with col_title:
             st.title("Resumen Contable - Marzo 2025")
             
-        # Display total summary with standard table styling
-        st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
+        # Display tables with slightly darker background
+        with st.container():
+            st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
         
         st.header("Detalle por Sociedad")
-        st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
+        with st.container():
+            st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
 
         st.divider()
 
@@ -264,18 +273,22 @@ def show_page():
         col1, col2 = st.columns(2)
         with col1:
             st.subheader("Emitidos por Empresa")
-            st.dataframe(filtered_emitidos_por_empresa, use_container_width=True, hide_index=True)
+            with st.container():
+                st.dataframe(filtered_emitidos_por_empresa, use_container_width=True, hide_index=True)
         with col2:
             st.subheader("Recibidos por Empresa")
-            st.dataframe(filtered_recibidos_por_empresa, use_container_width=True, hide_index=True)
+            with st.container():
+                st.dataframe(filtered_recibidos_por_empresa, use_container_width=True, hide_index=True)
         
         col1, col2 = st.columns(2)
         with col1:
             st.subheader("Detalle Comprobantes Emitidos")
-            st.dataframe(filtered_emitidos, use_container_width=True, hide_index=True)
+            with st.container():
+                st.dataframe(filtered_emitidos, use_container_width=True, hide_index=True)
         with col2:
             st.subheader("Detalle Comprobantes Recibidos")
-            st.dataframe(filtered_recibidos, use_container_width=True, hide_index=True)
+            with st.container():
+                st.dataframe(filtered_recibidos, use_container_width=True, hide_index=True)
         
         # Add logout button with standard styling
         if st.button("Cerrar sesión"):
