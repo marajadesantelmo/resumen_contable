@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 
 def fetch_data():
-    emitidos = pd.read_csv('emitidos_unified.csv')
-    recibidos = pd.read_csv('recibidos_unified.csv')
+    emitidos = pd.read_csv('data/emitidos_unified.csv')
+    recibidos = pd.read_csv('data/recibidos_unified.csv')
     return emitidos, recibidos
 
 def show_page(): 
