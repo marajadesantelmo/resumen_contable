@@ -11,7 +11,7 @@ st.markdown("""
     .stDataFrame {
         background-color: #d0d4dc;
         padding: 10px;
-        border-radius: 5px;
+        border-radius: 3px;
     }
 </style>
 """, unsafe_allow_html=True)
