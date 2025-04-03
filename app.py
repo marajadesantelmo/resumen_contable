@@ -42,9 +42,8 @@ def login(username, password):
         return True
     return False
 
-def generate_excel(resumen_contable, filtered_emitidos, filtered_recibidos, filtered_emitidos_por_empresa, filtered_recibidos_por_empresa):
-    # Create a Pandas Excel writer using XlsxWriter as the engine
-    output = io.BytesIO()
+def to_excel_multiple_sheets(resumen_contable, emitidos, recibidos, emitidos_por_empresa, recibidos_por_empresa):
+    output = BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     
     # Convert resumen_contable to numerical values for Excel
@@ -57,14 +56,15 @@ def generate_excel(resumen_contable, filtered_emitidos, filtered_recibidos, filt
     
     # Write each dataframe to a different worksheet
     rc_excel.to_excel(writer, sheet_name='Resumen Contable', index=False)
-    filtered_emitidos_por_empresa.to_excel(writer, sheet_name='Emitidos por Empresa', index=False)
-    filtered_recibidos_por_empresa.to_excel(writer, sheet_name='Recibidos por Empresa', index=False)
-    filtered_emitidos.to_excel(writer, sheet_name='Detalle Emitidos', index=False)
-    filtered_recibidos.to_excel(writer, sheet_name='Detalle Recibidos', index=False)
+    emitidos_por_empresa.to_excel(writer, sheet_name='Emitidos por Empresa', index=False)
+    recibidos_por_empresa.to_excel(writer, sheet_name='Recibidos por Empresa', index=False)
+    emitidos.to_excel(writer, sheet_name='Detalle Emitidos', index=False)
+    recibidos.to_excel(writer, sheet_name='Detalle Recibidos', index=False)
     
     # Close the Pandas Excel writer and output the Excel file
     writer.close()
-    return output.getvalue()
+    processed_data = output.getvalue()
+    return processed_data
 
 def show_page(): 
     emitidos, recibidos, resumen_contable, emitidos_por_empresa, recibidos_por_empresa = fetch_data()
@@ -118,18 +118,17 @@ def show_page():
             filtered_emitidos_por_empresa = filter_by_razon_social(emitidos_por_empresa, razon_social)
             filtered_recibidos_por_empresa = filter_by_razon_social(recibidos_por_empresa, razon_social)
             
-            excel_data = generate_excel(
-                resumen_contable, 
-                filtered_emitidos, 
-                filtered_recibidos, 
-                filtered_emitidos_por_empresa, 
-                filtered_recibidos_por_empresa
-            )
             st.download_button(
                 label="Descargar informe en Excel",
-                data=excel_data,
+                data=to_excel_multiple_sheets(
+                    resumen_contable,
+                    filtered_emitidos,
+                    filtered_recibidos,
+                    filtered_emitidos_por_empresa,
+                    filtered_recibidos_por_empresa
+                ),
                 file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx",
-                mime="application/vnd.ms-excel"
+                mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
             )
         
         # Display the main content
