@@ -5,6 +5,137 @@ from streamlit_cookies_manager import EncryptedCookieManager
 import io
 from io import BytesIO
 
+# Add custom CSS for solarized theme and fancy table formatting
+def apply_custom_css():
+    st.markdown("""
+    <style>
+    /* Solarized theme variables */
+    :root {
+        --base03: #002b36;
+        --base02: #073642;
+        --base01: #586e75;
+        --base00: #657b83;
+        --base0: #839496;
+        --base1: #93a1a1;
+        --base2: #eee8d5;
+        --base3: #fdf6e3;
+        --yellow: #b58900;
+        --orange: #cb4b16;
+        --red: #dc322f;
+        --magenta: #d33682;
+        --violet: #6c71c4;
+        --blue: #268bd2;
+        --cyan: #2aa198;
+        --green: #859900;
+    }
+
+    /* Overall app styling */
+    .stApp {
+        background-color: var(--base3);
+        color: var(--base00);
+    }
+
+    /* Header styling */
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--base01);
+        font-weight: bold;
+    }
+    
+    /* Fancy table styling */
+    div[data-testid="stDataFrame"] table {
+        border-collapse: separate;
+        border-spacing: 0;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    div[data-testid="stDataFrame"] thead tr th {
+        background-color: var(--base02) !important;
+        color: var(--base2) !important;
+        padding: 12px 15px !important;
+        font-weight: 600 !important;
+        text-transform: uppercase !important;
+        letter-spacing: 1px !important;
+        font-size: 0.9em !important;
+        border: none !important;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    div[data-testid="stDataFrame"] tbody tr:nth-child(even) {
+        background-color: var(--base2) !important;
+    }
+
+    div[data-testid="stDataFrame"] tbody tr:nth-child(odd) {
+        background-color: var(--base3) !important;
+    }
+
+    div[data-testid="stDataFrame"] tbody tr:hover {
+        background-color: #dfd9c2 !important;
+    }
+
+    div[data-testid="stDataFrame"] tbody td {
+        padding: 10px 15px !important;
+        border: none !important;
+        border-bottom: 1px solid #e0e0e0 !important;
+    }
+
+    /* Style currency values */
+    div[data-testid="stDataFrame"] td:has(div[style*="text-align: right"]) {
+        font-family: 'Courier New', monospace;
+        font-weight: 500;
+    }
+
+    /* Buttons styling */
+    .stButton button {
+        background-color: var(--blue);
+        color: white;
+        font-weight: bold;
+        border-radius: 6px;
+        border: none;
+        padding: 8px 16px;
+        transition: all 0.3s ease;
+    }
+
+    .stButton button:hover {
+        background-color: var(--cyan);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Select box styling */
+    div[data-baseweb="select"] {
+        border-radius: 6px;
+        border: 1px solid var(--base1);
+    }
+
+    /* Dark mode adjustments */
+    @media (prefers-color-scheme: dark) {
+        .stApp {
+            background-color: var(--base03);
+            color: var(--base0);
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--base1);
+        }
+        
+        div[data-testid="stDataFrame"] tbody tr:nth-child(even) {
+            background-color: var(--base02) !important;
+        }
+        
+        div[data-testid="stDataFrame"] tbody tr:nth-child(odd) {
+            background-color: var(--base03) !important;
+        }
+        
+        div[data-testid="stDataFrame"] tbody tr:hover {
+            background-color: #0a4252 !important;
+        }
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
 def format_currency(x):
     """Format number as Argentine peso currency"""
     return f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
@@ -148,6 +279,9 @@ def to_excel_multiple_sheets(resumen_contable_excel, emitidos_excel, recibidos_e
     return processed_data
 
 def show_page(): 
+    # Apply our custom CSS at the beginning
+    apply_custom_css()
+    
     # Get both formatted data (for display) and raw data (for Excel)
     (
         emitidos, recibidos, resumen_contable, resumen_contable_total, emitidos_por_empresa, recibidos_por_empresa,
@@ -167,20 +301,29 @@ def show_page():
         st.session_state.username = cookies.get("username", "")
     
     if not st.session_state.logged_in:
-        st.title("Resumen Contable - Login")
-        username = st.text_input("Usuario")
-        password = st.text_input("Contraseña", type="password")
-        if st.button("Ingresar"):
-            if login(username, password):
-                st.session_state.logged_in = True
-                st.session_state.username = username
-                cookies["logged_in"] = "True"
-                cookies["username"] = username
-                cookies.save()
-                st.success("¡Bienvenido/a!")
-                st.rerun()
-            else:
-                st.error("Usuario o contraseña incorrectos")
+        st.markdown('<h1 style="text-align: center; margin-bottom: 30px;">Resumen Contable - Login</h1>', unsafe_allow_html=True)
+        
+        # Add a container with some styling for the login form
+        with st.container():
+            col1, col2, col3 = st.columns([1, 2, 1])
+            with col2:
+                st.markdown('<div style="padding: 20px; background-color: #eee8d5; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">', unsafe_allow_html=True)
+                username = st.text_input("Usuario")
+                password = st.text_input("Contraseña", type="password")
+                
+                if st.button("Ingresar", key="login_button"):
+                    if login(username, password):
+                        st.session_state.logged_in = True
+                        st.session_state.username = username
+                        cookies["logged_in"] = "True"
+                        cookies["username"] = username
+                        cookies.save()
+                        st.success("¡Bienvenido/a!")
+                        st.rerun()
+                    else:
+                        st.error("Usuario o contraseña incorrectos")
+                
+                st.markdown('</div>', unsafe_allow_html=True)
     else:
         # Apply user-based filtering
         username = st.session_state.username
@@ -200,18 +343,25 @@ def show_page():
         resumen_contable_excel = filter_restricted_data(resumen_contable_excel, username)
         
         # Main application
-        # Create a row with title
+        # Create a row with title and improve styling
+        st.markdown('<div style="padding: 10px 0; border-bottom: 2px solid #93a1a1; margin-bottom: 20px;">', unsafe_allow_html=True)
         col_title, col_download = st.columns([3, 1])
         with col_title:
-            st.title("Resumen Contable - Marzo 2025")
-            st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
+            st.markdown('<h1 style="margin-bottom: 0;">Resumen Contable - Marzo 2025</h1>', unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
+            
+        # Display total summary with improved table styles
+        st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
         
-        st.write("Detalle por Sociedad")
+        st.markdown('<h2>Detalle por Sociedad</h2>', unsafe_allow_html=True)
         st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
+
+        # Improved section divider
+        st.markdown('<div style="margin: 30px 0; border-top: 1px solid #93a1a1;"></div>', unsafe_allow_html=True)
 
         col1, col2 = st.columns(2)
         with col1:
-            st.title("Comprobantes AFIP")
+            st.markdown('<h2>Comprobantes AFIP</h2>', unsafe_allow_html=True)
             st.write("Información descargada desde el sitio de 'Mis Comprobantes' de la AFIP.")
         with col2:
             razon_social_options = sorted(emitidos['razon_social'].unique().tolist())
@@ -224,7 +374,8 @@ def show_page():
             
             # Now that razon_social is defined, we can add the download button
             with col_download:
-                st.image("data/logo.png")        
+                st.image("data/logo.png")
+                st.markdown('<div style="display: flex; justify-content: center;">', unsafe_allow_html=True)
                 filtered_emitidos_excel = filter_by_razon_social(emitidos_excel, razon_social)
                 filtered_recibidos_excel = filter_by_razon_social(recibidos_excel, razon_social)
                 filtered_emitidos_por_empresa_excel = filter_by_razon_social(emitidos_por_empresa_excel, razon_social)
@@ -240,7 +391,7 @@ def show_page():
                         filtered_recibidos_por_empresa_excel
                     ),
                     file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx")
-            # Now that razon_social is defined, we can add the download button
+                st.markdown('</div>', unsafe_allow_html=True)
            
         # Apply filter if razon_social is selected
         filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
@@ -248,23 +399,25 @@ def show_page():
         filtered_emitidos_por_empresa = filter_by_razon_social(emitidos_por_empresa, razon_social)
         filtered_recibidos_por_empresa = filter_by_razon_social(recibidos_por_empresa, razon_social)
         
+        # Show tables with improved styling
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader("Emitidos por Empresa")
+            st.markdown('<h3 style="color: #268bd2;">Emitidos por Empresa</h3>', unsafe_allow_html=True)
             st.dataframe(filtered_emitidos_por_empresa, use_container_width=True, hide_index=True)
         with col2:
-            st.subheader("Recibidos por Empresa")
+            st.markdown('<h3 style="color: #2aa198;">Recibidos por Empresa</h3>', unsafe_allow_html=True)
             st.dataframe(filtered_recibidos_por_empresa, use_container_width=True, hide_index=True)
         
         col1, col2 = st.columns(2)
         with col1:
-            st.subheader("Detalle Comprobantes Emitidos")
+            st.markdown('<h3 style="color: #268bd2;">Detalle Comprobantes Emitidos</h3>', unsafe_allow_html=True)
             st.dataframe(filtered_emitidos, use_container_width=True, hide_index=True)
         with col2:
-            st.subheader("Detalle Comprobantes Recibidos")
+            st.markdown('<h3 style="color: #2aa198;">Detalle Comprobantes Recibidos</h3>', unsafe_allow_html=True)
             st.dataframe(filtered_recibidos, use_container_width=True, hide_index=True)
         
-        # Add logout button at the end of the body
+        # Add logout button with improved styling
+        st.markdown('<div style="display: flex; justify-content: center; margin-top: 30px;">', unsafe_allow_html=True)
         if st.button("Cerrar sesión"):
             cookies["logged_in"] = "False"
             cookies.pop("username", None)
@@ -272,6 +425,7 @@ def show_page():
             st.session_state.logged_in = False
             st.session_state.username = ""
             st.rerun()
+        st.markdown('</div>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     show_page()
