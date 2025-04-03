@@ -45,7 +45,8 @@ def login(username, password):
 
 def to_excel_multiple_sheets(resumen_contable, emitidos, recibidos, emitidos_por_empresa, recibidos_por_empresa):
     output = BytesIO()
-    writer = pd.ExcelWriter(output, engine='xlsxwriter')
+    # Change the engine to 'openpyxl' instead of 'xlsxwriter'
+    writer = pd.ExcelWriter(output, engine='openpyxl')
     
     # Convert resumen_contable to numerical values for Excel
     rc_excel = resumen_contable.copy()
