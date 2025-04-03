@@ -6,8 +6,8 @@ import io
 from io import BytesIO
 
 # Estilo
-with open("style.css") as f:
-    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+#with open("style.css") as f:
+#    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 def format_currency(x):
     """Format number as Argentine peso currency"""
@@ -152,8 +152,6 @@ def to_excel_multiple_sheets(resumen_contable_excel, emitidos_excel, recibidos_e
     return processed_data
 
 def show_page(): 
-    # Apply our custom CSS at the beginning
-    
     # Get both formatted data (for display) and raw data (for Excel)
     (
         emitidos, recibidos, resumen_contable, resumen_contable_total, emitidos_por_empresa, recibidos_por_empresa,
@@ -173,13 +171,12 @@ def show_page():
         st.session_state.username = cookies.get("username", "")
     
     if not st.session_state.logged_in:
-        st.markdown('<h1 style="text-align: center; margin-bottom: 30px; color: #93a1a1;">Resumen Contable - Login</h1>', unsafe_allow_html=True)
+        st.title("Resumen Contable - Login")
         
-        # Add a container with some styling for the login form
+        # Simple login form
         with st.container():
             col1, col2, col3 = st.columns([1, 2, 1])
             with col2:
-                st.markdown('<div class="login-container" style="padding: 20px; background-color: #073642; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">', unsafe_allow_html=True)
                 username = st.text_input("Usuario")
                 password = st.text_input("Contraseña", type="password")
                 
@@ -194,8 +191,6 @@ def show_page():
                         st.rerun()
                     else:
                         st.error("Usuario o contraseña incorrectos")
-                
-                st.markdown('</div>', unsafe_allow_html=True)
     else:
         # Apply user-based filtering
         username = st.session_state.username
@@ -214,26 +209,22 @@ def show_page():
         recibidos_por_empresa_excel = filter_restricted_data(recibidos_por_empresa_excel, username)
         resumen_contable_excel = filter_restricted_data(resumen_contable_excel, username)
         
-        # Main application
-        # Create a row with title and improve styling
-        st.markdown('<div style="padding: 10px 0; border-bottom: 2px solid #586e75; margin-bottom: 20px;">', unsafe_allow_html=True)
+        # Main application with simplified formatting
         col_title, col_download = st.columns([3, 1])
         with col_title:
-            st.markdown('<h1 style="margin-bottom: 0; color: #93a1a1;">Resumen Contable - Marzo 2025</h1>', unsafe_allow_html=True)
-        st.markdown('</div>', unsafe_allow_html=True)
+            st.title("Resumen Contable - Marzo 2025")
             
-        # Display total summary with improved table styles
+        # Display total summary with standard table styling
         st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
         
-        st.markdown('<h2>Detalle por Sociedad</h2>', unsafe_allow_html=True)
+        st.header("Detalle por Sociedad")
         st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
 
-        # Improved section divider
-        st.markdown('<div style="margin: 30px 0; border-top: 1px solid #586e75;"></div>', unsafe_allow_html=True)
+        st.divider()
 
         col1, col2 = st.columns(2)
         with col1:
-            st.markdown('<h2>Comprobantes AFIP</h2>', unsafe_allow_html=True)
+            st.header("Comprobantes AFIP")
             st.write("Información descargada desde el sitio de 'Mis Comprobantes' de la AFIP.")
         with col2:
             razon_social_options = sorted(emitidos['razon_social'].unique().tolist())
@@ -247,7 +238,6 @@ def show_page():
             # Now that razon_social is defined, we can add the download button
             with col_download:
                 st.image("data/logo.png")
-                st.markdown('<div style="display: flex; justify-content: center;">', unsafe_allow_html=True)
                 filtered_emitidos_excel = filter_by_razon_social(emitidos_excel, razon_social)
                 filtered_recibidos_excel = filter_by_razon_social(recibidos_excel, razon_social)
                 filtered_emitidos_por_empresa_excel = filter_by_razon_social(emitidos_por_empresa_excel, razon_social)
@@ -263,7 +253,6 @@ def show_page():
                         filtered_recibidos_por_empresa_excel
                     ),
                     file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx")
-                st.markdown('</div>', unsafe_allow_html=True)
            
         # Apply filter if razon_social is selected
         filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
@@ -271,25 +260,24 @@ def show_page():
         filtered_emitidos_por_empresa = filter_by_razon_social(emitidos_por_empresa, razon_social)
         filtered_recibidos_por_empresa = filter_by_razon_social(recibidos_por_empresa, razon_social)
         
-        # Show tables with improved styling
+        # Show tables with standard styling
         col1, col2 = st.columns(2)
         with col1:
-            st.markdown('<h3 style="color: #268bd2;">Emitidos por Empresa</h3>', unsafe_allow_html=True)
+            st.subheader("Emitidos por Empresa")
             st.dataframe(filtered_emitidos_por_empresa, use_container_width=True, hide_index=True)
         with col2:
-            st.markdown('<h3 style="color: #2aa198;">Recibidos por Empresa</h3>', unsafe_allow_html=True)
+            st.subheader("Recibidos por Empresa")
             st.dataframe(filtered_recibidos_por_empresa, use_container_width=True, hide_index=True)
         
         col1, col2 = st.columns(2)
         with col1:
-            st.markdown('<h3 style="color: #268bd2;">Detalle Comprobantes Emitidos</h3>', unsafe_allow_html=True)
+            st.subheader("Detalle Comprobantes Emitidos")
             st.dataframe(filtered_emitidos, use_container_width=True, hide_index=True)
         with col2:
-            st.markdown('<h3 style="color: #2aa198;">Detalle Comprobantes Recibidos</h3>', unsafe_allow_html=True)
+            st.subheader("Detalle Comprobantes Recibidos")
             st.dataframe(filtered_recibidos, use_container_width=True, hide_index=True)
         
-        # Add logout button with improved styling
-        st.markdown('<div style="display: flex; justify-content: center; margin-top: 30px;">', unsafe_allow_html=True)
+        # Add logout button with standard styling
         if st.button("Cerrar sesión"):
             cookies["logged_in"] = "False"
             cookies.pop("username", None)
@@ -297,7 +285,6 @@ def show_page():
             st.session_state.logged_in = False
             st.session_state.username = ""
             st.rerun()
-        st.markdown('</div>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     show_page()
