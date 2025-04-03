@@ -5,10 +5,11 @@ def fetch_data():
     emitidos = pd.read_csv('data/emitidos_unified.csv')
     emitidos['Neto'] = emitidos['Imp. Neto Gravado'] + emitidos['Imp. Neto No Gravado'] + emitidos['Imp. Op. Exentas'] 
     emitidos = emitidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Receptor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
-
+    emitidos['Denominación Receptor'] = emitidos['Denominación Receptor'].str.strip().str.title()
     recibidos = pd.read_csv('data/recibidos_unified.csv')
     recibidos['Neto'] = recibidos['Imp. Neto Gravado'] + recibidos['Imp. Neto No Gravado'] + recibidos['Imp. Op. Exentas']
-    recibidos = recibidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Receptor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
+    recibidos = recibidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Emisor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
+    recibidos['Denominación Emisor'] = recibidos['Denominación Emisor'].str.strip().str.title()
 
     resumen_contable = pd.read_csv('data/resumen_contable.csv')
 
