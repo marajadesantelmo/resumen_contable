@@ -19,7 +19,7 @@ def fetch_data():
     # Clean the 'Sociedad' column by removing specified substrings
     sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
     for replacement in sociedad_replacements:
-        emitidos['Sociedad'] = emitidos['Sociedad'].str.replace(replacement, '', regex=False).str.strip()
+        emitidos['razon_social'] = emitidos['razon_social'].str.replace(replacement, '', regex=False).str.strip()
 
 
 
@@ -50,10 +50,10 @@ def fetch_data():
     recibidos = recibidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Emisor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
     recibidos['Denominación Emisor'] = recibidos['Denominación Emisor'].str.strip().str.title()
     
-    # Clean the 'Sociedad' column by removing specified substrings
+    # Clean the 'razon_social' column by removing specified substrings
     sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
     for replacement in sociedad_replacements:
-        recibidos['Sociedad'] = recibidos['Sociedad'].str.replace(replacement, '', regex=False).str.strip()
+        recibidos['razon_social'] = recibidos['razon_social'].str.replace(replacement, '', regex=False).str.strip()
 
     # Store raw values for Excel export but don't show in UI
     recibidos_excel = recibidos.copy()
