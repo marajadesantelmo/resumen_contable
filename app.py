@@ -204,10 +204,10 @@ def show_page():
         col_title, col_download = st.columns([3, 1])
         with col_title:
             st.title("Resumen Contable - Marzo 2025")
-            st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
+            st.table(resumen_contable_total)  # Use st.table() for static display
         
         st.write("Detalle por Sociedad")
-        st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
+        st.table(resumen_contable)  # Use st.table() for static display
 
         col1, col2 = st.columns(2)
         with col1:
@@ -251,18 +251,18 @@ def show_page():
         col1, col2 = st.columns(2)
         with col1:
             st.subheader("Emitidos por Empresa")
-            st.dataframe(filtered_emitidos_por_empresa, use_container_width=True, hide_index=True)
+            st.table(filtered_emitidos_por_empresa)  # Use st.table() for static display
         with col2:
             st.subheader("Recibidos por Empresa")
-            st.dataframe(filtered_recibidos_por_empresa, use_container_width=True, hide_index=True)
+            st.table(filtered_recibidos_por_empresa)  # Use st.table() for static display
         
         col1, col2 = st.columns(2)
         with col1:
             st.subheader("Detalle Comprobantes Emitidos")
-            st.dataframe(filtered_emitidos, use_container_width=True, hide_index=True)
+            st.table(filtered_emitidos)  # Use st.table() for static display
         with col2:
             st.subheader("Detalle Comprobantes Recibidos")
-            st.dataframe(filtered_recibidos, use_container_width=True, hide_index=True)
+            st.table(filtered_recibidos)  # Use st.table() for static display
         
         # Add logout button at the end of the body
         if st.button("Cerrar sesión"):
