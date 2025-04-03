@@ -20,20 +20,13 @@ def show_page():
     col1, col2 = st.columns(2)
     with col1:
         st.title("Comprobantes AFIP")
-    
-    st.write("Información descargada desde el sitio de 'Mis Comprobantes' de la AFIP.")
-    
-    # Get unique razon_social values from emitidos (assuming this is where the field exists)
-    razon_social_options = []
-    if 'razon_social' in emitidos.columns:
+        st.write("Información descargada desde el sitio de 'Mis Comprobantes' de la AFIP.")
+    with col2:
         razon_social_options = sorted(emitidos['razon_social'].unique().tolist())
-    
-    # Filter selection moved from sidebar to main body
-    razon_social = st.selectbox(
-        "Seleccionar Empresa", 
-        options=razon_social_options,
-        index=0 if razon_social_options else None
-    )
+        razon_social = st.selectbox(
+            "Seleccionar Empresa", 
+            options=razon_social_options,
+            index=0 if razon_social_options else None)
 
     # Apply filter if razon_social is selected
     if razon_social:
