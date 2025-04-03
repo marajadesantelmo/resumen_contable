@@ -187,27 +187,7 @@ def show_page():
                     ),
                     file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx")
             # Now that razon_social is defined, we can add the download button
-            with col_download:
-                st.write("")  # Add some space
-                st.write("")  # Add some space to align with title          
-                filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
-                filtered_recibidos = filter_by_razon_social(recibidos, razon_social)
-                filtered_emitidos_por_empresa = filter_by_razon_social(emitidos_por_empresa, razon_social)
-                filtered_recibidos_por_empresa = filter_by_razon_social(recibidos_por_empresa, razon_social)
-                
-                st.download_button(
-                    label="Descargar informe en Excel",
-                    data=to_excel_multiple_sheets(
-                        resumen_contable,
-                        filtered_emitidos,
-                        filtered_recibidos,
-                        filtered_emitidos_por_empresa,
-                        filtered_recibidos_por_empresa
-                    ),
-                    file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx",
-                    mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-                )
-
+           
         # Apply filter if razon_social is selected
         filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
         filtered_recibidos = filter_by_razon_social(recibidos, razon_social)
