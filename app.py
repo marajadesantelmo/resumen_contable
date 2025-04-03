@@ -5,11 +5,11 @@ from streamlit_cookies_manager import EncryptedCookieManager
 import io
 from io import BytesIO
 
-# Apply simple custom styling for dataframes - darker background
+# Apply custom styling for dataframes - darker background
 st.markdown("""
 <style>
     .stDataFrame {
-        background-color: #f0f2f6;
+        background-color: #d0d4dc;
         padding: 10px;
         border-radius: 5px;
     }
