@@ -153,7 +153,6 @@ def to_excel_multiple_sheets(resumen_contable_excel, emitidos_excel, recibidos_e
 
 def show_page(): 
     # Apply our custom CSS at the beginning
-    apply_custom_css()
     
     # Get both formatted data (for display) and raw data (for Excel)
     (
