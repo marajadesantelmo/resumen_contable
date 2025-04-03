@@ -3,7 +3,13 @@ import pandas as pd
 
 def fetch_data():
     emitidos = pd.read_csv('data/emitidos_unified.csv')
+    emitidos['Neto'] = emitidos['Imp. Neto Gravado'] + emitidos['Imp. Neto No Gravado'] + emitidos['Imp. Op. Exentas'] 
+    emitidos = emitidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Receptor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
+
     recibidos = pd.read_csv('data/recibidos_unified.csv')
+    recibidos['Neto'] = recibidos['Imp. Neto Gravado'] + recibidos['Imp. Neto No Gravado'] + recibidos['Imp. Op. Exentas']
+    recibidos = recibidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Receptor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
+
     resumen_contable = pd.read_csv('data/resumen_contable.csv')
 
     for column in resumen_contable.columns:
@@ -11,7 +17,6 @@ def fetch_data():
             resumen_contable[column] = resumen_contable[column].apply(
                 lambda x: f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
             )
-
     return emitidos, recibidos, resumen_contable
 
 def filter_by_razon_social(df, razon_social):
