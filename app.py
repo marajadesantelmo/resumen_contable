@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 from streamlit_cookies_manager import EncryptedCookieManager
+import io
+from io import BytesIO
 
 def fetch_data():
     emitidos = pd.read_csv('data/emitidos_unified.csv')
@@ -32,13 +34,37 @@ def filter_by_razon_social(df, razon_social):
     return df
 
 # Login function
-USERNAMES = ["Admin", "Usuario"]
-PASSWORDS = ["admin123", "user123"]
+USERNAMES = ["Manuel", "FU"]
+PASSWORDS = ["1234", "urtubey"]
 
 def login(username, password):
     if username in USERNAMES and password == PASSWORDS[USERNAMES.index(username)]:
         return True
     return False
+
+def generate_excel(resumen_contable, filtered_emitidos, filtered_recibidos, filtered_emitidos_por_empresa, filtered_recibidos_por_empresa):
+    # Create a Pandas Excel writer using XlsxWriter as the engine
+    output = io.BytesIO()
+    writer = pd.ExcelWriter(output, engine='xlsxwriter')
+    
+    # Convert resumen_contable to numerical values for Excel
+    rc_excel = resumen_contable.copy()
+    for col in rc_excel.columns:
+        if col != 'Sociedad':
+            # This removes currency formatting and converts to float
+            rc_excel[col] = rc_excel[col].str.replace('$', '').str.replace('.', '').str.replace(',', '.').str.replace('(', '-').str.replace(')', '')
+            rc_excel[col] = pd.to_numeric(rc_excel[col], errors='coerce')
+    
+    # Write each dataframe to a different worksheet
+    rc_excel.to_excel(writer, sheet_name='Resumen Contable', index=False)
+    filtered_emitidos_por_empresa.to_excel(writer, sheet_name='Emitidos por Empresa', index=False)
+    filtered_recibidos_por_empresa.to_excel(writer, sheet_name='Recibidos por Empresa', index=False)
+    filtered_emitidos.to_excel(writer, sheet_name='Detalle Emitidos', index=False)
+    filtered_recibidos.to_excel(writer, sheet_name='Detalle Recibidos', index=False)
+    
+    # Close the Pandas Excel writer and output the Excel file
+    writer.close()
+    return output.getvalue()
 
 def show_page(): 
     emitidos, recibidos, resumen_contable, emitidos_por_empresa, recibidos_por_empresa = fetch_data()
@@ -74,7 +100,37 @@ def show_page():
                 st.error("Usuario o contraseña incorrectos")
     else:
         # Main application
-        st.title("Resumen Contable")
+        # Create a row with title and download button
+        col_title, col_download = st.columns([3, 1])
+        with col_title:
+            st.title("Resumen Contable")
+        with col_download:
+            st.write("")  # Add some space
+            st.write("")  # Add some space to align with title
+            razon_social_options = sorted(emitidos['razon_social'].unique().tolist())
+            razon_social = st.selectbox(
+                "Seleccionar Empresa", 
+                options=razon_social_options,
+                index=0 if razon_social_options else None)
+            
+            filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
+            filtered_recibidos = filter_by_razon_social(recibidos, razon_social)
+            filtered_emitidos_por_empresa = filter_by_razon_social(emitidos_por_empresa, razon_social)
+            filtered_recibidos_por_empresa = filter_by_razon_social(recibidos_por_empresa, razon_social)
+            
+            excel_data = generate_excel(
+                resumen_contable, 
+                filtered_emitidos, 
+                filtered_recibidos, 
+                filtered_emitidos_por_empresa, 
+                filtered_recibidos_por_empresa
+            )
+            st.download_button(
+                label="Descargar informe en Excel",
+                data=excel_data,
+                file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx",
+                mime="application/vnd.ms-excel"
+            )
         
         # Display the main content
         st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
