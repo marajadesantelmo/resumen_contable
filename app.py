@@ -21,8 +21,6 @@ def fetch_data():
     for replacement in sociedad_replacements:
         emitidos['razon_social'] = emitidos['razon_social'].str.replace(replacement, '', regex=False).str.strip()
 
-
-
     # Store raw values for Excel export but don't show in UI
     emitidos_excel = emitidos.copy()
     
@@ -97,6 +95,21 @@ def filter_by_razon_social(df, razon_social):
         return df[df['razon_social'] == razon_social].drop('razon_social', axis=1)
     return df
 
+def filter_restricted_data(df, username):
+    """Filter out restricted data based on username"""
+    if username != "FU":
+        return df
+    
+    # Companies to filter out for FU
+    restricted_companies = ["BA Comex", "De la Arena Coll Manuel", "Winehaus", "Nerococina"]
+    
+    if 'razon_social' in df.columns:
+        return df[~df['razon_social'].isin(restricted_companies)]
+    elif 'Sociedad' in df.columns:
+        return df[~df['Sociedad'].isin(restricted_companies)]
+    
+    return df
+
 # Login function
 USERNAMES = ["Manuel", "FU"]
 PASSWORDS = ["1234", "urtubey"]
@@ -157,6 +170,23 @@ def show_page():
             else:
                 st.error("Usuario o contraseña incorrectos")
     else:
+        # Apply user-based filtering
+        username = st.session_state.username
+        
+        # Filter data based on user permissions
+        emitidos = filter_restricted_data(emitidos, username)
+        recibidos = filter_restricted_data(recibidos, username)
+        emitidos_por_empresa = filter_restricted_data(emitidos_por_empresa, username)
+        recibidos_por_empresa = filter_restricted_data(recibidos_por_empresa, username)
+        resumen_contable = filter_restricted_data(resumen_contable, username)
+        
+        # Also filter the Excel data
+        emitidos_excel = filter_restricted_data(emitidos_excel, username)
+        recibidos_excel = filter_restricted_data(recibidos_excel, username)
+        emitidos_por_empresa_excel = filter_restricted_data(emitidos_por_empresa_excel, username)
+        recibidos_por_empresa_excel = filter_restricted_data(recibidos_por_empresa_excel, username)
+        resumen_contable_excel = filter_restricted_data(resumen_contable_excel, username)
+        
         # Main application
         # Create a row with title
         col_title, col_download = st.columns([3, 1])
