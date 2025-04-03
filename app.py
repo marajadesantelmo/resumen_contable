@@ -5,6 +5,13 @@ def fetch_data():
     emitidos = pd.read_csv('data/emitidos_unified.csv')
     recibidos = pd.read_csv('data/recibidos_unified.csv')
     resumen_contable = pd.read_csv('data/resumen_contable.csv')
+
+    for column in resumen_contable.columns:
+        if column != 'Sociedad':
+            resumen_contable[column] = resumen_contable[column].apply(
+                lambda x: f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
+            )
+
     return emitidos, recibidos, resumen_contable
 
 def filter_by_razon_social(df, razon_social):
