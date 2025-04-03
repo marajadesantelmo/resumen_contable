@@ -199,7 +199,7 @@ def show_page():
         with col_title:
             st.title("Resumen Contable")
         
-        st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True, height=600)
+        st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
 
         # Display the main content
         st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
