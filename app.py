@@ -35,6 +35,9 @@ def fetch_data():
         'Imp. Total': 'sum'
     }).reset_index()
     
+    # Sort by Imp. Total in descending order
+    emitidos_por_empresa = emitidos_por_empresa.sort_values('Imp. Total', ascending=False)
+    
     # Create a copy for Excel export
     emitidos_por_empresa_excel = emitidos_por_empresa.copy()
     
@@ -66,6 +69,9 @@ def fetch_data():
         'IVA': 'sum', 
         'Imp. Total': 'sum'
     }).reset_index()
+    
+    # Sort by Imp. Total in descending order
+    recibidos_por_empresa = recibidos_por_empresa.sort_values('Imp. Total', ascending=False)
     
     # Create a copy for Excel export
     recibidos_por_empresa_excel = recibidos_por_empresa.copy()
