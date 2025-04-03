@@ -200,7 +200,7 @@ def show_page():
             st.title("Resumen Contable")
             st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
         
-        # Display the main content
+        st.write("Detalle por Sociedad")
         st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
 
         col1, col2 = st.columns(2)
