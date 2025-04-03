@@ -84,9 +84,15 @@ def fetch_data():
     for column in resumen_contable.columns:
         if column != 'Sociedad':
             resumen_contable[column] = resumen_contable[column].apply(format_currency)
+
+    resumen_contable_total = pd.read_csv('data/resumen_contable_total.csv')
+
+    for column in resumen_contable_total.columns:
+        if column != 'Sociedad':
+            resumen_contable_total[column] = resumen_contable_total[column].apply(format_currency)
             
     return (
-        emitidos, recibidos, resumen_contable, emitidos_por_empresa, recibidos_por_empresa,
+        emitidos, recibidos, resumen_contable, resumen_contable_total, emitidos_por_empresa, recibidos_por_empresa,
         emitidos_excel, recibidos_excel, resumen_contable_excel, emitidos_por_empresa_excel, recibidos_por_empresa_excel
     )
 
@@ -138,7 +144,7 @@ def to_excel_multiple_sheets(resumen_contable_excel, emitidos_excel, recibidos_e
 def show_page(): 
     # Get both formatted data (for display) and raw data (for Excel)
     (
-        emitidos, recibidos, resumen_contable, emitidos_por_empresa, recibidos_por_empresa,
+        emitidos, recibidos, resumen_contable, resumen_contable_total, emitidos_por_empresa, recibidos_por_empresa,
         emitidos_excel, recibidos_excel, resumen_contable_excel, emitidos_por_empresa_excel, recibidos_por_empresa_excel
     ) = fetch_data()
     
@@ -193,6 +199,8 @@ def show_page():
         with col_title:
             st.title("Resumen Contable")
         
+        st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True, height=600)
+
         # Display the main content
         st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
 
