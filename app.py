@@ -111,7 +111,9 @@ def show_page():
             razon_social = st.selectbox(
                 "Seleccionar Empresa", 
                 options=razon_social_options,
-                index=0 if razon_social_options else None)
+                index=0 if razon_social_options else None,
+                key="download_selector"  # Add unique key
+            )
             
             filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
             filtered_recibidos = filter_by_razon_social(recibidos, razon_social)
@@ -143,7 +145,9 @@ def show_page():
             razon_social = st.selectbox(
                 "Seleccionar Empresa", 
                 options=razon_social_options,
-                index=0 if razon_social_options else None)
+                index=0 if razon_social_options else None,
+                key="display_selector"  # Add unique key
+            )
 
         # Apply filter if razon_social is selected
         filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
