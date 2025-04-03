@@ -1,4 +1,5 @@
 import streamlit as st
+st.set_page_config(page_title="Resumen Contable", layout="wide")
 import pandas as pd
 from streamlit_cookies_manager import EncryptedCookieManager
 import io
@@ -68,8 +69,7 @@ def to_excel_multiple_sheets(resumen_contable, emitidos, recibidos, emitidos_por
 
 def show_page(): 
     emitidos, recibidos, resumen_contable, emitidos_por_empresa, recibidos_por_empresa = fetch_data()
-       
-    st.set_page_config(page_title="Resumen Contable", layout="wide")
+    
     
     # Initialize cookies manager
     cookies = EncryptedCookieManager(prefix="resumen_contable_", password="secure_password_here")
