@@ -4,161 +4,14 @@ import pandas as pd
 from streamlit_cookies_manager import EncryptedCookieManager
 import io
 from io import BytesIO
+import os
 
-# Add custom CSS for solarized theme and fancy table formatting
+# Apply custom CSS from external file
 def apply_custom_css():
-    st.markdown("""
-    <style>
-    /* Solarized theme variables */
-    :root {
-        --base03: #002b36;
-        --base02: #073642;
-        --base01: #586e75;
-        --base00: #657b83;
-        --base0: #839496;
-        --base1: #93a1a1;
-        --base2: #eee8d5;
-        --base3: #fdf6e3;
-        --yellow: #b58900;
-        --orange: #cb4b16;
-        --red: #dc322f;
-        --magenta: #d33682;
-        --violet: #6c71c4;
-        --blue: #268bd2;
-        --cyan: #2aa198;
-        --green: #859900;
-    }
-
-    /* Force dark mode for the entire app, regardless of system settings */
-    .stApp {
-        background-color: var(--base03) !important;
-        color: var(--base0) !important;
-    }
-
-    /* Header styling */
-    h1, h2, h3, h4, h5, h6 {
-        color: var(--base1) !important;
-        font-weight: bold;
-    }
-    
-    /* Force dark mode on all text elements */
-    p, span, div {
-        color: var(--base0) !important;
-    }
-    
-    /* Fancy table styling - dark mode always */
-    div[data-testid="stDataFrame"] table {
-        border-collapse: separate;
-        border-spacing: 0;
-        border-radius: 8px;
-        overflow: hidden;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    }
-
-    div[data-testid="stDataFrame"] thead tr th {
-        background-color: var(--base02) !important;
-        color: var(--base2) !important;
-        padding: 12px 15px !important;
-        font-weight: 600 !important;
-        text-transform: uppercase !important;
-        letter-spacing: 1px !important;
-        font-size: 0.9em !important;
-        border: none !important;
-        position: sticky;
-        top: 0;
-        z-index: 100;
-    }
-
-    /* Dark table rows */
-    div[data-testid="stDataFrame"] tbody tr:nth-child(even) {
-        background-color: var(--base02) !important;
-    }
-    
-    div[data-testid="stDataFrame"] tbody tr:nth-child(odd) {
-        background-color: var(--base03) !important;
-    }
-    
-    div[data-testid="stDataFrame"] tbody tr:hover {
-        background-color: #0a4252 !important;
-    }
-
-    div[data-testid="stDataFrame"] tbody td {
-        padding: 10px 15px !important;
-        border: none !important;
-        border-bottom: 1px solid #15414b !important;
-        color: var(--base1) !important;
-    }
-
-    /* Style currency values */
-    div[data-testid="stDataFrame"] td:has(div[style*="text-align: right"]) {
-        font-family: 'Courier New', monospace;
-        font-weight: 500;
-        color: var(--cyan) !important;
-    }
-
-    /* Buttons styling */
-    .stButton button {
-        background-color: var(--blue);
-        color: white !important;
-        font-weight: bold;
-        border-radius: 6px;
-        border: none;
-        padding: 8px 16px;
-        transition: all 0.3s ease;
-    }
-
-    .stButton button:hover {
-        background-color: var(--cyan);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    }
-
-    /* Select box styling */
-    div[data-baseweb="select"] {
-        border-radius: 6px;
-        border: 1px solid var(--base01);
-        background-color: var(--base02) !important;
-    }
-    
-    /* Input fields */
-    .stTextInput input, .stTextInput textarea, .stNumberInput input {
-        background-color: var(--base02) !important;
-        color: var(--base1) !important;
-        border: 1px solid var(--base01) !important;
-    }
-    
-    /* Login container */
-    .login-container {
-        background-color: var(--base02) !important;
-        border-radius: 10px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    }
-    
-    /* Streamlit widgets */
-    .stSelectbox, .stMultiselect {
-        background-color: var(--base02) !important;
-        color: var(--base1) !important;
-    }
-    
-    /* Sidebar */
-    section[data-testid="stSidebar"] {
-        background-color: var(--base03) !important;
-        border-right: 1px solid var(--base02);
-    }
-    
-    /* Success/info messages */
-    div[data-baseweb="notification"] {
-        background-color: var(--base02) !important;
-    }
-    
-    /* Links */
-    a {
-        color: var(--blue) !important;
-    }
-    a:hover {
-        color: var(--cyan) !important;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+    css_file_path = os.path.join(os.path.dirname(__file__), "style.css")
+    with open(css_file_path, "r") as f:
+        css = f.read()
+    st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
 def format_currency(x):
     """Format number as Argentine peso currency"""
@@ -367,13 +220,28 @@ def show_page():
         resumen_contable_excel = filter_restricted_data(resumen_contable_excel, username)
         
         # Main application
-        # Create a row with title and improve styling
-        st.markdown('<div style="padding: 10px 0; border-bottom: 2px solid #586e75; margin-bottom: 20px;">', unsafe_allow_html=True)
-        col_title, col_download = st.columns([3, 1])
-        with col_title:
-            st.markdown('<h1 style="margin-bottom: 0; color: #93a1a1;">Resumen Contable - Marzo 2025</h1>', unsafe_allow_html=True)
+        # Create a custom header with logo, title and download button in a row
+        st.markdown('<div class="header-container">', unsafe_allow_html=True)
+        
+        # Logo on the left
+        st.markdown('<div class="logo-container">', unsafe_allow_html=True)
+        st.image("data/logo.png", width=100)
         st.markdown('</div>', unsafe_allow_html=True)
-            
+        
+        # Title in the middle
+        st.markdown('<div class="title-container">', unsafe_allow_html=True)
+        st.markdown('<h1 style="margin-bottom: 0; color: #93a1a1;">Resumen Contable - Marzo 2025</h1>', unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
+        
+        # Download button on the right (we'll populate it after we get the razon_social)
+        st.markdown('<div class="download-container" id="download-placeholder">', unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
+        
+        st.markdown('</div>', unsafe_allow_html=True)
+        
+        # Add a divider
+        st.markdown('<div style="border-bottom: 2px solid #586e75; margin-bottom: 20px;"></div>', unsafe_allow_html=True)
+        
         # Display total summary with improved table styles
         st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
         
@@ -396,27 +264,26 @@ def show_page():
                 key="display_selector"
             )
             
-            # Now that razon_social is defined, we can add the download button
-            with col_download:
-                st.image("data/logo.png")
-                st.markdown('<div style="display: flex; justify-content: center;">', unsafe_allow_html=True)
-                filtered_emitidos_excel = filter_by_razon_social(emitidos_excel, razon_social)
-                filtered_recibidos_excel = filter_by_razon_social(recibidos_excel, razon_social)
-                filtered_emitidos_por_empresa_excel = filter_by_razon_social(emitidos_por_empresa_excel, razon_social)
-                filtered_recibidos_por_empresa_excel = filter_by_razon_social(recibidos_por_empresa_excel, razon_social)
-                
-                st.download_button(
-                    label="Descargar informe en Excel",
-                    data=to_excel_multiple_sheets(
-                        resumen_contable_excel,
-                        filtered_emitidos_excel,
-                        filtered_recibidos_excel,
-                        filtered_emitidos_por_empresa_excel,
-                        filtered_recibidos_por_empresa_excel
-                    ),
-                    file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx")
-                st.markdown('</div>', unsafe_allow_html=True)
-           
+            # Now that we have razon_social, create the download button
+            filtered_emitidos_excel = filter_by_razon_social(emitidos_excel, razon_social)
+            filtered_recibidos_excel = filter_by_razon_social(recibidos_excel, razon_social)
+            filtered_emitidos_por_empresa_excel = filter_by_razon_social(emitidos_por_empresa_excel, razon_social)
+            filtered_recibidos_por_empresa_excel = filter_by_razon_social(recibidos_por_empresa_excel, razon_social)
+            
+            # Create the download button to be displayed in the header
+            download_button = st.download_button(
+                label="Descargar informe en Excel",
+                data=to_excel_multiple_sheets(
+                    resumen_contable_excel,
+                    filtered_emitidos_excel,
+                    filtered_recibidos_excel,
+                    filtered_emitidos_por_empresa_excel,
+                    filtered_recibidos_por_empresa_excel
+                ),
+                file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx",
+                key="header_download_button"
+            )
+            
         # Apply filter if razon_social is selected
         filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
         filtered_recibidos = filter_by_razon_social(recibidos, razon_social)

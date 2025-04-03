@@ -1,0 +1,170 @@
+/* Solarized theme variables */
+:root {
+    --base03: #002b36;
+    --base02: #073642;
+    --base01: #586e75;
+    --base00: #657b83;
+    --base0: #839496;
+    --base1: #93a1a1;
+    --base2: #eee8d5;
+    --base3: #fdf6e3;
+    --yellow: #b58900;
+    --orange: #cb4b16;
+    --red: #dc322f;
+    --magenta: #d33682;
+    --violet: #6c71c4;
+    --blue: #268bd2;
+    --cyan: #2aa198;
+    --green: #859900;
+}
+
+/* Force dark mode for the entire app, regardless of system settings */
+.stApp {
+    background-color: var(--base03) !important;
+    color: var(--base0) !important;
+}
+
+/* Header styling */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--base1) !important;
+    font-weight: bold;
+}
+
+/* Force dark mode on all text elements */
+p, span, div {
+    color: var(--base0) !important;
+}
+
+/* Fancy table styling - dark mode always */
+div[data-testid="stDataFrame"] table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+div[data-testid="stDataFrame"] thead tr th {
+    background-color: var(--base02) !important;
+    color: var(--base2) !important;
+    padding: 12px 15px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    font-size: 0.9em !important;
+    border: none !important;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Dark table rows */
+div[data-testid="stDataFrame"] tbody tr:nth-child(even) {
+    background-color: var(--base02) !important;
+}
+
+div[data-testid="stDataFrame"] tbody tr:nth-child(odd) {
+    background-color: var(--base03) !important;
+}
+
+div[data-testid="stDataFrame"] tbody tr:hover {
+    background-color: #0a4252 !important;
+}
+
+div[data-testid="stDataFrame"] tbody td {
+    padding: 10px 15px !important;
+    border: none !important;
+    border-bottom: 1px solid #15414b !important;
+    color: var(--base1) !important;
+}
+
+/* Style currency values */
+div[data-testid="stDataFrame"] td:has(div[style*="text-align: right"]) {
+    font-family: 'Courier New', monospace;
+    font-weight: 500;
+    color: var(--cyan) !important;
+}
+
+/* Buttons styling */
+.stButton button {
+    background-color: var(--blue);
+    color: white !important;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+.stButton button:hover {
+    background-color: var(--cyan);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Select box styling */
+div[data-baseweb="select"] {
+    border-radius: 6px;
+    border: 1px solid var(--base01);
+    background-color: var(--base02) !important;
+}
+
+/* Input fields */
+.stTextInput input, .stTextInput textarea, .stNumberInput input {
+    background-color: var(--base02) !important;
+    color: var(--base1) !important;
+    border: 1px solid var(--base01) !important;
+}
+
+/* Login container */
+.login-container {
+    background-color: var(--base02) !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Streamlit widgets */
+.stSelectbox, .stMultiselect {
+    background-color: var(--base02) !important;
+    color: var(--base1) !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: var(--base03) !important;
+    border-right: 1px solid var(--base02);
+}
+
+/* Success/info messages */
+div[data-baseweb="notification"] {
+    background-color: var(--base02) !important;
+}
+
+/* Links */
+a {
+    color: var(--blue) !important;
+}
+a:hover {
+    color: var(--cyan) !important;
+}
+
+/* Custom header layout */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    margin-right: 20px;
+}
+
+.title-container {
+    flex-grow: 1;
+}
+
+.download-container {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
