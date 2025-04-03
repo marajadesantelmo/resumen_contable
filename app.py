@@ -42,7 +42,7 @@ def show_page():
         st.warning("No se encontraron empresas para filtrar.")
 
 if __name__ == "__main__":
-    st.set_page_config(page_title="Emitidos vs Recibidos", layout="wide")
-    st.title("Emitidos vs Recibidos")
-    st.write("Comparativa de datos emitidos y recibidos")
+    st.set_page_config(page_title="Comprobantes AFIP", layout="wide")
+    st.title("Comprobantes AFIP")
+    st.write("Información descargada desde el sitio de 'Mis Comprobantes' de la AFIP.")
     show_page()
