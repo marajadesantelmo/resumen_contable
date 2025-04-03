@@ -203,7 +203,7 @@ def show_page():
         # Create a row with title
         col_title, col_download = st.columns([3, 1])
         with col_title:
-            st.title("Resumen Contable")
+            st.title("Resumen Contable - Marzo 2025")
             st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
         
         st.write("Detalle por Sociedad")
