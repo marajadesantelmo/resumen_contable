@@ -5,28 +5,71 @@ from streamlit_cookies_manager import EncryptedCookieManager
 import io
 from io import BytesIO
 
+def format_currency(x):
+    """Format number as Argentine peso currency"""
+    return f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
+
 def fetch_data():
     emitidos = pd.read_csv('data/emitidos_unified.csv')
     emitidos['Neto'] = emitidos['Imp. Neto Gravado'] + emitidos['Imp. Neto No Gravado'] + emitidos['Imp. Op. Exentas'] 
     emitidos = emitidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Receptor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
     emitidos['Denominación Receptor'] = emitidos['Denominación Receptor'].str.strip().str.title()
+    
+    # Format currency columns in emitidos
+    for column in ['Neto', 'IVA', 'Imp. Total']:
+        emitidos[column + '_raw'] = emitidos[column]  # Store raw values for calculations
+        emitidos[column] = emitidos[column].apply(format_currency)
 
-    emitidos_por_empresa = emitidos.groupby(['razon_social', 'Denominación Receptor']).agg({'Neto': 'sum', 'IVA': 'sum', 'Imp. Total': 'sum'}).reset_index()
+    emitidos_por_empresa = emitidos.groupby(['razon_social', 'Denominación Receptor']).agg({
+        'Neto_raw': 'sum', 
+        'IVA_raw': 'sum', 
+        'Imp. Total_raw': 'sum'
+    }).reset_index()
+    
+    # Rename columns back to original names and format
+    emitidos_por_empresa.rename(columns={
+        'Neto_raw': 'Neto',
+        'IVA_raw': 'IVA',
+        'Imp. Total_raw': 'Imp. Total'
+    }, inplace=True)
+    
+    # Format currency columns in emitidos_por_empresa
+    for column in ['Neto', 'IVA', 'Imp. Total']:
+        emitidos_por_empresa[column] = emitidos_por_empresa[column].apply(format_currency)
 
     recibidos = pd.read_csv('data/recibidos_unified.csv')
     recibidos['Neto'] = recibidos['Imp. Neto Gravado'] + recibidos['Imp. Neto No Gravado'] + recibidos['Imp. Op. Exentas']
     recibidos = recibidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Emisor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
     recibidos['Denominación Emisor'] = recibidos['Denominación Emisor'].str.strip().str.title()
+    
+    # Format currency columns in recibidos
+    for column in ['Neto', 'IVA', 'Imp. Total']:
+        recibidos[column + '_raw'] = recibidos[column]  # Store raw values for calculations
+        recibidos[column] = recibidos[column].apply(format_currency)
 
-    recibidos_por_empresa = recibidos.groupby(['razon_social', 'Denominación Emisor']).agg({'Neto': 'sum', 'IVA': 'sum', 'Imp. Total': 'sum'}).reset_index()
+    recibidos_por_empresa = recibidos.groupby(['razon_social', 'Denominación Emisor']).agg({
+        'Neto_raw': 'sum', 
+        'IVA_raw': 'sum', 
+        'Imp. Total_raw': 'sum'
+    }).reset_index()
+    
+    # Rename columns back to original names and format
+    recibidos_por_empresa.rename(columns={
+        'Neto_raw': 'Neto',
+        'IVA_raw': 'IVA',
+        'Imp. Total_raw': 'Imp. Total'
+    }, inplace=True)
+    
+    # Format currency columns in recibidos_por_empresa
+    for column in ['Neto', 'IVA', 'Imp. Total']:
+        recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
 
     resumen_contable = pd.read_csv('data/resumen_contable.csv')
 
     for column in resumen_contable.columns:
         if column != 'Sociedad':
-            resumen_contable[column] = resumen_contable[column].apply(
-                lambda x: f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
-            )
+            resumen_contable[column] = resumen_contable[column].apply(format_currency)
+            
     return emitidos, recibidos, resumen_contable, emitidos_por_empresa, recibidos_por_empresa
 
 def filter_by_razon_social(df, razon_social):
@@ -55,12 +98,34 @@ def to_excel_multiple_sheets(resumen_contable, emitidos, recibidos, emitidos_por
             rc_excel[col] = rc_excel[col].str.replace('$', '').str.replace('.', '').str.replace(',', '.').str.replace('(', '-').str.replace(')', '')
             rc_excel[col] = pd.to_numeric(rc_excel[col], errors='coerce')
     
+    # Convert emitidos and recibidos currency columns back to numerical for Excel
+    emitidos_excel = emitidos.copy()
+    recibidos_excel = recibidos.copy()
+    emitidos_por_empresa_excel = emitidos_por_empresa.copy()
+    recibidos_por_empresa_excel = recibidos_por_empresa.copy()
+    
+    # Helper function to convert formatted currency back to numeric
+    def currency_to_numeric(df, columns):
+        df_excel = df.copy()
+        for col in columns:
+            if col in df_excel.columns:
+                df_excel[col] = df_excel[col].str.replace('$', '').str.replace('.', '').str.replace(',', '.').str.replace('(', '-').str.replace(')', '')
+                df_excel[col] = pd.to_numeric(df_excel[col], errors='coerce')
+        return df_excel
+    
+    # Convert formatted currency columns back to numeric for Excel export
+    currency_columns = ['Neto', 'IVA', 'Imp. Total']
+    emitidos_excel = currency_to_numeric(emitidos, currency_columns)
+    recibidos_excel = currency_to_numeric(recibidos, currency_columns)
+    emitidos_por_empresa_excel = currency_to_numeric(emitidos_por_empresa, currency_columns)
+    recibidos_por_empresa_excel = currency_to_numeric(recibidos_por_empresa, currency_columns)
+    
     # Write each dataframe to a different worksheet
     rc_excel.to_excel(writer, sheet_name='Resumen Contable', index=False)
-    emitidos_por_empresa.to_excel(writer, sheet_name='Emitidos por Empresa', index=False)
-    recibidos_por_empresa.to_excel(writer, sheet_name='Recibidos por Empresa', index=False)
-    emitidos.to_excel(writer, sheet_name='Detalle Emitidos', index=False)
-    recibidos.to_excel(writer, sheet_name='Detalle Recibidos', index=False)
+    emitidos_por_empresa_excel.to_excel(writer, sheet_name='Emitidos por Empresa', index=False)
+    recibidos_por_empresa_excel.to_excel(writer, sheet_name='Recibidos por Empresa', index=False)
+    emitidos_excel.to_excel(writer, sheet_name='Detalle Emitidos', index=False)
+    recibidos_excel.to_excel(writer, sheet_name='Detalle Recibidos', index=False)
     
     # Close the Pandas Excel writer and output the Excel file
     writer.close()
