@@ -198,9 +198,8 @@ def show_page():
         col_title, col_download = st.columns([3, 1])
         with col_title:
             st.title("Resumen Contable")
+            st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
         
-        st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
-
         # Display the main content
         st.dataframe(resumen_contable, use_container_width=True, hide_index=True)
 
