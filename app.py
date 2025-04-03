@@ -6,7 +6,7 @@ import io
 from io import BytesIO
 
 # Estilo
-with open("styles.css") as f:
+with open("style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 def format_currency(x):
