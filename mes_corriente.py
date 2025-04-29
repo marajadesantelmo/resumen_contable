@@ -21,6 +21,13 @@ def filter_restricted_data(df, username):
     
     return df
 
+def to_excel(df):
+    """Convert a DataFrame to Excel bytes."""
+    output = BytesIO()
+    with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+        df.to_excel(writer, sheet_name='Sheet1', index=False)
+    processed_data = output.getvalue()
+    return processed_data
 
 def fetch_data(): 
     resumen_contable_mes_actual = pd.read_csv('data/resumen_contable_mes_actual.csv')
@@ -34,14 +41,21 @@ def fetch_data():
 
 def show_page(username):
     resumen_contable_mes_actual, resumen_contable_mes_actual_excel, leyenda = fetch_data()
+    
+    # Apply user-based filtering
+    resumen_contable_mes_actual = filter_restricted_data(resumen_contable_mes_actual, username)
+    resumen_contable_mes_actual_excel = filter_restricted_data(resumen_contable_mes_actual_excel, username)
+    
     st.title(leyenda)
     st.dataframe(resumen_contable_mes_actual, use_container_width=True, hide_index=True)
+    
     st.download_button(
         label="Descargar Resumen Contable (Excel)",
-        data=resumen_contable_mes_actual_excel.to_excel(index=False).encode('utf-8'),
+        data=to_excel(resumen_contable_mes_actual_excel),
         file_name='Resumen_Contable_Mes_Actual.xlsx',
         mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     )
+    
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Emitidos del Mes Corriente")
