@@ -21,20 +21,27 @@ def filter_restricted_data(df, username):
     
     return df
 
+
+def fetch_data(): 
+    resumen_contable_mes_actual = pd.read_csv('data/resumen_contable_mes_actual.csv')
+    resumen_contable_mes_actual_excel = resumen_contable_mes_actual.copy()
+    for column in resumen_contable_mes_actual.columns:
+        if column != 'Sociedad':
+            resumen_contable_mes_actual[column] = resumen_contable_mes_actual[column].apply(format_currency)
+    with open('data/leyenda_resumen_contable_mes_actual.txt', 'r', encoding='utf-8') as file:
+        leyenda = file.read()
+    return resumen_contable_mes_actual, resumen_contable_mes_actual_excel, leyenda
+
 def show_page(username):
-    st.title("Resumen Contable - Mes Corriente (Abril 2025)")
-    
-    # This is a placeholder for the "Mes Corriente" page
-    # It will have similar structure as the "Resumen Mes Vencido" page
-    # but will use different data sources
-    
-    st.info("En esta sección se mostrará la información del mes en curso.")
-    st.write("Esta sección está en desarrollo y pronto estará disponible.")
-    
-    # You can add placeholder widgets to show the intended structure
-    st.header("Vista Previa - Comprobantes del Mes en Curso")
-    
-    # Example placeholder for data that would be shown
+    resumen_contable_mes_actual, resumen_contable_mes_actual_excel, leyenda = fetch_data()
+    st.title(leyenda)
+    st.dataframe(resumen_contable_mes_actual, use_container_width=True, hide_index=True)
+    st.download_button(
+        label="Descargar Resumen Contable (Excel)",
+        data=resumen_contable_mes_actual_excel.to_excel(index=False).encode('utf-8'),
+        file_name='Resumen_Contable_Mes_Actual.xlsx',
+        mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    )
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Emitidos del Mes Corriente")
