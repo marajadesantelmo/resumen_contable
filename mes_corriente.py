@@ -43,7 +43,7 @@ def fetch_data():
     for column in ['Neto', 'IVA', 'Imp. Total']:
         recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
     #Emitidos por empresa
-    emitidos_por_empresa = pd.read_csv('data/emitidos_por_empresa.csv')
+    emitidos_por_empresa = pd.read_csv('data/emitidos_por_empresa_mes_actual.csv')
     emitidos_por_empresa_excel = emitidos_por_empresa.copy()
     for column in ['Neto', 'IVA', 'Imp. Total']:
         emitidos_por_empresa[column] = emitidos_por_empresa[column].apply(format_currency)
