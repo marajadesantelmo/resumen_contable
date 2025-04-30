@@ -97,9 +97,10 @@ def show_page(username):
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
     st.dataframe(resumen_contable_mes_actual, use_container_width=True, hide_index=True)
-    st.divider()
-    col1, col2 = st.columns(2)
     
+    st.divider()
+
+    col1, col2 = st.columns(2)
     with col1:
         st.header("Detalle por Emisor/Receptor")
         st.write("Información descargada desde el sitio de 'Mis Comprobantes' de la AFIP hasta la fecha indicada")
@@ -118,8 +119,7 @@ def show_page(username):
     filtered_emitidos_por_empresa = filter_by_razon_social(emitidos_por_empresa, razon_social)
     filtered_recibidos_por_empresa = filter_by_razon_social(recibidos_por_empresa, razon_social)
     
-    # Show tables with standard styling 
-    # Reuse existing columns for first pair of tables
+    col1, col2 = st.columns(2)
     with col1:
         st.subheader("Emitidos por Empresa")
         with st.container():
