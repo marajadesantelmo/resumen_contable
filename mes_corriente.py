@@ -24,6 +24,8 @@ def filter_restricted_data(df, username):
 def filter_by_razon_social(df, razon_social):
     if 'razon_social' in df.columns:
         return df[df['razon_social'] == razon_social].drop('razon_social', axis=1)
+    if 'Sociedad' in df.columns:
+        return df[df['Sociedad'] == razon_social].drop('Sociedad', axis=1)
     return df
 
 
@@ -95,7 +97,7 @@ def show_page(username):
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
     st.dataframe(resumen_contable_mes_actual, use_container_width=True, hide_index=True)
-    # Define columns before using them
+    st.divider()
     col1, col2 = st.columns(2)
     
     with col1:
