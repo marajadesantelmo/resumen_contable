@@ -38,7 +38,7 @@ def fetch_data():
     with open('data/leyenda_resumen_contable_mes_actual.txt', 'r', encoding='utf-8') as file:
         leyenda = file.read()
     #Recibidos por empresa
-    recibidos_por_empresa = pd.read_csv('data/recibidos_por_empresa.csv')
+    recibidos_por_empresa = pd.read_csv('data/recibidos_por_empresa_mes_actual.csv')
     recibidos_por_empresa_excel = recibidos_por_empresa.copy()
     for column in ['Neto', 'IVA', 'Imp. Total']:
         recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
