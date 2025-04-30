@@ -91,8 +91,8 @@ def show_page(username):
     with col_download:
         st.image("data/logo.png")
         st.download_button(
-            label="Descargar Resumen Contable (Excel)",
-            data=to_excel(resumen_contable_mes_actual_excel),
+            label="Descargar informe en Excel",
+            data=to_excel(resumen_contable_mes_actual_excel, emitidos_excel, recibidos_excel, emitidos_por_empresa_excel, recibidos_por_empresa_excel),
             file_name='Resumen_Contable_Mes_Actual.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
@@ -113,11 +113,11 @@ def show_page(username):
             key="display_selector"
         )
 
-    # Apply filter if razon_social is selected
-    filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
-    filtered_recibidos = filter_by_razon_social(recibidos, razon_social)
-    filtered_emitidos_por_empresa = filter_by_razon_social(emitidos_por_empresa, razon_social)
-    filtered_recibidos_por_empresa = filter_by_razon_social(recibidos_por_empresa, razon_social)
+    if razon_social:
+        filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
+        filtered_recibidos = filter_by_razon_social(recibidos, razon_social)
+        filtered_emitidos_por_empresa = filter_by_razon_social(emitidos_por_empresa, razon_social)
+        filtered_recibidos_por_empresa = filter_by_razon_social(recibidos_por_empresa, razon_social)
     
     col1, col2 = st.columns(2)
     with col1:
@@ -139,4 +139,3 @@ def show_page(username):
         st.subheader("Detalle Comprobantes Recibidos")
         with st.container():
             st.dataframe(filtered_recibidos, use_container_width=True, hide_index=True)
-
