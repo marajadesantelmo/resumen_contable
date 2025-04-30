@@ -29,9 +29,9 @@ Deposito Avellaneda Sur,Grupo Rsm S.R.L.,7069500,27972,7097472
 Deposito Avellaneda Sur,Credito Y Caucion S.A. Compañia De Seguros,5724107,1061892,6786000
 Liftvan International,El Marques S A,5471250,1148962,6620212
 Deposito Avellaneda Sur,Transporte Tj Srl,5180000,1087800,6267800
+Deposito Avellaneda Sur,Exolgan Sociedad Anonima,4559896,957577,6155860
 Deposito Avellaneda Sur,Jorge Guillermo Jesus,0,0,5699082
 Mercovan Argentina,Terminal 4  S A,4589207,963731,5690615
-Deposito Avellaneda Sur,Exolgan Sociedad Anonima,4125356,866324,5569231
 Liftvan International,Passerini Jorge Enrique,0,0,5555000
 Deposito Avellaneda Sur,Chediac Micaela Yasmin,4432131,930747,5362878
 Deposito Avellaneda Sur,Cavodeassi Gaston Diego,4404809,925008,5329817
@@ -131,6 +131,7 @@ U-Bros,Mercadolibre S.R.L.,652642,137054,940284
 Viñas En Flor,Distribuidora Vidt Srl,759537,151714,924927
 Deposito Avellaneda Sur,Terminal 4  S A,726019,152463,919009
 U-Bros,Meli Log Srl,698488,146682,908035
+Deposito Avellaneda Sur,Advance Shipment International S.A.,728915,153072,881987
 Liftvan International,Martinez Pollitzer Jimena,0,0,865800
 L A R M Argentina,Ale Alejandra Beatriz,0,0,865000
 Unapa,Sustentagro  S. R. L.,710985,149306,860291
@@ -180,6 +181,7 @@ Nerococina,Distribuidora El Criollo Srl,466826,97193,578024
 Nerococina,Rivero Lucia Beatriz,0,0,573200
 Viñas En Flor,Mansilla Juan,471424,98998,570424
 Deposito Avellaneda Sur,Contenedores Hugo Sa,446557,93776,567127
+Deposito Avellaneda Sur,Mendez Arrieche Nixa Jhoseline,450000,94500,544500
 Deposito Avellaneda Sur,Mendez Ruben,440000,92400,532400
 Viñas En Flor,Asociacion Argentina De Codificacion  De Productos Comerciales -Codigo-,0,0,530710
 Viñas En Flor,Comandarina S.R.L. S. R. L.,438248,92032,530280
@@ -211,6 +213,7 @@ Deposito Avellaneda Sur,Lopez Figueredo German Augusto,0,0,364844
 Mercovan Argentina,Brings Austral S A,360669,3029,364406
 Mercovan Argentina,Chiemese S.A.,290966,59976,363794
 Viñas En Flor,Dhl Express (Argentina) S.A.,362775,0,362775
+Deposito Avellaneda Sur,Andreone Andrea Fabiana,299041,61658,360700
 Deposito Avellaneda Sur,Castro Videla Maria Elena,0,0,355210
 Mercovan Argentina,Obispado De San Isidro,0,0,350000
 Viñas En Flor,Transportes La Sevillanita Srl,282406,59303,341712
@@ -251,8 +254,8 @@ Viñas En Flor,Cancino Jorge Federico,0,0,237760
 Edelweiss Spedition,Aeropuertos Argentina 2000 S A,191036,40115,234976
 Liftvan International,Aeropuertos Argentina 2000 S A,193280,40585,233888
 Liftvan International,Autopistas De Buenos Aires (Aubasa) Sa S. A.,187630,39402,233600
-Mercovan Argentina,Odriozola Nelson Matias,0,0,233500
 Mercovan Argentina,Rufino Natalia,0,0,233500
+Mercovan Argentina,Odriozola Nelson Matias,0,0,233500
 Deposito Avellaneda Sur,Acudir Sa,182024,38225,229350
 Nerococina,Puro Norte Sa,191839,36731,228576
 Deposito Avellaneda Sur,Pinturerias Mafer Sociedad Anonima,176436,37051,222310
@@ -286,21 +289,22 @@ Jofa,Aerolineas Argentinas Sociedad Anonima,117611,24698,142309
 Edelweiss Spedition,Soluciones Online Sa,117300,24633,141933
 Deposito Avellaneda Sur,Vazquez Hnos S.R.L.,114961,24141,139103
 Viñas En Flor,Soda Monica Srl,112561,23637,138225
-Jofa,Interbanking Sa,112430,23610,136040
 Unapa,Interbanking Sa,112430,23610,136040
+Jofa,Interbanking Sa,112430,23610,136040
 Viñas En Flor,Fertel S A,107478,22570,132951
 Mercovan Argentina,Quero Pablo Fernando,0,0,129999
 Mercovan Argentina,Sis Ingenieria Srl,106921,22453,129375
 Mercovan Argentina,Pacifico Compañia De Seguros S.A. S. A.,103795,21793,127862
 Liftvan International,Jara Valentin Alberto,0,0,125000
+Deposito Avellaneda Sur,Cangiano Carlos,100085,21017,121102
 Mercovan Argentina,Mascaro Jorge Carlos,99975,20994,120970
 Mercovan Argentina,Rodriguez Damian Rodolfo,0,0,120600
 Deposito Avellaneda Sur,Casas Leonardo Alberto,0,0,120000
 Viñas En Flor,Itin S.A.,94876,19923,114800
 Mercovan Argentina,Lopez Y San Roman Sa,93886,19716,113603
 Viñas En Flor,Puka-Yana S.A.,84129,17667,112999
-BA Comex,Soluciones Online Sa,93000,19530,112530
 Nerococina,Soluciones Online Sa,93000,19530,112530
+BA Comex,Soluciones Online Sa,93000,19530,112530
 Viñas En Flor,Pascuzzo Vanina,85123,17876,103000
 Mercovan Argentina,Corredores Viales Sociedad Anonima,80385,16879,101196
 Liftvan International,Asmel Sa,83223,17476,100700
@@ -312,8 +316,8 @@ Liftvan International,Corredores Viales Sociedad Anonima,77371,16246,94007
 Viñas En Flor,Nubicom  S.R.L.,73187,19760,92948
 Edelweiss Spedition,Terminal 7 S A,75000,15750,90750
 Mercovan Argentina,Compañia De Servicios En Seguridad S.R.L.,74856,15719,90575
-Liftvan International,Sumay Maria Veronica,78906,11092,90000
 L A R M Argentina,Colegio De Traductores Publicos De La Ciudad De Buenos Aires,0,0,90000
+Liftvan International,Sumay Maria Veronica,78906,11092,90000
 Liftvan International,N Y O Soft S.R.L.,74171,15576,89747
 U-Bros,Autopistas De Buenos Aires (Aubasa) Sa S. A.,71825,15083,89063
 Liftvan International,Telefonica Moviles Argentina Sociedad Anonima,65387,17654,88445
@@ -343,7 +347,6 @@ Liftvan International,Coordinacion Ecologica Area Metropolitana Sociedad Del Est
 Deposito Avellaneda Sur,Starlink Argentina S R L,0,0,62000
 Deposito Avellaneda Sur,Telecom Argentina Sociedad Anonima,47970,10073,61881
 Mercovan Argentina,Easymail Sa,50819,10672,61491
-Deposito Avellaneda Sur,Cangiano Carlos,50249,10552,60801
 Viñas En Flor,Mijormi Sociedad De Responsabilidad Limitada,47099,9890,56990
 U-Bros,Soluciones Online Sa,46500,9765,56265
 Nerococina,El Nuevo Emporio Sa,45036,9457,54494
@@ -361,8 +364,8 @@ Mercovan Argentina,Norauto Argentina Sa,33719,7080,42452
 Mercovan Argentina,Administrative Processing Center Sa S. A.,34852,7318,42171
 Viñas En Flor,Salvado Eduardo Antonio Roberto,34710,7289,42000
 Mercovan Argentina,Cañuelas Gas Sociedad Anonima,34750,3648,40710
-Mercovan Argentina,Aughy Mauricio Enrique,0,0,40000
 Viñas En Flor,Capital Brands S.R.L.,33057,6942,40000
+Mercovan Argentina,Aughy Mauricio Enrique,0,0,40000
 Mercovan Argentina,Cooperativa De Trabajo La Central Sodera Limitada,31818,6681,38500
 Mercovan Argentina,Autopistas Del Sol S A,29870,6089,37375
 L A R M Argentina,Muriega Cecilia Soledad,29763,6250,36013

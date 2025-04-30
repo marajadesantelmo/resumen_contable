@@ -1,20 +1,20 @@
 Sociedad,Denominación Receptor,Neto,IVA,Imp. Total
 Liftvan International,Schlumberger Argentina S. A.,145170716,4417506,149588225
+Deposito Avellaneda Sur,Telamania S.R.L.,67242531,14120928,81363460
 Deposito Avellaneda Sur,Novatech Solutions S A,65520000,13759200,79279200
 Liftvan International,Estados Unidos,74962835,2215977,77178812
-Deposito Avellaneda Sur,Telamania S.R.L.,60324074,12668052,72992127
-Deposito Avellaneda Sur,Algodonera Aconcagua S A,54837500,11515875,66353375
+Deposito Avellaneda Sur,Algodonera Aconcagua S A,55140000,11579400,66719400
+Deposito Avellaneda Sur,Liftvan International Company S A C,51462113,10807034,62269161
 Liftvan International,Syngenta Agro Sociedad Anonima,52520494,7429654,59950151
 Liftvan International,Canada,55990895,0,55990895
-Deposito Avellaneda Sur,Liftvan International Company S A C,46218727,9705924,55924662
 Liftvan International,Natura Cosmeticos  Sa,51529770,816852,52346620
 Deposito Avellaneda Sur,Global Rover Logistic Srl,39235197,8239390,47474587
 Viñas En Flor,0,28830372,6054174,34885080
 Mercovan Argentina,Volkswagen Argentina S A,28071947,3062641,31134589
 Mercovan Argentina,Organizacion Internacional Para Las Migraciones,27634191,2203868,29838060
-Deposito Avellaneda Sur,Edelweiss Spedition Srl,19848678,4168219,24016900
+Deposito Avellaneda Sur,Grupo Simpa S A,22459345,4716460,27175805
+Deposito Avellaneda Sur,Edelweiss Spedition Srl,21930962,4605498,26536463
 Liftvan International,Bayer Sociedad Anonima,21891225,1797564,23688791
-Deposito Avellaneda Sur,Grupo Simpa S A,19183305,4028492,23211797
 Deposito Avellaneda Sur,Hilado S.A.,18298467,3842677,22141145
 Deposito Avellaneda Sur,Lolotex S.R.L.,18292220,3841365,22133585
 Viñas En Flor,M.Agropecuaria S.R.L.,18000000,3780000,21780000
@@ -27,29 +27,29 @@ Liftvan International,España,13998987,1228547,15227534
 Liftvan International,Productos Destilados S A C I Y F,12634366,2338946,14973315
 Deposito Avellaneda Sur,Newsan Sociedad Anonima,12200054,2562011,14762065
 L A R M Argentina,Schlumberger Argentina S. A.,12580893,1432246,14013162
+Deposito Avellaneda Sur,Mma Tex S.A.,11504710,2415987,13920697
 U-Bros,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,11025193,2315290,13340483
+Deposito Avellaneda Sur,Lawter Argentina S.A.,10759875,2259570,13019445
 Viñas En Flor,Lucaroni Maria Florencia,10524067,2210043,12734140
-Liftvan International,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,10400000,2184000,12584000
 Liftvan International,Empresa Distribuidora De Energia Atlantica Sa,10400000,2184000,12584000
 Liftvan International,Empresa Distribuidora De Energia Norte Sa,10400000,2184000,12584000
 Liftvan International,Empresa Distribuidora De Energia Sur    Sa,10400000,2184000,12584000
+Liftvan International,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,10400000,2184000,12584000
 L A R M Argentina,Syngenta Agro Sociedad Anonima,12000296,153938,12154234
-Deposito Avellaneda Sur,Nip Cargo S.R.L.,9647840,2026046,11673886
 Deposito Avellaneda Sur,Mundial  S A,9576055,2010967,11587022
 Viñas En Flor,Lopez Camila Tamara,9440281,1982449,11422760
 Mercovan Argentina,Total Austral Sociedad Anonima Sucursal Argentina,10426416,837606,11264022
+Deposito Avellaneda Sur,Nip Cargo S.R.L.,9242940,1941017,11183957
 Deposito Avellaneda Sur,Jakytextil S.A.,9119020,1914991,11034012
 Deposito Avellaneda Sur,Berant Daniel Ariel,9017824,1893742,10911567
-Deposito Avellaneda Sur,Lawter Argentina S.A.,8994915,1888929,10883844
 Viñas En Flor,Altos Terruños S.R.L.,8718360,1830855,10549215
 Deposito Avellaneda Sur,Capilatis Sa,8631555,1812627,10444182
 Mercovan Argentina,L'Oreal Argentina Sociedad Anonima,8674063,1635565,10309630
 Mercovan Argentina,Schlumberger Argentina S. A.,8450000,1774500,10224500
 Deposito Avellaneda Sur,Henn Y Cia Srl,8047000,1689870,9736870
-Deposito Avellaneda Sur,Grouport Srl,7496682,1574299,9070985
+Deposito Avellaneda Sur,Grouport Srl,7613025,1598731,9211760
 Deposito Avellaneda Sur,Gematec S R L,7398172,1553616,8951788
 Deposito Avellaneda Sur,Aceptyourdestiny,7352400,1544004,8896404
-Deposito Avellaneda Sur,Mma Tex S.A.,7277830,1528343,8806173
 Deposito Avellaneda Sur,Domingo A Capria Sa,6617170,1389605,8006775
 Deposito Avellaneda Sur,Minera Santa Rita Srl,6586976,1383263,7970239
 Deposito Avellaneda Sur,Automat Indago S.A.,6586709,1383209,7969918
@@ -62,10 +62,10 @@ Deposito Avellaneda Sur,Industrias Santa Maria Del Mar  S R L,5908150,1240711,71
 L A R M Argentina,Chevron Argentina Sociedad De Responsabilidad Limitada,5824940,1223237,7048177
 Deposito Avellaneda Sur,De La Fuente Ricardo Jose,5539236,1163239,6702476
 El Marques,Liftvan International Company S A C,5471250,1148962,6620212
-Mercovan Argentina,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Atlantica Sa,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Norte Sa,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Sur    Sa,5430000,1140300,6570300
+Mercovan Argentina,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,5430000,1140300,6570300
 Deposito Avellaneda Sur,Levy Jonathan Netanel,5305239,1114100,6419339
 Liftvan International,Embajada De Los Ee Uu De Norteamerica,6149610,144967,6294578
 Deposito Avellaneda Sur,Labranza Estrategica  S. A.,4978930,1045573,6024505
@@ -80,8 +80,10 @@ El Marques,Plaquimet Sa,4412016,926523,5338539
 Liftvan International,Prosegur Activa Argentina Sa,4369857,873971,5243829
 Edelweiss Spedition,Ritchie Mariela Francisca,5228733,0,5228733
 El Marques,M.S. Technologies Argentina S.R.L.,4166904,875049,5041953
+Deposito Avellaneda Sur,Aoda Socieda Anonima,4133617,868058,5001676
 Mercovan Argentina,0,3933260,914838,4848100
 Deposito Avellaneda Sur,Tandem Global Logistics S.A.,3887710,816417,4704127
+Deposito Avellaneda Sur,Anta Expo S. A. U.,3863280,811288,4674568
 Deposito Avellaneda Sur,Integracion Minera S.R.L.,3835346,805422,4640768
 Edelweiss Spedition,Mazzoni Maria Florencia,4540461,-38315,4502145
 Edelweiss Spedition,Alberdi Ignacio Maria,4489221,0,4489221
@@ -98,9 +100,10 @@ L A R M Argentina,Baterias Moura De Argentina S. A.,2849891,538627,3388518
 Deposito Avellaneda Sur,Dpmg S.A.,2798811,587750,3386561
 Liftvan International,Gomes Ferreira Jhonatan,3318107,0,3318107
 Deposito Avellaneda Sur,Flores Matias,2664059,559452,3223511
+Deposito Avellaneda Sur,Jupam Sa,2641380,554689,3196069
 Deposito Avellaneda Sur,Raisvic Srl,2625490,551352,3176842
 Deposito Avellaneda Sur,Importadora Mediterranea Sa,2583093,542449,3125542
-Deposito Avellaneda Sur,Anta Expo S. A. U.,2363280,496288,2859568
+Deposito Avellaneda Sur,Atp Solutions S.R.L.,2624825,221257,2846083
 U-Bros,Grupo Carpi S.R.L,2329096,489109,2818205
 Deposito Avellaneda Sur,Chelatex,2275000,477749,2752749
 Mercovan Argentina,Deposito Avellaneda Sur S.A.,2244318,471306,2715625
@@ -122,11 +125,13 @@ Deposito Avellaneda Sur,Jutel S.A.,1615025,339154,1954179
 BA Comex,Aspee Monee Srl,1600000,336000,1936000
 L A R M Argentina,Stine Seed Argentina S.R.L.,1599793,335956,1935750
 Deposito Avellaneda Sur,Andritz Fabrics And Rolls S. A.,1532135,321748,1853883
-Deposito Avellaneda Sur,Aoda Socieda Anonima,1469727,308642,1778370
+Deposito Avellaneda Sur,Newtral  S.A.,1428190,299919,1728110
+Deposito Avellaneda Sur,Hra Consultora Srl,1416000,297360,1713360
 L A R M Argentina,Wintershall Dea Argentina S.A,1410252,296152,1706404
 Liftvan International,Minera Andina Del Sol Srl,1391962,292312,1684274
 Deposito Avellaneda Sur,Bisora Group S. A.,1369147,287520,1656668
 Deposito Avellaneda Sur,Maransi S.A.,1342676,281961,1624637
+Deposito Avellaneda Sur,Hellmann Worldwide Logistics  Sociedad Anonima,1340370,281477,1621847
 Deposito Avellaneda Sur,Malu Ma Tex S.A.,1284240,269690,1553930
 Nerococina,Pole Position Coffee,1260000,264600,1524600
 Deposito Avellaneda Sur,Awam Tex S.R.L.,1224972,257244,1482216
@@ -134,28 +139,27 @@ Liftvan International,Gomez Silvia Graciela,1462664,0,1462664
 Deposito Avellaneda Sur,Rowners S.A.,1196290,251220,1447510
 Deposito Avellaneda Sur,Aniceto Gomez S A,1186661,249198,1435859
 Deposito Avellaneda Sur,Borax Argentina S A,1179971,247797,1427769
-Deposito Avellaneda Sur,Grapot Sa,1169722,245641,1415364
 Deposito Avellaneda Sur,Ledorot S.A.,1169722,245641,1415364
 Deposito Avellaneda Sur,Grupo Leal-Tex S.R.L.,1169722,245641,1415364
+Deposito Avellaneda Sur,Grapot Sa,1169722,245641,1415364
+Deposito Avellaneda Sur,Syra Sa,1162800,244188,1406988
 Deposito Avellaneda Sur,Industrias Quimicas Independencia S A,1110300,233163,1343463
 Deposito Avellaneda Sur,Styropek S.A.,1097855,230549,1328405
 L A R M Argentina,Southbay S. R. L.,1111263,211105,1322368
 Liftvan International,Bosch Rexroth Saic,1036192,207238,1243430
+Deposito Avellaneda Sur,Unimers Argentina Sa,987000,207270,1194270
 Liftvan International,Basf Argentina S A,951330,197410,1148740
 Deposito Avellaneda Sur,Bdfm Sa,937685,196913,1134598
 Viñas En Flor,Antartida Compañia Argentina De Seguros Sociedad Anonima,897634,188501,1086140
 Deposito Avellaneda Sur,Tipoiti S A T I C,875348,183823,1059171
-Deposito Avellaneda Sur,Jupam Sa,832580,174841,1007421
 Deposito Avellaneda Sur,Fantasia Cueros Srl,826520,173569,1000089
 Viñas En Flor,Bodegas Cuvillier S.A.,815702,171297,987000
 Deposito Avellaneda Sur,Big Bloom S A,810450,170194,980644
 Deposito Avellaneda Sur,Crosby Argentina S.A.,801675,168351,970026
 Deposito Avellaneda Sur,Refractarios Argentinos Saicm,783288,164490,947778
-Deposito Avellaneda Sur,Unimers Argentina Sa,712000,149520,861520
 Deposito Avellaneda Sur,Aj Comercio Exterior Srl,680000,142800,822800
 Liftvan International,Sucesion De Luna Roberto Andres,640282,134459,774741
 Mercovan Argentina,Posco Argentina Sau,640000,134400,774400
-Deposito Avellaneda Sur,Hellmann Worldwide Logistics  Sociedad Anonima,546640,114794,661434
 Liftvan International,Rincon Mining Pty Limited,543000,114030,657030
 Liftvan International,Tecplata S.A.,517741,103548,621290
 Liftvan International,Ejercito De Salvacion I. E. R.,512226,103430,615656
@@ -164,8 +168,8 @@ L A R M Argentina,Briceno Gil Lenin Alexander,502333,91571,593905
 L A R M Argentina,Tecpetrol S A,550000,10500,560500
 Viñas En Flor,Namur Gabriel Alejandro,438347,92052,530400
 Viñas En Flor,Cabrales Sa,437603,91896,529500
-BA Comex,Fedtex,420000,88200,508200
 Deposito Avellaneda Sur,Poka S A,420000,88200,508200
+BA Comex,Fedtex,420000,88200,508200
 Liftvan International,Framaco Bozdemir Sa,416480,87460,503940
 Deposito Avellaneda Sur,Buenos Aires Comex S.R.L.,478000,21630,499630
 Liftvan International,Tarulla Dario Ezequiel,472873,0,472873
@@ -187,8 +191,8 @@ L A R M Argentina,Exxonmobil Business Support Center Argentina Srl,192350,40393,
 Viñas En Flor,Piatti Francisco Nicolas,178247,37432,215680
 Edelweiss Spedition,Degasa S.A.,164287,34500,198787
 Viñas En Flor,Ivanier Juan Pablo,153884,32315,186200
-U-Bros,Pagliaccio Noriela,152892,32107,185000
 U-Bros,Vera De La Cruz Humberto Jean Pierre,152892,32107,185000
+U-Bros,Pagliaccio Noriela,152892,32107,185000
 U-Bros,Covarrubias Sara Judith,150184,31538,181723
 Liftvan International,Maneiro Lopez Victoria Maria,119000,24990,143990
 Viñas En Flor,Tealdi Joaquin,77438,16261,93700
@@ -201,8 +205,8 @@ Viñas En Flor,Niz Sergio Ruben,49586,10413,60000
 L A R M Argentina,Evonik Argentina S.A,21450,4505,25955
 Viñas En Flor,Wine Pass S.A.S,19669,4130,23800
 Edelweiss Spedition,Barcelo Arezo Ricardo Alberto,4068,854,4922
-Edelweiss Spedition,Baetti Maria Silvia,0,0,0
 Deposito Avellaneda Sur,Plasticos Dise S. A.,0,0,0
+Edelweiss Spedition,Baetti Maria Silvia,0,0,0
 L A R M Argentina,Liftvan International Company S A C,-85623,-164627,-250251
 L A R M Argentina,Fast Food Sudamericana S A,-523782,-109994,-633776
 Edelweiss Spedition,Tecpetrol S A,-571200,-119951,-691151

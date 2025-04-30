@@ -5,7 +5,6 @@ Ver si es posible mejorarlo integrando descarga y procesamiento en este reposito
 """
 from datetime import datetime
 import pandas as pd
-from utils import armar_tabla
 mes = datetime.now().strftime("%m-%Y")
 #Abro datos
 cuits  = pd.read_excel('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\comprobantes_afip_actual\\cuits.xlsx') 
