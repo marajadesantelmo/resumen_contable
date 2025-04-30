@@ -21,8 +21,8 @@ emitidos['Denominación Receptor'] = emitidos['Denominación Receptor'].str.stri
 sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
 for replacement in sociedad_replacements:
     emitidos['razon_social'] = emitidos['razon_social'].str.replace(replacement, '', regex=False).str.strip()
-emitidos_excel = emitidos.copy()
-emitidos_por_empresa = emitidos_excel.groupby(['razon_social', 'Denominación Receptor']).agg({
+emitidos.to_csv('data/emitidos_mes_actual.csv', index=False)
+emitidos_por_empresa = emitidos.groupby(['razon_social', 'Denominación Receptor']).agg({
     'Neto': 'sum', 
     'IVA': 'sum', 
     'Imp. Total': 'sum'
@@ -37,6 +37,7 @@ recibidos['Denominación Emisor'] = recibidos['Denominación Emisor'].str.strip(
 sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
 for replacement in sociedad_replacements:
     recibidos['razon_social'] = recibidos['razon_social'].str.replace(replacement, '', regex=False).str.strip()
+recibidos.to_csv('data/recibidos_mes_actual.csv', index=False)
 recibidos_por_empresa = recibidos.groupby(['razon_social', 'Denominación Emisor']).agg({
     'Neto': 'sum', 
     'IVA': 'sum', 
@@ -78,14 +79,14 @@ columns_to_fill = [
     'alic_salta',
     'iibb_otros',
     'alic_otros',
-    'Ventas Netas'
+    'Neto'
 ]
 # Fill NaN values with zero for the specified columns
 emitidos[columns_to_fill] = emitidos[columns_to_fill].fillna(0)
-emitidos['Ingresos Brutos'] = (emitidos['Ventas Netas'] * emitidos['iibb_bsas'] * emitidos['alic_bsas'] + 
-                            emitidos['Ventas Netas'] * emitidos['iibb_caba'] * emitidos['alic_caba'] + 
-                            emitidos['Ventas Netas'] * emitidos['iibb_salta'] * emitidos['alic_salta'] + 
-                            emitidos['Ventas Netas'] * emitidos['iibb_otros'] * emitidos['alic_otros'])
+emitidos['Ingresos Brutos'] = (emitidos['Neto'] * emitidos['iibb_bsas'] * emitidos['alic_bsas'] + 
+                            emitidos['Neto'] * emitidos['iibb_caba'] * emitidos['alic_caba'] + 
+                            emitidos['Neto'] * emitidos['iibb_salta'] * emitidos['alic_salta'] + 
+                            emitidos['Neto'] * emitidos['iibb_otros'] * emitidos['alic_otros'])
 ingresos_brutos = emitidos.groupby('razon_social')['Ingresos Brutos'].sum().astype(int)
 # Cargas Sociales
 

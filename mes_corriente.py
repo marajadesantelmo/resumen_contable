@@ -21,6 +21,11 @@ def filter_restricted_data(df, username):
     
     return df
 
+def filter_by_razon_social(df, razon_social):
+    if 'razon_social' in df.columns:
+        return df[df['razon_social'] == razon_social].drop('razon_social', axis=1)
+    return df
+
 def to_excel(df):
     """Convert a DataFrame to Excel bytes."""
     output = BytesIO()
@@ -30,6 +35,8 @@ def to_excel(df):
     return processed_data
 
 def fetch_data(): 
+    emitidos = pd.read_csv('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\comprobantes_afip_actual\\emitidos.csv')
+    recibidos =  pd.read_csv('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\comprobantes_afip_actual\\recibidos.csv')
     resumen_contable_mes_actual = pd.read_csv('data/resumen_contable_mes_actual.csv')
     resumen_contable_mes_actual_excel = resumen_contable_mes_actual.copy()
     for column in resumen_contable_mes_actual.columns:
@@ -68,10 +75,60 @@ def show_page(username):
         mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     )
     
+    with col1:
+        st.header("Detalle por Emisor/Receptor")
+    with col2:
+        razon_social_options = sorted(emitidos['razon_social'].unique().tolist())
+        razon_social = st.selectbox(
+            "Seleccionar Empresa", 
+            options=razon_social_options,
+            index=0 if razon_social_options else None,
+            key="display_selector"
+        )
+        
+        # Now that razon_social is defined, we can add the download button
+        with col_download:
+            st.image("data/logo.png")
+            filtered_emitidos_excel = filter_by_razon_social(emitidos_excel, razon_social)
+            filtered_recibidos_excel = filter_by_razon_social(recibidos_excel, razon_social)
+            filtered_emitidos_por_empresa_excel = filter_by_razon_social(emitidos_por_empresa_excel, razon_social)
+            filtered_recibidos_por_empresa_excel = filter_by_razon_social(recibidos_por_empresa_excel, razon_social)
+            
+            st.download_button(
+                label="Descargar informe en Excel",
+                data=to_excel_multiple_sheets(
+                    resumen_contable_excel,
+                    filtered_emitidos_excel,
+                    filtered_recibidos_excel,
+                    filtered_emitidos_por_empresa_excel,
+                    filtered_recibidos_por_empresa_excel
+                ),
+                file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx")
+       
+    # Apply filter if razon_social is selected
+    filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
+    filtered_recibidos = filter_by_razon_social(recibidos, razon_social)
+    filtered_emitidos_por_empresa = filter_by_razon_social(emitidos_por_empresa, razon_social)
+    filtered_recibidos_por_empresa = filter_by_razon_social(recibidos_por_empresa, razon_social)
+    
+    # Show tables with standard styling
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader("Emitidos del Mes Corriente")
-        st.write("Aquí se mostrarán los comprobantes emitidos del mes en curso.")
+        st.subheader("Emitidos por Empresa")
+        with st.container():
+            st.dataframe(filtered_emitidos_por_empresa, use_container_width=True, hide_index=True)
     with col2:
-        st.subheader("Recibidos del Mes Corriente")
-        st.write("Aquí se mostrarán los comprobantes recibidos del mes en curso.")
+        st.subheader("Recibidos por Empresa")
+        with st.container():
+            st.dataframe(filtered_recibidos_por_empresa, use_container_width=True, hide_index=True)
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("Detalle Comprobantes Emitidos")
+        with st.container():
+            st.dataframe(filtered_emitidos, use_container_width=True, hide_index=True)
+    with col2:
+        st.subheader("Detalle Comprobantes Recibidos")
+        with st.container():
+            st.dataframe(filtered_recibidos, use_container_width=True, hide_index=True)
+
