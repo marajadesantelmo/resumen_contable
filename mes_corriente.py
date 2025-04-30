@@ -60,10 +60,10 @@ def fetch_data():
         emitidos_por_empresa[column] = emitidos_por_empresa[column].apply(format_currency)
 
 
-    return resumen_contable_mes_actual, resumen_contable_mes_actual_excel, leyenda, recibidos_por_empresa, recibidos_por_empresa_excel, emitidos_por_empresa, emitidos_por_empresa_excel
+    return emitidos, recibidos, resumen_contable_mes_actual, resumen_contable_mes_actual_excel, leyenda, recibidos_por_empresa, recibidos_por_empresa_excel, emitidos_por_empresa, emitidos_por_empresa_excel
 
 def show_page(username):
-    resumen_contable_mes_actual, resumen_contable_mes_actual_excel, leyenda, recibidos_por_empresa, recibidos_por_empresa_excel, emitidos_por_empresa, emitidos_por_empresa_excel = fetch_data()
+    emitidos, recibidos, resumen_contable_mes_actual, resumen_contable_mes_actual_excel, leyenda, recibidos_por_empresa, recibidos_por_empresa_excel, emitidos_por_empresa, emitidos_por_empresa_excel = fetch_data()
     
     # Apply user-based filtering
     resumen_contable_mes_actual = filter_restricted_data(resumen_contable_mes_actual, username)
