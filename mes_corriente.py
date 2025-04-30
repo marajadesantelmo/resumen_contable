@@ -84,9 +84,12 @@ def show_page(username):
     # Apply user-based filtering
     resumen_contable_mes_actual = filter_restricted_data(resumen_contable_mes_actual, username)
     resumen_contable_mes_actual_excel = filter_restricted_data(resumen_contable_mes_actual_excel, username)
-    
-    st.title(leyenda)
-    st.dataframe(resumen_contable_mes_actual, use_container_width=True, hide_index=True)
+    col_title, col_download = st.columns([3, 1])
+    with col_title: 
+        st.title(leyenda)
+    with col_download:
+        st.image("data/logo.png")
+
     
     st.download_button(
         label="Descargar Resumen Contable (Excel)",
