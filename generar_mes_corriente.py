@@ -13,6 +13,40 @@ emitidos = pd.read_csv('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\comproba
 recibidos =  pd.read_csv('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\comprobantes_afip_actual\\recibidos.csv')
 emitidos['Ventas Netas'] = emitidos['Imp. Neto Gravado'] + emitidos['Imp. Neto No Gravado'] + emitidos['Imp. Op. Exentas']
 ventas_netas = emitidos.groupby('razon_social')['Ventas Netas'].sum()
+
+#Emitidos por Cliente
+emitidos['Neto'] = emitidos['Imp. Neto Gravado'] + emitidos['Imp. Neto No Gravado'] + emitidos['Imp. Op. Exentas'] 
+emitidos = emitidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Receptor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
+emitidos['Denominación Receptor'] = emitidos['Denominación Receptor'].str.strip().str.title()
+sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
+for replacement in sociedad_replacements:
+    emitidos['razon_social'] = emitidos['razon_social'].str.replace(replacement, '', regex=False).str.strip()
+emitidos_excel = emitidos.copy()
+emitidos_por_empresa = emitidos_excel.groupby(['razon_social', 'Denominación Receptor']).agg({
+    'Neto': 'sum', 
+    'IVA': 'sum', 
+    'Imp. Total': 'sum'
+}).reset_index()
+emitidos_por_empresa = emitidos_por_empresa.sort_values('Imp. Total', ascending=False)
+emitidos_por_empresa.rename(columns={'razon_social': 'Sociedad'}, inplace=True)
+emitidos_por_empresa.to_csv('data/emitidos_por_empresa_mes_corriente.csv', index=False)
+#Recibidos por Proveedor
+recibidos['Neto'] = recibidos['Imp. Neto Gravado'] + recibidos['Imp. Neto No Gravado'] + recibidos['Imp. Op. Exentas']
+recibidos = recibidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Emisor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
+recibidos['Denominación Emisor'] = recibidos['Denominación Emisor'].str.strip().str.title()
+sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
+for replacement in sociedad_replacements:
+    recibidos['razon_social'] = recibidos['razon_social'].str.replace(replacement, '', regex=False).str.strip()
+recibidos_por_empresa = recibidos.groupby(['razon_social', 'Denominación Emisor']).agg({
+    'Neto': 'sum', 
+    'IVA': 'sum', 
+    'Imp. Total': 'sum'
+}).reset_index()
+recibidos_por_empresa = recibidos_por_empresa.sort_values('Imp. Total', ascending=False)
+recibidos_por_empresa.rename(columns={'razon_social': 'Sociedad'}, inplace=True)
+recibidos_por_empresa.to_csv('data/recibidos_por_empresa_mes_corriente.csv', index=False)
+
+
 # IVA 
 iva_ventas_df = emitidos.groupby('razon_social')['IVA'].sum().reset_index()
 iva_compras_df = recibidos.groupby('razon_social')['IVA'].sum().reset_index()
@@ -54,7 +88,6 @@ emitidos['Ingresos Brutos'] = (emitidos['Ventas Netas'] * emitidos['iibb_bsas'] 
                             emitidos['Ventas Netas'] * emitidos['iibb_otros'] * emitidos['alic_otros'])
 ingresos_brutos = emitidos.groupby('razon_social')['Ingresos Brutos'].sum().astype(int)
 # Cargas Sociales
-
 
 # Combine all indicators into a single DataFrame
 indicators = pd.DataFrame({

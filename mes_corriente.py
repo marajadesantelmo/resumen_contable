@@ -37,10 +37,22 @@ def fetch_data():
             resumen_contable_mes_actual[column] = resumen_contable_mes_actual[column].apply(format_currency)
     with open('data/leyenda_resumen_contable_mes_actual.txt', 'r', encoding='utf-8') as file:
         leyenda = file.read()
-    return resumen_contable_mes_actual, resumen_contable_mes_actual_excel, leyenda
+    #Recibidos por empresa
+    recibidos_por_empresa = pd.read_csv('data/recibidos_por_empresa.csv')
+    recibidos_por_empresa_excel = recibidos_por_empresa.copy()
+    for column in ['Neto', 'IVA', 'Imp. Total']:
+        recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
+    #Emitidos por empresa
+    emitidos_por_empresa = pd.read_csv('data/emitidos_por_empresa.csv')
+    emitidos_por_empresa_excel = emitidos_por_empresa.copy()
+    for column in ['Neto', 'IVA', 'Imp. Total']:
+        emitidos_por_empresa[column] = emitidos_por_empresa[column].apply(format_currency)
+
+
+    return resumen_contable_mes_actual, resumen_contable_mes_actual_excel, leyenda, recibidos_por_empresa, recibidos_por_empresa_excel, emitidos_por_empresa, emitidos_por_empresa_excel
 
 def show_page(username):
-    resumen_contable_mes_actual, resumen_contable_mes_actual_excel, leyenda = fetch_data()
+    resumen_contable_mes_actual, resumen_contable_mes_actual_excel, leyenda, recibidos_por_empresa, recibidos_por_empresa_excel, emitidos_por_empresa, emitidos_por_empresa_excel = fetch_data()
     
     # Apply user-based filtering
     resumen_contable_mes_actual = filter_restricted_data(resumen_contable_mes_actual, username)
