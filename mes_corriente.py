@@ -94,7 +94,7 @@ def show_page(username):
             file_name='Resumen_Contable_Mes_Actual.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
-    
+    st.dataframe(resumen_contable_mes_actual, use_container_width=True, hide_index=True)
     # Define columns before using them
     col1, col2 = st.columns(2)
     
