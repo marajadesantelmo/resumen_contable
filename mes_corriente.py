@@ -88,14 +88,12 @@ def show_page(username):
     col_title, col_download = st.columns([3, 1])
     with col_download:
         st.image("data/logo.png")
-
-    
-    st.download_button(
-        label="Descargar Resumen Contable (Excel)",
-        data=to_excel(resumen_contable_mes_actual_excel),
-        file_name='Resumen_Contable_Mes_Actual.xlsx',
-        mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-    )
+        st.download_button(
+            label="Descargar Resumen Contable (Excel)",
+            data=to_excel(resumen_contable_mes_actual_excel),
+            file_name='Resumen_Contable_Mes_Actual.xlsx',
+            mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        )
     
     # Define columns before using them
     col1, col2 = st.columns(2)
@@ -110,23 +108,7 @@ def show_page(username):
             index=0 if razon_social_options else None,
             key="display_selector"
         )
-        
-    
-        st.image("data/logo.png")
-        filtered_emitidos_excel = filter_by_razon_social(emitidos_excel, razon_social)
-        filtered_recibidos_excel = filter_by_razon_social(recibidos_excel, razon_social)
-        filtered_emitidos_por_empresa_excel = filter_by_razon_social(emitidos_por_empresa_excel, razon_social)
-        filtered_recibidos_por_empresa_excel = filter_by_razon_social(recibidos_por_empresa_excel, razon_social)
-        
-        st.download_button(
-            label="Descargar informe en Excel",
-            data=to_excel_multiple_sheets(
-                filtered_emitidos_excel,
-                filtered_recibidos_excel,
-                filtered_emitidos_por_empresa_excel,
-                filtered_recibidos_por_empresa_excel
-            ),
-            file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx")
+
        
     # Apply filter if razon_social is selected
     filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
