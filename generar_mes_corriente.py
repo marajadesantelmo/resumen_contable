@@ -59,6 +59,14 @@ iva_compras = iva_df.set_index('razon_social')['IVA Compras']
 saldo_iva = iva_df.set_index('razon_social')['Saldo IVA']
 # Ingresos Brutos
 cuits = cuits.set_index('razon_social')
+
+# Standardize 'razon_social' in emitidos to match the index of cuits
+emitidos['razon_social'] = emitidos['razon_social'].str.strip().str.title()
+sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
+for replacement in sociedad_replacements:
+    emitidos['razon_social'] = emitidos['razon_social'].str.replace(replacement, '', regex=False).str.strip()
+
+# Map values from cuits to emitidos
 emitidos['iibb_bsas'] = emitidos['razon_social'].map(cuits['iib_bsas'])
 emitidos['alic_bsas'] = emitidos['razon_social'].map(cuits['alic_bsas'])
 emitidos['iibb_caba'] = emitidos['razon_social'].map(cuits['iib_caba'])
@@ -67,6 +75,7 @@ emitidos['iibb_salta'] = emitidos['razon_social'].map(cuits['iib_salta'])
 emitidos['alic_salta'] = emitidos['razon_social'].map(cuits['alic_salta'])
 emitidos['iibb_otros'] = emitidos['razon_social'].map(cuits['iib_otros'])
 emitidos['alic_otros'] = emitidos['razon_social'].map(cuits['alic_otros'])
+
 # List of columns to fill NaN values with zero
 columns_to_fill = [
     'iibb_bsas',
