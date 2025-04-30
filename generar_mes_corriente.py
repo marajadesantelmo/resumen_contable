@@ -29,7 +29,7 @@ emitidos_por_empresa = emitidos_excel.groupby(['razon_social', 'Denominación Re
 }).reset_index()
 emitidos_por_empresa = emitidos_por_empresa.sort_values('Imp. Total', ascending=False)
 emitidos_por_empresa.rename(columns={'razon_social': 'Sociedad'}, inplace=True)
-emitidos_por_empresa.to_csv('data/emitidos_por_empresa_mes_corriente.csv', index=False)
+emitidos_por_empresa.to_csv('data/emitidos_por_empresa_mes_actual.csv', index=False)
 #Recibidos por Proveedor
 recibidos['Neto'] = recibidos['Imp. Neto Gravado'] + recibidos['Imp. Neto No Gravado'] + recibidos['Imp. Op. Exentas']
 recibidos = recibidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Emisor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
@@ -44,7 +44,7 @@ recibidos_por_empresa = recibidos.groupby(['razon_social', 'Denominación Emisor
 }).reset_index()
 recibidos_por_empresa = recibidos_por_empresa.sort_values('Imp. Total', ascending=False)
 recibidos_por_empresa.rename(columns={'razon_social': 'Sociedad'}, inplace=True)
-recibidos_por_empresa.to_csv('data/recibidos_por_empresa_mes_corriente.csv', index=False)
+recibidos_por_empresa.to_csv('data/recibidos_por_empresa_mes_actual.csv', index=False)
 
 
 # IVA 
