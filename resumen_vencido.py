@@ -102,6 +102,8 @@ def fetch_data():
 def filter_by_razon_social(df, razon_social):
     if 'razon_social' in df.columns:
         return df[df['razon_social'] == razon_social].drop('razon_social', axis=1)
+    if 'Sociedad' in df.columns:
+        return df[df['Sociedad'] == razon_social].drop('Sociedad', axis=1)
     return df
 
 def filter_restricted_data(df, username):
