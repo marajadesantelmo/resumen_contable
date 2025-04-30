@@ -92,7 +92,7 @@ def show_page(username):
         st.image("data/logo.png")
         st.download_button(
             label="Descargar informe en Excel",
-            data=to_excel(resumen_contable_mes_actual_excel, emitidos_excel, recibidos_excel, emitidos_por_empresa_excel, recibidos_por_empresa_excel),
+            data=to_excel_multiple_sheets(resumen_contable_mes_actual_excel, emitidos_excel, recibidos_excel, emitidos_por_empresa_excel, recibidos_por_empresa_excel),
             file_name='Resumen_Contable_Mes_Actual.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
         )
