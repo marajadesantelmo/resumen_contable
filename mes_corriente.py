@@ -84,8 +84,8 @@ def show_page(username):
     # Apply user-based filtering
     resumen_contable_mes_actual = filter_restricted_data(resumen_contable_mes_actual, username)
     resumen_contable_mes_actual_excel = filter_restricted_data(resumen_contable_mes_actual_excel, username)
-    col_title, col_download = st.columns([3, 1])
     st.title(leyenda)
+    col_title, col_download = st.columns([3, 1])
     with col_download:
         st.image("data/logo.png")
 
