@@ -29,11 +29,12 @@ def filter_by_razon_social(df, razon_social):
     return df
 
 
-def to_excel_multiple_sheets( emitidos_excel, recibidos_excel, emitidos_por_empresa_excel, recibidos_por_empresa_excel):
+def to_excel_multiple_sheets(resumen_contable_mes_actual_excel, emitidos_excel, recibidos_excel, emitidos_por_empresa_excel, recibidos_por_empresa_excel):
     output = BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
     
     # Write each dataframe to a different worksheet
+    resumen_contable_mes_actual_excel.to_excel(writer, sheet_name='Resumen Contable', index=False)
     emitidos_por_empresa_excel.to_excel(writer, sheet_name='Emitidos por Empresa', index=False)
     recibidos_por_empresa_excel.to_excel(writer, sheet_name='Recibidos por Empresa', index=False)
     emitidos_excel.to_excel(writer, sheet_name='Detalle Emitidos', index=False)
@@ -44,13 +45,6 @@ def to_excel_multiple_sheets( emitidos_excel, recibidos_excel, emitidos_por_empr
     processed_data = output.getvalue()
     return processed_data
 
-def to_excel(df):
-    """Convert a DataFrame to Excel bytes."""
-    output = BytesIO()
-    with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
-        df.to_excel(writer, sheet_name='Sheet1', index=False)
-    processed_data = output.getvalue()
-    return processed_data
 
 def fetch_data(): 
     emitidos = pd.read_csv('data/emitidos_mes_actual.csv')
