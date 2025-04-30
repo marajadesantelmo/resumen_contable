@@ -158,10 +158,9 @@ def show_page(username):
     recibidos_por_empresa_excel = filter_restricted_data(recibidos_por_empresa_excel, username)
     resumen_contable_excel = filter_restricted_data(resumen_contable_excel, username)
     
-    # Main application with simplified formatting
+
     col_title, col_download = st.columns([3, 1])
     
-    # Display tables with slightly darker background
     with st.container():
         st.dataframe(resumen_contable_total, use_container_width=True, hide_index=True)
     
@@ -181,8 +180,7 @@ def show_page(username):
             "Seleccionar Empresa", 
             options=razon_social_options,
             index=0 if razon_social_options else None,
-            key="display_selector"
-        )
+            key="display_selector")
         
         # Now that razon_social is defined, we can add the download button
         with col_download:

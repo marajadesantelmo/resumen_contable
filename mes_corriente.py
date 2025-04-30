@@ -35,8 +35,12 @@ def to_excel(df):
     return processed_data
 
 def fetch_data(): 
-    emitidos = pd.read_csv('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\comprobantes_afip_actual\\emitidos.csv')
-    recibidos =  pd.read_csv('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\comprobantes_afip_actual\\recibidos.csv')
+    emitidos = pd.read_csv('data/emitidos_mes_actual.csv')
+    emitidos_excel = emitidos.copy()
+
+    recibidos = pd.read_csv('data/recibidos_mes_actual.csv')
+    recibidos_excel = recibidos.copy()
+
     resumen_contable_mes_actual = pd.read_csv('data/resumen_contable_mes_actual.csv')
     resumen_contable_mes_actual_excel = resumen_contable_mes_actual.copy()
     for column in resumen_contable_mes_actual.columns:
