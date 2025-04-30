@@ -12,7 +12,7 @@ cuits  = pd.read_excel('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\comproba
 emitidos = pd.read_csv('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\comprobantes_afip_actual\\emitidos.csv')
 recibidos =  pd.read_csv('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\comprobantes_afip_actual\\recibidos.csv')
 emitidos['Ventas Netas'] = emitidos['Imp. Neto Gravado'] + emitidos['Imp. Neto No Gravado'] + emitidos['Imp. Op. Exentas']
-ventas_netas = emitidos.groupby('razon_social')['Ventas Netas'].sum()
+
 
 #Emitidos por Cliente
 emitidos['Neto'] = emitidos['Imp. Neto Gravado'] + emitidos['Imp. Neto No Gravado'] + emitidos['Imp. Op. Exentas'] 
@@ -22,6 +22,7 @@ sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S.
 for replacement in sociedad_replacements:
     emitidos['razon_social'] = emitidos['razon_social'].str.replace(replacement, '', regex=False).str.strip()
 emitidos.to_csv('data/emitidos_mes_actual.csv', index=False)
+ventas_netas = emitidos.groupby('razon_social')['Ventas Netas'].sum()
 emitidos_por_empresa = emitidos.groupby(['razon_social', 'Denominación Receptor']).agg({
     'Neto': 'sum', 
     'IVA': 'sum', 
