@@ -58,14 +58,9 @@ iva_ventas = iva_df.set_index('razon_social')['IVA Ventas']
 iva_compras = iva_df.set_index('razon_social')['IVA Compras']
 saldo_iva = iva_df.set_index('razon_social')['Saldo IVA']
 # Ingresos Brutos
-cuits = cuits.set_index('razon_social')
-
-# Standardize 'razon_social' in emitidos to match the index of cuits
-emitidos['razon_social'] = emitidos['razon_social'].str.strip().str.title()
-sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
 for replacement in sociedad_replacements:
-    emitidos['razon_social'] = emitidos['razon_social'].str.replace(replacement, '', regex=False).str.strip()
-
+    cuits['razon_social'] = cuits['razon_social'].str.replace(replacement, '', regex=False).str.strip()
+cuits = cuits.set_index('razon_social')
 # Map values from cuits to emitidos
 emitidos['iibb_bsas'] = emitidos['razon_social'].map(cuits['iib_bsas'])
 emitidos['alic_bsas'] = emitidos['razon_social'].map(cuits['alic_bsas'])
