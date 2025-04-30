@@ -99,7 +99,8 @@ def show_page(username):
     col1, col2 = st.columns(2)
     
     with col1:
-        st.subheader("Detalle por Emisor/Receptor")
+        st.header("Detalle por Emisor/Receptor")
+        st.write("Información descargada desde el sitio de 'Mis Comprobantes' de la AFIP hasta la fecha indicada")
     with col2:
         razon_social_options = sorted(emitidos['razon_social'].unique().tolist())
         razon_social = st.selectbox(
@@ -109,7 +110,6 @@ def show_page(username):
             key="display_selector"
         )
 
-       
     # Apply filter if razon_social is selected
     filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
     filtered_recibidos = filter_by_razon_social(recibidos, razon_social)

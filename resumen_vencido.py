@@ -202,11 +202,13 @@ def show_page(username):
                 file_name=f"resumen_contable_{razon_social}.xlsx" if razon_social else "resumen_contable_completo.xlsx")
        
     # Apply filter if razon_social is selected
-    filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
-    filtered_recibidos = filter_by_razon_social(recibidos, razon_social)
-    filtered_emitidos_por_empresa = filter_by_razon_social(emitidos_por_empresa, razon_social)
-    filtered_recibidos_por_empresa = filter_by_razon_social(recibidos_por_empresa, razon_social)
-    
+
+    if razon_social:
+        filtered_emitidos = filter_by_razon_social(emitidos, razon_social)
+        filtered_recibidos = filter_by_razon_social(recibidos, razon_social)
+        filtered_emitidos_por_empresa = filter_by_razon_social(emitidos_por_empresa, razon_social)
+        filtered_recibidos_por_empresa = filter_by_razon_social(recibidos_por_empresa, razon_social)
+        
     # Show tables with standard styling
     col1, col2 = st.columns(2)
     with col1:
