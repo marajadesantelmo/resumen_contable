@@ -69,7 +69,8 @@ def main():
         
         # Navigation sidebar
         st.sidebar.title("Navegación")
-        pages = ["Resumen Mes Vencido", "Mes Corriente", "Histórico"]
+        #pages = ["Resumen Mes Vencido", "Mes Corriente", "Histórico"]
+        pages = ["Resumen Mes Vencido", "Histórico"]
         current_page = st.sidebar.radio("Seleccione sección:", pages, index=pages.index(st.session_state.current_page))
         st.session_state.current_page = current_page
         
