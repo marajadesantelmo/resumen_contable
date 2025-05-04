@@ -4,9 +4,9 @@ from streamlit_cookies_manager import EncryptedCookieManager
 import pandas as pd
 
 # Import page modules
-import resumen_vencido
-import mes_corriente
-import historico
+import app_resumen_vencido
+import app_mes_corriente
+import app_historico
 
 # Apply custom styling for dataframes - darker background
 st.markdown("""
@@ -75,11 +75,11 @@ def main():
         
         # Display selected page
         if current_page == "Resumen Mes Vencido":
-            resumen_vencido.show_page(st.session_state.username)
+            app_resumen_vencido.show_page(st.session_state.username)
         elif current_page == "Mes Corriente":
-            mes_corriente.show_page(st.session_state.username)
+            app_mes_corriente.show_page(st.session_state.username)
         elif current_page == "Histórico":
-            historico.show_page(st.session_state.username)
+            app_historico.show_page(st.session_state.username)
             
         # Add logout button
         if st.sidebar.button("Cerrar sesión"):
