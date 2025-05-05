@@ -168,7 +168,7 @@ def show_page(username):
     
     st.header("Detalle por Sociedad")
     with st.container():
-        st.dataframe(resumen_contable, use_container_width=True, hide_index=True, height=600)
+        st.dataframe(resumen_contable, use_container_width=True, hide_index=True, height=500)
 
     st.divider()
 
