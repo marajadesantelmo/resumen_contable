@@ -50,12 +50,12 @@ def show_page(username):
             (pd.to_datetime(comprobantes_historicos['Fecha de Emisión'], format='%d/%m/%Y') <= end_date)
         ]
         ventas_por_empresa_cliente = ventas_por_empresa_cliente[
-            (pd.to_datetime(ventas_por_empresa_cliente['Mes'], format='%m-%Y') >= start_date) &
-            (pd.to_datetime(ventas_por_empresa_cliente['Mes'], format='%m-%Y') <= end_date)
+            (pd.to_datetime(ventas_por_empresa_cliente['Mes'], format='%Y-%m') >= start_date) &
+            (pd.to_datetime(ventas_por_empresa_cliente['Mes'], format='%Y-%m') <= end_date)
         ]
         compras_por_empresa_proveedor = compras_por_empresa_proveedor[
-            (pd.to_datetime(compras_por_empresa_proveedor['Mes'], format='%m-%Y') >= start_date) &
-            (pd.to_datetime(compras_por_empresa_proveedor['Mes'], format='%m-%Y') <= end_date)
+            (pd.to_datetime(compras_por_empresa_proveedor['Mes'], format='%Y-%m') >= start_date) &
+            (pd.to_datetime(compras_por_empresa_proveedor['Mes'], format='%Y-%m') <= end_date)
         ]
 
     # Display datasets
@@ -100,7 +100,7 @@ def show_page(username):
         filtered_data = comprobantes_historicos[comprobantes_historicos['Razon Social'] == selected_razon_social]
         
         if not filtered_data.empty:
-            filtered_data['Mes'] = pd.to_datetime(filtered_data['Mes'], format='%m-%Y')
+            filtered_data['Mes'] = pd.to_datetime(filtered_data['Mes'], format='%Y-%m')
             st.bar_chart(
                 filtered_data.set_index('Mes')[['IVA Ventas', 'IVA Compras', 'Saldo IVA']],
                 use_container_width=True,
