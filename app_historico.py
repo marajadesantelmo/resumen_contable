@@ -64,7 +64,11 @@ def show_page(username):
 
     with tab1:
         st.subheader("Ventas y Compras")
-        selected_razon_social = st.selectbox("Seleccione Razón Social", comprobantes_historicos['Razon Social'].unique())
+        selected_razon_social = st.selectbox(
+            "Seleccione Razón Social", 
+            comprobantes_historicos['Razon Social'].unique(), 
+            key="ventas_compras_selectbox"
+        )
         filtered_data = comprobantes_historicos[comprobantes_historicos['Razon Social'] == selected_razon_social]
         if not filtered_data.empty:
             filtered_data['Mes'] = pd.to_datetime(filtered_data['Mes'], format='%m-%Y')          
@@ -89,7 +93,11 @@ def show_page(username):
     with tab2:
         st.subheader("IVA")
         st.dataframe(comprobantes_historicos[['Razon Social', 'Mes', 'IVA Ventas', 'IVA Compras', 'Saldo IVA']])
-        selected_razon_social = st.selectbox("Seleccione Razón Social", comprobantes_historicos['Razon Social'].unique())
+        selected_razon_social = st.selectbox(
+            "Seleccione Razón Social", 
+            comprobantes_historicos['Razon Social'].unique(), 
+            key="iva_selectbox"
+        )
         filtered_data = comprobantes_historicos[comprobantes_historicos['Razon Social'] == selected_razon_social]
         
         if not filtered_data.empty:
@@ -97,8 +105,8 @@ def show_page(username):
             st.bar_chart(
                 filtered_data.set_index('Mes')[['IVA Ventas', 'IVA Compras', 'Saldo IVA']],
                 use_container_width=True,
-            height=400,
-            stacked=False
+                height=400,
+                stacked=False
             )
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
