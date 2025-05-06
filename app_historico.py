@@ -105,8 +105,7 @@ def show_page(username):
             st.bar_chart(
                 filtered_data.set_index('Mes')[['IVA Ventas', 'IVA Compras', 'Saldo IVA']],
                 use_container_width=True,
-                height=400,
-                stacked=False
+                height=400
             )
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
