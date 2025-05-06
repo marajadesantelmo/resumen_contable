@@ -45,26 +45,13 @@ def show_page(username):
     with tab1:
         st.subheader("Ventas y Compras")
 
-        col1, col2 = st.columns(2)
-        with col1:
-            selected_razon_social = st.selectbox(
-                "Seleccione Razón Social", 
-                comprobantes_historicos['Razon Social'].unique(), 
-                key="ventas_compras_selectbox"
-            )
 
-        with col2:
-            col2_1, col2_2 = st.columns(2)
-            with col2_1:
-                start_date = st.date_input("Fecha de inicio", value=None)
-            with col2_2:
-                end_date = st.date_input("Fecha de fin", value=None)
-            # Filter datasets by date range if selected
-            if start_date and end_date:
-                comprobantes_historicos = comprobantes_historicos[
-                    (pd.to_datetime(comprobantes_historicos['Mes'], format='%Y-%m') >= start_date) &
-                    (pd.to_datetime(comprobantes_historicos['Mes'], format='%Y-%m') <= end_date)
-                ]
+        selected_razon_social = st.selectbox(
+            "Seleccione Razón Social", 
+            comprobantes_historicos['Razon Social'].unique(), 
+            key="ventas_compras_selectbox"
+        )
+
         filtered_data = comprobantes_historicos[comprobantes_historicos['Razon Social'] == selected_razon_social]
         if not filtered_data.empty:         
             chart = alt.Chart(filtered_data).mark_bar().encode(
