@@ -35,7 +35,7 @@ def show_page(username):
     compras_por_empresa_proveedor = filter_restricted_data(compras_por_empresa_proveedor, username)
 
     # Date range selection
-    st.info("En esta sección se mostrará la información histórica de períodos anteriores.")
+    st.info("Datos Históricos en base a Comprobantes de ARCA")
     col1, col2 = st.columns(2)
     with col1:
         start_date = st.date_input("Fecha de inicio", value=None)
