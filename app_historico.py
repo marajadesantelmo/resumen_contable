@@ -64,7 +64,19 @@ def show_page(username):
     with tab1:
         st.subheader("Ventas y Compras")
         st.dataframe(comprobantes_por_empresa)
-        st.bar_chart(comprobantes_por_empresa.groupby('Sociedad')['Importe Total'].sum())
+        selected_razon_social = st.selectbox("Seleccione Razón Social", comprobantes_por_empresa['Razon Social'].unique())
+        filtered_data = comprobantes_por_empresa[comprobantes_por_empresa['Razon Social'] == selected_razon_social]
+        
+        if not filtered_data.empty:
+            filtered_data['Mes'] = pd.to_datetime(filtered_data['Mes'], format='%m-%Y')
+            numeric_columns = filtered_data.select_dtypes(include='number').columns
+            
+            st.line_chart(
+            filtered_data.set_index('Mes')[numeric_columns],
+            use_container_width=True
+            )
+        else:
+            st.warning("No hay datos disponibles para la Razón Social seleccionada.")
 
     with tab2:
         st.subheader("Ventas por cliente")
