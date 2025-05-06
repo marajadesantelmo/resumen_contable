@@ -112,7 +112,7 @@ def show_page(username):
     with tab3:
         st.subheader("Ventas por cliente")
         st.dataframe(ventas_por_empresa_cliente)
-        st.bar_chart(ventas_por_empresa_cliente.groupby('Empresa')['Importe Total'].sum())
+        st.bar_chart(ventas_por_empresa_cliente.groupby('Empresa')['Neto','IVA'].sum())
 
     with tab4:
         st.subheader("Compras por proveedor")
