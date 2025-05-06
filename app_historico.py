@@ -55,7 +55,9 @@ def show_page(username):
            st.bar_chart(filtered_data, x="Mes", y="Monto", color="Variable", stack=False)
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
-        st.dataframe(comprobantes_historicos)
+        comprobantes_historicos['Monto'] = comprobantes_historicos['Monto'].apply(format_currency)
+        pivot_data = filtered_data.pivot(index='Mes', columns='Variable', values='Monto')
+        st.dataframe(pivot_data)
 
     with tab2:
 
@@ -66,7 +68,7 @@ def show_page(username):
             key="iva_selectbox"
         )
         filtered_data = comprobantes_historicos[(comprobantes_historicos['Razon Social'] == selected_razon_social) &
-                                                (comprobantes_historicos['Variable'].isin(['IVA Ventas', 'IVA Compras']))]
+                                                (comprobantes_historicos['Variable'].isin(['IVA Ventas', 'IVA Compras', 'Saldo IVA']))]
         if not filtered_data.empty:         
            st.bar_chart(filtered_data, x="Mes", y="Monto", color="Variable", stack=False)
         else:
