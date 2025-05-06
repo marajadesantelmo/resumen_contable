@@ -54,17 +54,17 @@ def show_page(username):
 
         filtered_data = comprobantes_historicos[comprobantes_historicos['Razon Social'] == selected_razon_social]
         if not filtered_data.empty:         
-            chart = alt.Chart(filtered_data).mark_bar().encode(
-                x='Mes:T',
-                y=alt.Y('Neto Compras:Q', title='Neto Compras'),
-                color=alt.value('steelblue')
+            melted_data = filtered_data.melt(id_vars=['Mes'], value_vars=['Neto Compras', 'Neto Ventas'], 
+                                             var_name='Tipo', value_name='Monto')
+            chart = alt.Chart(melted_data).mark_bar().encode(
+                x=alt.X('Mes:T', title='Mes'),
+                y=alt.Y('Monto:Q', title='Monto'),
+                color=alt.Color('Tipo:N', scale=alt.Scale(domain=['Neto Compras', 'Neto Ventas'], 
+                                                          range=['steelblue', 'orange'])),
+                column=alt.Column('Tipo:N', title=None)
             ).properties(
-                width=600,
+                width=300,
                 height=400
-            ) + alt.Chart(filtered_data).mark_bar().encode(
-                x='Mes:T',
-                y=alt.Y('Neto Ventas:Q', title='Neto Ventas'),
-                color=alt.value('orange')
             )
 
             st.altair_chart(chart, use_container_width=True)
