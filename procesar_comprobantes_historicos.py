@@ -154,8 +154,16 @@ numeric_columns = ['Neto Ventas', 'IVA Ventas', 'Neto Compras', 'IVA Compras']
 comprobantes_historico[numeric_columns] = comprobantes_historico[numeric_columns].fillna(0).round(0).astype(int)
 comprobantes_historico['Saldo IVA'] = comprobantes_historico['IVA Ventas'] - comprobantes_historico['IVA Compras']
 
+# Melt the DataFrame to reshape it
+comprobantes_historicos = comprobantes_historico.melt(
+    id_vars=['Razon Social', 'Mes'], 
+    value_vars=['Neto Ventas', 'IVA Ventas', 'Neto Compras', 'IVA Compras', 'Saldo IVA'],
+    var_name='Variable', 
+    value_name='Monto'
+)
+
 # Guardar los DataFrames en CSV
-comprobantes_historico.to_csv('data/comprobantes_historicos.csv', index=False)
+comprobantes_historicos.to_csv('data/comprobantes_historicos.csv', index=False)
 ventas_por_empresa.to_csv('data/ventas_historico_mensual.csv', index=False)
 compras_por_empresa.to_csv('data/compras_historico_mensual.csv', index=False)
 ventas_por_empresa_cliente.to_csv('data/ventas_historico_cliente.csv', index=False)

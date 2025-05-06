@@ -1,61 +1,301 @@
-Razon Social,Mes,Neto Ventas,IVA Ventas,Neto Compras,IVA Compras,Saldo IVA
-Deposito Avellaneda Sur,2024-01,437055736,89937250,144764558,29863736,60073514
-Deposito Avellaneda Sur,2024-02,341016511,69709546,215919497,44541183,25168363
-Deposito Avellaneda Sur,2024-03,564133801,112493417,191497141,38392590,74100827
-Deposito Avellaneda Sur,2024-04,337198631,65320189,190614307,37022819,28297370
-Deposito Avellaneda Sur,2024-05,677859795,128482205,174241876,35940830,92541375
-Deposito Avellaneda Sur,2024-06,358029597,73883938,165303905,34380693,39503245
-Deposito Avellaneda Sur,2024-07,470416431,95210226,161186087,30922745,64287481
-Deposito Avellaneda Sur,2024-08,337094893,70032887,259869746,53284311,16748576
-Deposito Avellaneda Sur,2024-09,379381921,78650096,229942984,47022193,31627903
-Deposito Avellaneda Sur,2024-10,468093466,97286603,256497429,52694913,44591690
-Deposito Avellaneda Sur,2024-11,326906901,65663951,311096936,63606526,2057425
-Deposito Avellaneda Sur,2024-12,435453478,87505912,363309739,74975988,12529924
-L A R M Argentina,2024-01,6144987,1172923,0,0,1172923
-L A R M Argentina,2024-02,41451999,3901060,0,0,3901060
-L A R M Argentina,2024-03,25398597,2610171,0,0,2610171
-L A R M Argentina,2024-04,22457379,2339657,0,0,2339657
-L A R M Argentina,2024-05,11673795,1808033,0,0,1808033
-L A R M Argentina,2024-06,86121596,3478800,0,0,3478800
-L A R M Argentina,2024-07,37637755,4886315,0,0,4886315
-L A R M Argentina,2024-08,33813824,2986309,0,0,2986309
-L A R M Argentina,2024-09,33048412,3055864,0,0,3055864
-L A R M Argentina,2024-10,29409861,3765567,0,0,3765567
-L A R M Argentina,2024-11,25530845,2991463,0,0,2991463
-L A R M Argentina,2024-12,126662435,8217097,0,0,8217097
-Liftvan International,2024-01,75136968,11565490,61171636,10623049,942441
-Liftvan International,2024-02,77069716,13016752,57239535,10771481,2245271
-Liftvan International,2024-03,94848268,7619920,68216949,13078626,-5458706
-Liftvan International,2024-04,98664876,16641603,63201568,11869246,4772357
-Liftvan International,2024-05,74409562,14672520,78550272,14388227,284293
-Liftvan International,2024-06,237168603,14078603,68380155,13704746,373857
-Liftvan International,2024-07,91959685,14153933,73588956,14375977,-222044
-Liftvan International,2024-08,203327614,30982655,68561786,13611142,17371513
-Liftvan International,2024-09,185807697,35741140,82395344,15792613,19948527
-Liftvan International,2024-10,137364545,26571890,128329709,25375273,1196617
-Liftvan International,2024-11,300025673,46419401,122378737,25128860,21290541
-Liftvan International,2024-12,127500326,24249690,113940423,23722575,527115
-Mercovan Argentina,2024-01,67039556,9347339,28636160,5844090,3503249
-Mercovan Argentina,2024-02,96836695,11658947,20783782,3642324,8016623
-Mercovan Argentina,2024-03,43305481,9088568,28253888,5276426,3812142
-Mercovan Argentina,2024-04,80862485,10861727,45051567,8560112,2301615
-Mercovan Argentina,2024-05,111453409,11878078,26306831,5286138,6591940
-Mercovan Argentina,2024-06,74461571,14397913,24095534,3941543,10456370
-Mercovan Argentina,2024-07,63914663,7327772,41892322,8267100,-939328
-Mercovan Argentina,2024-08,104477492,13743813,40461350,8218478,5525335
-Mercovan Argentina,2024-09,157633186,15781357,31072348,6177985,9603372
-Mercovan Argentina,2024-10,64580415,12925206,44485487,8807891,4117315
-Mercovan Argentina,2024-11,69172073,8056206,38216243,7641331,414875
-Mercovan Argentina,2024-12,211530337,24843235,40456125,8102008,16741227
-Viñas En Flor,2024-01,24935464,5236461,6598246,1263822,3972639
-Viñas En Flor,2024-02,40881665,8584185,13596220,2476485,6107700
-Viñas En Flor,2024-03,58160384,12213677,23105530,3312071,8901606
-Viñas En Flor,2024-04,41641006,8742764,21025117,3937701,4805063
-Viñas En Flor,2024-05,96671541,20301029,10723922,2408463,17892566
-Viñas En Flor,2024-06,65126359,13676526,11739072,2105760,11570766
-Viñas En Flor,2024-07,69402427,14569062,17738232,3305623,11263439
-Viñas En Flor,2024-08,135753952,28502797,21498989,4264537,24238260
-Viñas En Flor,2024-09,50934551,10696260,13704927,2633593,8062667
-Viñas En Flor,2024-10,66926009,14054478,16117068,3057232,10997246
-Viñas En Flor,2024-11,75486467,15852154,30040784,6010464,9841690
-Viñas En Flor,2024-12,47410352,9956168,6012192,1164808,8791360
+Razon Social,Mes,Variable,Monto
+Deposito Avellaneda Sur,2024-01,Neto Ventas,437055736
+Deposito Avellaneda Sur,2024-02,Neto Ventas,341016511
+Deposito Avellaneda Sur,2024-03,Neto Ventas,564133801
+Deposito Avellaneda Sur,2024-04,Neto Ventas,337198631
+Deposito Avellaneda Sur,2024-05,Neto Ventas,677859795
+Deposito Avellaneda Sur,2024-06,Neto Ventas,358029597
+Deposito Avellaneda Sur,2024-07,Neto Ventas,470416431
+Deposito Avellaneda Sur,2024-08,Neto Ventas,337094893
+Deposito Avellaneda Sur,2024-09,Neto Ventas,379381921
+Deposito Avellaneda Sur,2024-10,Neto Ventas,468093466
+Deposito Avellaneda Sur,2024-11,Neto Ventas,326906901
+Deposito Avellaneda Sur,2024-12,Neto Ventas,435453478
+L A R M Argentina,2024-01,Neto Ventas,6144987
+L A R M Argentina,2024-02,Neto Ventas,41451999
+L A R M Argentina,2024-03,Neto Ventas,25398597
+L A R M Argentina,2024-04,Neto Ventas,22457379
+L A R M Argentina,2024-05,Neto Ventas,11673795
+L A R M Argentina,2024-06,Neto Ventas,86121596
+L A R M Argentina,2024-07,Neto Ventas,37637755
+L A R M Argentina,2024-08,Neto Ventas,33813824
+L A R M Argentina,2024-09,Neto Ventas,33048412
+L A R M Argentina,2024-10,Neto Ventas,29409861
+L A R M Argentina,2024-11,Neto Ventas,25530845
+L A R M Argentina,2024-12,Neto Ventas,126662435
+Liftvan International,2024-01,Neto Ventas,75136968
+Liftvan International,2024-02,Neto Ventas,77069716
+Liftvan International,2024-03,Neto Ventas,94848268
+Liftvan International,2024-04,Neto Ventas,98664876
+Liftvan International,2024-05,Neto Ventas,74409562
+Liftvan International,2024-06,Neto Ventas,237168603
+Liftvan International,2024-07,Neto Ventas,91959685
+Liftvan International,2024-08,Neto Ventas,203327614
+Liftvan International,2024-09,Neto Ventas,185807697
+Liftvan International,2024-10,Neto Ventas,137364545
+Liftvan International,2024-11,Neto Ventas,300025673
+Liftvan International,2024-12,Neto Ventas,127500326
+Mercovan Argentina,2024-01,Neto Ventas,67039556
+Mercovan Argentina,2024-02,Neto Ventas,96836695
+Mercovan Argentina,2024-03,Neto Ventas,43305481
+Mercovan Argentina,2024-04,Neto Ventas,80862485
+Mercovan Argentina,2024-05,Neto Ventas,111453409
+Mercovan Argentina,2024-06,Neto Ventas,74461571
+Mercovan Argentina,2024-07,Neto Ventas,63914663
+Mercovan Argentina,2024-08,Neto Ventas,104477492
+Mercovan Argentina,2024-09,Neto Ventas,157633186
+Mercovan Argentina,2024-10,Neto Ventas,64580415
+Mercovan Argentina,2024-11,Neto Ventas,69172073
+Mercovan Argentina,2024-12,Neto Ventas,211530337
+Viñas En Flor,2024-01,Neto Ventas,24935464
+Viñas En Flor,2024-02,Neto Ventas,40881665
+Viñas En Flor,2024-03,Neto Ventas,58160384
+Viñas En Flor,2024-04,Neto Ventas,41641006
+Viñas En Flor,2024-05,Neto Ventas,96671541
+Viñas En Flor,2024-06,Neto Ventas,65126359
+Viñas En Flor,2024-07,Neto Ventas,69402427
+Viñas En Flor,2024-08,Neto Ventas,135753952
+Viñas En Flor,2024-09,Neto Ventas,50934551
+Viñas En Flor,2024-10,Neto Ventas,66926009
+Viñas En Flor,2024-11,Neto Ventas,75486467
+Viñas En Flor,2024-12,Neto Ventas,47410352
+Deposito Avellaneda Sur,2024-01,IVA Ventas,89937250
+Deposito Avellaneda Sur,2024-02,IVA Ventas,69709546
+Deposito Avellaneda Sur,2024-03,IVA Ventas,112493417
+Deposito Avellaneda Sur,2024-04,IVA Ventas,65320189
+Deposito Avellaneda Sur,2024-05,IVA Ventas,128482205
+Deposito Avellaneda Sur,2024-06,IVA Ventas,73883938
+Deposito Avellaneda Sur,2024-07,IVA Ventas,95210226
+Deposito Avellaneda Sur,2024-08,IVA Ventas,70032887
+Deposito Avellaneda Sur,2024-09,IVA Ventas,78650096
+Deposito Avellaneda Sur,2024-10,IVA Ventas,97286603
+Deposito Avellaneda Sur,2024-11,IVA Ventas,65663951
+Deposito Avellaneda Sur,2024-12,IVA Ventas,87505912
+L A R M Argentina,2024-01,IVA Ventas,1172923
+L A R M Argentina,2024-02,IVA Ventas,3901060
+L A R M Argentina,2024-03,IVA Ventas,2610171
+L A R M Argentina,2024-04,IVA Ventas,2339657
+L A R M Argentina,2024-05,IVA Ventas,1808033
+L A R M Argentina,2024-06,IVA Ventas,3478800
+L A R M Argentina,2024-07,IVA Ventas,4886315
+L A R M Argentina,2024-08,IVA Ventas,2986309
+L A R M Argentina,2024-09,IVA Ventas,3055864
+L A R M Argentina,2024-10,IVA Ventas,3765567
+L A R M Argentina,2024-11,IVA Ventas,2991463
+L A R M Argentina,2024-12,IVA Ventas,8217097
+Liftvan International,2024-01,IVA Ventas,11565490
+Liftvan International,2024-02,IVA Ventas,13016752
+Liftvan International,2024-03,IVA Ventas,7619920
+Liftvan International,2024-04,IVA Ventas,16641603
+Liftvan International,2024-05,IVA Ventas,14672520
+Liftvan International,2024-06,IVA Ventas,14078603
+Liftvan International,2024-07,IVA Ventas,14153933
+Liftvan International,2024-08,IVA Ventas,30982655
+Liftvan International,2024-09,IVA Ventas,35741140
+Liftvan International,2024-10,IVA Ventas,26571890
+Liftvan International,2024-11,IVA Ventas,46419401
+Liftvan International,2024-12,IVA Ventas,24249690
+Mercovan Argentina,2024-01,IVA Ventas,9347339
+Mercovan Argentina,2024-02,IVA Ventas,11658947
+Mercovan Argentina,2024-03,IVA Ventas,9088568
+Mercovan Argentina,2024-04,IVA Ventas,10861727
+Mercovan Argentina,2024-05,IVA Ventas,11878078
+Mercovan Argentina,2024-06,IVA Ventas,14397913
+Mercovan Argentina,2024-07,IVA Ventas,7327772
+Mercovan Argentina,2024-08,IVA Ventas,13743813
+Mercovan Argentina,2024-09,IVA Ventas,15781357
+Mercovan Argentina,2024-10,IVA Ventas,12925206
+Mercovan Argentina,2024-11,IVA Ventas,8056206
+Mercovan Argentina,2024-12,IVA Ventas,24843235
+Viñas En Flor,2024-01,IVA Ventas,5236461
+Viñas En Flor,2024-02,IVA Ventas,8584185
+Viñas En Flor,2024-03,IVA Ventas,12213677
+Viñas En Flor,2024-04,IVA Ventas,8742764
+Viñas En Flor,2024-05,IVA Ventas,20301029
+Viñas En Flor,2024-06,IVA Ventas,13676526
+Viñas En Flor,2024-07,IVA Ventas,14569062
+Viñas En Flor,2024-08,IVA Ventas,28502797
+Viñas En Flor,2024-09,IVA Ventas,10696260
+Viñas En Flor,2024-10,IVA Ventas,14054478
+Viñas En Flor,2024-11,IVA Ventas,15852154
+Viñas En Flor,2024-12,IVA Ventas,9956168
+Deposito Avellaneda Sur,2024-01,Neto Compras,144764558
+Deposito Avellaneda Sur,2024-02,Neto Compras,215919497
+Deposito Avellaneda Sur,2024-03,Neto Compras,191497141
+Deposito Avellaneda Sur,2024-04,Neto Compras,190614307
+Deposito Avellaneda Sur,2024-05,Neto Compras,174241876
+Deposito Avellaneda Sur,2024-06,Neto Compras,165303905
+Deposito Avellaneda Sur,2024-07,Neto Compras,161186087
+Deposito Avellaneda Sur,2024-08,Neto Compras,259869746
+Deposito Avellaneda Sur,2024-09,Neto Compras,229942984
+Deposito Avellaneda Sur,2024-10,Neto Compras,256497429
+Deposito Avellaneda Sur,2024-11,Neto Compras,311096936
+Deposito Avellaneda Sur,2024-12,Neto Compras,363309739
+L A R M Argentina,2024-01,Neto Compras,0
+L A R M Argentina,2024-02,Neto Compras,0
+L A R M Argentina,2024-03,Neto Compras,0
+L A R M Argentina,2024-04,Neto Compras,0
+L A R M Argentina,2024-05,Neto Compras,0
+L A R M Argentina,2024-06,Neto Compras,0
+L A R M Argentina,2024-07,Neto Compras,0
+L A R M Argentina,2024-08,Neto Compras,0
+L A R M Argentina,2024-09,Neto Compras,0
+L A R M Argentina,2024-10,Neto Compras,0
+L A R M Argentina,2024-11,Neto Compras,0
+L A R M Argentina,2024-12,Neto Compras,0
+Liftvan International,2024-01,Neto Compras,61171636
+Liftvan International,2024-02,Neto Compras,57239535
+Liftvan International,2024-03,Neto Compras,68216949
+Liftvan International,2024-04,Neto Compras,63201568
+Liftvan International,2024-05,Neto Compras,78550272
+Liftvan International,2024-06,Neto Compras,68380155
+Liftvan International,2024-07,Neto Compras,73588956
+Liftvan International,2024-08,Neto Compras,68561786
+Liftvan International,2024-09,Neto Compras,82395344
+Liftvan International,2024-10,Neto Compras,128329709
+Liftvan International,2024-11,Neto Compras,122378737
+Liftvan International,2024-12,Neto Compras,113940423
+Mercovan Argentina,2024-01,Neto Compras,28636160
+Mercovan Argentina,2024-02,Neto Compras,20783782
+Mercovan Argentina,2024-03,Neto Compras,28253888
+Mercovan Argentina,2024-04,Neto Compras,45051567
+Mercovan Argentina,2024-05,Neto Compras,26306831
+Mercovan Argentina,2024-06,Neto Compras,24095534
+Mercovan Argentina,2024-07,Neto Compras,41892322
+Mercovan Argentina,2024-08,Neto Compras,40461350
+Mercovan Argentina,2024-09,Neto Compras,31072348
+Mercovan Argentina,2024-10,Neto Compras,44485487
+Mercovan Argentina,2024-11,Neto Compras,38216243
+Mercovan Argentina,2024-12,Neto Compras,40456125
+Viñas En Flor,2024-01,Neto Compras,6598246
+Viñas En Flor,2024-02,Neto Compras,13596220
+Viñas En Flor,2024-03,Neto Compras,23105530
+Viñas En Flor,2024-04,Neto Compras,21025117
+Viñas En Flor,2024-05,Neto Compras,10723922
+Viñas En Flor,2024-06,Neto Compras,11739072
+Viñas En Flor,2024-07,Neto Compras,17738232
+Viñas En Flor,2024-08,Neto Compras,21498989
+Viñas En Flor,2024-09,Neto Compras,13704927
+Viñas En Flor,2024-10,Neto Compras,16117068
+Viñas En Flor,2024-11,Neto Compras,30040784
+Viñas En Flor,2024-12,Neto Compras,6012192
+Deposito Avellaneda Sur,2024-01,IVA Compras,29863736
+Deposito Avellaneda Sur,2024-02,IVA Compras,44541183
+Deposito Avellaneda Sur,2024-03,IVA Compras,38392590
+Deposito Avellaneda Sur,2024-04,IVA Compras,37022819
+Deposito Avellaneda Sur,2024-05,IVA Compras,35940830
+Deposito Avellaneda Sur,2024-06,IVA Compras,34380693
+Deposito Avellaneda Sur,2024-07,IVA Compras,30922745
+Deposito Avellaneda Sur,2024-08,IVA Compras,53284311
+Deposito Avellaneda Sur,2024-09,IVA Compras,47022193
+Deposito Avellaneda Sur,2024-10,IVA Compras,52694913
+Deposito Avellaneda Sur,2024-11,IVA Compras,63606526
+Deposito Avellaneda Sur,2024-12,IVA Compras,74975988
+L A R M Argentina,2024-01,IVA Compras,0
+L A R M Argentina,2024-02,IVA Compras,0
+L A R M Argentina,2024-03,IVA Compras,0
+L A R M Argentina,2024-04,IVA Compras,0
+L A R M Argentina,2024-05,IVA Compras,0
+L A R M Argentina,2024-06,IVA Compras,0
+L A R M Argentina,2024-07,IVA Compras,0
+L A R M Argentina,2024-08,IVA Compras,0
+L A R M Argentina,2024-09,IVA Compras,0
+L A R M Argentina,2024-10,IVA Compras,0
+L A R M Argentina,2024-11,IVA Compras,0
+L A R M Argentina,2024-12,IVA Compras,0
+Liftvan International,2024-01,IVA Compras,10623049
+Liftvan International,2024-02,IVA Compras,10771481
+Liftvan International,2024-03,IVA Compras,13078626
+Liftvan International,2024-04,IVA Compras,11869246
+Liftvan International,2024-05,IVA Compras,14388227
+Liftvan International,2024-06,IVA Compras,13704746
+Liftvan International,2024-07,IVA Compras,14375977
+Liftvan International,2024-08,IVA Compras,13611142
+Liftvan International,2024-09,IVA Compras,15792613
+Liftvan International,2024-10,IVA Compras,25375273
+Liftvan International,2024-11,IVA Compras,25128860
+Liftvan International,2024-12,IVA Compras,23722575
+Mercovan Argentina,2024-01,IVA Compras,5844090
+Mercovan Argentina,2024-02,IVA Compras,3642324
+Mercovan Argentina,2024-03,IVA Compras,5276426
+Mercovan Argentina,2024-04,IVA Compras,8560112
+Mercovan Argentina,2024-05,IVA Compras,5286138
+Mercovan Argentina,2024-06,IVA Compras,3941543
+Mercovan Argentina,2024-07,IVA Compras,8267100
+Mercovan Argentina,2024-08,IVA Compras,8218478
+Mercovan Argentina,2024-09,IVA Compras,6177985
+Mercovan Argentina,2024-10,IVA Compras,8807891
+Mercovan Argentina,2024-11,IVA Compras,7641331
+Mercovan Argentina,2024-12,IVA Compras,8102008
+Viñas En Flor,2024-01,IVA Compras,1263822
+Viñas En Flor,2024-02,IVA Compras,2476485
+Viñas En Flor,2024-03,IVA Compras,3312071
+Viñas En Flor,2024-04,IVA Compras,3937701
+Viñas En Flor,2024-05,IVA Compras,2408463
+Viñas En Flor,2024-06,IVA Compras,2105760
+Viñas En Flor,2024-07,IVA Compras,3305623
+Viñas En Flor,2024-08,IVA Compras,4264537
+Viñas En Flor,2024-09,IVA Compras,2633593
+Viñas En Flor,2024-10,IVA Compras,3057232
+Viñas En Flor,2024-11,IVA Compras,6010464
+Viñas En Flor,2024-12,IVA Compras,1164808
+Deposito Avellaneda Sur,2024-01,Saldo IVA,60073514
+Deposito Avellaneda Sur,2024-02,Saldo IVA,25168363
+Deposito Avellaneda Sur,2024-03,Saldo IVA,74100827
+Deposito Avellaneda Sur,2024-04,Saldo IVA,28297370
+Deposito Avellaneda Sur,2024-05,Saldo IVA,92541375
+Deposito Avellaneda Sur,2024-06,Saldo IVA,39503245
+Deposito Avellaneda Sur,2024-07,Saldo IVA,64287481
+Deposito Avellaneda Sur,2024-08,Saldo IVA,16748576
+Deposito Avellaneda Sur,2024-09,Saldo IVA,31627903
+Deposito Avellaneda Sur,2024-10,Saldo IVA,44591690
+Deposito Avellaneda Sur,2024-11,Saldo IVA,2057425
+Deposito Avellaneda Sur,2024-12,Saldo IVA,12529924
+L A R M Argentina,2024-01,Saldo IVA,1172923
+L A R M Argentina,2024-02,Saldo IVA,3901060
+L A R M Argentina,2024-03,Saldo IVA,2610171
+L A R M Argentina,2024-04,Saldo IVA,2339657
+L A R M Argentina,2024-05,Saldo IVA,1808033
+L A R M Argentina,2024-06,Saldo IVA,3478800
+L A R M Argentina,2024-07,Saldo IVA,4886315
+L A R M Argentina,2024-08,Saldo IVA,2986309
+L A R M Argentina,2024-09,Saldo IVA,3055864
+L A R M Argentina,2024-10,Saldo IVA,3765567
+L A R M Argentina,2024-11,Saldo IVA,2991463
+L A R M Argentina,2024-12,Saldo IVA,8217097
+Liftvan International,2024-01,Saldo IVA,942441
+Liftvan International,2024-02,Saldo IVA,2245271
+Liftvan International,2024-03,Saldo IVA,-5458706
+Liftvan International,2024-04,Saldo IVA,4772357
+Liftvan International,2024-05,Saldo IVA,284293
+Liftvan International,2024-06,Saldo IVA,373857
+Liftvan International,2024-07,Saldo IVA,-222044
+Liftvan International,2024-08,Saldo IVA,17371513
+Liftvan International,2024-09,Saldo IVA,19948527
+Liftvan International,2024-10,Saldo IVA,1196617
+Liftvan International,2024-11,Saldo IVA,21290541
+Liftvan International,2024-12,Saldo IVA,527115
+Mercovan Argentina,2024-01,Saldo IVA,3503249
+Mercovan Argentina,2024-02,Saldo IVA,8016623
+Mercovan Argentina,2024-03,Saldo IVA,3812142
+Mercovan Argentina,2024-04,Saldo IVA,2301615
+Mercovan Argentina,2024-05,Saldo IVA,6591940
+Mercovan Argentina,2024-06,Saldo IVA,10456370
+Mercovan Argentina,2024-07,Saldo IVA,-939328
+Mercovan Argentina,2024-08,Saldo IVA,5525335
+Mercovan Argentina,2024-09,Saldo IVA,9603372
+Mercovan Argentina,2024-10,Saldo IVA,4117315
+Mercovan Argentina,2024-11,Saldo IVA,414875
+Mercovan Argentina,2024-12,Saldo IVA,16741227
+Viñas En Flor,2024-01,Saldo IVA,3972639
+Viñas En Flor,2024-02,Saldo IVA,6107700
+Viñas En Flor,2024-03,Saldo IVA,8901606
+Viñas En Flor,2024-04,Saldo IVA,4805063
+Viñas En Flor,2024-05,Saldo IVA,17892566
+Viñas En Flor,2024-06,Saldo IVA,11570766
+Viñas En Flor,2024-07,Saldo IVA,11263439
+Viñas En Flor,2024-08,Saldo IVA,24238260
+Viñas En Flor,2024-09,Saldo IVA,8062667
+Viñas En Flor,2024-10,Saldo IVA,10997246
+Viñas En Flor,2024-11,Saldo IVA,9841690
+Viñas En Flor,2024-12,Saldo IVA,8791360

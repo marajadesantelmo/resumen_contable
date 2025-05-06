@@ -54,20 +54,7 @@ def show_page(username):
 
         filtered_data = comprobantes_historicos[comprobantes_historicos['Razon Social'] == selected_razon_social]
         if not filtered_data.empty:         
-            melted_data = filtered_data.melt(id_vars=['Mes'], value_vars=['Neto Compras', 'Neto Ventas'], 
-                                             var_name='Tipo', value_name='Monto')
-            chart = alt.Chart(melted_data).mark_bar().encode(
-                x=alt.X('Mes:T', title='Mes'),
-                y=alt.Y('Monto:Q', title='Monto'),
-                color=alt.Color('Tipo:N', scale=alt.Scale(domain=['Neto Compras', 'Neto Ventas'], 
-                                                          range=['steelblue', 'orange'])),
-                column=alt.Column('Tipo:N', title=None)
-            ).properties(
-                width=300,
-                height=400
-            )
-
-            st.altair_chart(chart, use_container_width=True)
+           st.bar_chart(filtered_data, x="Mes", y="Monto", color="Variable", stack=False)
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
         st.dataframe(comprobantes_historicos)
