@@ -59,7 +59,7 @@ def show_page(username):
 
     # Display datasets
     st.header("Evolución Histórica")
-    tab1, tab2, tab3 = st.tabs(["Ventas y Compras", "Clientes", "Proveedores"])
+    tab1, tab2, tab3, tab4 = st.tabs(["Ventas y Compras", "IVA", "Clientes", "Proveedores"])
 
     with tab1:
         st.subheader("Ventas y Compras")
@@ -71,19 +71,33 @@ def show_page(username):
             filtered_data['Mes'] = pd.to_datetime(filtered_data['Mes'], format='%m-%Y')
             numeric_columns = filtered_data.select_dtypes(include='number').columns
             
-            st.line_chart(
-            filtered_data.set_index('Mes')[numeric_columns],
+            st.bar_chart(
+            filtered_data.set_index('Mes')[['Neto Compras', 'Neto Ventas']],
             use_container_width=True
             )
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
 
     with tab2:
+        st.subheader("IVA")
+        st.dataframe(comprobantes_por_empresa[['Razon Social', 'Mes', 'IVA Ventas', 'IVA Compras', 'Saldo IVA']])
+        selected_razon_social = st.selectbox("Seleccione Razón Social", comprobantes_por_empresa['Razon Social'].unique())
+        filtered_data = comprobantes_por_empresa[comprobantes_por_empresa['Razon Social'] == selected_razon_social]
+        
+        if not filtered_data.empty:
+            filtered_data['Mes'] = pd.to_datetime(filtered_data['Mes'], format='%m-%Y')
+            st.bar_chart(
+                filtered_data.set_index('Mes')[['IVA Ventas', 'IVA Compras', 'Saldo IVA']],
+                use_container_width=True
+            )
+        else:
+            st.warning("No hay datos disponibles para la Razón Social seleccionada.")
+    with tab3:
         st.subheader("Ventas por cliente")
         st.dataframe(ventas_por_empresa_cliente)
-        st.bar_chart(ventas_por_empresa_cliente.groupby('Cliente')['Importe Total'].sum())
+        st.bar_chart(ventas_por_empresa_cliente.groupby('Empresa')['Importe Total'].sum())
 
-    with tab3:
+    with tab4:
         st.subheader("Compras por proveedor")
         st.dataframe(compras_por_empresa_proveedor)
-        st.bar_chart(compras_por_empresa_proveedor.groupby('Proveedor')['Importe Total'].sum())
+        st.bar_chart(compras_por_empresa_proveedor.groupby('Empresa')['Importe Total'].sum())

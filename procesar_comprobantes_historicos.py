@@ -152,6 +152,8 @@ comprobantes_historico = ventas_por_empresa.merge(compras_por_empresa, on=['Razo
 # Round and convert numeric columns to integers
 numeric_columns = ['Neto Ventas', 'IVA Ventas', 'Neto Compras', 'IVA Compras']
 comprobantes_historico[numeric_columns] = comprobantes_historico[numeric_columns].fillna(0).round(0).astype(int)
+comprobantes_historico['Saldo IVA'] = comprobantes_historico['IVA Ventas'] - comprobantes_historico['IVA Compras']
+
 # Guardar los DataFrames en CSV
 comprobantes_historico.to_csv('data/comprobantes_historicos.csv', index=False)
 ventas_por_empresa.to_csv('data/ventas_historico_mensual.csv', index=False)
