@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from io import BytesIO
+import altair as alt
 
 def format_currency(x):
     """Format number as Argentine peso currency"""
@@ -67,12 +68,20 @@ def show_page(username):
         filtered_data = comprobantes_historicos[comprobantes_historicos['Razon Social'] == selected_razon_social]
         if not filtered_data.empty:
             filtered_data['Mes'] = pd.to_datetime(filtered_data['Mes'], format='%m-%Y')          
-            st.bar_chart(
-            filtered_data.set_index('Mes')[['Neto Compras', 'Neto Ventas']],
-            use_container_width=True,
-            height=400,
-            stacked=False
+            chart = alt.Chart(filtered_data).mark_bar().encode(
+                x='Mes:T',
+                y=alt.Y('Neto Compras:Q', title='Neto Compras'),
+                color=alt.value('steelblue')
+            ).properties(
+                width=600,
+                height=400
+            ) + alt.Chart(filtered_data).mark_bar().encode(
+                x='Mes:T',
+                y=alt.Y('Neto Ventas:Q', title='Neto Ventas'),
+                color=alt.value('orange')
             )
+
+            st.altair_chart(chart, use_container_width=True)
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
         st.dataframe(comprobantes_historicos)
