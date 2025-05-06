@@ -70,8 +70,7 @@ def show_page(username):
             key="ventas_compras_selectbox"
         )
         filtered_data = comprobantes_historicos[comprobantes_historicos['Razon Social'] == selected_razon_social]
-        if not filtered_data.empty:
-            filtered_data['Mes'] = pd.to_datetime(filtered_data['Mes'], format='%m-%Y')          
+        if not filtered_data.empty:         
             chart = alt.Chart(filtered_data).mark_bar().encode(
                 x='Mes:T',
                 y=alt.Y('Neto Compras:Q', title='Neto Compras'),
