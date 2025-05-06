@@ -24,32 +24,67 @@ def filter_restricted_data(df, username):
 def show_page(username):
     st.title("Resumen Contable - Histórico")
     
-    # This is a placeholder for the "Histórico" page
-    # It will display historical data with options to select date ranges
-    
+    # Load datasets
+    emitidos_historico = pd.read_csv('data/historico_procesado/emitidos_historico.csv')
+    recibidos_historico = pd.read_csv('data/historico_procesado/recibidos_historico.csv')
+    ventas_por_empresa = pd.read_csv('data/ventas_historico_mensual.csv')
+    compras_por_empresa = pd.read_csv('data/compras_historico_mensual.csv')
+    ventas_por_empresa_cliente = pd.read_csv('data/ventas_historico_cliente.csv')
+    compras_por_empresa_proveedor = pd.read_csv('data/compras_historico_proveedor.csv')
+
+    # Filter data based on username
+    emitidos_historico = filter_restricted_data(emitidos_historico, username)
+    recibidos_historico = filter_restricted_data(recibidos_historico, username)
+    ventas_por_empresa = filter_restricted_data(ventas_por_empresa, username)
+    compras_por_empresa = filter_restricted_data(compras_por_empresa, username)
+    ventas_por_empresa_cliente = filter_restricted_data(ventas_por_empresa_cliente, username)
+    compras_por_empresa_proveedor = filter_restricted_data(compras_por_empresa_proveedor, username)
+
+    # Date range selection
     st.info("En esta sección se mostrará la información histórica de períodos anteriores.")
-    st.write("Esta sección está en desarrollo y pronto estará disponible.")
-    
-    # Example placeholder for date range selection
     col1, col2 = st.columns(2)
     with col1:
-        st.date_input("Fecha de inicio", value=None)
+        start_date = st.date_input("Fecha de inicio", value=None)
     with col2:
-        st.date_input("Fecha de fin", value=None)
-    
-    # Placeholder for company selection
-    st.selectbox("Seleccionar Empresa", options=["Todas las empresas"])
-    
-    # Example placeholder for historical data visualization
+        end_date = st.date_input("Fecha de fin", value=None)
+
+    # Filter datasets by date range if selected
+    if start_date and end_date:
+        emitidos_historico = emitidos_historico[
+            (pd.to_datetime(emitidos_historico['Fecha de Emisión']) >= start_date) &
+            (pd.to_datetime(emitidos_historico['Fecha de Emisión']) <= end_date)
+        ]
+        recibidos_historico = recibidos_historico[
+            (pd.to_datetime(recibidos_historico['Fecha de Emisión']) >= start_date) &
+            (pd.to_datetime(recibidos_historico['Fecha de Emisión']) <= end_date)
+        ]
+        ventas_por_empresa = ventas_por_empresa[
+            (pd.to_datetime(ventas_por_empresa['Mes'], format='%m-%Y') >= start_date) &
+            (pd.to_datetime(ventas_por_empresa['Mes'], format='%m-%Y') <= end_date)
+        ]
+        compras_por_empresa = compras_por_empresa[
+            (pd.to_datetime(compras_por_empresa['Mes'], format='%m-%Y') >= start_date) &
+            (pd.to_datetime(compras_por_empresa['Mes'], format='%m-%Y') <= end_date)
+        ]
+
+    # Display datasets
     st.header("Evolución Histórica")
-    st.write("Aquí se mostrarán gráficos de evolución de los principales indicadores a lo largo del tiempo.")
-    
-    # Example tabs for different historical views
-    tab1, tab2, tab3 = st.tabs(["Resumen Mensual", "Comparativa Interanual", "Tendencias"])
-    
+    tab1, tab2, tab3 = st.tabs(["Emitidos y Recibidos", "Ventas y Compras", "Clientes y Proveedores"])
+
     with tab1:
-        st.write("Vista de resúmenes mensuales")
+        st.subheader("Emitidos Histórico")
+        st.dataframe(emitidos_historico)
+        st.subheader("Recibidos Histórico")
+        st.dataframe(recibidos_historico)
+
     with tab2:
-        st.write("Comparativa entre períodos similares de diferentes años")
+        st.subheader("Ventas por Empresa")
+        st.dataframe(ventas_por_empresa)
+        st.subheader("Compras por Empresa")
+        st.dataframe(compras_por_empresa)
+
     with tab3:
-        st.write("Análisis de tendencias")
+        st.subheader("Ventas por Empresa y Cliente")
+        st.dataframe(ventas_por_empresa_cliente)
+        st.subheader("Compras por Empresa y Proveedor")
+        st.dataframe(compras_por_empresa_proveedor)

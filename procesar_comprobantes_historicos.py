@@ -10,8 +10,7 @@ import re
 import time
 import shutil
 import zipfile
-print('Cambiando nombre de comprobantes')
-# Load the company IDs
+
 ids_empresas = pd.read_excel('data/cuits.xlsx')
 cuit_to_name = dict(zip(ids_empresas['cuit'].astype(str), ids_empresas['razon_social']))
 
@@ -76,9 +75,7 @@ cuit_pattern = re.compile(r'_(\d{11})_')
 cuit_numbers = [match.group(1) for file in csv_files if (match := cuit_pattern.search(file))]
 company_names = [cuit_to_name.get(cuit) for cuit in cuit_numbers]
 
-emitidos_dfs = []
-recididos_dfs = []
-
+comprobantes_dfs = []
 for csv_file in csv_files:
     match = cuit_pattern.search(csv_file)
     if match:
@@ -88,29 +85,73 @@ for csv_file in csv_files:
             data = pd.read_csv(os.path.join('data\\historico_raw\\unzipped', csv_file), sep=";")
             data['Razon Social'] = company_name
             if 'emitidos' in csv_file.lower():
-                emitidos_dfs.append(data)
+                data['Base'] = 'Emitidos'
             elif 'recibidos' in csv_file.lower():
-                recididos_dfs.append(data)
+                data['Base'] = 'Recibidos'
+            comprobantes_dfs.append(data)
         else:
             print(f'No company name found for CUIT: {cuit}')
 
-emitidos = pd.concat(emitidos_dfs, ignore_index=True)
-recibidos = pd.concat(recididos_dfs, ignore_index=True)
+comprobantes = pd.concat(comprobantes_dfs, ignore_index=True)
 
-
-## Procesamiento de los datos
+comprobantes['Empresa'] = comprobantes['Denominación Receptor'].fillna(comprobantes['Denominación Emisor']).str.strip().str.title()
 
 def format_number(x):
-    return x.replace(",", "X").replace(".", ",") 
+    return str(x).replace(",", ".") if pd.notnull(x) else x
 
-for column in ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA', 'Imp. Total']:
-    emitidos[column] = emitidos[column].apply(format_number)
+for column in ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA', 'Tipo Cambio']:
+    comprobantes[column] = comprobantes[column].apply(format_number).astype(float).fillna(0).round(0).astype(int)
+comprobantes['Neto'] = comprobantes['Imp. Neto Gravado'] + comprobantes['Imp. Neto No Gravado'] + comprobantes['Imp. Op. Exentas'] 
 
-emitidos['Neto'] = emitidos['Imp. Neto Gravado'] + emitidos['Imp. Neto No Gravado'] + emitidos['Imp. Op. Exentas'] 
-emitidos = emitidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Receptor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
-emitidos['Denominación Receptor'] = emitidos['Denominación Receptor'].str.strip().str.title()
+sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
+for replacement in sociedad_replacements:
+    comprobantes['Razon Social'] = comprobantes['Razon Social'].str.replace(replacement, '', regex=False).str.strip()
 
+comprobantes = comprobantes[['Fecha de Emisión', 'Base', 'Tipo de Comprobante', 
+    'Número Desde', 'Tipo Cambio', 'Moneda', 'Imp. Neto Gravado', 'Imp. Neto No Gravado',
+    'Imp. Op. Exentas', 'IVA', 'Razon Social', 'Empresa']]
 
+comprobantes.loc[comprobantes['Tipo de Comprobante'] == 3, ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA']] *= -1
+comprobantes.loc[comprobantes['Tipo de Comprobante'] == 8, ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA']] *= -1
 
+for column in ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas',  'IVA']:
+    comprobantes.loc[comprobantes['Moneda'] == 'USD', column] *= comprobantes.loc[comprobantes['Moneda'] == 'USD', 'Tipo Cambio']
 
-emitidos.columns
+comprobantes['Neto'] = comprobantes['Imp. Neto Gravado'] + comprobantes['Imp. Neto No Gravado'] + comprobantes['Imp. Op. Exentas']
+
+comprobantes['Empresa'] = comprobantes['Empresa'].fillna("-")
+comprobantes['Fecha de Emisión'] = pd.to_datetime(comprobantes['Fecha de Emisión'])
+comprobantes['Mes'] = comprobantes['Fecha de Emisión'].dt.strftime('%m-%Y')
+
+emitidos_historico = comprobantes[comprobantes['Base'] == 'Emitidos'].drop(columns=['Base'])
+recibidos_historico = comprobantes[comprobantes['Base'] == 'Recibidos'].drop(columns=['Base'])
+
+### Sacar datos para graficos
+
+ventas_por_empresa = emitidos_historico.groupby(['Razon Social', 'Mes']).agg({
+    'Neto': 'sum', 
+    'IVA': 'sum'
+}).reset_index()
+
+ventas_por_empresa_cliente = emitidos_historico.groupby(['Razon Social', 'Empresa', 'Mes']).agg({
+    'Neto': 'sum', 
+    'IVA': 'sum'
+}).reset_index()
+
+compras_por_empresa = recibidos_historico.groupby(['Razon Social', 'Mes']).agg({
+    'Neto': 'sum', 
+    'IVA': 'sum'
+}).reset_index()
+
+compras_por_empresa_proveedor = recibidos_historico.groupby(['Razon Social', 'Empresa', 'Mes']).agg({
+    'Neto': 'sum', 
+    'IVA': 'sum'
+}).reset_index()
+
+# Guardar los DataFrames en CSV
+emitidos_historico.to_csv(os.path.join(comprobantes_dir, 'emitidos_historico.csv'), index=False)
+recibidos_historico.to_csv(os.path.join(comprobantes_dir, 'recibidos_historico.csv'), index=False)
+ventas_por_empresa.to_csv('data/ventas_historico_mensual.csv', index=False)
+compras_por_empresa.to_csv('data/compras_historico_mensual.csv', index=False)
+ventas_por_empresa_cliente.to_csv('data/ventas_historico_cliente.csv', index=False)
+compras_por_empresa_proveedor.to_csv('data/compras_historico_proveedor.csv', index=False)
