@@ -148,9 +148,12 @@ compras_por_empresa_proveedor = recibidos_historico.groupby(['Razon Social', 'Em
     'IVA': 'sum'
 }).reset_index()
 
+comprobantes_historico = ventas_por_empresa.merge(compras_por_empresa, on=['Razon Social', 'Mes'], how='left', suffixes=(' Ventas', ' Compras'))
+# Round and convert numeric columns to integers
+numeric_columns = ['Neto Ventas', 'IVA Ventas', 'Neto Compras', 'IVA Compras']
+comprobantes_historico[numeric_columns] = comprobantes_historico[numeric_columns].fillna(0).round(0).astype(int)
 # Guardar los DataFrames en CSV
-emitidos_historico.to_csv(os.path.join(comprobantes_dir, 'emitidos_historico.csv'), index=False)
-recibidos_historico.to_csv(os.path.join(comprobantes_dir, 'recibidos_historico.csv'), index=False)
+comprobantes_historico.to_csv('data/comprobantes_historicos.csv', index=False)
 ventas_por_empresa.to_csv('data/ventas_historico_mensual.csv', index=False)
 compras_por_empresa.to_csv('data/compras_historico_mensual.csv', index=False)
 ventas_por_empresa_cliente.to_csv('data/ventas_historico_cliente.csv', index=False)
