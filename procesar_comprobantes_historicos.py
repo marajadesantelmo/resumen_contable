@@ -121,7 +121,7 @@ comprobantes['Neto'] = comprobantes['Imp. Neto Gravado'] + comprobantes['Imp. Ne
 
 comprobantes['Empresa'] = comprobantes['Empresa'].fillna("-")
 comprobantes['Fecha de Emisión'] = pd.to_datetime(comprobantes['Fecha de Emisión'])
-comprobantes['Mes'] = comprobantes['Fecha de Emisión'].dt.strftime('%m-%Y')
+comprobantes['Mes'] = comprobantes['Fecha de Emisión'].dt.strftime('%Y-%m')
 
 emitidos_historico = comprobantes[comprobantes['Base'] == 'Emitidos'].drop(columns=['Base'])
 recibidos_historico = comprobantes[comprobantes['Base'] == 'Recibidos'].drop(columns=['Base'])
