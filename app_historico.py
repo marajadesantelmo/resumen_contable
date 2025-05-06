@@ -25,12 +25,12 @@ def show_page(username):
     st.title("Resumen Contable - Histórico")
     
     # Load datasets
-    comprobantes_por_empresa = pd.read_csv('data/comprobantes_historicos.csv')
+    comprobantes_historicos = pd.read_csv('data/comprobantes_historicos.csv')
     ventas_por_empresa_cliente = pd.read_csv('data/ventas_historico_cliente.csv')
     compras_por_empresa_proveedor = pd.read_csv('data/compras_historico_proveedor.csv')
 
     # Filter data based on username
-    comprobantes_por_empresa = filter_restricted_data(comprobantes_por_empresa, username)
+    comprobantes_historicos = filter_restricted_data(comprobantes_historicos, username)
     ventas_por_empresa_cliente = filter_restricted_data(ventas_por_empresa_cliente, username)
     compras_por_empresa_proveedor = filter_restricted_data(compras_por_empresa_proveedor, username)
 
@@ -44,9 +44,9 @@ def show_page(username):
 
     # Filter datasets by date range if selected
     if start_date and end_date:
-        comprobantes_por_empresa = comprobantes_por_empresa[
-            (pd.to_datetime(comprobantes_por_empresa['Fecha de Emisión'], format='%d/%m/%Y') >= start_date) &
-            (pd.to_datetime(comprobantes_por_empresa['Fecha de Emisión'], format='%d/%m/%Y') <= end_date)
+        comprobantes_historicos = comprobantes_historicos[
+            (pd.to_datetime(comprobantes_historicos['Fecha de Emisión'], format='%d/%m/%Y') >= start_date) &
+            (pd.to_datetime(comprobantes_historicos['Fecha de Emisión'], format='%d/%m/%Y') <= end_date)
         ]
         ventas_por_empresa_cliente = ventas_por_empresa_cliente[
             (pd.to_datetime(ventas_por_empresa_cliente['Mes'], format='%m-%Y') >= start_date) &
@@ -63,32 +63,33 @@ def show_page(username):
 
     with tab1:
         st.subheader("Ventas y Compras")
-        st.dataframe(comprobantes_por_empresa)
-        selected_razon_social = st.selectbox("Seleccione Razón Social", comprobantes_por_empresa['Razon Social'].unique())
-        filtered_data = comprobantes_por_empresa[comprobantes_por_empresa['Razon Social'] == selected_razon_social]
-        
+        selected_razon_social = st.selectbox("Seleccione Razón Social", comprobantes_historicos['Razon Social'].unique())
+        filtered_data = comprobantes_historicos[comprobantes_historicos['Razon Social'] == selected_razon_social]
         if not filtered_data.empty:
-            filtered_data['Mes'] = pd.to_datetime(filtered_data['Mes'], format='%m-%Y')
-            numeric_columns = filtered_data.select_dtypes(include='number').columns
-            
+            filtered_data['Mes'] = pd.to_datetime(filtered_data['Mes'], format='%m-%Y')          
             st.bar_chart(
             filtered_data.set_index('Mes')[['Neto Compras', 'Neto Ventas']],
-            use_container_width=True
+            use_container_width=True,
+            height=400,
+            stacked=False
             )
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
+        st.dataframe(comprobantes_historicos)
 
     with tab2:
         st.subheader("IVA")
-        st.dataframe(comprobantes_por_empresa[['Razon Social', 'Mes', 'IVA Ventas', 'IVA Compras', 'Saldo IVA']])
-        selected_razon_social = st.selectbox("Seleccione Razón Social", comprobantes_por_empresa['Razon Social'].unique())
-        filtered_data = comprobantes_por_empresa[comprobantes_por_empresa['Razon Social'] == selected_razon_social]
+        st.dataframe(comprobantes_historicos[['Razon Social', 'Mes', 'IVA Ventas', 'IVA Compras', 'Saldo IVA']])
+        selected_razon_social = st.selectbox("Seleccione Razón Social", comprobantes_historicos['Razon Social'].unique())
+        filtered_data = comprobantes_historicos[comprobantes_historicos['Razon Social'] == selected_razon_social]
         
         if not filtered_data.empty:
             filtered_data['Mes'] = pd.to_datetime(filtered_data['Mes'], format='%m-%Y')
             st.bar_chart(
                 filtered_data.set_index('Mes')[['IVA Ventas', 'IVA Compras', 'Saldo IVA']],
-                use_container_width=True
+                use_container_width=True,
+            height=400,
+            stacked=False
             )
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
