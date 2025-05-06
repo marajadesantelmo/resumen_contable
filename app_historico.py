@@ -44,15 +44,13 @@ def show_page(username):
 
     with tab1:
         st.subheader("Ventas y Compras")
-
-
         selected_razon_social = st.selectbox(
             "Seleccione Razón Social", 
             comprobantes_historicos['Razon Social'].unique(), 
             key="ventas_compras_selectbox"
         )
-
-        filtered_data = comprobantes_historicos[comprobantes_historicos['Razon Social'] == selected_razon_social]
+        filtered_data = comprobantes_historicos[(comprobantes_historicos['Razon Social'] == selected_razon_social) &
+                                                (comprobantes_historicos['Variable'].isin(['Neto Ventas', 'Neto Compras']))]
         if not filtered_data.empty:         
            st.bar_chart(filtered_data, x="Mes", y="Monto", color="Variable", stack=False)
         else:
@@ -60,24 +58,21 @@ def show_page(username):
         st.dataframe(comprobantes_historicos)
 
     with tab2:
+
         st.subheader("IVA")
-        st.dataframe(comprobantes_historicos[['Razon Social', 'Mes', 'IVA Ventas', 'IVA Compras', 'Saldo IVA']])
         selected_razon_social = st.selectbox(
             "Seleccione Razón Social", 
             comprobantes_historicos['Razon Social'].unique(), 
             key="iva_selectbox"
         )
-        filtered_data = comprobantes_historicos[comprobantes_historicos['Razon Social'] == selected_razon_social]
-        
-        if not filtered_data.empty:
-            filtered_data['Mes'] = pd.to_datetime(filtered_data['Mes'], format='%Y-%m')
-            st.bar_chart(
-                filtered_data.set_index('Mes')[['IVA Ventas', 'IVA Compras', 'Saldo IVA']],
-                use_container_width=True,
-                height=400
-            )
+        filtered_data = comprobantes_historicos[(comprobantes_historicos['Razon Social'] == selected_razon_social) &
+                                                (comprobantes_historicos['Variable'].isin(['IVA Ventas', 'IVA Compras']))]
+        if not filtered_data.empty:         
+           st.bar_chart(filtered_data, x="Mes", y="Monto", color="Variable", stack=False)
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
+        st.dataframe(comprobantes_historicos)
+
     with tab3:
         st.subheader("Ventas por cliente")
         st.dataframe(ventas_por_empresa_cliente)
