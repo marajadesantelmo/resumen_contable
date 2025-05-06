@@ -55,9 +55,7 @@ def show_page(username):
            st.bar_chart(filtered_data, x="Mes", y="Monto", color="Variable", stack=False)
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
-        comprobantes_historicos['Monto'] = comprobantes_historicos['Monto'].apply(format_currency)
-        pivot_data = filtered_data.pivot(index='Mes', columns='Variable', values='Monto')
-        st.dataframe(pivot_data)
+        st.dataframe(comprobantes_historicos)
 
     with tab2:
 
