@@ -97,8 +97,8 @@ def show_page(username):
         # Add a total column and sort by it
         pivoted_data_clientes["Total"] = pivoted_data_clientes.iloc[:, 1:].sum(axis=1)
         pivoted_data_clientes.sort_values(by="Total", ascending=False, inplace=True)
-        for column in pivoted_data_clientes.columns[1:]:
-            pivoted_data_clientes[column] = pivoted_data_clientes[column].apply(format_currency)
+        #for column in pivoted_data_clientes.columns[1:]:
+        #    pivoted_data_clientes[column] = pivoted_data_clientes[column].apply(format_currency)
         st.dataframe(pivoted_data_clientes, hide_index=True)
         if not filtered_data.empty:   
                 st.header("Evolución del top 10 Clientes")      
