@@ -36,7 +36,7 @@ def show_page(username):
 
     # Display datasets
     st.header("Evolución Histórica")
-    tab1, tab2, tab3, tab4 = st.tabs(["Ventas y Compras", "IVA"])
+    tab1, tab2 = st.tabs(["Ventas y Compras", "IVA"])
 
     with tab1:
         st.subheader("Ventas y Compras")
