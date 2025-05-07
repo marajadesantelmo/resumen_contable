@@ -18,45 +18,6 @@ raw_dir = 'data\\historico_raw'
 comprobantes_dir = 'data\\historico_procesado'
 files = os.listdir(raw_dir)
 
-#Procesamiento de XLSX
-pattern = re.compile(r'Mis Comprobantes (Emitidos|Recibidos) - CUIT (\d+)\(\d+\)\.xlsx')
-cuit_files = {cuit: {'Emitidos': False, 'Recibidos': False} for cuit in cuit_to_name}
-
-for filename in files:
-    match = pattern.match(filename)
-    if match:
-        tipo, cuit = match.groups()
-        company_name = cuit_to_name.get(cuit)
-        if company_name:
-            new_filename = f"{tipo} - {company_name} - {cuit}.xlsx"
-            old_filepath = os.path.join(raw_dir, filename)
-            new_filepath = os.path.join(comprobantes_dir, new_filename)
-            shutil.copy2(old_filepath, new_filepath)
-            print(f'Copiado: {filename} -> {new_filename}')
-            # Mark the file type as present for the CUIT
-            cuit_files[cuit][tipo] = True
-        else:
-            print(f'No company name found for CUIT: {cuit}')
-
-# Check if there are two files for each company
-missing_files = []
-for cuit, files in cuit_files.items():
-    if not all(files.values()):
-        company_name = cuit_to_name[cuit]
-        missing_types = [key for key, value in files.items() if not value]
-        missing_files.append((company_name, cuit, missing_types))
-
-if missing_files:
-    print('The following companies are missing files:')
-    for company_name, cuit, missing_types in missing_files:
-        print(f"{company_name} ({cuit}) is missing: {', '.join(missing_types)}")
-else:
-    print('All companies have both Emitidos and Recibidos files.')
-
-print('Renaming and checking completed.')
-time.sleep(10)
-
-
 #Procesamiento de CSVs
 csv_files = os.listdir(raw_dir)
 csv_files_zip = [file for file in csv_files if file.endswith('.zip')]
