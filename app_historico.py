@@ -90,8 +90,8 @@ def show_page(username):
         )
 
         filtered_data = ventas_por_empresa_cliente[(ventas_por_empresa_cliente['Razon Social'] == selected_razon_social)]
-        pivoted_data_clientes = filtered_data.groupby(["Empresa", "Mes"]).agg({"Neto": "sum"}).reset_index()
-        pivoted_data_clientes = pivoted_data_clientes.pivot(index="Empresa", columns="Mes", values="Neto").reset_index()
+        pivoted_data_clientes_tidy = filtered_data.groupby(["Empresa", "Mes"]).agg({"Neto": "sum"}).reset_index()
+        pivoted_data_clientes = pivoted_data_clientes_tidy.pivot(index="Empresa", columns="Mes", values="Neto").reset_index()
         pivoted_data_clientes.fillna(0, inplace=True)  # Ensure no NaN values
         pivoted_data_clientes.iloc[:, 1:] = pivoted_data_clientes.iloc[:, 1:].round(0).astype(int)
         # Add a total column and sort by it
@@ -102,7 +102,7 @@ def show_page(username):
         st.dataframe(pivoted_data_clientes, hide_index=True)
         if not filtered_data.empty:   
                 st.header("Evolución del top 10 Clientes")      
-                st.bar_chart(pivoted_data_clientes.head(10), x="Mes", y="Total", color="Empresa", stack=False)
+                st.bar_chart(pivoted_data_clientes_tidy.head(10), x="Mes", y="Total", color="Empresa", stack=False)
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
         # Pivot the data to have columns Mes and Clientes
