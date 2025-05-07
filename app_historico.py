@@ -101,8 +101,9 @@ def show_page(username):
         for column in pivoted_data.columns[1:]:
             pivoted_data[column] = pivoted_data[column].apply(format_currency)
         st.dataframe(pivoted_data, hide_index=True)
-        if not filtered_data.empty:         
-                st.bar_chart(filtered_data.head(10), x="Mes", y="Neto", color="Empresa", stack=False)
+        if not filtered_data.empty:   
+                st.header("Evolución del top 10 Clientes")      
+                st.bar_chart(pivoted_data.head(10), x="Mes", y="Neto", color="Empresa", stack=False)
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
         # Pivot the data to have columns Mes and Clientes
