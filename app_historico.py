@@ -92,7 +92,7 @@ def show_page(username):
         filtered_data = ventas_por_empresa_cliente[(ventas_por_empresa_cliente['Razon Social'] == selected_razon_social)]
         pivoted_data_clientes = filtered_data.groupby(["Empresa", "Mes"]).agg({"Neto": "sum"}).reset_index()
         pivoted_data_clientes = pivoted_data_clientes.pivot(index="Empresa", columns="Mes", values="Neto").reset_index()
-        pivoted_data.fillna(0, inplace=True)
+        pivoted_data_clientes.fillna(0, inplace=True)  # Ensure no NaN values
         pivoted_data_clientes.iloc[:, 1:] = pivoted_data_clientes.iloc[:, 1:].round(0).astype(int)
         # Add a total column and sort by it
         pivoted_data_clientes["Total"] = pivoted_data_clientes.iloc[:, 1:].sum(axis=1)
