@@ -54,7 +54,6 @@ def show_page(username):
         with tab1_col2:
             # Pivot the data to have columns Mes, Neto Ventas, and Neto Compras
             pivoted_data = filtered_data.pivot(index="Mes", columns="Variable", values="Monto").reset_index()
-            pivoted_data = pivoted_data[["Mes", "Neto Ventas", "Neto Compras"]]
             for column in [ "Neto Ventas", "Neto Compras"]:
                 pivoted_data[column] = pivoted_data[column].apply(format_currency)
             st.dataframe(pivoted_data, hide_index=True)
