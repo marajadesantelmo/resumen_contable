@@ -27,20 +27,16 @@ def show_page(username):
     
     # Load datasets
     comprobantes_historicos = pd.read_csv('data/comprobantes_historicos.csv')
-    ventas_por_empresa_cliente = pd.read_csv('data/ventas_historico_cliente.csv')
-    compras_por_empresa_proveedor = pd.read_csv('data/compras_historico_proveedor.csv')
 
     # Filter data based on username
     comprobantes_historicos = filter_restricted_data(comprobantes_historicos, username)
-    ventas_por_empresa_cliente = filter_restricted_data(ventas_por_empresa_cliente, username)
-    compras_por_empresa_proveedor = filter_restricted_data(compras_por_empresa_proveedor, username)
 
     # Date range selection
     st.info("Datos Históricos en base a Comprobantes de ARCA")
 
     # Display datasets
     st.header("Evolución Histórica")
-    tab1, tab2, tab3, tab4 = st.tabs(["Ventas y Compras", "IVA", "Clientes", "Proveedores"])
+    tab1, tab2, tab3, tab4 = st.tabs(["Ventas y Compras", "IVA"])
 
     with tab1:
         st.subheader("Ventas y Compras")
@@ -72,13 +68,3 @@ def show_page(username):
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
         st.dataframe(comprobantes_historicos)
-
-    with tab3:
-        st.subheader("Ventas por cliente")
-        st.dataframe(ventas_por_empresa_cliente)
-        st.bar_chart(ventas_por_empresa_cliente.groupby('Empresa')[['Neto', 'IVA']].sum())
-
-    with tab4:
-        st.subheader("Compras por proveedor")
-        st.dataframe(compras_por_empresa_proveedor)
-        st.bar_chart(compras_por_empresa_proveedor.groupby('Empresa')[['Neto', 'IVA']].sum())
