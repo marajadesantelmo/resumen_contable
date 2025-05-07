@@ -65,7 +65,7 @@ boton_buscador.click()
 time.sleep(5)
 driver.switch_to.window(driver.window_handles[1])
 time.sleep(5)
-for i in range(1, 17):
+for i in range(11, 17):
     try:
         print(f"Elijo empresa numero {i}")
         time.sleep(2)

@@ -37,21 +37,31 @@ cuit_numbers = [match.group(1) for file in csv_files if (match := cuit_pattern.s
 company_names = [cuit_to_name.get(cuit) for cuit in cuit_numbers]
 
 comprobantes_dfs = []
+error_log = []  # List to store problematic files
 for csv_file in csv_files:
     match = cuit_pattern.search(csv_file)
     if match:
         cuit = match.group(1)
         company_name = cuit_to_name.get(cuit)
         if company_name:
-            data = pd.read_csv(os.path.join('data\\historico_raw\\unzipped', csv_file), sep=";")
-            data['Razon Social'] = company_name
-            if 'emitidos' in csv_file.lower():
-                data['Base'] = 'Emitidos'
-            elif 'recibidos' in csv_file.lower():
-                data['Base'] = 'Recibidos'
-            comprobantes_dfs.append(data)
+            try:
+                data = pd.read_csv(os.path.join('data\\historico_raw\\unzipped', csv_file), sep=";")
+                data['Razon Social'] = company_name
+                if 'emitidos' in csv_file.lower():
+                    data['Base'] = 'Emitidos'
+                elif 'recibidos' in csv_file.lower():
+                    data['Base'] = 'Recibidos'
+                comprobantes_dfs.append(data)
+            except pd.errors.ParserError as e:
+                print(f"Error reading {csv_file}: {e}")
+                error_log.append(csv_file)
         else:
             print(f'No company name found for CUIT: {cuit}')
+
+# Log problematic files to a text file for further inspection
+if error_log:
+    with open('data/error_log.txt', 'w') as log_file:
+        log_file.write("\n".join(error_log))
 
 comprobantes = pd.concat(comprobantes_dfs, ignore_index=True)
 
