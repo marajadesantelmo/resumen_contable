@@ -65,12 +65,13 @@ if error_log:
 
 comprobantes = pd.concat(comprobantes_dfs, ignore_index=True)
 
-comprobantes['Empresa'] = comprobantes['Denominación Receptor'].fillna(comprobantes['Denominación Emisor']).str.strip().str.title()
+comprobantes['Empresa'] = comprobantes['Denominación Receptor'].fillna(comprobantes['Denominación Emisor']).str.strip().str.title().fillna("-")
+
 
 def format_number(x):
     return str(x).replace(",", ".") if pd.notnull(x) else x
 
-for column in ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA', 'Tipo Cambio']:
+for column in ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA', 'Tipo Cambio', 'Imp. Total']:
     comprobantes[column] = comprobantes[column].apply(format_number).astype(float).fillna(0).round(0).astype(int)
 comprobantes['Neto'] = comprobantes['Imp. Neto Gravado'] + comprobantes['Imp. Neto No Gravado'] + comprobantes['Imp. Op. Exentas'] 
 
@@ -80,12 +81,13 @@ for replacement in sociedad_replacements:
 
 comprobantes = comprobantes[['Fecha de Emisión', 'Base', 'Tipo de Comprobante', 
     'Número Desde', 'Tipo Cambio', 'Moneda', 'Imp. Neto Gravado', 'Imp. Neto No Gravado',
-    'Imp. Op. Exentas', 'IVA', 'Razon Social', 'Empresa']]
+    'Imp. Op. Exentas', 'IVA', 'Imp. Total', 'Razon Social', 'Empresa']]
 
 comprobantes.loc[comprobantes['Tipo de Comprobante'] == 3, ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA']] *= -1
 comprobantes.loc[comprobantes['Tipo de Comprobante'] == 8, ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA']] *= -1
+comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Imp. Neto No Gravado'] = comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Imp. Total']
 
-for column in ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas',  'IVA']:
+for column in ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA']:
     comprobantes.loc[comprobantes['Moneda'] == 'USD', column] *= comprobantes.loc[comprobantes['Moneda'] == 'USD', 'Tipo Cambio']
 
 comprobantes['Neto'] = comprobantes['Imp. Neto Gravado'] + comprobantes['Imp. Neto No Gravado'] + comprobantes['Imp. Op. Exentas']

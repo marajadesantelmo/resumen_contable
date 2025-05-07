@@ -15,19 +15,19 @@ BA Comex,2025-01,Neto Ventas,12366339
 BA Comex,2025-02,Neto Ventas,16700153
 BA Comex,2025-03,Neto Ventas,9665928
 BA Comex,2025-04,Neto Ventas,7629878
-De la Arena Coll Manuel,2024-01,Neto Ventas,0
-De la Arena Coll Manuel,2024-02,Neto Ventas,0
-De la Arena Coll Manuel,2024-03,Neto Ventas,0
-De la Arena Coll Manuel,2024-04,Neto Ventas,0
-De la Arena Coll Manuel,2024-05,Neto Ventas,0
-De la Arena Coll Manuel,2024-06,Neto Ventas,0
-De la Arena Coll Manuel,2024-07,Neto Ventas,0
-De la Arena Coll Manuel,2024-08,Neto Ventas,0
-De la Arena Coll Manuel,2024-09,Neto Ventas,0
-De la Arena Coll Manuel,2025-01,Neto Ventas,0
-De la Arena Coll Manuel,2025-02,Neto Ventas,0
-De la Arena Coll Manuel,2025-03,Neto Ventas,0
-De la Arena Coll Manuel,2025-04,Neto Ventas,0
+De la Arena Coll Manuel,2024-01,Neto Ventas,900000
+De la Arena Coll Manuel,2024-02,Neto Ventas,1900000
+De la Arena Coll Manuel,2024-03,Neto Ventas,1000000
+De la Arena Coll Manuel,2024-04,Neto Ventas,2000000
+De la Arena Coll Manuel,2024-05,Neto Ventas,2000000
+De la Arena Coll Manuel,2024-06,Neto Ventas,2000000
+De la Arena Coll Manuel,2024-07,Neto Ventas,2500000
+De la Arena Coll Manuel,2024-08,Neto Ventas,2500000
+De la Arena Coll Manuel,2024-09,Neto Ventas,197120
+De la Arena Coll Manuel,2025-01,Neto Ventas,3500000
+De la Arena Coll Manuel,2025-02,Neto Ventas,4000000
+De la Arena Coll Manuel,2025-03,Neto Ventas,4000000
+De la Arena Coll Manuel,2025-04,Neto Ventas,4000000
 Deposito Avellaneda Sur,2024-01,Neto Ventas,874111472
 Deposito Avellaneda Sur,2024-02,Neto Ventas,682033022
 Deposito Avellaneda Sur,2024-03,Neto Ventas,1128267602
@@ -426,56 +426,56 @@ BA Comex,2024-08,Neto Compras,588199
 BA Comex,2024-09,Neto Compras,724509
 BA Comex,2024-10,Neto Compras,2952753
 BA Comex,2024-11,Neto Compras,6842814
-BA Comex,2024-12,Neto Compras,7451209
-BA Comex,2025-01,Neto Compras,1160589
+BA Comex,2024-12,Neto Compras,7458709
+BA Comex,2025-01,Neto Compras,1648089
 BA Comex,2025-02,Neto Compras,3017082
 BA Comex,2025-03,Neto Compras,2048298
 BA Comex,2025-04,Neto Compras,1607063
 De la Arena Coll Manuel,2024-01,Neto Compras,3886
-De la Arena Coll Manuel,2024-02,Neto Compras,5186
-De la Arena Coll Manuel,2024-03,Neto Compras,11352
+De la Arena Coll Manuel,2024-02,Neto Compras,13442
+De la Arena Coll Manuel,2024-03,Neto Compras,16775
 De la Arena Coll Manuel,2024-04,Neto Compras,8588
 De la Arena Coll Manuel,2024-05,Neto Compras,29663
 De la Arena Coll Manuel,2024-06,Neto Compras,62082
 De la Arena Coll Manuel,2024-07,Neto Compras,32723
-De la Arena Coll Manuel,2024-08,Neto Compras,22153
-De la Arena Coll Manuel,2024-09,Neto Compras,25897
+De la Arena Coll Manuel,2024-08,Neto Compras,55422
+De la Arena Coll Manuel,2024-09,Neto Compras,59166
 De la Arena Coll Manuel,2025-01,Neto Compras,104036
 De la Arena Coll Manuel,2025-02,Neto Compras,21704
 De la Arena Coll Manuel,2025-03,Neto Compras,44921
-De la Arena Coll Manuel,2025-04,Neto Compras,87337
-Deposito Avellaneda Sur,2024-01,Neto Compras,289529116
-Deposito Avellaneda Sur,2024-02,Neto Compras,431838994
-Deposito Avellaneda Sur,2024-03,Neto Compras,382994282
-Deposito Avellaneda Sur,2024-04,Neto Compras,381228614
-Deposito Avellaneda Sur,2024-05,Neto Compras,348483752
-Deposito Avellaneda Sur,2024-06,Neto Compras,330607810
-Deposito Avellaneda Sur,2024-07,Neto Compras,322372174
-Deposito Avellaneda Sur,2024-08,Neto Compras,519739492
-Deposito Avellaneda Sur,2024-09,Neto Compras,459885968
-Deposito Avellaneda Sur,2024-10,Neto Compras,512994858
-Deposito Avellaneda Sur,2024-11,Neto Compras,622193872
-Deposito Avellaneda Sur,2024-12,Neto Compras,726619478
-Deposito Avellaneda Sur,2025-01,Neto Compras,301601157
-Deposito Avellaneda Sur,2025-02,Neto Compras,323116136
-Deposito Avellaneda Sur,2025-03,Neto Compras,298059418
-Deposito Avellaneda Sur,2025-04,Neto Compras,320303910
-Edelweiss Spedition,2024-01,Neto Compras,2781240
-Edelweiss Spedition,2024-02,Neto Compras,11587064
-Edelweiss Spedition,2024-03,Neto Compras,4625151
-Edelweiss Spedition,2024-04,Neto Compras,8584862
-Edelweiss Spedition,2024-05,Neto Compras,5220948
-Edelweiss Spedition,2024-06,Neto Compras,4595875
-Edelweiss Spedition,2024-07,Neto Compras,4085285
-Edelweiss Spedition,2024-08,Neto Compras,3931747
-Edelweiss Spedition,2024-09,Neto Compras,8745594
-Edelweiss Spedition,2024-10,Neto Compras,6533636
-Edelweiss Spedition,2024-11,Neto Compras,3464046
-Edelweiss Spedition,2024-12,Neto Compras,7837131
-Edelweiss Spedition,2025-01,Neto Compras,17030952
-Edelweiss Spedition,2025-02,Neto Compras,22068036
-Edelweiss Spedition,2025-03,Neto Compras,42260877
-Edelweiss Spedition,2025-04,Neto Compras,32353421
+De la Arena Coll Manuel,2025-04,Neto Compras,257337
+Deposito Avellaneda Sur,2024-01,Neto Compras,320450262
+Deposito Avellaneda Sur,2024-02,Neto Compras,465963252
+Deposito Avellaneda Sur,2024-03,Neto Compras,407438678
+Deposito Avellaneda Sur,2024-04,Neto Compras,423508230
+Deposito Avellaneda Sur,2024-05,Neto Compras,376295310
+Deposito Avellaneda Sur,2024-06,Neto Compras,366579608
+Deposito Avellaneda Sur,2024-07,Neto Compras,372885296
+Deposito Avellaneda Sur,2024-08,Neto Compras,571934100
+Deposito Avellaneda Sur,2024-09,Neto Compras,509604296
+Deposito Avellaneda Sur,2024-10,Neto Compras,568442516
+Deposito Avellaneda Sur,2024-11,Neto Compras,676994476
+Deposito Avellaneda Sur,2024-12,Neto Compras,785172558
+Deposito Avellaneda Sur,2025-01,Neto Compras,357245675
+Deposito Avellaneda Sur,2025-02,Neto Compras,348503088
+Deposito Avellaneda Sur,2025-03,Neto Compras,322461384
+Deposito Avellaneda Sur,2025-04,Neto Compras,357557003
+Edelweiss Spedition,2024-01,Neto Compras,4223810
+Edelweiss Spedition,2024-02,Neto Compras,12799484
+Edelweiss Spedition,2024-03,Neto Compras,6115147
+Edelweiss Spedition,2024-04,Neto Compras,10596158
+Edelweiss Spedition,2024-05,Neto Compras,8773094
+Edelweiss Spedition,2024-06,Neto Compras,7517471
+Edelweiss Spedition,2024-07,Neto Compras,8346231
+Edelweiss Spedition,2024-08,Neto Compras,8732647
+Edelweiss Spedition,2024-09,Neto Compras,13628694
+Edelweiss Spedition,2024-10,Neto Compras,12644486
+Edelweiss Spedition,2024-11,Neto Compras,11055846
+Edelweiss Spedition,2024-12,Neto Compras,15868351
+Edelweiss Spedition,2025-01,Neto Compras,26167202
+Edelweiss Spedition,2025-02,Neto Compras,33073996
+Edelweiss Spedition,2025-03,Neto Compras,51015807
+Edelweiss Spedition,2025-04,Neto Compras,41344021
 El Llamito,2024-01,Neto Compras,0
 El Llamito,2024-02,Neto Compras,0
 El Llamito,2024-03,Neto Compras,0
@@ -483,7 +483,7 @@ El Llamito,2024-04,Neto Compras,0
 El Llamito,2024-05,Neto Compras,0
 El Llamito,2024-06,Neto Compras,0
 El Llamito,2024-07,Neto Compras,8428650
-El Llamito,2024-08,Neto Compras,0
+El Llamito,2024-08,Neto Compras,350000
 El Llamito,2024-09,Neto Compras,0
 El Llamito,2024-11,Neto Compras,0
 El Llamito,2024-12,Neto Compras,0
@@ -499,128 +499,128 @@ El Marques,2024-05,Neto Compras,13718071
 El Marques,2024-06,Neto Compras,13315090
 El Marques,2024-07,Neto Compras,8063968
 El Marques,2024-08,Neto Compras,15380973
-El Marques,2024-09,Neto Compras,16801235
-El Marques,2024-10,Neto Compras,13843419
-El Marques,2024-11,Neto Compras,5536870
+El Marques,2024-09,Neto Compras,22801235
+El Marques,2024-10,Neto Compras,19843419
+El Marques,2024-11,Neto Compras,6050070
 El Marques,2024-12,Neto Compras,7529812
 El Marques,2025-01,Neto Compras,6616384
 El Marques,2025-02,Neto Compras,8117346
 El Marques,2025-03,Neto Compras,8985808
 El Marques,2025-04,Neto Compras,10002654
-Jofa,2024-06,Neto Compras,103595642
-L A R M Argentina,2024-01,Neto Compras,521830
-L A R M Argentina,2024-02,Neto Compras,594452
-L A R M Argentina,2024-03,Neto Compras,760580
-L A R M Argentina,2024-04,Neto Compras,589195
-L A R M Argentina,2024-05,Neto Compras,863126
-L A R M Argentina,2024-06,Neto Compras,1090269
-L A R M Argentina,2024-07,Neto Compras,7890824
-L A R M Argentina,2024-08,Neto Compras,5831051
-L A R M Argentina,2024-09,Neto Compras,780179
-L A R M Argentina,2024-10,Neto Compras,4126296
-L A R M Argentina,2024-11,Neto Compras,5519782
-L A R M Argentina,2024-12,Neto Compras,938170
-L A R M Argentina,2025-01,Neto Compras,6193584
-L A R M Argentina,2025-02,Neto Compras,6485985
-L A R M Argentina,2025-03,Neto Compras,5906720
-L A R M Argentina,2025-04,Neto Compras,4938798
-Liftvan International,2024-01,Neto Compras,122343272
-Liftvan International,2024-02,Neto Compras,114479070
-Liftvan International,2024-03,Neto Compras,136433898
-Liftvan International,2024-04,Neto Compras,126403136
-Liftvan International,2024-05,Neto Compras,157100544
-Liftvan International,2024-06,Neto Compras,136760310
-Liftvan International,2024-07,Neto Compras,147177912
-Liftvan International,2024-08,Neto Compras,137123572
-Liftvan International,2024-09,Neto Compras,164790688
-Liftvan International,2024-10,Neto Compras,256659418
-Liftvan International,2024-11,Neto Compras,244757474
-Liftvan International,2024-12,Neto Compras,227880846
-Liftvan International,2025-01,Neto Compras,99878862
-Liftvan International,2025-02,Neto Compras,151167455
-Liftvan International,2025-03,Neto Compras,172300089
-Liftvan International,2025-04,Neto Compras,169905550
-Mercovan Argentina,2024-01,Neto Compras,57272320
-Mercovan Argentina,2024-02,Neto Compras,41567564
-Mercovan Argentina,2024-03,Neto Compras,56507776
-Mercovan Argentina,2024-04,Neto Compras,90103134
-Mercovan Argentina,2024-05,Neto Compras,52613662
-Mercovan Argentina,2024-06,Neto Compras,48191068
-Mercovan Argentina,2024-07,Neto Compras,83784644
-Mercovan Argentina,2024-08,Neto Compras,80922700
-Mercovan Argentina,2024-09,Neto Compras,62144696
-Mercovan Argentina,2024-10,Neto Compras,88970974
-Mercovan Argentina,2024-11,Neto Compras,76432486
-Mercovan Argentina,2024-12,Neto Compras,80912250
-Mercovan Argentina,2025-01,Neto Compras,29291641
-Mercovan Argentina,2025-02,Neto Compras,42954897
-Mercovan Argentina,2025-03,Neto Compras,65405992
-Mercovan Argentina,2025-04,Neto Compras,50397204
+Jofa,2024-06,Neto Compras,104915892
+L A R M Argentina,2024-01,Neto Compras,1085008
+L A R M Argentina,2024-02,Neto Compras,1094352
+L A R M Argentina,2024-03,Neto Compras,3005092
+L A R M Argentina,2024-04,Neto Compras,2125083
+L A R M Argentina,2024-05,Neto Compras,3428033
+L A R M Argentina,2024-06,Neto Compras,3826372
+L A R M Argentina,2024-07,Neto Compras,9877862
+L A R M Argentina,2024-08,Neto Compras,10689569
+L A R M Argentina,2024-09,Neto Compras,2762179
+L A R M Argentina,2024-10,Neto Compras,5551474
+L A R M Argentina,2024-11,Neto Compras,9072382
+L A R M Argentina,2024-12,Neto Compras,3137338
+L A R M Argentina,2025-01,Neto Compras,8185084
+L A R M Argentina,2025-02,Neto Compras,10127075
+L A R M Argentina,2025-03,Neto Compras,7972398
+L A R M Argentina,2025-04,Neto Compras,9593248
+Liftvan International,2024-01,Neto Compras,129659652
+Liftvan International,2024-02,Neto Compras,120714852
+Liftvan International,2024-03,Neto Compras,145752432
+Liftvan International,2024-04,Neto Compras,138698716
+Liftvan International,2024-05,Neto Compras,167944456
+Liftvan International,2024-06,Neto Compras,145961464
+Liftvan International,2024-07,Neto Compras,164949440
+Liftvan International,2024-08,Neto Compras,151006938
+Liftvan International,2024-09,Neto Compras,191965100
+Liftvan International,2024-10,Neto Compras,269166948
+Liftvan International,2024-11,Neto Compras,287209940
+Liftvan International,2024-12,Neto Compras,245724118
+Liftvan International,2025-01,Neto Compras,123925735
+Liftvan International,2025-02,Neto Compras,169525480
+Liftvan International,2025-03,Neto Compras,188620851
+Liftvan International,2025-04,Neto Compras,200798898
+Mercovan Argentina,2024-01,Neto Compras,62188460
+Mercovan Argentina,2024-02,Neto Compras,49874854
+Mercovan Argentina,2024-03,Neto Compras,63884976
+Mercovan Argentina,2024-04,Neto Compras,96318234
+Mercovan Argentina,2024-05,Neto Compras,58146710
+Mercovan Argentina,2024-06,Neto Compras,54775602
+Mercovan Argentina,2024-07,Neto Compras,91539744
+Mercovan Argentina,2024-08,Neto Compras,89722600
+Mercovan Argentina,2024-09,Neto Compras,71902696
+Mercovan Argentina,2024-10,Neto Compras,101289574
+Mercovan Argentina,2024-11,Neto Compras,88505286
+Mercovan Argentina,2024-12,Neto Compras,90212598
+Mercovan Argentina,2025-01,Neto Compras,35211891
+Mercovan Argentina,2025-02,Neto Compras,48920223
+Mercovan Argentina,2025-03,Neto Compras,73264492
+Mercovan Argentina,2025-04,Neto Compras,56685703
 Nerococina,2024-02,Neto Compras,451842
-Nerococina,2024-03,Neto Compras,2254545
-Nerococina,2024-04,Neto Compras,737945
-Nerococina,2024-06,Neto Compras,898032
-Nerococina,2024-07,Neto Compras,4973061
-Nerococina,2024-08,Neto Compras,3617401
-Nerococina,2024-09,Neto Compras,3006185
-Nerococina,2024-10,Neto Compras,4778014
-Nerococina,2024-11,Neto Compras,4076157
-Nerococina,2024-12,Neto Compras,2831640
-Nerococina,2025-01,Neto Compras,1748061
-Nerococina,2025-02,Neto Compras,4087668
-Nerococina,2025-03,Neto Compras,6392118
-Nerococina,2025-04,Neto Compras,4427066
+Nerococina,2024-03,Neto Compras,2854545
+Nerococina,2024-04,Neto Compras,877945
+Nerococina,2024-06,Neto Compras,1800381
+Nerococina,2024-07,Neto Compras,5025061
+Nerococina,2024-08,Neto Compras,6244001
+Nerococina,2024-09,Neto Compras,4686185
+Nerococina,2024-10,Neto Compras,11128533
+Nerococina,2024-11,Neto Compras,8853623
+Nerococina,2024-12,Neto Compras,4644940
+Nerococina,2025-01,Neto Compras,3989237
+Nerococina,2025-02,Neto Compras,6287964
+Nerococina,2025-03,Neto Compras,9425424
+Nerococina,2025-04,Neto Compras,8186501
 U-Bros,2024-01,Neto Compras,329841
-U-Bros,2024-02,Neto Compras,1973184
-U-Bros,2024-03,Neto Compras,1738256
-U-Bros,2024-04,Neto Compras,570525
-U-Bros,2024-05,Neto Compras,1622343
-U-Bros,2024-06,Neto Compras,1413325
-U-Bros,2024-07,Neto Compras,1723340
-U-Bros,2024-08,Neto Compras,1580831
-U-Bros,2024-09,Neto Compras,1451086
-U-Bros,2024-10,Neto Compras,1122842
-U-Bros,2024-11,Neto Compras,1971635
-U-Bros,2024-12,Neto Compras,1043199
-U-Bros,2025-01,Neto Compras,610878
-U-Bros,2025-02,Neto Compras,4516295
-U-Bros,2025-03,Neto Compras,402800
-U-Bros,2025-04,Neto Compras,1588005
+U-Bros,2024-02,Neto Compras,2285184
+U-Bros,2024-03,Neto Compras,1933256
+U-Bros,2024-04,Neto Compras,810525
+U-Bros,2024-05,Neto Compras,1832343
+U-Bros,2024-06,Neto Compras,1685625
+U-Bros,2024-07,Neto Compras,1958340
+U-Bros,2024-08,Neto Compras,1830831
+U-Bros,2024-09,Neto Compras,1744355
+U-Bros,2024-10,Neto Compras,1395842
+U-Bros,2024-11,Neto Compras,2629173
+U-Bros,2024-12,Neto Compras,1332199
+U-Bros,2025-01,Neto Compras,906878
+U-Bros,2025-02,Neto Compras,4826795
+U-Bros,2025-03,Neto Compras,727800
+U-Bros,2025-04,Neto Compras,1918005
 Ulog,2024-01,Neto Compras,841639
-Ulog,2024-02,Neto Compras,2072022
+Ulog,2024-02,Neto Compras,2192022
 Ulog,2024-04,Neto Compras,3216719
 Ulog,2024-05,Neto Compras,4660691
 Ulog,2024-07,Neto Compras,61400
-Ulog,2024-08,Neto Compras,182270
+Ulog,2024-08,Neto Compras,836270
 Ulog,2024-09,Neto Compras,110934
 Ulog,2024-11,Neto Compras,377024
-Ulog,2024-12,Neto Compras,5793737
+Ulog,2024-12,Neto Compras,6447737
 Ulog,2025-01,Neto Compras,1150462
 Ulog,2025-03,Neto Compras,149286
-Ulog,2025-04,Neto Compras,5263
+Ulog,2025-04,Neto Compras,635263
 Unapa,2024-02,Neto Compras,6261348
 Unapa,2024-03,Neto Compras,1787930
 Unapa,2024-04,Neto Compras,2564647
 Unapa,2024-05,Neto Compras,14129619
 Unapa,2024-07,Neto Compras,3292622
 Unapa,2024-10,Neto Compras,3450149
-Viñas En Flor,2024-01,Neto Compras,13196492
-Viñas En Flor,2024-02,Neto Compras,27192440
-Viñas En Flor,2024-03,Neto Compras,46211060
-Viñas En Flor,2024-04,Neto Compras,42050234
-Viñas En Flor,2024-05,Neto Compras,21447844
-Viñas En Flor,2024-06,Neto Compras,23478144
-Viñas En Flor,2024-07,Neto Compras,35476464
-Viñas En Flor,2024-08,Neto Compras,42997978
-Viñas En Flor,2024-09,Neto Compras,27409854
-Viñas En Flor,2024-10,Neto Compras,32234136
-Viñas En Flor,2024-11,Neto Compras,60081568
-Viñas En Flor,2024-12,Neto Compras,12024384
-Winehaus,2024-01,Neto Compras,104874
+Viñas En Flor,2024-01,Neto Compras,15261914
+Viñas En Flor,2024-02,Neto Compras,29049874
+Viñas En Flor,2024-03,Neto Compras,49099804
+Viñas En Flor,2024-04,Neto Compras,47488470
+Viñas En Flor,2024-05,Neto Compras,33470094
+Viñas En Flor,2024-06,Neto Compras,28360846
+Viñas En Flor,2024-07,Neto Compras,41752928
+Viñas En Flor,2024-08,Neto Compras,50553148
+Viñas En Flor,2024-09,Neto Compras,35928664
+Viñas En Flor,2024-10,Neto Compras,39655646
+Viñas En Flor,2024-11,Neto Compras,71597960
+Viñas En Flor,2024-12,Neto Compras,20057776
+Winehaus,2024-01,Neto Compras,159874
 Winehaus,2024-02,Neto Compras,64898
 Winehaus,2024-04,Neto Compras,535882
 Winehaus,2024-07,Neto Compras,448080
-Winehaus,2024-08,Neto Compras,181052
+Winehaus,2024-08,Neto Compras,835052
 Winehaus,2024-09,Neto Compras,146841
 Winehaus,2024-10,Neto Compras,83593
 BA Comex,2024-01,IVA Compras,75191
