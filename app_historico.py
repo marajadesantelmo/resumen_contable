@@ -83,29 +83,26 @@ def show_page(username):
             st.dataframe(pivoted_data, hide_index=True)
 
     with tab3:
-        tab3_col1, tab3_col2 = st.columns([2, 1])
-        with tab3_col1:
-            st.subheader("Clientes")
-            selected_razon_social = st.selectbox(
-                "Seleccione Razón Social", 
-                ventas_por_empresa_cliente['Razon Social'].unique(), 
-                key="clientes_selectbox"
-            )
+        st.subheader("Clientes")
+        selected_razon_social = st.selectbox(
+            "Seleccione Razón Social", 
+            ventas_por_empresa_cliente['Razon Social'].unique(), 
+            key="clientes_selectbox"
+        )
 
-            filtered_data = ventas_por_empresa_cliente[(ventas_por_empresa_cliente['Razon Social'] == selected_razon_social)]
-            if not filtered_data.empty:         
-                 st.bar_chart(filtered_data, x="Mes", y="Neto", color="Empresa", stack=False)
-            else:
-                st.warning("No hay datos disponibles para la Razón Social seleccionada.")
-        with tab3_col2:
-            # Pivot the data to have columns Mes and Clientes
-            pivoted_data_clientes = filtered_data.groupby(["Empresa", "Mes"]).agg({"Neto": "sum"}).reset_index()
-            pivoted_data = pivoted_data_clientes.pivot(index="Empresa", columns="Mes", values="Neto").reset_index()
-            pivoted_data.fillna(0, inplace=True)
-            pivoted_data.iloc[:, 1:] = pivoted_data.iloc[:, 1:].round(0).astype(int)
-            # Add a total column and sort by it
-            pivoted_data["Total"] = pivoted_data.iloc[:, 1:].sum(axis=1)
-            pivoted_data.sort_values(by="Total", ascending=False, inplace=True)
-            for column in pivoted_data.columns[1:]:
-                pivoted_data[column] = pivoted_data[column].apply(format_currency)
-            st.dataframe(pivoted_data, hide_index=True)
+        filtered_data = ventas_por_empresa_cliente[(ventas_por_empresa_cliente['Razon Social'] == selected_razon_social)]
+        if not filtered_data.empty:         
+                st.bar_chart(filtered_data, x="Mes", y="Neto", color="Empresa", stack=False)
+        else:
+            st.warning("No hay datos disponibles para la Razón Social seleccionada.")
+        # Pivot the data to have columns Mes and Clientes
+        pivoted_data_clientes = filtered_data.groupby(["Empresa", "Mes"]).agg({"Neto": "sum"}).reset_index()
+        pivoted_data = pivoted_data_clientes.pivot(index="Empresa", columns="Mes", values="Neto").reset_index()
+        pivoted_data.fillna(0, inplace=True)
+        pivoted_data.iloc[:, 1:] = pivoted_data.iloc[:, 1:].round(0).astype(int)
+        # Add a total column and sort by it
+        pivoted_data["Total"] = pivoted_data.iloc[:, 1:].sum(axis=1)
+        pivoted_data.sort_values(by="Total", ascending=False, inplace=True)
+        for column in pivoted_data.columns[1:]:
+            pivoted_data[column] = pivoted_data[column].apply(format_currency)
+        st.dataframe(pivoted_data, hide_index=True)
