@@ -52,17 +52,24 @@ def show_page(username):
             st.dataframe(pivoted_data)
 
     with tab2:
-
-        st.subheader("IVA")
-        selected_razon_social = st.selectbox(
-            "Seleccione Razón Social", 
-            comprobantes_historicos['Razon Social'].unique(), 
-            key="iva_selectbox"
-        )
-        filtered_data = comprobantes_historicos[(comprobantes_historicos['Razon Social'] == selected_razon_social) &
-                                                (comprobantes_historicos['Variable'].isin(['IVA Ventas', 'IVA Compras', 'Saldo IVA']))]
-        if not filtered_data.empty:         
-           st.bar_chart(filtered_data, x="Mes", y="Monto", color="Variable", stack=False)
-        else:
-            st.warning("No hay datos disponibles para la Razón Social seleccionada.")
-        st.dataframe(comprobantes_historicos)
+        tab2_col1, tab2_col2 = st.columns([2, 1])
+        with tab2_col1:
+            st.subheader("IVA")
+            selected_razon_social = st.selectbox(
+                "Seleccione Razón Social", 
+                comprobantes_historicos['Razon Social'].unique(), 
+                key="iva_selectbox"
+            )
+            filtered_data = comprobantes_historicos[(comprobantes_historicos['Razon Social'] == selected_razon_social) &
+                                                    (comprobantes_historicos['Variable'].isin(['IVA Ventas', 'IVA Compras', 'Saldo IVA']))]
+            if not filtered_data.empty:         
+                 st.bar_chart(filtered_data, x="Mes", y="Monto", color="Variable", stack=False)
+            else:
+                st.warning("No hay datos disponibles para la Razón Social seleccionada.")
+        with tab2_col2:
+            # Pivot the data to have columns Mes, IVA Ventas, IVA Compras, and Saldo IVA
+            pivoted_data = filtered_data.pivot(index="Mes", columns="Variable", values="Monto").reset_index()
+            pivoted_data = pivoted_data[["Mes", "IVA Ventas", "IVA Compras", "Saldo IVA"]]
+            for column in [ "IVA Ventas", "IVA Compras", "Saldo IVA"]:
+                pivoted_data[column] = pivoted_data[column].apply(format_currency)
+            st.dataframe(pivoted_data)
