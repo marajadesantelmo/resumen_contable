@@ -35,7 +35,7 @@ def show_page(username):
     compras_por_empresa_proveedor = filter_restricted_data(compras_por_empresa_proveedor, username)
 
     st.info("Datos Históricos en base a Comprobantes de ARCA")
-    tab1, tab2, tab3 = st.tabs(["Ventas y Compras", "IVA", "Clientes"])
+    tab1, tab2, tab3, tab4 = st.tabs(["Ventas y Compras", "IVA", "Clientes", "Proveedores"])
     with tab1:
         tab1_col1, tab1_col2 = st.columns([2, 1])
         with tab1_col1:
@@ -110,3 +110,32 @@ def show_page(username):
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
         # Pivot the data to have columns Mes and Clientes
+
+    with tab4:
+        st.subheader("Proveedores")
+        selected_razon_social = st.selectbox(
+            "Seleccione Razón Social", 
+            compras_por_empresa_proveedor['Razon Social'].unique(), 
+            key="proveedores_selectbox"
+        )
+
+        filtered_data = compras_por_empresa_proveedor[(compras_por_empresa_proveedor['Razon Social'] == selected_razon_social)]
+        pivoted_data_proveedores_tidy = filtered_data.groupby(["Empresa", "Mes"]).agg({"Neto": "sum"}).reset_index()
+        pivoted_data_proveedores = pivoted_data_proveedores_tidy.pivot(index="Empresa", columns="Mes", values="Neto").reset_index()
+        pivoted_data_proveedores.fillna(0, inplace=True)
+        pivoted_data_proveedores.iloc[:, 1:] = pivoted_data_proveedores.iloc[:, 1:].round(0).astype(int)
+        # Add a total column and sort by it
+        pivoted_data_proveedores["Total"] = pivoted_data_proveedores.iloc[:, 1:].sum(axis=1)
+        pivoted_data_proveedores.sort_values(by="Total", ascending=False, inplace=True)
+        pivoted_data_proveedores_formatted = pivoted_data_proveedores.copy()
+        for column in pivoted_data_proveedores_formatted.columns[1:]:
+            pivoted_data_proveedores_formatted[column] = pivoted_data_proveedores_formatted[column].apply(format_currency)
+        st.dataframe(pivoted_data_proveedores_formatted, hide_index=True)
+        if not filtered_data.empty:   
+                st.header("Evolución del top 10 Proveedores")      
+                top_10_providers = pivoted_data_proveedores.head(10)
+                top_10_providers_tidy = top_10_providers.melt(id_vars=["Empresa"], var_name="Mes", value_name="Neto")
+                top_10_providers_tidy = top_10_providers_tidy[top_10_providers_tidy["Mes"] != "Total"]
+                st.bar_chart(top_10_providers_tidy, x="Mes", y="Neto", color="Empresa", stack=False)
+        else:
+            st.warning("No hay datos disponibles para la Razón Social seleccionada.")
