@@ -102,7 +102,11 @@ def show_page(username):
         st.dataframe(pivoted_data_clientes, hide_index=True)
         if not filtered_data.empty:   
                 st.header("Evolución del top 10 Clientes")      
-                st.bar_chart(pivoted_data_clientes_tidy.head(10), x="Mes", y="Neto", color="Empresa", stack=False)
+                top_10_clients = pivoted_data_clientes.head(10)
+                top_10_clients_tidy = top_10_clients.melt(id_vars=["Empresa"], var_name="Mes", value_name="Neto")
+                top_10_clients_tidy = top_10_clients_tidy[top_10_clients_tidy["Mes"] != "Total"]
+                top_10_clients_tidy["Neto"] = top_10_clients_tidy["Neto"].replace({",": ""}, regex=True).astype(float)
+                st.bar_chart(top_10_clients_tidy, x="Mes", y="Neto", color="Empresa", stack=False)
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
         # Pivot the data to have columns Mes and Clientes
