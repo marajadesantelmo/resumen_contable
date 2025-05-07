@@ -49,7 +49,7 @@ def show_page(username):
             pivoted_data = pivoted_data[["Mes", "Neto Ventas", "Neto Compras"]]
             for column in [ "Neto Ventas", "Neto Compras"]:
                 pivoted_data[column] = pivoted_data[column].apply(format_currency)
-            st.dataframe(pivoted_data)
+            st.dataframe(pivoted_data, hide_index=True)
 
     with tab2:
         tab2_col1, tab2_col2 = st.columns([2, 1])
@@ -72,4 +72,4 @@ def show_page(username):
             pivoted_data = pivoted_data[["Mes", "IVA Ventas", "IVA Compras", "Saldo IVA"]]
             for column in [ "IVA Ventas", "IVA Compras", "Saldo IVA"]:
                 pivoted_data[column] = pivoted_data[column].apply(format_currency)
-            st.dataframe(pivoted_data)
+            st.dataframe(pivoted_data, hide_index=True)
