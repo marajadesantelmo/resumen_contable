@@ -35,20 +35,25 @@ def show_page(username):
     compras_por_empresa_proveedor = filter_restricted_data(compras_por_empresa_proveedor, username)
 
     st.info("Datos Históricos en base a Comprobantes de ARCA")
+
+    # Selectbox for "Razón Social" outside the tabs
+    selected_razon_social = st.selectbox(
+        "Seleccione Razón Social",
+        comprobantes_historicos['Razon Social'].unique(),
+        key="razon_social_selectbox"
+    )
+
     tab1, tab2, tab3, tab4 = st.tabs(["Ventas y Compras", "IVA", "Clientes", "Proveedores"])
     with tab1:
         tab1_col1, tab1_col2 = st.columns([2, 1])
         with tab1_col1:
             st.subheader("Ventas y Compras")
-            selected_razon_social = st.selectbox(
-                "Seleccione Razón Social", 
-                comprobantes_historicos['Razon Social'].unique(), 
-                key="ventas_compras_selectbox"
-            )
-            filtered_data = comprobantes_historicos[(comprobantes_historicos['Razon Social'] == selected_razon_social) &
-                                                    (comprobantes_historicos['Variable'].isin(['Neto Ventas', 'Neto Compras']))]
-            if not filtered_data.empty:         
-                 st.bar_chart(filtered_data, x="Mes", y="Monto", color="Variable", stack=False)
+            filtered_data = comprobantes_historicos[
+                (comprobantes_historicos['Razon Social'] == selected_razon_social) &
+                (comprobantes_historicos['Variable'].isin(['Neto Ventas', 'Neto Compras']))
+            ]
+            if not filtered_data.empty:
+                st.bar_chart(filtered_data, x="Mes", y="Monto", color="Variable", stack=False)
             else:
                 st.warning("No hay datos disponibles para la Razón Social seleccionada.")
         with tab1_col2:
@@ -62,13 +67,10 @@ def show_page(username):
         tab2_col1, tab2_col2 = st.columns([2, 1])
         with tab2_col1:
             st.subheader("IVA")
-            selected_razon_social = st.selectbox(
-                "Seleccione Razón Social", 
-                comprobantes_historicos['Razon Social'].unique(), 
-                key="iva_selectbox"
-            )
-            filtered_data = comprobantes_historicos[(comprobantes_historicos['Razon Social'] == selected_razon_social) &
-                                                    (comprobantes_historicos['Variable'].isin(['IVA Ventas', 'IVA Compras', 'Saldo IVA']))]
+            filtered_data = comprobantes_historicos[
+                (comprobantes_historicos['Razon Social'] == selected_razon_social) &
+                (comprobantes_historicos['Variable'].isin(['IVA Ventas', 'IVA Compras', 'Saldo IVA']))
+            ]
             if not filtered_data.empty:         
                  st.bar_chart(filtered_data, x="Mes", y="Monto", color="Variable", stack=False)
             else:
@@ -83,13 +85,9 @@ def show_page(username):
 
     with tab3:
         st.subheader("Clientes")
-        selected_razon_social = st.selectbox(
-            "Seleccione Razón Social", 
-            ventas_por_empresa_cliente['Razon Social'].unique(), 
-            key="clientes_selectbox"
-        )
-
-        filtered_data = ventas_por_empresa_cliente[(ventas_por_empresa_cliente['Razon Social'] == selected_razon_social)]
+        filtered_data = ventas_por_empresa_cliente[
+            ventas_por_empresa_cliente['Razon Social'] == selected_razon_social
+        ]
         pivoted_data_clientes_tidy = filtered_data.groupby(["Empresa", "Mes"]).agg({"Neto": "sum"}).reset_index()
         pivoted_data_clientes = pivoted_data_clientes_tidy.pivot(index="Empresa", columns="Mes", values="Neto").reset_index()
         pivoted_data_clientes.fillna(0, inplace=True)  # Ensure no NaN values
@@ -113,13 +111,9 @@ def show_page(username):
 
     with tab4:
         st.subheader("Proveedores")
-        selected_razon_social = st.selectbox(
-            "Seleccione Razón Social", 
-            compras_por_empresa_proveedor['Razon Social'].unique(), 
-            key="proveedores_selectbox"
-        )
-
-        filtered_data = compras_por_empresa_proveedor[(compras_por_empresa_proveedor['Razon Social'] == selected_razon_social)]
+        filtered_data = compras_por_empresa_proveedor[
+            compras_por_empresa_proveedor['Razon Social'] == selected_razon_social
+        ]
         pivoted_data_proveedores_tidy = filtered_data.groupby(["Empresa", "Mes"]).agg({"Neto": "sum"}).reset_index()
         pivoted_data_proveedores = pivoted_data_proveedores_tidy.pivot(index="Empresa", columns="Mes", values="Neto").reset_index()
         pivoted_data_proveedores.fillna(0, inplace=True)
