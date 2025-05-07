@@ -91,11 +91,6 @@ def show_page(username):
         )
 
         filtered_data = ventas_por_empresa_cliente[(ventas_por_empresa_cliente['Razon Social'] == selected_razon_social)]
-        if not filtered_data.empty:         
-                st.bar_chart(filtered_data, x="Mes", y="Neto", color="Empresa", stack=False)
-        else:
-            st.warning("No hay datos disponibles para la Razón Social seleccionada.")
-        # Pivot the data to have columns Mes and Clientes
         pivoted_data_clientes = filtered_data.groupby(["Empresa", "Mes"]).agg({"Neto": "sum"}).reset_index()
         pivoted_data = pivoted_data_clientes.pivot(index="Empresa", columns="Mes", values="Neto").reset_index()
         pivoted_data.fillna(0, inplace=True)
@@ -106,3 +101,8 @@ def show_page(username):
         for column in pivoted_data.columns[1:]:
             pivoted_data[column] = pivoted_data[column].apply(format_currency)
         st.dataframe(pivoted_data, hide_index=True)
+        if not filtered_data.empty:         
+                st.bar_chart(filtered_data, x="Mes", y="Neto", color="Empresa", stack=False)
+        else:
+            st.warning("No hay datos disponibles para la Razón Social seleccionada.")
+        # Pivot the data to have columns Mes and Clientes
