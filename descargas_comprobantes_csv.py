@@ -63,9 +63,9 @@ input_buscador.send_keys('Mis Comprobantes')
 boton_buscador = driver.find_element(By.XPATH, value='//*[@id="rbt-menu-item-0"]')
 boton_buscador.click()
 time.sleep(5)
-driver.switch_to.window(driver.window_handles[1])
+driver.switch_to.window(driver.window_handles[2])
 time.sleep(5)
-for i in range(11, 17):
+for i in range(1, 30):
     try:
         print(f"Elijo empresa numero {i}")
         time.sleep(2)
