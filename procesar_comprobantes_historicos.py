@@ -15,10 +15,9 @@ ids_empresas = pd.read_excel('data/cuits.xlsx')
 cuit_to_name = dict(zip(ids_empresas['cuit'].astype(str), ids_empresas['razon_social']))
 
 raw_dir = 'data\\historico_raw'
-comprobantes_dir = 'data\\historico_procesado'
 files = os.listdir(raw_dir)
 
-#Procesamiento de CSVs
+#Descomprime archivos
 csv_files = os.listdir(raw_dir)
 csv_files_zip = [file for file in csv_files if file.endswith('.zip')]
 # Extract all CSV files from the ZIP archives
@@ -28,6 +27,7 @@ for zip_file in csv_files_zip:
         zip_ref.extractall('data\\historico_raw\\unzipped')
         print(f'Extracted: {zip_file}')
 
+#Procesa CSV descomprimidos
 csv_files = os.listdir('data\\historico_raw\\unzipped')
 csv_files = [file for file in csv_files if file.endswith('.csv')]
 
@@ -93,8 +93,8 @@ for column in ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 
 comprobantes['Neto'] = comprobantes['Imp. Neto Gravado'] + comprobantes['Imp. Neto No Gravado'] + comprobantes['Imp. Op. Exentas']
 
 comprobantes['Empresa'] = comprobantes['Empresa'].fillna("-")
-comprobantes['Fecha de Emisión'] = pd.to_datetime(comprobantes['Fecha de Emisión'])
-comprobantes['Mes'] = comprobantes['Fecha de Emisión'].dt.strftime('%Y-%m')
+comprobantes['Fecha de Emisión2'] = pd.to_datetime(comprobantes['Fecha de Emisión'], dayfirst=True)
+comprobantes['Mes'] = comprobantes['Fecha de Emisión2'].dt.strftime('%Y-%m')
 
 emitidos_historico = comprobantes[comprobantes['Base'] == 'Emitidos'].drop(columns=['Base'])
 recibidos_historico = comprobantes[comprobantes['Base'] == 'Recibidos'].drop(columns=['Base'])
