@@ -12,7 +12,7 @@ def filter_restricted_data(df, username):
     if username != "FU":
         return df
     
-    restricted_companies =     restricted_companies = [
+    rrestricted_companies = [
         "BA Comex", 
         "De la Arena Coll Manuel", 
         "Winehaus", 
