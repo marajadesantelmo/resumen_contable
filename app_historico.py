@@ -98,7 +98,7 @@ def show_page(username):
         pivoted_data_clientes_formatted = pivoted_data_clientes.copy()
         for column in pivoted_data_clientes_formatted.columns[1:]:
             pivoted_data_clientes_formatted[column] = pivoted_data_clientes_formatted[column].apply(format_currency)
-        pivoted_data_clientes_formatted.rename(columns={"Empresa": "Cliente"}
+        pivoted_data_clientes_formatted.rename(columns={"Empresa": "Cliente"}, inplace=True)
         st.dataframe(pivoted_data_clientes_formatted, hide_index=True)
         if not filtered_data.empty:   
                 st.header("Evolución del top 10 Clientes")      
