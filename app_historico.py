@@ -22,6 +22,14 @@ def filter_restricted_data(df, username):
     
     return df
 
+def download_excel(dataframes, sheet_names):
+    """Generate an Excel file from multiple dataframes."""
+    output = BytesIO()
+    with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+        for df, sheet_name in zip(dataframes, sheet_names):
+            df.to_excel(writer, index=False, sheet_name=sheet_name)
+    return output.getvalue()
+
 def show_page(username):
     st.title("Resumen Contable - Histórico")
 
@@ -139,3 +147,38 @@ def show_page(username):
                 st.bar_chart(top_10_providers_tidy, x="Mes", y="Neto", color="Empresa", stack=False)
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
+
+    # Add a download button for all numeric data
+    if st.button("Descargar datos en Excel"):
+        # Prepare dataframes for download
+        ventas_compras_df = comprobantes_historicos[
+            (comprobantes_historicos['Razon Social'] == selected_razon_social) &
+            (comprobantes_historicos['Variable'].isin(['Neto Ventas', 'Neto Compras']))
+        ][['Mes', 'Variable', 'Monto']]
+
+        iva_df = comprobantes_historicos[
+            (comprobantes_historicos['Razon Social'] == selected_razon_social) &
+            (comprobantes_historicos['Variable'].isin(['IVA Ventas', 'IVA Compras', 'Saldo IVA']))
+        ][['Mes', 'Variable', 'Monto']]
+
+        clientes_df = ventas_por_empresa_cliente[
+            ventas_por_empresa_cliente['Razon Social'] == selected_razon_social
+        ][['Empresa', 'Mes', 'Neto']]
+
+        proveedores_df = compras_por_empresa_proveedor[
+            compras_por_empresa_proveedor['Razon Social'] == selected_razon_social
+        ][['Empresa', 'Mes', 'Neto']]
+
+        # Generate Excel file
+        excel_data = download_excel(
+            [ventas_compras_df, iva_df, clientes_df, proveedores_df],
+            ["Ventas y Compras", "IVA", "Clientes", "Proveedores"]
+        )
+
+        # Provide download link
+        st.download_button(
+            label="Descargar Excel",
+            data=excel_data,
+            file_name="resumen_contable_historico.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        )
