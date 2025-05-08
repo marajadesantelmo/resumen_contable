@@ -119,7 +119,7 @@ def show_page(username):
         pivoted_data_proveedores = pivoted_data_proveedores_tidy.pivot(index="Empresa", columns="Mes", values="Neto").reset_index()
         pivoted_data_proveedores.fillna(0, inplace=True)
         pivoted_data_proveedores.iloc[:, 1:] = pivoted_data_proveedores.iloc[:, 1:].round(0).astype(int)
-        # Add a total column and sort by it
+        # Add a total column and sort by i
         pivoted_data_proveedores["Total"] = pivoted_data_proveedores.iloc[:, 1:].sum(axis=1)
         pivoted_data_proveedores.sort_values(by="Total", ascending=False, inplace=True)
         pivoted_data_proveedores_formatted = pivoted_data_proveedores.copy()
