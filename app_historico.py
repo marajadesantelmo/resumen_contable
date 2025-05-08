@@ -8,12 +8,20 @@ def format_currency(x):
     return f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
 
 def filter_restricted_data(df, username):
-    """Filter out restricted data based on username"""
+    """ATENCION: Se define la funcion una vez por pagina de la app"""
     if username != "FU":
         return df
     
-    # Companies to filter out for FU
-    restricted_companies = ["BA Comex", "De la Arena Coll Manuel", "Winehaus", "Nerococina"]
+    restricted_companies =     restricted_companies = [
+        "BA Comex", 
+        "De la Arena Coll Manuel", 
+        "Winehaus", 
+        "Nerococina", 
+        "De la Arena Martin", 
+        "Hermosalta SRL", 
+        "Leoni Maria Jose", 
+        "Valenzuela Ricardo Patricio"
+    ]
     
     if 'razon_social' in df.columns:
         return df[~df['razon_social'].isin(restricted_companies)]

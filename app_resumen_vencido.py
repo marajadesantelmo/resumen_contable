@@ -107,7 +107,7 @@ def filter_by_razon_social(df, razon_social):
     return df
 
 def filter_restricted_data(df, username):
-    """Filter out restricted data based on username"""
+    """ATENCION: Se define la funcion una vez por pagina de la app"""
     if username != "FU":
         return df
     
