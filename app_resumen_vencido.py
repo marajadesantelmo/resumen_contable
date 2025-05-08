@@ -112,7 +112,16 @@ def filter_restricted_data(df, username):
         return df
     
     # Companies to filter out for FU
-    restricted_companies = ["BA Comex", "De la Arena Coll Manuel", "Winehaus", "Nerococina"]
+    restricted_companies = [
+        "BA Comex", 
+        "De la Arena Coll Manuel", 
+        "Winehaus", 
+        "Nerococina", 
+        "De la Arena Martin", 
+        "Hermosalta SRL", 
+        "Leoni Maria Jose", 
+        "Valenzuela Ricardo Patricio"
+    ]
     
     if 'razon_social' in df.columns:
         return df[~df['razon_social'].isin(restricted_companies)]
