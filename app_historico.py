@@ -61,7 +61,7 @@ def show_page(username):
             pivoted_data = filtered_data.pivot(index="Mes", columns="Variable", values="Monto").reset_index()
             for column in [ "Neto Ventas", "Neto Compras"]:
                 pivoted_data[column] = pivoted_data[column].apply(format_currency)
-            st.dataframe(pivoted_data, inplace=True), hide_index=True)
+            st.dataframe(pivoted_data, hide_index=True)
 
     with tab2:
         tab2_col1, tab2_col2 = st.columns([2, 1])
