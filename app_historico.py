@@ -61,8 +61,9 @@ def show_page(username):
             pivoted_data_ventas_compras = filtered_data.pivot(index="Mes", columns="Variable", values="Monto").reset_index()
             pivoted_data_ventas_compras = pivoted_data_ventas_compras[["Mes", "Neto Ventas", "Neto Compras"]]
             pivoted_data_ventas_compras['Dif.'] = pivoted_data_ventas_compras['Neto Ventas'] - pivoted_data_ventas_compras['Neto Compras']
-            for column in [ "Neto Ventas", "Neto Compras"]:
+            for column in [ "Neto Ventas", "Neto Compras", 'Dif.']:
                 pivoted_data_ventas_compras[column] = pivoted_data_ventas_compras[column].apply(format_currency)
+            pivoted_data_ventas_compras.sort_values(by="Mes", ascending=False, inplace=True)
             st.dataframe(pivoted_data_ventas_compras, hide_index=True)
 
     with tab2:
@@ -83,6 +84,7 @@ def show_page(username):
             pivoted_data = pivoted_data[["Mes", "IVA Ventas", "IVA Compras", "Saldo IVA"]]
             for column in [ "IVA Ventas", "IVA Compras", "Saldo IVA"]:
                 pivoted_data[column] = pivoted_data[column].apply(format_currency)
+            pivoted_data.sort_values(by="Mes", ascending=False, inplace=True)
             st.dataframe(pivoted_data, hide_index=True)
 
     with tab3:
