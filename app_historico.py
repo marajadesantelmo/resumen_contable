@@ -58,10 +58,12 @@ def show_page(username):
                 st.warning("No hay datos disponibles para la Razón Social seleccionada.")
         with tab1_col2:
             # Pivot the data to have columns Mes, Neto Ventas, and Neto Compras
-            pivoted_data = filtered_data.pivot(index="Mes", columns="Variable", values="Monto").reset_index()
+            pivoted_data_ventas_compras = filtered_data.pivot(index="Mes", columns="Variable", values="Monto").reset_index()
+            pivoted_data_ventas_compras = pivoted_data_ventas_compras[["Mes", "Neto Ventas", "Neto Compras"]]
+            pivoted_data_ventas_compras['Dif.'] = pivoted_data_ventas_compras['Neto Ventas'] - pivoted_data_ventas_compras['Neto Compras']
             for column in [ "Neto Ventas", "Neto Compras"]:
-                pivoted_data[column] = pivoted_data[column].apply(format_currency)
-            st.dataframe(pivoted_data, hide_index=True)
+                pivoted_data_ventas_compras[column] = pivoted_data_ventas_compras[column].apply(format_currency)
+            st.dataframe(pivoted_data_ventas_compras, hide_index=True)
 
     with tab2:
         tab2_col1, tab2_col2 = st.columns([2, 1])
