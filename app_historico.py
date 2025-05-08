@@ -149,7 +149,7 @@ def show_page(username):
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
 
     # Add a download button for all numeric data
-    if st.button("Descargar datos en Excel"):
+    if st.button("Generar informe en Excel"):
         # Prepare dataframes for download
         ventas_compras_df = comprobantes_historicos[
             (comprobantes_historicos['Razon Social'] == selected_razon_social) &
