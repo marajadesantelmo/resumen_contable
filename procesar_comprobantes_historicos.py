@@ -100,7 +100,7 @@ comprobantes.loc[comprobantes['Tipo de Comprobante'] == 8, ['Imp. Neto Gravado',
 comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Imp. Neto No Gravado'] = comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Imp. Total']
 
 for column in ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA']:
-    comprobantes.loc[comprobantes['Moneda'] == 'USD', column] *= comprobantes.loc[comprobantes['Moneda'] == 'USD', 'Tipo Cambio']
+    comprobantes.loc[comprobantes['Moneda'].str.contains('USD|DOL'), column] *= comprobantes.loc[comprobantes['Moneda'].str.contains('USD|DOL'), 'Tipo Cambio']
 
 comprobantes['Neto'] = comprobantes['Imp. Neto Gravado'] + comprobantes['Imp. Neto No Gravado'] + comprobantes['Imp. Op. Exentas']
 
