@@ -61,7 +61,7 @@ def show_page(username):
             pivoted_data = filtered_data.pivot(index="Mes", columns="Variable", values="Monto").reset_index()
             for column in [ "Neto Ventas", "Neto Compras"]:
                 pivoted_data[column] = pivoted_data[column].apply(format_currency)
-            st.dataframe(pivoted_data, hide_index=True)
+            st.dataframe(pivoted_data, inplace=True), hide_index=True)
 
     with tab2:
         tab2_col1, tab2_col2 = st.columns([2, 1])
@@ -98,6 +98,7 @@ def show_page(username):
         pivoted_data_clientes_formatted = pivoted_data_clientes.copy()
         for column in pivoted_data_clientes_formatted.columns[1:]:
             pivoted_data_clientes_formatted[column] = pivoted_data_clientes_formatted[column].apply(format_currency)
+        pivoted_data_clientes_formatted.rename(columns={"Empresa": "Cliente"}
         st.dataframe(pivoted_data_clientes_formatted, hide_index=True)
         if not filtered_data.empty:   
                 st.header("Evolución del top 10 Clientes")      
@@ -124,6 +125,7 @@ def show_page(username):
         pivoted_data_proveedores_formatted = pivoted_data_proveedores.copy()
         for column in pivoted_data_proveedores_formatted.columns[1:]:
             pivoted_data_proveedores_formatted[column] = pivoted_data_proveedores_formatted[column].apply(format_currency)
+        pivoted_data_proveedores_formatted.rename(columns={"Empresa": "Proveedor"}, inplace=True)
         st.dataframe(pivoted_data_proveedores_formatted, hide_index=True)
         if not filtered_data.empty:   
                 st.header("Evolución del top 10 Proveedores")      
