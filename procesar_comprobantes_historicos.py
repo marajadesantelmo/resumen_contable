@@ -95,8 +95,10 @@ comprobantes = comprobantes[['Fecha de Emisión', 'Base', 'Tipo de Comprobante',
     'Número Desde', 'Tipo Cambio', 'Moneda', 'Imp. Neto Gravado', 'Imp. Neto No Gravado',
     'Imp. Op. Exentas', 'IVA', 'Imp. Total', 'Razon Social', 'Empresa']]
 
+# Notas de credito
 comprobantes.loc[comprobantes['Tipo de Comprobante'] == 3, ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA']] *= -1
 comprobantes.loc[comprobantes['Tipo de Comprobante'] == 8, ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA']] *= -1
+# Factura C
 comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Imp. Neto No Gravado'] = comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Imp. Total']
 
 for column in ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA']:
