@@ -12,7 +12,7 @@ def filter_restricted_data(df, username):
     if username != "FU":
         return df
     
-    rrestricted_companies = [
+    restricted_companies = [
         "BA Comex", 
         "De la Arena Coll Manuel", 
         "Winehaus", 
@@ -25,6 +25,8 @@ def filter_restricted_data(df, username):
     
     if 'razon_social' in df.columns:
         return df[~df['razon_social'].isin(restricted_companies)]
+    if 'Razon Social' in df.columns:
+        return df[~df['Razon Social'].isin(restricted_companies)]
     elif 'Sociedad' in df.columns:
         return df[~df['Sociedad'].isin(restricted_companies)]
     
