@@ -48,9 +48,11 @@ def show_page(username):
 
     emitidos_historicos = pd.read_csv('data/emitidos_historico.csv')
     emitidos_historicos = filter_restricted_data(emitidos_historicos, username)
+    emitidos_historicos = emitidos_historicos.drop(columns=['Razon Social'])
 
     recibidos_historicos = pd.read_csv('data/recibidos_historico.csv')
     recibidos_historicos = filter_restricted_data(recibidos_historicos, username)
+    recibidos_historicos = recibidos_historicos.drop(columns=['Razon Social'])
 
     ventas_por_empresa_cliente = pd.read_csv('data/ventas_historico_cliente.csv')
     ventas_por_empresa_cliente = filter_restricted_data(ventas_por_empresa_cliente, username)
