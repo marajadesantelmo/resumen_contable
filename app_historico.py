@@ -46,10 +46,10 @@ def show_page(username):
     comprobantes_historicos = pd.read_csv('data/comprobantes_historicos.csv')
     comprobantes_historicos = filter_restricted_data(comprobantes_historicos, username)
 
-    emitidos_historicos = pd.read_csv('data/emitidos_historicos.csv')
+    emitidos_historicos = pd.read_csv('data/emitidos_historico.csv')
     emitidos_historicos = filter_restricted_data(emitidos_historicos, username)
 
-    recibidos_historicos = pd.read_csv('data/recibidos_historicos.csv')
+    recibidos_historicos = pd.read_csv('data/recibidos_historico.csv')
     recibidos_historicos = filter_restricted_data(recibidos_historicos, username)
 
     ventas_por_empresa_cliente = pd.read_csv('data/ventas_historico_cliente.csv')
