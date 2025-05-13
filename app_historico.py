@@ -116,7 +116,7 @@ def show_page(username):
             st.dataframe(pivoted_data, hide_index=True)
 
     with tab3:
-        st.subheader("Clientes")
+        st.subheader("Clientes Mensual")
         filtered_data = ventas_por_empresa_cliente[
             ventas_por_empresa_cliente['Razon Social'] == selected_razon_social
         ]
@@ -140,6 +140,8 @@ def show_page(username):
                 st.bar_chart(top_10_clients_tidy, x="Mes", y="Neto", color="Empresa", stack=False)
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
+        st.subheader("Detalle Emitidos")
+        st.dataframe(emitidos_historicos[emitidos_historicos['Razon Social'] == selected_razon_social], hide_index=True)        
         # Pivot the data to have columns Mes and Clientes
 
     with tab4:
@@ -167,6 +169,8 @@ def show_page(username):
                 st.bar_chart(top_10_providers_tidy, x="Mes", y="Neto", color="Empresa", stack=False)
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
+        st.subheader("Detalle Recibidos")
+        st.dataframe(recibidos_historicos[recibidos_historicos['Razon Social'] == selected_razon_social], hide_index=True)
 
     # Add a download button for all numeric data
     if st.button("Generar informe en Excel"):
