@@ -113,6 +113,9 @@ comprobantes['Mes'] = comprobantes['Fecha de Emisión2'].dt.strftime('%Y-%m')
 emitidos_historico = comprobantes[comprobantes['Base'] == 'Emitidos'].drop(columns=['Base'])
 recibidos_historico = comprobantes[comprobantes['Base'] == 'Recibidos'].drop(columns=['Base'])
 
+emitidos_historico.to_csv('data/emitidos_historico.csv', index=False)
+recibidos_historico.to_csv('data/recibidos_historico.csv', index=False)
+
 ### Sacar datos para graficos
 
 ventas_por_empresa = emitidos_historico.groupby(['Razon Social', 'Mes']).agg({
