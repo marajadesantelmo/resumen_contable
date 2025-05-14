@@ -147,7 +147,8 @@ def show_page(username):
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
         st.subheader("Detalle Emitidos")
-        st.dataframe(emitidos_historicos[emitidos_historicos['Razon Social'] == selected_razon_social], hide_index=True)        
+        st.dataframe(emitidos_historicos[emitidos_historicos['Razon Social'] == selected_razon_social].drop(columns=["Razon Social"]), 
+                     hide_index=True)        
         # Pivot the data to have columns Mes and Clientes
 
     with tab4:
@@ -176,7 +177,8 @@ def show_page(username):
         else:
             st.warning("No hay datos disponibles para la Razón Social seleccionada.")
         st.subheader("Detalle Recibidos")
-        st.dataframe(recibidos_historicos[recibidos_historicos['Razon Social'] == selected_razon_social], hide_index=True)
+        st.dataframe(recibidos_historicos[recibidos_historicos['Razon Social'] == selected_razon_social].drop(columns=["Razon Social"]), 
+                     hide_index=True)
 
     # Add a download button for all numeric data
     if st.button("Generar informe en Excel"):
