@@ -1,7 +1,5 @@
 """
-Script que genera emitidos_historico y recibidos_historico 
-Primero cambia los nombres de los comprobantes descargados en 
-'data\\historico_raw' y luego los procesa y los copia en historico_procesado.
+Procesamiento de csv ya descomprimidos
 """
 
 import os
@@ -82,13 +80,27 @@ for column in ['Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 
 comprobantes['Neto'] = comprobantes['Imp. Neto Gravado'] + comprobantes['Imp. Neto No Gravado'] + comprobantes['Imp. Op. Exentas']
 
 comprobantes['Empresa'] = comprobantes['Empresa'].fillna("-")
-comprobantes['Fecha de Emisión2'] = pd.to_datetime(comprobantes['Fecha de Emisión'], dayfirst=True)
-comprobantes['Mes'] = comprobantes['Fecha de Emisión2'].dt.strftime('%Y-%m')
+
+# Normaliza fechas con formato DD/MM/YYYY o D/M/YYYY a YYYY-MM-DD
+def normalize_fecha_emision(fecha):
+    if pd.isnull(fecha):
+        return fecha
+    # Si ya está en formato YYYY-MM-DD, no cambia
+    if re.match(r'^\d{4}-\d{2}-\d{2}$', str(fecha)):
+        return fecha
+    # Si está en formato D/M/YYYY o DD/MM/YYYY
+    match = re.match(r'^(\d{1,2})/(\d{1,2})/(\d{4})$', str(fecha))
+    if match:
+        d, m, y = match.groups()
+        return f"{y}-{int(m):02d}-{int(d):02d}"
+    return fecha
+
+comprobantes['Fecha de Emisión'] = comprobantes['Fecha de Emisión'].apply(normalize_fecha_emision)
+comprobantes['Fecha de Emisión'] = pd.to_datetime(comprobantes['Fecha de Emisión'], format='%Y-%m-%d', errors='coerce')
+comprobantes['Mes'] = comprobantes['Fecha de Emisión'].dt.strftime('%Y-%m')
 
 emitidos_historico = comprobantes[comprobantes['Base'] == 'Emitidos'].drop(columns=['Base'])
 recibidos_historico = comprobantes[comprobantes['Base'] == 'Recibidos'].drop(columns=['Base'])
-
-
 
 ### Sacar datos para graficos
 
@@ -127,9 +139,7 @@ comprobantes_historicos = comprobantes_historico.melt(
 )
 
 
-emitidos_historico  = emitidos_historico.drop(columns=['Tipo de Comprobante', 'Fecha de Emisión2', 'Mes'])
-recibidos_historico = recibidos_historico.drop(columns=['Tipo de Comprobante', 'Fecha de Emisión2', 'Mes'])
-
+# AGREGARLE TIPO DE COMPROBANTE
 emitidos_historico.to_csv('data/emitidos_historico.csv', index=False)
 recibidos_historico.to_csv('data/recibidos_historico.csv', index=False)
 
