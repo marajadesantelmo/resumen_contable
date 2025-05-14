@@ -98,6 +98,7 @@ def normalize_fecha_emision(fecha):
 comprobantes['Fecha de Emisión'] = comprobantes['Fecha de Emisión'].apply(normalize_fecha_emision)
 comprobantes['Fecha de Emisión'] = pd.to_datetime(comprobantes['Fecha de Emisión'], format='%Y-%m-%d', errors='coerce')
 comprobantes['Mes'] = comprobantes['Fecha de Emisión'].dt.strftime('%Y-%m')
+comprobantes['Fecha'] = comprobantes['Fecha de Emisión'].dt.strftime('%d/%m/%Y')
 
 codigos_tipos_comprobante = pd.read_excel('codigos_tipos_comprobante.xls')
 codigos_tipos_comprobante['Descripción'] = codigos_tipos_comprobante['Descripción'].str.title()
@@ -110,13 +111,12 @@ comprobantes = comprobantes.merge(
     how='left'
 )
 
-comprobantes = comprobantes[['Fecha de Emisión', 'Empresa', 'Tipo', 'Número Desde',
+comprobantes = comprobantes[['Fecha', 'Empresa', 'Tipo', 'Número Desde',
         'Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA',
        'Neto', 'Imp. Total', 'Mes', 'Razon Social', 'Base']]
 
 comprobantes = comprobantes.rename(columns={
-    'Número Desde': 'Nro.', 
-    'Fecha de Emisión': 'Fecha',})
+    'Número Desde': 'Nro.', })
 
 emitidos_historico = comprobantes[comprobantes['Base'] == 'Emitidos'].drop(columns=['Base'])
 recibidos_historico = comprobantes[comprobantes['Base'] == 'Recibidos'].drop(columns=['Base'])
