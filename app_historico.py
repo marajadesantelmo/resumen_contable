@@ -92,9 +92,13 @@ def show_page(username):
             pivoted_data_ventas_compras.sort_values(by="Mes", ascending=False, inplace=True)
             st.dataframe(pivoted_data_ventas_compras, hide_index=True)
         st.subheader("Detalle Recibidos")
-        st.dataframe(recibidos_historicos[recibidos_historicos['Razon Social'] == selected_razon_social], hide_index=True)
+        st.dataframe(
+            recibidos_historicos[recibidos_historicos['Razon Social'] == selected_razon_social].drop(columns=["Razon Social"]),
+            hide_index=True
+        )
         st.subheader("Detalle Emitidos")
-        st.dataframe(emitidos_historicos[emitidos_historicos['Razon Social'] == selected_razon_social], hide_index=True)
+        st.dataframe(emitidos_historicos[emitidos_historicos['Razon Social'] == selected_razon_social].drop(columns=["Razon Social"]), 
+                     hide_index=True)
 
     with tab2:
         tab2_col1, tab2_col2 = st.columns([2, 1])
