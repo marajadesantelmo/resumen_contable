@@ -113,7 +113,7 @@ comprobantes = comprobantes.merge(
 
 comprobantes = comprobantes[['Fecha', 'Empresa', 'Tipo', 'Número Desde',
         'Imp. Neto Gravado', 'Imp. Neto No Gravado', 'Imp. Op. Exentas', 'IVA',
-       'Neto', 'Imp. Total', 'Mes', 'Razon Social', 'Base']]
+       'Neto', 'Mes', 'Razon Social', 'Base']]
 
 comprobantes = comprobantes.rename(columns={
     'Número Desde': 'Nro.', })
