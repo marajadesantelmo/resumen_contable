@@ -117,7 +117,7 @@ comprobantes = comprobantes[['Fecha', 'Empresa', 'Tipo', 'Número Desde',
 
 comprobantes = comprobantes.rename(columns={
     'Número Desde': 'Nro.',
-    'Imp. Neto Gravadp': 'Neto Gravado',
+    'Imp. Neto Gravado': 'Neto Gravado',
     'Imp. Neto No Gravado': 'Neto No Gravado',
     'Imp. Op. Exentas': 'Op. Exentas',})
 
