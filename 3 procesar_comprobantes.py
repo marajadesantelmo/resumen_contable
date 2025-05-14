@@ -116,7 +116,10 @@ comprobantes = comprobantes[['Fecha', 'Empresa', 'Tipo', 'Número Desde',
        'Neto', 'Mes', 'Razon Social', 'Base']]
 
 comprobantes = comprobantes.rename(columns={
-    'Número Desde': 'Nro.', })
+    'Número Desde': 'Nro.',
+    'Imp. Neto Gravadp': 'Neto Gravado',
+    'Imp. Neto No Gravado': 'Neto No Gravado',
+    'Imp. Op. Exentas': 'Op. Exentas',})
 
 emitidos_historico = comprobantes[comprobantes['Base'] == 'Emitidos'].drop(columns=['Base'])
 recibidos_historico = comprobantes[comprobantes['Base'] == 'Recibidos'].drop(columns=['Base'])
