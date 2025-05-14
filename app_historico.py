@@ -102,20 +102,20 @@ def show_page(username):
             set(recibidos_df['Mes'].unique()).union(emitidos_df['Mes'].unique()),
             reverse=True
         )
-        selected_mes = st.selectbox("Filtrar por Mes", all_meses, key="mes_filter_tab1")
+
 
         # EMPRESA filter (ascending)
         all_empresas = sorted(
             set(recibidos_df['Empresa'].unique()).union(emitidos_df['Empresa'].unique())
         )
-        selected_empresa = st.selectbox("Filtrar por Empresa", ["(Todos)"] + all_empresas, key="empresa_filter_tab1")
-
+        
         # Apply filters
         def filter_df(df):
             df = df[df['Mes'] == selected_mes]
             if selected_empresa != "(Todos)":
                 df = df[df['Empresa'] == selected_empresa]
             return df
+        
         sub_col1, sub_col2, sub_col3 = st.columns([2, 1, 1])
         with sub_col1:
             st.subheader("Detalle Recibidos")
