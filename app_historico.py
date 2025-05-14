@@ -125,12 +125,12 @@ def show_page(username):
             selected_mes = st.selectbox("Filtrar por Mes", all_meses, key="mes_filter_tab1")
         
         st.dataframe(
-            filter_df(recibidos_df).drop(columns=["Razon Social"]),
+            filter_df(recibidos_df).drop(columns=["Razon Social", "Mes"]),
             hide_index=True
         )
         st.subheader("Detalle Emitidos")
         st.dataframe(
-            filter_df(emitidos_df).drop(columns=["Razon Social"]),
+            filter_df(emitidos_df).drop(columns=["Razon Social", "Mes"]),
             hide_index=True
         )
 
