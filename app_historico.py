@@ -91,14 +91,42 @@ def show_page(username):
                 pivoted_data_ventas_compras[column] = pivoted_data_ventas_compras[column].apply(format_currency)
             pivoted_data_ventas_compras.sort_values(by="Mes", ascending=False, inplace=True)
             st.dataframe(pivoted_data_ventas_compras, hide_index=True)
+
+        # --- NEW FILTERS FOR RECIBIDOS/EMITIDOS ---
+        # Get unique Mes and Empresa for recibidos_historicos and emitidos_historicos
+        recibidos_df = recibidos_historicos[recibidos_historicos['Razon Social'] == selected_razon_social]
+        emitidos_df = emitidos_historicos[emitidos_historicos['Razon Social'] == selected_razon_social]
+
+        # MES filter (descending)
+        all_meses = sorted(
+            set(recibidos_df['Mes'].unique()).union(emitidos_df['Mes'].unique()),
+            reverse=True
+        )
+        selected_mes = st.selectbox("Filtrar por Mes", all_meses, key="mes_filter_tab1")
+
+        # EMPRESA filter (ascending)
+        all_empresas = sorted(
+            set(recibidos_df['Empresa'].unique()).union(emitidos_df['Empresa'].unique())
+        )
+        selected_empresa = st.selectbox("Filtrar por Empresa", ["(Todos)"] + all_empresas, key="empresa_filter_tab1")
+
+        # Apply filters
+        def filter_df(df):
+            df = df[df['Mes'] == selected_mes]
+            if selected_empresa != "(Todos)":
+                df = df[df['Empresa'] == selected_empresa]
+            return df
+
         st.subheader("Detalle Recibidos")
         st.dataframe(
-            recibidos_historicos[recibidos_historicos['Razon Social'] == selected_razon_social].drop(columns=["Razon Social"]),
+            filter_df(recibidos_df).drop(columns=["Razon Social"]),
             hide_index=True
         )
         st.subheader("Detalle Emitidos")
-        st.dataframe(emitidos_historicos[emitidos_historicos['Razon Social'] == selected_razon_social].drop(columns=["Razon Social"]), 
-                     hide_index=True)
+        st.dataframe(
+            filter_df(emitidos_df).drop(columns=["Razon Social"]),
+            hide_index=True
+        )
 
     with tab2:
         tab2_col1, tab2_col2 = st.columns([2, 1])
