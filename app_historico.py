@@ -40,9 +40,7 @@ def download_excel(dataframes, sheet_names):
             df.to_excel(writer, index=False, sheet_name=sheet_name)
     return output.getvalue()
 
-def show_page(username):
-    st.title("Resumen Contable - Histórico")
-
+def fetch_data(username):
     comprobantes_historicos = pd.read_csv('data/comprobantes_historicos.csv')
     comprobantes_historicos = filter_restricted_data(comprobantes_historicos, username)
 
@@ -57,7 +55,11 @@ def show_page(username):
 
     compras_por_empresa_proveedor = pd.read_csv('data/compras_historico_proveedor.csv')
     compras_por_empresa_proveedor = filter_restricted_data(compras_por_empresa_proveedor, username)
+    return (comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor)
 
+def show_page(username):
+    comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor = fetch_data(username)
+    st.title("Resumen Contable - Histórico")
     st.info("Datos Históricos en base a Comprobantes de ARCA")
 
     # Selectbox for "Razón Social" outside the tabs
