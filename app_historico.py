@@ -116,8 +116,14 @@ def show_page(username):
             if selected_empresa != "(Todos)":
                 df = df[df['Empresa'] == selected_empresa]
             return df
-
-        st.subheader("Detalle Recibidos")
+        sub_col1, sub_col2, sub_col3 = st.columns([2, 1, 1])
+        with sub_col1:
+            st.subheader("Detalle Recibidos")
+        with sub_col2:
+            selected_empresa = st.selectbox("Filtrar por Empresa", ["(Todos)"] + all_empresas, key="empresa_filter_tab1")
+        with sub_col3:
+            selected_mes = st.selectbox("Filtrar por Mes", all_meses, key="mes_filter_tab1")
+        
         st.dataframe(
             filter_df(recibidos_df).drop(columns=["Razon Social"]),
             hide_index=True
