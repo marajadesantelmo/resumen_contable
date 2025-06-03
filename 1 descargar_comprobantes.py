@@ -10,8 +10,6 @@ import os
 from datetime import datetime
 import time
 
-# Seteo de driver
-
 # #Marionette
 print('Abriendo navegador Mozilla')
 try:
@@ -63,7 +61,7 @@ input_buscador.send_keys('Mis Comprobantes')
 boton_buscador = driver.find_element(By.XPATH, value='//*[@id="rbt-menu-item-0"]')
 boton_buscador.click()
 time.sleep(5)
-driver.switch_to.window(driver.window_handles[2])
+driver.switch_to.window(driver.window_handles[1])
 time.sleep(5)
 for i in range(1, 30):
     try:

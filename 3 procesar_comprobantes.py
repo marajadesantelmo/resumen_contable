@@ -30,14 +30,27 @@ for csv_file in csv_files:
         company_name = cuit_to_name.get(cuit)
         if company_name:
             try:
-                data = pd.read_csv(os.path.join('data\\historico_raw\\unzipped', csv_file), sep=";")
+                # Try reading with default engine, fallback to python engine if error
+                try:
+                    data = pd.read_csv(
+                        os.path.join('data\\historico_raw\\unzipped', csv_file),
+                        sep=";",
+                        on_bad_lines='skip'  # Skip bad lines
+                    )
+                except pd.errors.ParserError:
+                    data = pd.read_csv(
+                        os.path.join('data\\historico_raw\\unzipped', csv_file),
+                        sep=";",
+                        engine="python",
+                        on_bad_lines='skip'  # Skip bad lines
+                    )
                 data['Razon Social'] = company_name
                 if 'emitidos' in csv_file.lower():
                     data['Base'] = 'Emitidos'
                 elif 'recibidos' in csv_file.lower():
                     data['Base'] = 'Recibidos'
                 comprobantes_dfs.append(data)
-            except pd.errors.ParserError as e:
+            except Exception as e:
                 print(f"Error reading {csv_file}: {e}")
                 error_log.append(csv_file)
         else:
