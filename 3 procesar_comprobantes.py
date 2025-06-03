@@ -173,14 +173,9 @@ comprobantes_historicos = comprobantes_historico.melt(
     value_name='Monto'
 )
 
-
-
 emitidos_historico.to_csv('data/emitidos_historico.csv', index=False)
 recibidos_historico.to_csv('data/recibidos_historico.csv', index=False)
 
-
-
-# Guardar los DataFrames en CSV
 comprobantes_historicos.to_csv('data/comprobantes_historicos.csv', index=False)
 ventas_por_empresa.to_csv('data/ventas_historico_mensual.csv', index=False)
 compras_por_empresa.to_csv('data/compras_historico_mensual.csv', index=False)
