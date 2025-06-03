@@ -3,3 +3,6 @@ data/historico_raw/*
 data/viejos/*
 captura *
 back-ups/*
+1 descargar_comprobantes.py
+2 descomprimir_comprobantes.py
+3 procesar_comprobantes.py
