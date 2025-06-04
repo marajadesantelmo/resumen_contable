@@ -47,10 +47,12 @@ def to_excel_multiple_sheets(resumen_contable_mes_actual_excel, emitidos_excel, 
 
 
 def fetch_data(): 
-    emitidos = pd.read_csv('data/emitidos_mes_actual.csv')
+    emitidos = pd.read_csv('data/emitidos_historico.csv')
+    emitidos = emitidos[emitidos['Fecha'].str.endswith('/05/2025')]
     emitidos_excel = emitidos.copy()
 
-    recibidos = pd.read_csv('data/recibidos_mes_actual.csv')
+    recibidos = pd.read_csv('data/recibidos_historico.csv')
+    recibidos = recibidos[recibidos['Fecha'].str.endswith('/05/2025')]
     recibidos_excel = recibidos.copy()
 
     resumen_contable_mes_actual = pd.read_csv('data/resumen_contable_mes_actual.csv')
