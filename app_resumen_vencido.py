@@ -8,37 +8,18 @@ def format_currency(x):
 
 def fetch_data():
     # Load emitidos data
-    emitidos = pd.read_csv('data/emitidos_unified.csv')
-    emitidos['Neto'] = emitidos['Imp. Neto Gravado'] + emitidos['Imp. Neto No Gravado'] + emitidos['Imp. Op. Exentas'] 
-    emitidos = emitidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Receptor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
-    emitidos['Denominación Receptor'] = emitidos['Denominación Receptor'].str.strip().str.title()
-    
-    # Clean the 'Sociedad' column by removing specified substrings
-    sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
-    for replacement in sociedad_replacements:
-        emitidos['razon_social'] = emitidos['razon_social'].str.replace(replacement, '', regex=False).str.strip()
-
-    # Store raw values for Excel export but don't show in UI
+    emitidos = pd.read_csv('data/emitidos_mes_vencido.csv')
     emitidos_excel = emitidos.copy()
-    
-    # Format currency columns in emitidos for display
     for column in ['Neto', 'IVA', 'Imp. Total']:
         emitidos[column] = emitidos[column].apply(format_currency)
-
-    # Create summary by company
     emitidos_por_empresa = emitidos_excel.groupby(['razon_social', 'Denominación Receptor']).agg({
         'Neto': 'sum', 
         'IVA': 'sum', 
         'Imp. Total': 'sum'
     }).reset_index()
     
-    # Sort by Imp. Total in descending order
     emitidos_por_empresa = emitidos_por_empresa.sort_values('Imp. Total', ascending=False)
-    
-    # Create a copy for Excel export
     emitidos_por_empresa_excel = emitidos_por_empresa.copy()
-    
-    # Format currency columns for display
     for column in ['Neto', 'IVA', 'Imp. Total']:
         emitidos_por_empresa[column] = emitidos_por_empresa[column].apply(format_currency)
 
@@ -78,7 +59,7 @@ def fetch_data():
         recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
 
     # Load resumen contable data
-    resumen_contable = pd.read_csv('data/resumen_contable.csv')
+    resumen_contable = pd.read_csv('data/resumen_contable_mes_vencido.csv')
     
     # Create a copy for Excel export
     resumen_contable_excel = resumen_contable.copy()
@@ -148,7 +129,6 @@ def to_excel_multiple_sheets(resumen_contable_excel, emitidos_excel, recibidos_e
 
 def show_page(username):
     st.title("Resumen Contable - Mes Vencido (Mayo 2025)")
-    st.info("En construcción")
     
     # Get both formatted data (for display) and raw data (for Excel)
     (
