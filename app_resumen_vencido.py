@@ -12,7 +12,7 @@ def fetch_data():
     emitidos_excel = emitidos.copy()
     for column in ['Neto', 'IVA', 'Imp. Total']:
         emitidos[column] = emitidos[column].apply(format_currency)
-    emitidos_por_empresa = emitidos_excel.groupby(['razon_social', 'Denominación Receptor']).agg({
+    emitidos_por_empresa = emitidos_excel.groupby(['Razon Social', 'Denominación Receptor']).agg({
         'Neto': 'sum', 
         'IVA': 'sum', 
         'Imp. Total': 'sum'
@@ -26,13 +26,13 @@ def fetch_data():
     # Load recibidos data
     recibidos = pd.read_csv('data/recibidos_unified.csv')
     recibidos['Neto'] = recibidos['Imp. Neto Gravado'] + recibidos['Imp. Neto No Gravado'] + recibidos['Imp. Op. Exentas']
-    recibidos = recibidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Emisor', 'Neto', 'IVA', 'Imp. Total', 'razon_social']]
+    recibidos = recibidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Emisor', 'Neto', 'IVA', 'Imp. Total', 'Razon Social']]
     recibidos['Denominación Emisor'] = recibidos['Denominación Emisor'].str.strip().str.title()
     
-    # Clean the 'razon_social' column by removing specified substrings
+    # Clean the 'Razon Social' column by removing specified substrings
     sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
     for replacement in sociedad_replacements:
-        recibidos['razon_social'] = recibidos['razon_social'].str.replace(replacement, '', regex=False).str.strip()
+        recibidos['Razon Social'] = recibidos['Razon Social'].str.replace(replacement, '', regex=False).str.strip()
 
     # Store raw values for Excel export but don't show in UI
     recibidos_excel = recibidos.copy()
@@ -42,7 +42,7 @@ def fetch_data():
         recibidos[column] = recibidos[column].apply(format_currency)
 
     # Create summary by company
-    recibidos_por_empresa = recibidos_excel.groupby(['razon_social', 'Denominación Emisor']).agg({
+    recibidos_por_empresa = recibidos_excel.groupby(['Razon Social', 'Denominación Emisor']).agg({
         'Neto': 'sum', 
         'IVA': 'sum', 
         'Imp. Total': 'sum'
@@ -82,7 +82,7 @@ def fetch_data():
 
 def filter_by_razon_social(df, razon_social):
     if 'razon_social' in df.columns:
-        return df[df['razon_social'] == razon_social].drop('razon_social', axis=1)
+        return df[df['Razon Social'] == razon_social].drop('razon_social', axis=1)
     if 'Sociedad' in df.columns:
         return df[df['Sociedad'] == razon_social].drop('Sociedad', axis=1)
     return df
