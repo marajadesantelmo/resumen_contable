@@ -7,74 +7,41 @@ def format_currency(x):
     return f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
 
 def fetch_data():
-    # Load emitidos data
     emitidos = pd.read_csv('data/emitidos_mes_vencido.csv')
     emitidos_excel = emitidos.copy()
-    for column in ['Neto', 'IVA', 'Imp. Total']:
+    for column in ['Neto', 'IVA']:
         emitidos[column] = emitidos[column].apply(format_currency)
-    emitidos_por_empresa = emitidos_excel.groupby(['Razon Social', 'Denominación Receptor']).agg({
+    emitidos_por_empresa = emitidos_excel.groupby(['Razon Social', 'Empresa']).agg({
         'Neto': 'sum', 
         'IVA': 'sum', 
-        'Imp. Total': 'sum'
     }).reset_index()
-    
-    emitidos_por_empresa = emitidos_por_empresa.sort_values('Imp. Total', ascending=False)
+    emitidos_por_empresa = emitidos_por_empresa.sort_values('Neto', ascending=False)
     emitidos_por_empresa_excel = emitidos_por_empresa.copy()
-    for column in ['Neto', 'IVA', 'Imp. Total']:
+    for column in ['Neto', 'IVA']:
         emitidos_por_empresa[column] = emitidos_por_empresa[column].apply(format_currency)
 
-    # Load recibidos data
-    recibidos = pd.read_csv('data/recibidos_unified.csv')
-    recibidos['Neto'] = recibidos['Imp. Neto Gravado'] + recibidos['Imp. Neto No Gravado'] + recibidos['Imp. Op. Exentas']
-    recibidos = recibidos[['Fecha', 'Tipo', 'Número Desde', 'Denominación Emisor', 'Neto', 'IVA', 'Imp. Total', 'Razon Social']]
-    recibidos['Denominación Emisor'] = recibidos['Denominación Emisor'].str.strip().str.title()
-    
-    # Clean the 'Razon Social' column by removing specified substrings
-    sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
-    for replacement in sociedad_replacements:
-        recibidos['Razon Social'] = recibidos['Razon Social'].str.replace(replacement, '', regex=False).str.strip()
-
-    # Store raw values for Excel export but don't show in UI
+    recibidos = pd.read_csv('data/recibidos_mes_vencido.csv')
     recibidos_excel = recibidos.copy()
-    
-    # Format currency columns in recibidos for display
-    for column in ['Neto', 'IVA', 'Imp. Total']:
+    for column in ['Neto', 'IVA']:
         recibidos[column] = recibidos[column].apply(format_currency)
-
-    # Create summary by company
-    recibidos_por_empresa = recibidos_excel.groupby(['Razon Social', 'Denominación Emisor']).agg({
+    recibidos_por_empresa = recibidos_excel.groupby(['Razon Social', 'Empresa']).agg({
         'Neto': 'sum', 
         'IVA': 'sum', 
-        'Imp. Total': 'sum'
     }).reset_index()
-    
-    # Sort by Imp. Total in descending order
-    recibidos_por_empresa = recibidos_por_empresa.sort_values('Imp. Total', ascending=False)
-    
-    # Create a copy for Excel export
+    recibidos_por_empresa = recibidos_por_empresa.sort_values('Neto', ascending=False)
     recibidos_por_empresa_excel = recibidos_por_empresa.copy()
-    
-    # Format currency columns for display
-    for column in ['Neto', 'IVA', 'Imp. Total']:
+    for column in ['Neto', 'IVA']:
         recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
-
-    # Load resumen contable data
+        
     resumen_contable = pd.read_csv('data/resumen_contable_mes_vencido.csv')
-    
-    # Create a copy for Excel export
     resumen_contable_excel = resumen_contable.copy()
-
-    # Format currency columns for display
     for column in resumen_contable.columns:
         if column != 'Sociedad':
             resumen_contable[column] = resumen_contable[column].apply(format_currency)
-
     resumen_contable_total = pd.read_csv('data/resumen_contable_total.csv')
-
     for column in resumen_contable_total.columns:
         if column != 'Sociedad':
             resumen_contable_total[column] = resumen_contable_total[column].apply(format_currency)
-            
     return (
         emitidos, recibidos, resumen_contable, resumen_contable_total, emitidos_por_empresa, recibidos_por_empresa,
         emitidos_excel, recibidos_excel, resumen_contable_excel, emitidos_por_empresa_excel, recibidos_por_empresa_excel
