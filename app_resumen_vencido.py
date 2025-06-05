@@ -32,7 +32,7 @@ def fetch_data():
     recibidos_por_empresa_excel = recibidos_por_empresa.copy()
     for column in ['Neto', 'IVA']:
         recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
-        
+
     resumen_contable = pd.read_csv('data/resumen_contable_mes_vencido.csv')
     resumen_contable_excel = resumen_contable.copy()
     for column in resumen_contable.columns:
@@ -134,7 +134,7 @@ def show_page(username):
         st.header("Comprobantes AFIP")
         st.write("Información descargada desde el sitio de 'Mis Comprobantes' de la AFIP.")
     with col2:
-        razon_social_options = sorted(emitidos['razon_social'].unique().tolist())
+        razon_social_options = sorted(emitidos['Razon Social'].unique().tolist())
         razon_social = st.selectbox(
             "Seleccionar Empresa", 
             options=razon_social_options,
