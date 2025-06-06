@@ -171,11 +171,11 @@ def show_page(username):
     # Show tables with standard styling
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader("Emitidos por Empresa")
+        st.subheader("Total mensual Emitidos por Cliente")
         with st.container():
             st.dataframe(filtered_emitidos_por_empresa, use_container_width=True, hide_index=True)
     with col2:
-        st.subheader("Recibidos por Empresa")
+        st.subheader("Total mensual Recibidos por Proveedor")
         with st.container():
             st.dataframe(filtered_recibidos_por_empresa, use_container_width=True, hide_index=True)
     
