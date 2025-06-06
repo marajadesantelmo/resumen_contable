@@ -28,8 +28,6 @@ emitidos_por_empresa = emitidos_por_empresa.sort_values('Neto', ascending=False)
 emitidos_por_empresa.rename(columns={'Razon Social': 'Sociedad'}, inplace=True)
 emitidos_por_empresa.to_csv('data/emitidos_por_empresa_mes_vencido.csv', index=False)
 
-
-
 #Recibidos por Proveedor
 recibidos['Neto'] = recibidos['Neto Gravado'] + recibidos['Neto No Gravado'] + recibidos['Op. Exentas']
 recibidos = recibidos[['Fecha', 'Tipo', 'Nro.', 'Empresa', 'Neto', 'IVA', 'Razon Social']]
@@ -96,6 +94,10 @@ emitidos['Ingresos Brutos'] = (emitidos['Neto'] * emitidos['iibb_bsas'] * emitid
 ingresos_brutos = emitidos.groupby('Razon Social')['Ingresos Brutos'].sum().astype(int)
 # Cargas Sociales
 
+ctas_tributarias = pd.read_excel('data/unified_cuentas_tributarias.xlsx')
+
+
+
 # Combine all indicators into a single DataFrame
 indicators = pd.DataFrame({
     'Ventas Netas': ventas_netas,
@@ -105,24 +107,17 @@ indicators = pd.DataFrame({
     'Saldo IVA': saldo_iva,
     'Ingresos Brutos': ingresos_brutos,
 }).reset_index()
-# Merge with company names to get a complete view
 indicators = indicators.rename(columns={'Razon Social': 'Company Name'})  
 indicators['Mes'] = mes
-# Convert to tidy format (melt)
 indicators = indicators.melt(id_vars=['Company Name', 'Mes'], var_name='Variable', value_name='Value')
-# Handle NaN values by filling with 0
 indicators['Value'] = indicators['Value'].fillna(0)
-# Convert 'Value' column to integer
 indicators['Value'] = indicators['Value'].astype(int)
 
 indicators = indicators[indicators['Company Name'] != 'Unknown Company']
 
 datos_pivot = indicators.pivot(index='Company Name', columns='Variable', values='Value')
-
 datos_pivot = datos_pivot.reset_index()
-
 datos_pivot = datos_pivot[['Company Name', 'Ventas Netas', 'Compras Netas', 'Saldo IVA', 'Ingresos Brutos']]
-
 datos_pivot.columns = ['Sociedad', 'Vtas. Netas', 'Compras Netas', 'Saldo IVA', 'II.BB.']
 
 # Clean the 'Sociedad' column by removing specified substrings
