@@ -18,6 +18,8 @@ recibidos = recibidos[recibidos['Fecha'].str.endswith(mes)]
 emitidos = emitidos[['Fecha', 'Tipo', 'Nro.', 'Empresa', 'Neto', 'IVA', 'Razon Social']]
 emitidos.to_csv('data/emitidos_mes_vencido.csv', index=False)
 
+ventas_netas = emitidos['Neto'].sum()
+
 emitidos_por_empresa = emitidos.groupby(['Razon Social', 'Empresa']).agg({
     'Neto': 'sum', 
     'IVA': 'sum', 
@@ -26,6 +28,8 @@ emitidos_por_empresa['Imp. Total'] = emitidos_por_empresa['Neto'] + emitidos_por
 emitidos_por_empresa = emitidos_por_empresa.sort_values('Neto', ascending=False)
 emitidos_por_empresa.rename(columns={'Razon Social': 'Sociedad'}, inplace=True)
 emitidos_por_empresa.to_csv('data/emitidos_por_empresa_mes_vencido.csv', index=False)
+
+
 
 #Recibidos por Proveedor
 recibidos['Neto'] = recibidos['Neto Gravado'] + recibidos['Neto No Gravado'] + recibidos['Op. Exentas']
