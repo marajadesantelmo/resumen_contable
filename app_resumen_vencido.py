@@ -48,8 +48,8 @@ def fetch_data():
     )
 
 def filter_by_razon_social(df, razon_social):
-    if 'razon_social' in df.columns:
-        return df[df['Razon Social'] == razon_social].drop('razon_social', axis=1)
+    if 'Razon Social' in df.columns:
+        return df[df['Razon Social'] == razon_social].drop('Razon Social', axis=1)
     if 'Sociedad' in df.columns:
         return df[df['Sociedad'] == razon_social].drop('Sociedad', axis=1)
     return df
@@ -71,8 +71,8 @@ def filter_restricted_data(df, username):
         "Valenzuela Ricardo Patricio"
     ]
     
-    if 'razon_social' in df.columns:
-        return df[~df['razon_social'].isin(restricted_companies)]
+    if 'Razon Social' in df.columns:
+        return df[~df['Razon Social'].isin(restricted_companies)]
     elif 'Sociedad' in df.columns:
         return df[~df['Sociedad'].isin(restricted_companies)]
     
