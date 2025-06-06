@@ -7,18 +7,17 @@ Ver si es posible mejorarlo integrando descarga y procesamiento en este reposito
 """
 from datetime import datetime
 import pandas as pd
-mes = "05-2025"
+mes = "05/2025"                                        ##### <- IGRESAR MES A MANO
 #Abro datos
 cuits  = pd.read_excel('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\resumen_contable\\cuits.xlsx') 
 emitidos = pd.read_csv('data/emitidos_historico.csv')
-emitidos = emitidos[emitidos['Fecha'].str.endswith('/05/2025')]
+emitidos = emitidos[emitidos['Fecha'].str.endswith(mes)]
 recibidos = pd.read_csv('data/recibidos_historico.csv')
-recibidos = recibidos[recibidos['Fecha'].str.endswith('/05/2025')]
+recibidos = recibidos[recibidos['Fecha'].str.endswith(mes)]
 
 emitidos = emitidos[['Fecha', 'Tipo', 'Nro.', 'Empresa', 'Neto', 'IVA', 'Razon Social']]
 emitidos.to_csv('data/emitidos_mes_vencido.csv', index=False)
 
-ventas_netas = emitidos.groupby('Razon Social')['Neto'].sum()
 emitidos_por_empresa = emitidos.groupby(['Razon Social', 'Empresa']).agg({
     'Neto': 'sum', 
     'IVA': 'sum', 
