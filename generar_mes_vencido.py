@@ -41,7 +41,6 @@ recibidos_por_empresa = recibidos_por_empresa.sort_values('Imp. Total', ascendin
 recibidos_por_empresa.rename(columns={'Razon Social': 'Sociedad'}, inplace=True)
 recibidos_por_empresa.to_csv('data/recibidos_por_empresa_mes_vencido.csv', index=False)
 
-
 # IVA 
 iva_ventas_df = emitidos.groupby('Razon Social')['IVA'].sum().reset_index()
 iva_compras_df = recibidos.groupby('Razon Social')['IVA'].sum().reset_index()
@@ -56,14 +55,16 @@ saldo_iva = iva_df.set_index('Razon Social')['Saldo IVA']
 # Ingresos Brutos
 
 # Map values from cuits to emitidos
-emitidos['iibb_bsas'] = emitidos['Razon Social'].map(cuits['iib_bsas'])
-emitidos['alic_bsas'] = emitidos['Razon Social'].map(cuits['alic_bsas'])
-emitidos['iibb_caba'] = emitidos['Razon Social'].map(cuits['iib_caba'])
-emitidos['alic_caba'] = emitidos['Razon Social'].map(cuits['alic_caba'])
-emitidos['iibb_salta'] = emitidos['Razon Social'].map(cuits['iib_salta'])
-emitidos['alic_salta'] = emitidos['Razon Social'].map(cuits['alic_salta'])
-emitidos['iibb_otros'] = emitidos['Razon Social'].map(cuits['iib_otros'])
-emitidos['alic_otros'] = emitidos['Razon Social'].map(cuits['alic_otros'])
+cuits.rename(columns={'razon_social': 'Razon Social'}, inplace=True)
+sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
+for replacement in sociedad_replacements:
+    cuits['Razon Social'] = cuits['Razon Social'].str.replace(replacement, '', regex=False).str.strip()
+
+# Set 'Razon Social' as index for mapping
+cuits_indexed = cuits.set_index('Razon Social')
+
+for col in ['iib_bsas', 'alic_bsas', 'iib_caba', 'alic_caba', 'iib_salta', 'alic_salta', 'iib_otros', 'alic_otros']:
+    emitidos[col.replace('iib', 'iibb')] = emitidos['Razon Social'].map(cuits_indexed[col] if col in cuits_indexed else None)
 
 # List of columns to fill NaN values with zero
 columns_to_fill = [
@@ -122,6 +123,11 @@ for replacement in sociedad_replacements:
 current_date = datetime.now().strftime("%d-%m-%Y")
 
 datos_pivot.to_csv('data/resumen_contable_mes_vencido.csv', index=False)
+
+# Sum all columns except 'Sociedad'
+totals = datos_pivot.drop('Sociedad', axis=1).sum().to_frame().T
+
+totals.to_csv('data/resumen_contable_total.csv', index=False)
 
 with open('data/leyenda_resumen_contable_mes_vencido.txt', 'w', encoding='utf-8') as file:
     file.write(f"Resumen Contable al {current_date} para el mes corriente")
