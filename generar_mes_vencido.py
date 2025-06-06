@@ -18,7 +18,6 @@ recibidos = recibidos[recibidos['Fecha'].str.endswith(mes)]
 emitidos = emitidos[['Fecha', 'Tipo', 'Nro.', 'Empresa', 'Neto', 'IVA', 'Razon Social']]
 emitidos.to_csv('data/emitidos_mes_vencido.csv', index=False)
 
-ventas_netas = emitidos['Neto'].sum()
 
 emitidos_por_empresa = emitidos.groupby(['Razon Social', 'Empresa']).agg({
     'Neto': 'sum', 
@@ -45,6 +44,10 @@ recibidos_por_empresa.rename(columns={'Razon Social': 'Sociedad'}, inplace=True)
 recibidos_por_empresa.to_csv('data/recibidos_por_empresa_mes_vencido.csv', index=False)
 
 # IVA 
+ventas_netas_df = emitidos.groupby('Razon Social')['Neto'].sum().reset_index()
+compras_netas_df = recibidos.groupby('Razon Social')['Neto'].sum().reset_index()
+ventas_netas_df = ventas_netas_df.rename(columns={'Neto': 'Ventas Netas'})
+compras_netas_df = compras_netas_df.rename(columns={'Neto': 'Compras Netas'})
 iva_ventas_df = emitidos.groupby('Razon Social')['IVA'].sum().reset_index()
 iva_compras_df = recibidos.groupby('Razon Social')['IVA'].sum().reset_index()
 iva_ventas_df = iva_ventas_df.rename(columns={'IVA': 'IVA Ventas'})
@@ -52,6 +55,9 @@ iva_compras_df = iva_compras_df.rename(columns={'IVA': 'IVA Compras'})
 iva_df = pd.merge(iva_ventas_df, iva_compras_df, on='Razon Social', how='outer')
 iva_df = iva_df.fillna(0)
 iva_df['Saldo IVA'] = iva_df['IVA Compras'] - iva_df['IVA Ventas']
+
+ventas_netas = ventas_netas_df.set_index('Razon Social')['Ventas Netas']
+compras_netas = compras_netas_df.set_index('Razon Social')['Compras Netas']
 iva_ventas = iva_df.set_index('Razon Social')['IVA Ventas']
 iva_compras = iva_df.set_index('Razon Social')['IVA Compras']
 saldo_iva = iva_df.set_index('Razon Social')['Saldo IVA']
