@@ -99,6 +99,7 @@ ingresos_brutos = emitidos.groupby('Razon Social')['Ingresos Brutos'].sum().asty
 # Combine all indicators into a single DataFrame
 indicators = pd.DataFrame({
     'Ventas Netas': ventas_netas,
+    'Compras Netas': compras_netas,
     'IVA Ventas': iva_ventas,
     'IVA Compras': iva_compras,
     'Saldo IVA': saldo_iva,
@@ -120,9 +121,9 @@ datos_pivot = indicators.pivot(index='Company Name', columns='Variable', values=
 
 datos_pivot = datos_pivot.reset_index()
 
-datos_pivot = datos_pivot[['Company Name', 'Ventas Netas', 'Saldo IVA', 'Ingresos Brutos']]
+datos_pivot = datos_pivot[['Company Name', 'Ventas Netas', 'Compras Netas', 'Saldo IVA', 'Ingresos Brutos']]
 
-datos_pivot.columns = ['Sociedad', 'Vtas. Netas', 'Saldo IVA', 'II.BB.']
+datos_pivot.columns = ['Sociedad', 'Vtas. Netas', 'Compras Netas', 'Saldo IVA', 'II.BB.']
 
 # Clean the 'Sociedad' column by removing specified substrings
 sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
