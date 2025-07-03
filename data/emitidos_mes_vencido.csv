@@ -42,6 +42,7 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 28/05/2025,Facturas A,341,Aerofit Srl,100000,21000,BA Comex
 16/05/2025,Facturas C,69,Leoni Maria Jose,176000,0,De la Arena Coll Manuel
 21/05/2025,Facturas C,70,Valenzuela Ricardo Patricio,162500,0,De la Arena Coll Manuel
+31/05/2025,Facturas C,71,Deposito Avellaneda Sur S.A.,4000000,0,De la Arena Coll Manuel
 12/05/2025,Facturas B,57,Instituto De Obra Social De Las Fuerzas Armadas (Iosfa),2551606,0,De la Arena Martin
 29/05/2025,Factura De Crédito Electrónica Mipymes (Fce) A,53,Osde Organizacion De Servicios Directos Empresarios,9382715,123879,De la Arena Martin
 02/05/2025,Facturas A,25454,Borax Argentina S A,2054634,431473,Deposito Avellaneda Sur
@@ -455,6 +456,7 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 21/05/2025,Facturas B,169,Castillo Fabian,456800,95928,Edelweiss Spedition
 21/05/2025,Factura De Crédito Electrónica Mipymes (Fce) A,67,Tecpetrol S A,6148149,0,Edelweiss Spedition
 28/05/2025,Facturas B,171,Gandolfo Juan Martin,4330352,0,Edelweiss Spedition
+27/05/2025,Facturas A,42,Deposito Avellaneda Sur S.A.,34290000,7200900,El Llamito
 02/05/2025,Facturas A,245,M.S. Technologies Argentina S.R.L.,4531520,951619,El Marques
 02/05/2025,Facturas A,246,Plaquimet Sa,4798080,1007597,El Marques
 02/05/2025,Facturas A,247,Liftvan International Company S A C,5950000,1249500,El Marques

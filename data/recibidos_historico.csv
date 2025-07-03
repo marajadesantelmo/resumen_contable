@@ -11172,6 +11172,38 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 30/05/2025,Lakaut S.A.,Facturas A,2958694,20556,0,0,4317,20556,2025-05,BA Comex
 30/05/2025,Lakaut S.A.,Facturas A,2958696,20259,0,0,4254,20259,2025-05,BA Comex
 31/05/2025,Sif America Sa,Facturas A,116951,55182,0,0,11588,55182,2025-05,BA Comex
+01/06/2025,Mymtec Sa,Facturas A,42263,267743,0,0,56226,267743,2025-06,BA Comex
+01/06/2025,Mymtec Sa,Facturas A,11738,109058,0,0,22902,109058,2025-06,BA Comex
+02/06/2025,Lakaut S.A.,Facturas A,2959276,20880,0,0,4385,20880,2025-06,BA Comex
+02/06/2025,Lakaut S.A.,Facturas A,2959278,20880,0,0,4385,20880,2025-06,BA Comex
+02/06/2025,Soluciones Online Sa,Facturas A,435955,93000,0,0,19530,93000,2025-06,BA Comex
+02/06/2025,Lakaut S.A.,Facturas A,2959280,20880,0,0,4385,20880,2025-06,BA Comex
+02/06/2025,Lakaut S.A.,Facturas A,2959344,20880,0,0,4385,20880,2025-06,BA Comex
+02/06/2025,Lakaut S.A.,Facturas A,2959346,20880,0,0,4385,20880,2025-06,BA Comex
+02/06/2025,Lakaut S.A.,Facturas A,2959348,20880,0,0,4385,20880,2025-06,BA Comex
+03/06/2025,Operadora De Estaciones De Servicios Sa,Facturas A,20715,49971,0,0,10494,49971,2025-06,BA Comex
+04/06/2025,Lakaut S.A.,Facturas A,2961203,20259,0,0,4254,20259,2025-06,BA Comex
+04/06/2025,Lakaut S.A.,Facturas A,2961640,19390,0,0,4072,19390,2025-06,BA Comex
+04/06/2025,Telecentro S A,Facturas A,3341173,86410,0,0,18146,86410,2025-06,BA Comex
+04/06/2025,Aranda Luis Alberto,Facturas A,2639,138810,0,0,29150,138810,2025-06,BA Comex
+05/06/2025,Lakaut S.A.,Facturas A,2962673,20880,0,0,4385,20880,2025-06,BA Comex
+06/06/2025,Lakaut S.A.,Facturas A,2963228,20376,0,0,4279,20376,2025-06,BA Comex
+09/06/2025,Sif America Sa,Facturas A,117209,25000,0,0,5250,25000,2025-06,BA Comex
+09/06/2025,Lakaut S.A.,Facturas A,2965736,20565,0,0,4319,20565,2025-06,BA Comex
+10/06/2025,Lakaut S.A.,Facturas A,2966214,21204,0,0,4453,21204,2025-06,BA Comex
+10/06/2025,Lakaut S.A.,Facturas A,2966216,21204,0,0,4453,21204,2025-06,BA Comex
+10/06/2025,Lakaut S.A.,Facturas A,2966225,20259,0,0,4254,20259,2025-06,BA Comex
+10/06/2025,Lakaut S.A.,Facturas A,2966226,20403,0,0,4285,20403,2025-06,BA Comex
+13/06/2025,Lakaut S.A.,Facturas A,2969077,20376,0,0,4279,20376,2025-06,BA Comex
+13/06/2025,Lakaut S.A.,Facturas A,2969093,20376,0,0,4279,20376,2025-06,BA Comex
+13/06/2025,Lakaut S.A.,Facturas A,2969100,20376,0,0,4279,20376,2025-06,BA Comex
+18/06/2025,Lakaut S.A.,Facturas A,2972582,20376,0,0,4279,20376,2025-06,BA Comex
+18/06/2025,Lakaut S.A.,Facturas A,2972596,21600,0,0,4536,21600,2025-06,BA Comex
+23/06/2025,Operadora De Estaciones De Servicios Sa,Facturas A,19122,60434,0,0,12691,60434,2025-06,BA Comex
+24/06/2025,Lakaut S.A.,Facturas A,2976851,20376,0,0,4279,20376,2025-06,BA Comex
+26/06/2025,Lakaut S.A.,Facturas A,2980765,21141,0,0,4440,21141,2025-06,BA Comex
+30/06/2025,Fitograf Srl,Facturas A,12730,79669,0,0,16731,79669,2025-06,BA Comex
+30/06/2025,Sif America Sa,Facturas A,118038,61142,0,0,12840,61142,2025-06,BA Comex
 02/01/2025,Soluciones Online Sa,Facturas B,42860,0,0,0,0,0,2025-01,De la Arena Coll Manuel
 10/01/2025,Nss Sa,Facturas B,4257872,0,0,0,0,0,2025-01,De la Arena Coll Manuel
 14/01/2025,Corredores Viales Sociedad Anonima,Facturas B,7740611,0,0,0,0,0,2025-01,De la Arena Coll Manuel
@@ -11223,6 +11255,20 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 16/05/2025,Telecom Argentina Sociedad Anonima,Facturas B,69159,0,0,0,0,0,2025-05,De la Arena Coll Manuel
 26/05/2025,De Los Rios Carlos Javier,Facturas B,2260,0,0,0,0,0,2025-05,De la Arena Coll Manuel
 31/05/2025,Autopistas Urbanas S. A.,Facturas A,871515,11835,0,0,2485,11835,2025-05,De la Arena Coll Manuel
+31/05/2025,Caminos De Las Sierras S. A.,Facturas A,307830,1074,0,0,226,1074,2025-05,De la Arena Coll Manuel
+01/06/2025,Autopistas Del Sol S A,Facturas A,7177788,3929,0,0,825,3929,2025-06,De la Arena Coll Manuel
+02/06/2025,Soluciones Online Sa,Facturas B,45611,0,0,0,0,0,2025-06,De la Arena Coll Manuel
+11/06/2025,Nss Sa,Facturas B,4750838,0,0,0,0,0,2025-06,De la Arena Coll Manuel
+15/06/2025,Autopistas Urbanas S. A.,Facturas A,891227,6867,0,0,1442,6867,2025-06,De la Arena Coll Manuel
+16/06/2025,Autopistas Del Sol S A,Facturas A,7237717,5662,0,0,1189,5662,2025-06,De la Arena Coll Manuel
+18/06/2025,Erli Juan Emiliano,Facturas C,3828,0,36000,0,0,36000,2025-06,De la Arena Coll Manuel
+19/06/2025,Entrada Total S.A.,Facturas B,7064,0,0,0,0,0,2025-06,De la Arena Coll Manuel
+22/06/2025,Gelly Cantilo Luis,Facturas C,1243,0,120000,0,0,120000,2025-06,De la Arena Coll Manuel
+24/06/2025,Corredores Viales Sociedad Anonima,Facturas A,2541316,3328,0,0,699,3328,2025-06,De la Arena Coll Manuel
+26/06/2025,Gelly Cantilo Luis,Facturas C,1282,0,90000,0,0,90000,2025-06,De la Arena Coll Manuel
+29/06/2025,The Walt Disney Company Argentina S A,Facturas B,646915,0,0,0,0,0,2025-06,De la Arena Coll Manuel
+29/06/2025,Gelly Cantilo Luis,Facturas C,1310,0,60000,0,0,60000,2025-06,De la Arena Coll Manuel
+30/06/2025,Autopistas Urbanas S. A.,Facturas A,912529,25929,0,0,5445,25929,2025-06,De la Arena Coll Manuel
 01/01/2025,Mercadolibre S.R.L.,Facturas A,111865,6611,0,0,1388,6611,2025-01,De la Arena Martin
 04/01/2025,Alvarado Claudia Susana,Facturas A,365,31603,0,0,6637,31603,2025-01,De la Arena Martin
 09/01/2025,Starlink Argentina S R L,Facturas B,38371,0,0,0,0,0,2025-01,De la Arena Martin
@@ -11319,6 +11365,27 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 29/05/2025,Ebox S.A.,Facturas A,87491,489342,0,0,102762,489342,2025-05,De la Arena Martin
 30/05/2025,Aneto S.A.,Facturas A,68,40934,0,0,8596,40934,2025-05,De la Arena Martin
 31/05/2025,Mercadolibre S.R.L.,Facturas A,277457,6611,0,0,1388,6611,2025-05,De la Arena Martin
+01/06/2025,Starlink Argentina S R L,Facturas B,598602,0,0,0,0,0,2025-06,De la Arena Martin
+02/06/2025,Kal Sociedad De Responsabilidad Limitada,Facturas B,2746,0,0,0,0,0,2025-06,De la Arena Martin
+03/06/2025,Fundacion Santa Maria,Facturas C,61339,0,566000,0,0,566000,2025-06,De la Arena Martin
+04/06/2025,Soxpigue S A,Facturas A,55022,56231,0,0,11809,56231,2025-06,De la Arena Martin
+09/06/2025,El Bazar Digital .Com S.R.L.,Facturas A,54355,62024,0,0,13025,62024,2025-06,De la Arena Martin
+09/06/2025,Sa La Nacion,Facturas B,3228795,0,0,0,0,0,2025-06,De la Arena Martin
+10/06/2025,S A Establecimientos Vitivinicolas Escorihuela,Facturas B,3112,0,0,0,0,0,2025-06,De la Arena Martin
+12/06/2025,Patagonia International Inc Sucursal Argentina,Facturas B,77927,0,0,0,0,0,2025-06,De la Arena Martin
+14/06/2025,Telecom Argentina Sociedad Anonima,Facturas A,4368700,190190,0,0,39967,190190,2025-06,De la Arena Martin
+15/06/2025,Estacion De Servicio San Lorenzo Chico S. R. L.,Facturas A,7804,59645,0,0,12525,59645,2025-06,De la Arena Martin
+16/06/2025,Jorge Horacio Bonacorsi S.A,Facturas B,6111012,0,0,0,0,0,2025-06,De la Arena Martin
+17/06/2025,Albiero Hnos S R L,Facturas A,113771,34505,0,0,7246,34505,2025-06,De la Arena Martin
+17/06/2025,Albiero Hnos S R L,Facturas A,113927,40009,0,0,8402,40009,2025-06,De la Arena Martin
+17/06/2025,Jorge Horacio Bonacorsi S.A,Facturas B,6135109,0,0,0,0,0,2025-06,De la Arena Martin
+24/06/2025,Arte Grafico Editorial Argentino S. A.,Facturas B,80860957,0,0,0,0,0,2025-06,De la Arena Martin
+24/06/2025,Consorcio Club De Campo El Tipal,Recibos C,21282,0,0,0,0,0,2025-06,De la Arena Martin
+26/06/2025,E X S A  S R L,Facturas A,9990,2416612,0,0,507488,2416612,2025-06,De la Arena Martin
+26/06/2025,Csra Argentina S.R.L.,Facturas B,145572,0,0,0,0,0,2025-06,De la Arena Martin
+26/06/2025,Nestle Argentina S A,Facturas B,246910,0,0,0,0,0,2025-06,De la Arena Martin
+27/06/2025,Compañia Mercantil Agricola E Industrial Sociedad Anonima,Facturas A,918,27881865,0,0,2928135,27881865,2025-06,De la Arena Martin
+30/06/2025,Mercadolibre S.R.L.,Facturas A,313057,7430,0,0,1560,7430,2025-06,De la Arena Martin
 01/01/2025,Policlinica Privada Centro Medico Sarandi Sociedad Anonima,Facturas A,10103,45864,0,0,9631,45864,2025-01,Deposito Avellaneda Sur
 01/01/2025,Real Software Sa,Facturas A,7322,10179,0,0,2138,10179,2025-01,Deposito Avellaneda Sur
 01/01/2025,Jorge Guillermo Jesus,Facturas C,59,0,2833992,0,0,2833992,2025-01,Deposito Avellaneda Sur
@@ -12121,6 +12188,7 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 23/05/2025,Hamze Roberto Carim,Facturas A,22385,42559,0,0,8937,42559,2025-05,Deposito Avellaneda Sur
 23/05/2025,Mercovan Argentina S.A.,Facturas A,2281,786777,0,0,165223,786777,2025-05,Deposito Avellaneda Sur
 23/05/2025,Mercovan Argentina S.A.,Facturas A,2276,1220706,0,0,256348,1220706,2025-05,Deposito Avellaneda Sur
+23/05/2025,Hierronort S.R.L.,Facturas A,153552,6209438,0,0,1303982,6209438,2025-05,Deposito Avellaneda Sur
 23/05/2025,Geurayd Luis Miguel,Facturas A,6,6611571,0,0,1388430,6611571,2025-05,Deposito Avellaneda Sur
 23/05/2025,Nuevo Estibaje S.A.,Facturas A,185,6382300,0,0,1340283,6382300,2025-05,Deposito Avellaneda Sur
 23/05/2025,Santos Luciano,Facturas C,668,0,28389,0,0,28389,2025-05,Deposito Avellaneda Sur
@@ -12133,6 +12201,7 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 26/05/2025,Mesiti Fernando,Facturas C,731,0,300000,0,0,300000,2025-05,Deposito Avellaneda Sur
 26/05/2025,Fumeo Francisco,Facturas C,152,0,80000,0,0,80000,2025-05,Deposito Avellaneda Sur
 27/05/2025,Cantero Pablo Javier,Facturas A,8653,20842,0,0,4377,20842,2025-05,Deposito Avellaneda Sur
+27/05/2025,El Llamito S A,Facturas A,42,34290000,0,0,7200900,34290000,2025-05,Deposito Avellaneda Sur
 27/05/2025,Shipping Group S.A.,Notas De Credito A,353,-16104000,0,0,-1690920,-16104000,2025-05,Deposito Avellaneda Sur
 27/05/2025,Sanchez Augusto Bernardino,Facturas C,149,0,174000,0,0,174000,2025-05,Deposito Avellaneda Sur
 28/05/2025,Plastic Trends Srl,Facturas A,1274,99174,0,0,20826,99174,2025-05,Deposito Avellaneda Sur
@@ -12170,6 +12239,178 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 31/05/2025,Casas Leonardo Alberto,Facturas C,100,0,54000,0,0,54000,2025-05,Deposito Avellaneda Sur
 31/05/2025,Seidel Romina Andrea,Facturas C,56,0,1099620,0,0,1099620,2025-05,Deposito Avellaneda Sur
 31/05/2025,Seidel Romina Andrea,Facturas C,57,0,184500,0,0,184500,2025-05,Deposito Avellaneda Sur
+31/05/2025,De La Arena Coll Manuel,Facturas C,71,0,4000000,0,0,4000000,2025-05,Deposito Avellaneda Sur
+01/06/2025,Flash Pack S.R.L.,Facturas A,9960,103636,0,0,21764,103636,2025-06,Deposito Avellaneda Sur
+01/06/2025,Flash Pack S.R.L.,Facturas A,9964,34545,0,0,7255,34545,2025-06,Deposito Avellaneda Sur
+01/06/2025,Real Software Sa,Facturas A,7803,12851,0,0,2699,12851,2025-06,Deposito Avellaneda Sur
+01/06/2025,Servairex S. R. L.,Facturas A,926,1933772,0,0,406092,1933772,2025-06,Deposito Avellaneda Sur
+02/06/2025,Marstech S.R.L,Facturas A,32339,54000,0,0,11340,54000,2025-06,Deposito Avellaneda Sur
+02/06/2025,Simz S. R. L.,Facturas A,779,449064,0,0,94303,449064,2025-06,Deposito Avellaneda Sur
+02/06/2025,Molina Oscar,Facturas A,22769,3448404,0,0,724165,3448404,2025-06,Deposito Avellaneda Sur
+02/06/2025,Sistemas Gaff S.A.,Facturas A,56462,93543,0,0,19644,93543,2025-06,Deposito Avellaneda Sur
+02/06/2025,Uom Gerli  S.C.S. S. C. S.,Facturas A,661,0,0,81943,0,81943,2025-06,Deposito Avellaneda Sur
+02/06/2025,Policlinica Privada Centro Medico Sarandi Sociedad Anonima,Facturas A,10847,79442,0,13000,16683,92442,2025-06,Deposito Avellaneda Sur
+02/06/2025,Molina Oscar,Facturas A,22770,702671,0,0,147561,702671,2025-06,Deposito Avellaneda Sur
+02/06/2025,Sistelcom Argentina   Srl,Facturas A,8855,3726000,0,0,782460,3726000,2025-06,Deposito Avellaneda Sur
+02/06/2025,El Visor S.R.L.,Facturas A,1118,16663914,0,0,3499422,16663914,2025-06,Deposito Avellaneda Sur
+02/06/2025,Adorada Srl,Facturas A,952,1417000,0,0,297570,1417000,2025-06,Deposito Avellaneda Sur
+02/06/2025,Geurayd Luis Miguel,Facturas A,8,2479339,0,0,520661,2479339,2025-06,Deposito Avellaneda Sur
+02/06/2025,Petro Lanc S.A.,Facturas A,6185,2062706,0,0,433168,2062706,2025-06,Deposito Avellaneda Sur
+02/06/2025,Transporte Y Logistica Jfv,Facturas A,659,960000,0,0,201600,960000,2025-06,Deposito Avellaneda Sur
+02/06/2025,Camara De Depositos Fiscales Privados,Facturas C,5257,0,265000,0,0,265000,2025-06,Deposito Avellaneda Sur
+03/06/2025,Acudir Sa,Facturas A,43029,194044,0,0,40749,194044,2025-06,Deposito Avellaneda Sur
+03/06/2025,Cavodeassi Gaston Diego,Facturas A,7885,707163,0,0,148504,707163,2025-06,Deposito Avellaneda Sur
+03/06/2025,Torres Damian Gabriel,Facturas A,29491,59503,0,0,12496,59503,2025-06,Deposito Avellaneda Sur
+03/06/2025,Sis Ingenieria Srl,Facturas A,95430,67864,0,0,14251,67864,2025-06,Deposito Avellaneda Sur
+03/06/2025,Mendez Arrieche Nixa Jhoseline,Facturas A,124,479715,0,0,100740,479715,2025-06,Deposito Avellaneda Sur
+03/06/2025,Jorge Guillermo Jesus,Facturas C,62,0,4898655,0,0,4898655,2025-06,Deposito Avellaneda Sur
+03/06/2025,Seidel Romina Andrea,Facturas C,58,0,240000,0,0,240000,2025-06,Deposito Avellaneda Sur
+03/06/2025,Brumana Natalia Soledad,Facturas C,122,0,467900,0,0,467900,2025-06,Deposito Avellaneda Sur
+04/06/2025,Grupo Tam  Srl,Facturas A,10058,26304,0,0,5524,26304,2025-06,Deposito Avellaneda Sur
+04/06/2025,Grupo Tam  Srl,Facturas A,10059,26304,0,0,5524,26304,2025-06,Deposito Avellaneda Sur
+04/06/2025,Cavodeassi Gaston Diego,Facturas A,7895,650000,0,0,136500,650000,2025-06,Deposito Avellaneda Sur
+04/06/2025,Neho-Group Sa,Facturas A,9892,78000,0,0,16380,78000,2025-06,Deposito Avellaneda Sur
+04/06/2025,Ettoli Gustavo Javier,Facturas A,1582,64393,0,0,13522,64393,2025-06,Deposito Avellaneda Sur
+04/06/2025,Comercial Republica S.R.L.,Facturas A,476,17777,0,0,3733,17777,2025-06,Deposito Avellaneda Sur
+04/06/2025,Pons Fernando Raul,Facturas A,3958,2339500,0,0,491295,2339500,2025-06,Deposito Avellaneda Sur
+04/06/2025,Dale Gas Sa,Facturas A,67764,177376,0,0,18624,177376,2025-06,Deposito Avellaneda Sur
+04/06/2025,Cavodeassi Gaston Diego,Facturas A,36,840000,0,0,176400,840000,2025-06,Deposito Avellaneda Sur
+04/06/2025,Amx Argentina Sociedad Anonima,Facturas A,592979,0,0,0,0,0,2025-06,Deposito Avellaneda Sur
+04/06/2025,Telecentro S A,Facturas A,3352515,67470,0,0,14169,67470,2025-06,Deposito Avellaneda Sur
+04/06/2025,Hierronort S.R.L.,Facturas A,153956,19487,0,0,4092,19487,2025-06,Deposito Avellaneda Sur
+04/06/2025,Hierronort S.R.L.,Facturas A,153958,350009,0,0,73502,350009,2025-06,Deposito Avellaneda Sur
+04/06/2025,Hierronort S.R.L.,Facturas A,5005,466516,0,0,97968,466516,2025-06,Deposito Avellaneda Sur
+04/06/2025,Aranda Luis Alberto,Facturas A,2624,1046042,0,0,219669,1046042,2025-06,Deposito Avellaneda Sur
+04/06/2025,Heroleva Srl,Facturas A,116,2040000,0,0,428400,2040000,2025-06,Deposito Avellaneda Sur
+04/06/2025,Galderisi Carlos Andres,Facturas A,282,64600000,0,0,13566000,64600000,2025-06,Deposito Avellaneda Sur
+04/06/2025,Gruas Y Autoelevadores Antog Srl,Facturas A,1957,10931630,0,0,2295642,10931630,2025-06,Deposito Avellaneda Sur
+04/06/2025,Hierronort S.R.L.,Notas De Credito A,17152,-1815193,0,0,-381191,-1815193,2025-06,Deposito Avellaneda Sur
+04/06/2025,Sanchez Augusto Bernardino,Facturas C,150,0,60000,0,0,60000,2025-06,Deposito Avellaneda Sur
+04/06/2025,Maresca Daniela Anahi,Facturas C,93,0,190000,0,0,190000,2025-06,Deposito Avellaneda Sur
+04/06/2025,Medina Christian Marcelo,Facturas C,470,0,300000,0,0,300000,2025-06,Deposito Avellaneda Sur
+04/06/2025,Cigno Juan Horacio,Facturas C,553,0,140000,0,0,140000,2025-06,Deposito Avellaneda Sur
+04/06/2025,Medina Christian Marcelo,Facturas C,471,0,960000,0,0,960000,2025-06,Deposito Avellaneda Sur
+04/06/2025,Lastra Facundo Martin,Facturas C,49,0,1300000,0,0,1300000,2025-06,Deposito Avellaneda Sur
+04/06/2025,Aramberry Aitor Carlos Maria,Facturas C,76,0,327000,0,0,327000,2025-06,Deposito Avellaneda Sur
+05/06/2025,Ddv Srl,Facturas A,47845,44088,0,0,9258,44088,2025-06,Deposito Avellaneda Sur
+05/06/2025,Visapel Sociedad Anonima,Facturas A,4237,194671,0,0,40881,194671,2025-06,Deposito Avellaneda Sur
+05/06/2025,Molina Oscar,Facturas A,1973,61157,0,0,12843,61157,2025-06,Deposito Avellaneda Sur
+05/06/2025,Costa Norberto Genaro,Facturas A,103,3471074,0,0,728926,3471074,2025-06,Deposito Avellaneda Sur
+05/06/2025,Gruas Y Autoelevadores Antog Srl,Facturas A,1958,1193751,0,0,250688,1193751,2025-06,Deposito Avellaneda Sur
+05/06/2025,Petro Lanc S.A.,Facturas A,6202,859234,0,0,180439,859234,2025-06,Deposito Avellaneda Sur
+05/06/2025,Molina Oscar,Notas De Credito A,1228,-61157,0,0,-12843,-61157,2025-06,Deposito Avellaneda Sur
+06/06/2025,El Jumillano S A,Facturas A,25690,120397,0,0,25283,120397,2025-06,Deposito Avellaneda Sur
+06/06/2025,Churba Gisela Heidi,Facturas A,7411,49579,0,0,10411,49579,2025-06,Deposito Avellaneda Sur
+06/06/2025,Cohen Martin Isaac,Facturas A,116,37189,0,0,7810,37189,2025-06,Deposito Avellaneda Sur
+06/06/2025,Flores Gonzalo Luis,Facturas A,1926,82612,0,0,17348,82612,2025-06,Deposito Avellaneda Sur
+06/06/2025,Witpel S.R.L.,Facturas A,36406,37898,0,0,7958,37898,2025-06,Deposito Avellaneda Sur
+06/06/2025,Ddv Srl,Facturas A,47896,35123,0,0,7376,35123,2025-06,Deposito Avellaneda Sur
+06/06/2025,Seoane David German,Facturas A,225,1182200,0,0,248262,1182200,2025-06,Deposito Avellaneda Sur
+06/06/2025,Nuevo Estibaje S.A.,Facturas A,190,6948620,0,0,1459210,6948620,2025-06,Deposito Avellaneda Sur
+06/06/2025,Ponzi Fernando Ariel,Facturas C,242,0,190000,0,0,190000,2025-06,Deposito Avellaneda Sur
+06/06/2025,Carranza Eduardo Maximo,Facturas C,315,0,714600,0,0,714600,2025-06,Deposito Avellaneda Sur
+09/06/2025,Papelera Todoplastic S. R. L.,Facturas A,87472,13388,0,0,2812,13388,2025-06,Deposito Avellaneda Sur
+09/06/2025,Dale Gas Sa,Facturas A,67901,177376,0,0,18624,177376,2025-06,Deposito Avellaneda Sur
+09/06/2025,Mercovan Argentina S.A.,Facturas A,2288,1253157600,0,0,263162400,1253157600,2025-06,Deposito Avellaneda Sur
+09/06/2025,Carazzo Silvia Monica,Facturas C,56,0,3637776,0,0,3637776,2025-06,Deposito Avellaneda Sur
+09/06/2025,Castro Videla Maria Elena,Facturas C,142,0,177605,0,0,177605,2025-06,Deposito Avellaneda Sur
+10/06/2025,Graem Sociedad De Responsabilidad Limitada,Facturas A,604,235600,0,0,49476,235600,2025-06,Deposito Avellaneda Sur
+10/06/2025,Castro Videla Maria Elena,Facturas C,143,0,177605,0,0,177605,2025-06,Deposito Avellaneda Sur
+11/06/2025,Rios Ar Sociedad Anonima,Facturas A,65814,15763508,0,7060513,358010,22824021,2025-06,Deposito Avellaneda Sur
+11/06/2025,Gcr Sa,Facturas A,23738,222000,0,0,46620,222000,2025-06,Deposito Avellaneda Sur
+11/06/2025,Grupo Mexx S.R.L,Facturas A,67392,339172,0,0,71226,339172,2025-06,Deposito Avellaneda Sur
+11/06/2025,Mercovan Argentina S.A.,Facturas A,2290,1044298,0,0,219302,1044298,2025-06,Deposito Avellaneda Sur
+11/06/2025,Petro Lanc S.A.,Facturas A,6213,2097416,0,0,440457,2097416,2025-06,Deposito Avellaneda Sur
+11/06/2025,Liftvan International Company S A C,Notas De Credito A,308,-20000000,0,-1000000,-4200000,-21000000,2025-06,Deposito Avellaneda Sur
+11/06/2025,Mercovan Argentina S.A.,Notas De Credito A,162,-1253157600,0,0,-263162400,-1253157600,2025-06,Deposito Avellaneda Sur
+12/06/2025,Global Market Providers S.A.,Facturas A,26925,156984,0,0,32967,156984,2025-06,Deposito Avellaneda Sur
+12/06/2025,Graem Sociedad De Responsabilidad Limitada,Facturas A,605,328320,0,0,68947,328320,2025-06,Deposito Avellaneda Sur
+12/06/2025,Dale Gas Sa,Facturas A,68006,110860,0,0,11640,110860,2025-06,Deposito Avellaneda Sur
+12/06/2025,Dodero & Cia Srl,Facturas A,8412,358814,0,0,75351,358814,2025-06,Deposito Avellaneda Sur
+12/06/2025,Faguar S.A.C.I.,Facturas A,56445,8585946,0,0,1803049,8585946,2025-06,Deposito Avellaneda Sur
+12/06/2025,Faguar S.A.C.I.,Facturas A,56446,210524,0,0,44210,210524,2025-06,Deposito Avellaneda Sur
+12/06/2025,Seoane David German,Facturas A,226,1890000,0,0,396900,1890000,2025-06,Deposito Avellaneda Sur
+12/06/2025,Rausin Nelida Susana,Facturas A,4151,43802,0,0,9198,43802,2025-06,Deposito Avellaneda Sur
+12/06/2025,Faguar S.A.C.I.,Notas De Credito A,19687,-2640134,0,0,-554428,-2640134,2025-06,Deposito Avellaneda Sur
+12/06/2025,Logistica Aron S.R.L,Notas De Credito A,15,-1669989,0,0,-350698,-1669989,2025-06,Deposito Avellaneda Sur
+13/06/2025,Casa Abe S A,Facturas A,16811,6058,0,0,1272,6058,2025-06,Deposito Avellaneda Sur
+13/06/2025,Olivero Claudia Mailen,Facturas A,4459,15793,0,0,3317,15793,2025-06,Deposito Avellaneda Sur
+13/06/2025,Nuevo Estibaje S.A.,Facturas A,192,6630300,0,0,1392363,6630300,2025-06,Deposito Avellaneda Sur
+13/06/2025,Carazza Fabian Alejandro,Facturas C,695,0,825000,0,0,825000,2025-06,Deposito Avellaneda Sur
+14/06/2025,Contenedores Hugo Sa,Facturas A,271653,463675,0,0,97372,463675,2025-06,Deposito Avellaneda Sur
+17/06/2025,Servicios Globales De Informatica S.A.,Facturas A,7492,208144,0,0,21855,208144,2025-06,Deposito Avellaneda Sur
+17/06/2025,Estacion Lima  Sa,Facturas A,252196,7940,0,0,1667,7940,2025-06,Deposito Avellaneda Sur
+17/06/2025,Maqueleva Sociedad Anonima,Facturas A,744,1540500,0,0,323505,1540500,2025-06,Deposito Avellaneda Sur
+17/06/2025,Sistelcom Argentina   Srl,Facturas A,8882,3240000,0,0,680400,3240000,2025-06,Deposito Avellaneda Sur
+17/06/2025,Galderisi Carlos Andres,Facturas A,285,66800000,0,0,14028000,66800000,2025-06,Deposito Avellaneda Sur
+17/06/2025,Fimda S.A.,Facturas A,3138,1416000,0,0,297360,1416000,2025-06,Deposito Avellaneda Sur
+17/06/2025,Fimda S.A.,Facturas A,3139,1252350,0,0,262994,1252350,2025-06,Deposito Avellaneda Sur
+17/06/2025,Fimda S.A.,Notas De Credito A,327,-1416000,0,0,-297360,-1416000,2025-06,Deposito Avellaneda Sur
+18/06/2025,Peralta Daniel,Facturas A,2595,1309,0,0,275,1309,2025-06,Deposito Avellaneda Sur
+18/06/2025,Galderisi Carlos Andres,Facturas A,286,1985000,0,0,416850,1985000,2025-06,Deposito Avellaneda Sur
+18/06/2025,Galderisi Carlos Andres,Notas De Credito A,16,-330000,0,0,-69300,-330000,2025-06,Deposito Avellaneda Sur
+18/06/2025,Aramberry Aitor Carlos Maria,Facturas C,78,0,335000,0,0,335000,2025-06,Deposito Avellaneda Sur
+19/06/2025,Dale Gas Sa,Facturas A,68199,199548,0,0,20952,199548,2025-06,Deposito Avellaneda Sur
+19/06/2025,Green Deco Srl,Facturas A,101104,18053,0,0,3791,18053,2025-06,Deposito Avellaneda Sur
+19/06/2025,Reefer Containers S.A.,Facturas A,1820,7656000,0,0,1607760,7656000,2025-06,Deposito Avellaneda Sur
+19/06/2025,Reefer Containers S.A.,Facturas A,1821,2552000,0,0,535920,2552000,2025-06,Deposito Avellaneda Sur
+19/06/2025,Mercovan Argentina S.A.,Facturas A,2300,733884,0,0,154116,733884,2025-06,Deposito Avellaneda Sur
+19/06/2025,Mercovan Argentina S.A.,Facturas A,2301,760331,0,0,159669,760331,2025-06,Deposito Avellaneda Sur
+19/06/2025,Ruggiero Carlos,Facturas A,295,7851,0,0,1649,7851,2025-06,Deposito Avellaneda Sur
+20/06/2025,Nuevo Estibaje S.A.,Facturas A,194,3423440,0,0,718922,3423440,2025-06,Deposito Avellaneda Sur
+21/06/2025,Logistica Tinac S.A.,Facturas A,1108,4173000,0,0,876330,4173000,2025-06,Deposito Avellaneda Sur
+22/06/2025,Advance Shipment International S.A.,Facturas A,499,432664,0,0,90860,432664,2025-06,Deposito Avellaneda Sur
+23/06/2025,Papelera Todoplastic S. R. L.,Facturas A,88662,53554,0,0,11246,53554,2025-06,Deposito Avellaneda Sur
+23/06/2025,Valenzuela Carina Magdalena,Facturas A,384,96162,0,0,20194,96162,2025-06,Deposito Avellaneda Sur
+23/06/2025,Cotton Work,Facturas A,3751,297550,0,0,62486,297550,2025-06,Deposito Avellaneda Sur
+24/06/2025,Megah Srl,Facturas A,684,160615,0,0,33729,160615,2025-06,Deposito Avellaneda Sur
+24/06/2025,Kausser Bureau S.R.L,Facturas A,6356,615000,0,0,129150,615000,2025-06,Deposito Avellaneda Sur
+24/06/2025,2M Comex,Facturas A,2983,69000,0,0,14490,69000,2025-06,Deposito Avellaneda Sur
+24/06/2025,Transporte Y Logistica Jfv,Facturas A,669,935000,0,0,196350,935000,2025-06,Deposito Avellaneda Sur
+24/06/2025,Terminales Rio De La Plata Sociedad Anonima,Facturas A,77079,487035,0,0,101910,487035,2025-06,Deposito Avellaneda Sur
+24/06/2025,Amante Mariano Leonardo,Facturas C,152,0,180000,0,0,180000,2025-06,Deposito Avellaneda Sur
+25/06/2025,Neho-Group Sa,Facturas A,9959,328600,0,0,69006,328600,2025-06,Deposito Avellaneda Sur
+25/06/2025,Dale Gas Sa,Facturas A,68363,110860,0,0,11640,110860,2025-06,Deposito Avellaneda Sur
+25/06/2025,Ink 360 Central Grafica S. A.,Facturas A,447,285000,0,0,59850,285000,2025-06,Deposito Avellaneda Sur
+25/06/2025,Samlog S.R.L.,Facturas A,27077,239000,0,0,50190,239000,2025-06,Deposito Avellaneda Sur
+25/06/2025,Megah Srl,Facturas A,686,921788,0,0,193575,921788,2025-06,Deposito Avellaneda Sur
+25/06/2025,Megah Srl,Facturas A,687,515204,0,0,108193,515204,2025-06,Deposito Avellaneda Sur
+25/06/2025,Guantay Rosa Virgini,Facturas A,194,285124,0,0,59876,285124,2025-06,Deposito Avellaneda Sur
+25/06/2025,Seoane David German,Facturas A,231,4592700,0,0,964467,4592700,2025-06,Deposito Avellaneda Sur
+26/06/2025,Petro Lanc S.A.,Facturas A,6257,2097416,0,0,440457,2097416,2025-06,Deposito Avellaneda Sur
+26/06/2025,Polvere Adrian Marcelo,Facturas A,619,581500,0,0,122115,581500,2025-06,Deposito Avellaneda Sur
+27/06/2025,Mix Master Maq,Facturas A,25929,21999,0,0,4620,21999,2025-06,Deposito Avellaneda Sur
+27/06/2025,Mix Master Maq,Facturas A,25939,32644,0,0,6855,32644,2025-06,Deposito Avellaneda Sur
+27/06/2025,Camits David Alejandro,Facturas A,15220,30048,0,0,6310,30048,2025-06,Deposito Avellaneda Sur
+27/06/2025,Nuevo Estibaje S.A.,Facturas A,196,5983140,0,0,1256459,5983140,2025-06,Deposito Avellaneda Sur
+27/06/2025,Starlink Argentina S R L,Facturas B,802245,0,0,0,0,0,2025-06,Deposito Avellaneda Sur
+27/06/2025,Lastra Facundo Martin,Facturas C,52,0,1300000,0,0,1300000,2025-06,Deposito Avellaneda Sur
+27/06/2025,Aguirre Oliva Santiago,Facturas C,53,0,1692000,0,0,1692000,2025-06,Deposito Avellaneda Sur
+27/06/2025,Aguirre Oliva Santiago,Facturas C,3,0,3384000,0,0,3384000,2025-06,Deposito Avellaneda Sur
+27/06/2025,Castro Videla Maria Elena,Facturas C,144,0,532815,0,0,532815,2025-06,Deposito Avellaneda Sur
+28/06/2025,Galderisi Carlos Andres,Facturas A,287,630000,0,0,132300,630000,2025-06,Deposito Avellaneda Sur
+28/06/2025,Galderisi Carlos Andres,Facturas A,288,3060000,0,0,642600,3060000,2025-06,Deposito Avellaneda Sur
+28/06/2025,Galderisi Carlos Andres,Facturas A,289,715000,0,0,150150,715000,2025-06,Deposito Avellaneda Sur
+28/06/2025,Galderisi Carlos Andres,Notas De Credito A,18,-630000,0,0,-132300,-630000,2025-06,Deposito Avellaneda Sur
+28/06/2025,Galderisi Carlos Andres,Notas De Credito A,17,-150000,0,0,-31500,-150000,2025-06,Deposito Avellaneda Sur
+29/06/2025,Leal Fuentes Francisco Javier,Facturas A,214978,62127,0,0,13047,62127,2025-06,Deposito Avellaneda Sur
+30/06/2025,Graem Sociedad De Responsabilidad Limitada,Facturas A,615,336400,0,0,70644,336400,2025-06,Deposito Avellaneda Sur
+30/06/2025,Andreone Andrea Fabiana,Facturas A,2429,110361,0,0,23176,110361,2025-06,Deposito Avellaneda Sur
+30/06/2025,Liftvan International Company S A C,Facturas A,2520,8901980,0,445099,1869416,9347079,2025-06,Deposito Avellaneda Sur
+30/06/2025,Feltrin S.A,Facturas A,1279,313014,0,0,65733,313014,2025-06,Deposito Avellaneda Sur
+30/06/2025,Acudir Sa,Facturas A,30324,600000,0,0,126000,600000,2025-06,Deposito Avellaneda Sur
+30/06/2025,El Jumillano S A,Facturas A,40982,304438,0,0,63932,304438,2025-06,Deposito Avellaneda Sur
+30/06/2025,Esadin Int'L Sa,Facturas A,12671,42840,0,0,8996,42840,2025-06,Deposito Avellaneda Sur
+30/06/2025,Follini Juan Carlos,Facturas A,1549,289256,0,0,60744,289256,2025-06,Deposito Avellaneda Sur
+30/06/2025,Chediac Micaela Yasmin,Facturas A,451,533416,0,0,112017,533416,2025-06,Deposito Avellaneda Sur
+30/06/2025,Terminal 4  S A,Facturas A,637274,2575085,0,0,540768,2575085,2025-06,Deposito Avellaneda Sur
+30/06/2025,Feltrin S.A,Notas De Credito A,49,-251714,0,0,-52860,-251714,2025-06,Deposito Avellaneda Sur
+30/06/2025,Vera Carlos Alberto,Facturas C,45,0,1990000,0,0,1990000,2025-06,Deposito Avellaneda Sur
+30/06/2025,De La Arena Coll Manuel,Facturas C,72,0,4000000,0,0,4000000,2025-06,Deposito Avellaneda Sur
+30/06/2025,De La Arena Coll Manuel,Facturas C,73,0,2000,0,0,2000,2025-06,Deposito Avellaneda Sur
+30/06/2025,Lopez Leandro Leonel,Facturas C,1406,0,330000,0,0,330000,2025-06,Deposito Avellaneda Sur
+30/06/2025,Urtubey Francisco,Facturas C,74,0,5850000,0,0,5850000,2025-06,Deposito Avellaneda Sur
+30/06/2025,Toledo Marcelo Sebastian,Facturas C,159,0,1800000,0,0,1800000,2025-06,Deposito Avellaneda Sur
 02/01/2025,Bank S. A.,Facturas A,262912,92094,0,0,19340,92094,2025-01,Edelweiss Spedition
 02/01/2025,Soluciones Online Sa,Facturas A,400012,109600,0,0,23016,109600,2025-01,Edelweiss Spedition
 02/01/2025,Nuevos Ayres Cargo S.A.,Facturas A,5228,0,1642689,0,0,1642689,2025-01,Edelweiss Spedition
@@ -12418,6 +12659,33 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 29/05/2025,Leiria Carlos Alberto,Facturas C,224,0,400000,0,0,400000,2025-05,Edelweiss Spedition
 30/05/2025,Sorianello Vanesa Silvana,Facturas C,207,0,515040,0,0,515040,2025-05,Edelweiss Spedition
 30/05/2025,Urtubey Pablo,Facturas C,104,0,5500000,0,0,5500000,2025-05,Edelweiss Spedition
+02/06/2025,Soluciones Online Sa,Facturas A,435534,117300,0,0,24633,117300,2025-06,Edelweiss Spedition
+02/06/2025,Freiria Gustavo Adolfo,Facturas A,1312,2166942,0,0,455058,2166942,2025-06,Edelweiss Spedition
+04/06/2025,Galderisi Carlos Andres,Facturas A,284,600000,0,0,126000,600000,2025-06,Edelweiss Spedition
+04/06/2025,Mazurkiewich Ramon Daniel,Facturas A,2598,265000,0,0,55650,265000,2025-06,Edelweiss Spedition
+04/06/2025,Terminal 4  S A,Facturas A,627105,2288520,0,0,480589,2288520,2025-06,Edelweiss Spedition
+05/06/2025,Cargo Logistics Exim S.R.L.,Facturas A,2294,744000,0,0,156000,744000,2025-06,Edelweiss Spedition
+05/06/2025,Cargo Logistics Exim S.R.L.,Facturas A,2295,0,0,744000,0,744000,2025-06,Edelweiss Spedition
+05/06/2025,Ocean Network Express Argentina S. A.,Facturas A,254698,0,897120,0,0,897120,2025-06,Edelweiss Spedition
+05/06/2025,Administrative Processing Center Sa S. A.,Facturas A,158652,27108,0,0,5693,27108,2025-06,Edelweiss Spedition
+05/06/2025,Rodriguez Oscar Alejandro,Facturas A,400,289000,0,0,60690,289000,2025-06,Edelweiss Spedition
+05/06/2025,Cargo Logistics Exim S.R.L.,Notas De Credito A,298,-744000,0,0,-156000,-744000,2025-06,Edelweiss Spedition
+07/06/2025,Terminal 4  S A,Facturas A,367443,457440,0,0,96062,457440,2025-06,Edelweiss Spedition
+09/06/2025,Bank S. A.,Facturas A,275762,84000,0,0,17640,84000,2025-06,Edelweiss Spedition
+09/06/2025,Ba Comex S.A.,Facturas A,349,357500,0,0,75075,357500,2025-06,Edelweiss Spedition
+09/06/2025,Gimenez Leandro Cesar,Facturas C,816,0,440000,0,0,440000,2025-06,Edelweiss Spedition
+10/06/2025,Exolgan S.A.,Facturas A,331151,695952,0,0,146150,695952,2025-06,Edelweiss Spedition
+18/06/2025,Rodriguez Oscar Alejandro,Facturas A,404,396000,0,0,83160,396000,2025-06,Edelweiss Spedition
+19/06/2025,Cargo Logistics Exim S.R.L.,Facturas A,2365,259840,0,0,54520,259840,2025-06,Edelweiss Spedition
+26/06/2025,Leiria Carlos Alberto,Facturas C,242,0,180000,0,0,180000,2025-06,Edelweiss Spedition
+26/06/2025,Leiria Carlos Alberto,Facturas C,238,0,900000,0,0,900000,2025-06,Edelweiss Spedition
+27/06/2025,Murchison S A Estibajes Y Cargas Industrial Y Comercial,Facturas A,99427,725595,0,0,152375,725595,2025-06,Edelweiss Spedition
+27/06/2025,Fernandez Ana Clara,Facturas C,53,0,964000,0,0,964000,2025-06,Edelweiss Spedition
+30/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,26196,2390090,0,0,501919,2390090,2025-06,Edelweiss Spedition
+30/06/2025,Chiemese S.A.,Facturas A,53667,289200,0,5366,60732,294566,2025-06,Edelweiss Spedition
+30/06/2025,Martinez Pollitzer Jimena,Facturas C,107,0,657930,0,0,657930,2025-06,Edelweiss Spedition
+30/06/2025,Sorianello Vanesa Silvana,Facturas C,211,0,300000,0,0,300000,2025-06,Edelweiss Spedition
+30/06/2025,Urtubey Pablo,Facturas C,106,0,5500000,0,0,5500000,2025-06,Edelweiss Spedition
 02/01/2025,3 De Fierro Seguridad S.R.L.,Facturas A,7073,60083,0,0,12617,60083,2025-01,El Marques
 03/01/2025,Quillotasegutex S.A.,Facturas A,298,6556301,0,0,1376823,6556301,2025-01,El Marques
 03/02/2025,3 De Fierro Seguridad S.R.L.,Facturas A,7201,61736,0,0,12964,61736,2025-02,El Marques
@@ -12429,6 +12697,10 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 02/05/2025,3 De Fierro Seguridad S.R.L.,Facturas A,8715,67107,0,0,14093,67107,2025-05,El Marques
 06/05/2025,Quillotasegutex S.A.,Facturas A,319,7793908,0,0,1636721,7793908,2025-05,El Marques
 14/05/2025,Arg-Store S.A.,Facturas A,237,3110000,0,0,653100,3110000,2025-05,El Marques
+01/06/2025,Quillotasegutex S.A.,Facturas A,325,8192039,0,0,1720328,8192039,2025-06,El Marques
+02/06/2025,3 De Fierro Seguridad S.R.L.,Facturas A,9122,69008,0,0,14492,69008,2025-06,El Marques
+05/06/2025,Arg-Store S.A.,Facturas A,245,1400000,0,0,294000,1400000,2025-06,El Marques
+19/06/2025,Ronconi Juan Ignacio,Facturas C,488,0,50000,0,0,50000,2025-06,El Marques
 02/01/2025,Soda Ideal S R L,Facturas A,17604,7438,0,0,1562,7438,2025-01,Hermosalta SRL
 06/01/2025,Campos Eduardo Facundo,Facturas C,62,0,924000,0,0,924000,2025-01,Hermosalta SRL
 07/01/2025,Yanello Nasser Cesar Augusto,Facturas A,2659,6612,0,0,1388,6612,2025-01,Hermosalta SRL
@@ -12506,6 +12778,34 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 26/05/2025,Osde Organizacion De Servicios Directos Empresarios,Facturas A,311949,356373,0,0,37419,356373,2025-05,Hermosalta SRL
 28/05/2025,Pharma Ligth S.R.L.,Facturas A,14616,149888,0,0,27595,149888,2025-05,Hermosalta SRL
 31/05/2025,Habitat Ecologico Sa,Facturas A,25997,90201,0,0,18942,90201,2025-05,Hermosalta SRL
+02/06/2025,Estacion De Servicio San Lorenzo Chico S. R. L.,Facturas A,8611,43291,0,0,9091,43291,2025-06,Hermosalta SRL
+02/06/2025,Colque Evelyn Maia Elisabeth,Facturas C,18,0,949000,0,0,949000,2025-06,Hermosalta SRL
+02/06/2025,Serapio Agustin Gerardo,Facturas C,104,0,385000,0,0,385000,2025-06,Hermosalta SRL
+02/06/2025,Colque Evelyn Maia Elisabeth,Facturas C,17,0,560000,0,0,560000,2025-06,Hermosalta SRL
+04/06/2025,Servinorte Los Nietos S.R.L.,Facturas A,1566,17004,0,0,3571,17004,2025-06,Hermosalta SRL
+05/06/2025,Torres Julieta,Facturas A,229,409091,0,0,85909,409091,2025-06,Hermosalta SRL
+09/06/2025,Torres Julieta,Facturas A,231,21550,0,30386,4525,51936,2025-06,Hermosalta SRL
+09/06/2025,Torres Julieta,Facturas A,230,409091,0,0,85909,409091,2025-06,Hermosalta SRL
+09/06/2025,Torres Julieta,Notas De Credito A,29,-409091,0,0,-85909,-409091,2025-06,Hermosalta SRL
+09/06/2025,Campos Eduardo Facundo,Facturas C,67,0,1124000,0,0,1124000,2025-06,Hermosalta SRL
+10/06/2025,Soda Ideal S R L,Facturas A,20279,8264,0,0,1736,8264,2025-06,Hermosalta SRL
+10/06/2025,Gomez Roco Y Cia S R L,Facturas A,25374,404509,0,0,84947,404509,2025-06,Hermosalta SRL
+10/06/2025,Autosol S.R.L.,Facturas A,29325,847750,0,0,178028,847750,2025-06,Hermosalta SRL
+10/06/2025,Salgado Analia Elizabeth,Facturas C,39,0,210000,0,0,210000,2025-06,Hermosalta SRL
+10/06/2025,Salgado Analia Elizabeth,Facturas C,40,0,210000,0,0,210000,2025-06,Hermosalta SRL
+11/06/2025,Gomez Roco Y Cia S R L,Facturas A,25376,25620,0,0,5380,25620,2025-06,Hermosalta SRL
+12/06/2025,Ministerio  De Salud Publica De La Provincia De Salta,Facturas C,415,0,30168747,0,0,30168747,2025-06,Hermosalta SRL
+13/06/2025,Operadora De Estaciones De Servicios Sa,Facturas A,42360,37409,0,0,7856,37409,2025-06,Hermosalta SRL
+13/06/2025,Estacion De Servicio San Lorenzo Chico S. R. L.,Facturas A,9084,46826,0,0,9834,46826,2025-06,Hermosalta SRL
+24/06/2025,Gomez Roco Y Cia S R L,Facturas A,25447,133183,0,0,27968,133183,2025-06,Hermosalta SRL
+24/06/2025,Torres Julieta,Facturas A,237,409091,0,0,85909,409091,2025-06,Hermosalta SRL
+24/06/2025,Torres Julieta,Notas De Credito A,31,-409091,0,0,-85909,-409091,2025-06,Hermosalta SRL
+24/06/2025,Gomez Roco Y Cia S R L,Notas De Credito A,2726,-25620,0,0,-5380,-25620,2025-06,Hermosalta SRL
+25/06/2025,Osde Organizacion De Servicios Directos Empresarios,Facturas A,313911,365102,0,0,38336,365102,2025-06,Hermosalta SRL
+26/06/2025,Pharma Ligth S.R.L.,Facturas A,14800,173756,0,0,18244,173756,2025-06,Hermosalta SRL
+26/06/2025,Pharma Ligth S.R.L.,Notas De Credito A,634,-173756,0,0,-18244,-173756,2025-06,Hermosalta SRL
+29/06/2025,Magneto S.R.L.,Facturas A,42627,21921,0,0,4603,21921,2025-06,Hermosalta SRL
+30/06/2025,Habitat Ecologico Sa,Facturas A,26268,91960,0,0,19312,91960,2025-06,Hermosalta SRL
 01/01/2025,Union Industrial De Salta (U.I.S.),Facturas C,3882,0,225830,0,0,225830,2025-01,Jofa
 02/01/2025,Biofarma S A,Facturas A,2078,13628286,0,0,2861940,13628286,2025-01,Jofa
 02/01/2025,Interbanking Sa,Facturas A,3087829,94665,0,0,19880,94665,2025-01,Jofa
@@ -12736,6 +13036,45 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 31/05/2025,Centro Ganadero Srl,Notas De Credito A,2945,-282100,0,0,-59241,-282100,2025-05,Jofa
 31/05/2025,Centro Ganadero Srl,Notas De Credito A,2946,-322018,0,0,-67624,-322018,2025-05,Jofa
 31/05/2025,Centro Ganadero Srl,Notas De Credito A,2950,-499290,0,0,-104851,-499290,2025-05,Jofa
+02/06/2025,Biofarma S A,Facturas A,2460,1910100,0,0,401121,1910100,2025-06,Jofa
+02/06/2025,Interbanking Sa,Facturas A,3149303,112430,0,0,23610,112430,2025-06,Jofa
+02/06/2025,Don Dante S R L,Facturas A,6505,142000,0,0,29820,142000,2025-06,Jofa
+02/06/2025,Antagro Sociedad De Responsabilidad Limitada,Facturas A,658,12869604,0,0,2702700,12869604,2025-06,Jofa
+03/06/2025,M B Energy  Sociedad De Resonsabilidad  Limitada,Facturas A,1767,1997617,0,0,419500,1997617,2025-06,Jofa
+05/06/2025,Biofarma S A,Facturas A,2476,1578120,0,0,331405,1578120,2025-06,Jofa
+09/06/2025,Leselec Electricidad S. R. L.,Facturas A,372,201200,0,0,42252,201200,2025-06,Jofa
+10/06/2025,Alltec S A,Facturas A,17185,426000,0,0,90000,426000,2025-06,Jofa
+10/06/2025,Ab-Mix Sociedad Anonima,Facturas A,5230,12913715,0,0,1355940,12913715,2025-06,Jofa
+10/06/2025,Biofarma S A,Facturas A,2493,18336467,0,0,3850658,18336467,2025-06,Jofa
+11/06/2025,Mentesana Marcelo Gustavo,Facturas A,4144,876682,0,0,184103,876682,2025-06,Jofa
+12/06/2025,Gomez Roco Y Cia S R L,Facturas A,17948,3612,0,0,759,3612,2025-06,Jofa
+12/06/2025,Sgn Agro S.R.L.,Facturas A,1246,10974000,0,0,2298000,10974000,2025-06,Jofa
+12/06/2025,Gea Agronegocios S.R.L,Facturas A,1860,3819042,0,0,801396,3819042,2025-06,Jofa
+12/06/2025,Sgn Agro S.R.L.,Notas De Credito A,82,-1310400,0,0,-275184,-1310400,2025-06,Jofa
+12/06/2025,Gea Agronegocios S.R.L,Notas De Credito A,177,-1647708,0,0,-346326,-1647708,2025-06,Jofa
+12/06/2025,Starlink Argentina S R L,Facturas B,687611,0,0,0,0,0,2025-06,Jofa
+17/06/2025,Biofarma S A,Facturas A,2507,15954769,0,0,3350501,15954769,2025-06,Jofa
+17/06/2025,Leselec Electricidad S. R. L.,Facturas A,408,1628960,0,0,171041,1628960,2025-06,Jofa
+18/06/2025,Clm Nutricion S. R. L.,Facturas A,22554,12333468,0,0,1295014,12333468,2025-06,Jofa
+19/06/2025,Topigs Norsvin Argentina S.R.L.,Facturas A,25774,12777289,0,0,1341615,12777289,2025-06,Jofa
+19/06/2025,Leselec Electricidad S. R. L.,Facturas A,416,553719,0,0,116281,553719,2025-06,Jofa
+24/06/2025,Topigs Norsvin Argentina S.R.L.,Facturas A,25824,2306269,0,0,484316,2306269,2025-06,Jofa
+24/06/2025,Topigs Norsvin Argentina S.R.L.,Facturas A,25971,2549927,0,0,535485,2549927,2025-06,Jofa
+25/06/2025,Aerolineas Argentinas Sociedad Anonima,Facturas A,8563,60935,0,0,12796,60935,2025-06,Jofa
+25/06/2025,M B Energy  Sociedad De Resonsabilidad  Limitada,Notas De Debito A,13,105039,0,0,22058,105039,2025-06,Jofa
+26/06/2025,Biofarma S A,Facturas A,2538,16746899,0,0,3516849,16746899,2025-06,Jofa
+26/06/2025,Centro Ganadero Srl,Facturas A,39152,3457226,0,0,726018,3457226,2025-06,Jofa
+26/06/2025,Centro Ganadero Srl,Facturas A,39154,5980272,0,0,1255857,5980272,2025-06,Jofa
+27/06/2025,Centro Ganadero Srl,Facturas A,39169,1935390,0,0,406432,1935390,2025-06,Jofa
+27/06/2025,Centro Ganadero Srl,Facturas A,39164,10381950,0,0,2180209,10381950,2025-06,Jofa
+27/06/2025,Centro Ganadero Srl,Facturas A,39162,3799710,0,0,797939,3799710,2025-06,Jofa
+27/06/2025,Centro Ganadero Srl,Notas De Credito A,3007,-1557292,0,0,-327031,-1557292,2025-06,Jofa
+28/06/2025,Clm Nutricion S. R. L.,Facturas A,22655,12886567,0,0,1353090,12886567,2025-06,Jofa
+28/06/2025,Mr Y Asociados S.R.L.,Facturas A,3846,1340000,0,0,281400,1340000,2025-06,Jofa
+30/06/2025,Biofarma S A,Facturas A,2544,57840,0,0,12146,57840,2025-06,Jofa
+30/06/2025,Biofarma S A,Facturas A,2545,10172465,0,0,2136218,10172465,2025-06,Jofa
+30/06/2025,Topigs Norsvin Argentina S.R.L.,Facturas A,26131,2172160,0,0,456154,2172160,2025-06,Jofa
+30/06/2025,Soda Ideal S R L,Facturas A,18111,90909,0,0,19091,90909,2025-06,Jofa
 01/01/2025,Decri Comercial  Sa,Facturas A,6841,2705000,0,0,568050,2705000,2025-01,L A R M Argentina
 01/01/2025,Decri Comercial  Sa,Facturas A,6848,2450000,0,0,514500,2450000,2025-01,L A R M Argentina
 03/01/2025,Solis Horacio Antonio,Facturas C,446,0,499000,0,0,499000,2025-01,L A R M Argentina
@@ -12828,6 +13167,24 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 22/05/2025,Ale Alejandra Beatriz,Facturas C,497,0,305000,0,0,305000,2025-05,L A R M Argentina
 24/05/2025,Telecom Argentina Sociedad Anonima,Facturas A,9108983,47917,0,0,10175,47917,2025-05,L A R M Argentina
 26/05/2025,Mastino Alejandro Martin,Facturas C,299,0,89200,0,0,89200,2025-05,L A R M Argentina
+01/06/2025,Decri Comercial  Sa,Facturas A,7426,3781108,0,0,794033,3781108,2025-06,L A R M Argentina
+01/06/2025,Decri Comercial  Sa,Facturas A,7476,45000,0,0,9450,45000,2025-06,L A R M Argentina
+02/06/2025,Colegio De Traductores Publicos De La Ciudad De Buenos Aires,Facturas C,348411,0,21000,0,0,21000,2025-06,L A R M Argentina
+02/06/2025,Colegio De Traductores Publicos De La Ciudad De Buenos Aires,Facturas C,348412,0,21000,0,0,21000,2025-06,L A R M Argentina
+03/06/2025,Ale Alejandra Beatriz,Facturas C,499,0,720000,0,0,720000,2025-06,L A R M Argentina
+04/06/2025,Mastino Alejandro Martin,Facturas C,305,0,509000,0,0,509000,2025-06,L A R M Argentina
+06/06/2025,Colegio De Traductores Publicos De La Ciudad De Buenos Aires,Facturas C,349201,0,31500,0,0,31500,2025-06,L A R M Argentina
+06/06/2025,Mastino Alejandro Martin,Facturas C,307,0,568200,0,0,568200,2025-06,L A R M Argentina
+15/06/2025,Decri Comercial  Sa,Facturas A,7491,28083,0,0,5897,28083,2025-06,L A R M Argentina
+15/06/2025,Decri Comercial  Sa,Notas De Credito A,523,-45000,0,0,-9450,-45000,2025-06,L A R M Argentina
+17/06/2025,Ale Alejandra Beatriz,Facturas C,502,0,315000,0,0,315000,2025-06,L A R M Argentina
+17/06/2025,Mattei Diego Hugo,Facturas C,164,0,25500,0,0,25500,2025-06,L A R M Argentina
+18/06/2025,Telecom Argentina Sociedad Anonima,Facturas A,5499449,84334,0,0,17710,84334,2025-06,L A R M Argentina
+19/06/2025,Osde Organizacion De Servicios Directos Empresarios,Facturas A,312589,635866,0,0,66766,635866,2025-06,L A R M Argentina
+23/06/2025,Colegio De Traductores Publicos De La Ciudad De Buenos Aires,Facturas C,352001,0,21000,0,0,21000,2025-06,L A R M Argentina
+24/06/2025,Telecom Argentina Sociedad Anonima,Facturas A,9166525,49610,0,0,10561,49610,2025-06,L A R M Argentina
+24/06/2025,Mastino Alejandro Martin,Facturas C,310,0,109200,0,0,109200,2025-06,L A R M Argentina
+30/06/2025,Colegio De Traductores Publicos De La Ciudad De Buenos Aires,Facturas C,353341,0,21000,0,0,21000,2025-06,L A R M Argentina
 01/01/2025,Autopistas Del Sol S A,Facturas A,6581721,8435,0,253,1771,8688,2025-01,Leoni Maria Jose
 02/01/2025,Fernandez Susana Beatriz,Facturas A,990,100000,0,0,21000,100000,2025-01,Leoni Maria Jose
 07/01/2025,Telecom Argentina Sociedad Anonima,Facturas A,3387970,43845,0,0,11838,43845,2025-01,Leoni Maria Jose
@@ -12979,6 +13336,41 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 30/05/2025,Way2Net S.A,Facturas A,162,37735,0,0,7924,37735,2025-05,Leoni Maria Jose
 30/05/2025,Lara Jorge Edgardo,Facturas C,13,0,950000,0,0,950000,2025-05,Leoni Maria Jose
 31/05/2025,Autopistas Urbanas S. A.,Facturas A,894675,18043,0,0,3789,18043,2025-05,Leoni Maria Jose
+01/06/2025,Autopistas Del Sol S A,Facturas A,7182184,13867,0,416,2912,14283,2025-06,Leoni Maria Jose
+02/06/2025,Fernandez Susana Beatriz,Facturas A,1035,120000,0,0,25200,120000,2025-06,Leoni Maria Jose
+02/06/2025,Asociacion Notarial Argentina Entidad Mutual,Facturas C,112763,0,47000,0,0,47000,2025-06,Leoni Maria Jose
+03/06/2025,Bagnatti Alfredo Javier,Facturas C,694,0,226748,0,0,226748,2025-06,Leoni Maria Jose
+04/06/2025,Dimension Comercial Srl,Facturas A,6396,165289,0,0,34711,165289,2025-06,Leoni Maria Jose
+04/06/2025,Amx Argentina Sociedad Anonima,Facturas A,600139,3720,0,0,782,3720,2025-06,Leoni Maria Jose
+04/06/2025,Douse Sa,Facturas B,8730,0,0,0,0,0,2025-06,Leoni Maria Jose
+06/06/2025,Asociacion Notarial Argentina Entidad Mutual,Facturas C,113022,0,8600,0,0,8600,2025-06,Leoni Maria Jose
+07/06/2025,Telecom Argentina Sociedad Anonima,Facturas A,4340058,48240,0,0,13025,48240,2025-06,Leoni Maria Jose
+08/06/2025,Chiara Griselda Lucia,Facturas B,1547,0,0,0,0,0,2025-06,Leoni Maria Jose
+09/06/2025,Imagen Zero S.A.,Facturas A,8652,14236,0,0,2990,14236,2025-06,Leoni Maria Jose
+09/06/2025,Sa La Nacion,Facturas B,3246436,0,0,0,0,0,2025-06,Leoni Maria Jose
+10/06/2025,Axa Assistance Argentina S. A.,Facturas B,53319,0,0,0,0,0,2025-06,Leoni Maria Jose
+10/06/2025,Cencosud S A,Facturas B,406724,0,0,0,0,0,2025-06,Leoni Maria Jose
+10/06/2025,Medina Analia Susana,Facturas C,893,0,316800,0,0,316800,2025-06,Leoni Maria Jose
+11/06/2025,Asociacion Notarial Argentina Entidad Mutual,Facturas C,113291,0,37700,0,0,37700,2025-06,Leoni Maria Jose
+13/06/2025,Solve System S.R.L.,Facturas A,5000,1920000,0,0,236880,1920000,2025-06,Leoni Maria Jose
+13/06/2025,Todo Digital,Facturas A,5341,76694,0,0,16106,76694,2025-06,Leoni Maria Jose
+13/06/2025,El Faro Recoleta S.R.L.,Facturas A,8950,68871,0,0,7231,68871,2025-06,Leoni Maria Jose
+15/06/2025,Autopistas Urbanas S. A.,Facturas A,912751,17668,0,0,3710,17668,2025-06,Leoni Maria Jose
+16/06/2025,Autopistas Del Sol S A,Facturas A,7242068,12827,0,385,2694,13212,2025-06,Leoni Maria Jose
+16/06/2025,Bentos Barbara,Facturas C,293,0,400000,0,0,400000,2025-06,Leoni Maria Jose
+16/06/2025,Bentos Barbara,Facturas C,294,0,400000,0,0,400000,2025-06,Leoni Maria Jose
+16/06/2025,Bentos Barbara,Facturas C,295,0,400000,0,0,400000,2025-06,Leoni Maria Jose
+16/06/2025,Fernandez Maria Gabriela,Facturas C,498,0,168000,0,0,168000,2025-06,Leoni Maria Jose
+18/06/2025,Telecom Argentina Sociedad Anonima,Facturas A,5484769,92236,0,0,19370,92236,2025-06,Leoni Maria Jose
+22/06/2025,Mercadolibre S.R.L.,Facturas A,14612077,7430,0,0,1560,7430,2025-06,Leoni Maria Jose
+24/06/2025,Dimension Comercial Srl,Facturas A,6734,123967,0,0,26033,123967,2025-06,Leoni Maria Jose
+25/06/2025,La Lunetterie S.R.L.,Facturas A,3145,290909,0,0,61091,290909,2025-06,Leoni Maria Jose
+26/06/2025,El Faro Recoleta S.R.L.,Facturas A,9016,35919,0,0,3771,35919,2025-06,Leoni Maria Jose
+26/06/2025,Asociacion Notarial Argentina Entidad Mutual,Facturas C,113988,0,4400,0,0,4400,2025-06,Leoni Maria Jose
+27/06/2025,El Faro Recoleta S.R.L.,Facturas A,9025,11055,0,0,1161,11055,2025-06,Leoni Maria Jose
+27/06/2025,Singh Cesar Enrique,Facturas A,4351,305000,151200,0,64050,456200,2025-06,Leoni Maria Jose
+27/06/2025,Del Ponte Maria Julia,Facturas A,3893,335855,0,0,70530,335855,2025-06,Leoni Maria Jose
+30/06/2025,Autopistas Urbanas S. A.,Facturas A,930558,11829,0,0,2484,11829,2025-06,Leoni Maria Jose
 01/01/2025,Grupo Concesionario Del Oeste Sa,Facturas A,5773160,21262,0,0,4465,21262,2025-01,Liftvan International
 01/01/2025,Autopistas Del Sol S A,Facturas A,6599708,187775,0,5633,39433,193408,2025-01,Liftvan International
 01/01/2025,Burgos Hugo Gabriel,Facturas C,1322,0,18587,0,0,18587,2025-01,Liftvan International
@@ -14189,6 +14581,7 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 21/05/2025,Administrative Processing Center Sa S. A.,Facturas A,156940,27108,0,0,5693,27108,2025-05,Liftvan International
 21/05/2025,Palacio Y Asociados - Sociedad Civil,Facturas A,16796,115000,0,0,24150,115000,2025-05,Liftvan International
 21/05/2025,Jvl Sa,Facturas A,13203,723909,0,0,76010,723909,2025-05,Liftvan International
+21/05/2025,Via Cargo  Sa,Facturas A,2790,101190,0,0,21250,101190,2025-05,Liftvan International
 21/05/2025,Rodriguez Oscar Alejandro,Facturas A,395,2835000,0,0,595350,2835000,2025-05,Liftvan International
 21/05/2025,Passerini Jorge Enrique,Facturas C,73,0,1500000,0,0,1500000,2025-05,Liftvan International
 22/05/2025,Autopistas Urbanas S. A.,Facturas A,1418380,184389,0,0,38722,184389,2025-05,Liftvan International
@@ -14285,6 +14678,291 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 31/05/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4385649,84117,0,0,17665,84117,2025-05,Liftvan International
 31/05/2025,Autopistas Urbanas S. A.,Facturas A,1421965,150552,0,0,31616,150552,2025-05,Liftvan International
 31/05/2025,Coordinacion Ecologica Area Metropolitana Sociedad Del Estado,Facturas A,4269534,76456,0,0,16056,76456,2025-05,Liftvan International
+01/06/2025,Asmel Sa,Facturas A,102788,83224,0,0,17477,83224,2025-06,Liftvan International
+01/06/2025,Grupo Concesionario Del Oeste Sa,Facturas A,6187402,47146,0,0,9901,47146,2025-06,Liftvan International
+01/06/2025,Autopistas Del Sol S A,Facturas A,7198971,208921,0,6268,43874,215189,2025-06,Liftvan International
+01/06/2025,A.M.Mensajeria Srl,Facturas A,15283,1193792,0,0,250696,1193792,2025-06,Liftvan International
+02/06/2025,Credito Y Caucion S.A. Compañia De Seguros,Facturas A,400042,232800,9600,0,49200,242400,2025-06,Liftvan International
+02/06/2025,Soda Tejeda S R L,Facturas A,10120,257438,0,0,54062,257438,2025-06,Liftvan International
+02/06/2025,Terminal 7 S A,Facturas A,28025,75000,0,0,15750,75000,2025-06,Liftvan International
+02/06/2025,Maritime Services Line Argentina Sa,Facturas A,240017,194280,0,42000,40799,236280,2025-06,Liftvan International
+02/06/2025,Star Shipping Argentina Sociedad Anonima,Facturas A,192675,169391,0,0,35572,169391,2025-06,Liftvan International
+02/06/2025,Administrative Processing Center Sa S. A.,Facturas A,158264,27108,0,0,5693,27108,2025-06,Liftvan International
+02/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25839,2440087,0,0,512418,2440087,2025-06,Liftvan International
+02/06/2025,Caracciolo Gas S.R.L.,Facturas A,32949,114027,0,0,11973,114027,2025-06,Liftvan International
+02/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1203523,0,0,586775,0,586775,2025-06,Liftvan International
+02/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1203524,61250,0,0,12250,61250,2025-06,Liftvan International
+02/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25841,758486,0,0,159282,758486,2025-06,Liftvan International
+02/06/2025,Meriti Srl,Facturas A,40716,573542,0,0,120444,573542,2025-06,Liftvan International
+02/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25840,2455103,0,0,515572,2455103,2025-06,Liftvan International
+02/06/2025,Corrugar S.A.,Facturas A,5789,4310400,0,0,905184,4310400,2025-06,Liftvan International
+02/06/2025,Asin Jorge Alfredo,Facturas A,282,4000000,0,0,840000,4000000,2025-06,Liftvan International
+02/06/2025,Navarro Cesar Omar,Facturas A,1634,739500,0,0,155295,739500,2025-06,Liftvan International
+02/06/2025,Asin Jorge Alfredo,Facturas A,283,9000000,0,0,1890000,9000000,2025-06,Liftvan International
+02/06/2025,Estudio Bosch Abogados S.R.L.,Facturas A,280,950000,0,0,199500,950000,2025-06,Liftvan International
+02/06/2025,Bullon Mirta Isabel,Facturas A,2895,24793,0,0,5207,24793,2025-06,Liftvan International
+02/06/2025,El Marques S A,Facturas A,248,6000000,0,0,1260000,6000000,2025-06,Liftvan International
+02/06/2025,Burgos Hugo Gabriel,Facturas C,1417,0,21815,0,0,21815,2025-06,Liftvan International
+02/06/2025,Burgos Hugo Gabriel,Facturas C,1418,0,378295,0,0,378295,2025-06,Liftvan International
+02/06/2025,Odriozola Nelson Matias,Facturas C,181,0,660000,0,0,660000,2025-06,Liftvan International
+02/06/2025,Ronconi Juan Ignacio,Facturas C,473,0,420000,0,0,420000,2025-06,Liftvan International
+02/06/2025,Espina Norma Adriana,Facturas C,685,0,1320000,0,0,1320000,2025-06,Liftvan International
+03/06/2025,Aseguradora De Creditos Y Garantias S A,Facturas A,2155872,58212,1188,0,11880,59400,2025-06,Liftvan International
+03/06/2025,Aseguradora De Creditos Y Garantias S A,Facturas A,2157694,80784,1188,0,16632,81972,2025-06,Liftvan International
+03/06/2025,Todo Pesado Repuestos S.R.L.,Facturas A,901,27479,0,0,5771,27479,2025-06,Liftvan International
+03/06/2025,Mis Genios S.R.L.,Facturas A,3414,503942,0,0,105828,503942,2025-06,Liftvan International
+03/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25854,2080922,0,0,436994,2080922,2025-06,Liftvan International
+03/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25855,2591408,0,0,544196,2591408,2025-06,Liftvan International
+03/06/2025,Exolgan S.A.,Facturas A,336647,1231584,0,0,258633,1231584,2025-06,Liftvan International
+03/06/2025,Exolgan S.A.,Facturas A,336648,684240,0,0,143690,684240,2025-06,Liftvan International
+03/06/2025,Terminal 4  S A,Facturas A,367389,43200,0,0,9072,43200,2025-06,Liftvan International
+03/06/2025,Rizzotto Roque Omar,Facturas C,72,0,735422,0,0,735422,2025-06,Liftvan International
+03/06/2025,Cejas Camila De Los Angeles,Facturas C,26,0,190000,0,0,190000,2025-06,Liftvan International
+04/06/2025,Sanabria Jose Saturino,Facturas A,1958,467600,0,0,98196,467600,2025-06,Liftvan International
+04/06/2025,Telmex Argentina Sa,Facturas A,300361,924216,0,0,201515,924216,2025-06,Liftvan International
+04/06/2025,Cavodeassi Gaston Diego,Facturas A,7898,193862,0,0,40711,193862,2025-06,Liftvan International
+04/06/2025,Cavodeassi Gaston Diego,Facturas A,7891,953348,0,0,200203,953348,2025-06,Liftvan International
+04/06/2025,Sanabria Jose Saturino,Facturas A,1959,87500,0,0,18375,87500,2025-06,Liftvan International
+04/06/2025,Cavodeassi Gaston Diego,Facturas A,34,1020000,0,0,214200,1020000,2025-06,Liftvan International
+04/06/2025,Silver Freight Logistic S.R.L.,Facturas A,14999,0,0,735140,0,735140,2025-06,Liftvan International
+04/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25880,1395130,0,0,292977,1395130,2025-06,Liftvan International
+04/06/2025,N Y O Soft S.R.L.,Facturas A,4572,77880,0,0,16355,77880,2025-06,Liftvan International
+04/06/2025,Galderisi Carlos Andres,Facturas A,283,3150000,0,0,661500,3150000,2025-06,Liftvan International
+04/06/2025,Mazurkiewich Ramon Daniel,Facturas A,2597,265000,0,0,55650,265000,2025-06,Liftvan International
+04/06/2025,Pochat Alurralde Juan Manuel,Facturas C,263,0,2127600,0,0,2127600,2025-06,Liftvan International
+05/06/2025,Megafe S.A.,Facturas A,3699,583315,0,0,122496,583315,2025-06,Liftvan International
+05/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25894,1950677,0,0,409642,1950677,2025-06,Liftvan International
+05/06/2025,Megafe S.A.,Facturas A,1372,942975,0,0,198025,942975,2025-06,Liftvan International
+05/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15004,0,0,4740000,0,4740000,2025-06,Liftvan International
+05/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15005,773760,0,0,162240,773760,2025-06,Liftvan International
+05/06/2025,Rodriguez Oscar Alejandro,Facturas A,399,1538000,0,0,322980,1538000,2025-06,Liftvan International
+05/06/2025,L A R M Argentina Sociedad Anonima,Facturas A,5419,2893840,0,0,607232,2893840,2025-06,Liftvan International
+05/06/2025,Sucesion De Ursic Boris Rodolfo,Facturas A,11688,100000,0,0,21000,100000,2025-06,Liftvan International
+05/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3308,0,0,-4032000,0,-4032000,2025-06,Liftvan International
+05/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3307,0,0,-735140,0,-735140,2025-06,Liftvan International
+05/06/2025,Leiria Carlos Alberto,Facturas C,229,0,1406000,0,0,1406000,2025-06,Liftvan International
+05/06/2025,Passerini Jorge Enrique,Facturas C,74,0,2000000,0,0,2000000,2025-06,Liftvan International
+05/06/2025,Jara Valentin Alberto,Facturas C,251,0,470000,0,0,470000,2025-06,Liftvan International
+05/06/2025,Leiria Carlos Alberto,Facturas C,228,0,1165000,0,0,1165000,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15027,775620,0,0,162630,775620,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15020,0,0,4759750,0,4759750,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15017,0,0,4639250,0,4639250,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15018,56295,0,900720,11259,957015,2025-06,Liftvan International
+06/06/2025,Ba Comex S.A.,Facturas A,348,162500,0,0,34125,162500,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15021,775620,0,0,162630,775620,2025-06,Liftvan International
+06/06/2025,Tubomarket Sa,Facturas A,24604,1076921,0,0,226153,1076921,2025-06,Liftvan International
+06/06/2025,Cencosud S A,Facturas A,5098,205657,0,0,43188,205657,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15024,0,0,4759750,0,4759750,2025-06,Liftvan International
+06/06/2025,Aeropuertos Argentina 2000 S A,Facturas A,18297,701310,0,0,147010,701310,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15025,775620,0,0,162630,775620,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15022,0,0,4759750,0,4759750,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15023,775620,0,0,162630,775620,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15026,0,0,4759750,0,4759750,2025-06,Liftvan International
+06/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25913,1995408,0,0,419036,1995408,2025-06,Liftvan International
+06/06/2025,Beraldi Ricardo Tomas,Facturas A,903,1150000,0,0,241500,1150000,2025-06,Liftvan International
+06/06/2025,Sucesion De Ursic Boris Rodolfo,Facturas A,11692,780000,0,0,163800,780000,2025-06,Liftvan International
+06/06/2025,Terminal 4  S A,Facturas A,628012,2307695,0,0,484616,2307695,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3313,0,0,-4048800,0,-4048800,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3309,0,0,-1626750,0,-1626750,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3310,0,0,-4048800,0,-4048800,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3312,0,0,-4048800,0,-4048800,2025-06,Liftvan International
+06/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3311,0,0,-4048800,0,-4048800,2025-06,Liftvan International
+06/06/2025,Asociacion Argentina De Agentes De Carga Internacional,Facturas C,31306,0,83044,0,0,83044,2025-06,Liftvan International
+06/06/2025,Lastra Facundo Martin,Facturas C,51,0,200000,0,0,200000,2025-06,Liftvan International
+08/06/2025,Autopistas Urbanas S. A.,Facturas A,1448867,196077,0,0,41176,196077,2025-06,Liftvan International
+08/06/2025,Amx Argentina Sociedad Anonima,Facturas A,614528,323630,0,0,77072,323630,2025-06,Liftvan International
+09/06/2025,Edenred Argentina Sociedad Anonima,Facturas A,1022635,152621,0,0,32050,152621,2025-06,Liftvan International
+09/06/2025,Bank S. A.,Facturas A,275761,210000,0,0,44100,210000,2025-06,Liftvan International
+09/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25940,2987617,0,0,627400,2987617,2025-06,Liftvan International
+09/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1205738,0,0,803600,0,803600,2025-06,Liftvan International
+09/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1205739,61250,0,0,12250,61250,2025-06,Liftvan International
+09/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1205741,0,0,679875,0,679875,2025-06,Liftvan International
+09/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1205742,61250,0,0,12250,61250,2025-06,Liftvan International
+09/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25941,783868,0,0,164612,783868,2025-06,Liftvan International
+09/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25944,783868,0,0,164612,783868,2025-06,Liftvan International
+09/06/2025,Camara  De Grabadores De Autopartes De Vehiculos Automotores Y Motovehiculos,Facturas C,1499607,0,42058,0,0,42058,2025-06,Liftvan International
+09/06/2025,Passerini Jorge Enrique,Facturas C,75,0,2000000,0,0,2000000,2025-06,Liftvan International
+10/06/2025,Maxigoma Srl,Facturas A,16440,11901,0,0,2499,11901,2025-06,Liftvan International
+10/06/2025,Aurelia S A C I Y F,Facturas A,229725,1840771,0,0,386562,1840771,2025-06,Liftvan International
+10/06/2025,Aurelia S A C I Y F,Facturas A,58608,269500,0,0,56595,269500,2025-06,Liftvan International
+10/06/2025,Rensetti Natalia Fernanda,Facturas A,17828,75620,0,0,15880,75620,2025-06,Liftvan International
+10/06/2025,Prosegur Activa Argentina Sa,Facturas A,1256885,16424,0,0,3449,16424,2025-06,Liftvan International
+10/06/2025,Prosegur Activa Argentina Sa,Facturas A,1256886,58703,0,0,12328,58703,2025-06,Liftvan International
+10/06/2025,Prosegur Activa Argentina Sa,Facturas A,1256887,65367,0,0,13727,65367,2025-06,Liftvan International
+10/06/2025,Prosegur Activa Argentina Sa,Facturas A,1256888,67871,0,0,14253,67871,2025-06,Liftvan International
+10/06/2025,Prosegur Activa Argentina Sa,Facturas A,1256889,67871,0,0,14253,67871,2025-06,Liftvan International
+10/06/2025,Prosegur Activa Argentina Sa,Facturas A,1256890,55907,0,0,11740,55907,2025-06,Liftvan International
+10/06/2025,Prosegur Activa Argentina Sa,Facturas A,1256891,67871,0,0,14253,67871,2025-06,Liftvan International
+10/06/2025,Prosegur Activa Argentina Sa,Facturas A,1256892,55204,0,0,11593,55204,2025-06,Liftvan International
+10/06/2025,Prosegur Activa Argentina Sa,Facturas A,1256893,62451,0,0,13115,62451,2025-06,Liftvan International
+10/06/2025,Prosegur Activa Argentina Sa,Facturas A,1256894,63379,0,0,13310,63379,2025-06,Liftvan International
+10/06/2025,Prosegur Activa Argentina Sa,Facturas A,1256895,63379,0,0,13310,63379,2025-06,Liftvan International
+10/06/2025,Prosegur Activa Argentina Sa,Facturas A,1256896,62935,0,0,13216,62935,2025-06,Liftvan International
+10/06/2025,Sucesion De Ursic Boris Rodolfo,Facturas A,11702,123967,0,0,26033,123967,2025-06,Liftvan International
+10/06/2025,Terminal 4  S A,Facturas A,629255,506400,0,0,106344,506400,2025-06,Liftvan International
+10/06/2025,Terminal 4  S A,Facturas A,629263,496800,0,0,104328,496800,2025-06,Liftvan International
+10/06/2025,Terminal 4  S A,Facturas A,629240,496800,0,0,104328,496800,2025-06,Liftvan International
+10/06/2025,Terminales Rio De La Plata Sociedad Anonima,Facturas A,71889,931200,0,0,195600,931200,2025-06,Liftvan International
+10/06/2025,Aurelia S A C I Y F,Notas De Credito A,14733,-103646,0,0,-21766,-103646,2025-06,Liftvan International
+11/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25970,1960744,0,0,411756,1960744,2025-06,Liftvan International
+11/06/2025,Sanabria Jose Saturino,Facturas A,1963,601300,0,0,126273,601300,2025-06,Liftvan International
+11/06/2025,Aurelia S A C I Y F,Facturas A,229805,492820,0,0,103492,492820,2025-06,Liftvan International
+11/06/2025,Telefonica Moviles Argentina Sociedad Anonima,Facturas A,798449,96588,0,0,24799,96588,2025-06,Liftvan International
+11/06/2025,Eleta Gabriel Horacio,Facturas A,22957,2686,0,0,564,2686,2025-06,Liftvan International
+11/06/2025,Rodriguez Oscar Alejandro,Facturas A,403,2317000,0,0,486570,2317000,2025-06,Liftvan International
+11/06/2025,Romero German Roberto,Facturas A,1251,280000,0,0,58800,280000,2025-06,Liftvan International
+11/06/2025,Terminal 4  S A,Facturas A,629986,430800,0,0,90468,430800,2025-06,Liftvan International
+12/06/2025,Chiemese S.A.,Facturas A,53386,288000,0,5366,60480,293366,2025-06,Liftvan International
+12/06/2025,Aurelia S A C I Y F,Facturas A,229880,190117,0,0,39924,190117,2025-06,Liftvan International
+12/06/2025,Wisetech Global (Argentina) S.A.U.,Facturas A,14971,625696,0,0,131396,625696,2025-06,Liftvan International
+12/06/2025,Gonzalez Sebastian Enrique,Facturas A,34,460000,0,0,96600,460000,2025-06,Liftvan International
+12/06/2025,Navarro Cesar Omar,Facturas A,1640,1655450,0,0,347644,1655450,2025-06,Liftvan International
+12/06/2025,Credito Y Caucion S.A. Compañia De Seguros,Notas De Credito A,119453,0,0,0,0,0,2025-06,Liftvan International
+12/06/2025,Credito Y Caucion S.A. Compañia De Seguros,Notas De Credito A,119482,-71920,-1160,0,-15080,-73080,2025-06,Liftvan International
+12/06/2025,Leiria Carlos Alberto,Facturas C,232,0,1205000,0,0,1205000,2025-06,Liftvan International
+12/06/2025,Leiria Carlos Alberto,Facturas C,231,0,720000,0,0,720000,2025-06,Liftvan International
+13/06/2025,Credito Y Caucion S.A. Compañia De Seguros,Facturas A,403218,146400,6000,0,31200,152400,2025-06,Liftvan International
+13/06/2025,Saco Shipping Sa,Facturas A,125364,629588,0,71750,132213,701338,2025-06,Liftvan International
+13/06/2025,Aeropuertos Argentina 2000 S A,Facturas A,18533,85200,0,0,18000,85200,2025-06,Liftvan International
+13/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,26020,1173610,0,0,246458,1173610,2025-06,Liftvan International
+13/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,26021,1173610,0,0,246458,1173610,2025-06,Liftvan International
+13/06/2025,Sucesion De Ursic Boris Rodolfo,Facturas A,11712,82645,0,0,17355,82645,2025-06,Liftvan International
+13/06/2025,Jara Valentin Alberto,Facturas C,255,0,180000,0,0,180000,2025-06,Liftvan International
+14/06/2025,Corredores Viales Sociedad Anonima,Facturas A,9534540,4160,0,0,874,4160,2025-06,Liftvan International
+14/06/2025,Corredores Viales Sociedad Anonima,Facturas A,9504074,14560,0,0,3058,14560,2025-06,Liftvan International
+14/06/2025,Corredores Viales Sociedad Anonima,Facturas A,9517461,18720,0,0,3931,18720,2025-06,Liftvan International
+14/06/2025,Terminal 4  S A,Facturas A,367636,1713600,0,0,359856,1713600,2025-06,Liftvan International
+15/06/2025,Autopistas Urbanas S. A.,Facturas A,1471389,107773,0,0,22632,107773,2025-06,Liftvan International
+15/06/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4416305,171457,0,0,36006,171457,2025-06,Liftvan International
+15/06/2025,Coordinacion Ecologica Area Metropolitana Sociedad Del Estado,Facturas A,4296725,130919,0,0,27493,130919,2025-06,Liftvan International
+16/06/2025,Grupo Concesionario Del Oeste Sa,Facturas A,6228971,51768,0,0,10871,51768,2025-06,Liftvan International
+16/06/2025,Autopistas Del Sol S A,Facturas A,7258781,226832,0,6805,47635,233637,2025-06,Liftvan International
+17/06/2025,Bulonera Torcuato Srl,Facturas A,27452,20105,0,0,4222,20105,2025-06,Liftvan International
+17/06/2025,Dommarco Hnos Sociedad Anonima,Facturas A,71351,1562000,0,0,328020,1562000,2025-06,Liftvan International
+17/06/2025,Jorge Causillas Sa,Facturas A,526,1603899,0,0,336819,1603899,2025-06,Liftvan International
+17/06/2025,Edenred Argentina Sociedad Anonima,Facturas A,1024477,189734,0,0,39844,189734,2025-06,Liftvan International
+17/06/2025,Sanitarios Jose C Paz S A E F,Facturas A,15356,505207,8083,0,106093,513290,2025-06,Liftvan International
+17/06/2025,Terminal 4  S A,Facturas A,631640,501600,0,0,105336,501600,2025-06,Liftvan International
+17/06/2025,Terminal 4  S A,Facturas A,631667,499200,0,0,104832,499200,2025-06,Liftvan International
+17/06/2025,Exolgan S.A.,Facturas A,339122,1231056,0,0,258522,1231056,2025-06,Liftvan International
+17/06/2025,Exolgan S.A.,Facturas A,339126,1231488,0,0,258612,1231488,2025-06,Liftvan International
+17/06/2025,Exolgan S.A.,Facturas A,339164,537744,0,0,112926,537744,2025-06,Liftvan International
+17/06/2025,Terminal 4  S A,Facturas A,631636,428400,0,0,89964,428400,2025-06,Liftvan International
+17/06/2025,Castillo Stela Maris Zulema,Facturas C,110,0,920000,0,0,920000,2025-06,Liftvan International
+17/06/2025,Gimenez Diaz Cesar Oscar,Facturas C,408,0,1680000,0,0,1680000,2025-06,Liftvan International
+18/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15096,0,0,7287750,0,7287750,2025-06,Liftvan International
+18/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15097,0,0,853200,0,853200,2025-06,Liftvan International
+18/06/2025,Oxi-Mercedes  S. A.,Facturas A,12013,45212,0,0,9495,45212,2025-06,Liftvan International
+18/06/2025,Ocean Network Express Argentina S. A.,Facturas A,256185,0,885728,0,0,885728,2025-06,Liftvan International
+18/06/2025,Administrative Processing Center Sa S. A.,Facturas A,160074,27108,0,0,5693,27108,2025-06,Liftvan International
+18/06/2025,Navarro Karina Alejandra,Facturas A,212,30620,0,0,6430,30620,2025-06,Liftvan International
+18/06/2025,Pereira Gases S.A.,Facturas A,22065,120610,0,0,25328,120610,2025-06,Liftvan International
+18/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1208403,0,0,349125,0,349125,2025-06,Liftvan International
+18/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1208412,0,0,312375,0,312375,2025-06,Liftvan International
+18/06/2025,Feport Sa,Facturas A,55543,2513385,0,0,527811,2513385,2025-06,Liftvan International
+18/06/2025,Rodriguez Oscar Alejandro,Facturas A,405,1555000,0,0,326550,1555000,2025-06,Liftvan International
+18/06/2025,Sucesion De Ursic Boris Rodolfo,Facturas A,11714,82645,0,0,17355,82645,2025-06,Liftvan International
+18/06/2025,Mediterranean Shipping Company S A,Facturas A,656570,0,267960,0,0,267960,2025-06,Liftvan International
+18/06/2025,Mediterranean Shipping Company S A,Facturas A,656571,91350,0,0,19184,91350,2025-06,Liftvan International
+18/06/2025,Exolgan S.A.,Facturas A,332301,693841,0,0,145707,693841,2025-06,Liftvan International
+18/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3323,0,0,-2488500,0,-2488500,2025-06,Liftvan International
+18/06/2025,Martinez Pollitzer Jimena,Facturas C,106,0,1262430,0,0,1262430,2025-06,Liftvan International
+19/06/2025,Dorking Sociedad Anonima,Facturas A,134705,349832,0,0,73465,349832,2025-06,Liftvan International
+19/06/2025,Osde Organizacion De Servicios Directos Empresarios,Facturas A,208622,2780512,0,0,291954,2780512,2025-06,Liftvan International
+19/06/2025,Aeropuertos Argentina 2000 S A,Facturas A,18731,58000,0,0,11600,58000,2025-06,Liftvan International
+19/06/2025,Sanabria Jose Saturino,Facturas A,1965,2852360,0,0,598996,2852360,2025-06,Liftvan International
+19/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,26065,2092902,0,0,439509,2092902,2025-06,Liftvan International
+19/06/2025,Two  Libreria Srl,Facturas A,490,59554,0,0,12506,59554,2025-06,Liftvan International
+19/06/2025,Leiria Carlos Alberto,Facturas C,234,0,770000,0,0,770000,2025-06,Liftvan International
+19/06/2025,Leiria Carlos Alberto,Facturas C,235,0,1070000,0,0,1070000,2025-06,Liftvan International
+23/06/2025,Prodexpo Internacional Srl,Facturas A,57570,236000,5366,0,49560,241366,2025-06,Liftvan International
+23/06/2025,Chiemese S.A.,Facturas A,53558,283200,0,5366,59472,288566,2025-06,Liftvan International
+23/06/2025,Dommarco Hnos Sociedad Anonima,Facturas A,71400,1562000,0,0,328020,1562000,2025-06,Liftvan International
+23/06/2025,Jorge Causillas Sa,Facturas A,528,801949,0,0,168409,801949,2025-06,Liftvan International
+23/06/2025,Autopistas Urbanas S. A.,Facturas A,1479888,78774,0,0,16542,78774,2025-06,Liftvan International
+23/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15108,0,0,3080000,0,3080000,2025-06,Liftvan International
+23/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15109,55440,0,887040,11088,942480,2025-06,Liftvan International
+23/06/2025,Albici Neumaticos S.R.L.,Facturas A,23666,19835,0,0,4165,19835,2025-06,Liftvan International
+23/06/2025,Chiemese S.A.,Facturas A,53545,283200,0,5366,59472,288566,2025-06,Liftvan International
+23/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3331,0,0,-1909600,0,-1909600,2025-06,Liftvan International
+23/06/2025,Passerini Jorge Enrique,Facturas C,76,0,2500000,0,0,2500000,2025-06,Liftvan International
+24/06/2025,Edenred Argentina Sociedad Anonima,Facturas A,1027114,166502,0,0,34965,166502,2025-06,Liftvan International
+24/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1210555,0,0,859100,0,859100,2025-06,Liftvan International
+24/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1210556,60500,0,0,12100,60500,2025-06,Liftvan International
+24/06/2025,Nuevos Ayres Cargo S.A.,Facturas A,5602,0,119500,0,0,119500,2025-06,Liftvan International
+24/06/2025,Telecom Argentina Sociedad Anonima,Facturas A,9160013,640487,0,0,136833,640487,2025-06,Liftvan International
+24/06/2025,Asin Jorge Alfredo,Facturas A,286,2200000,0,0,462000,2200000,2025-06,Liftvan International
+24/06/2025,Consulmay S.A.,Facturas A,184,350000,0,0,73500,350000,2025-06,Liftvan International
+24/06/2025,Sucesion De Ursic Boris Rodolfo,Facturas A,11722,99174,0,0,20826,99174,2025-06,Liftvan International
+25/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15129,0,0,6230000,0,6230000,2025-06,Liftvan International
+25/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15130,0,0,897120,0,897120,2025-06,Liftvan International
+25/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15126,0,0,4921700,0,4921700,2025-06,Liftvan International
+25/06/2025,Perronnet Juan Pedro,Facturas A,6183,775296,0,0,162812,775296,2025-06,Liftvan International
+25/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15127,0,0,897120,0,897120,2025-06,Liftvan International
+25/06/2025,Perronnet Juan Pedro,Facturas A,6181,1157,0,0,243,1157,2025-06,Liftvan International
+25/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1210647,0,0,653400,0,653400,2025-06,Liftvan International
+25/06/2025,Ocean Network Express Argentina S. A.,Facturas A,257408,0,81575,0,0,81575,2025-06,Liftvan International
+25/06/2025,Administrative Processing Center Sa S. A.,Facturas A,161226,27108,0,0,5693,27108,2025-06,Liftvan International
+25/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15131,0,0,4921700,0,4921700,2025-06,Liftvan International
+25/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15132,0,0,897120,0,897120,2025-06,Liftvan International
+25/06/2025,Prodexpo Internacional Srl,Facturas A,57680,239000,5366,0,50190,244366,2025-06,Liftvan International
+25/06/2025,Perronnet Juan Pedro,Facturas A,6182,454591,0,0,95464,454591,2025-06,Liftvan International
+25/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15133,0,0,1962450,0,1962450,2025-06,Liftvan International
+25/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15134,772520,0,0,161980,772520,2025-06,Liftvan International
+25/06/2025,Corredores Viales Sociedad Anonima,Facturas A,2560744,55743,0,0,11706,55743,2025-06,Liftvan International
+25/06/2025,Exolgan S.A.,Facturas A,340829,687938,0,0,144467,687938,2025-06,Liftvan International
+25/06/2025,Exolgan S.A.,Facturas A,341119,429483,0,0,90191,429483,2025-06,Liftvan International
+25/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3339,0,0,-1619800,0,-1619800,2025-06,Liftvan International
+25/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3335,0,0,-4186560,0,-4186560,2025-06,Liftvan International
+25/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3340,0,0,-4186560,0,-4186560,2025-06,Liftvan International
+25/06/2025,Fernandez Marcelo Adrian,Facturas C,1892,0,1250000,0,0,1250000,2025-06,Liftvan International
+25/06/2025,Autopista Provincial Ap 01 Brigadier General Estanislao Lopez Fideicomiso,Facturas C,750138,0,14250,0,0,14250,2025-06,Liftvan International
+25/06/2025,Pais Furtado Javier Alejandro,Facturas C,1855,0,1250000,0,0,1250000,2025-06,Liftvan International
+26/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,26158,1754785,0,0,368505,1754785,2025-06,Liftvan International
+26/06/2025,Chiemese S.A.,Facturas A,53613,286800,0,5366,60228,292166,2025-06,Liftvan International
+26/06/2025,Tl S.R.L,Facturas A,3524,168000,0,0,35280,168000,2025-06,Liftvan International
+26/06/2025,Rodriguez Oscar Alejandro,Facturas A,406,1764000,0,0,370440,1764000,2025-06,Liftvan International
+26/06/2025,Barzola Francisco Alejandro,Facturas A,4413,234648,0,0,49276,234648,2025-06,Liftvan International
+26/06/2025,Barzola Francisco Alejandro,Facturas A,4412,627906,0,0,131860,627906,2025-06,Liftvan International
+26/06/2025,Sucesion De Ursic Boris Rodolfo,Facturas A,11726,82645,0,0,17355,82645,2025-06,Liftvan International
+26/06/2025,Exolgan S.A.,Facturas A,333249,704636,0,0,147974,704636,2025-06,Liftvan International
+26/06/2025,Terminal 4  S A,Notas De Credito A,8362,-1713600,0,0,-359856,-1713600,2025-06,Liftvan International
+26/06/2025,Leiria Carlos Alberto,Facturas C,241,0,1540000,0,0,1540000,2025-06,Liftvan International
+26/06/2025,Leiria Carlos Alberto,Facturas C,240,0,1390000,0,0,1390000,2025-06,Liftvan International
+26/06/2025,Leiria Carlos Alberto,Facturas C,237,0,1065000,0,0,1065000,2025-06,Liftvan International
+26/06/2025,Leiria Carlos Alberto,Facturas C,239,0,165000,0,0,165000,2025-06,Liftvan International
+26/06/2025,Leiria Carlos Alberto,Notas De Credito C,9,0,0,0,0,0,2025-06,Liftvan International
+26/06/2025,Leiria Carlos Alberto,Notas De Credito C,10,0,0,0,0,0,2025-06,Liftvan International
+27/06/2025,Sanchez Luciano Damian,Facturas A,484,75000,0,0,15750,75000,2025-06,Liftvan International
+27/06/2025,Ceviara S R L,Facturas A,106325,161157,0,10000,33843,171157,2025-06,Liftvan International
+27/06/2025,Star Shipping Argentina Sociedad Anonima,Facturas A,195975,0,1233619,0,0,1233619,2025-06,Liftvan International
+27/06/2025,Administrative Processing Center Sa S. A.,Facturas A,161509,7745,0,0,1626,7745,2025-06,Liftvan International
+27/06/2025,Perronnet Juan Pedro,Facturas A,6192,228909,0,0,48071,228909,2025-06,Liftvan International
+27/06/2025,Aeropuertos Argentina 2000 S A,Facturas A,18933,1423105,0,0,298840,1423105,2025-06,Liftvan International
+27/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,26166,1337275,0,0,280828,1337275,2025-06,Liftvan International
+27/06/2025,L A R M Argentina Sociedad Anonima,Facturas A,5452,10000000,0,0,2100000,10000000,2025-06,Liftvan International
+27/06/2025,Exolgan S.A.,Facturas A,341442,433029,0,0,90936,433029,2025-06,Liftvan International
+27/06/2025,Perronnet Juan Pedro,Notas De Credito A,278,-22891,0,0,-4807,-22891,2025-06,Liftvan International
+29/06/2025,Corredores Viales Sociedad Anonima,Facturas A,9656580,23920,0,0,5023,23920,2025-06,Liftvan International
+29/06/2025,Corredores Viales Sociedad Anonima,Facturas A,9696782,8320,0,0,1747,8320,2025-06,Liftvan International
+29/06/2025,Corredores Viales Sociedad Anonima,Facturas A,9692441,15600,0,0,3276,15600,2025-06,Liftvan International
+29/06/2025,Martinez Eriberto Omar,Facturas C,16,0,1300000,0,0,1300000,2025-06,Liftvan International
+30/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15164,0,0,793170,0,793170,2025-06,Liftvan International
+30/06/2025,Aeropuertos Argentina 2000 S A,Facturas A,19107,42175,0,0,8435,42175,2025-06,Liftvan International
+30/06/2025,Aurelia S A C I Y F,Facturas A,230969,207506,0,0,43576,207506,2025-06,Liftvan International
+30/06/2025,Autres  S.R.L.,Facturas A,63,2082240,0,0,437415,2082240,2025-06,Liftvan International
+30/06/2025,Rosmino Y Cia  Sa,Facturas A,420623,64132,0,0,13468,64132,2025-06,Liftvan International
+30/06/2025,N Y O Soft S.R.L.,Facturas A,4830,77880,0,0,16355,77880,2025-06,Liftvan International
+30/06/2025,Edenred Argentina Sociedad Anonima,Facturas A,1029327,540964,0,0,113602,540964,2025-06,Liftvan International
+30/06/2025,Autopistas Urbanas S. A.,Facturas A,1505468,179238,0,0,37640,179238,2025-06,Liftvan International
+30/06/2025,Benefits Sociedad Anonima S. A.,Facturas A,35121,664000,0,0,139440,664000,2025-06,Liftvan International
+30/06/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4449571,123679,0,0,25973,123679,2025-06,Liftvan International
+30/06/2025,Sucesion De Ursic Boris Rodolfo,Facturas A,11730,82645,0,0,17355,82645,2025-06,Liftvan International
+30/06/2025,Sucesion De Ursic Boris Rodolfo,Facturas A,11731,148760,0,0,31240,148760,2025-06,Liftvan International
+30/06/2025,Terminal 4  S A,Facturas A,367966,45410,0,0,9536,45410,2025-06,Liftvan International
+30/06/2025,Exolgan S.A.,Facturas A,334284,1194685,0,0,250884,1194685,2025-06,Liftvan International
+30/06/2025,Martinez Pollitzer Jimena,Facturas C,108,0,783250,0,0,783250,2025-06,Liftvan International
+30/06/2025,Sorianello Vanesa Silvana,Facturas C,212,0,300000,0,0,300000,2025-06,Liftvan International
 01/01/2025,Compañia De Servicios En Seguridad S.R.L.,Facturas A,28074,69648,0,0,14626,69648,2025-01,Mercovan Argentina
 01/01/2025,Grupo Concesionario Del Oeste Sa,Facturas A,5748343,1156,0,0,243,1156,2025-01,Mercovan Argentina
 01/01/2025,Autopistas Del Sol S A,Facturas A,6593539,16986,0,510,3567,17496,2025-01,Mercovan Argentina
@@ -15133,6 +15811,7 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 26/05/2025,Deposito Avellaneda Sur S.A.,Facturas A,25759,2941685,0,0,617754,2941685,2025-05,Mercovan Argentina
 26/05/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1201529,0,0,1156599,0,1156599,2025-05,Mercovan Argentina
 26/05/2025,Deposito Avellaneda Sur S.A.,Facturas A,25765,786777,0,0,165223,786777,2025-05,Mercovan Argentina
+26/05/2025,Montes De Oca 1885 Sociedad De Responsabilidad Limitada,Facturas A,48217,40174,0,0,8436,40174,2025-05,Mercovan Argentina
 26/05/2025,Rausin Nelida Susana,Facturas A,4137,5702,0,0,1198,5702,2025-05,Mercovan Argentina
 26/05/2025,Tamborini Victoria,Facturas C,39,0,550000,0,0,550000,2025-05,Mercovan Argentina
 26/05/2025,Espina Norma Adriana,Facturas C,684,0,550000,0,0,550000,2025-05,Mercovan Argentina
@@ -15181,7 +15860,165 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 31/05/2025,Autopistas Urbanas S. A.,Facturas A,1034276,125694,0,0,26396,125694,2025-05,Mercovan Argentina
 31/05/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4383153,114668,0,0,24080,114668,2025-05,Mercovan Argentina
 31/05/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4383154,71178,0,0,14947,71178,2025-05,Mercovan Argentina
+31/05/2025,Caminos De Las Sierras S. A.,Facturas A,738219,6446,0,0,1354,6446,2025-05,Mercovan Argentina
+31/05/2025,Caminos De Las Sierras S. A.,Facturas A,738220,4298,0,0,902,4298,2025-05,Mercovan Argentina
+31/05/2025,Isn Networks S.A.,Facturas A,6239,35480,0,0,7451,35480,2025-05,Mercovan Argentina
 31/05/2025,"Sutera Jose Ramon, Sutera Juan Jose,  Sutera Ana Clara S. Cap I Secc Iv",Facturas A,723,41322,0,0,8678,41322,2025-05,Mercovan Argentina
+01/06/2025,Compañia De Servicios En Seguridad S.R.L.,Facturas A,29239,79799,0,0,16758,79799,2025-06,Mercovan Argentina
+01/06/2025,Autopistas Del Sol S A,Facturas A,7193061,21146,0,634,4441,21780,2025-06,Mercovan Argentina
+01/06/2025,Autopistas Del Sol S A,Facturas A,7193062,12480,0,374,2621,12854,2025-06,Mercovan Argentina
+01/06/2025,Grupo Concesionario Del Oeste Sa,Facturas A,6161558,3467,0,0,728,3467,2025-06,Mercovan Argentina
+01/06/2025,Omint Sociedad Anonima De Servicios,Facturas A,1220334,67024,0,1444565,14075,1511589,2025-06,Mercovan Argentina
+02/06/2025,Chiemese S.A.,Facturas A,53204,288000,0,5366,60480,293366,2025-06,Mercovan Argentina
+02/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25838,1877894,0,0,394358,1877894,2025-06,Mercovan Argentina
+02/06/2025,Easymail Sa,Facturas A,122387,57426,0,0,12060,57426,2025-06,Mercovan Argentina
+02/06/2025,Acrogliano Carlos Ricardo,Facturas A,932,960038,0,0,201608,960038,2025-06,Mercovan Argentina
+02/06/2025,Lopez Y San Roman Sa,Facturas A,31684,100691,0,0,21145,100691,2025-06,Mercovan Argentina
+02/06/2025,Fadecco S. A.,Facturas A,12811,3632733,0,0,762874,3632733,2025-06,Mercovan Argentina
+02/06/2025,Ronconi Juan Ignacio,Facturas C,475,0,717000,0,0,717000,2025-06,Mercovan Argentina
+02/06/2025,Crescente Sbastian Javier,Facturas C,692,0,120000,0,0,120000,2025-06,Mercovan Argentina
+02/06/2025,Alais Marta Ines,Facturas C,207,0,500000,0,0,500000,2025-06,Mercovan Argentina
+02/06/2025,Rufino Natalia,Facturas C,554,0,270000,0,0,270000,2025-06,Mercovan Argentina
+02/06/2025,Odriozola Nelson Matias,Facturas C,183,0,270000,0,0,270000,2025-06,Mercovan Argentina
+02/06/2025,Obispado De San Isidro,Recibos C,84013,0,0,0,0,0,2025-06,Mercovan Argentina
+03/06/2025,Taller Car C Pulicich S. R. L.,Facturas A,1403,206612,0,0,43388,206612,2025-06,Mercovan Argentina
+03/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1203875,0,0,16029,0,16029,2025-06,Mercovan Argentina
+03/06/2025,Sis Ingenieria Srl,Facturas A,95744,119752,0,0,25148,119752,2025-06,Mercovan Argentina
+03/06/2025,Incosa S A I C,Facturas A,132,543613,0,0,114159,543613,2025-06,Mercovan Argentina
+03/06/2025,Papaianni Maria Teresa,Facturas A,132,271887,0,0,57096,271887,2025-06,Mercovan Argentina
+03/06/2025,Rizzotto Roque Omar,Facturas C,73,0,360000,0,0,360000,2025-06,Mercovan Argentina
+03/06/2025,Montenegro Pardo Cam Enrique Maximiliano,Facturas C,85,0,3750000,0,0,3750000,2025-06,Mercovan Argentina
+04/06/2025,Chiemese S.A.,Facturas A,53233,288000,0,5366,60480,293366,2025-06,Mercovan Argentina
+04/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25859,2518322,0,0,528848,2518322,2025-06,Mercovan Argentina
+04/06/2025,Star Shipping Argentina Sociedad Anonima,Facturas A,192936,170100,0,0,35721,170100,2025-06,Mercovan Argentina
+04/06/2025,Administrative Processing Center Sa S. A.,Facturas A,158537,27108,0,0,5693,27108,2025-06,Mercovan Argentina
+04/06/2025,Rausin Nelida Susana,Facturas A,4143,75441,0,0,15843,75441,2025-06,Mercovan Argentina
+04/06/2025,Exolgan S.A.,Facturas A,110049,542400,0,0,113904,542400,2025-06,Mercovan Argentina
+05/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25895,1820798,0,0,382368,1820798,2025-06,Mercovan Argentina
+05/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25896,2861735,0,0,600964,2861735,2025-06,Mercovan Argentina
+05/06/2025,Exolgan S.A.,Facturas A,337115,432144,0,0,90750,432144,2025-06,Mercovan Argentina
+05/06/2025,Oprandi Jose Angel,Facturas C,2906,0,45000,0,0,45000,2025-06,Mercovan Argentina
+05/06/2025,Arias Fabian Marcelo,Facturas C,119,0,910000,0,0,910000,2025-06,Mercovan Argentina
+06/06/2025,Sanabria Jose Saturino,Facturas A,1961,462950,0,0,97220,462950,2025-06,Mercovan Argentina
+06/06/2025,Corredores Viales Sociedad Anonima,Facturas A,2519712,23088,0,0,4848,23088,2025-06,Mercovan Argentina
+06/06/2025,Corredores Viales Sociedad Anonima,Facturas A,2519713,3744,0,0,786,3744,2025-06,Mercovan Argentina
+06/06/2025,Cooperativa De Trabajo La Central Sodera Limitada,Facturas A,2876,29752,0,0,6248,29752,2025-06,Mercovan Argentina
+06/06/2025,Technotown S.R.L.,Facturas A,13170,537556,0,0,56443,537556,2025-06,Mercovan Argentina
+06/06/2025,Logisa Srl,Facturas A,14797,41600,0,0,8736,41600,2025-06,Mercovan Argentina
+06/06/2025,Exolgan S.A.,Facturas A,330849,1434239,0,0,301190,1434239,2025-06,Mercovan Argentina
+06/06/2025,Leiria Carlos Alberto,Facturas C,230,0,2864000,0,0,2864000,2025-06,Mercovan Argentina
+06/06/2025,Zampaglioni Sergio Gabriel,Facturas C,709,0,80001,0,0,80001,2025-06,Mercovan Argentina
+06/06/2025,Leiria Carlos Alberto,Notas De Credito C,8,0,0,0,0,0,2025-06,Mercovan Argentina
+07/06/2025,De Los Rios Fernando Enzo,Facturas C,8,0,195000,0,0,195000,2025-06,Mercovan Argentina
+08/06/2025,Autopistas Urbanas S. A.,Facturas A,1052465,103907,0,0,21820,103907,2025-06,Mercovan Argentina
+08/06/2025,Autopistas Urbanas S. A.,Facturas A,1054070,33996,0,0,7139,33996,2025-06,Mercovan Argentina
+08/06/2025,La Datilera S. A. S.,Facturas A,1298,32893,0,0,6907,32893,2025-06,Mercovan Argentina
+08/06/2025,Arias Fabian Marcelo,Facturas C,120,0,1040000,0,0,1040000,2025-06,Mercovan Argentina
+09/06/2025,Societe Air France,Facturas A,24213,0,0,312000,0,312000,2025-06,Mercovan Argentina
+09/06/2025,Sanabria Jose Saturino,Facturas A,1962,396530,0,0,83271,396530,2025-06,Mercovan Argentina
+09/06/2025,Bank S. A.,Facturas A,275760,294000,0,0,61740,294000,2025-06,Mercovan Argentina
+09/06/2025,Amato Daniel Alejandro,Facturas A,75,450000,0,0,94500,450000,2025-06,Mercovan Argentina
+09/06/2025,Sutil Miguel Antonio,Facturas A,2315,850000,0,0,178500,850000,2025-06,Mercovan Argentina
+09/06/2025,Terminal 4  S A,Facturas A,628628,1564920,0,0,328633,1564920,2025-06,Mercovan Argentina
+09/06/2025,Technotown S.R.L.,Notas De Credito A,936,-537556,0,0,-56443,-537556,2025-06,Mercovan Argentina
+09/06/2025,Tamborini Victoria,Facturas C,40,0,2745000,0,0,2745000,2025-06,Mercovan Argentina
+09/06/2025,Naon Gimenez Jose Oscar,Facturas C,114,0,220000,0,0,220000,2025-06,Mercovan Argentina
+09/06/2025,Naon Gimenez Jose Oscar,Facturas C,115,0,220000,0,0,220000,2025-06,Mercovan Argentina
+09/06/2025,Naon Gimenez Jose Oscar,Facturas C,116,0,220000,0,0,220000,2025-06,Mercovan Argentina
+09/06/2025,Espina Norma Adriana,Facturas C,688,0,420000,0,0,420000,2025-06,Mercovan Argentina
+09/06/2025,Naon Gimenez Jose Oscar,Facturas C,117,0,220000,0,0,220000,2025-06,Mercovan Argentina
+09/06/2025,Naon Gimenez Jose Oscar,Facturas C,118,0,220000,0,0,220000,2025-06,Mercovan Argentina
+10/06/2025,Transporte El Grande S. R. L.,Facturas A,988,230000,0,0,48300,230000,2025-06,Mercovan Argentina
+10/06/2025,Exolgan S.A.,Facturas A,331214,542304,0,0,113884,542304,2025-06,Mercovan Argentina
+11/06/2025,Dommarco Hnos Sociedad Anonima,Facturas A,71320,2385000,0,0,500850,2385000,2025-06,Mercovan Argentina
+11/06/2025,Transportes La Sevillanita Srl,Facturas A,2102195,487299,0,0,102333,487299,2025-06,Mercovan Argentina
+11/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,25971,1044298,0,0,219302,1044298,2025-06,Mercovan Argentina
+11/06/2025,Rodriguez Damian Rodolfo,Facturas C,463,0,120600,0,0,120600,2025-06,Mercovan Argentina
+12/06/2025,Murchison S A Estibajes Y Cargas Industrial Y Comercial,Facturas A,99285,531900,0,0,111699,531900,2025-06,Mercovan Argentina
+12/06/2025,Ba Comex S.A.,Facturas A,358,780000,0,0,163800,780000,2025-06,Mercovan Argentina
+12/06/2025,Falco Cecilia Alejandra,Facturas C,622,0,289892,0,0,289892,2025-06,Mercovan Argentina
+12/06/2025,Boscaglio Liliana Del Carmen,Facturas C,1,0,175000,0,0,175000,2025-06,Mercovan Argentina
+13/06/2025,Compañia De Servicios En Seguridad S.R.L.,Facturas A,29450,73000,0,0,15330,73000,2025-06,Mercovan Argentina
+13/06/2025,Sanabria Jose Saturino,Facturas A,1964,726755,0,0,152619,726755,2025-06,Mercovan Argentina
+13/06/2025,Ocean Network Express Argentina S. A.,Facturas A,255864,0,895860,0,0,895860,2025-06,Mercovan Argentina
+13/06/2025,Administrative Processing Center Sa S. A.,Facturas A,159748,27108,0,0,5693,27108,2025-06,Mercovan Argentina
+13/06/2025,Corredores Viales Sociedad Anonima,Facturas A,9446476,8320,0,0,1747,8320,2025-06,Mercovan Argentina
+13/06/2025,Corredores Viales Sociedad Anonima,Facturas A,9433177,8320,0,0,1747,8320,2025-06,Mercovan Argentina
+13/06/2025,Symbar S.A.,Facturas A,42108,524400,0,0,110400,524400,2025-06,Mercovan Argentina
+13/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,26025,0,747486,0,0,747486,2025-06,Mercovan Argentina
+13/06/2025,Garzaniti Fernando Adrian,Facturas C,87,0,320000,0,0,320000,2025-06,Mercovan Argentina
+13/06/2025,Leiria Carlos Alberto,Facturas C,233,0,270000,0,0,270000,2025-06,Mercovan Argentina
+14/06/2025,Corredores Viales Sociedad Anonima,Facturas A,9503189,6240,0,0,1310,6240,2025-06,Mercovan Argentina
+14/06/2025,Corredores Viales Sociedad Anonima,Facturas A,9542246,6240,0,0,1310,6240,2025-06,Mercovan Argentina
+14/06/2025,Corredores Viales Sociedad Anonima,Facturas A,9515983,6240,0,0,1310,6240,2025-06,Mercovan Argentina
+14/06/2025,Cañuelas Gas Sociedad Anonima,Facturas A,356156,34751,0,0,3649,34751,2025-06,Mercovan Argentina
+14/06/2025,Boscaglio Liliana Del Carmen,Facturas C,3,0,175000,0,0,175000,2025-06,Mercovan Argentina
+15/06/2025,Autopistas Urbanas S. A.,Facturas A,1058185,169728,0,0,35643,169728,2025-06,Mercovan Argentina
+15/06/2025,Autopistas Urbanas S. A.,Facturas A,1068633,89961,0,0,18892,89961,2025-06,Mercovan Argentina
+15/06/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4413877,164628,0,0,34572,164628,2025-06,Mercovan Argentina
+15/06/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4413878,76569,0,0,16080,76569,2025-06,Mercovan Argentina
+15/06/2025,Ypf Sociedad Anonima,Facturas A,1703998,1171760,0,0,246070,1171760,2025-06,Mercovan Argentina
+16/06/2025,Autopistas Del Sol S A,Facturas A,7252950,9013,0,270,1893,9283,2025-06,Mercovan Argentina
+16/06/2025,Grupo Concesionario Del Oeste Sa,Facturas A,6203521,5778,0,0,1213,5778,2025-06,Mercovan Argentina
+16/06/2025,Naon Gimenez Jose Oscar,Facturas C,119,0,220000,0,0,220000,2025-06,Mercovan Argentina
+17/06/2025,Aurelia S A C I Y F,Facturas A,3576,702177,0,0,147457,702177,2025-06,Mercovan Argentina
+17/06/2025,Administrative Processing Center Sa S. A.,Facturas A,159925,27108,0,0,5693,27108,2025-06,Mercovan Argentina
+17/06/2025,Silver Freight Logistic S.R.L.,Facturas A,15091,0,0,7896000,0,7896000,2025-06,Mercovan Argentina
+17/06/2025,Craft Argentina Sociedad Anonima,Facturas A,221585,163752,0,3276,34388,167028,2025-06,Mercovan Argentina
+17/06/2025,Telecom Argentina Sociedad Anonima,Facturas A,9155402,334172,0,0,70274,334172,2025-06,Mercovan Argentina
+17/06/2025,Brings Austral S A,Facturas A,53630,360472,0,0,75360,360472,2025-06,Mercovan Argentina
+17/06/2025,Silver Freight Logistic S.R.L.,Notas De Credito A,3321,0,0,-7896000,0,-7896000,2025-06,Mercovan Argentina
+17/06/2025,Heredia Jose Javier,Facturas C,357,0,205000,0,0,205000,2025-06,Mercovan Argentina
+17/06/2025,Armoa Norma Noemi,Facturas C,97,0,1084000,0,0,1084000,2025-06,Mercovan Argentina
+18/06/2025,Dommarco Hnos Sociedad Anonima,Facturas A,71367,3297240,0,0,692420,3297240,2025-06,Mercovan Argentina
+18/06/2025,Aires Del Sur Log Srl,Facturas A,1,143325,0,709275,30098,852600,2025-06,Mercovan Argentina
+18/06/2025,Telecom Argentina Sociedad Anonima,Facturas A,5537271,52260,0,0,10975,52260,2025-06,Mercovan Argentina
+18/06/2025,Multi C,Facturas A,18214,27008,0,0,5672,27008,2025-06,Mercovan Argentina
+18/06/2025,Cigno Juan Horacio,Facturas C,555,0,72000,0,0,72000,2025-06,Mercovan Argentina
+19/06/2025,Diesel Avellaneda S.A.,Facturas A,20995,435488,0,0,91452,435488,2025-06,Mercovan Argentina
+19/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1208858,0,0,332920,0,332920,2025-06,Mercovan Argentina
+19/06/2025,Malex Group S.R.L.,Facturas A,5884,45864,0,0,9631,45864,2025-06,Mercovan Argentina
+19/06/2025,Leiria Carlos Alberto,Facturas C,236,0,299200,0,0,299200,2025-06,Mercovan Argentina
+19/06/2025,Boscaglio Liliana Del Carmen,Facturas C,5,0,175000,0,0,175000,2025-06,Mercovan Argentina
+21/06/2025,Telecom Argentina Sociedad Anonima,Facturas A,4428557,172890,0,0,46680,172890,2025-06,Mercovan Argentina
+21/06/2025,De Los Rios Fernando Enzo,Facturas C,9,0,84000,0,0,84000,2025-06,Mercovan Argentina
+23/06/2025,Dommarco Hnos Sociedad Anonima,Facturas A,71399,1892500,0,0,397425,1892500,2025-06,Mercovan Argentina
+23/06/2025,Autopistas Urbanas S. A.,Facturas A,1076410,68422,0,0,14369,68422,2025-06,Mercovan Argentina
+23/06/2025,Dommarco Hnos Sociedad Anonima,Facturas A,71403,2623500,0,0,550935,2623500,2025-06,Mercovan Argentina
+23/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1209756,0,0,671550,0,671550,2025-06,Mercovan Argentina
+23/06/2025,Autopistas Urbanas S. A.,Facturas A,1077997,47174,0,0,9906,47174,2025-06,Mercovan Argentina
+23/06/2025,Terminales Rio De La Plata Sociedad Anonima,Facturas A,76684,746940,0,0,156940,746940,2025-06,Mercovan Argentina
+24/06/2025,Chiemese S.A.,Facturas A,53580,284400,0,5366,59724,289766,2025-06,Mercovan Argentina
+24/06/2025,Corredores Viales Sociedad Anonima,Facturas A,2545028,10400,0,0,2184,10400,2025-06,Mercovan Argentina
+24/06/2025,Terminal 4  S A,Notas De Credito A,2305,-43560,0,0,-9148,-43560,2025-06,Mercovan Argentina
+24/06/2025,Gil Miguel Angel,Facturas C,1009,0,160000,0,0,160000,2025-06,Mercovan Argentina
+25/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,26129,760331,0,0,159669,760331,2025-06,Mercovan Argentina
+25/06/2025,Cargo Logistics Exim S.R.L.,Facturas A,2370,0,0,119500,0,119500,2025-06,Mercovan Argentina
+25/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,26130,733884,0,0,154116,733884,2025-06,Mercovan Argentina
+25/06/2025,Capitan Cortes S A C I F I Y A,Facturas A,10995,61250,0,0,12862,61250,2025-06,Mercovan Argentina
+25/06/2025,Huxley S.A.,Facturas A,35181,63335,0,0,13300,63335,2025-06,Mercovan Argentina
+25/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1210839,0,0,5880,0,5880,2025-06,Mercovan Argentina
+25/06/2025,Terminal 4  S A,Facturas A,635968,1572739,0,0,330275,1572739,2025-06,Mercovan Argentina
+25/06/2025,Baez Maria Belen,Facturas C,37,0,260000,0,0,260000,2025-06,Mercovan Argentina
+26/06/2025,Cargo Logistics Exim S.R.L.,Facturas A,2372,126525,0,319325,26510,445850,2025-06,Mercovan Argentina
+26/06/2025,Cañuelas Gas Sociedad Anonima,Facturas A,361693,17376,0,0,1824,17376,2025-06,Mercovan Argentina
+26/06/2025,Acrogliano Carlos Ricardo,Facturas A,948,128000,0,0,26880,128000,2025-06,Mercovan Argentina
+26/06/2025,Terminal 4  S A,Facturas A,636219,542250,0,0,113872,542250,2025-06,Mercovan Argentina
+27/06/2025,L A R M Argentina Sociedad Anonima,Facturas A,5453,7240000,0,0,1520400,7240000,2025-06,Mercovan Argentina
+27/06/2025,Heredia Jose Javier,Facturas C,358,0,405000,0,0,405000,2025-06,Mercovan Argentina
+29/06/2025,Brullo Leonardo Gabriel,Facturas C,1592,0,110000,0,0,110000,2025-06,Mercovan Argentina
+30/06/2025,Hapag-Lloyd Argentina S.R.L,Facturas A,1211681,0,0,679875,0,679875,2025-06,Mercovan Argentina
+30/06/2025,Mascaro Jorge Carlos,Facturas A,25204,53223,0,0,11177,53223,2025-06,Mercovan Argentina
+30/06/2025,Ypf Sociedad Anonima,Facturas A,1715536,335100,0,0,70371,335100,2025-06,Mercovan Argentina
+30/06/2025,Ypf Sociedad Anonima,Facturas A,1715537,9473,0,0,1989,9473,2025-06,Mercovan Argentina
+30/06/2025,Deposito Avellaneda Sur S.A.,Facturas A,26204,0,72508,0,0,72508,2025-06,Mercovan Argentina
+30/06/2025,Autopistas Urbanas S. A.,Facturas A,264273,1371,0,0,288,1371,2025-06,Mercovan Argentina
+30/06/2025,Autopistas Urbanas S. A.,Facturas A,1097042,79670,0,0,16731,79670,2025-06,Mercovan Argentina
+30/06/2025,Cabify S.A.,Facturas A,109446,0,0,127380,0,127380,2025-06,Mercovan Argentina
+30/06/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4447134,135141,0,0,28380,135141,2025-06,Mercovan Argentina
+30/06/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4447135,90275,0,0,18958,90275,2025-06,Mercovan Argentina
+30/06/2025,Cma Cgm Argentina Sa,Facturas A,484411,214200,0,0,45360,214200,2025-06,Mercovan Argentina
+30/06/2025,Cma Cgm Argentina Sa,Facturas A,484412,0,0,680400,0,680400,2025-06,Mercovan Argentina
 02/01/2025,Soluciones Online Sa,Facturas A,401064,86900,0,0,18249,86900,2025-01,Nerococina
 03/01/2025,Verisure Argentina Monitoreo De Alarmas Sa,Facturas A,705440,53113,0,0,11154,53113,2025-01,Nerococina
 07/01/2025,Amarilla Sebastian,Facturas A,27488,306529,0,0,64371,306529,2025-01,Nerococina
@@ -15382,12 +16219,17 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 16/05/2025,Arta De Gonzalez S.R.L.,Facturas A,2273,140455,0,0,14748,140455,2025-05,Nerococina
 16/05/2025,Puro Norte Sa,Facturas A,24329,17305,0,0,3634,17305,2025-05,Nerococina
 19/05/2025,Supermercados Mayoristas Makro Sa,Facturas A,27694,94681,0,0,19883,94681,2025-05,Nerococina
+19/05/2025,Horeca Srl.,Facturas A,100048,35110,0,0,7373,35110,2025-05,Nerococina
+19/05/2025,Horeca Srl.,Facturas A,100341,26849,0,0,2819,26849,2025-05,Nerococina
+19/05/2025,Distribuidora El Criollo Srl,Facturas A,564230,67717,0,0,14221,67717,2025-05,Nerococina
 20/05/2025,Cine 24 S.R.L.,Facturas A,24678,27275,0,0,5728,27275,2025-05,Nerococina
 20/05/2025,Rojo Mariano Gabriel,Facturas A,1137,61198,0,0,12852,61198,2025-05,Nerococina
 20/05/2025,Suli Srl,Facturas A,1214,60793,0,0,10343,60793,2025-05,Nerococina
 21/05/2025,Bonanno Pablo Augusto,Facturas A,7179,44100,0,0,5890,44100,2025-05,Nerococina
 22/05/2025,Getnet Argentina S. A. U.,Facturas A,181289,28000,0,0,5880,28000,2025-05,Nerococina
 22/05/2025,Rodriguez Gimenez Clara,Facturas A,3191,34503,0,0,7246,34503,2025-05,Nerococina
+22/05/2025,Distribuidora El Criollo Srl,Facturas A,565817,193834,0,0,39140,193834,2025-05,Nerococina
+22/05/2025,Horeca Srl.,Facturas A,101455,135132,0,0,27368,135132,2025-05,Nerococina
 23/05/2025,Arta De Gonzalez S.R.L.,Facturas A,2595,158743,0,0,16668,158743,2025-05,Nerococina
 26/05/2025,Amx Argentina Sociedad Anonima,Facturas A,555492,12109,0,0,2560,12109,2025-05,Nerococina
 27/05/2025,Puro Norte Sa,Facturas A,24612,101602,0,0,21336,101602,2025-05,Nerococina
@@ -15401,6 +16243,38 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 30/05/2025,Pazzi S.A,Facturas A,10690,169042,0,0,35499,169042,2025-05,Nerococina
 31/05/2025,Supermercados Mayoristas Makro Sa,Facturas A,66269,47902,0,0,10059,47902,2025-05,Nerococina
 31/05/2025,Supermercados Mayoristas Makro Sa,Facturas A,57749,105809,1241,0,22220,107050,2025-05,Nerococina
+02/06/2025,Soluciones Online Sa,Facturas A,440937,93000,0,0,19530,93000,2025-06,Nerococina
+03/06/2025,Puro Norte Sa,Facturas A,24836,34611,0,0,7268,34611,2025-06,Nerococina
+03/06/2025,Verisure Argentina Monitoreo De Alarmas Sa,Facturas A,883400,63683,0,0,13373,63683,2025-06,Nerococina
+03/06/2025,Santos Patricio Ezequiel,Facturas C,12,0,212140870,0,0,212140870,2025-06,Nerococina
+03/06/2025,Rivero Lucia Beatriz,Facturas C,79,0,2000000,0,0,2000000,2025-06,Nerococina
+04/06/2025,Horeca Srl.,Facturas A,105107,270102,0,0,56721,270102,2025-06,Nerococina
+04/06/2025,Distribuidora El Criollo Srl,Facturas A,570204,267095,0,0,56090,267095,2025-06,Nerococina
+04/06/2025,Santos Patricio Ezequiel,Facturas C,13,0,2121409,0,0,2121409,2025-06,Nerococina
+04/06/2025,Santos Patricio Ezequiel,Notas De Credito C,1,0,0,0,0,0,2025-06,Nerococina
+05/06/2025,Supermercados Mayoristas Makro Sa,Facturas A,66506,65372,0,0,13728,65372,2025-06,Nerococina
+05/06/2025,Segobia Martin Damian,Facturas A,4398,228373,0,0,47958,228373,2025-06,Nerococina
+06/06/2025,Puro Norte Sa,Facturas A,24966,60098,0,0,12621,60098,2025-06,Nerococina
+09/06/2025,Transporte Talcahuano S.A.,Facturas A,2803,483630,3400,0,101562,487030,2025-06,Nerococina
+10/06/2025,Arta De Gonzalez S.R.L.,Facturas A,3404,147608,0,0,15499,147608,2025-06,Nerococina
+10/06/2025,Arta De Gonzalez S.R.L.,Notas De Credito A,182,-28600,0,0,-3003,-28600,2025-06,Nerococina
+11/06/2025,Puro Norte Sa,Facturas A,25106,40164,0,0,5365,40164,2025-06,Nerococina
+12/06/2025,Supermercados Mayoristas Makro Sa,Facturas A,28348,48319,0,0,9967,48319,2025-06,Nerococina
+13/06/2025,Arta De Gonzalez S.R.L.,Facturas A,3563,51358,0,0,5393,51358,2025-06,Nerococina
+16/06/2025,Supermercados Mayoristas Makro Sa,Facturas A,66963,36108,0,0,7583,36108,2025-06,Nerococina
+17/06/2025,Puro Norte Sa,Facturas A,25244,10909,0,0,2291,10909,2025-06,Nerococina
+17/06/2025,Supermercados Mayoristas Makro Sa,Facturas A,28474,58713,0,0,12330,58713,2025-06,Nerococina
+17/06/2025,Maransi S.A.,Notas De Credito A,396,-633058,0,0,-132942,-633058,2025-06,Nerococina
+18/06/2025,Supermercados Mayoristas Makro Sa,Facturas A,58416,40442,0,0,8493,40442,2025-06,Nerococina
+19/06/2025,Lydar Srl,Facturas A,200,343058,0,0,72042,343058,2025-06,Nerococina
+23/06/2025,Puro Norte Sa,Facturas A,25399,29942,0,0,3144,29942,2025-06,Nerococina
+24/06/2025,Getnet Argentina S. A. U.,Facturas A,203314,28000,0,0,5880,28000,2025-06,Nerococina
+24/06/2025,Arta De Gonzalez S.R.L.,Facturas A,4003,88978,0,0,9343,88978,2025-06,Nerococina
+25/06/2025,Puro Norte Sa,Facturas A,25503,17305,0,0,3634,17305,2025-06,Nerococina
+25/06/2025,Angel Y Oscar Deli  S. A.,Facturas A,159,10333,0,0,1467,10333,2025-06,Nerococina
+26/06/2025,Amx Argentina Sociedad Anonima,Facturas A,720228,12540,0,0,2677,12540,2025-06,Nerococina
+27/06/2025,Puro Norte Sa,Facturas A,25576,41542,0,0,7481,41542,2025-06,Nerococina
+30/06/2025,Arta De Gonzalez S.R.L.,Facturas A,4238,83004,0,0,8715,83004,2025-06,Nerococina
 01/01/2025,Grupo Concesionario Del Oeste Sa,Facturas A,5750633,1271,0,0,267,1271,2025-01,U-Bros
 02/01/2025,Odriozola Nelson Matias,Facturas C,158,0,80000,0,0,80000,2025-01,U-Bros
 02/01/2025,Ronconi Juan Ignacio,Facturas C,403,0,216000,0,0,216000,2025-01,U-Bros
@@ -15466,6 +16340,16 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 06/05/2025,Meli Log Srl,Notas De Credito A,1102069,-50747,0,0,-10657,-50747,2025-05,U-Bros
 15/05/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4351066,64852,0,0,13619,64852,2025-05,U-Bros
 31/05/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4385438,18268,0,0,3836,18268,2025-05,U-Bros
+02/06/2025,Ronconi Juan Ignacio,Facturas C,476,0,200000,0,0,200000,2025-06,U-Bros
+02/06/2025,Odriozola Nelson Matias,Facturas C,184,0,179000,0,0,179000,2025-06,U-Bros
+03/06/2025,Soluciones Online Sa,Facturas A,9679,93000,0,0,19530,93000,2025-06,U-Bros
+06/06/2025,Mercadolibre S.R.L.,Facturas A,4546648,479454,0,0,100685,479454,2025-06,U-Bros
+06/06/2025,Meli Log Srl,Facturas A,3347488,617423,0,0,129659,617423,2025-06,U-Bros
+06/06/2025,Mercadolibre S.R.L.,Notas De Credito A,119156,-22169,0,0,-4656,-22169,2025-06,U-Bros
+11/06/2025,Motor Plat Sa,Facturas A,1724,1314170,0,0,275976,1314170,2025-06,U-Bros
+15/06/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4416111,6876,0,0,1444,6876,2025-06,U-Bros
+30/06/2025,Autopistas De Buenos Aires (Aubasa) Sa S. A.,Facturas A,4436672,43277,0,0,9088,43277,2025-06,U-Bros
+30/06/2025,Autopistas Urbanas S. A.,Facturas A,926002,2118,0,0,445,2118,2025-06,U-Bros
 02/01/2025,Soluciones Online Sa,Facturas A,394145,67000,0,0,14070,67000,2025-01,Ulog
 09/01/2025,Giacom Magdalena Del Valle,Facturas A,7775,867769,0,0,182231,867769,2025-01,Ulog
 10/01/2025,Giacom Magdalena Del Valle,Facturas A,7786,70248,0,0,14752,70248,2025-01,Ulog
@@ -15489,6 +16373,7 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 27/05/2025,Linkage Intertrade Srl,Notas De Credito A,10,-1162980,0,0,-244530,-1162980,2025-05,Ulog
 27/05/2025,Linkage Intertrade Srl,Notas De Credito A,9,-783500,0,0,-164535,-783500,2025-05,Ulog
 31/05/2025,Ypf Sociedad Anonima,Facturas A,1690958,5263,0,0,1105,5263,2025-05,Ulog
+11/06/2025,Pereyra Iraola Pedro Martin,Facturas A,4637,130000,80700,0,27300,210700,2025-06,Ulog
 02/01/2025,Interbanking Sa,Facturas A,3086518,94665,0,0,19880,94665,2025-01,Unapa
 02/01/2025,Cooperativa De Productores Tabacaleros De Salta Ltda,Facturas A,32655,768325,0,0,161348,768325,2025-01,Unapa
 04/01/2025,Tobelpe S. A. S.,Facturas A,42,5439000,0,0,1141672,5439000,2025-01,Unapa
@@ -15588,6 +16473,30 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 30/05/2025,Agro Lajitas S.A.,Notas De Debito A,2249,34169,0,0,7175,34169,2025-05,Unapa
 30/05/2025,Cooperativa De Productores Tabacaleros De Salta Ltda,Notas De Debito A,5018,4194806,0,0,880909,4194806,2025-05,Unapa
 31/05/2025,Claas Argentina S. A. U.,Notas De Debito A,57589,253,0,0,53,253,2025-05,Unapa
+31/05/2025,Trogliero Carlos Ignacio,Facturas C,1029,0,3770723,0,0,3770723,2025-05,Unapa
+02/06/2025,Interbanking Sa,Facturas A,3150029,112430,0,0,23610,112430,2025-06,Unapa
+03/06/2025,Sucesores De Roberto Saman Sociedad De Responsabilidad Limitada S. R. L.,Facturas A,39634,76037,0,0,15968,76037,2025-06,Unapa
+03/06/2025,Estacion De Servicio San Lorenzo Chico S. R. L.,Facturas A,5638,15116,0,0,3174,15116,2025-06,Unapa
+04/06/2025,Sucesores De Roberto Saman Sociedad De Responsabilidad Limitada S. R. L.,Facturas A,39672,76037,0,0,15968,76037,2025-06,Unapa
+05/06/2025,Sucesores De Roberto Saman Sociedad De Responsabilidad Limitada S. R. L.,Facturas A,39721,76037,0,0,15968,76037,2025-06,Unapa
+06/06/2025,Sucesores De Roberto Saman Sociedad De Responsabilidad Limitada S. R. L.,Facturas A,39761,85528,0,0,17961,85528,2025-06,Unapa
+10/06/2025,Compañia Mercantil Agricola E Industrial Sociedad Anonima,Facturas A,28915,33600,0,0,7200,33600,2025-06,Unapa
+10/06/2025,Sucesores De Roberto Saman Sociedad De Responsabilidad Limitada S. R. L.,Facturas A,39915,36635,0,0,7693,36635,2025-06,Unapa
+12/06/2025,Asociacion Mutual De Productores Tabacaleros De Salta,Facturas A,17728,94256,0,0,19794,94256,2025-06,Unapa
+12/06/2025,Sucesores De Roberto Saman Sociedad De Responsabilidad Limitada S. R. L.,Facturas A,40007,51000,0,0,10710,51000,2025-06,Unapa
+14/06/2025,Sucesores De Roberto Saman Sociedad De Responsabilidad Limitada S. R. L.,Facturas A,40090,36638,0,0,7694,36638,2025-06,Unapa
+17/06/2025,Sucesores De Roberto Saman Sociedad De Responsabilidad Limitada S. R. L.,Facturas A,40174,21982,0,0,4616,21982,2025-06,Unapa
+19/06/2025,Bunge Argentina S A,Facturas A,262790,80000,0,0,16800,80000,2025-06,Unapa
+19/06/2025,Bunge Argentina S A,Facturas A,262779,3955768,0,0,830711,3955768,2025-06,Unapa
+19/06/2025,Metagri  S. R. L.,Notas De Debito A,28,1164840,0,0,244616,1164840,2025-06,Unapa
+19/06/2025,Aju S R L,Notas De Credito A,208,-141812,0,0,-14890,-141812,2025-06,Unapa
+22/06/2025,Sucesores De Roberto Saman Sociedad De Responsabilidad Limitada S. R. L.,Facturas A,40378,36638,0,0,7694,36638,2025-06,Unapa
+27/06/2025,Cooperativa De Productores Tabacaleros De Salta Ltda,Facturas A,34903,2026930,0,0,425655,2026930,2025-06,Unapa
+27/06/2025,Cooperativa De Productores Tabacaleros De Salta Ltda,Facturas A,34904,425486,0,0,89352,425486,2025-06,Unapa
+27/06/2025,Asociacion Mutual De Productores Tabacaleros De Salta,Notas De Debito A,14668,12771,0,0,2682,12771,2025-06,Unapa
+30/06/2025,Alfa Agroganadera S. R. L.,Facturas A,573,1009878,0,0,212074,1009878,2025-06,Unapa
+30/06/2025,Alfa Agroganadera S. R. L.,Facturas A,585,769380,0,0,161570,769380,2025-06,Unapa
+30/06/2025,Claas Argentina S. A. U.,Notas De Debito A,58054,12258,0,0,2574,12258,2025-06,Unapa
 14/01/2025,Corredores Viales Sociedad Anonima,Facturas A,7806149,2080,0,0,437,2080,2025-01,Valenzuela Ricardo Patricio
 14/01/2025,Corredores Viales Sociedad Anonima,Facturas A,7778266,2080,0,0,437,2080,2025-01,Valenzuela Ricardo Patricio
 14/01/2025,F 458 S.A.,Facturas B,54323,0,0,0,0,0,2025-01,Valenzuela Ricardo Patricio
@@ -15689,6 +16598,40 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 29/05/2025,Cencosud S A,Facturas A,6783,79909,0,0,13735,79909,2025-05,Valenzuela Ricardo Patricio
 29/05/2025,Operadora De Estaciones De Servicios Sa,Facturas A,1128,6388,0,0,1342,6388,2025-05,Valenzuela Ricardo Patricio
 31/05/2025,Autopistas Urbanas S. A.,Facturas A,611089,1184,0,0,249,1184,2025-05,Valenzuela Ricardo Patricio
+31/05/2025,Caminos De Las Sierras S. A.,Facturas B,2062600,0,0,0,0,0,2025-05,Valenzuela Ricardo Patricio
+01/06/2025,Autopistas Del Sol S A,Facturas B,60865664,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+02/06/2025,Cencosud S A,Facturas A,5995,73220,0,0,13057,73220,2025-06,Valenzuela Ricardo Patricio
+02/06/2025,Deheza Sociedad Anonima Industrial Comercial Financiera Inmobiliaria,Facturas A,211518,58496,0,0,12284,58496,2025-06,Valenzuela Ricardo Patricio
+03/06/2025,Mercadolibre S.R.L.,Facturas B,36844876,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+04/06/2025,Cencosud S A,Facturas A,6114,41764,0,0,8056,41764,2025-06,Valenzuela Ricardo Patricio
+04/06/2025,Lozano Y Gonzalez Maria  De  Los Remedios,Facturas C,122131,0,30900,0,0,30900,2025-06,Valenzuela Ricardo Patricio
+05/06/2025,Leon Vegano S.R.L.,Facturas B,59881,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+11/06/2025,Cencosud S A,Facturas A,4564,83507,0,0,14497,83507,2025-06,Valenzuela Ricardo Patricio
+13/06/2025,Corredores Viales Sociedad Anonima,Facturas B,9160415,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+14/06/2025,Starlink Argentina S R L,Facturas B,704871,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+14/06/2025,Corredores Viales Sociedad Anonima,Facturas B,9268884,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+15/06/2025,Autopistas Urbanas S. A.,Facturas A,628106,7369,0,0,1547,7369,2025-06,Valenzuela Ricardo Patricio
+16/06/2025,Cencosud S A,Facturas A,6534,108776,91,0,17316,108867,2025-06,Valenzuela Ricardo Patricio
+16/06/2025,Grupo Concesionario Del Oeste Sa,Facturas B,48452966,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+16/06/2025,Autopistas Del Sol S A,Facturas B,61268694,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+19/06/2025,Deheza Sociedad Anonima Industrial Comercial Financiera Inmobiliaria,Facturas A,60208,28166,0,0,5915,28166,2025-06,Valenzuela Ricardo Patricio
+19/06/2025,Cencosud S A,Facturas A,6202,45086,0,0,8839,45086,2025-06,Valenzuela Ricardo Patricio
+19/06/2025,Osde Organizacion De Servicios Directos Empresarios,Facturas B,1902017,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+23/06/2025,Nestle Argentina S A,Facturas B,246502,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+24/06/2025,Deheza Sociedad Anonima Industrial Comercial Financiera Inmobiliaria,Facturas A,291155,70529,0,0,14811,70529,2025-06,Valenzuela Ricardo Patricio
+24/06/2025,Cencosud S A,Facturas A,5719,41227,0,0,6474,41227,2025-06,Valenzuela Ricardo Patricio
+24/06/2025,Arte Grafico Editorial Argentino S. A.,Facturas B,80831373,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+24/06/2025,Arte Grafico Editorial Argentino S. A.,Facturas B,80831374,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+24/06/2025,Corredores Viales Sociedad Anonima,Facturas B,22200506,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+25/06/2025,Ure Florencia Raquel,Facturas C,25195,0,23000,0,0,23000,2025-06,Valenzuela Ricardo Patricio
+26/06/2025,Autonort S A,Facturas A,26139,384628,0,0,80772,384628,2025-06,Valenzuela Ricardo Patricio
+26/06/2025,Autonort S A,Facturas B,33714,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+26/06/2025,Autonort S A,Notas De Credito B,2387,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+27/06/2025,Operadora De Estaciones De Servicios Sa,Facturas A,49875,82554,0,0,17336,82554,2025-06,Valenzuela Ricardo Patricio
+30/06/2025,Dalamy Sociedad Anonima,Facturas A,2686,55120,0,0,11575,55120,2025-06,Valenzuela Ricardo Patricio
+30/06/2025,Autopistas Urbanas S. A.,Facturas A,645528,877,0,0,184,877,2025-06,Valenzuela Ricardo Patricio
+30/06/2025,Coto Centro Integral De Comercializacion Sociedad Anonima,Facturas B,4115542,0,0,0,0,0,2025-06,Valenzuela Ricardo Patricio
+30/06/2025,De La Arena Coll Manuel,Facturas C,74,0,162500,0,0,162500,2025-06,Valenzuela Ricardo Patricio
 02/01/2025,Expreso Moraga S.A.,Facturas A,13696,30956,0,0,6501,30956,2025-01,Viñas En Flor
 02/01/2025,Nubicom  S.R.L.,Facturas A,14509,70444,0,0,19020,70444,2025-01,Viñas En Flor
 02/01/2025,Soluciones Online Sa,Facturas A,396022,139600,0,0,29316,139600,2025-01,Viñas En Flor
@@ -16154,9 +17097,102 @@ Fecha,Empresa,Tipo,Nro.,Neto Gravado,Neto No Gravado,Op. Exentas,IVA,Neto,Mes,Ra
 29/05/2025,Sanchez Raul Guillermo,Facturas C,240,0,75000,0,0,75000,2025-05,Viñas En Flor
 30/05/2025,Simon Zeitune E Hijo S A,Facturas A,16737,87571,0,0,18390,87571,2025-05,Viñas En Flor
 30/05/2025,Tpc Group Srl,Facturas A,118,300000,0,0,63000,300000,2025-05,Viñas En Flor
+30/05/2025,Delendati Mariano,Facturas A,34,118000,0,0,24780,118000,2025-05,Viñas En Flor
 30/05/2025,Vinos De Argentina Asociacion Civil Para La Promocion Externa,Facturas C,13987,0,119500,0,0,119500,2025-05,Viñas En Flor
 31/05/2025,Gongora Sierra Gabriel Ramiro,Facturas C,306,0,316300,0,0,316300,2025-05,Viñas En Flor
+01/06/2025,Canatella Marcelo Pablo,Facturas A,2521,600000,0,0,126000,600000,2025-06,Viñas En Flor
+02/06/2025,Sulfur Sa,Facturas A,8335,749265,0,0,157740,749265,2025-06,Viñas En Flor
+02/06/2025,Soluciones Online Sa,Facturas A,435794,149400,0,0,31374,149400,2025-06,Viñas En Flor
+02/06/2025,Nubicom  S.R.L.,Facturas A,16266,68268,0,0,18432,68268,2025-06,Viñas En Flor
+02/06/2025,Distribuidora Vidt Srl,Facturas A,224,159901,0,0,30068,159901,2025-06,Viñas En Flor
+02/06/2025,Mounier Jose Luis,Facturas A,1509,935000,0,0,196350,935000,2025-06,Viñas En Flor
+02/06/2025,Mamani Perez Victor Hugo,Facturas C,783,0,450013,0,0,450013,2025-06,Viñas En Flor
+03/06/2025,Salvado Eduardo Antonio Roberto,Facturas A,1586,8512,0,0,1788,8512,2025-06,Viñas En Flor
+03/06/2025,Expreso Moraga S.A.,Facturas A,14545,38021,0,0,7984,38021,2025-06,Viñas En Flor
+03/06/2025,Bollini S A,Facturas A,42528,5732,0,0,1204,5732,2025-06,Viñas En Flor
+03/06/2025,Oxigeno Salta S.R.L.,Facturas A,2942,323854,0,0,68009,323854,2025-06,Viñas En Flor
+03/06/2025,Roman Raul Arturo,Facturas A,209,405000,0,0,85050,405000,2025-06,Viñas En Flor
+04/06/2025,La Holando Sudamericana Compañia De Seguros S A,Facturas A,234396,531616,5920,0,111296,537536,2025-06,Viñas En Flor
+04/06/2025,Frigorifico Bermejo S.A.,Facturas A,77324,558878,0,0,58682,558878,2025-06,Viñas En Flor
+04/06/2025,Expreso Moraga S.A.,Facturas A,14562,732723,0,0,153872,732723,2025-06,Viñas En Flor
+04/06/2025,A & C,Facturas A,11708,645981,0,0,135656,645981,2025-06,Viñas En Flor
+04/06/2025,Expreso Moraga S.A.,Facturas A,14556,17700,0,0,3717,17700,2025-06,Viñas En Flor
+04/06/2025,Sew Eurodrive Argentina S. A.,Facturas A,10647,4000736,0,0,840640,4000736,2025-06,Viñas En Flor
+04/06/2025,Merino Carlos Miguel,Facturas A,2245,37106,0,0,3896,37106,2025-06,Viñas En Flor
+04/06/2025,Maresca Daniela Anahi,Facturas C,92,0,610000,0,0,610000,2025-06,Viñas En Flor
+04/06/2025,Vega Jonathan Daniel,Facturas C,102,0,1300000,0,0,1300000,2025-06,Viñas En Flor
+07/06/2025,Distribuidora Vidt Srl,Facturas A,8110,84861,0,0,16559,84861,2025-06,Viñas En Flor
+07/06/2025,Distribuidora Vidt Srl,Facturas A,8114,21763,0,0,3799,21763,2025-06,Viñas En Flor
+07/06/2025,Cartocor Sociedad Anonima,Facturas A,169684,1332000,0,0,279720,1332000,2025-06,Viñas En Flor
+09/06/2025,Vega Brunotto Eduardo Andres,Facturas A,4349,341352,0,0,71684,341352,2025-06,Viñas En Flor
+10/06/2025,Expreso Moraga S.A.,Facturas A,14597,38021,0,0,7984,38021,2025-06,Viñas En Flor
+10/06/2025,Cameno Marina Giselle,Facturas C,89,0,322472,0,0,322472,2025-06,Viñas En Flor
+11/06/2025,Centro Ganadero Srl,Facturas A,38879,52482,0,0,11021,52482,2025-06,Viñas En Flor
+11/06/2025,Payway Sau,Facturas A,569313,5820,0,0,1222,5820,2025-06,Viñas En Flor
+11/06/2025,Marino Gabriela Ines,Facturas C,483,0,116750,0,0,116750,2025-06,Viñas En Flor
+11/06/2025,Urtubey Facundo,Facturas C,9,0,2000000,0,0,2000000,2025-06,Viñas En Flor
+12/06/2025,Zacarias Pejinakis E Hijos Srl,Facturas A,35274,146324,0,0,30728,146324,2025-06,Viñas En Flor
+12/06/2025,Mansilla Juan,Facturas A,9319,150661,0,0,31639,150661,2025-06,Viñas En Flor
+12/06/2025,Sabio Moreno Y Parodi  S.R.L.,Facturas A,688,217640,0,0,45704,217640,2025-06,Viñas En Flor
+13/06/2025,Distribuidora Vidt Srl,Facturas A,8155,116936,0,0,21676,116936,2025-06,Viñas En Flor
+13/06/2025,Molino Cerrillos Sociedad De Responabilidad Limitada,Facturas A,5239,76598,0,0,16086,76598,2025-06,Viñas En Flor
+13/06/2025,Mansilla Juan,Facturas A,9325,68876,0,0,14464,68876,2025-06,Viñas En Flor
+13/06/2025,Multimodal Sacia,Facturas A,593677,0,0,50400,0,50400,2025-06,Viñas En Flor
+14/06/2025,Cafayate Clean Sociedad Simple S. Cap I Secc Iv,Facturas A,1760,11084,0,0,2328,11084,2025-06,Viñas En Flor
+14/06/2025,Mercadolibre S.R.L.,Facturas A,302600,488984,0,0,102687,488984,2025-06,Viñas En Flor
+17/06/2025,Cafayate Clean Sociedad Simple S. Cap I Secc Iv,Facturas A,1761,103566,0,0,21749,103566,2025-06,Viñas En Flor
+17/06/2025,Distribuidora Vidt Srl,Facturas A,8181,195115,0,0,40974,195115,2025-06,Viñas En Flor
+17/06/2025,Cafayate Clean Sociedad Simple S. Cap I Secc Iv,Facturas A,1762,10819,0,0,2272,10819,2025-06,Viñas En Flor
+17/06/2025,Arcnoa Sas,Facturas A,122913,149248,0,0,31342,149248,2025-06,Viñas En Flor
+17/06/2025,Revestir Sa,Facturas A,12685,118140,0,0,24809,118140,2025-06,Viñas En Flor
+17/06/2025,Revestir Sa,Facturas A,12686,118140,0,0,24809,118140,2025-06,Viñas En Flor
+17/06/2025,Revestir Sa,Facturas A,12687,118140,0,0,24809,118140,2025-06,Viñas En Flor
+17/06/2025,Revestir Sa,Facturas A,12688,118140,0,0,24809,118140,2025-06,Viñas En Flor
+17/06/2025,Revestir Sa,Facturas A,12689,118140,0,0,24809,118140,2025-06,Viñas En Flor
+17/06/2025,Roca Agro S.R.L.,Notas De Debito A,1149,9100,0,0,1911,9100,2025-06,Viñas En Flor
+18/06/2025,Sabio Moreno Y Parodi  S.R.L.,Facturas A,734,236855,0,0,49740,236855,2025-06,Viñas En Flor
+18/06/2025,Amarilla Gas Sociedad Anonima,Facturas A,11124,479155,0,0,50311,479155,2025-06,Viñas En Flor
+18/06/2025,Medina Añi Nala Nahuel,Facturas A,666,904977,0,0,95023,904977,2025-06,Viñas En Flor
+18/06/2025,Starlink Argentina S R L,Facturas B,732020,0,0,0,0,0,2025-06,Viñas En Flor
+18/06/2025,Pena Marcelo Raul,Facturas C,703,0,258100,0,0,258100,2025-06,Viñas En Flor
+19/06/2025,Frigorifico Bermejo S.A.,Facturas A,77588,560063,0,0,58807,560063,2025-06,Viñas En Flor
+19/06/2025,Distribuidora Vidt Srl,Facturas A,8191,75504,0,0,14611,75504,2025-06,Viñas En Flor
+19/06/2025,Mansilla Juan,Facturas A,9346,101405,0,0,21295,101405,2025-06,Viñas En Flor
+19/06/2025,Medina Añi Nala Nahuel,Facturas A,667,833717,0,0,87540,833717,2025-06,Viñas En Flor
+21/06/2025,Soda Monica Srl,Facturas A,2747,24793,0,0,5207,24793,2025-06,Viñas En Flor
+21/06/2025,Soda Monica Srl,Facturas A,2717,37190,0,0,7810,37190,2025-06,Viñas En Flor
+23/06/2025,Cafayate Clean Sociedad Simple S. Cap I Secc Iv,Facturas A,1771,22067,0,0,4634,22067,2025-06,Viñas En Flor
+23/06/2025,Distribuidora Vidt Srl,Facturas A,254,113651,0,0,21377,113651,2025-06,Viñas En Flor
+23/06/2025,Sanchez Raul Guillermo,Facturas C,241,0,62500,0,0,62500,2025-06,Viñas En Flor
+24/06/2025,Tau Daniela Leonor,Facturas A,60812,112205,0,0,23563,112205,2025-06,Viñas En Flor
+24/06/2025,Tau Daniela Leonor,Facturas A,60813,112205,0,0,23563,112205,2025-06,Viñas En Flor
+24/06/2025,Salvado Eduardo Antonio Roberto,Facturas A,1616,31405,0,0,6595,31405,2025-06,Viñas En Flor
+25/06/2025,Expreso Moraga S.A.,Facturas A,14683,16730,0,0,3513,16730,2025-06,Viñas En Flor
+25/06/2025,Frigorifico Bermejo S.A.,Facturas A,77735,557456,0,0,58533,557456,2025-06,Viñas En Flor
+25/06/2025,Terra Gestion Y Proyectos S.R.L. S. R. L.,Facturas A,234,62395061,0,0,13102963,62395061,2025-06,Viñas En Flor
+25/06/2025,Sabio Moreno Y Parodi  S.R.L.,Facturas A,799,237880,0,0,49955,237880,2025-06,Viñas En Flor
+25/06/2025,Mansilla Juan,Facturas A,9373,82645,0,0,17355,82645,2025-06,Viñas En Flor
+25/06/2025,Burgos Alfonso Ariel,Facturas A,1006,295041,0,0,61959,295041,2025-06,Viñas En Flor
+26/06/2025,Molino Cerrillos Sociedad De Responabilidad Limitada,Facturas A,5324,34366,0,0,7217,34366,2025-06,Viñas En Flor
+26/06/2025,Southcross Logistics  S.A,Facturas A,34678,125100,0,0,26271,125100,2025-06,Viñas En Flor
+26/06/2025,Mbf Andina Sociedad Anonima,Facturas A,434,448192,0,0,94168,448192,2025-06,Viñas En Flor
+27/06/2025,Expreso Moraga S.A.,Facturas A,14704,35400,0,0,7434,35400,2025-06,Viñas En Flor
+27/06/2025,Mansilla Juan,Facturas A,9380,39339,0,0,8261,39339,2025-06,Viñas En Flor
+27/06/2025,Combinatoria Srl,Facturas A,2401,600000,0,0,126000,600000,2025-06,Viñas En Flor
+27/06/2025,Marino Gabriela Ines,Facturas C,494,0,108850,0,0,108850,2025-06,Viñas En Flor
+28/06/2025,Cafayate Clean Sociedad Simple S. Cap I Secc Iv,Facturas A,1781,33478,0,0,7030,33478,2025-06,Viñas En Flor
+30/06/2025,Distribuidora Vidt Srl,Facturas A,281,121477,0,0,23256,121477,2025-06,Viñas En Flor
+30/06/2025,Dattatec.Com S.R.L.,Facturas A,1533635,111330,0,0,23379,111330,2025-06,Viñas En Flor
+30/06/2025,Terminiello Bettina Laura,Facturas A,3107,194750,0,0,40898,194750,2025-06,Viñas En Flor
+30/06/2025,Mansilla Juan,Facturas A,9389,225124,0,0,47276,225124,2025-06,Viñas En Flor
+30/06/2025,Ridolfi Daniel Alberto,Facturas A,2604,110987,0,0,23307,110987,2025-06,Viñas En Flor
+30/06/2025,Alfano Anibal Oscar,Facturas A,3223,255000,0,0,53550,255000,2025-06,Viñas En Flor
+30/06/2025,Bodegas De Salta Asociacion Civil,Facturas A,758,0,293000,0,0,293000,2025-06,Viñas En Flor
+30/06/2025,Mamani Perez Victor Hugo,Facturas C,813,0,450013,0,0,450013,2025-06,Viñas En Flor
 19/02/2025,Soluciones Online Sa,Notas De Credito A,987,-82600,0,0,-17346,-82600,2025-02,Winehaus
 17/03/2025,Soluciones Online Sa,Notas De Credito A,6484,-85900,0,0,-18039,-85900,2025-03,Winehaus
 12/05/2025,Ulog Sa.,Facturas A,23,37552752,0,0,7886112,37552752,2025-05,Winehaus
 12/05/2025,Ulog Sa.,Notas De Credito A,3,-37552752,0,0,-7886112,-37552752,2025-05,Winehaus
+03/06/2025,Ulog Sa.,Facturas A,25,2933887,0,0,616116,2933887,2025-06,Winehaus
+03/06/2025,Ulog Sa.,Notas De Credito A,4,-2933887,0,0,-616116,-2933887,2025-06,Winehaus
+30/06/2025,Lett Comercial S.A.,Facturas A,1401,510645,0,0,107235,510645,2025-06,Winehaus

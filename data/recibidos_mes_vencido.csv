@@ -44,6 +44,7 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 16/05/2025,Facturas B,69159,Telecom Argentina Sociedad Anonima,0,0,De la Arena Coll Manuel
 26/05/2025,Facturas B,2260,De Los Rios Carlos Javier,0,0,De la Arena Coll Manuel
 31/05/2025,Facturas A,871515,Autopistas Urbanas S. A.,11835,2485,De la Arena Coll Manuel
+31/05/2025,Facturas A,307830,Caminos De Las Sierras S. A.,1074,226,De la Arena Coll Manuel
 01/05/2025,Facturas A,4784,Estacion De Servicio San Lorenzo Chico S. R. L.,40549,8515,De la Arena Martin
 01/05/2025,Facturas A,243227,Mercadolibre S.R.L.,6611,1388,De la Arena Martin
 02/05/2025,Facturas B,401247,Starlink Argentina S R L,0,0,De la Arena Martin
@@ -230,6 +231,7 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 23/05/2025,Facturas A,22385,Hamze Roberto Carim,42559,8937,Deposito Avellaneda Sur
 23/05/2025,Facturas A,2281,Mercovan Argentina S.A.,786777,165223,Deposito Avellaneda Sur
 23/05/2025,Facturas A,2276,Mercovan Argentina S.A.,1220706,256348,Deposito Avellaneda Sur
+23/05/2025,Facturas A,153552,Hierronort S.R.L.,6209438,1303982,Deposito Avellaneda Sur
 23/05/2025,Facturas A,6,Geurayd Luis Miguel,6611571,1388430,Deposito Avellaneda Sur
 23/05/2025,Facturas A,185,Nuevo Estibaje S.A.,6382300,1340283,Deposito Avellaneda Sur
 23/05/2025,Facturas C,668,Santos Luciano,28389,0,Deposito Avellaneda Sur
@@ -242,6 +244,7 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 26/05/2025,Facturas C,731,Mesiti Fernando,300000,0,Deposito Avellaneda Sur
 26/05/2025,Facturas C,152,Fumeo Francisco,80000,0,Deposito Avellaneda Sur
 27/05/2025,Facturas A,8653,Cantero Pablo Javier,20842,4377,Deposito Avellaneda Sur
+27/05/2025,Facturas A,42,El Llamito S A,34290000,7200900,Deposito Avellaneda Sur
 27/05/2025,Notas De Credito A,353,Shipping Group S.A.,-16104000,-1690920,Deposito Avellaneda Sur
 27/05/2025,Facturas C,149,Sanchez Augusto Bernardino,174000,0,Deposito Avellaneda Sur
 28/05/2025,Facturas A,1274,Plastic Trends Srl,99174,20826,Deposito Avellaneda Sur
@@ -279,6 +282,7 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 31/05/2025,Facturas C,100,Casas Leonardo Alberto,54000,0,Deposito Avellaneda Sur
 31/05/2025,Facturas C,56,Seidel Romina Andrea,1099620,0,Deposito Avellaneda Sur
 31/05/2025,Facturas C,57,Seidel Romina Andrea,184500,0,Deposito Avellaneda Sur
+31/05/2025,Facturas C,71,De La Arena Coll Manuel,4000000,0,Deposito Avellaneda Sur
 05/05/2025,Facturas A,1195928,Hapag-Lloyd Argentina S.R.L,799100,0,Edelweiss Spedition
 05/05/2025,Facturas A,428307,Soluciones Online Sa,117300,24633,Edelweiss Spedition
 05/05/2025,Facturas A,39939,Biside S. R. L.,61047,12820,Edelweiss Spedition
@@ -635,6 +639,7 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 21/05/2025,Facturas A,156940,Administrative Processing Center Sa S. A.,27108,5693,Liftvan International
 21/05/2025,Facturas A,16796,Palacio Y Asociados - Sociedad Civil,115000,24150,Liftvan International
 21/05/2025,Facturas A,13203,Jvl Sa,723909,76010,Liftvan International
+21/05/2025,Facturas A,2790,Via Cargo  Sa,101190,21250,Liftvan International
 21/05/2025,Facturas A,395,Rodriguez Oscar Alejandro,2835000,595350,Liftvan International
 21/05/2025,Facturas C,73,Passerini Jorge Enrique,1500000,0,Liftvan International
 22/05/2025,Facturas A,1418380,Autopistas Urbanas S. A.,184389,38722,Liftvan International
@@ -908,6 +913,7 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 26/05/2025,Facturas A,25759,Deposito Avellaneda Sur S.A.,2941685,617754,Mercovan Argentina
 26/05/2025,Facturas A,1201529,Hapag-Lloyd Argentina S.R.L,1156599,0,Mercovan Argentina
 26/05/2025,Facturas A,25765,Deposito Avellaneda Sur S.A.,786777,165223,Mercovan Argentina
+26/05/2025,Facturas A,48217,Montes De Oca 1885 Sociedad De Responsabilidad Limitada,40174,8436,Mercovan Argentina
 26/05/2025,Facturas A,4137,Rausin Nelida Susana,5702,1198,Mercovan Argentina
 26/05/2025,Facturas C,39,Tamborini Victoria,550000,0,Mercovan Argentina
 26/05/2025,Facturas C,684,Espina Norma Adriana,550000,0,Mercovan Argentina
@@ -956,6 +962,9 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 31/05/2025,Facturas A,1034276,Autopistas Urbanas S. A.,125694,26396,Mercovan Argentina
 31/05/2025,Facturas A,4383153,Autopistas De Buenos Aires (Aubasa) Sa S. A.,114668,24080,Mercovan Argentina
 31/05/2025,Facturas A,4383154,Autopistas De Buenos Aires (Aubasa) Sa S. A.,71178,14947,Mercovan Argentina
+31/05/2025,Facturas A,738219,Caminos De Las Sierras S. A.,6446,1354,Mercovan Argentina
+31/05/2025,Facturas A,738220,Caminos De Las Sierras S. A.,4298,902,Mercovan Argentina
+31/05/2025,Facturas A,6239,Isn Networks S.A.,35480,7451,Mercovan Argentina
 31/05/2025,Facturas A,723,"Sutera Jose Ramon, Sutera Juan Jose,  Sutera Ana Clara S. Cap I Secc Iv",41322,8678,Mercovan Argentina
 02/05/2025,Facturas A,246,Diaz Mayer Mariano Benjamin,552940,58059,Nerococina
 03/05/2025,Facturas A,852831,Verisure Argentina Monitoreo De Alarmas Sa,57894,12158,Nerococina
@@ -999,12 +1008,17 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 16/05/2025,Facturas A,2273,Arta De Gonzalez S.R.L.,140455,14748,Nerococina
 16/05/2025,Facturas A,24329,Puro Norte Sa,17305,3634,Nerococina
 19/05/2025,Facturas A,27694,Supermercados Mayoristas Makro Sa,94681,19883,Nerococina
+19/05/2025,Facturas A,100048,Horeca Srl.,35110,7373,Nerococina
+19/05/2025,Facturas A,100341,Horeca Srl.,26849,2819,Nerococina
+19/05/2025,Facturas A,564230,Distribuidora El Criollo Srl,67717,14221,Nerococina
 20/05/2025,Facturas A,24678,Cine 24 S.R.L.,27275,5728,Nerococina
 20/05/2025,Facturas A,1137,Rojo Mariano Gabriel,61198,12852,Nerococina
 20/05/2025,Facturas A,1214,Suli Srl,60793,10343,Nerococina
 21/05/2025,Facturas A,7179,Bonanno Pablo Augusto,44100,5890,Nerococina
 22/05/2025,Facturas A,181289,Getnet Argentina S. A. U.,28000,5880,Nerococina
 22/05/2025,Facturas A,3191,Rodriguez Gimenez Clara,34503,7246,Nerococina
+22/05/2025,Facturas A,565817,Distribuidora El Criollo Srl,193834,39140,Nerococina
+22/05/2025,Facturas A,101455,Horeca Srl.,135132,27368,Nerococina
 23/05/2025,Facturas A,2595,Arta De Gonzalez S.R.L.,158743,16668,Nerococina
 26/05/2025,Facturas A,555492,Amx Argentina Sociedad Anonima,12109,2560,Nerococina
 27/05/2025,Facturas A,24612,Puro Norte Sa,101602,21336,Nerococina
@@ -1059,6 +1073,7 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 30/05/2025,Notas De Debito A,2249,Agro Lajitas S.A.,34169,7175,Unapa
 30/05/2025,Notas De Debito A,5018,Cooperativa De Productores Tabacaleros De Salta Ltda,4194806,880909,Unapa
 31/05/2025,Notas De Debito A,57589,Claas Argentina S. A. U.,253,53,Unapa
+31/05/2025,Facturas C,1029,Trogliero Carlos Ignacio,3770723,0,Unapa
 01/05/2025,Facturas A,31760,Operadora De Estaciones De Servicios Sa,51366,10787,Valenzuela Ricardo Patricio
 01/05/2025,Facturas B,59679163,Autopistas Del Sol S A,0,0,Valenzuela Ricardo Patricio
 03/05/2025,Facturas A,47977,Operadora De Estaciones De Servicios Sa,31554,6626,Valenzuela Ricardo Patricio
@@ -1090,6 +1105,7 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 29/05/2025,Facturas A,6783,Cencosud S A,79909,13735,Valenzuela Ricardo Patricio
 29/05/2025,Facturas A,1128,Operadora De Estaciones De Servicios Sa,6388,1342,Valenzuela Ricardo Patricio
 31/05/2025,Facturas A,611089,Autopistas Urbanas S. A.,1184,249,Valenzuela Ricardo Patricio
+31/05/2025,Facturas B,2062600,Caminos De Las Sierras S. A.,0,0,Valenzuela Ricardo Patricio
 02/05/2025,Facturas A,5502,Rolando Alfredo Nelson,8057,1692,Viñas En Flor
 02/05/2025,Facturas A,15929,Nubicom  S.R.L.,79647,21505,Viñas En Flor
 02/05/2025,Facturas A,2498,Canatella Marcelo Pablo,536700,112707,Viñas En Flor
@@ -1166,6 +1182,7 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 29/05/2025,Facturas C,240,Sanchez Raul Guillermo,75000,0,Viñas En Flor
 30/05/2025,Facturas A,16737,Simon Zeitune E Hijo S A,87571,18390,Viñas En Flor
 30/05/2025,Facturas A,118,Tpc Group Srl,300000,63000,Viñas En Flor
+30/05/2025,Facturas A,34,Delendati Mariano,118000,24780,Viñas En Flor
 30/05/2025,Facturas C,13987,Vinos De Argentina Asociacion Civil Para La Promocion Externa,119500,0,Viñas En Flor
 31/05/2025,Facturas C,306,Gongora Sierra Gabriel Ramiro,316300,0,Viñas En Flor
 12/05/2025,Facturas A,23,Ulog Sa.,37552752,7886112,Winehaus
