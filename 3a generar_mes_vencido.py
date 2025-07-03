@@ -7,7 +7,7 @@ Ver si es posible mejorarlo integrando descarga y procesamiento en este reposito
 """
 from datetime import datetime
 import pandas as pd
-mes = "05/2025"                                        ##### <- IGRESAR MES A MANO
+mes = "06/2025"                                        ##### <- IGRESAR MES A MANO
 #Abro datos
 cuits  = pd.read_excel('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\resumen_contable\\cuits.xlsx') 
 emitidos = pd.read_csv('data/emitidos_historico.csv')
@@ -92,11 +92,6 @@ emitidos['Ingresos Brutos'] = (emitidos['Neto'] * emitidos['iibb_bsas'] * emitid
                             emitidos['Neto'] * emitidos['iibb_salta'] * emitidos['alic_salta'] + 
                             emitidos['Neto'] * emitidos['iibb_otros'] * emitidos['alic_otros'])
 ingresos_brutos = emitidos.groupby('Razon Social')['Ingresos Brutos'].sum().astype(int)
-# Cargas Sociales
-
-ctas_tributarias = pd.read_excel('data/unified_cuentas_tributarias.xlsx')
-
-
 
 # Combine all indicators into a single DataFrame
 indicators = pd.DataFrame({
