@@ -2,7 +2,7 @@
 """
 INGRESAR MES A MANO
 
-Genera tabla resumen sobre mes corriente en base a datos descargados y procesados en carpeta comprobantes_afip_vencido
+Genera tabla resumen sobre mes vencido en base a datos descargados y procesados en data/emitidos_historico.csv
 Ver si es posible mejorarlo integrando descarga y procesamiento en este repositorio
 """
 from datetime import datetime
