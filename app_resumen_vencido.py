@@ -95,7 +95,7 @@ def to_excel_multiple_sheets(resumen_contable_excel, emitidos_excel, recibidos_e
     return processed_data
 
 def show_page(username):
-    st.title("Resumen Contable - Mes Vencido (Junio 2025)")
+    st.title("Resumen Contable - Mes Vencido (Julio 2025)")
     #st.info("En construcción")
     # Get both formatted data (for display) and raw data (for Excel)
     (
