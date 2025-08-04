@@ -7,7 +7,7 @@ Ver si es posible mejorarlo integrando descarga y procesamiento en este reposito
 """
 from datetime import datetime
 import pandas as pd
-mes = "06/2025"                                        ##### <- IGRESAR MES A MANO
+mes = "07/2025"                                        ##### <- IGRESAR MES A MANO
 #Abro datos
 cuits  = pd.read_excel('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\resumen_contable\\cuits.xlsx') 
 emitidos = pd.read_csv('data/emitidos_historico.csv')
