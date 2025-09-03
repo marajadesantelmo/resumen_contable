@@ -1,5 +1,28 @@
 Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 01/08/2025,Facturas A,414,Aspee Monee Srl,100000,21000,BA Comex
+07/08/2025,Facturas A,415,Aspee Monee Srl,1200000,252000,BA Comex
+11/08/2025,Facturas A,416,Luial S A,660229,138648,BA Comex
+14/08/2025,Facturas A,417,Novelty Trend S.R.L.,696743,146316,BA Comex
+18/08/2025,Facturas A,420,Mercovan Argentina S.A.,1960000,411600,BA Comex
+18/08/2025,Facturas A,418,Alsina Motos Srl,2445914,513642,BA Comex
+18/08/2025,Facturas A,419,Alsina Motos Srl,976786,205125,BA Comex
+18/08/2025,Facturas A,421,Edelweiss Spedition Srl,360000,75600,BA Comex
+19/08/2025,Facturas A,423,Fedtex,80000,16800,BA Comex
+19/08/2025,Facturas A,422,Aspee Monee Srl,300000,63000,BA Comex
+20/08/2025,Facturas A,424,Aspee Monee Srl,150000,31500,BA Comex
+22/08/2025,Facturas A,425,Luial S A,648373,136158,BA Comex
+26/08/2025,Facturas A,427,Jupam Sa,767677,161212,BA Comex
+26/08/2025,Facturas A,428,Luial S A,646718,135811,BA Comex
+26/08/2025,Facturas A,426,Aspee Monee Srl,1050000,220500,BA Comex
+28/08/2025,Facturas A,429,Aspee Monee Srl,300000,63000,BA Comex
+12/08/2025,Facturas A,79,Sanatorio Modelo S A,15133824,0,De la Arena Martin
+13/08/2025,Facturas A,80,Obra Social De Petroleros O S Pe,1465602,0,De la Arena Martin
+13/08/2025,Facturas B,60,Instituto De Obra Social De Las Fuerzas Armadas (Iosfa),4238432,0,De la Arena Martin
+21/08/2025,Facturas A,82,Osde Organizacion De Servicios Directos Empresarios,1690000,0,De la Arena Martin
+21/08/2025,Facturas A,83,Osde Organizacion De Servicios Directos Empresarios,3229499,187404,De la Arena Martin
+21/08/2025,Facturas A,84,Osde Organizacion De Servicios Directos Empresarios,3582276,173880,De la Arena Martin
+21/08/2025,Facturas A,81,Osde Organizacion De Servicios Directos Empresarios,1690000,0,De la Arena Martin
+21/08/2025,Notas De Credito A,6,Osde Organizacion De Servicios Directos Empresarios,-1690000,0,De la Arena Martin
 01/08/2025,Facturas A,26612,Santana Textil Chaco Sa,71203,14953,Deposito Avellaneda Sur
 01/08/2025,Facturas A,26607,Global Rover Logistic Srl,1621800,340578,Deposito Avellaneda Sur
 01/08/2025,Facturas A,26613,Santana Textil Chaco Sa,24355,5115,Deposito Avellaneda Sur
@@ -13,10 +36,515 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 01/08/2025,Facturas A,26605,Global Rover Logistic Srl,540600,113526,Deposito Avellaneda Sur
 01/08/2025,Facturas A,26611,Santana Textil Chaco Sa,2458,516,Deposito Avellaneda Sur
 01/08/2025,Facturas A,26606,Global Rover Logistic Srl,540600,113526,Deposito Avellaneda Sur
+01/08/2025,Facturas A,26619,Hilado S.A.,2596203,545203,Deposito Avellaneda Sur
+01/08/2025,Facturas A,26618,Liftvan International Company S A C,885950,186050,Deposito Avellaneda Sur
+01/08/2025,Facturas A,26617,Liftvan International Company S A C,66116,13884,Deposito Avellaneda Sur
+01/08/2025,Facturas A,26620,Importadora Mediterranea Sa,2648890,556267,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26633,Importadora Mediterranea Sa,2704857,568020,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26625,Adp Trading S.R.L.,991730,208263,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26626,Adp Trading S.R.L.,495865,104132,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26631,Tandem Global Logistics S.A.,2732500,573825,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26634,Minera Santa Rita Srl,1715414,360237,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26627,Biosophy S. A. S.,1304875,274024,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26628,Smart Trading S.A.S,2164110,454463,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26621,Talamo Leonardo,4419825,928163,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26629,Capilatis Sa,4975641,1044885,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26632,Hdv Leather Srl,464500,97545,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26622,Sanyo Color Sociedad Anonima,1212649,254656,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26623,Awam Tex S.R.L.,1079713,226740,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26624,Edificios Comahue Sociedad De Responsabilidad Limitada.,2379125,499616,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26630,Rueda Oeste S A,1090500,229005,Deposito Avellaneda Sur
+04/08/2025,Facturas A,26635,Tavasci Mena Mariana Andrea,999900,209979,Deposito Avellaneda Sur
+05/08/2025,Facturas A,26636,Global Rover Logistic Srl,540600,113526,Deposito Avellaneda Sur
+05/08/2025,Facturas A,26637,Global Rover Logistic Srl,540600,113526,Deposito Avellaneda Sur
+05/08/2025,Facturas A,26638,Funcke Maritime Sa,670022,140705,Deposito Avellaneda Sur
+05/08/2025,Facturas A,26639,Grupo Simpa S A,1066670,224001,Deposito Avellaneda Sur
+05/08/2025,Facturas A,26640,Edelweiss Spedition Srl,2571050,539921,Deposito Avellaneda Sur
+05/08/2025,Facturas A,26641,Dsi Underground Argentina Sa,335000,70350,Deposito Avellaneda Sur
+05/08/2025,Facturas A,26642,Liftvan International Company S A C,1756165,368795,Deposito Avellaneda Sur
+05/08/2025,Facturas A,26647,Hilado S.A.,3195604,671077,Deposito Avellaneda Sur
+05/08/2025,Facturas A,26646,Chaguar  Sociedad Anonima,3564800,748608,Deposito Avellaneda Sur
+05/08/2025,Facturas A,26643,Chemotecnica Sociedad Anonima,4666048,979870,Deposito Avellaneda Sur
+05/08/2025,Facturas A,26644,Bdfm Sa,1108420,232768,Deposito Avellaneda Sur
+05/08/2025,Facturas A,26645,Bdfm Sa,1720825,361373,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26660,Maquinarias Independencia Sa,248000,52080,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26661,Maquinarias Independencia Sa,248000,52080,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26650,Juguetech S A,2828786,594045,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26655,Grupo Leal-Tex S.R.L.,1117703,234718,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26667,Refractarios Argentinos Saicm,1526065,320474,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26662,Maransi S.A.,578256,121434,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26652,Global Rover Logistic Srl,288600,60606,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26668,Refractarios Argentinos Saicm,155040,32558,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26651,Pampa Logistica Internacional S.A.,1904565,399959,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26663,Liftvan International Company S A C,893884,187716,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26656,Dpmg S.A.,559762,117550,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26653,Mediterranean Shipping Company S A,252000,52920,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26648,Liftvan International Company S A C,2240749,470557,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26664,Liftvan International Company S A C,1117355,234645,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26657,Dpmg S.A.,559762,117550,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26658,Bulldog Solutions S.A,7834900,1645329,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26654,Bisora Group S. A.,1077338,226241,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26665,Refractarios Argentinos Saicm,1526065,320474,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26659,Maquinarias Independencia Sa,248000,52080,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26649,Telamania S.R.L.,1278561,268498,Deposito Avellaneda Sur
+06/08/2025,Facturas A,26666,Refractarios Argentinos Saicm,155040,32558,Deposito Avellaneda Sur
+06/08/2025,Notas De Debito A,201,Net Quality Srl,127823,0,Deposito Avellaneda Sur
+06/08/2025,Facturas B,17,Asociacion De Los Testigos De Jehova I. E. R.,1693480,355631,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26677,Lawter Argentina S.A.,641269,134666,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26670,Liftvan International Company S A C,1884511,395747,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26678,Global Rover Logistic Srl,1081200,227052,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26669,Raisvic Srl,1720100,361221,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26679,Global Rover Logistic Srl,2162400,454104,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26671,Aj Comercio Exterior Srl,400000,84000,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26684,Southcross Logistics  S.A,1206296,253322,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26672,Global Rover Logistic Srl,288600,60606,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26680,Litoral Citrus S A,1365000,286650,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26673,Alimentaria S.A.,1956400,410844,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26681,Mediterranean Shipping Company S A,252000,52920,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26674,Global Rover Logistic Srl,865800,181818,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26682,Mediterranean Shipping Company S A,504000,105840,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26683,Mediterranean Shipping Company S A,756000,158760,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26675,Ag De Argentina S A,907125,190496,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26676,Global Rover Logistic Srl,577200,121212,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26686,Soporte Latinoamerica S.A.S,200004,42001,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26687,Suri Motor Sport S.R.L.,747964,157072,Deposito Avellaneda Sur
+07/08/2025,Facturas A,26685,Dry Sea Srl,3338000,700980,Deposito Avellaneda Sur
+07/08/2025,Notas De Credito A,2064,Lawter Argentina S.A.,-1943655,-408168,Deposito Avellaneda Sur
+07/08/2025,Notas De Credito A,2065,Chemotecnica Sociedad Anonima,-360470,-75699,Deposito Avellaneda Sur
+07/08/2025,Facturas B,18,Asociacion De Los Testigos De Jehova I. E. R.,591506,23007,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26697,Aspee Monee Srl,1134750,238298,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26705,Tandem Global Logistics S.A.,1928800,405048,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26710,Overprint S.R.L,1109926,233084,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26689,Poka S A,30000,6300,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26698,Aspee Monee Srl,1134750,238298,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26693,Telamania S.R.L.,13291445,2791204,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26699,Aspee Monee Srl,1134750,238298,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26707,Grouport Srl,908590,190804,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26711,Tipoiti S A T I C,720755,151359,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26712,Global Rover Logistic Srl,288600,60606,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26694,Minera Santa Rita Srl,2261881,474995,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26700,Industrias Saladillo Sa,1989801,417858,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26708,Grouport Srl,410369,86178,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26706,Juguetech S A,1167217,245116,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26713,Mediterranean Shipping Company S A,252000,52920,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26701,Bulldog Solutions S.A,7918400,1662864,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26690,Liftvan International Company S A C,2446149,513691,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26714,Global Rover Logistic Srl,1081200,227052,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26702,Industrias Saladillo Sa,1566840,329036,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26691,Liftvan International Company S A C,2160128,453627,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26703,Industrias Saladillo Sa,1989800,417858,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26715,Global Rover Logistic Srl,1621800,340578,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26695,Aspee Monee Srl,1134750,238298,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26688,Tavasci Mena Mariana Andrea,498150,104612,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26716,Global Rover Logistic Srl,1081200,227052,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26692,Mercovan Argentina S.A.,2333836,490106,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26704,Tandem Global Logistics S.A.,1662120,349045,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26717,Global Rover Logistic Srl,1081200,227052,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26696,Aspee Monee Srl,1134750,238298,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26709,Lawter Argentina S.A.,641269,134666,Deposito Avellaneda Sur
+08/08/2025,Facturas A,26718,Global Rover Logistic Srl,540600,113526,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26734,Henn Y Cia Srl,5337250,1120822,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26725,Global Rover Logistic Srl,1081200,227052,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26731,Telamania S.R.L.,1181331,248080,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26735,Henn Y Cia Srl,1410600,296226,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26727,Tavasci Mena Mariana Andrea,1630360,342376,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26732,Telamania S.R.L.,11466703,2408008,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26720,Overprint S.R.L,1989136,417719,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26736,Rohlig Argentina S R L,923820,194002,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26726,Uld Global Trade Srl,5709795,1199057,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26728,Liftvan International Company S A C,2547941,535068,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26719,Pantografos Cam Cnc,931520,195619,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26721,Aniceto Gomez S A,1505545,316164,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26737,Alimentaria S.A.,3912800,821688,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26729,Liftvan International Company S A C,2798015,587583,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26722,Global Rover Logistic Srl,1081200,227052,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26733,Henn Y Cia Srl,2991600,628236,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26723,Global Rover Logistic Srl,1081200,227052,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26730,Mercovan Argentina S.A.,2042288,428881,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26724,Global Rover Logistic Srl,540600,113526,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26741,Malu Ma Tex S.A.,18078900,3796569,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26738,Hilado S.A.,1144000,240240,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26739,Ecomet S.R.L.,13379250,2809642,Deposito Avellaneda Sur
+11/08/2025,Facturas A,26740,Tandem Global Logistics S.A.,712000,149520,Deposito Avellaneda Sur
+11/08/2025,Notas De Credito A,2066,Industrias Saladillo Sa,-1689800,-354858,Deposito Avellaneda Sur
+11/08/2025,Facturas De Exportacion,66,Caddell Construction Co. (De) Llc,15912000,0,Deposito Avellaneda Sur
+11/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,188,Grupo Simpa S A,3290220,690946,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26756,Liftvan International Company S A C,1094727,229893,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26747,Mercovan Argentina S.A.,2212891,464707,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26742,Henn Y Cia Srl,747900,157059,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26751,Southcross Logistics  S.A,642830,134994,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26743,Telamania S.R.L.,1213141,254760,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26748,Mercovan Argentina S.A.,1660803,348769,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26752,Global Rover Logistic Srl,540600,113526,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26744,Liftvan International Company S A C,2053277,431188,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26753,Global Rover Logistic Srl,1081200,227052,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26749,Tavasci Mena Mariana Andrea,107665,22610,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26754,Alimentaria S.A.,1941800,407778,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26745,Liftvan International Company S A C,887956,186471,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26750,Tavasci Mena Mariana Andrea,772422,162209,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26757,Liftvan International Company S A C,2737603,574897,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26755,Bisora Group S. A.,922670,193761,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26746,Mercovan Argentina S.A.,2353806,494299,Deposito Avellaneda Sur
+12/08/2025,Facturas A,26758,Alimentaria S.A.,376930,79155,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26762,Global Rover Logistic Srl,288600,60606,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26773,Mercovan Argentina S.A.,2786196,585101,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26763,Mediterranean Shipping Company S A,252000,52920,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26767,Grupo Simpa S A,2975060,624763,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26777,Tandem Global Logistics S.A.,2665200,559692,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26764,Dpmg S.A.,1119525,235100,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26768,Telamania S.R.L.,1244951,261440,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26771,Tavasci Mena Mariana Andrea,795303,167014,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26769,Telamania S.R.L.,1387073,291285,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26772,Edelweiss Spedition Srl,2424820,509212,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26765,Borax Argentina S A S. A.,565024,118655,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26760,Global Rover Logistic Srl,288600,60606,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26770,Dsi Underground Argentina Sa,335000,70350,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26766,Borax Argentina S A S. A.,2825120,593275,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26761,Mediterranean Shipping Company S A,252000,52920,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26775,Henn Y Cia Srl,747900,157059,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26759,Linkage Intertrade Srl,647829,136044,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26774,Eagle Service Group Srl,4543170,954066,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26776,Hdv Leather Srl,196000,41160,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26780,Malu Ma Tex S.A.,17593150,3694562,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26779,Novelty Trend S.R.L.,2403434,23007,Deposito Avellaneda Sur
+13/08/2025,Facturas A,26778,Alsina Motos Srl,1931537,23007,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26801,Borax Argentina S A S. A.,565024,118655,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26783,Casa Rami S.R.L.,1510660,317239,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26788,Grouport Srl,669294,140552,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26795,Industrias Saladillo Sa,1986200,417102,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26784,Grupo Leal-Tex S.R.L.,1019330,214059,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26796,Hdv Leather Srl,186985,39267,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26802,Borax Argentina S A S. A.,565024,118655,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26782,Global Rover Logistic Srl,1081200,227052,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26789,Southcross Logistics  S.A,1594332,334810,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26797,Curtiembre Infante S A,1752000,367920,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26790,Be Investment,3543325,744098,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26785,Bisora Group S. A.,1043970,219234,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26798,Henn Y Cia Srl,747900,157059,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26803,Tavasci Mena Mariana Andrea,1404549,294955,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26786,Mafralac Alimenticia Srl,1070000,224700,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26799,Hdv Leather Srl,164200,34482,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26781,Chemotecnica Sociedad Anonima,5142760,1079980,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26791,Maquinarias Independencia Sa,374500,78645,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26800,Hdv Leather Srl,309230,64938,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26792,Industrias Saladillo Sa,1339085,281208,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26793,Industrias Saladillo Sa,362300,76083,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26787,Eagle Service Group Srl,1191520,250219,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26804,Chaguar  Sociedad Anonima,978165,205415,Deposito Avellaneda Sur
+14/08/2025,Facturas A,26794,Industrias Saladillo Sa,696920,146353,Deposito Avellaneda Sur
+14/08/2025,Notas De Credito A,2068,Pampa Logistica Internacional S.A.,-193300,-40593,Deposito Avellaneda Sur
+14/08/2025,Notas De Credito A,2067,Overprint S.R.L,-584956,-122841,Deposito Avellaneda Sur
+15/08/2025,Facturas A,26807,Lawter Argentina S.A.,1282538,269333,Deposito Avellaneda Sur
+15/08/2025,Facturas A,26808,Lawter Argentina S.A.,747664,157009,Deposito Avellaneda Sur
+15/08/2025,Facturas A,26805,Ipa Argentina S A,5371901,1128099,Deposito Avellaneda Sur
+15/08/2025,Facturas A,26806,Pelama Chubut Sociedad Anonima,1065000,223650,Deposito Avellaneda Sur
+15/08/2025,Facturas A,26809,Bisora Group S. A.,195446,41044,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26814,Hdv Leather Srl,82100,17241,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26815,Tandem Global Logistics S.A.,1042075,218836,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26812,Alsina Motos Srl,1507450,316564,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26813,Alfonso Sabbatini E Hijo Srl.,448269,94136,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26810,Global Rover Logistic Srl,540600,113526,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26816,Bulldog Solutions S.A,9267100,1946091,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26811,Espert S.A.,38794370,8146818,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26817,Curtiembre Infante S A,876000,183960,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26822,Industrias Zapla S. A.,2661994,46014,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26819,Mercovan Argentina S.A.,1921761,403570,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26820,Chaguar  Sociedad Anonima,7129600,1497216,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26818,Liftvan International Company S A C,2657244,558021,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26821,Verde Fuerte Srl,1702839,357596,Deposito Avellaneda Sur
+18/08/2025,Facturas A,26823,Alsina Motos Srl,1446500,303765,Deposito Avellaneda Sur
+18/08/2025,Notas De Credito A,2069,A&S Logistics S.A.,-120000,-25200,Deposito Avellaneda Sur
+18/08/2025,Notas De Credito A,2072,Alsina Motos Srl,-1507450,-316564,Deposito Avellaneda Sur
+18/08/2025,Notas De Credito A,2071,Tavasci Mena Mariana Andrea,-256421,-53848,Deposito Avellaneda Sur
+18/08/2025,Notas De Credito A,2070,Aceros Zapla S A,-2661994,-46014,Deposito Avellaneda Sur
+19/08/2025,Facturas A,26829,Hdv Leather Srl,98000,20580,Deposito Avellaneda Sur
+19/08/2025,Facturas A,26826,Fijaciones Py S . A .,1109365,232967,Deposito Avellaneda Sur
+19/08/2025,Facturas A,26830,Hdv Leather Srl,340655,71538,Deposito Avellaneda Sur
+19/08/2025,Facturas A,26831,Dsi Underground Argentina Sa,335000,70350,Deposito Avellaneda Sur
+19/08/2025,Facturas A,26827,Alsina Motos Srl,1489982,312896,Deposito Avellaneda Sur
+19/08/2025,Facturas A,26832,Dsi Underground Argentina Sa,335000,70350,Deposito Avellaneda Sur
+19/08/2025,Facturas A,26833,Tavasci Mena Mariana Andrea,496350,104234,Deposito Avellaneda Sur
+19/08/2025,Facturas A,26828,Global Rover Logistic Srl,2703000,567630,Deposito Avellaneda Sur
+19/08/2025,Facturas A,26824,Comtec S. A.,2718535,570892,Deposito Avellaneda Sur
+19/08/2025,Facturas A,26825,Pampa Logistica Internacional S.A.,1812575,380641,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26836,Liftvan International Company S A C,1068595,224405,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26837,Liftvan International Company S A C,1068595,224405,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26840,Liftvan International Company S A C,854876,179524,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26844,Alimentaria S.A.,4605800,967218,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26847,Henn Y Cia Srl,2725950,572450,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26838,Liftvan International Company S A C,1068595,224405,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26841,Liftvan International Company S A C,1068595,224405,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26845,Alimentaria S.A.,2556095,536780,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26848,Henn Y Cia Srl,2115900,444339,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26834,Trice Transport Company S.R.L.,3474937,729737,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26842,Global Rover Logistic Srl,540600,113526,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26846,Hdv Leather Srl,294000,61740,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26839,Liftvan International Company S A C,854731,179493,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26835,Liftvan International Company S A C,2137190,448810,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26843,Smart Logistics S.A.,2981446,626104,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26851,Grupo Simpa S A,1485550,311966,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26852,Liftvan International Company S A C,1487125,312296,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26853,Mercovan Argentina S.A.,2713706,569878,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26850,Arauco Argentina S.A,1503441,315723,Deposito Avellaneda Sur
+20/08/2025,Facturas A,26849,Alimentaria S.A.,253195,53171,Deposito Avellaneda Sur
+20/08/2025,Notas De Credito A,2073,Comtec S. A.,-232832,-48895,Deposito Avellaneda Sur
+20/08/2025,Notas De Credito A,2074,Danisco Argentina Sa,-1503441,-315723,Deposito Avellaneda Sur
+20/08/2025,Notas De Credito Por Operaciones Con El Exterior,4,Caddell Construction Co. (De) Llc,15912000,0,Deposito Avellaneda Sur
+21/08/2025,Facturas A,26859,Grouport Srl,2044779,429404,Deposito Avellaneda Sur
+21/08/2025,Facturas A,26860,Pelama Chubut Sociedad Anonima,1065000,223650,Deposito Avellaneda Sur
+21/08/2025,Facturas A,26861,Blue Mail Sociedad Anonima,4229472,888189,Deposito Avellaneda Sur
+21/08/2025,Facturas A,26854,Global Rover Logistic Srl,540600,113526,Deposito Avellaneda Sur
+21/08/2025,Facturas A,26864,Liftvan International Company S A C,1054188,221380,Deposito Avellaneda Sur
+21/08/2025,Facturas A,26855,Alimentaria S.A.,1934500,406245,Deposito Avellaneda Sur
+21/08/2025,Facturas A,26862,Chaguar  Sociedad Anonima,1425920,299443,Deposito Avellaneda Sur
+21/08/2025,Facturas A,26856,Protan S A,1333095,279950,Deposito Avellaneda Sur
+21/08/2025,Facturas A,26857,Global Rover Logistic Srl,540600,113526,Deposito Avellaneda Sur
+21/08/2025,Facturas A,26858,Cosmopolitan Sociedad Anonima,1037405,217855,Deposito Avellaneda Sur
+21/08/2025,Facturas A,26863,Poka S A,120000,25200,Deposito Avellaneda Sur
+22/08/2025,Facturas A,26869,Henn Y Cia Srl,2991600,628236,Deposito Avellaneda Sur
+22/08/2025,Facturas A,26865,Dalies Fernando Ruben,2325539,488363,Deposito Avellaneda Sur
+22/08/2025,Facturas A,26870,Berkma S A,150000,31500,Deposito Avellaneda Sur
+22/08/2025,Facturas A,26871,Poka S A,120000,25200,Deposito Avellaneda Sur
+22/08/2025,Facturas A,26872,Borax Argentina S A S. A.,1130048,237310,Deposito Avellaneda Sur
+22/08/2025,Facturas A,26866,Hellmann Worldwide Logistics  Sociedad Anonima,747025,156875,Deposito Avellaneda Sur
+22/08/2025,Facturas A,26873,Luial S A,1014600,213066,Deposito Avellaneda Sur
+22/08/2025,Facturas A,26867,Raisvic Srl,1156400,242844,Deposito Avellaneda Sur
+22/08/2025,Facturas A,26868,Servicio Internacional De Fletes Sa,1075900,225939,Deposito Avellaneda Sur
+22/08/2025,Facturas A,26874,Mercovan Argentina S.A.,1876010,393962,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26875,Dalies Fernando Ruben,2236214,469605,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26880,Awam Tex S.R.L.,1079238,226640,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26890,Dsi Underground Argentina Sa,335000,70350,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26888,Liftvan International Company S A C,2241045,470619,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26884,Pelama Chubut Sociedad Anonima,1065000,223650,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26881,Taeda S A,1324200,278082,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26879,Neocargo Sa,4500386,945081,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26877,Harbor Express S.A.,3641245,764661,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26885,Borax Argentina S A S. A.,565024,118655,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26889,Aceptyourdestiny,1324200,278082,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26878,Global Rover Logistic Srl,1621800,340578,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26886,Mercovan Argentina S.A.,2076324,436028,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26876,Puglisi Diego Martin,1323000,277830,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26882,Industrias Saladillo Sa,415210,87194,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26883,Pelama Chubut Sociedad Anonima,1065000,223650,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26887,Mercovan Argentina S.A.,2711024,569315,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26891,Poka S A,90000,18900,Deposito Avellaneda Sur
+25/08/2025,Facturas A,26892,Dsi Underground Argentina Sa,335000,70350,Deposito Avellaneda Sur
+25/08/2025,Notas De Credito A,2075,Taeda S A,-1324200,-278082,Deposito Avellaneda Sur
+25/08/2025,Notas De Credito A,2078,Mediterranean Shipping Company S A,-252000,-52920,Deposito Avellaneda Sur
+25/08/2025,Notas De Credito A,2079,Mediterranean Shipping Company S A,-252000,-52920,Deposito Avellaneda Sur
+25/08/2025,Notas De Credito A,2080,Manufacturas Los Andes S.A,-100000,-21000,Deposito Avellaneda Sur
+25/08/2025,Notas De Credito A,2076,Mediterranean Shipping Company S A,-252000,-52920,Deposito Avellaneda Sur
+25/08/2025,Notas De Credito A,2077,Mediterranean Shipping Company S A,-252000,-52920,Deposito Avellaneda Sur
+26/08/2025,Facturas A,26895,Borax Argentina S A S. A.,5650240,1186550,Deposito Avellaneda Sur
+26/08/2025,Facturas A,26898,Tavasci Mena Mariana Andrea,215330,45219,Deposito Avellaneda Sur
+26/08/2025,Facturas A,26899,La Tela S.R.L.,1153721,242281,Deposito Avellaneda Sur
+26/08/2025,Facturas A,26900,Jupam Sa,1041200,218652,Deposito Avellaneda Sur
+26/08/2025,Facturas A,26893,Mundial  S A,1109562,233008,Deposito Avellaneda Sur
+26/08/2025,Facturas A,26901,Luial S A,1041200,218652,Deposito Avellaneda Sur
+26/08/2025,Facturas A,26896,Levy Jonathan Netanel,1476614,310089,Deposito Avellaneda Sur
+26/08/2025,Facturas A,26902,Mercovan Argentina S.A.,1668019,350284,Deposito Avellaneda Sur
+26/08/2025,Facturas A,26897,Tavasci Mena Mariana Andrea,499950,104990,Deposito Avellaneda Sur
+26/08/2025,Facturas A,26894,Minera Santa Rita Srl,3430828,720474,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26906,Tavasci Mena Mariana Andrea,499350,104864,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26909,Grouport Srl,199373,41868,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26913,Be Investment,5984101,1256661,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26910,Grass S. R. L.,1759834,369565,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26907,Poka S A,60000,12600,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26908,Mercovan Argentina S.A.,1534033,322147,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26903,Liftvan International Company S A C,1685950,354050,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26905,Tavasci Mena Mariana Andrea,499350,104864,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26911,Baires International Transport S.R.L.,3443660,723169,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26904,Newtral  S.A.,763726,160382,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26912,Hdv Leather Srl,164200,34482,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26914,Santana Textil Chaco Sa,17095,3590,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26915,Linkage Intertrade Srl,556785,116925,Deposito Avellaneda Sur
+27/08/2025,Facturas A,26916,Pampa Logistica Internacional S.A.,1465660,307789,Deposito Avellaneda Sur
+27/08/2025,Notas De Credito A,2081,Alimentaria S.A.,-240000,-50400,Deposito Avellaneda Sur
+27/08/2025,Notas De Credito A,2082,Alimentaria S.A.,-120000,-25200,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26917,Grouport Srl,238938,50177,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26926,Uld Global Trade Srl,2056505,431866,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26920,Pezzelatto Jorge Facundo,2563505,538336,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26918,Cordova Camila Valeria,4687890,984457,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26927,Borax Argentina S A S. A.,565024,118655,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26928,Telamania S.R.L.,1500631,315133,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26921,Edificios Comahue Sociedad De Responsabilidad Limitada.,2578985,541587,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26934,Maquinarias Independencia Sa,1045700,219597,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26935,Henn Y Cia Srl,747900,157059,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26929,Maquinarias Independencia Sa,1045700,219597,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26922,Alimentaria S.A.,2249300,472353,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26930,Maquinarias Independencia Sa,248000,52080,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26923,Alimentaria S.A.,1978300,415443,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26931,Presmar Sociedad Anonima,1088700,228627,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26919,Lawter Argentina S.A.,2990656,628038,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26932,Maquinarias Independencia Sa,248000,52080,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26924,Global Rover Logistic Srl,1621800,340578,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26933,Maquinarias Independencia Sa,248000,52080,Deposito Avellaneda Sur
+28/08/2025,Facturas A,26925,Bisora Group S. A.,1340386,281481,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26936,Borax Argentina S A S. A.,3390144,711930,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26951,Mma Tex S.A.,2484400,521724,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26944,Javier Luque S.R.L.,3349050,703300,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26937,Minera Santa Rita Srl,857707,180118,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26952,Cargocorp Argentina,1232903,258910,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26945,Henn Y Cia Srl,747900,157059,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26938,Minera Santa Rita Srl,857707,180118,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26940,Verde Fuerte Srl,4514327,948009,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26953,Dry Sea Srl,815320,171217,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26946,Grupo In 360,8551350,1795784,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26941,Tipoiti S A T I C,962883,202205,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26947,Npg Internacional S. R. L.,1495800,314118,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26942,Newtral  S.A.,988575,207601,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26948,Maquinarias Independencia Sa,988775,207643,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26949,Maquinarias Independencia Sa,988775,207643,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26943,Global Rover Logistic Srl,1081200,227052,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26939,Grupo Simpa S A,1797120,377395,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26950,Henn Y Cia Srl,747900,157059,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26955,Linkage Intertrade Srl,872829,183294,Deposito Avellaneda Sur
+29/08/2025,Facturas A,26954,Cargocorp Argentina,1001068,210224,Deposito Avellaneda Sur
+29/08/2025,Notas De Credito A,2084,Telefonica Moviles Argentina Sociedad Anonima,-8041000,-1688610,Deposito Avellaneda Sur
+29/08/2025,Notas De Credito A,2083,Minera Santa Rita Srl,-546467,-114758,Deposito Avellaneda Sur
+29/08/2025,Notas De Credito A,2085,Yamaha Motor Argentina Sa,-1915870,-402333,Deposito Avellaneda Sur
+05/08/2025,Facturas A,157,Scania Argentina S. A. U.,550000,115500,Edelweiss Spedition
+05/08/2025,Facturas A,158,Kunze S.R.L.,229168,48125,Edelweiss Spedition
+11/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,71,Tecpetrol S A,20937540,1503684,Edelweiss Spedition
+20/08/2025,Facturas A,159,Nuevas Fronteras Sa,550000,115500,Edelweiss Spedition
+21/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,72,Siemens Energy S.A.,11216950,1083560,Edelweiss Spedition
+25/08/2025,Facturas A,160,Evergreen Shipping Agency Argentina S.A.,550000,115500,Edelweiss Spedition
+26/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,73,Tecpetrol S A,21411240,1537704,Edelweiss Spedition
+26/08/2025,Nota De Credito Electrónica Mipymes (Fce) A,9,Tecpetrol S A,20937540,1503684,Edelweiss Spedition
+11/08/2025,Facturas De Exportacion,1,Caddell Construction Co. (De) Llc,15912000,0,El Llamito
 01/08/2025,Facturas A,261,Plaquimet Sa,5564160,1168474,El Marques
 01/08/2025,Facturas A,262,Liftvan International Company S A C,6900000,1449000,El Marques
 01/08/2025,Facturas A,260,M.S. Technologies Argentina S.R.L.,5255040,1103558,El Marques
+04/08/2025,Facturas B,549,Ibarra Justo Javier,150000,0,Hermosalta SRL
+06/08/2025,Facturas B,551,Acosta Mauro Ismael,252000,0,Hermosalta SRL
+06/08/2025,Facturas B,550,Lopez Lorena Estrella,150000,0,Hermosalta SRL
+09/08/2025,Facturas B,552,Ibarra Justo Javier,150000,0,Hermosalta SRL
+11/08/2025,Facturas B,553,Lopez Lorena Estrella,300000,0,Hermosalta SRL
+18/08/2025,Facturas B,554,Ibarra Justo Javier,150000,0,Hermosalta SRL
+18/08/2025,Facturas B,555,Acosta Mauro Ismael,666000,0,Hermosalta SRL
+19/08/2025,Facturas B,556,Utradial Srl,358177,0,Hermosalta SRL
+20/08/2025,Facturas B,557,Teran Hanna Nicol,150000,0,Hermosalta SRL
+21/08/2025,Facturas B,559,Ibarra Justo Javier,150000,0,Hermosalta SRL
+21/08/2025,Facturas B,558,Paludi Armando Pascual,144000,0,Hermosalta SRL
+26/08/2025,Facturas B,560,Ibarra Justo Javier,150000,0,Hermosalta SRL
+27/08/2025,Facturas B,561,Tarifa Sofia Del Milagro,150000,0,Hermosalta SRL
+29/08/2025,Facturas B,563,Domene Emilio,150000,0,Hermosalta SRL
+29/08/2025,Facturas B,562,Ibarra Justo Javier,258000,0,Hermosalta SRL
+30/08/2025,Facturas B,564,Ibarra Justo Javier,150000,0,Hermosalta SRL
 01/08/2025,Facturas A,37,Stine Seed Argentina S.R.L.,2017560,423688,L A R M Argentina
+05/08/2025,Facturas A,5506,Schlumberger Argentina S. A.,152677,32062,L A R M Argentina
+05/08/2025,Facturas A,5507,Schlumberger Argentina S. A.,152677,32062,L A R M Argentina
+05/08/2025,Facturas A,5508,Schlumberger Argentina S. A.,327471,68769,L A R M Argentina
+05/08/2025,Notas De Credito A,530,Schlumberger Argentina S. A.,-152677,-32062,L A R M Argentina
+05/08/2025,Facturas B,419,Barrea Ciro Octavio,1338843,281157,L A R M Argentina
+05/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,303,Ldc Argentina S.A.,15444000,294840,L A R M Argentina
+06/08/2025,Facturas A,5510,Chevron Argentina Sociedad De Responsabilidad Limitada,5090853,1069079,L A R M Argentina
+06/08/2025,Facturas A,5509,Schlumberger Argentina S. A.,959804,0,L A R M Argentina
+07/08/2025,Facturas A,5522,Schlumberger Argentina S. A.,334132,70168,L A R M Argentina
+07/08/2025,Facturas A,5511,Schlumberger Argentina S. A.,244502,51345,L A R M Argentina
+07/08/2025,Facturas A,5523,Schlumberger Argentina S. A.,254914,53532,L A R M Argentina
+07/08/2025,Facturas A,5512,Schlumberger Argentina S. A.,152677,32062,L A R M Argentina
+07/08/2025,Facturas A,5516,Schlumberger Argentina S. A.,111536,23423,L A R M Argentina
+07/08/2025,Facturas A,5524,Schlumberger Argentina S. A.,30406,6385,L A R M Argentina
+07/08/2025,Facturas A,5513,Schlumberger Argentina S. A.,21440,4502,L A R M Argentina
+07/08/2025,Facturas A,5517,Schlumberger Argentina S. A.,107392,22552,L A R M Argentina
+07/08/2025,Facturas A,5525,Schlumberger Argentina S. A.,163871,34413,L A R M Argentina
+07/08/2025,Facturas A,5518,Schlumberger Argentina S. A.,537794,112937,L A R M Argentina
+07/08/2025,Facturas A,5514,Schlumberger Argentina S. A.,83652,17567,L A R M Argentina
+07/08/2025,Facturas A,5526,Schlumberger Argentina S. A.,148473,31179,L A R M Argentina
+07/08/2025,Facturas A,5519,Schlumberger Argentina S. A.,410701,86247,L A R M Argentina
+07/08/2025,Facturas A,5515,Schlumberger Argentina S. A.,51216,10755,L A R M Argentina
+07/08/2025,Facturas A,5527,Schlumberger Argentina S. A.,16684,3504,L A R M Argentina
+07/08/2025,Facturas A,5520,Schlumberger Argentina S. A.,610000,128100,L A R M Argentina
+07/08/2025,Facturas A,5528,Schlumberger Argentina S. A.,627677,131812,L A R M Argentina
+07/08/2025,Facturas A,5521,Schlumberger Argentina S. A.,117871,24753,L A R M Argentina
+11/08/2025,Facturas A,5542,Tecpetrol S A,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5534,Tecpetrol S A,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5535,Tecpetrol S A,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5529,Liftvan International Company S A C,1932237,36888,L A R M Argentina
+11/08/2025,Facturas A,5544,Tecpetrol S A,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5536,Tecpetrol S A,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5537,Tecpetrol S A,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5538,Tecpetrol S A,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5543,Tecpetrol S A,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5530,Tecpetrol S A,908723,190832,L A R M Argentina
+11/08/2025,Facturas A,5539,Tecpetrol S A,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5540,Tecpetrol S A,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5531,Tecpetrol S A,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5541,Tecpetrol S A,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5532,Chevron Argentina Sociedad De Responsabilidad Limitada,673759,141489,L A R M Argentina
+11/08/2025,Facturas A,5533,Chevron Argentina Sociedad De Responsabilidad Limitada,673759,141489,L A R M Argentina
+11/08/2025,Notas De Credito A,531,Tecpetrol S A,-673759,-141489,L A R M Argentina
+11/08/2025,Notas De Credito A,533,Chevron Argentina Sociedad De Responsabilidad Limitada,-673759,-141489,L A R M Argentina
+11/08/2025,Notas De Credito A,532,Chevron Argentina Sociedad De Responsabilidad Limitada,-673759,-141489,L A R M Argentina
+12/08/2025,Facturas A,5545,Exxonmobil Business Support Center Argentina Srl,192350,40394,L A R M Argentina
+12/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,304,Schlumberger Argentina S. A.,4141604,0,L A R M Argentina
+14/08/2025,Facturas A,5546,Massalin Particulares S. R. L.,2856075,423691,L A R M Argentina
+18/08/2025,Facturas B,420,Sandro Vinces Reyna,140360,27691,L A R M Argentina
+19/08/2025,Facturas A,5547,Schlumberger Argentina S. A.,545102,0,L A R M Argentina
+20/08/2025,Facturas A,5548,Liftvan International Company S A C,110000,2100,L A R M Argentina
+25/08/2025,Facturas A,5563,Schlumberger Argentina S. A.,246914,51852,L A R M Argentina
+25/08/2025,Facturas A,5561,Schlumberger Argentina S. A.,538819,113152,L A R M Argentina
+25/08/2025,Facturas A,5556,Schlumberger Argentina S. A.,152677,32062,L A R M Argentina
+25/08/2025,Facturas A,5549,Schlumberger Argentina S. A.,590025,123905,L A R M Argentina
+25/08/2025,Facturas A,5564,Schlumberger Argentina S. A.,302500,63525,L A R M Argentina
+25/08/2025,Facturas A,5565,Schlumberger Argentina S. A.,410701,86247,L A R M Argentina
+25/08/2025,Facturas A,5562,Schlumberger Argentina S. A.,179014,37593,L A R M Argentina
+25/08/2025,Facturas A,5557,Schlumberger Argentina S. A.,152677,32062,L A R M Argentina
+25/08/2025,Facturas A,5566,Schlumberger Argentina S. A.,627677,131812,L A R M Argentina
+25/08/2025,Facturas A,5552,Schlumberger Argentina S. A.,542871,114003,L A R M Argentina
+25/08/2025,Facturas A,5567,Ldc Argentina S.A.,3825900,66339,L A R M Argentina
+25/08/2025,Facturas A,5550,Schlumberger Argentina S. A.,16684,3504,L A R M Argentina
+25/08/2025,Facturas A,5558,Schlumberger Argentina S. A.,295629,62082,L A R M Argentina
+25/08/2025,Facturas A,5553,Schlumberger Argentina S. A.,314871,66123,L A R M Argentina
+25/08/2025,Facturas A,5551,Schlumberger Argentina S. A.,172871,36303,L A R M Argentina
+25/08/2025,Facturas A,5559,Schlumberger Argentina S. A.,489143,102720,L A R M Argentina
+25/08/2025,Facturas A,5554,Schlumberger Argentina S. A.,172871,36303,L A R M Argentina
+25/08/2025,Facturas A,5560,Schlumberger Argentina S. A.,250914,52692,L A R M Argentina
+25/08/2025,Facturas A,5555,Schlumberger Argentina S. A.,152677,32062,L A R M Argentina
+25/08/2025,Facturas B,421,Barrea Ciro Octavio,1338843,281157,L A R M Argentina
+26/08/2025,Facturas A,5568,Schlumberger Argentina S. A.,829102,0,L A R M Argentina
+28/08/2025,Facturas A,5569,Wintershall Dea Argentina S.A,172730,3303,L A R M Argentina
+29/08/2025,Facturas A,5570,Team Uno Srl,413089,86749,L A R M Argentina
+29/08/2025,Facturas A,5571,Massalin Particulares S. R. L.,51462,10807,L A R M Argentina
+04/08/2025,Facturas A,2985,Mercovan Argentina S.A.,134940,17220,Leoni Maria Jose
+04/08/2025,Facturas A,2986,Mercovan Argentina S.A.,87490,11970,Leoni Maria Jose
+04/08/2025,Facturas A,2987,Mercovan Argentina S.A.,87490,11970,Leoni Maria Jose
+04/08/2025,Facturas A,2988,Mercovan Argentina S.A.,50430,5250,Leoni Maria Jose
+04/08/2025,Facturas B,1681,Spangenberg Eduardo,176570,25830,Leoni Maria Jose
+05/08/2025,Facturas A,2989,Argenbrokers S.A.,199570,30660,Leoni Maria Jose
+06/08/2025,Facturas A,2994,Fuego Red S. A.,1493304,218190,Leoni Maria Jose
+06/08/2025,Facturas A,2995,Secar Security Sur S. A.,1830262,236880,Leoni Maria Jose
+06/08/2025,Facturas A,2996,Secar Security Servicios S. A.,1568742,211680,Leoni Maria Jose
+06/08/2025,Facturas A,2997,Trailback S.A.,1669559,221970,Leoni Maria Jose
+06/08/2025,Facturas A,2998,Secar Security Countries S. A.,1634580,218190,Leoni Maria Jose
+06/08/2025,Facturas A,2999,Seguridad Argentina Sa,1928377,245490,Leoni Maria Jose
+06/08/2025,Facturas A,3000,Secar Security Buenos Aires S. A.,1700812,223860,Leoni Maria Jose
+06/08/2025,Facturas A,2990,Secar Security Argentina S. A.,3473193,404670,Leoni Maria Jose
+06/08/2025,Facturas A,2991,Consultora Videco S. A.,1736611,228480,Leoni Maria Jose
+06/08/2025,Facturas A,2992,Vigilan S.A.,2039535,259980,Leoni Maria Jose
+06/08/2025,Facturas A,2993,A I P A A Agencia De Investigaciones Privadas Autorizada America Sociedad Anonima,2317090,297570,Leoni Maria Jose
+07/08/2025,Facturas A,3001,Deposito Avellaneda Sur S.A.,246450,40950,Leoni Maria Jose
+07/08/2025,Facturas A,3002,Don Luis Esteban S A,182027,31500,Leoni Maria Jose
+07/08/2025,Facturas B,1682,De Royere Gerardo Juan Maria,190830,27720,Leoni Maria Jose
+11/08/2025,Facturas A,3003,Soma S. R. L.,56289,10500,Leoni Maria Jose
+11/08/2025,Facturas B,1683,Conde Diego Rodolfo,451560,65940,Leoni Maria Jose
+13/08/2025,Facturas B,1684,Marsala Andres,227819,11760,Leoni Maria Jose
+20/08/2025,Facturas A,3004,Estancia El Dulce  S A,73919,14700,Leoni Maria Jose
+21/08/2025,Facturas B,1685,Mendilaharzu Javier Alejandro,5973961,847602,Leoni Maria Jose
+21/08/2025,Facturas B,1686,Scaa Hospitality S.L,9334338,1382062,Leoni Maria Jose
+22/08/2025,Facturas B,1687,Scaa Hospitality S.L,9848035,1382065,Leoni Maria Jose
+22/08/2025,Notas De Credito B,105,Scaa Hospitality S.L,-9334338,-1382062,Leoni Maria Jose
+26/08/2025,Facturas A,3007,Bazooka Realty S.R.L.,274219,47670,Leoni Maria Jose
+26/08/2025,Facturas A,3008,Liftvan International Company S A C,234100,32970,Leoni Maria Jose
+26/08/2025,Facturas A,3005,Ledesma Jorge Nicolas,756335,31521,Leoni Maria Jose
+26/08/2025,Facturas A,3006,Ledesma Jorge Nicolas,1534850,29925,Leoni Maria Jose
+27/08/2025,Facturas A,3012,Tresnal Agropecuaria S.A.,41289,7350,Leoni Maria Jose
+27/08/2025,Facturas A,3010,Indave S A,353670,66780,Leoni Maria Jose
+27/08/2025,Facturas A,3011,Naikoa S.A.,49290,9240,Leoni Maria Jose
+27/08/2025,Facturas A,3009,Indave Patagonico Sociedad Anonima,353670,66780,Leoni Maria Jose
+27/08/2025,Notas De Credito A,156,Indave Patagonico Sociedad Anonima,-353670,-66780,Leoni Maria Jose
+27/08/2025,Facturas B,1688,Uruguay,647340,120960,Leoni Maria Jose
 01/08/2025,Facturas A,2541,Natura Cosmeticos  Sa,651360,129720,Liftvan International
 01/08/2025,Facturas A,2542,Natura Cosmeticos  Sa,211140,0,Liftvan International
 01/08/2025,Notas De Credito A,318,Natura Cosmeticos  Sa,-726615,-113270,Liftvan International
@@ -28,6 +556,109 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 01/08/2025,Facturas B,4873,Estados Unidos,6003000,0,Liftvan International
 01/08/2025,Facturas B,4867,Embajada De Los Ee Uu De Norteamerica,569231,0,Liftvan International
 01/08/2025,Facturas B,4872,Reino Unido,9660000,0,Liftvan International
+05/08/2025,Facturas B,4875,Embajada De Los Ee Uu De Norteamerica,691950,0,Liftvan International
+05/08/2025,Facturas B,4874,Embajada De Los Ee Uu De Norteamerica,274000,57540,Liftvan International
+06/08/2025,Facturas B,4876,Kochian Santiago Andres,252970,0,Liftvan International
+06/08/2025,Notas De Credito B,333,-,-3187864,0,Liftvan International
+06/08/2025,Notas De Credito B,334,Embajada De La Republica Federal De Alemania,-97384,-20720,Liftvan International
+07/08/2025,Facturas B,4877,Estados Unidos,1698735,0,Liftvan International
+07/08/2025,Facturas B,4878,Estados Unidos,4761300,0,Liftvan International
+07/08/2025,Notas De Credito B,335,De Noia Josue Gabriel,-399373,0,Liftvan International
+08/08/2025,Facturas B,4880,Estados Unidos,11390000,0,Liftvan International
+08/08/2025,Facturas B,4879,Estados Unidos,18920800,0,Liftvan International
+08/08/2025,Notas De Credito B,336,Estados Unidos,-804000,0,Liftvan International
+11/08/2025,Facturas A,2543,Muy Mucho S.R.L.,25415730,2349600,Liftvan International
+11/08/2025,Facturas A,2544,Natura Cosmeticos  Sa,1941020,36888,Liftvan International
+11/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,488,Ypf Sociedad Anonima,134873727,28182570,Liftvan International
+11/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,487,Schlumberger Argentina S. A.,4205250,883770,Liftvan International
+12/08/2025,Facturas B,4881,Estados Unidos,407175,0,Liftvan International
+13/08/2025,Facturas A,2545,Natura Cosmeticos  Sa,2597490,520030,Liftvan International
+13/08/2025,Notas De Debito A,40,Tecplata S.A.,119439,23888,Liftvan International
+13/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,489,Natura Cosmeticos  Sa,24738000,0,Liftvan International
+13/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,490,Delivery Hero E-Commerce S. A.,13120450,2741130,Liftvan International
+14/08/2025,Facturas B,4883,Embajada De Los Ee Uu De Norteamerica,4626043,0,Liftvan International
+14/08/2025,Facturas B,4886,Embajada De Los Ee Uu De Norteamerica,5517319,0,Liftvan International
+14/08/2025,Facturas B,4884,Embajada De Los Ee Uu De Norteamerica,1991475,418700,Liftvan International
+14/08/2025,Facturas B,4885,Embajada De Los Ee Uu De Norteamerica,1526400,320650,Liftvan International
+14/08/2025,Facturas B,4882,Luce Maria Florencia,781750,164300,Liftvan International
+18/08/2025,Notas De Credito B,337,Reino Unido,-9660000,0,Liftvan International
+19/08/2025,Facturas A,2546,Renault Argentina S.A,594380,123610,Liftvan International
+19/08/2025,Facturas B,4887,Estados Unidos,14184905,0,Liftvan International
+20/08/2025,Facturas A,2547,Natura Cosmeticos  Sa,110000,2100,Liftvan International
+20/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,491,Natura Cosmeticos  Sa,21548190,3459710,Liftvan International
+21/08/2025,Facturas A,2548,Nabors International Argentina S.R.L.,3350000,703500,Liftvan International
+21/08/2025,Notas De Debito A,41,Tecplata S.A.,112796,22559,Liftvan International
+21/08/2025,Facturas B,4889,Vallejos Miguel Angel,22895928,2404072,Liftvan International
+21/08/2025,Facturas B,4888,Perez Varela Mariano Federico,892885,0,Liftvan International
+22/08/2025,Facturas A,2549,Ypf Sociedad Anonima,3294655,0,Liftvan International
+22/08/2025,Facturas A,2550,Ypf Sociedad Anonima,3378235,0,Liftvan International
+27/08/2025,Facturas B,4890,Suecia,3582550,0,Liftvan International
+27/08/2025,Facturas B,4891,Romano Argañaraz Natalia Beatriz,2339172,0,Liftvan International
+28/08/2025,Notas De Credito A,319,Nabors International Argentina S.R.L.,-3350000,-703500,Liftvan International
+29/08/2025,Facturas A,2551,Robert Bosch Argentina Industrial Sa,470750,99530,Liftvan International
+29/08/2025,Facturas A,2552,Robert Bosch Argentina Industrial Sa,470750,99530,Liftvan International
+29/08/2025,Notas De Credito A,320,Bosch Rexroth Saic,-397072,-79846,Liftvan International
+29/08/2025,Notas De Credito A,321,Bosch Rexroth Saic,-397072,-79846,Liftvan International
+31/08/2025,Facturas A,2553,Deposito Avellaneda Sur S.A.,14322722,2864544,Liftvan International
+04/08/2025,Facturas A,2315,Posco Argentina Sau,320000,67200,Mercovan Argentina
+04/08/2025,Facturas A,2316,Durlock Sociedad Anonima,320000,67200,Mercovan Argentina
+04/08/2025,Facturas A,2314,Schlumberger Argentina S. A.,320000,67200,Mercovan Argentina
+04/08/2025,Facturas B,2750,-,3085500,214500,Mercovan Argentina
+04/08/2025,Facturas B,2751,-,10854250,970750,Mercovan Argentina
+05/08/2025,Facturas A,2317,Samsung Electronics Argentina S A,320000,67200,Mercovan Argentina
+05/08/2025,Facturas A,2318,Lg Electronics Argentina S.A.,640000,134400,Mercovan Argentina
+06/08/2025,Facturas A,2319,Posco Argentina Sau,830000,174300,Mercovan Argentina
+06/08/2025,Facturas B,2752,-,1443081,53550,Mercovan Argentina
+06/08/2025,Facturas B,2753,-,267300,56700,Mercovan Argentina
+06/08/2025,Facturas B,2754,-,99174,20826,Mercovan Argentina
+07/08/2025,Facturas A,2320,Posco Argentina Sau,320000,67200,Mercovan Argentina
+07/08/2025,Facturas A,2321,Fundacion Malba,3149000,661290,Mercovan Argentina
+12/08/2025,Facturas A,2322,L'Oreal Argentina Sociedad Anonima,400500,84105,Mercovan Argentina
+12/08/2025,Facturas B,2755,-,7301115,1396410,Mercovan Argentina
+14/08/2025,Facturas A,2323,Comercializadora Online Sa,2730000,573300,Mercovan Argentina
+14/08/2025,Facturas A,2325,Fundacion Malba,2747000,576870,Mercovan Argentina
+14/08/2025,Facturas A,2324,Armadora Acrux Sociedad Anonima,1770000,371700,Mercovan Argentina
+14/08/2025,Notas De Credito A,164,Fundacion Malba,-3149000,-661290,Mercovan Argentina
+14/08/2025,Facturas B,2756,-,5478875,510125,Mercovan Argentina
+14/08/2025,Facturas B,2757,-,5131725,897025,Mercovan Argentina
+18/08/2025,Facturas A,2327,Total Austral Sociedad Anonima Sucursal Argentina,335967,70553,Mercovan Argentina
+18/08/2025,Facturas A,2326,Total Austral Sociedad Anonima Sucursal Argentina,336967,70763,Mercovan Argentina
+18/08/2025,Facturas B,2758,-,1629640,204360,Mercovan Argentina
+18/08/2025,Facturas B,2759,-,2546640,204360,Mercovan Argentina
+18/08/2025,Facturas B,2760,-,2022640,204360,Mercovan Argentina
+18/08/2025,Facturas B,2761,-,2284640,204360,Mercovan Argentina
+20/08/2025,Facturas A,2328,Schlumberger Argentina S. A.,640000,134400,Mercovan Argentina
+20/08/2025,Facturas A,2329,Schlumberger Argentina S. A.,320000,67200,Mercovan Argentina
+20/08/2025,Facturas B,2762,-,4058925,664244,Mercovan Argentina
+22/08/2025,Facturas A,2330,Desarrollos Sucre Sa,13725000,2882250,Mercovan Argentina
+25/08/2025,Facturas A,2331,Schlumberger Argentina S. A.,320000,67200,Mercovan Argentina
+25/08/2025,Facturas A,2333,Total Austral Sociedad Anonima Sucursal Argentina,335967,70553,Mercovan Argentina
+25/08/2025,Facturas A,2334,Total Austral Sociedad Anonima Sucursal Argentina,335967,70553,Mercovan Argentina
+25/08/2025,Facturas A,2332,Posco Argentina Sau,320000,67200,Mercovan Argentina
+25/08/2025,Facturas A,2335,Samsung Electronics Argentina S A,355000,74550,Mercovan Argentina
+25/08/2025,Facturas A,2336,Patagonia Sur S.A.S.,1000000,210000,Mercovan Argentina
+25/08/2025,Facturas B,2763,Embajada De Los Ee Uu De Norteamerica,790600,166160,Mercovan Argentina
+25/08/2025,Facturas B,2764,Embajada De Los Ee Uu De Norteamerica,4993731,893322,Mercovan Argentina
+25/08/2025,Facturas B,2768,-,11152820,907180,Mercovan Argentina
+25/08/2025,Facturas B,2765,-,3892700,663300,Mercovan Argentina
+25/08/2025,Facturas B,2766,-,3006960,209040,Mercovan Argentina
+25/08/2025,Facturas B,2767,-,2068960,209040,Mercovan Argentina
+26/08/2025,Facturas B,2769,-,7511710,728840,Mercovan Argentina
+27/08/2025,Facturas A,2337,Posco Argentina Sau,320000,67200,Mercovan Argentina
+27/08/2025,Facturas B,2770,Agencia Cordoba Cultura Sociedad Del Estado,6177284,1297230,Mercovan Argentina
+29/08/2025,Facturas A,2338,Comercializadora Online Sa,2482066,521234,Mercovan Argentina
+29/08/2025,Facturas A,2339,Deposito Avellaneda Sur S.A.,1111570,233430,Mercovan Argentina
+29/08/2025,Notas De Credito A,165,Comercializadora Online Sa,-2730000,-573300,Mercovan Argentina
+29/08/2025,Facturas B,2771,-,6040395,653670,Mercovan Argentina
+29/08/2025,Facturas B,2772,-,2462695,516480,Mercovan Argentina
+29/08/2025,Facturas B,2773,Lescaux Julien Thomas Mathias,2013465,422330,Mercovan Argentina
+08/08/2025,Facturas A,90,Probelt Srl,2600100,546021,Nerococina
+08/08/2025,Facturas A,89,Pole Position Coffee,1680000,352800,Nerococina
+04/08/2025,Facturas A,127,Grupo Carpi S.R.L,2772000,582120,U-Bros
+08/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,65,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,11680216,2452845,U-Bros
+22/08/2025,Facturas A,32,Auto Fix Stephe S.R.L.,801000,168210,Ulog
+28/08/2025,Facturas A,33,Interborders Srl,136750,28718,Ulog
+11/08/2025,Facturas A,7,Capital Markets Argentina S.A.,11575644,2430885,Valenzuela Ricardo Patricio
 01/08/2025,Facturas B,2797,-,36364,7636,Viñas En Flor
 01/08/2025,Facturas B,2796,-,22314,4686,Viñas En Flor
 01/08/2025,Facturas B,2798,-,24793,5207,Viñas En Flor
@@ -94,1435 +725,709 @@ Fecha,Tipo,Nro.,Empresa,Neto,IVA,Razon Social
 03/08/2025,Facturas B,24912,-,145455,30545,Viñas En Flor
 03/08/2025,Facturas B,24913,-,214876,45124,Viñas En Flor
 03/08/2025,Facturas B,24914,-,230579,48421,Viñas En Flor
-01/08/2025,Facturas A,414,Aspee Monee Srl,0,0,BA Comex
-07/08/2025,Facturas A,415,Aspee Monee Srl,0,0,BA Comex
-11/08/2025,Facturas A,416,Luial S A,0,0,BA Comex
-14/08/2025,Facturas A,417,Novelty Trend S.R.L.,0,0,BA Comex
-18/08/2025,Facturas A,420,Mercovan Argentina S.A.,0,0,BA Comex
-18/08/2025,Facturas A,418,Alsina Motos Srl,0,0,BA Comex
-18/08/2025,Facturas A,419,Alsina Motos Srl,0,0,BA Comex
-18/08/2025,Facturas A,421,Edelweiss Spedition Srl,0,0,BA Comex
-19/08/2025,Facturas A,423,Fedtex,0,0,BA Comex
-19/08/2025,Facturas A,422,Aspee Monee Srl,0,0,BA Comex
-20/08/2025,Facturas A,424,Aspee Monee Srl,0,0,BA Comex
-22/08/2025,Facturas A,425,Luial S A,0,0,BA Comex
-26/08/2025,Facturas A,427,Jupam Sa,0,0,BA Comex
-26/08/2025,Facturas A,428,Luial S A,0,0,BA Comex
-26/08/2025,Facturas A,426,Aspee Monee Srl,0,0,BA Comex
-28/08/2025,Facturas A,429,Aspee Monee Srl,0,0,BA Comex
-12/08/2025,Facturas A,79,Sanatorio Modelo S A,15133824,0,De la Arena Martin
-13/08/2025,Facturas A,80,Obra Social De Petroleros O S Pe,1465602,0,De la Arena Martin
-13/08/2025,Facturas B,60,Instituto De Obra Social De Las Fuerzas Armadas (Iosfa),4238432,0,De la Arena Martin
-21/08/2025,Facturas A,82,Osde Organizacion De Servicios Directos Empresarios,1690000,0,De la Arena Martin
-21/08/2025,Facturas A,83,Osde Organizacion De Servicios Directos Empresarios,1444704,0,De la Arena Martin
-21/08/2025,Facturas A,84,Osde Organizacion De Servicios Directos Empresarios,1926272,0,De la Arena Martin
-21/08/2025,Facturas A,81,Osde Organizacion De Servicios Directos Empresarios,1690000,0,De la Arena Martin
-21/08/2025,Notas De Credito A,6,Osde Organizacion De Servicios Directos Empresarios,-1690000,0,De la Arena Martin
-01/08/2025,Facturas A,26612,Santana Textil Chaco Sa,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26607,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26613,Santana Textil Chaco Sa,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26616,Poka S A,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26608,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26614,Grass S. R. L.,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26609,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26610,Curtiembre Infante S A,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26604,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26615,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26605,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26611,Santana Textil Chaco Sa,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26606,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26619,Hilado S.A.,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26618,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26617,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-01/08/2025,Facturas A,26620,Importadora Mediterranea Sa,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26633,Importadora Mediterranea Sa,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26625,Adp Trading S.R.L.,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26626,Adp Trading S.R.L.,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26631,Tandem Global Logistics S.A.,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26634,Minera Santa Rita Srl,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26627,Biosophy S. A. S.,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26628,Smart Trading S.A.S,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26621,Talamo Leonardo,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26629,Capilatis Sa,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26632,Hdv Leather Srl,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26622,Sanyo Color Sociedad Anonima,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26623,Awam Tex S.R.L.,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26624,Edificios Comahue Sociedad De Responsabilidad Limitada.,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26630,Rueda Oeste S A,0,0,Deposito Avellaneda Sur
-04/08/2025,Facturas A,26635,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,26636,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,26637,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,26638,Funcke Maritime Sa,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,26639,Grupo Simpa S A,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,26640,Edelweiss Spedition Srl,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,26641,Dsi Underground Argentina Sa,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,26642,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,26647,Hilado S.A.,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,26646,Chaguar  Sociedad Anonima,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,26643,Chemotecnica Sociedad Anonima,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,26644,Bdfm Sa,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,26645,Bdfm Sa,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26660,Maquinarias Independencia Sa,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26661,Maquinarias Independencia Sa,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26650,Juguetech S A,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26655,Grupo Leal-Tex S.R.L.,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26667,Refractarios Argentinos Saicm,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26662,Maransi S.A.,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26652,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26668,Refractarios Argentinos Saicm,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26651,Pampa Logistica Internacional S.A.,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26663,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26656,Dpmg S.A.,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26653,Mediterranean Shipping Company S A,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26648,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26664,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26657,Dpmg S.A.,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26658,Bulldog Solutions S.A,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26654,Bisora Group S. A.,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26665,Refractarios Argentinos Saicm,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26659,Maquinarias Independencia Sa,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26649,Telamania S.R.L.,0,0,Deposito Avellaneda Sur
-06/08/2025,Facturas A,26666,Refractarios Argentinos Saicm,0,0,Deposito Avellaneda Sur
-06/08/2025,Notas De Debito A,201,Net Quality Srl,127823,0,Deposito Avellaneda Sur
-06/08/2025,Facturas B,17,Asociacion De Los Testigos De Jehova I. E. R.,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26677,Lawter Argentina S.A.,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26670,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26678,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26669,Raisvic Srl,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26679,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26671,Aj Comercio Exterior Srl,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26684,Southcross Logistics  S.A,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26672,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26680,Litoral Citrus S A,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26673,Alimentaria S.A.,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26681,Mediterranean Shipping Company S A,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26674,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26682,Mediterranean Shipping Company S A,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26683,Mediterranean Shipping Company S A,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26675,Ag De Argentina S A,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26676,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26686,Soporte Latinoamerica S.A.S,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26687,Suri Motor Sport S.R.L.,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas A,26685,Dry Sea Srl,0,0,Deposito Avellaneda Sur
-07/08/2025,Notas De Credito A,2064,Lawter Argentina S.A.,0,0,Deposito Avellaneda Sur
-07/08/2025,Notas De Credito A,2065,Chemotecnica Sociedad Anonima,0,0,Deposito Avellaneda Sur
-07/08/2025,Facturas B,18,Asociacion De Los Testigos De Jehova I. E. R.,481950,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26697,Aspee Monee Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26705,Tandem Global Logistics S.A.,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26710,Overprint S.R.L,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26689,Poka S A,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26698,Aspee Monee Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26693,Telamania S.R.L.,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26699,Aspee Monee Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26707,Grouport Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26711,Tipoiti S A T I C,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26712,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26694,Minera Santa Rita Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26700,Industrias Saladillo Sa,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26708,Grouport Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26706,Juguetech S A,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26713,Mediterranean Shipping Company S A,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26701,Bulldog Solutions S.A,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26690,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26714,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26702,Industrias Saladillo Sa,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26691,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26703,Industrias Saladillo Sa,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26715,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26695,Aspee Monee Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26688,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26716,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26692,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26704,Tandem Global Logistics S.A.,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26717,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26696,Aspee Monee Srl,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26709,Lawter Argentina S.A.,0,0,Deposito Avellaneda Sur
-08/08/2025,Facturas A,26718,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26734,Henn Y Cia Srl,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26725,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26731,Telamania S.R.L.,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26735,Henn Y Cia Srl,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26727,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26732,Telamania S.R.L.,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26720,Overprint S.R.L,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26736,Rohlig Argentina S R L,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26726,Uld Global Trade Srl,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26728,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26719,Pantografos Cam Cnc,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26721,Aniceto Gomez S A,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26737,Alimentaria S.A.,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26729,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26722,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26733,Henn Y Cia Srl,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26723,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26730,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26724,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26741,Malu Ma Tex S.A.,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26738,Hilado S.A.,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26739,Ecomet S.R.L.,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas A,26740,Tandem Global Logistics S.A.,0,0,Deposito Avellaneda Sur
-11/08/2025,Notas De Credito A,2066,Industrias Saladillo Sa,0,0,Deposito Avellaneda Sur
-11/08/2025,Facturas De Exportacion,66,Caddell Construction Co. (De) Llc,15912000,0,Deposito Avellaneda Sur
-11/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,188,Grupo Simpa S A,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26756,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26747,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26742,Henn Y Cia Srl,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26751,Southcross Logistics  S.A,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26743,Telamania S.R.L.,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26748,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26752,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26744,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26753,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26749,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26754,Alimentaria S.A.,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26745,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26750,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26757,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26755,Bisora Group S. A.,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26746,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-12/08/2025,Facturas A,26758,Alimentaria S.A.,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26762,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26773,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26763,Mediterranean Shipping Company S A,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26767,Grupo Simpa S A,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26777,Tandem Global Logistics S.A.,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26764,Dpmg S.A.,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26768,Telamania S.R.L.,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26771,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26769,Telamania S.R.L.,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26772,Edelweiss Spedition Srl,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26765,Borax Argentina S A S. A.,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26760,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26770,Dsi Underground Argentina Sa,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26766,Borax Argentina S A S. A.,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26761,Mediterranean Shipping Company S A,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26775,Henn Y Cia Srl,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26759,Linkage Intertrade Srl,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26774,Eagle Service Group Srl,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26776,Hdv Leather Srl,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26780,Malu Ma Tex S.A.,0,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26779,Novelty Trend S.R.L.,2293878,0,Deposito Avellaneda Sur
-13/08/2025,Facturas A,26778,Alsina Motos Srl,1821981,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26801,Borax Argentina S A S. A.,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26783,Casa Rami S.R.L.,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26788,Grouport Srl,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26795,Industrias Saladillo Sa,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26784,Grupo Leal-Tex S.R.L.,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26796,Hdv Leather Srl,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26802,Borax Argentina S A S. A.,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26782,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26789,Southcross Logistics  S.A,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26797,Curtiembre Infante S A,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26790,Be Investment,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26785,Bisora Group S. A.,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26798,Henn Y Cia Srl,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26803,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26786,Mafralac Alimenticia Srl,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26799,Hdv Leather Srl,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26781,Chemotecnica Sociedad Anonima,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26791,Maquinarias Independencia Sa,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26800,Hdv Leather Srl,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26792,Industrias Saladillo Sa,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26793,Industrias Saladillo Sa,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26787,Eagle Service Group Srl,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26804,Chaguar  Sociedad Anonima,0,0,Deposito Avellaneda Sur
-14/08/2025,Facturas A,26794,Industrias Saladillo Sa,0,0,Deposito Avellaneda Sur
-14/08/2025,Notas De Credito A,2068,Pampa Logistica Internacional S.A.,0,0,Deposito Avellaneda Sur
-14/08/2025,Notas De Credito A,2067,Overprint S.R.L,0,0,Deposito Avellaneda Sur
-15/08/2025,Facturas A,26807,Lawter Argentina S.A.,0,0,Deposito Avellaneda Sur
-15/08/2025,Facturas A,26808,Lawter Argentina S.A.,0,0,Deposito Avellaneda Sur
-15/08/2025,Facturas A,26805,Ipa Argentina S A,0,0,Deposito Avellaneda Sur
-15/08/2025,Facturas A,26806,Pelama Chubut Sociedad Anonima,0,0,Deposito Avellaneda Sur
-15/08/2025,Facturas A,26809,Bisora Group S. A.,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26814,Hdv Leather Srl,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26815,Tandem Global Logistics S.A.,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26812,Alsina Motos Srl,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26813,Alfonso Sabbatini E Hijo Srl.,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26810,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26816,Bulldog Solutions S.A,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26811,Espert S.A.,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26817,Curtiembre Infante S A,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26822,Industrias Zapla S. A.,2442882,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26819,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26820,Chaguar  Sociedad Anonima,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26818,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26821,Verde Fuerte Srl,0,0,Deposito Avellaneda Sur
-18/08/2025,Facturas A,26823,Alsina Motos Srl,0,0,Deposito Avellaneda Sur
-18/08/2025,Notas De Credito A,2069,A&S Logistics S.A.,0,0,Deposito Avellaneda Sur
-18/08/2025,Notas De Credito A,2072,Alsina Motos Srl,0,0,Deposito Avellaneda Sur
-18/08/2025,Notas De Credito A,2071,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-18/08/2025,Notas De Credito A,2070,Aceros Zapla S A,-2442882,0,Deposito Avellaneda Sur
-19/08/2025,Facturas A,26829,Hdv Leather Srl,0,0,Deposito Avellaneda Sur
-19/08/2025,Facturas A,26826,Fijaciones Py S . A .,0,0,Deposito Avellaneda Sur
-19/08/2025,Facturas A,26830,Hdv Leather Srl,0,0,Deposito Avellaneda Sur
-19/08/2025,Facturas A,26831,Dsi Underground Argentina Sa,0,0,Deposito Avellaneda Sur
-19/08/2025,Facturas A,26827,Alsina Motos Srl,0,0,Deposito Avellaneda Sur
-19/08/2025,Facturas A,26832,Dsi Underground Argentina Sa,0,0,Deposito Avellaneda Sur
-19/08/2025,Facturas A,26833,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-19/08/2025,Facturas A,26828,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-19/08/2025,Facturas A,26824,Comtec S. A.,0,0,Deposito Avellaneda Sur
-19/08/2025,Facturas A,26825,Pampa Logistica Internacional S.A.,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26836,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26837,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26840,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26844,Alimentaria S.A.,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26847,Henn Y Cia Srl,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26838,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26841,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26845,Alimentaria S.A.,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26848,Henn Y Cia Srl,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26834,Trice Transport Company S.R.L.,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26842,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26846,Hdv Leather Srl,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26839,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26835,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26843,Smart Logistics S.A.,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26851,Grupo Simpa S A,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26852,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26853,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26850,Arauco Argentina S.A,0,0,Deposito Avellaneda Sur
-20/08/2025,Facturas A,26849,Alimentaria S.A.,0,0,Deposito Avellaneda Sur
-20/08/2025,Notas De Credito A,2073,Comtec S. A.,0,0,Deposito Avellaneda Sur
-20/08/2025,Notas De Credito A,2074,Danisco Argentina Sa,0,0,Deposito Avellaneda Sur
-20/08/2025,Notas De Credito Por Operaciones Con El Exterior,4,Caddell Construction Co. (De) Llc,15912000,0,Deposito Avellaneda Sur
-21/08/2025,Facturas A,26859,Grouport Srl,0,0,Deposito Avellaneda Sur
-21/08/2025,Facturas A,26860,Pelama Chubut Sociedad Anonima,0,0,Deposito Avellaneda Sur
-21/08/2025,Facturas A,26861,Blue Mail Sociedad Anonima,0,0,Deposito Avellaneda Sur
-21/08/2025,Facturas A,26854,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-21/08/2025,Facturas A,26864,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-21/08/2025,Facturas A,26855,Alimentaria S.A.,0,0,Deposito Avellaneda Sur
-21/08/2025,Facturas A,26862,Chaguar  Sociedad Anonima,0,0,Deposito Avellaneda Sur
-21/08/2025,Facturas A,26856,Protan S A,0,0,Deposito Avellaneda Sur
-21/08/2025,Facturas A,26857,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-21/08/2025,Facturas A,26858,Cosmopolitan Sociedad Anonima,0,0,Deposito Avellaneda Sur
-21/08/2025,Facturas A,26863,Poka S A,0,0,Deposito Avellaneda Sur
-22/08/2025,Facturas A,26869,Henn Y Cia Srl,0,0,Deposito Avellaneda Sur
-22/08/2025,Facturas A,26865,Dalies Fernando Ruben,0,0,Deposito Avellaneda Sur
-22/08/2025,Facturas A,26870,Berkma S A,0,0,Deposito Avellaneda Sur
-22/08/2025,Facturas A,26871,Poka S A,0,0,Deposito Avellaneda Sur
-22/08/2025,Facturas A,26872,Borax Argentina S A S. A.,0,0,Deposito Avellaneda Sur
-22/08/2025,Facturas A,26866,Hellmann Worldwide Logistics  Sociedad Anonima,0,0,Deposito Avellaneda Sur
-22/08/2025,Facturas A,26873,Luial S A,0,0,Deposito Avellaneda Sur
-22/08/2025,Facturas A,26867,Raisvic Srl,0,0,Deposito Avellaneda Sur
-22/08/2025,Facturas A,26868,Servicio Internacional De Fletes Sa,0,0,Deposito Avellaneda Sur
-22/08/2025,Facturas A,26874,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26875,Dalies Fernando Ruben,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26880,Awam Tex S.R.L.,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26890,Dsi Underground Argentina Sa,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26888,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26884,Pelama Chubut Sociedad Anonima,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26881,Taeda S A,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26879,Neocargo Sa,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26877,Harbor Express S.A.,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26885,Borax Argentina S A S. A.,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26889,Aceptyourdestiny,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26878,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26886,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26876,Puglisi Diego Martin,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26882,Industrias Saladillo Sa,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26883,Pelama Chubut Sociedad Anonima,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26887,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26891,Poka S A,0,0,Deposito Avellaneda Sur
-25/08/2025,Facturas A,26892,Dsi Underground Argentina Sa,0,0,Deposito Avellaneda Sur
-25/08/2025,Notas De Credito A,2075,Taeda S A,0,0,Deposito Avellaneda Sur
-25/08/2025,Notas De Credito A,2078,Mediterranean Shipping Company S A,0,0,Deposito Avellaneda Sur
-25/08/2025,Notas De Credito A,2079,Mediterranean Shipping Company S A,0,0,Deposito Avellaneda Sur
-25/08/2025,Notas De Credito A,2080,Manufacturas Los Andes S.A,0,0,Deposito Avellaneda Sur
-25/08/2025,Notas De Credito A,2076,Mediterranean Shipping Company S A,0,0,Deposito Avellaneda Sur
-25/08/2025,Notas De Credito A,2077,Mediterranean Shipping Company S A,0,0,Deposito Avellaneda Sur
-26/08/2025,Facturas A,26895,Borax Argentina S A S. A.,0,0,Deposito Avellaneda Sur
-26/08/2025,Facturas A,26898,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-26/08/2025,Facturas A,26899,La Tela S.R.L.,0,0,Deposito Avellaneda Sur
-26/08/2025,Facturas A,26900,Jupam Sa,0,0,Deposito Avellaneda Sur
-26/08/2025,Facturas A,26893,Mundial  S A,0,0,Deposito Avellaneda Sur
-26/08/2025,Facturas A,26901,Luial S A,0,0,Deposito Avellaneda Sur
-26/08/2025,Facturas A,26896,Levy Jonathan Netanel,0,0,Deposito Avellaneda Sur
-26/08/2025,Facturas A,26902,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-26/08/2025,Facturas A,26897,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-26/08/2025,Facturas A,26894,Minera Santa Rita Srl,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26906,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26909,Grouport Srl,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26913,Be Investment,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26910,Grass S. R. L.,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26907,Poka S A,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26908,Mercovan Argentina S.A.,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26903,Liftvan International Company S A C,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26905,Tavasci Mena Mariana Andrea,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26911,Baires International Transport S.R.L.,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26904,Newtral  S.A.,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26912,Hdv Leather Srl,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26914,Santana Textil Chaco Sa,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26915,Linkage Intertrade Srl,0,0,Deposito Avellaneda Sur
-27/08/2025,Facturas A,26916,Pampa Logistica Internacional S.A.,0,0,Deposito Avellaneda Sur
-27/08/2025,Notas De Credito A,2081,Alimentaria S.A.,0,0,Deposito Avellaneda Sur
-27/08/2025,Notas De Credito A,2082,Alimentaria S.A.,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26917,Grouport Srl,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26926,Uld Global Trade Srl,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26920,Pezzelatto Jorge Facundo,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26918,Cordova Camila Valeria,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26927,Borax Argentina S A S. A.,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26928,Telamania S.R.L.,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26921,Edificios Comahue Sociedad De Responsabilidad Limitada.,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26934,Maquinarias Independencia Sa,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26935,Henn Y Cia Srl,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26929,Maquinarias Independencia Sa,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26922,Alimentaria S.A.,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26930,Maquinarias Independencia Sa,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26923,Alimentaria S.A.,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26931,Presmar Sociedad Anonima,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26919,Lawter Argentina S.A.,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26932,Maquinarias Independencia Sa,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26924,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26933,Maquinarias Independencia Sa,0,0,Deposito Avellaneda Sur
-28/08/2025,Facturas A,26925,Bisora Group S. A.,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26936,Borax Argentina S A S. A.,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26951,Mma Tex S.A.,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26944,Javier Luque S.R.L.,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26937,Minera Santa Rita Srl,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26952,Cargocorp Argentina,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26945,Henn Y Cia Srl,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26938,Minera Santa Rita Srl,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26940,Verde Fuerte Srl,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26953,Dry Sea Srl,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26946,Grupo In 360,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26941,Tipoiti S A T I C,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26947,Npg Internacional S. R. L.,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26942,Newtral  S.A.,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26948,Maquinarias Independencia Sa,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26949,Maquinarias Independencia Sa,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26943,Global Rover Logistic Srl,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26939,Grupo Simpa S A,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26950,Henn Y Cia Srl,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26955,Linkage Intertrade Srl,0,0,Deposito Avellaneda Sur
-29/08/2025,Facturas A,26954,Cargocorp Argentina,0,0,Deposito Avellaneda Sur
-29/08/2025,Notas De Credito A,2084,Telefonica Moviles Argentina Sociedad Anonima,0,0,Deposito Avellaneda Sur
-29/08/2025,Notas De Credito A,2083,Minera Santa Rita Srl,0,0,Deposito Avellaneda Sur
-29/08/2025,Notas De Credito A,2085,Yamaha Motor Argentina Sa,0,0,Deposito Avellaneda Sur
-05/08/2025,Facturas A,157,Scania Argentina S. A. U.,0,0,Edelweiss Spedition
-05/08/2025,Facturas A,158,Kunze S.R.L.,0,0,Edelweiss Spedition
-11/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,71,Tecpetrol S A,13777140,0,Edelweiss Spedition
-20/08/2025,Facturas A,159,Nuevas Fronteras Sa,0,0,Edelweiss Spedition
-21/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,72,Siemens Energy S.A.,6056890,0,Edelweiss Spedition
-25/08/2025,Facturas A,160,Evergreen Shipping Agency Argentina S.A.,0,0,Edelweiss Spedition
-26/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,73,Tecpetrol S A,14088840,0,Edelweiss Spedition
-26/08/2025,Nota De Credito Electrónica Mipymes (Fce) A,9,Tecpetrol S A,13777140,0,Edelweiss Spedition
-11/08/2025,Facturas De Exportacion,1,Caddell Construction Co. (De) Llc,15912000,0,El Llamito
-01/08/2025,Facturas A,261,Plaquimet Sa,0,0,El Marques
-01/08/2025,Facturas A,262,Liftvan International Company S A C,0,0,El Marques
-01/08/2025,Facturas A,260,M.S. Technologies Argentina S.R.L.,0,0,El Marques
-04/08/2025,Facturas B,549,Ibarra Justo Javier,150000,0,Hermosalta SRL
-06/08/2025,Facturas B,551,Acosta Mauro Ismael,252000,0,Hermosalta SRL
-06/08/2025,Facturas B,550,Lopez Lorena Estrella,150000,0,Hermosalta SRL
-09/08/2025,Facturas B,552,Ibarra Justo Javier,150000,0,Hermosalta SRL
-11/08/2025,Facturas B,553,Lopez Lorena Estrella,300000,0,Hermosalta SRL
-18/08/2025,Facturas B,554,Ibarra Justo Javier,150000,0,Hermosalta SRL
-18/08/2025,Facturas B,555,Acosta Mauro Ismael,666000,0,Hermosalta SRL
-19/08/2025,Facturas B,556,Utradial Srl,358177,0,Hermosalta SRL
-20/08/2025,Facturas B,557,Teran Hanna Nicol,150000,0,Hermosalta SRL
-21/08/2025,Facturas B,559,Ibarra Justo Javier,150000,0,Hermosalta SRL
-21/08/2025,Facturas B,558,Paludi Armando Pascual,144000,0,Hermosalta SRL
-26/08/2025,Facturas B,560,Ibarra Justo Javier,150000,0,Hermosalta SRL
-27/08/2025,Facturas B,561,Tarifa Sofia Del Milagro,150000,0,Hermosalta SRL
-29/08/2025,Facturas B,563,Domene Emilio,150000,0,Hermosalta SRL
-29/08/2025,Facturas B,562,Ibarra Justo Javier,258000,0,Hermosalta SRL
-30/08/2025,Facturas B,564,Ibarra Justo Javier,150000,0,Hermosalta SRL
-01/08/2025,Facturas A,37,Stine Seed Argentina S.R.L.,0,0,L A R M Argentina
-05/08/2025,Facturas A,5506,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-05/08/2025,Facturas A,5507,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-05/08/2025,Facturas A,5508,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-05/08/2025,Notas De Credito A,530,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-05/08/2025,Facturas B,419,Barrea Ciro Octavio,0,0,L A R M Argentina
-05/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,303,Ldc Argentina S.A.,14040000,0,L A R M Argentina
-06/08/2025,Facturas A,5510,Chevron Argentina Sociedad De Responsabilidad Limitada,0,0,L A R M Argentina
-06/08/2025,Facturas A,5509,Schlumberger Argentina S. A.,959804,0,L A R M Argentina
-07/08/2025,Facturas A,5522,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5511,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5523,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5512,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5516,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5524,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5513,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5517,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5525,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5518,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5514,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5526,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5519,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5515,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5527,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5520,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5528,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-07/08/2025,Facturas A,5521,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-11/08/2025,Facturas A,5542,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5534,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5535,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5529,Liftvan International Company S A C,1756579,0,L A R M Argentina
-11/08/2025,Facturas A,5544,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5536,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5537,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5538,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5543,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5530,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5539,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5540,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5531,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5541,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Facturas A,5532,Chevron Argentina Sociedad De Responsabilidad Limitada,0,0,L A R M Argentina
-11/08/2025,Facturas A,5533,Chevron Argentina Sociedad De Responsabilidad Limitada,0,0,L A R M Argentina
-11/08/2025,Notas De Credito A,531,Tecpetrol S A,0,0,L A R M Argentina
-11/08/2025,Notas De Credito A,533,Chevron Argentina Sociedad De Responsabilidad Limitada,0,0,L A R M Argentina
-11/08/2025,Notas De Credito A,532,Chevron Argentina Sociedad De Responsabilidad Limitada,0,0,L A R M Argentina
-12/08/2025,Facturas A,5545,Exxonmobil Business Support Center Argentina Srl,0,0,L A R M Argentina
-12/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,304,Schlumberger Argentina S. A.,4141604,0,L A R M Argentina
-14/08/2025,Facturas A,5546,Massalin Particulares S. R. L.,838500,0,L A R M Argentina
-18/08/2025,Facturas B,420,Sandro Vinces Reyna,8500,0,L A R M Argentina
-19/08/2025,Facturas A,5547,Schlumberger Argentina S. A.,545102,0,L A R M Argentina
-20/08/2025,Facturas A,5548,Liftvan International Company S A C,100000,0,L A R M Argentina
-25/08/2025,Facturas A,5563,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5561,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5556,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5549,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5564,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5565,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5562,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5557,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5566,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5552,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5567,Ldc Argentina S.A.,3510000,0,L A R M Argentina
-25/08/2025,Facturas A,5550,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5558,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5553,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5551,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5559,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5554,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5560,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas A,5555,Schlumberger Argentina S. A.,0,0,L A R M Argentina
-25/08/2025,Facturas B,421,Barrea Ciro Octavio,0,0,L A R M Argentina
-26/08/2025,Facturas A,5568,Schlumberger Argentina S. A.,829102,0,L A R M Argentina
-28/08/2025,Facturas A,5569,Wintershall Dea Argentina S.A,157000,0,L A R M Argentina
-29/08/2025,Facturas A,5570,Team Uno Srl,0,0,L A R M Argentina
-29/08/2025,Facturas A,5571,Massalin Particulares S. R. L.,0,0,L A R M Argentina
-04/08/2025,Facturas A,2985,Mercovan Argentina S.A.,52940,0,Leoni Maria Jose
-04/08/2025,Facturas A,2986,Mercovan Argentina S.A.,30490,0,Leoni Maria Jose
-04/08/2025,Facturas A,2987,Mercovan Argentina S.A.,30490,0,Leoni Maria Jose
-04/08/2025,Facturas A,2988,Mercovan Argentina S.A.,25430,0,Leoni Maria Jose
-04/08/2025,Facturas B,1681,Spangenberg Eduardo,53570,0,Leoni Maria Jose
-05/08/2025,Facturas A,2989,Argenbrokers S.A.,53570,0,Leoni Maria Jose
-06/08/2025,Facturas A,2994,Fuego Red S. A.,454304,0,Leoni Maria Jose
-06/08/2025,Facturas A,2995,Secar Security Sur S. A.,702262,0,Leoni Maria Jose
-06/08/2025,Facturas A,2996,Secar Security Servicios S. A.,560742,0,Leoni Maria Jose
-06/08/2025,Facturas A,2997,Trailback S.A.,612559,0,Leoni Maria Jose
-06/08/2025,Facturas A,2998,Secar Security Countries S. A.,595580,0,Leoni Maria Jose
-06/08/2025,Facturas A,2999,Seguridad Argentina Sa,759377,0,Leoni Maria Jose
-06/08/2025,Facturas A,3000,Secar Security Buenos Aires S. A.,634812,0,Leoni Maria Jose
-06/08/2025,Facturas A,2990,Secar Security Argentina S. A.,1546193,0,Leoni Maria Jose
-06/08/2025,Facturas A,2991,Consultora Videco S. A.,648611,0,Leoni Maria Jose
-06/08/2025,Facturas A,2992,Vigilan S.A.,801535,0,Leoni Maria Jose
-06/08/2025,Facturas A,2993,A I P A A Agencia De Investigaciones Privadas Autorizada America Sociedad Anonima,900090,0,Leoni Maria Jose
-07/08/2025,Facturas A,3001,Deposito Avellaneda Sur S.A.,51450,0,Leoni Maria Jose
-07/08/2025,Facturas A,3002,Don Luis Esteban S A,32027,0,Leoni Maria Jose
-07/08/2025,Facturas B,1682,De Royere Gerardo Juan Maria,58830,0,Leoni Maria Jose
-11/08/2025,Facturas A,3003,Soma S. R. L.,6289,0,Leoni Maria Jose
-11/08/2025,Facturas B,1683,Conde Diego Rodolfo,137560,0,Leoni Maria Jose
-13/08/2025,Facturas B,1684,Marsala Andres,171819,0,Leoni Maria Jose
-20/08/2025,Facturas A,3004,Estancia El Dulce  S A,3919,0,Leoni Maria Jose
-21/08/2025,Facturas B,1685,Mendilaharzu Javier Alejandro,1937761,0,Leoni Maria Jose
-21/08/2025,Facturas B,1686,Scaa Hospitality S.L,2753088,0,Leoni Maria Jose
-22/08/2025,Facturas B,1687,Scaa Hospitality S.L,3266460,0,Leoni Maria Jose
-22/08/2025,Notas De Credito B,105,Scaa Hospitality S.L,-2753088,0,Leoni Maria Jose
-26/08/2025,Facturas A,3007,Bazooka Realty S.R.L.,47219,0,Leoni Maria Jose
-26/08/2025,Facturas A,3008,Liftvan International Company S A C,77100,0,Leoni Maria Jose
-26/08/2025,Facturas A,3005,Ledesma Jorge Nicolas,606235,0,Leoni Maria Jose
-26/08/2025,Facturas A,3006,Ledesma Jorge Nicolas,1392350,0,Leoni Maria Jose
-27/08/2025,Facturas A,3012,Tresnal Agropecuaria S.A.,6289,0,Leoni Maria Jose
-27/08/2025,Facturas A,3010,Indave S A,35670,0,Leoni Maria Jose
-27/08/2025,Facturas A,3011,Naikoa S.A.,5290,0,Leoni Maria Jose
-27/08/2025,Facturas A,3009,Indave Patagonico Sociedad Anonima,35670,0,Leoni Maria Jose
-27/08/2025,Notas De Credito A,156,Indave Patagonico Sociedad Anonima,-35670,0,Leoni Maria Jose
-27/08/2025,Facturas B,1688,Uruguay,71340,0,Leoni Maria Jose
-01/08/2025,Facturas A,2541,Natura Cosmeticos  Sa,30360,0,Liftvan International
-01/08/2025,Facturas A,2542,Natura Cosmeticos  Sa,211140,0,Liftvan International
-01/08/2025,Notas De Credito A,318,Natura Cosmeticos  Sa,-184365,0,Liftvan International
-01/08/2025,Facturas B,4868,Embajada De Los Ee Uu De Norteamerica,2405000,0,Liftvan International
-01/08/2025,Facturas B,4866,Embajada De Los Ee Uu De Norteamerica,0,0,Liftvan International
-01/08/2025,Facturas B,4870,Estados Unidos,3531420,0,Liftvan International
-01/08/2025,Facturas B,4871,Estados Unidos,1518000,0,Liftvan International
-01/08/2025,Facturas B,4869,Embajada De Los Ee Uu De Norteamerica,0,0,Liftvan International
-01/08/2025,Facturas B,4873,Estados Unidos,6003000,0,Liftvan International
-01/08/2025,Facturas B,4867,Embajada De Los Ee Uu De Norteamerica,569231,0,Liftvan International
-01/08/2025,Facturas B,4872,Reino Unido,9660000,0,Liftvan International
-05/08/2025,Facturas B,4875,Embajada De Los Ee Uu De Norteamerica,691950,0,Liftvan International
-05/08/2025,Facturas B,4874,Embajada De Los Ee Uu De Norteamerica,0,0,Liftvan International
-06/08/2025,Facturas B,4876,Kochian Santiago Andres,252970,0,Liftvan International
-06/08/2025,Notas De Credito B,333,-,-3187864,0,Liftvan International
-06/08/2025,Notas De Credito B,334,Embajada De La Republica Federal De Alemania,0,0,Liftvan International
-07/08/2025,Facturas B,4877,Estados Unidos,1698735,0,Liftvan International
-07/08/2025,Facturas B,4878,Estados Unidos,4761300,0,Liftvan International
-07/08/2025,Notas De Credito B,335,De Noia Josue Gabriel,-399373,0,Liftvan International
-08/08/2025,Facturas B,4880,Estados Unidos,11390000,0,Liftvan International
-08/08/2025,Facturas B,4879,Estados Unidos,18920800,0,Liftvan International
-08/08/2025,Notas De Credito B,336,Estados Unidos,-804000,0,Liftvan International
-11/08/2025,Facturas A,2543,Muy Mucho S.R.L.,14228430,0,Liftvan International
-11/08/2025,Facturas A,2544,Natura Cosmeticos  Sa,1765362,0,Liftvan International
-11/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,488,Ypf Sociedad Anonima,671014,0,Liftvan International
-11/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,487,Schlumberger Argentina S. A.,0,0,Liftvan International
-12/08/2025,Facturas B,4881,Estados Unidos,407175,0,Liftvan International
-13/08/2025,Facturas A,2545,Natura Cosmeticos  Sa,123690,0,Liftvan International
-13/08/2025,Notas De Debito A,40,Tecplata S.A.,5688,0,Liftvan International
-13/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,489,Natura Cosmeticos  Sa,24738000,0,Liftvan International
-13/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,490,Delivery Hero E-Commerce S. A.,65170,0,Liftvan International
-14/08/2025,Facturas B,4883,Embajada De Los Ee Uu De Norteamerica,4626043,0,Liftvan International
-14/08/2025,Facturas B,4886,Embajada De Los Ee Uu De Norteamerica,5517319,0,Liftvan International
-14/08/2025,Facturas B,4884,Embajada De Los Ee Uu De Norteamerica,0,0,Liftvan International
-14/08/2025,Facturas B,4885,Embajada De Los Ee Uu De Norteamerica,0,0,Liftvan International
-14/08/2025,Facturas B,4882,Luce Maria Florencia,0,0,Liftvan International
-18/08/2025,Notas De Credito B,337,Reino Unido,-9660000,0,Liftvan International
-19/08/2025,Facturas A,2546,Renault Argentina S.A,2630,0,Liftvan International
-19/08/2025,Facturas B,4887,Estados Unidos,14184905,0,Liftvan International
-20/08/2025,Facturas A,2547,Natura Cosmeticos  Sa,100000,0,Liftvan International
-20/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,491,Natura Cosmeticos  Sa,5071010,0,Liftvan International
-21/08/2025,Facturas A,2548,Nabors International Argentina S.R.L.,0,0,Liftvan International
-21/08/2025,Notas De Debito A,41,Tecplata S.A.,5371,0,Liftvan International
-21/08/2025,Facturas B,4889,Vallejos Miguel Angel,0,0,Liftvan International
-21/08/2025,Facturas B,4888,Perez Varela Mariano Federico,892885,0,Liftvan International
-22/08/2025,Facturas A,2549,Ypf Sociedad Anonima,3294655,0,Liftvan International
-22/08/2025,Facturas A,2550,Ypf Sociedad Anonima,3378235,0,Liftvan International
-27/08/2025,Facturas B,4890,Suecia,3582550,0,Liftvan International
-27/08/2025,Facturas B,4891,Romano Argañaraz Natalia Beatriz,2339172,0,Liftvan International
-28/08/2025,Notas De Credito A,319,Nabors International Argentina S.R.L.,0,0,Liftvan International
-29/08/2025,Facturas A,2551,Robert Bosch Argentina Industrial Sa,0,0,Liftvan International
-29/08/2025,Facturas A,2552,Robert Bosch Argentina Industrial Sa,0,0,Liftvan International
-29/08/2025,Notas De Credito A,320,Bosch Rexroth Saic,-19422,0,Liftvan International
-29/08/2025,Notas De Credito A,321,Bosch Rexroth Saic,-19422,0,Liftvan International
-31/08/2025,Facturas A,2553,Deposito Avellaneda Sur S.A.,682034,0,Liftvan International
-04/08/2025,Facturas A,2315,Posco Argentina Sau,0,0,Mercovan Argentina
-04/08/2025,Facturas A,2316,Durlock Sociedad Anonima,0,0,Mercovan Argentina
-04/08/2025,Facturas A,2314,Schlumberger Argentina S. A.,0,0,Mercovan Argentina
-04/08/2025,Facturas B,2750,-,2062500,0,Mercovan Argentina
-04/08/2025,Facturas B,2751,-,6228750,0,Mercovan Argentina
-05/08/2025,Facturas A,2317,Samsung Electronics Argentina S A,0,0,Mercovan Argentina
-05/08/2025,Facturas A,2318,Lg Electronics Argentina S.A.,0,0,Mercovan Argentina
-06/08/2025,Facturas A,2319,Posco Argentina Sau,0,0,Mercovan Argentina
-06/08/2025,Facturas B,2752,-,1188081,0,Mercovan Argentina
-06/08/2025,Facturas B,2753,-,0,0,Mercovan Argentina
-06/08/2025,Facturas B,2754,-,0,0,Mercovan Argentina
-07/08/2025,Facturas A,2320,Posco Argentina Sau,0,0,Mercovan Argentina
-07/08/2025,Facturas A,2321,Fundacion Malba,0,0,Mercovan Argentina
-12/08/2025,Facturas A,2322,L'Oreal Argentina Sociedad Anonima,0,0,Mercovan Argentina
-12/08/2025,Facturas B,2755,-,648810,0,Mercovan Argentina
-14/08/2025,Facturas A,2323,Comercializadora Online Sa,0,0,Mercovan Argentina
-14/08/2025,Facturas A,2325,Fundacion Malba,0,0,Mercovan Argentina
-14/08/2025,Facturas A,2324,Armadora Acrux Sociedad Anonima,0,0,Mercovan Argentina
-14/08/2025,Notas De Credito A,164,Fundacion Malba,0,0,Mercovan Argentina
-14/08/2025,Facturas B,2756,-,3047500,0,Mercovan Argentina
-14/08/2025,Facturas B,2757,-,861250,0,Mercovan Argentina
-18/08/2025,Facturas A,2327,Total Austral Sociedad Anonima Sucursal Argentina,0,0,Mercovan Argentina
-18/08/2025,Facturas A,2326,Total Austral Sociedad Anonima Sucursal Argentina,0,0,Mercovan Argentina
-18/08/2025,Facturas B,2758,-,655000,0,Mercovan Argentina
-18/08/2025,Facturas B,2759,-,1572000,0,Mercovan Argentina
-18/08/2025,Facturas B,2760,-,1048000,0,Mercovan Argentina
-18/08/2025,Facturas B,2761,-,1310000,0,Mercovan Argentina
-20/08/2025,Facturas A,2328,Schlumberger Argentina S. A.,0,0,Mercovan Argentina
-20/08/2025,Facturas A,2329,Schlumberger Argentina S. A.,0,0,Mercovan Argentina
-20/08/2025,Facturas B,2762,-,895860,0,Mercovan Argentina
-22/08/2025,Facturas A,2330,Desarrollos Sucre Sa,0,0,Mercovan Argentina
-25/08/2025,Facturas A,2331,Schlumberger Argentina S. A.,0,0,Mercovan Argentina
-25/08/2025,Facturas A,2333,Total Austral Sociedad Anonima Sucursal Argentina,0,0,Mercovan Argentina
-25/08/2025,Facturas A,2334,Total Austral Sociedad Anonima Sucursal Argentina,0,0,Mercovan Argentina
-25/08/2025,Facturas A,2332,Posco Argentina Sau,0,0,Mercovan Argentina
-25/08/2025,Facturas A,2335,Samsung Electronics Argentina S A,0,0,Mercovan Argentina
-25/08/2025,Facturas A,2336,Patagonia Sur S.A.S.,0,0,Mercovan Argentina
-25/08/2025,Facturas B,2763,Embajada De Los Ee Uu De Norteamerica,0,0,Mercovan Argentina
-25/08/2025,Facturas B,2764,Embajada De Los Ee Uu De Norteamerica,739815,0,Mercovan Argentina
-25/08/2025,Facturas B,2768,-,6834000,0,Mercovan Argentina
-25/08/2025,Facturas B,2765,-,737000,0,Mercovan Argentina
-25/08/2025,Facturas B,2766,-,2010000,0,Mercovan Argentina
-25/08/2025,Facturas B,2767,-,1072000,0,Mercovan Argentina
-26/08/2025,Facturas B,2769,-,4041500,0,Mercovan Argentina
-27/08/2025,Facturas A,2337,Posco Argentina Sau,0,0,Mercovan Argentina
-27/08/2025,Facturas B,2770,Agencia Cordoba Cultura Sociedad Del Estado,0,0,Mercovan Argentina
-29/08/2025,Facturas A,2338,Comercializadora Online Sa,0,0,Mercovan Argentina
-29/08/2025,Facturas A,2339,Deposito Avellaneda Sur S.A.,0,0,Mercovan Argentina
-29/08/2025,Notas De Credito A,165,Comercializadora Online Sa,0,0,Mercovan Argentina
-29/08/2025,Facturas B,2771,-,2928065,0,Mercovan Argentina
-29/08/2025,Facturas B,2772,-,0,0,Mercovan Argentina
-29/08/2025,Facturas B,2773,Lescaux Julien Thomas Mathias,0,0,Mercovan Argentina
-08/08/2025,Facturas A,90,Probelt Srl,0,0,Nerococina
-08/08/2025,Facturas A,89,Pole Position Coffee,0,0,Nerococina
-04/08/2025,Facturas A,127,Grupo Carpi S.R.L,0,0,U-Bros
-08/08/2025,Factura De Crédito Electrónica Mipymes (Fce) A,65,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,0,0,U-Bros
-22/08/2025,Facturas A,32,Auto Fix Stephe S.R.L.,0,0,Ulog
-28/08/2025,Facturas A,33,Interborders Srl,0,0,Ulog
-11/08/2025,Facturas A,7,Capital Markets Argentina S.A.,0,0,Valenzuela Ricardo Patricio
-01/08/2025,Facturas B,2797,-,0,0,Viñas En Flor
-01/08/2025,Facturas B,2796,-,0,0,Viñas En Flor
-01/08/2025,Facturas B,2798,-,0,0,Viñas En Flor
-02/08/2025,Facturas A,39,Cruz Jose Guillermo,0,0,Viñas En Flor
-02/08/2025,Facturas A,38,Lute S.A.S.,0,0,Viñas En Flor
-02/08/2025,Facturas A,723,Suero Miguel Alejandro,0,0,Viñas En Flor
-02/08/2025,Facturas A,722,Ovc S.A.,0,0,Viñas En Flor
-02/08/2025,Facturas B,2802,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24880,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24890,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24895,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,2803,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24896,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24887,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24883,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24884,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24897,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24885,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24898,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24878,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24879,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24888,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24899,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24889,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24893,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24900,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24881,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24882,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24901,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24894,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,2799,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,2805,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24891,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,2800,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24902,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,2804,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,2801,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24886,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24877,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24876,-,0,0,Viñas En Flor
-02/08/2025,Facturas B,24892,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24917,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24918,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24921,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24906,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24907,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24908,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24923,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24909,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24911,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24924,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24915,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24925,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24926,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24919,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24916,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24922,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24920,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24903,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24910,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24927,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24904,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24905,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24912,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24913,-,0,0,Viñas En Flor
-03/08/2025,Facturas B,24914,-,0,0,Viñas En Flor
-04/08/2025,Facturas A,724,Fratres S.R.L.,0,0,Viñas En Flor
-04/08/2025,Facturas A,725,Uma Travel Srl,0,0,Viñas En Flor
-04/08/2025,Facturas A,723,Kallpa Tour Operator Srl,0,0,Viñas En Flor
-04/08/2025,Notas De Credito A,68,Uma Travel Srl,0,0,Viñas En Flor
-04/08/2025,Notas De Credito A,69,Uma Travel Srl,0,0,Viñas En Flor
-04/08/2025,Facturas B,24929,-,0,0,Viñas En Flor
-04/08/2025,Facturas B,24931,-,0,0,Viñas En Flor
-04/08/2025,Facturas B,24928,-,0,0,Viñas En Flor
-04/08/2025,Facturas B,24930,-,0,0,Viñas En Flor
-04/08/2025,Facturas B,24933,-,0,0,Viñas En Flor
-04/08/2025,Facturas B,24934,-,0,0,Viñas En Flor
-04/08/2025,Facturas B,24932,-,0,0,Viñas En Flor
-04/08/2025,Facturas B,24936,-,0,0,Viñas En Flor
-04/08/2025,Facturas B,24935,-,0,0,Viñas En Flor
-06/08/2025,Facturas A,724,Distlit S.A.S.,0,0,Viñas En Flor
-06/08/2025,Facturas A,725,Distlit S.A.S.,0,0,Viñas En Flor
-06/08/2025,Facturas A,40,Sola Roberto Gustavo,0,0,Viñas En Flor
-06/08/2025,Facturas B,24944,-,0,0,Viñas En Flor
-06/08/2025,Facturas B,24939,-,0,0,Viñas En Flor
-06/08/2025,Facturas B,24940,-,0,0,Viñas En Flor
-06/08/2025,Facturas B,24938,-,0,0,Viñas En Flor
-06/08/2025,Facturas B,24945,-,0,0,Viñas En Flor
-06/08/2025,Facturas B,24947,-,0,0,Viñas En Flor
-06/08/2025,Facturas B,24946,-,0,0,Viñas En Flor
-06/08/2025,Facturas B,24942,-,0,0,Viñas En Flor
-06/08/2025,Facturas B,24937,-,0,0,Viñas En Flor
-06/08/2025,Facturas B,24948,-,0,0,Viñas En Flor
-06/08/2025,Facturas B,24941,-,0,0,Viñas En Flor
-06/08/2025,Facturas B,24943,-,0,0,Viñas En Flor
-06/08/2025,Notas De Credito B,167,-,0,0,Viñas En Flor
-07/08/2025,Facturas A,726,Carapari S. A.,0,0,Viñas En Flor
-07/08/2025,Facturas B,24963,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24953,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24958,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24951,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24950,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24954,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24949,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24955,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24956,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24959,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24957,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24960,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24961,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24952,-,0,0,Viñas En Flor
-07/08/2025,Facturas B,24962,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,24973,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,24969,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,24970,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,24974,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,24966,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,2807,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,24968,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,24971,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,24965,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,24967,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,24964,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,2806,-,0,0,Viñas En Flor
-08/08/2025,Facturas B,24972,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24985,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,25006,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24975,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24981,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24977,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24986,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24976,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24984,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,2808,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24992,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24987,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24993,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,25010,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,2809,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24999,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,25000,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24994,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24988,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24989,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24995,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,25007,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24996,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24978,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24979,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24997,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24982,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,25008,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24990,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,25002,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,25003,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,25004,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24980,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,25001,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24998,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24983,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,2810,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,24991,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,25009,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,25005,-,0,0,Viñas En Flor
-09/08/2025,Facturas B,2811,-,0,0,Viñas En Flor
-09/08/2025,Notas De Credito B,168,-,0,0,Viñas En Flor
-10/08/2025,Facturas A,727,Tekno Arquitectura S R L,0,0,Viñas En Flor
-10/08/2025,Facturas B,25013,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,25012,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,25014,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,25016,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,2813,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,25021,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,25015,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,25019,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,25022,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,25017,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,25011,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,25020,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,2812,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,25018,-,0,0,Viñas En Flor
-10/08/2025,Facturas B,25023,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25028,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25025,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25040,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25029,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25024,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25032,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25034,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,2815,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25026,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25044,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25035,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,2814,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25043,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25037,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25041,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,2818,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25033,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25036,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25039,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25042,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25030,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25031,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25038,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25027,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,2816,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,2817,-,0,0,Viñas En Flor
-11/08/2025,Facturas B,25045,-,0,0,Viñas En Flor
-13/08/2025,Facturas A,727,Turismo Del Norte Sociedad Anonima,0,0,Viñas En Flor
-13/08/2025,Facturas A,728,Pecarrere Emanuel,0,0,Viñas En Flor
-13/08/2025,Facturas A,726,Los Nenecos S.R.L.,0,0,Viñas En Flor
-13/08/2025,Facturas B,25046,-,0,0,Viñas En Flor
-13/08/2025,Facturas B,2819,-,0,0,Viñas En Flor
-13/08/2025,Facturas B,25047,-,0,0,Viñas En Flor
-13/08/2025,Facturas B,25054,-,0,0,Viñas En Flor
-13/08/2025,Facturas B,25048,-,0,0,Viñas En Flor
-13/08/2025,Facturas B,25053,-,0,0,Viñas En Flor
-13/08/2025,Facturas B,2821,-,0,0,Viñas En Flor
-13/08/2025,Facturas B,2820,Miranda Oscari Luciana Milagros,0,0,Viñas En Flor
-13/08/2025,Facturas B,25049,-,0,0,Viñas En Flor
-13/08/2025,Facturas B,25052,-,0,0,Viñas En Flor
-13/08/2025,Facturas B,25050,-,0,0,Viñas En Flor
-13/08/2025,Facturas B,25051,-,0,0,Viñas En Flor
-14/08/2025,Facturas A,729,Wine Pass S.A.S,0,0,Viñas En Flor
-14/08/2025,Facturas B,25059,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,2822,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25060,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25066,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25057,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25067,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25062,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25068,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25055,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25069,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25075,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25070,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25063,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25064,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25072,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25073,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25065,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25071,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25061,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,2823,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25074,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,2824,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25056,-,0,0,Viñas En Flor
-14/08/2025,Facturas B,25058,-,0,0,Viñas En Flor
-14/08/2025,Notas De Credito B,169,-,0,0,Viñas En Flor
-15/08/2025,Facturas A,728,Lobo Saldaño Dana Valentina,0,0,Viñas En Flor
-15/08/2025,Facturas B,25090,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25096,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25115,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25076,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25136,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25122,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25127,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25123,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25140,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25137,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25128,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25145,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25091,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25085,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25116,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25092,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25146,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25124,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25138,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25104,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25086,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25097,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25117,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25118,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25110,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25119,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25079,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25131,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25125,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25093,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25087,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25098,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25132,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25099,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25120,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25147,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25111,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25088,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25133,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25112,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25089,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25100,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25077,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25101,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25121,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25143,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25129,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25141,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25105,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25142,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25134,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25144,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25135,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25078,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25113,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25106,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25130,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25107,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25094,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25095,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25102,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25080,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25108,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25109,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25103,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25126,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25081,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25082,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25114,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25083,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25139,-,0,0,Viñas En Flor
-15/08/2025,Facturas B,25084,-,0,0,Viñas En Flor
-16/08/2025,Facturas A,729,Dario Fabian Lopez S.A.S.,0,0,Viñas En Flor
-16/08/2025,Facturas A,730,Pablo Mauricio Barcellona S. A. S.,0,0,Viñas En Flor
-16/08/2025,Facturas B,25154,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25170,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25171,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25191,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25152,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25257,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25222,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,2827,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25211,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25266,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25281,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25192,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25235,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25258,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25212,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25179,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25259,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25260,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25273,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25180,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25223,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25156,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25181,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25213,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25172,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,2828,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25164,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25251,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25214,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25157,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25158,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25224,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25282,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25236,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25159,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25242,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25267,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,2825,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25268,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25269,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25283,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25165,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25173,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25237,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25174,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25261,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25238,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25160,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25243,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25275,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25225,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25284,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25285,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25148,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25270,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25215,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25150,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25226,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25286,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25193,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25244,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25194,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25252,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25195,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25227,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25262,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25196,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25216,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25245,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25197,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25153,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25198,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25217,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25151,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25271,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25199,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25287,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25166,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25228,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25182,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25175,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25200,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25183,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25246,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25201,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25176,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25276,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25274,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25229,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25263,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25247,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25161,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25167,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25264,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25248,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25218,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25184,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25202,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25168,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25203,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25230,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,2826,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25249,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25185,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25265,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25253,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25162,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25186,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25277,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25219,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25204,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25231,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25278,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25149,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25220,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25232,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25233,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25205,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25169,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25177,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25221,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25234,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25254,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25187,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25255,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25250,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25188,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25239,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25206,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25155,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25279,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25256,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25207,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25240,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25208,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25209,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25189,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,2829,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25190,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25272,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25241,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25210,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25178,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25163,-,0,0,Viñas En Flor
-16/08/2025,Facturas B,25280,-,0,0,Viñas En Flor
-16/08/2025,Notas De Credito B,170,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25301,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25293,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25298,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25302,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25303,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25304,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25311,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25291,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,2831,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,2838,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25288,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25319,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25320,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25294,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25321,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25312,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,2835,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25309,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25295,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25305,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25310,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25300,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,2834,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25289,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25314,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25290,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25322,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25315,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25296,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25313,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,2830,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,2837,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,2836,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25307,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25316,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25308,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25317,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25306,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,2832,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,2833,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25318,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25297,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25292,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25323,-,0,0,Viñas En Flor
-17/08/2025,Facturas B,25299,-,0,0,Viñas En Flor
-18/08/2025,Facturas A,731,Bernardelli Emiliano Jose,0,0,Viñas En Flor
-18/08/2025,Facturas B,25329,-,0,0,Viñas En Flor
-18/08/2025,Facturas B,25327,-,0,0,Viñas En Flor
-18/08/2025,Facturas B,25330,-,0,0,Viñas En Flor
-18/08/2025,Facturas B,2839,-,0,0,Viñas En Flor
-18/08/2025,Facturas B,25326,-,0,0,Viñas En Flor
-18/08/2025,Facturas B,25328,-,0,0,Viñas En Flor
-18/08/2025,Facturas B,25331,-,0,0,Viñas En Flor
-18/08/2025,Facturas B,25324,-,0,0,Viñas En Flor
-18/08/2025,Facturas B,25325,-,0,0,Viñas En Flor
-19/08/2025,Facturas A,730,Landtur Sa,0,0,Viñas En Flor
-20/08/2025,Facturas A,731,Ambiela Cecilia,0,0,Viñas En Flor
-20/08/2025,Facturas A,732,Hoteles Dionysos S.A.,0,0,Viñas En Flor
-20/08/2025,Facturas B,25335,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25336,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25349,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25341,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25337,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25348,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25338,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25350,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25342,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25351,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25332,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25333,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25339,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25356,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25334,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25352,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25345,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25344,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25353,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25354,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25343,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25340,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25346,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25347,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25357,-,0,0,Viñas En Flor
-20/08/2025,Facturas B,25355,-,0,0,Viñas En Flor
-21/08/2025,Facturas A,733,Black Tree S. Cap I Secc Iv,0,0,Viñas En Flor
-21/08/2025,Facturas A,734,Black Tree S. Cap I Secc Iv,0,0,Viñas En Flor
-21/08/2025,Facturas B,25358,-,0,0,Viñas En Flor
-21/08/2025,Facturas B,25359,-,0,0,Viñas En Flor
-21/08/2025,Facturas B,25365,-,0,0,Viñas En Flor
-21/08/2025,Facturas B,25360,-,0,0,Viñas En Flor
-21/08/2025,Facturas B,25368,-,0,0,Viñas En Flor
-21/08/2025,Facturas B,25366,-,0,0,Viñas En Flor
-21/08/2025,Facturas B,25367,-,0,0,Viñas En Flor
-21/08/2025,Facturas B,25361,-,0,0,Viñas En Flor
-21/08/2025,Facturas B,25362,-,0,0,Viñas En Flor
-21/08/2025,Facturas B,25363,-,0,0,Viñas En Flor
-21/08/2025,Facturas B,25364,-,0,0,Viñas En Flor
-22/08/2025,Facturas A,732,Mercado Inteligente S. A.,0,0,Viñas En Flor
-22/08/2025,Facturas A,733,Barbot Cristian,0,0,Viñas En Flor
-22/08/2025,Facturas A,736,Flor De Bodegas S. A. S.,0,0,Viñas En Flor
-22/08/2025,Facturas A,737,Fratres S.R.L.,0,0,Viñas En Flor
-22/08/2025,Facturas A,735,Uma Travel Srl,0,0,Viñas En Flor
-22/08/2025,Facturas A,734,Conrado Juan Llapur S. A. S.,0,0,Viñas En Flor
-22/08/2025,Facturas B,25370,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25375,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25383,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25377,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25376,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25379,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25387,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25388,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25385,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25380,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25374,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25382,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25378,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25371,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25373,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25386,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25381,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25369,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25372,-,0,0,Viñas En Flor
-22/08/2025,Facturas B,25384,-,0,0,Viñas En Flor
-22/08/2025,Notas De Credito B,171,-,0,0,Viñas En Flor
-23/08/2025,Facturas A,735,Expreso Alex Srl,0,0,Viñas En Flor
-23/08/2025,Facturas B,25390,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25389,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25399,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25400,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25397,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25401,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25395,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25402,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25393,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25404,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25396,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25398,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25403,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25392,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25394,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25391,-,0,0,Viñas En Flor
-23/08/2025,Facturas B,25405,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25408,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25416,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25431,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25409,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25418,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25406,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25424,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25425,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25412,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25426,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25429,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25422,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25417,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25413,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25410,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25433,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25427,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25419,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25423,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25420,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25414,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25421,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25430,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25407,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25432,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25415,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25428,-,0,0,Viñas En Flor
-24/08/2025,Facturas B,25411,-,0,0,Viñas En Flor
-25/08/2025,Facturas A,738,Uma Travel Srl,0,0,Viñas En Flor
-25/08/2025,Facturas B,25434,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25436,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25443,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25439,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25440,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25446,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25444,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25445,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25447,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25448,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25437,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25441,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25438,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25442,-,0,0,Viñas En Flor
-25/08/2025,Facturas B,25435,-,0,0,Viñas En Flor
-26/08/2025,Facturas A,739,Ramirez Maria Gabriela,0,0,Viñas En Flor
-26/08/2025,Facturas B,2841,-,0,0,Viñas En Flor
-26/08/2025,Facturas B,2840,-,0,0,Viñas En Flor
-27/08/2025,Facturas A,41,Rocha Andres Ramon,0,0,Viñas En Flor
-27/08/2025,Facturas A,740,Real Pedro Sebastian,0,0,Viñas En Flor
-27/08/2025,Facturas B,25453,-,0,0,Viñas En Flor
-27/08/2025,Facturas B,25454,-,0,0,Viñas En Flor
-27/08/2025,Facturas B,25456,-,0,0,Viñas En Flor
-27/08/2025,Facturas B,25449,-,0,0,Viñas En Flor
-27/08/2025,Facturas B,25457,-,0,0,Viñas En Flor
-27/08/2025,Facturas B,25458,-,0,0,Viñas En Flor
-27/08/2025,Facturas B,25450,-,0,0,Viñas En Flor
-27/08/2025,Facturas B,25459,-,0,0,Viñas En Flor
-27/08/2025,Facturas B,25460,-,0,0,Viñas En Flor
-27/08/2025,Facturas B,25461,-,0,0,Viñas En Flor
-27/08/2025,Facturas B,25451,-,0,0,Viñas En Flor
-27/08/2025,Facturas B,25452,-,0,0,Viñas En Flor
-27/08/2025,Facturas B,25455,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,25463,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,25465,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,25470,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,2843,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,25471,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,25466,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,25469,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,25462,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,25467,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,2842,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,25464,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,25468,-,0,0,Viñas En Flor
-28/08/2025,Facturas B,2844,-,0,0,Viñas En Flor
-29/08/2025,Facturas A,737,Nutraclinix Global Sociedad Por Acciones Simplificada,0,0,Viñas En Flor
-29/08/2025,Facturas A,736,Nutraclinix Global Sociedad Por Acciones Simplificada,0,0,Viñas En Flor
-29/08/2025,Notas De Credito A,70,Uma Travel Srl,0,0,Viñas En Flor
-29/08/2025,Facturas B,25483,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25478,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25473,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25484,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,2845,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25477,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25472,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25486,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25474,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25479,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25480,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25475,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25476,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25481,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25485,-,0,0,Viñas En Flor
-29/08/2025,Facturas B,25482,-,0,0,Viñas En Flor
-30/08/2025,Facturas A,738,Four Universe S.R.L,0,0,Viñas En Flor
-30/08/2025,Facturas B,25488,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25507,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25509,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25510,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25502,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25494,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25487,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25513,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25492,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25514,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25515,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25503,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,2847,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25516,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25499,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25517,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25493,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25495,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25504,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25518,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25519,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25500,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25489,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,2846,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25491,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25490,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25501,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25511,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25496,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25505,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25498,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25520,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25508,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25521,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25497,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25512,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25506,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,25522,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,2849,-,0,0,Viñas En Flor
-30/08/2025,Facturas B,2848,-,0,0,Viñas En Flor
-30/08/2025,Notas De Credito B,172,-,0,0,Viñas En Flor
-30/08/2025,Notas De Credito B,173,-,0,0,Viñas En Flor
-31/08/2025,Facturas A,739,Serra Leonardo Pablo,0,0,Viñas En Flor
-31/08/2025,Facturas B,2852,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25526,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,2850,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25531,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25523,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25532,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25525,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25527,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25533,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25530,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25536,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25537,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25534,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,2851,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,2853,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25528,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25535,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,2854,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25529,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25524,-,0,0,Viñas En Flor
-31/08/2025,Facturas B,25538,-,0,0,Viñas En Flor
+04/08/2025,Facturas A,724,Fratres S.R.L.,528926,111074,Viñas En Flor
+04/08/2025,Facturas A,725,Uma Travel Srl,5295868,1112132,Viñas En Flor
+04/08/2025,Facturas A,723,Kallpa Tour Operator Srl,583174,122466,Viñas En Flor
+04/08/2025,Notas De Credito A,68,Uma Travel Srl,-147107,-30893,Viñas En Flor
+04/08/2025,Notas De Credito A,69,Uma Travel Srl,-138843,-29157,Viñas En Flor
+04/08/2025,Facturas B,24929,-,77190,16210,Viñas En Flor
+04/08/2025,Facturas B,24931,-,16529,3471,Viñas En Flor
+04/08/2025,Facturas B,24928,-,54545,11455,Viñas En Flor
+04/08/2025,Facturas B,24930,-,179174,37626,Viñas En Flor
+04/08/2025,Facturas B,24933,-,18182,3818,Viñas En Flor
+04/08/2025,Facturas B,24934,-,18182,3818,Viñas En Flor
+04/08/2025,Facturas B,24932,-,35372,7428,Viñas En Flor
+04/08/2025,Facturas B,24936,-,9091,1909,Viñas En Flor
+04/08/2025,Facturas B,24935,-,12397,2603,Viñas En Flor
+06/08/2025,Facturas A,724,Distlit S.A.S.,42479,8921,Viñas En Flor
+06/08/2025,Facturas A,725,Distlit S.A.S.,30579,6421,Viñas En Flor
+06/08/2025,Facturas A,40,Sola Roberto Gustavo,70744,14856,Viñas En Flor
+06/08/2025,Facturas B,24944,-,50826,10674,Viñas En Flor
+06/08/2025,Facturas B,24939,-,22314,4686,Viñas En Flor
+06/08/2025,Facturas B,24940,-,79339,16661,Viñas En Flor
+06/08/2025,Facturas B,24938,-,153719,32281,Viñas En Flor
+06/08/2025,Facturas B,24945,-,47190,9910,Viñas En Flor
+06/08/2025,Facturas B,24947,-,44628,9372,Viñas En Flor
+06/08/2025,Facturas B,24946,-,74050,15550,Viñas En Flor
+06/08/2025,Facturas B,24942,-,33719,7081,Viñas En Flor
+06/08/2025,Facturas B,24937,-,30579,6421,Viñas En Flor
+06/08/2025,Facturas B,24948,-,28926,6074,Viñas En Flor
+06/08/2025,Facturas B,24941,-,13223,2777,Viñas En Flor
+06/08/2025,Facturas B,24943,-,319008,66992,Viñas En Flor
+06/08/2025,Notas De Credito B,167,-,-30579,-6421,Viñas En Flor
+07/08/2025,Facturas A,726,Carapari S. A.,96198,20202,Viñas En Flor
+07/08/2025,Facturas B,24963,-,168595,35405,Viñas En Flor
+07/08/2025,Facturas B,24953,-,85289,17911,Viñas En Flor
+07/08/2025,Facturas B,24958,-,67273,14127,Viñas En Flor
+07/08/2025,Facturas B,24951,-,76116,15984,Viñas En Flor
+07/08/2025,Facturas B,24950,-,68430,14370,Viñas En Flor
+07/08/2025,Facturas B,24954,-,124050,26050,Viñas En Flor
+07/08/2025,Facturas B,24949,-,54050,11350,Viñas En Flor
+07/08/2025,Facturas B,24955,-,78017,16383,Viñas En Flor
+07/08/2025,Facturas B,24956,-,220248,46252,Viñas En Flor
+07/08/2025,Facturas B,24959,-,106446,22354,Viñas En Flor
+07/08/2025,Facturas B,24957,-,145455,30545,Viñas En Flor
+07/08/2025,Facturas B,24960,-,35124,7376,Viñas En Flor
+07/08/2025,Facturas B,24961,-,35124,7376,Viñas En Flor
+07/08/2025,Facturas B,24952,-,109091,22909,Viñas En Flor
+07/08/2025,Facturas B,24962,-,168595,35405,Viñas En Flor
+08/08/2025,Facturas B,24973,-,35372,7428,Viñas En Flor
+08/08/2025,Facturas B,24969,-,35537,7463,Viñas En Flor
+08/08/2025,Facturas B,24970,-,13223,2777,Viñas En Flor
+08/08/2025,Facturas B,24974,-,36364,7636,Viñas En Flor
+08/08/2025,Facturas B,24966,-,145455,30545,Viñas En Flor
+08/08/2025,Facturas B,2807,-,26446,5554,Viñas En Flor
+08/08/2025,Facturas B,24968,-,38430,8070,Viñas En Flor
+08/08/2025,Facturas B,24971,-,18182,3818,Viñas En Flor
+08/08/2025,Facturas B,24965,-,131488,27612,Viñas En Flor
+08/08/2025,Facturas B,24967,-,78347,16453,Viñas En Flor
+08/08/2025,Facturas B,24964,-,92645,19455,Viñas En Flor
+08/08/2025,Facturas B,2806,-,307438,64562,Viñas En Flor
+08/08/2025,Facturas B,24972,-,30579,6421,Viñas En Flor
+09/08/2025,Facturas B,24985,-,72727,15273,Viñas En Flor
+09/08/2025,Facturas B,25006,-,23636,4964,Viñas En Flor
+09/08/2025,Facturas B,24975,-,36364,7636,Viñas En Flor
+09/08/2025,Facturas B,24981,-,109504,22996,Viñas En Flor
+09/08/2025,Facturas B,24977,-,36364,7636,Viñas En Flor
+09/08/2025,Facturas B,24986,-,16529,3471,Viñas En Flor
+09/08/2025,Facturas B,24976,-,36364,7636,Viñas En Flor
+09/08/2025,Facturas B,24984,-,22314,4686,Viñas En Flor
+09/08/2025,Facturas B,2808,-,13223,2777,Viñas En Flor
+09/08/2025,Facturas B,24992,-,200826,42174,Viñas En Flor
+09/08/2025,Facturas B,24987,-,41322,8678,Viñas En Flor
+09/08/2025,Facturas B,24993,-,200826,42174,Viñas En Flor
+09/08/2025,Facturas B,25010,-,6446,1354,Viñas En Flor
+09/08/2025,Facturas B,2809,-,31405,6595,Viñas En Flor
+09/08/2025,Facturas B,24999,-,66612,13988,Viñas En Flor
+09/08/2025,Facturas B,25000,-,47190,9910,Viñas En Flor
+09/08/2025,Facturas B,24994,-,61983,13017,Viñas En Flor
+09/08/2025,Facturas B,24988,-,153719,32281,Viñas En Flor
+09/08/2025,Facturas B,24989,-,145455,30545,Viñas En Flor
+09/08/2025,Facturas B,24995,-,57190,12010,Viñas En Flor
+09/08/2025,Facturas B,25007,-,90579,19021,Viñas En Flor
+09/08/2025,Facturas B,24996,-,231240,48560,Viñas En Flor
+09/08/2025,Facturas B,24978,-,105785,22215,Viñas En Flor
+09/08/2025,Facturas B,24979,-,23554,4946,Viñas En Flor
+09/08/2025,Facturas B,24997,-,88182,18518,Viñas En Flor
+09/08/2025,Facturas B,24982,-,140083,29417,Viñas En Flor
+09/08/2025,Facturas B,25008,-,22314,4686,Viñas En Flor
+09/08/2025,Facturas B,24990,-,36364,7636,Viñas En Flor
+09/08/2025,Facturas B,25002,-,47190,9910,Viñas En Flor
+09/08/2025,Facturas B,25003,-,29008,6092,Viñas En Flor
+09/08/2025,Facturas B,25004,-,23636,4964,Viñas En Flor
+09/08/2025,Facturas B,24980,-,25620,5380,Viñas En Flor
+09/08/2025,Facturas B,25001,-,36364,7636,Viñas En Flor
+09/08/2025,Facturas B,24998,-,78017,16383,Viñas En Flor
+09/08/2025,Facturas B,24983,-,36364,7636,Viñas En Flor
+09/08/2025,Facturas B,2810,-,12397,2603,Viñas En Flor
+09/08/2025,Facturas B,24991,-,66942,14058,Viñas En Flor
+09/08/2025,Facturas B,25009,-,83471,17529,Viñas En Flor
+09/08/2025,Facturas B,25005,-,37603,7897,Viñas En Flor
+09/08/2025,Facturas B,2811,-,14876,3124,Viñas En Flor
+09/08/2025,Notas De Credito B,168,-,-200826,-42174,Viñas En Flor
+10/08/2025,Facturas A,727,Tekno Arquitectura S R L,36364,7636,Viñas En Flor
+10/08/2025,Facturas B,25013,-,62727,13173,Viñas En Flor
+10/08/2025,Facturas B,25012,-,74050,15550,Viñas En Flor
+10/08/2025,Facturas B,25014,-,36364,7636,Viñas En Flor
+10/08/2025,Facturas B,25016,-,48264,10136,Viñas En Flor
+10/08/2025,Facturas B,2813,-,28926,6074,Viñas En Flor
+10/08/2025,Facturas B,25021,-,72231,15169,Viñas En Flor
+10/08/2025,Facturas B,25015,-,36364,7636,Viñas En Flor
+10/08/2025,Facturas B,25019,-,124463,26137,Viñas En Flor
+10/08/2025,Facturas B,25022,-,153719,32281,Viñas En Flor
+10/08/2025,Facturas B,25017,-,83719,17581,Viñas En Flor
+10/08/2025,Facturas B,25011,-,30579,6421,Viñas En Flor
+10/08/2025,Facturas B,25020,-,30744,6456,Viñas En Flor
+10/08/2025,Facturas B,2812,-,82645,17355,Viñas En Flor
+10/08/2025,Facturas B,25018,-,36364,7636,Viñas En Flor
+10/08/2025,Facturas B,25023,-,115455,24245,Viñas En Flor
+11/08/2025,Facturas B,25028,-,303306,63694,Viñas En Flor
+11/08/2025,Facturas B,25025,-,33058,6942,Viñas En Flor
+11/08/2025,Facturas B,25040,-,182645,38355,Viñas En Flor
+11/08/2025,Facturas B,25029,-,13223,2777,Viñas En Flor
+11/08/2025,Facturas B,25024,-,109091,22909,Viñas En Flor
+11/08/2025,Facturas B,25032,-,91157,19143,Viñas En Flor
+11/08/2025,Facturas B,25034,-,57851,12149,Viñas En Flor
+11/08/2025,Facturas B,2815,-,24793,5207,Viñas En Flor
+11/08/2025,Facturas B,25026,-,99587,20913,Viñas En Flor
+11/08/2025,Facturas B,25044,-,18182,3818,Viñas En Flor
+11/08/2025,Facturas B,25035,-,12397,2603,Viñas En Flor
+11/08/2025,Facturas B,2814,-,279669,58731,Viñas En Flor
+11/08/2025,Facturas B,25043,-,52893,11107,Viñas En Flor
+11/08/2025,Facturas B,25037,-,58926,12374,Viñas En Flor
+11/08/2025,Facturas B,25041,-,26446,5554,Viñas En Flor
+11/08/2025,Facturas B,2818,-,30579,6421,Viñas En Flor
+11/08/2025,Facturas B,25033,-,147355,30945,Viñas En Flor
+11/08/2025,Facturas B,25036,-,180413,37887,Viñas En Flor
+11/08/2025,Facturas B,25039,-,18182,3818,Viñas En Flor
+11/08/2025,Facturas B,25042,-,79339,16661,Viñas En Flor
+11/08/2025,Facturas B,25030,-,108017,22683,Viñas En Flor
+11/08/2025,Facturas B,25031,-,60909,12791,Viñas En Flor
+11/08/2025,Facturas B,25038,-,130992,27508,Viñas En Flor
+11/08/2025,Facturas B,25027,-,78083,16397,Viñas En Flor
+11/08/2025,Facturas B,2816,-,28926,6074,Viñas En Flor
+11/08/2025,Facturas B,2817,-,18182,3818,Viñas En Flor
+11/08/2025,Facturas B,25045,-,41818,8782,Viñas En Flor
+13/08/2025,Facturas A,727,Turismo Del Norte Sociedad Anonima,36364,7636,Viñas En Flor
+13/08/2025,Facturas A,728,Pecarrere Emanuel,1564066,328454,Viñas En Flor
+13/08/2025,Facturas A,726,Los Nenecos S.R.L.,1118637,234914,Viñas En Flor
+13/08/2025,Facturas B,25046,-,107107,22493,Viñas En Flor
+13/08/2025,Facturas B,2819,-,62810,13190,Viñas En Flor
+13/08/2025,Facturas B,25047,-,75372,15828,Viñas En Flor
+13/08/2025,Facturas B,25054,-,66901,14049,Viñas En Flor
+13/08/2025,Facturas B,25048,-,145455,30545,Viñas En Flor
+13/08/2025,Facturas B,25053,-,18182,3818,Viñas En Flor
+13/08/2025,Facturas B,2821,-,28926,6074,Viñas En Flor
+13/08/2025,Facturas B,2820,Miranda Oscari Luciana Milagros,793388,166612,Viñas En Flor
+13/08/2025,Facturas B,25049,-,141405,29695,Viñas En Flor
+13/08/2025,Facturas B,25052,-,36364,7636,Viñas En Flor
+13/08/2025,Facturas B,25050,-,90331,18969,Viñas En Flor
+13/08/2025,Facturas B,25051,-,15868,3332,Viñas En Flor
+14/08/2025,Facturas A,729,Wine Pass S.A.S,14050,2950,Viñas En Flor
+14/08/2025,Facturas B,25059,-,74050,15550,Viñas En Flor
+14/08/2025,Facturas B,2822,-,13223,2777,Viñas En Flor
+14/08/2025,Facturas B,25060,-,18182,3818,Viñas En Flor
+14/08/2025,Facturas B,25066,-,47934,10066,Viñas En Flor
+14/08/2025,Facturas B,25057,-,363636,76364,Viñas En Flor
+14/08/2025,Facturas B,25067,-,28926,6074,Viñas En Flor
+14/08/2025,Facturas B,25062,-,66116,13884,Viñas En Flor
+14/08/2025,Facturas B,25068,-,18182,3818,Viñas En Flor
+14/08/2025,Facturas B,25055,-,25620,5380,Viñas En Flor
+14/08/2025,Facturas B,25069,-,18182,3818,Viñas En Flor
+14/08/2025,Facturas B,25075,-,644132,135268,Viñas En Flor
+14/08/2025,Facturas B,25070,-,36364,7636,Viñas En Flor
+14/08/2025,Facturas B,25063,-,167107,35093,Viñas En Flor
+14/08/2025,Facturas B,25064,-,167355,35145,Viñas En Flor
+14/08/2025,Facturas B,25072,-,22314,4686,Viñas En Flor
+14/08/2025,Facturas B,25073,-,24793,5207,Viñas En Flor
+14/08/2025,Facturas B,25065,-,88678,18622,Viñas En Flor
+14/08/2025,Facturas B,25071,-,47190,9910,Viñas En Flor
+14/08/2025,Facturas B,25061,-,16529,3471,Viñas En Flor
+14/08/2025,Facturas B,2823,-,22314,4686,Viñas En Flor
+14/08/2025,Facturas B,25074,-,38843,8157,Viñas En Flor
+14/08/2025,Facturas B,2824,-,18182,3818,Viñas En Flor
+14/08/2025,Facturas B,25056,-,433058,90942,Viñas En Flor
+14/08/2025,Facturas B,25058,-,66116,13884,Viñas En Flor
+14/08/2025,Notas De Credito B,169,-,-433058,-90942,Viñas En Flor
+15/08/2025,Facturas A,728,Lobo Saldaño Dana Valentina,179421,37679,Viñas En Flor
+15/08/2025,Facturas B,25090,-,72727,15273,Viñas En Flor
+15/08/2025,Facturas B,25096,-,45537,9563,Viñas En Flor
+15/08/2025,Facturas B,25115,-,30579,6421,Viñas En Flor
+15/08/2025,Facturas B,25076,-,36364,7636,Viñas En Flor
+15/08/2025,Facturas B,25136,-,16116,3384,Viñas En Flor
+15/08/2025,Facturas B,25122,-,99008,20792,Viñas En Flor
+15/08/2025,Facturas B,25127,-,70248,14752,Viñas En Flor
+15/08/2025,Facturas B,25123,-,121653,25547,Viñas En Flor
+15/08/2025,Facturas B,25140,-,58017,12183,Viñas En Flor
+15/08/2025,Facturas B,25137,-,48554,10196,Viñas En Flor
+15/08/2025,Facturas B,25128,-,37603,7897,Viñas En Flor
+15/08/2025,Facturas B,25145,-,87273,18327,Viñas En Flor
+15/08/2025,Facturas B,25091,-,368843,77457,Viñas En Flor
+15/08/2025,Facturas B,25085,-,180331,37869,Viñas En Flor
+15/08/2025,Facturas B,25116,-,258843,54357,Viñas En Flor
+15/08/2025,Facturas B,25092,-,215868,45332,Viñas En Flor
+15/08/2025,Facturas B,25146,-,107107,22493,Viñas En Flor
+15/08/2025,Facturas B,25124,-,202314,42486,Viñas En Flor
+15/08/2025,Facturas B,25138,-,59504,12496,Viñas En Flor
+15/08/2025,Facturas B,25104,-,53554,11246,Viñas En Flor
+15/08/2025,Facturas B,25086,-,45785,9615,Viñas En Flor
+15/08/2025,Facturas B,25097,-,92645,19455,Viñas En Flor
+15/08/2025,Facturas B,25117,-,16529,3471,Viñas En Flor
+15/08/2025,Facturas B,25118,-,112231,23569,Viñas En Flor
+15/08/2025,Facturas B,25110,-,737769,154931,Viñas En Flor
+15/08/2025,Facturas B,25119,-,88678,18622,Viñas En Flor
+15/08/2025,Facturas B,25079,-,36364,7636,Viñas En Flor
+15/08/2025,Facturas B,25131,-,85950,18050,Viñas En Flor
+15/08/2025,Facturas B,25125,-,28926,6074,Viñas En Flor
+15/08/2025,Facturas B,25093,-,441983,92817,Viñas En Flor
+15/08/2025,Facturas B,25087,-,64463,13537,Viñas En Flor
+15/08/2025,Facturas B,25098,-,58843,12357,Viñas En Flor
+15/08/2025,Facturas B,25132,-,30579,6421,Viñas En Flor
+15/08/2025,Facturas B,25099,-,24298,5102,Viñas En Flor
+15/08/2025,Facturas B,25120,-,153884,32316,Viñas En Flor
+15/08/2025,Facturas B,25147,-,73388,15412,Viñas En Flor
+15/08/2025,Facturas B,25111,-,72727,15273,Viñas En Flor
+15/08/2025,Facturas B,25088,-,16529,3471,Viñas En Flor
+15/08/2025,Facturas B,25133,-,19835,4165,Viñas En Flor
+15/08/2025,Facturas B,25112,-,100496,21104,Viñas En Flor
+15/08/2025,Facturas B,25089,-,78017,16383,Viñas En Flor
+15/08/2025,Facturas B,25100,-,70331,14769,Viñas En Flor
+15/08/2025,Facturas B,25077,-,79339,16661,Viñas En Flor
+15/08/2025,Facturas B,25101,-,36364,7636,Viñas En Flor
+15/08/2025,Facturas B,25121,-,40496,8504,Viñas En Flor
+15/08/2025,Facturas B,25143,-,95207,19993,Viñas En Flor
+15/08/2025,Facturas B,25129,-,193388,40612,Viñas En Flor
+15/08/2025,Facturas B,25141,-,12231,2569,Viñas En Flor
+15/08/2025,Facturas B,25105,-,52893,11107,Viñas En Flor
+15/08/2025,Facturas B,25142,-,21074,4426,Viñas En Flor
+15/08/2025,Facturas B,25134,-,40826,8574,Viñas En Flor
+15/08/2025,Facturas B,25144,-,16529,3471,Viñas En Flor
+15/08/2025,Facturas B,25135,-,22314,4686,Viñas En Flor
+15/08/2025,Facturas B,25078,-,36364,7636,Viñas En Flor
+15/08/2025,Facturas B,25113,-,16116,3384,Viñas En Flor
+15/08/2025,Facturas B,25106,-,36364,7636,Viñas En Flor
+15/08/2025,Facturas B,25130,-,152727,32073,Viñas En Flor
+15/08/2025,Facturas B,25107,-,16116,3384,Viñas En Flor
+15/08/2025,Facturas B,25094,-,109091,22909,Viñas En Flor
+15/08/2025,Facturas B,25095,-,153719,32281,Viñas En Flor
+15/08/2025,Facturas B,25102,-,96860,20340,Viñas En Flor
+15/08/2025,Facturas B,25080,-,105785,22215,Viñas En Flor
+15/08/2025,Facturas B,25108,-,123967,26033,Viñas En Flor
+15/08/2025,Facturas B,25109,-,21488,4512,Viñas En Flor
+15/08/2025,Facturas B,25103,-,145455,30545,Viñas En Flor
+15/08/2025,Facturas B,25126,-,128264,26936,Viñas En Flor
+15/08/2025,Facturas B,25081,-,178099,37401,Viñas En Flor
+15/08/2025,Facturas B,25082,-,73058,15342,Viñas En Flor
+15/08/2025,Facturas B,25114,-,201653,42347,Viñas En Flor
+15/08/2025,Facturas B,25083,-,154132,32368,Viñas En Flor
+15/08/2025,Facturas B,25139,-,136860,28740,Viñas En Flor
+15/08/2025,Facturas B,25084,-,153719,32281,Viñas En Flor
+16/08/2025,Facturas A,729,Dario Fabian Lopez S.A.S.,384298,80702,Viñas En Flor
+16/08/2025,Facturas A,730,Pablo Mauricio Barcellona S. A. S.,307438,64562,Viñas En Flor
+16/08/2025,Facturas B,25154,-,38017,7983,Viñas En Flor
+16/08/2025,Facturas B,25170,-,40496,8504,Viñas En Flor
+16/08/2025,Facturas B,25171,-,17190,3610,Viñas En Flor
+16/08/2025,Facturas B,25191,-,36364,7636,Viñas En Flor
+16/08/2025,Facturas B,25152,-,36364,7636,Viñas En Flor
+16/08/2025,Facturas B,25257,-,23636,4964,Viñas En Flor
+16/08/2025,Facturas B,25222,-,85289,17911,Viñas En Flor
+16/08/2025,Facturas B,2827,-,13223,2777,Viñas En Flor
+16/08/2025,Facturas B,25211,-,74380,15620,Viñas En Flor
+16/08/2025,Facturas B,25266,-,14050,2950,Viñas En Flor
+16/08/2025,Facturas B,25281,-,4959,1041,Viñas En Flor
+16/08/2025,Facturas B,25192,-,17190,3610,Viñas En Flor
+16/08/2025,Facturas B,25235,-,36364,7636,Viñas En Flor
+16/08/2025,Facturas B,25258,-,33719,7081,Viñas En Flor
+16/08/2025,Facturas B,25212,-,199008,41792,Viñas En Flor
+16/08/2025,Facturas B,25179,-,33058,6942,Viñas En Flor
+16/08/2025,Facturas B,25259,-,16116,3384,Viñas En Flor
+16/08/2025,Facturas B,25260,-,18182,3818,Viñas En Flor
+16/08/2025,Facturas B,25273,-,28926,6074,Viñas En Flor
+16/08/2025,Facturas B,25180,-,34380,7220,Viñas En Flor
+16/08/2025,Facturas B,25223,-,95165,19985,Viñas En Flor
+16/08/2025,Facturas B,25156,-,69835,14665,Viñas En Flor
+16/08/2025,Facturas B,25181,-,176446,37054,Viñas En Flor
+16/08/2025,Facturas B,25213,-,17190,3610,Viñas En Flor
+16/08/2025,Facturas B,25172,-,57851,12149,Viñas En Flor
+16/08/2025,Facturas B,2828,-,77273,16227,Viñas En Flor
+16/08/2025,Facturas B,25164,-,36364,7636,Viñas En Flor
+16/08/2025,Facturas B,25251,-,21240,4460,Viñas En Flor
+16/08/2025,Facturas B,25214,-,9917,2083,Viñas En Flor
+16/08/2025,Facturas B,25157,-,92810,19490,Viñas En Flor
+16/08/2025,Facturas B,25158,-,113223,23777,Viñas En Flor
+16/08/2025,Facturas B,25224,-,214876,45124,Viñas En Flor
+16/08/2025,Facturas B,25282,-,322314,67686,Viñas En Flor
+16/08/2025,Facturas B,25236,-,29008,6092,Viñas En Flor
+16/08/2025,Facturas B,25159,-,57190,12010,Viñas En Flor
+16/08/2025,Facturas B,25242,-,83306,17494,Viñas En Flor
+16/08/2025,Facturas B,25267,-,33884,7116,Viñas En Flor
+16/08/2025,Facturas B,2825,-,18182,3818,Viñas En Flor
+16/08/2025,Facturas B,25268,-,40826,8574,Viñas En Flor
+16/08/2025,Facturas B,25269,-,20661,4339,Viñas En Flor
+16/08/2025,Facturas B,25283,-,4959,1041,Viñas En Flor
+16/08/2025,Facturas B,25165,-,36364,7636,Viñas En Flor
+16/08/2025,Facturas B,25173,-,164793,34607,Viñas En Flor
+16/08/2025,Facturas B,25237,-,52893,11107,Viñas En Flor
+16/08/2025,Facturas B,25174,-,141983,29817,Viñas En Flor
+16/08/2025,Facturas B,25261,-,26860,5640,Viñas En Flor
+16/08/2025,Facturas B,25238,-,30579,6421,Viñas En Flor
+16/08/2025,Facturas B,25160,-,57190,12010,Viñas En Flor
+16/08/2025,Facturas B,25243,-,25785,5415,Viñas En Flor
+16/08/2025,Facturas B,25275,-,95537,20063,Viñas En Flor
+16/08/2025,Facturas B,25225,-,36364,7636,Viñas En Flor
+16/08/2025,Facturas B,25284,-,4959,1041,Viñas En Flor
+16/08/2025,Facturas B,25285,-,4132,868,Viñas En Flor
+16/08/2025,Facturas B,25148,-,99174,20826,Viñas En Flor
+16/08/2025,Facturas B,25270,-,42975,9025,Viñas En Flor
+16/08/2025,Facturas B,25215,-,33058,6942,Viñas En Flor
+16/08/2025,Facturas B,25150,-,52893,11107,Viñas En Flor
+16/08/2025,Facturas B,25226,-,29008,6092,Viñas En Flor
+16/08/2025,Facturas B,25286,-,4959,1041,Viñas En Flor
+16/08/2025,Facturas B,25193,-,109091,22909,Viñas En Flor
+16/08/2025,Facturas B,25244,-,39835,8365,Viñas En Flor
+16/08/2025,Facturas B,25194,-,72727,15273,Viñas En Flor
+16/08/2025,Facturas B,25252,-,18182,3818,Viñas En Flor
+16/08/2025,Facturas B,25195,-,78017,16383,Viñas En Flor
+16/08/2025,Facturas B,25227,-,45537,9563,Viñas En Flor
+16/08/2025,Facturas B,25262,-,9917,2083,Viñas En Flor
+16/08/2025,Facturas B,25196,-,84298,17702,Viñas En Flor
+16/08/2025,Facturas B,25216,-,9917,2083,Viñas En Flor
+16/08/2025,Facturas B,25245,-,4959,1041,Viñas En Flor
+16/08/2025,Facturas B,25197,-,6198,1302,Viñas En Flor
+16/08/2025,Facturas B,25153,-,13223,2777,Viñas En Flor
+16/08/2025,Facturas B,25198,-,114215,23985,Viñas En Flor
+16/08/2025,Facturas B,25217,-,177934,37366,Viñas En Flor
+16/08/2025,Facturas B,25151,-,52893,11107,Viñas En Flor
+16/08/2025,Facturas B,25271,-,7025,1475,Viñas En Flor
+16/08/2025,Facturas B,25199,-,33058,6942,Viñas En Flor
+16/08/2025,Facturas B,25287,-,9917,2083,Viñas En Flor
+16/08/2025,Facturas B,25166,-,65620,13780,Viñas En Flor
+16/08/2025,Facturas B,25228,-,34380,7220,Viñas En Flor
+16/08/2025,Facturas B,25182,-,29008,6092,Viñas En Flor
+16/08/2025,Facturas B,25175,-,145455,30545,Viñas En Flor
+16/08/2025,Facturas B,25200,-,332893,69907,Viñas En Flor
+16/08/2025,Facturas B,25183,-,62810,13190,Viñas En Flor
+16/08/2025,Facturas B,25246,-,4959,1041,Viñas En Flor
+16/08/2025,Facturas B,25201,-,23636,4964,Viñas En Flor
+16/08/2025,Facturas B,25176,-,106446,22354,Viñas En Flor
+16/08/2025,Facturas B,25276,-,47107,9893,Viñas En Flor
+16/08/2025,Facturas B,25274,-,52066,10934,Viñas En Flor
+16/08/2025,Facturas B,25229,-,33058,6942,Viñas En Flor
+16/08/2025,Facturas B,25263,-,46694,9806,Viñas En Flor
+16/08/2025,Facturas B,25247,-,3058,642,Viñas En Flor
+16/08/2025,Facturas B,25161,-,41322,8678,Viñas En Flor
+16/08/2025,Facturas B,25167,-,64215,13485,Viñas En Flor
+16/08/2025,Facturas B,25264,-,18182,3818,Viñas En Flor
+16/08/2025,Facturas B,25248,-,53719,11281,Viñas En Flor
+16/08/2025,Facturas B,25218,-,106446,22354,Viñas En Flor
+16/08/2025,Facturas B,25184,-,46942,9858,Viñas En Flor
+16/08/2025,Facturas B,25202,-,107107,22493,Viñas En Flor
+16/08/2025,Facturas B,25168,-,54545,11455,Viñas En Flor
+16/08/2025,Facturas B,25203,-,128926,27074,Viñas En Flor
+16/08/2025,Facturas B,25230,-,62810,13190,Viñas En Flor
+16/08/2025,Facturas B,2826,-,6198,1302,Viñas En Flor
+16/08/2025,Facturas B,25249,-,16116,3384,Viñas En Flor
+16/08/2025,Facturas B,25185,-,35372,7428,Viñas En Flor
+16/08/2025,Facturas B,25265,-,17355,3645,Viñas En Flor
+16/08/2025,Facturas B,25253,-,35372,7428,Viñas En Flor
+16/08/2025,Facturas B,25162,-,65372,13728,Viñas En Flor
+16/08/2025,Facturas B,25186,-,207335,43540,Viñas En Flor
+16/08/2025,Facturas B,25277,-,23140,4860,Viñas En Flor
+16/08/2025,Facturas B,25219,-,376198,79002,Viñas En Flor
+16/08/2025,Facturas B,25204,-,153719,32281,Viñas En Flor
+16/08/2025,Facturas B,25231,-,54545,11455,Viñas En Flor
+16/08/2025,Facturas B,25278,-,4959,1041,Viñas En Flor
+16/08/2025,Facturas B,25149,-,52893,11107,Viñas En Flor
+16/08/2025,Facturas B,25220,-,47190,9910,Viñas En Flor
+16/08/2025,Facturas B,25232,-,168595,35405,Viñas En Flor
+16/08/2025,Facturas B,25233,-,19174,4026,Viñas En Flor
+16/08/2025,Facturas B,25205,-,202562,42538,Viñas En Flor
+16/08/2025,Facturas B,25169,-,100413,21087,Viñas En Flor
+16/08/2025,Facturas B,25177,-,47190,9910,Viñas En Flor
+16/08/2025,Facturas B,25221,-,112479,23621,Viñas En Flor
+16/08/2025,Facturas B,25234,-,41818,8782,Viñas En Flor
+16/08/2025,Facturas B,25254,-,38347,8053,Viñas En Flor
+16/08/2025,Facturas B,25187,-,197107,41393,Viñas En Flor
+16/08/2025,Facturas B,25255,-,87273,18327,Viñas En Flor
+16/08/2025,Facturas B,25250,-,36364,7636,Viñas En Flor
+16/08/2025,Facturas B,25188,-,26694,5606,Viñas En Flor
+16/08/2025,Facturas B,25239,-,39669,8331,Viñas En Flor
+16/08/2025,Facturas B,25206,-,100331,21069,Viñas En Flor
+16/08/2025,Facturas B,25155,-,76942,16158,Viñas En Flor
+16/08/2025,Facturas B,25279,-,33884,7116,Viñas En Flor
+16/08/2025,Facturas B,25256,-,80331,16869,Viñas En Flor
+16/08/2025,Facturas B,25207,-,948430,199170,Viñas En Flor
+16/08/2025,Facturas B,25240,-,23636,4964,Viñas En Flor
+16/08/2025,Facturas B,25208,-,37603,7897,Viñas En Flor
+16/08/2025,Facturas B,25209,-,113719,23881,Viñas En Flor
+16/08/2025,Facturas B,25189,-,17190,3610,Viñas En Flor
+16/08/2025,Facturas B,2829,-,13223,2777,Viñas En Flor
+16/08/2025,Facturas B,25190,-,16116,3384,Viñas En Flor
+16/08/2025,Facturas B,25272,-,22314,4686,Viñas En Flor
+16/08/2025,Facturas B,25241,-,67769,14231,Viñas En Flor
+16/08/2025,Facturas B,25210,-,116446,24454,Viñas En Flor
+16/08/2025,Facturas B,25178,-,289256,60744,Viñas En Flor
+16/08/2025,Facturas B,25163,-,64545,13555,Viñas En Flor
+16/08/2025,Facturas B,25280,-,4959,1041,Viñas En Flor
+16/08/2025,Notas De Credito B,170,-,-36364,-7636,Viñas En Flor
+17/08/2025,Facturas B,25301,-,145455,30545,Viñas En Flor
+17/08/2025,Facturas B,25293,-,96281,20219,Viñas En Flor
+17/08/2025,Facturas B,25298,-,107107,22493,Viñas En Flor
+17/08/2025,Facturas B,25302,-,25620,5380,Viñas En Flor
+17/08/2025,Facturas B,25303,-,36364,7636,Viñas En Flor
+17/08/2025,Facturas B,25304,-,25620,5380,Viñas En Flor
+17/08/2025,Facturas B,25311,-,82397,17303,Viñas En Flor
+17/08/2025,Facturas B,25291,-,52810,11090,Viñas En Flor
+17/08/2025,Facturas B,2831,-,74711,15689,Viñas En Flor
+17/08/2025,Facturas B,2838,-,18182,3818,Viñas En Flor
+17/08/2025,Facturas B,25288,-,22314,4686,Viñas En Flor
+17/08/2025,Facturas B,25319,-,47190,9910,Viñas En Flor
+17/08/2025,Facturas B,25320,-,37355,7845,Viñas En Flor
+17/08/2025,Facturas B,25294,-,64711,13589,Viñas En Flor
+17/08/2025,Facturas B,25321,-,37603,7897,Viñas En Flor
+17/08/2025,Facturas B,25312,-,24793,5207,Viñas En Flor
+17/08/2025,Facturas B,2835,-,70248,14752,Viñas En Flor
+17/08/2025,Facturas B,25309,-,181818,38182,Viñas En Flor
+17/08/2025,Facturas B,25295,-,84711,17789,Viñas En Flor
+17/08/2025,Facturas B,25305,-,7769,1631,Viñas En Flor
+17/08/2025,Facturas B,25310,-,23636,4964,Viñas En Flor
+17/08/2025,Facturas B,25300,-,66942,14058,Viñas En Flor
+17/08/2025,Facturas B,2834,-,35537,7463,Viñas En Flor
+17/08/2025,Facturas B,25289,-,187025,39275,Viñas En Flor
+17/08/2025,Facturas B,25314,-,29008,6092,Viñas En Flor
+17/08/2025,Facturas B,25290,-,210661,44239,Viñas En Flor
+17/08/2025,Facturas B,25322,-,145455,30545,Viñas En Flor
+17/08/2025,Facturas B,25315,-,57851,12149,Viñas En Flor
+17/08/2025,Facturas B,25296,-,54545,11455,Viñas En Flor
+17/08/2025,Facturas B,25313,-,150744,31656,Viñas En Flor
+17/08/2025,Facturas B,2830,-,31405,6595,Viñas En Flor
+17/08/2025,Facturas B,2837,-,57851,12149,Viñas En Flor
+17/08/2025,Facturas B,2836,-,13223,2777,Viñas En Flor
+17/08/2025,Facturas B,25307,-,80165,16835,Viñas En Flor
+17/08/2025,Facturas B,25316,-,17190,3610,Viñas En Flor
+17/08/2025,Facturas B,25308,-,56446,11854,Viñas En Flor
+17/08/2025,Facturas B,25317,-,17190,3610,Viñas En Flor
+17/08/2025,Facturas B,25306,-,336612,70688,Viñas En Flor
+17/08/2025,Facturas B,2832,-,89917,18883,Viñas En Flor
+17/08/2025,Facturas B,2833,-,20661,4339,Viñas En Flor
+17/08/2025,Facturas B,25318,-,29008,6092,Viñas En Flor
+17/08/2025,Facturas B,25297,-,36364,7636,Viñas En Flor
+17/08/2025,Facturas B,25292,-,356198,74802,Viñas En Flor
+17/08/2025,Facturas B,25323,-,19008,3992,Viñas En Flor
+17/08/2025,Facturas B,25299,-,145455,30545,Viñas En Flor
+18/08/2025,Facturas A,731,Bernardelli Emiliano Jose,52893,11107,Viñas En Flor
+18/08/2025,Facturas B,25329,-,261157,54843,Viñas En Flor
+18/08/2025,Facturas B,25327,-,77769,16331,Viñas En Flor
+18/08/2025,Facturas B,25330,-,342479,71921,Viñas En Flor
+18/08/2025,Facturas B,2839,-,18182,3818,Viñas En Flor
+18/08/2025,Facturas B,25326,-,262810,55190,Viñas En Flor
+18/08/2025,Facturas B,25328,-,113719,23881,Viñas En Flor
+18/08/2025,Facturas B,25331,-,52893,11107,Viñas En Flor
+18/08/2025,Facturas B,25324,-,52893,11107,Viñas En Flor
+18/08/2025,Facturas B,25325,-,57851,12149,Viñas En Flor
+19/08/2025,Facturas A,730,Landtur Sa,165554,34766,Viñas En Flor
+20/08/2025,Facturas A,731,Ambiela Cecilia,288233,60529,Viñas En Flor
+20/08/2025,Facturas A,732,Hoteles Dionysos S.A.,146281,30719,Viñas En Flor
+20/08/2025,Facturas B,25335,-,111273,23367,Viñas En Flor
+20/08/2025,Facturas B,25336,-,21488,4512,Viñas En Flor
+20/08/2025,Facturas B,25349,-,153223,32177,Viñas En Flor
+20/08/2025,Facturas B,25341,-,126198,26502,Viñas En Flor
+20/08/2025,Facturas B,25337,-,18182,3818,Viñas En Flor
+20/08/2025,Facturas B,25348,-,145289,30511,Viñas En Flor
+20/08/2025,Facturas B,25338,-,41322,8678,Viñas En Flor
+20/08/2025,Facturas B,25350,-,16529,3471,Viñas En Flor
+20/08/2025,Facturas B,25342,-,9008,1892,Viñas En Flor
+20/08/2025,Facturas B,25351,-,63471,13329,Viñas En Flor
+20/08/2025,Facturas B,25332,-,18182,3818,Viñas En Flor
+20/08/2025,Facturas B,25333,-,18182,3818,Viñas En Flor
+20/08/2025,Facturas B,25339,-,28099,5901,Viñas En Flor
+20/08/2025,Facturas B,25356,-,104298,21902,Viñas En Flor
+20/08/2025,Facturas B,25334,-,18182,3818,Viñas En Flor
+20/08/2025,Facturas B,25352,-,71405,14995,Viñas En Flor
+20/08/2025,Facturas B,25345,-,159917,33583,Viñas En Flor
+20/08/2025,Facturas B,25344,-,136942,28758,Viñas En Flor
+20/08/2025,Facturas B,25353,-,33719,7081,Viñas En Flor
+20/08/2025,Facturas B,25354,-,26033,5467,Viñas En Flor
+20/08/2025,Facturas B,25343,-,121983,25617,Viñas En Flor
+20/08/2025,Facturas B,25340,-,11488,2412,Viñas En Flor
+20/08/2025,Facturas B,25346,-,52231,10969,Viñas En Flor
+20/08/2025,Facturas B,25347,-,107686,22614,Viñas En Flor
+20/08/2025,Facturas B,25357,-,9091,1909,Viñas En Flor
+20/08/2025,Facturas B,25355,-,8264,1736,Viñas En Flor
+21/08/2025,Facturas A,733,Black Tree S. Cap I Secc Iv,396694,83306,Viñas En Flor
+21/08/2025,Facturas A,734,Black Tree S. Cap I Secc Iv,131405,27595,Viñas En Flor
+21/08/2025,Facturas B,25358,-,36364,7636,Viñas En Flor
+21/08/2025,Facturas B,25359,-,36364,7636,Viñas En Flor
+21/08/2025,Facturas B,25365,-,148760,31240,Viñas En Flor
+21/08/2025,Facturas B,25360,-,30579,6421,Viñas En Flor
+21/08/2025,Facturas B,25368,-,263471,55329,Viñas En Flor
+21/08/2025,Facturas B,25366,-,256612,53888,Viñas En Flor
+21/08/2025,Facturas B,25367,-,47107,9893,Viñas En Flor
+21/08/2025,Facturas B,25361,-,87107,18293,Viñas En Flor
+21/08/2025,Facturas B,25362,-,77521,16279,Viñas En Flor
+21/08/2025,Facturas B,25363,-,77025,16175,Viñas En Flor
+21/08/2025,Facturas B,25364,-,73554,15446,Viñas En Flor
+22/08/2025,Facturas A,732,Mercado Inteligente S. A.,153719,32281,Viñas En Flor
+22/08/2025,Facturas A,733,Barbot Cristian,145455,30545,Viñas En Flor
+22/08/2025,Facturas A,736,Flor De Bodegas S. A. S.,461157,96843,Viñas En Flor
+22/08/2025,Facturas A,737,Fratres S.R.L.,214876,45124,Viñas En Flor
+22/08/2025,Facturas A,735,Uma Travel Srl,79339,16661,Viñas En Flor
+22/08/2025,Facturas A,734,Conrado Juan Llapur S. A. S.,145372,30528,Viñas En Flor
+22/08/2025,Facturas B,25370,-,18182,3818,Viñas En Flor
+22/08/2025,Facturas B,25375,-,229587,48213,Viñas En Flor
+22/08/2025,Facturas B,25383,-,153058,32142,Viñas En Flor
+22/08/2025,Facturas B,25377,-,244545,51355,Viñas En Flor
+22/08/2025,Facturas B,25376,-,98264,20636,Viñas En Flor
+22/08/2025,Facturas B,25379,-,133554,28046,Viñas En Flor
+22/08/2025,Facturas B,25387,-,51240,10760,Viñas En Flor
+22/08/2025,Facturas B,25388,-,22314,4686,Viñas En Flor
+22/08/2025,Facturas B,25385,-,36364,7636,Viñas En Flor
+22/08/2025,Facturas B,25380,-,92893,19507,Viñas En Flor
+22/08/2025,Facturas B,25374,-,36364,7636,Viñas En Flor
+22/08/2025,Facturas B,25382,-,123554,25946,Viñas En Flor
+22/08/2025,Facturas B,25378,-,153719,32281,Viñas En Flor
+22/08/2025,Facturas B,25371,-,13223,2777,Viñas En Flor
+22/08/2025,Facturas B,25373,-,27107,5693,Viñas En Flor
+22/08/2025,Facturas B,25386,-,36364,7636,Viñas En Flor
+22/08/2025,Facturas B,25381,-,238760,50140,Viñas En Flor
+22/08/2025,Facturas B,25369,-,54545,11455,Viñas En Flor
+22/08/2025,Facturas B,25372,-,105124,22076,Viñas En Flor
+22/08/2025,Facturas B,25384,-,47107,9893,Viñas En Flor
+22/08/2025,Notas De Credito B,171,-,-153058,-32142,Viñas En Flor
+23/08/2025,Facturas A,735,Expreso Alex Srl,121653,25547,Viñas En Flor
+23/08/2025,Facturas B,25390,-,36364,7636,Viñas En Flor
+23/08/2025,Facturas B,25389,-,18182,3818,Viñas En Flor
+23/08/2025,Facturas B,25399,-,81983,17217,Viñas En Flor
+23/08/2025,Facturas B,25400,-,218182,45818,Viñas En Flor
+23/08/2025,Facturas B,25397,-,142727,29973,Viñas En Flor
+23/08/2025,Facturas B,25401,-,32066,6734,Viñas En Flor
+23/08/2025,Facturas B,25395,-,135455,28445,Viñas En Flor
+23/08/2025,Facturas B,25402,-,101653,21347,Viñas En Flor
+23/08/2025,Facturas B,25393,-,113802,23898,Viñas En Flor
+23/08/2025,Facturas B,25404,-,4215,885,Viñas En Flor
+23/08/2025,Facturas B,25396,-,109917,23083,Viñas En Flor
+23/08/2025,Facturas B,25398,-,199917,41983,Viñas En Flor
+23/08/2025,Facturas B,25403,-,72727,15273,Viñas En Flor
+23/08/2025,Facturas B,25392,-,14876,3124,Viñas En Flor
+23/08/2025,Facturas B,25394,-,36364,7636,Viñas En Flor
+23/08/2025,Facturas B,25391,-,36364,7636,Viñas En Flor
+23/08/2025,Facturas B,25405,-,29008,6092,Viñas En Flor
+24/08/2025,Facturas B,25408,-,77851,16349,Viñas En Flor
+24/08/2025,Facturas B,25416,-,188678,39622,Viñas En Flor
+24/08/2025,Facturas B,25431,-,149587,31413,Viñas En Flor
+24/08/2025,Facturas B,25409,-,51488,10812,Viñas En Flor
+24/08/2025,Facturas B,25418,-,16529,3471,Viñas En Flor
+24/08/2025,Facturas B,25406,-,36364,7636,Viñas En Flor
+24/08/2025,Facturas B,25424,-,51240,10760,Viñas En Flor
+24/08/2025,Facturas B,25425,-,84298,17702,Viñas En Flor
+24/08/2025,Facturas B,25412,-,153719,32281,Viñas En Flor
+24/08/2025,Facturas B,25426,-,22314,4686,Viñas En Flor
+24/08/2025,Facturas B,25429,-,34298,7202,Viñas En Flor
+24/08/2025,Facturas B,25422,-,89256,18744,Viñas En Flor
+24/08/2025,Facturas B,25417,-,74380,15620,Viñas En Flor
+24/08/2025,Facturas B,25413,-,43504,9136,Viñas En Flor
+24/08/2025,Facturas B,25410,-,60992,12808,Viñas En Flor
+24/08/2025,Facturas B,25433,-,28926,6074,Viñas En Flor
+24/08/2025,Facturas B,25427,-,311818,65482,Viñas En Flor
+24/08/2025,Facturas B,25419,-,73388,15412,Viñas En Flor
+24/08/2025,Facturas B,25423,-,145455,30545,Viñas En Flor
+24/08/2025,Facturas B,25420,-,195620,41080,Viñas En Flor
+24/08/2025,Facturas B,25414,-,102975,21625,Viñas En Flor
+24/08/2025,Facturas B,25421,-,21488,4512,Viñas En Flor
+24/08/2025,Facturas B,25430,-,307438,64562,Viñas En Flor
+24/08/2025,Facturas B,25407,-,69421,14579,Viñas En Flor
+24/08/2025,Facturas B,25432,-,9091,1909,Viñas En Flor
+24/08/2025,Facturas B,25415,-,53719,11281,Viñas En Flor
+24/08/2025,Facturas B,25428,-,60000,12600,Viñas En Flor
+24/08/2025,Facturas B,25411,-,153719,32281,Viñas En Flor
+25/08/2025,Facturas A,738,Uma Travel Srl,1227273,257727,Viñas En Flor
+25/08/2025,Facturas B,25434,-,105785,22215,Viñas En Flor
+25/08/2025,Facturas B,25436,-,73554,15446,Viñas En Flor
+25/08/2025,Facturas B,25443,-,155785,32715,Viñas En Flor
+25/08/2025,Facturas B,25439,-,84876,17824,Viñas En Flor
+25/08/2025,Facturas B,25440,-,47934,10066,Viñas En Flor
+25/08/2025,Facturas B,25446,-,145455,30545,Viñas En Flor
+25/08/2025,Facturas B,25444,-,94050,19750,Viñas En Flor
+25/08/2025,Facturas B,25445,-,107273,22527,Viñas En Flor
+25/08/2025,Facturas B,25447,-,83306,17494,Viñas En Flor
+25/08/2025,Facturas B,25448,-,12397,2603,Viñas En Flor
+25/08/2025,Facturas B,25437,-,58926,12374,Viñas En Flor
+25/08/2025,Facturas B,25441,-,34298,7202,Viñas En Flor
+25/08/2025,Facturas B,25438,-,25620,5380,Viñas En Flor
+25/08/2025,Facturas B,25442,-,99587,20913,Viñas En Flor
+25/08/2025,Facturas B,25435,-,134132,28168,Viñas En Flor
+26/08/2025,Facturas A,739,Ramirez Maria Gabriela,378099,79401,Viñas En Flor
+26/08/2025,Facturas B,2841,-,42149,8851,Viñas En Flor
+26/08/2025,Facturas B,2840,-,12397,2603,Viñas En Flor
+27/08/2025,Facturas A,41,Rocha Andres Ramon,100165,21035,Viñas En Flor
+27/08/2025,Facturas A,740,Real Pedro Sebastian,493140,103560,Viñas En Flor
+27/08/2025,Facturas B,25453,-,57851,12149,Viñas En Flor
+27/08/2025,Facturas B,25454,-,171570,36030,Viñas En Flor
+27/08/2025,Facturas B,25456,-,43802,9198,Viñas En Flor
+27/08/2025,Facturas B,25449,-,36364,7636,Viñas En Flor
+27/08/2025,Facturas B,25457,-,22314,4686,Viñas En Flor
+27/08/2025,Facturas B,25458,-,35537,7463,Viñas En Flor
+27/08/2025,Facturas B,25450,-,94380,19820,Viñas En Flor
+27/08/2025,Facturas B,25459,-,85950,18050,Viñas En Flor
+27/08/2025,Facturas B,25460,-,137851,28949,Viñas En Flor
+27/08/2025,Facturas B,25461,-,28926,6074,Viñas En Flor
+27/08/2025,Facturas B,25451,-,106033,22267,Viñas En Flor
+27/08/2025,Facturas B,25452,-,340992,71608,Viñas En Flor
+27/08/2025,Facturas B,25455,-,34711,7289,Viñas En Flor
+28/08/2025,Facturas B,25463,-,110083,23117,Viñas En Flor
+28/08/2025,Facturas B,25465,-,538017,112983,Viñas En Flor
+28/08/2025,Facturas B,25470,-,122975,25825,Viñas En Flor
+28/08/2025,Facturas B,2843,-,36364,7636,Viñas En Flor
+28/08/2025,Facturas B,25471,-,107107,22493,Viñas En Flor
+28/08/2025,Facturas B,25466,-,28512,5988,Viñas En Flor
+28/08/2025,Facturas B,25469,-,413636,86864,Viñas En Flor
+28/08/2025,Facturas B,25462,-,36364,7636,Viñas En Flor
+28/08/2025,Facturas B,25467,-,77025,16175,Viñas En Flor
+28/08/2025,Facturas B,2842,-,47107,9893,Viñas En Flor
+28/08/2025,Facturas B,25464,-,89174,18726,Viñas En Flor
+28/08/2025,Facturas B,25468,-,18182,3818,Viñas En Flor
+28/08/2025,Facturas B,2844,-,92893,19507,Viñas En Flor
+29/08/2025,Facturas A,737,Nutraclinix Global Sociedad Por Acciones Simplificada,210744,44256,Viñas En Flor
+29/08/2025,Facturas A,736,Nutraclinix Global Sociedad Por Acciones Simplificada,248099,52101,Viñas En Flor
+29/08/2025,Notas De Credito A,70,Uma Travel Srl,-147107,-30893,Viñas En Flor
+29/08/2025,Facturas B,25483,-,134711,28289,Viñas En Flor
+29/08/2025,Facturas B,25478,-,422314,88686,Viñas En Flor
+29/08/2025,Facturas B,25473,-,28926,6074,Viñas En Flor
+29/08/2025,Facturas B,25484,-,25620,5380,Viñas En Flor
+29/08/2025,Facturas B,2845,-,18182,3818,Viñas En Flor
+29/08/2025,Facturas B,25477,-,33802,7098,Viñas En Flor
+29/08/2025,Facturas B,25472,-,185124,38876,Viñas En Flor
+29/08/2025,Facturas B,25486,-,3058,642,Viñas En Flor
+29/08/2025,Facturas B,25474,-,128264,26936,Viñas En Flor
+29/08/2025,Facturas B,25479,-,61983,13017,Viñas En Flor
+29/08/2025,Facturas B,25480,-,150744,31656,Viñas En Flor
+29/08/2025,Facturas B,25475,-,28926,6074,Viñas En Flor
+29/08/2025,Facturas B,25476,-,28926,6074,Viñas En Flor
+29/08/2025,Facturas B,25481,-,153719,32281,Viñas En Flor
+29/08/2025,Facturas B,25485,-,781157,164043,Viñas En Flor
+29/08/2025,Facturas B,25482,-,107686,22614,Viñas En Flor
+30/08/2025,Facturas A,738,Four Universe S.R.L,190661,40039,Viñas En Flor
+30/08/2025,Facturas B,25488,-,36364,7636,Viñas En Flor
+30/08/2025,Facturas B,25507,-,23636,4964,Viñas En Flor
+30/08/2025,Facturas B,25509,-,138843,29157,Viñas En Flor
+30/08/2025,Facturas B,25510,-,12810,2690,Viñas En Flor
+30/08/2025,Facturas B,25502,-,107521,22579,Viñas En Flor
+30/08/2025,Facturas B,25494,-,98595,20705,Viñas En Flor
+30/08/2025,Facturas B,25487,-,36364,7636,Viñas En Flor
+30/08/2025,Facturas B,25513,-,313719,65881,Viñas En Flor
+30/08/2025,Facturas B,25492,-,62975,13225,Viñas En Flor
+30/08/2025,Facturas B,25514,-,145455,30545,Viñas En Flor
+30/08/2025,Facturas B,25515,-,8430,1770,Viñas En Flor
+30/08/2025,Facturas B,25503,-,62397,13103,Viñas En Flor
+30/08/2025,Facturas B,2847,-,26446,5554,Viñas En Flor
+30/08/2025,Facturas B,25516,-,9917,2083,Viñas En Flor
+30/08/2025,Facturas B,25499,-,109669,23031,Viñas En Flor
+30/08/2025,Facturas B,25517,-,9917,2083,Viñas En Flor
+30/08/2025,Facturas B,25493,-,36364,7636,Viñas En Flor
+30/08/2025,Facturas B,25495,-,109008,22892,Viñas En Flor
+30/08/2025,Facturas B,25504,-,22314,4686,Viñas En Flor
+30/08/2025,Facturas B,25518,-,9917,2083,Viñas En Flor
+30/08/2025,Facturas B,25519,-,4959,1041,Viñas En Flor
+30/08/2025,Facturas B,25500,-,87025,18275,Viñas En Flor
+30/08/2025,Facturas B,25489,-,36364,7636,Viñas En Flor
+30/08/2025,Facturas B,2846,-,47107,9893,Viñas En Flor
+30/08/2025,Facturas B,25491,-,107107,22493,Viñas En Flor
+30/08/2025,Facturas B,25490,-,236364,49636,Viñas En Flor
+30/08/2025,Facturas B,25501,-,291570,61230,Viñas En Flor
+30/08/2025,Facturas B,25511,-,9917,2083,Viñas En Flor
+30/08/2025,Facturas B,25496,-,28926,6074,Viñas En Flor
+30/08/2025,Facturas B,25505,-,47934,10066,Viñas En Flor
+30/08/2025,Facturas B,25498,-,36364,7636,Viñas En Flor
+30/08/2025,Facturas B,25520,-,20661,4339,Viñas En Flor
+30/08/2025,Facturas B,25508,-,29008,6092,Viñas En Flor
+30/08/2025,Facturas B,25521,-,99174,20826,Viñas En Flor
+30/08/2025,Facturas B,25497,-,230579,48421,Viñas En Flor
+30/08/2025,Facturas B,25512,-,76198,16002,Viñas En Flor
+30/08/2025,Facturas B,25506,-,43636,9164,Viñas En Flor
+30/08/2025,Facturas B,25522,-,20661,4339,Viñas En Flor
+30/08/2025,Facturas B,2849,-,64463,13537,Viñas En Flor
+30/08/2025,Facturas B,2848,-,18182,3818,Viñas En Flor
+30/08/2025,Notas De Credito B,172,-,-36364,-7636,Viñas En Flor
+30/08/2025,Notas De Credito B,173,-,-109008,-22892,Viñas En Flor
+31/08/2025,Facturas A,739,Serra Leonardo Pablo,145455,30545,Viñas En Flor
+31/08/2025,Facturas B,2852,-,28926,6074,Viñas En Flor
+31/08/2025,Facturas B,25526,-,138843,29157,Viñas En Flor
+31/08/2025,Facturas B,2850,-,53719,11281,Viñas En Flor
+31/08/2025,Facturas B,25531,-,107107,22493,Viñas En Flor
+31/08/2025,Facturas B,25523,-,33058,6942,Viñas En Flor
+31/08/2025,Facturas B,25532,-,31405,6595,Viñas En Flor
+31/08/2025,Facturas B,25525,-,60248,12652,Viñas En Flor
+31/08/2025,Facturas B,25527,-,12810,2690,Viñas En Flor
+31/08/2025,Facturas B,25533,-,68595,14405,Viñas En Flor
+31/08/2025,Facturas B,25530,-,99256,20844,Viñas En Flor
+31/08/2025,Facturas B,25536,-,201653,42347,Viñas En Flor
+31/08/2025,Facturas B,25537,-,101157,21243,Viñas En Flor
+31/08/2025,Facturas B,25534,-,47025,9875,Viñas En Flor
+31/08/2025,Facturas B,2851,-,22314,4686,Viñas En Flor
+31/08/2025,Facturas B,2853,-,28926,6074,Viñas En Flor
+31/08/2025,Facturas B,25528,-,73554,15446,Viñas En Flor
+31/08/2025,Facturas B,25535,-,36364,7636,Viñas En Flor
+31/08/2025,Facturas B,2854,-,35124,7376,Viñas En Flor
+31/08/2025,Facturas B,25529,-,73802,15498,Viñas En Flor
+31/08/2025,Facturas B,25524,-,105785,22215,Viñas En Flor
+31/08/2025,Facturas B,25538,-,228926,48074,Viñas En Flor
