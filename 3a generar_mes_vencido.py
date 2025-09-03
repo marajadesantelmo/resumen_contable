@@ -130,4 +130,4 @@ totals = datos_pivot.drop('Sociedad', axis=1).sum().to_frame().T
 totals.to_csv('data/resumen_contable_total.csv', index=False)
 print('Terminando')
 with open('data/leyenda_resumen_contable_mes_vencido.txt', 'w', encoding='utf-8') as file:
-    file.write(f"Resumen Contable al {current_date} para el mes corriente")
+    file.write(f"Resumen Contable generado el {current_date} para el {mes}")
