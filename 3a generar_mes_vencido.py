@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-INGRESAR MES A MANO
-
 Genera tabla resumen sobre mes vencido en base a datos descargados y procesados en data/emitidos_historico.csv
 Ver si es posible mejorarlo integrando descarga y procesamiento en este repositorio
 """
 from datetime import datetime
 import pandas as pd
-mes = "07/2025"                                        ##### <- IGRESAR MES A MANO
+from dateutil.relativedelta import relativedelta
+# Determine previous month in MM/YYYY format
+today = datetime.today()
+prev_month = today - relativedelta(months=1)
+mes = prev_month.strftime("%m/%Y")
 #Abro datos
 cuits  = pd.read_excel('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\resumen_contable\\cuits.xlsx') 
 emitidos = pd.read_csv('data/emitidos_historico.csv')
@@ -130,4 +132,4 @@ totals = datos_pivot.drop('Sociedad', axis=1).sum().to_frame().T
 totals.to_csv('data/resumen_contable_total.csv', index=False)
 
 with open('data/leyenda_resumen_contable_mes_vencido.txt', 'w', encoding='utf-8') as file:
-    file.write(f"Resumen Contable al {current_date} para el mes corriente")
+    file.write(f"Resumen Contable al {current_date} para el mes anterior ({mes})")
