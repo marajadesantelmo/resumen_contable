@@ -4,7 +4,21 @@ from io import BytesIO
 #
 def format_currency(x):
     """Format number as Argentine peso currency"""
-    return f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
+    # Handle non-numeric values
+    if pd.isna(x) or x == '' or x is None:
+        return "$0"
+    
+    # Convert to float if it's a string
+    try:
+        x = float(x)
+    except (ValueError, TypeError):
+        return "$0"
+    
+    # Format the number
+    if x >= 0:
+        return f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    else:
+        return f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
 
 def fetch_data():
     emitidos = pd.read_csv('data/emitidos_mes_vencido.csv')
