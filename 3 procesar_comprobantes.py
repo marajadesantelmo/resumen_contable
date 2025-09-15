@@ -22,8 +22,8 @@ def clean_dataframe_for_db(df):
     # Replace NaN values with None for proper NULL handling
     df_clean = df_clean.where(pd.notnull(df_clean), None)
     
-    # Convert column names to lowercase and replace spaces with underscores
-    df_clean.columns = [col.lower().replace(' ', '_').replace('.', '').replace('°', 'nro') for col in df_clean.columns]
+    # Keep original column names as they match the database schema exactly
+    # No need to convert column names since we're using quoted identifiers in SQL
     
     return df_clean
 
@@ -45,8 +45,8 @@ def upload_dataframe_to_supabase(df, table_name, batch_size=100):
         df_clean = clean_dataframe_for_db(df)
         
         # Convert dates for historical tables
-        if 'fecha' in df_clean.columns:
-            df_clean['fecha'] = df_clean['fecha'].apply(convert_date_format)
+        if 'Fecha' in df_clean.columns:
+            df_clean['Fecha'] = df_clean['Fecha'].apply(convert_date_format)
         
         # Convert DataFrame to list of dictionaries
         records = df_clean.to_dict('records')
@@ -86,7 +86,10 @@ def insert_table_data(table_name, data):
             print(f"Error inserting record into {table_name}: {e}")
 
 def delete_table_data(table_name):
-    supabase_client.from_(table_name).delete().neq('razon_social', None).execute()
+    supabase_client.from_(table_name).delete().neq('Razon Social', None).execute()
+
+def delete_resumen_contable_total(table_name):
+    supabase_client.from_(table_name).delete().neq('mes', None).execute()
 
 ids_empresas = pd.read_excel('data/cuits.xlsx')
 cuit_to_name = dict(zip(ids_empresas['cuit'].astype(str), ids_empresas['razon_social']))
@@ -171,7 +174,7 @@ for replacement in sociedad_replacements:
 
 comprobantes = comprobantes[['Fecha de Emisión', 'Base', 'Tipo de Comprobante', 
     'Número Desde', 'Tipo Cambio', 'Moneda', 'Neto Gravado', 'Neto No Gravado',
-    'Op. Exentas', 'IVA', 'Total', 'Razon Social', 'Empresa']]
+    'Op. Exentas', 'IVA', 'Imp. Total', 'Razon Social', 'Empresa']]
 
 # Notas de credito
 comprobantes.loc[comprobantes['Tipo de Comprobante'] == 3, ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA']] *= -1
@@ -279,16 +282,24 @@ compras_por_empresa.to_csv('data/compras_historico_mensual.csv', index=False)
 ventas_por_empresa_cliente.to_csv('data/ventas_historico_cliente.csv', index=False)
 compras_por_empresa_proveedor.to_csv('data/compras_historico_proveedor.csv', index=False)
 
+
+
+
 # Upload data to Supabase database
 print("Starting database upload...")
 delete_table_data('emitidos_historico')
 upload_dataframe_to_supabase(emitidos_historico, 'emitidos_historico')
 delete_table_data('recibidos_historico')
 upload_dataframe_to_supabase(recibidos_historico, 'recibidos_historico')
+delete_table_data('comprobantes_historicos')
 upload_dataframe_to_supabase(comprobantes_historicos, 'comprobantes_historicos')
+delete_table_data('ventas_historico_mensual')
 upload_dataframe_to_supabase(ventas_por_empresa, 'ventas_historico_mensual')
+delete_table_data('compras_historico_mensual')
 upload_dataframe_to_supabase(compras_por_empresa, 'compras_historico_mensual')
+delete_table_data('ventas_historico_cliente')
 upload_dataframe_to_supabase(ventas_por_empresa_cliente, 'ventas_historico_cliente')
+delete_table_data('compras_historico_proveedor')
 upload_dataframe_to_supabase(compras_por_empresa_proveedor, 'compras_historico_proveedor')
 print("Database upload completed!")
 
@@ -303,39 +314,54 @@ Ver si es posible mejorarlo integrando descarga y procesamiento en este reposito
 """
 from datetime import datetime
 import pandas as pd
-mes = "08/2025"                                        ##### <- IGRESAR MES A MANO
-#Abro datos
-cuits  = pd.read_excel('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\resumen_contable\\cuits.xlsx') 
-emitidos = pd.read_csv('data/emitidos_historico.csv')
+from dateutil.relativedelta import relativedelta
+# Detect previous month automatically
+today = datetime.now()
+prev_month = today - relativedelta(months=1)
+mes = prev_month.strftime("%m/%Y")  # Format as MM/YYYY
+
+# Load data
+cuits = pd.read_excel('C:\\Users\\facun\\OneDrive\\Documentos\\GitHub\\resumen_contable\\cuits.xlsx')
+emitidos = emitidos_historico.copy()
 emitidos = emitidos[emitidos['Fecha'].str.endswith(mes)]
-recibidos = pd.read_csv('data/recibidos_historico.csv')
+recibidos = recibidos_historico.copy()
 recibidos = recibidos[recibidos['Fecha'].str.endswith(mes)]
 
-emitidos = emitidos[['Fecha', 'Tipo', 'Nro.', 'Empresa', 'Neto', 'IVA', 'Razon Social']]
 emitidos.to_csv('data/emitidos_mes_vencido.csv', index=False)
+delete_table_data('emitidos_mes_vencido')
+upload_dataframe_to_supabase(emitidos, 'emitidos_mes_vencido')
 
+recibidos.to_csv('data/recibidos_mes_vencido.csv', index=False)
+delete_table_data('recibidos_mes_vencido')
+upload_dataframe_to_supabase(recibidos, 'recibidos_mes_vencido')
 
 emitidos_por_empresa = emitidos.groupby(['Razon Social', 'Empresa']).agg({
+    'Neto Gravado': 'sum',
+    'Neto No Gravado': 'sum',
+    'Op. Exentas': 'sum',
     'Neto': 'sum', 
     'IVA': 'sum', 
 }).reset_index()
 emitidos_por_empresa['Imp. Total'] = emitidos_por_empresa['Neto'] + emitidos_por_empresa['IVA']
 emitidos_por_empresa = emitidos_por_empresa.sort_values('Neto', ascending=False)
-emitidos_por_empresa.rename(columns={'Razon Social': 'Sociedad'}, inplace=True)
 emitidos_por_empresa.to_csv('data/emitidos_por_empresa_mes_vencido.csv', index=False)
+delete_table_data('emitidos_por_empresa_mes_vencido')
+upload_dataframe_to_supabase(emitidos_por_empresa, 'emitidos_por_empresa_mes_vencido')
 
 #Recibidos por Proveedor
 recibidos['Neto'] = recibidos['Neto Gravado'] + recibidos['Neto No Gravado'] + recibidos['Op. Exentas']
-recibidos = recibidos[['Fecha', 'Tipo', 'Nro.', 'Empresa', 'Neto', 'IVA', 'Razon Social']]
-recibidos.to_csv('data/recibidos_mes_vencido.csv', index=False)
 recibidos_por_empresa = recibidos.groupby(['Razon Social', 'Empresa']).agg({
+    'Neto Gravado': 'sum',
+    'Neto No Gravado': 'sum',
+    'Op. Exentas': 'sum',
     'Neto': 'sum', 
     'IVA': 'sum', 
 }).reset_index()
 recibidos_por_empresa['Imp. Total'] = recibidos_por_empresa['Neto'] + recibidos_por_empresa['IVA']
 recibidos_por_empresa = recibidos_por_empresa.sort_values('Imp. Total', ascending=False)
-recibidos_por_empresa.rename(columns={'Razon Social': 'Sociedad'}, inplace=True)
 recibidos_por_empresa.to_csv('data/recibidos_por_empresa_mes_vencido.csv', index=False)
+delete_table_data('recibidos_por_empresa_mes_vencido')
+upload_dataframe_to_supabase(recibidos_por_empresa, 'recibidos_por_empresa_mes_vencido')
 
 # IVA 
 ventas_netas_df = emitidos.groupby('Razon Social')['Neto'].sum().reset_index()
@@ -409,19 +435,19 @@ indicators = indicators[indicators['Company Name'] != 'Unknown Company']
 datos_pivot = indicators.pivot(index='Company Name', columns='Variable', values='Value')
 datos_pivot = datos_pivot.reset_index()
 datos_pivot = datos_pivot[['Company Name', 'Ventas Netas', 'Compras Netas', 'Saldo IVA', 'Ingresos Brutos']]
-datos_pivot.columns = ['Sociedad', 'Vtas. Netas', 'Compras Netas', 'Saldo IVA', 'II.BB.']
+datos_pivot.columns = ['Razon Social', 'Vtas. Netas', 'Compras Netas', 'Saldo IVA', 'II.BB.']
 
-# Clean the 'Sociedad' column by removing specified substrings
+# Clean the 'Razon Social' column by removing specified substrings
 sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]
 for replacement in sociedad_replacements:
-    datos_pivot['Sociedad'] = datos_pivot['Sociedad'].str.replace(replacement, '', regex=False).str.strip()
+    datos_pivot['Razon Social'] = datos_pivot['Razon Social'].str.replace(replacement, '', regex=False).str.strip()
 
 current_date = datetime.now().strftime("%d-%m-%Y")
 
 datos_pivot.to_csv('data/resumen_contable_mes_vencido.csv', index=False)
 
-# Sum all columns except 'Sociedad'
-totals = datos_pivot.drop('Sociedad', axis=1).sum().to_frame().T
+# Sum all columns except 'Razon Social'
+totals = datos_pivot.drop('Razon Social', axis=1).sum().to_frame().T
 
 totals.to_csv('data/resumen_contable_total.csv', index=False)
 
@@ -437,7 +463,9 @@ totals_db['fecha_generacion'] = datetime.now().strftime("%Y-%m-%d")
 
 # Upload to Supabase database
 print("Uploading resumen contable data to database...")
+delete_table_data('resumen_contable_mes_vencido')
 upload_dataframe_to_supabase(datos_pivot_db, 'resumen_contable_mes_vencido')
+delete_resumen_contable_total('resumen_contable_total')
 upload_dataframe_to_supabase(totals_db, 'resumen_contable_total')
 print("Resumen contable data uploaded to database!")
 
