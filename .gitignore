@@ -6,7 +6,6 @@ captura *
 back-ups/*
 1 descargar_comprobantes.py
 2 descomprimir_comprobantes.py
-3 procesar_comprobantes.py
 4 descargar cuentas tributarias.py
 5 procesar cuentas tributarias.py
 6 descargar y procesar F931.py
