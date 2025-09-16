@@ -59,7 +59,7 @@ def upload_dataframe_to_supabase(df, table_name, batch_size=100):
                 if table_name in ['comprobantes_historicos', 'ventas_historico_mensual', 
                                 'compras_historico_mensual', 'ventas_historico_cliente', 
                                 'compras_historico_proveedor', 'resumen_contable_mes_vencido',
-                                'resumen_contable_total']:
+                                'resumen_contable_total', 'clientes_activos']:
                     result = supabase_client.table(table_name).upsert(batch).execute()
                 else:
                     # Clear existing data and insert new for other tables
@@ -274,6 +274,24 @@ comprobantes_historicos = comprobantes_historico.melt(
     value_name='Monto'
 )
 
+# Ver clientes activos segun operaciones en ultimos 3 meses
+ventas_por_empresa_cliente_activo = ventas_por_empresa_cliente.copy()
+ventas_por_empresa_cliente_activo['Mes'] = pd.to_datetime(ventas_por_empresa_cliente_activo['Mes'], format='%Y-%m')
+last_month = ventas_por_empresa_cliente_activo['Mes'].max()
+three_months = [last_month - pd.DateOffset(months=i) for i in range(3)]
+three_months_str = [m.strftime('%Y-%m') for m in three_months]
+
+def is_active(group):
+    active = group['Mes'].dt.strftime('%Y-%m').isin(three_months_str).any()
+    return pd.Series({
+        'Razon Social': group['Razon Social'].iloc[0],
+        'Empresa': group['Empresa'].iloc[0],
+        'cliente_activo': 'Si' if active else 'No',
+        'mes_corriente': last_month.strftime('%Y-%m')
+    })
+
+active_clients = ventas_por_empresa_cliente_activo.groupby(['Razon Social', 'Empresa']).apply(is_active).reset_index(drop=True)
+
 emitidos_historico.to_csv('data/emitidos_historico.csv', index=False)
 recibidos_historico.to_csv('data/recibidos_historico.csv', index=False)
 comprobantes_historicos.to_csv('data/comprobantes_historicos.csv', index=False)
@@ -301,6 +319,8 @@ delete_table_data('ventas_historico_cliente')
 upload_dataframe_to_supabase(ventas_por_empresa_cliente, 'ventas_historico_cliente')
 delete_table_data('compras_historico_proveedor')
 upload_dataframe_to_supabase(compras_por_empresa_proveedor, 'compras_historico_proveedor')
+delete_table_data('clientes_activos')
+upload_dataframe_to_supabase(active_clients, 'clientes_activos')
 print("Database upload completed!")
 
 
