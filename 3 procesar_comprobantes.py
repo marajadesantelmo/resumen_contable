@@ -299,7 +299,7 @@ ventas_por_empresa.to_csv('data/ventas_historico_mensual.csv', index=False)
 compras_por_empresa.to_csv('data/compras_historico_mensual.csv', index=False)
 ventas_por_empresa_cliente.to_csv('data/ventas_historico_cliente.csv', index=False)
 compras_por_empresa_proveedor.to_csv('data/compras_historico_proveedor.csv', index=False)
-
+active_clients.to_csv('data/clientes_activos.csv', index=False)
 
 
 

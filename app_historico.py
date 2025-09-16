@@ -55,10 +55,12 @@ def fetch_data(username):
 
     compras_por_empresa_proveedor = pd.read_csv('data/compras_historico_proveedor.csv')
     compras_por_empresa_proveedor = filter_restricted_data(compras_por_empresa_proveedor, username)
-    return (comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor)
+
+    clientes_activos = pd.read_csv('data/clientes_activos.csv')
+    return (comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor, clientes_activos)
 
 def show_page(username):
-    comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor = fetch_data(username)
+    comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor, clientes_activos = fetch_data(username)
     st.title("Resumen Contable - Histórico")
     st.info("Datos Históricos en base a Comprobantes de ARCA")
 
@@ -214,6 +216,8 @@ def show_page(username):
         st.dataframe(recibidos_historicos[recibidos_historicos['Razon Social'] == selected_razon_social].drop(columns=["Razon Social"]), 
                      hide_index=True)
 
+    st.subheader("Análisis clientes activos/perdidos")
+    st.dataframe(clientes_activos)
     # Add a download button for all numeric data
     if st.button("Generar informe en Excel"):
         # Prepare dataframes for download
