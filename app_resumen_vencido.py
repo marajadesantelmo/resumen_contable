@@ -194,10 +194,36 @@ def show_page(username):
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Total mensual Emitidos por Cliente")
+        # Show metrics for filtered_emitidos_por_empresa_excel
+        total_gravado = filtered_emitidos_por_empresa_excel['Neto Gravado'].sum()
+        total_no_gravado = filtered_emitidos_por_empresa_excel['Neto No Gravado'].sum()
+        total_exentas = filtered_emitidos_por_empresa_excel['Op. Exentas'].sum()
+        total_iva = filtered_emitidos_por_empresa_excel['IVA'].sum()
+        total_neto = filtered_emitidos_por_empresa_excel['Neto'].sum()
+
+        col_m1, col_m2, col_m3, col_m4, col_m5 = st.columns(5)
+        col_m1.metric("Neto Gravado", format_currency(total_gravado))
+        col_m2.metric("Neto No Gravado", format_currency(total_no_gravado))
+        col_m3.metric("Op. Exentas", format_currency(total_exentas))
+        col_m4.metric("IVA", format_currency(total_iva))
+        col_m5.metric("Neto", format_currency(total_neto))
         with st.container():
             st.dataframe(filtered_emitidos_por_empresa, use_container_width=True, hide_index=True)
     with col2:
         st.subheader("Total mensual Recibidos por Proveedor")
+        # Show metrics for filtered_recibidos_por_empresa_excel
+        total_gravado = filtered_recibidos_por_empresa_excel['Neto Gravado'].sum()
+        total_no_gravado = filtered_recibidos_por_empresa_excel['Neto No Gravado'].sum()
+        total_exentas = filtered_recibidos_por_empresa_excel['Op. Exentas'].sum()
+        total_iva = filtered_recibidos_por_empresa_excel['IVA'].sum()
+        total_neto = filtered_recibidos_por_empresa_excel['Neto'].sum()
+
+        col_m1, col_m2, col_m3, col_m4, col_m5 = st.columns(5)
+        col_m1.metric("Neto Gravado", format_currency(total_gravado))
+        col_m2.metric("Neto No Gravado", format_currency(total_no_gravado))
+        col_m3.metric("Op. Exentas", format_currency(total_exentas))
+        col_m4.metric("IVA", format_currency(total_iva))
+        col_m5.metric("Neto", format_currency(total_neto))
         with st.container():
             st.dataframe(filtered_recibidos_por_empresa, use_container_width=True, hide_index=True)
     
