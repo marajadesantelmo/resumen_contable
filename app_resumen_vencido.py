@@ -202,11 +202,12 @@ def show_page(username):
         total_neto = filtered_emitidos_por_empresa_excel['Neto'].sum()
 
         col_m1, col_m2, col_m3, col_m4, col_m5 = st.columns(5)
-        col_m1.metric("Neto Gravado", format_currency(total_gravado))
-        col_m2.metric("Neto No Gravado", format_currency(total_no_gravado))
-        col_m3.metric("Op. Exentas", format_currency(total_exentas))
-        col_m4.metric("IVA", format_currency(total_iva))
-        col_m5.metric("Neto", format_currency(total_neto))
+        # Use markdown for smaller font size in metrics
+        col_m1.markdown(f"<span style='font-size:14px'><b>Neto Gravado</b><br>{format_currency(total_gravado)}</span>", unsafe_allow_html=True)
+        col_m2.markdown(f"<span style='font-size:14px'><b>Neto No Gravado</b><br>{format_currency(total_no_gravado)}</span>", unsafe_allow_html=True)
+        col_m3.markdown(f"<span style='font-size:14px'><b>Op. Exentas</b><br>{format_currency(total_exentas)}</span>", unsafe_allow_html=True)
+        col_m4.markdown(f"<span style='font-size:14px'><b>IVA</b><br>{format_currency(total_iva)}</span>", unsafe_allow_html=True)
+        col_m5.markdown(f"<span style='font-size:14px'><b>Neto</b><br>{format_currency(total_neto)}</span>", unsafe_allow_html=True)
         with st.container():
             st.dataframe(filtered_emitidos_por_empresa, use_container_width=True, hide_index=True)
     with col2:
