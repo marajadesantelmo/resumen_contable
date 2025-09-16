@@ -23,28 +23,34 @@ def format_currency(x):
 def fetch_data():
     emitidos = pd.read_csv('data/emitidos_mes_vencido.csv')
     emitidos_excel = emitidos.copy()
-    for column in ['Neto', 'IVA']:
+    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
         emitidos[column] = emitidos[column].apply(format_currency)
     emitidos_por_empresa = emitidos_excel.groupby(['Razon Social', 'Empresa']).agg({
+        'Neto Gravado': 'sum',
+        'Neto No Gravado': 'sum',
+        'Op. Exentas': 'sum',
         'Neto': 'sum', 
         'IVA': 'sum', 
     }).reset_index()
     emitidos_por_empresa = emitidos_por_empresa.sort_values('Neto', ascending=False)
     emitidos_por_empresa_excel = emitidos_por_empresa.copy()
-    for column in ['Neto', 'IVA']:
+    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
         emitidos_por_empresa[column] = emitidos_por_empresa[column].apply(format_currency)
 
     recibidos = pd.read_csv('data/recibidos_mes_vencido.csv')
     recibidos_excel = recibidos.copy()
-    for column in ['Neto', 'IVA']:
+    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
         recibidos[column] = recibidos[column].apply(format_currency)
     recibidos_por_empresa = recibidos_excel.groupby(['Razon Social', 'Empresa']).agg({
-        'Neto': 'sum', 
-        'IVA': 'sum', 
+        'Neto Gravado': 'sum',
+        'Neto No Gravado': 'sum',
+        'Op. Exentas': 'sum',
+        'Neto': 'sum',
+        'IVA': 'sum',
     }).reset_index()
     recibidos_por_empresa = recibidos_por_empresa.sort_values('Neto', ascending=False)
     recibidos_por_empresa_excel = recibidos_por_empresa.copy()
-    for column in ['Neto', 'IVA']:
+    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
         recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
 
     resumen_contable = pd.read_csv('data/resumen_contable_mes_vencido.csv')
