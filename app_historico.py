@@ -71,7 +71,7 @@ def show_page(username):
         key="razon_social_selectbox"
     )
 
-    tab1, tab2, tab3, tab4 = st.tabs(["Ventas y Compras", "IVA", "Clientes", "Proveedores"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["Ventas y Compras", "IVA", "Clientes", "Proveedores", "Clientes Activos/Perdidos"])
     with tab1:
         tab1_col1, tab1_col2 = st.columns([2, 1])
         with tab1_col1:
@@ -216,8 +216,10 @@ def show_page(username):
         st.dataframe(recibidos_historicos[recibidos_historicos['Razon Social'] == selected_razon_social].drop(columns=["Razon Social"]), 
                      hide_index=True)
 
-    st.subheader("Análisis clientes activos/perdidos")
-    st.dataframe(clientes_activos)
+    with tab5:
+        st.subheader("Análisis clientes activos/perdidos")
+        clientes_activos_filtered = clientes_activos[clientes_activos['Razon Social'] == selected_razon_social].drop(columns=['Razon Social'])
+        st.dataframe(clientes_activos_filtered)
     # Add a download button for all numeric data
     if st.button("Generar informe en Excel"):
         # Prepare dataframes for download
