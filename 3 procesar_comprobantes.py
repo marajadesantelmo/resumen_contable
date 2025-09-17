@@ -182,7 +182,7 @@ comprobantes.loc[comprobantes['Tipo de Comprobante'] == 8, ['Neto Gravado', 'Net
 # Factura C
 comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Neto No Gravado'] = comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Imp. Total']
 
-for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA']:
+for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Imp. Total']:
     comprobantes.loc[comprobantes['Moneda'].str.contains('USD|DOL'), column] *= comprobantes.loc[comprobantes['Moneda'].str.contains('USD|DOL'), 'Tipo Cambio']
 
 comprobantes['Neto'] = comprobantes['Neto Gravado'] + comprobantes['Neto No Gravado'] + comprobantes['Op. Exentas']
@@ -221,7 +221,7 @@ comprobantes = comprobantes.merge(
 
 comprobantes = comprobantes[['Fecha', 'Empresa', 'Tipo', 'Número Desde',
         'Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA',
-       'Neto', 'Mes', 'Razon Social', 'Base']]
+       'Neto', 'Imp. Total', 'Mes', 'Razon Social', 'Base']]
 
 
 emitidos_historico = comprobantes[comprobantes['Base'] == 'Emitidos'].drop(columns=['Base'])
@@ -234,7 +234,8 @@ ventas_por_empresa = emitidos_historico.groupby(['Razon Social', 'Mes']).agg({
     'Neto No Gravado': 'sum',
     'Op. Exentas': 'sum',
     'Neto': 'sum', 
-    'IVA': 'sum'
+    'IVA': 'sum', 
+    'Imp. Total': 'sum'
 }).reset_index()
 
 ventas_por_empresa_cliente = emitidos_historico.groupby(['Razon Social', 'Empresa', 'Mes']).agg({
@@ -242,7 +243,8 @@ ventas_por_empresa_cliente = emitidos_historico.groupby(['Razon Social', 'Empres
     'Neto No Gravado': 'sum',
     'Op. Exentas': 'sum',
     'Neto': 'sum', 
-    'IVA': 'sum'
+    'IVA': 'sum',
+    'Imp. Total': 'sum'
 }).reset_index()
 
 compras_por_empresa = recibidos_historico.groupby(['Razon Social', 'Mes']).agg({
@@ -250,7 +252,8 @@ compras_por_empresa = recibidos_historico.groupby(['Razon Social', 'Mes']).agg({
     'Neto No Gravado': 'sum',
     'Op. Exentas': 'sum',
     'Neto': 'sum', 
-    'IVA': 'sum'
+    'IVA': 'sum',
+    'Imp. Total': 'sum'
 }).reset_index()
 
 compras_por_empresa_proveedor = recibidos_historico.groupby(['Razon Social', 'Empresa', 'Mes']).agg({
@@ -258,18 +261,19 @@ compras_por_empresa_proveedor = recibidos_historico.groupby(['Razon Social', 'Em
     'Neto No Gravado': 'sum',
     'Op. Exentas': 'sum',
     'Neto': 'sum', 
-    'IVA': 'sum'
+    'IVA': 'sum',
+    'Imp. Total': 'sum'
 }).reset_index()
 
 comprobantes_historico = ventas_por_empresa.merge(compras_por_empresa, on=['Razon Social', 'Mes'], how='left', suffixes=(' Ventas', ' Compras'))
-numeric_columns = ['Neto Gravado Ventas', 'Neto No Gravado Ventas', 'Op. Exentas Ventas', 'Neto Ventas', 'IVA Ventas', 'Neto Gravado Compras', 'Neto No Gravado Compras', 'Op. Exentas Compras', 'Neto Compras', 'IVA Compras']
+numeric_columns = ['Neto Gravado Ventas', 'Neto No Gravado Ventas', 'Op. Exentas Ventas', 'Neto Ventas', 'IVA Ventas', 'Imp. Total Ventas', 'Neto Gravado Compras', 'Neto No Gravado Compras', 'Op. Exentas Compras', 'Neto Compras', 'IVA Compras', 'Imp. Total Compras']
 comprobantes_historico[numeric_columns] = comprobantes_historico[numeric_columns].fillna(0).round(0).astype(int)
 comprobantes_historico['Saldo IVA'] = comprobantes_historico['IVA Ventas'] - comprobantes_historico['IVA Compras']
 
 # Melt the DataFrame to reshape it
 comprobantes_historicos = comprobantes_historico.melt(
     id_vars=['Razon Social', 'Mes'], 
-    value_vars=['Neto Ventas', 'IVA Ventas', 'Neto Compras', 'IVA Compras', 'Saldo IVA'],
+    value_vars=['Neto Ventas', 'IVA Ventas', 'Imp. Total Ventas', 'Neto Compras', 'IVA Compras', 'Imp. Total Compras', 'Saldo IVA'],
     var_name='Variable', 
     value_name='Monto'
 )
