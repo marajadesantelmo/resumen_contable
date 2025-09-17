@@ -129,6 +129,7 @@ CREATE TABLE IF NOT EXISTS ventas_historico_cliente (
     "Op. Exentas" DECIMAL(15,2) DEFAULT 0,
     "Neto" DECIMAL(15,2) DEFAULT 0,
     "IVA" DECIMAL(15,2) DEFAULT 0,
+    "Imp. Total" DECIMAL(15,2) DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     UNIQUE("Razon Social", "Empresa", "Mes")
@@ -145,6 +146,7 @@ CREATE TABLE IF NOT EXISTS compras_historico_proveedor (
     "Op. Exentas" DECIMAL(15,2) DEFAULT 0,
     "Neto" DECIMAL(15,2) DEFAULT 0,
     "IVA" DECIMAL(15,2) DEFAULT 0,
+    "Imp. Total" DECIMAL(15,2) DEFAULT 0,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     UNIQUE("Razon Social", "Empresa", "Mes")
@@ -257,3 +259,7 @@ DROP TABLE IF EXISTS recibidos_historico;
 DROP TABLE IF EXISTS emitidos_historico;
 DROP TABLE IF EXISTS emitidos_por_empresa;
 DROP TABLE IF EXISTS recibidos_por_empresa;
+DROP TABLE IF EXISTS emitidos_por_empresa_mes_vencido;
+DROP TABLE IF EXISTS recibidos_por_empresa_mes_vencido;
+DROP TABLE IF EXISTS emitidos_mes_vencido;
+DROP TABLE IF EXISTS recibidos_mes_vencido;

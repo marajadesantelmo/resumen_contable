@@ -448,7 +448,6 @@ indicators = pd.DataFrame({
     'IVA Ventas': iva_ventas,
     'IVA Compras': iva_compras,
     'Saldo IVA': saldo_iva,
-    'Ingresos Brutos': ingresos_brutos,
 }).reset_index()
 indicators = indicators.rename(columns={'Razon Social': 'Company Name'})  
 indicators['Mes'] = mes
@@ -460,8 +459,8 @@ indicators = indicators[indicators['Company Name'] != 'Unknown Company']
 
 datos_pivot = indicators.pivot(index='Company Name', columns='Variable', values='Value')
 datos_pivot = datos_pivot.reset_index()
-datos_pivot = datos_pivot[['Company Name', 'Ventas Netas', 'Compras Netas', 'Saldo IVA', 'Ingresos Brutos']]
-datos_pivot.columns = ['Razon Social', 'Vtas. Netas', 'Compras Netas', 'Saldo IVA', 'II.BB.']
+datos_pivot = datos_pivot[['Company Name', 'Ventas Netas', 'Compras Netas', 'Saldo IVA']]
+datos_pivot.columns = ['Razon Social', 'Vtas. Netas', 'Compras Netas', 'Saldo IVA']
 
 # Clean the 'Razon Social' column by removing specified substrings
 sociedad_replacements = ["S.A.", "Srl", "Sociedad Anonima", "Company S A C", "S. R. L."]

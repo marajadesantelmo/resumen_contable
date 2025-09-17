@@ -25,9 +25,9 @@ def format_currency(x):
 def fetch_data():
     emitidos = fetch_table_data('emitidos_mes_vencido')
     emitidos_excel = emitidos.copy()
-    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
+    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto', 'Imp. Total']:
         emitidos[column] = emitidos[column].apply(format_currency)
-    emitidos_por_empresa = emitidos_excel.groupby(['Razon Social', 'Empresa']).agg({
+    emitidos_por_empresa = emitidos_excel.groupby(['Sociedad', 'Empresa']).agg({
         'Neto Gravado': 'sum',
         'Neto No Gravado': 'sum',
         'Op. Exentas': 'sum',
