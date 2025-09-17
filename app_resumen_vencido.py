@@ -3,6 +3,7 @@ import pandas as pd
 from io import BytesIO
 from supabase_connection import fetch_table_data
 
+
 def format_currency(x):
     """Format number as Argentine peso currency"""
     # Handle non-numeric values
