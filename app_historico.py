@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from io import BytesIO
 import altair as alt
+from supabase_connection import fetch_table_data
 
 def format_currency(x):
     """Format number as Argentine peso currency"""
@@ -41,22 +42,23 @@ def download_excel(dataframes, sheet_names):
     return output.getvalue()
 
 def fetch_data(username):
-    comprobantes_historicos = pd.read_csv('data/comprobantes_historicos.csv')
+    comprobantes_historicos = fetch_table_data('comprobantes_historicos')
     comprobantes_historicos = filter_restricted_data(comprobantes_historicos, username)
 
-    emitidos_historicos = pd.read_csv('data/emitidos_historico.csv')
+    emitidos_historicos = fetch_table_data('emitidos_historico')
     emitidos_historicos = filter_restricted_data(emitidos_historicos, username)
 
-    recibidos_historicos = pd.read_csv('data/recibidos_historico.csv')
+    recibidos_historicos = fetch_table_data('recibidos_historico')
     recibidos_historicos = filter_restricted_data(recibidos_historicos, username)
 
-    ventas_por_empresa_cliente = pd.read_csv('data/ventas_historico_cliente.csv')
+    ventas_por_empresa_cliente = fetch_table_data('ventas_historico_cliente')
     ventas_por_empresa_cliente = filter_restricted_data(ventas_por_empresa_cliente, username)
 
-    compras_por_empresa_proveedor = pd.read_csv('data/compras_historico_proveedor.csv')
+    compras_por_empresa_proveedor = fetch_table_data('compras_historico_proveedor')
     compras_por_empresa_proveedor = filter_restricted_data(compras_por_empresa_proveedor, username)
 
-    clientes_activos = pd.read_csv('data/clientes_activos.csv')
+    clientes_activos = fetch_table_data('clientes_activos')
+    clientes_activos = filter_restricted_data(clientes_activos, username)
     return (comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor, clientes_activos)
 
 def show_page(username):
