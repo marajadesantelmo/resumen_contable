@@ -211,7 +211,6 @@ def show_page(username):
         total_no_gravado = filtered_emitidos_por_empresa_excel['Neto No Gravado'].sum()
         total_exentas = filtered_emitidos_por_empresa_excel['Op. Exentas'].sum()
         total_iva = filtered_emitidos_por_empresa_excel['IVA'].sum()
-        total_neto = filtered_emitidos_por_empresa_excel['Neto'].sum()
         total_imp_total = filtered_emitidos_por_empresa_excel['Imp. Total'].sum()
 
         col_m1, col_m2, col_m3, col_m4, col_m5 = st.columns(5)
