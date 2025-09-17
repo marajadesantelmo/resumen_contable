@@ -25,7 +25,7 @@ def format_currency(x):
 def fetch_data():
     emitidos = fetch_table_data('emitidos_mes_vencido')
     emitidos_excel = emitidos.copy()
-    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto', 'Imp. Total']:
+    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Imp. Total']:
         emitidos[column] = emitidos[column].apply(format_currency)
     emitidos_por_empresa = emitidos_excel.groupby(['Razon Social', 'Empresa']).agg({
         'Neto Gravado': 'sum',
@@ -38,12 +38,12 @@ def fetch_data():
     emitidos_por_empresa = emitidos_por_empresa.sort_values('Neto', ascending=False)
     emitidos_por_empresa.drop(columns=['Neto'], inplace=True, errors='ignore')
     emitidos_por_empresa_excel = emitidos_por_empresa.copy()
-    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
+    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Imp. Total']:
         emitidos_por_empresa[column] = emitidos_por_empresa[column].apply(format_currency)
 
     recibidos = fetch_table_data('recibidos_mes_vencido')
     recibidos_excel = recibidos.copy()
-    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
+    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Imp. Total']:
         recibidos[column] = recibidos[column].apply(format_currency)
     recibidos_por_empresa = recibidos_excel.groupby(['Razon Social', 'Empresa']).agg({
         'Neto Gravado': 'sum',
@@ -56,7 +56,7 @@ def fetch_data():
     recibidos_por_empresa = recibidos_por_empresa.sort_values('Neto', ascending=False)
     recibidos_por_empresa.drop(columns=['Neto'], inplace=True, errors='ignore')
     recibidos_por_empresa_excel = recibidos_por_empresa.copy()
-    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
+    for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Imp. Total']:
         recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
 
     resumen_contable = fetch_table_data('resumen_contable_mes_vencido')
