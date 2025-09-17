@@ -58,11 +58,13 @@ def fetch_data():
         recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
 
     resumen_contable = fetch_table_data('resumen_contable_mes_vencido')
+    resumen_contable.drop(columns=['created_at', 'updated_at', 'fecha_generacion', 'mes', 'II BB', 'id'], inplace=True, errors='ignore')
     resumen_contable_excel = resumen_contable.copy()
     for column in resumen_contable.columns:
         if column != 'Sociedad' and column != 'Razon Social':
             resumen_contable[column] = resumen_contable[column].apply(format_currency)
     resumen_contable_total = fetch_table_data('resumen_contable_total')
+    resumen_contable_total.drop(columns=['created_at', 'updated_at', 'fecha_generacion', 'mes', 'II BB', 'id'], inplace=True, errors='ignore')
     for column in resumen_contable_total.columns:
         if column != 'Sociedad' and column != 'Razon Social':
             resumen_contable_total[column] = resumen_contable_total[column].apply(format_currency)
