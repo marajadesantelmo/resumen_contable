@@ -121,7 +121,7 @@ def show_page(username):
     with coltitle:
         st.title(leyenda)
     with collogo:   
-        st.image("data/logo.png", width=40)
+        st.image("data/logo.png", width=80)
     #st.info("En construcción")
     # Get both formatted data (for display) and raw data (for Excel)
     (
