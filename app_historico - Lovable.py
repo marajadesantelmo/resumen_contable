@@ -4,61 +4,13 @@ from io import BytesIO
 import altair as alt
 from supabase_connection import fetch_table_data
 
-def format_currency(x):
-    """Format number as Argentine peso currency"""
-    return f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
-
-def filter_restricted_data(df, username):
-    """ATENCION: Se define la funcion una vez por pagina de la app"""
-    if username != "FU":
-        return df
-    
-    restricted_companies = [
-        "BA Comex", 
-        "De la Arena Coll Manuel", 
-        "Winehaus", 
-        "Nerococina", 
-        "De la Arena Martin", 
-        "Hermosalta SRL", 
-        "Leoni Maria Jose", 
-        "Valenzuela Ricardo Patricio"
-    ]
-    
-    if 'razon_social' in df.columns:
-        return df[~df['razon_social'].isin(restricted_companies)]
-    if 'Razon Social' in df.columns:
-        return df[~df['Razon Social'].isin(restricted_companies)]
-    elif 'Sociedad' in df.columns:
-        return df[~df['Sociedad'].isin(restricted_companies)]
-    
-    return df
-
-def download_excel(dataframes, sheet_names):
-    """Generate an Excel file from multiple dataframes."""
-    output = BytesIO()
-    with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
-        for df, sheet_name in zip(dataframes, sheet_names):
-            df.to_excel(writer, index=False, sheet_name=sheet_name)
-    return output.getvalue()
-
 def fetch_data(username):
     comprobantes_historicos = fetch_table_data('comprobantes_historicos')
-    comprobantes_historicos = filter_restricted_data(comprobantes_historicos, username)
-
     emitidos_historicos = fetch_table_data('emitidos_historico')
-    emitidos_historicos = filter_restricted_data(emitidos_historicos, username)
-
     recibidos_historicos = fetch_table_data('recibidos_historico')
-    recibidos_historicos = filter_restricted_data(recibidos_historicos, username)
-
     ventas_por_empresa_cliente = fetch_table_data('ventas_historico_cliente')
-    ventas_por_empresa_cliente = filter_restricted_data(ventas_por_empresa_cliente, username)
-
     compras_por_empresa_proveedor = fetch_table_data('compras_historico_proveedor')
-    compras_por_empresa_proveedor = filter_restricted_data(compras_por_empresa_proveedor, username)
-
     clientes_activos = fetch_table_data('clientes_activos')
-    clientes_activos = filter_restricted_data(clientes_activos, username)
     return (comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor, clientes_activos)
 
 def show_page(username):
@@ -96,6 +48,48 @@ def show_page(username):
             pivoted_data_ventas_compras.sort_values(by="Mes", ascending=False, inplace=True)
             st.dataframe(pivoted_data_ventas_compras, hide_index=True)
 
+        # --- NEW FILTERS FOR RECIBIDOS/EMITIDOS ---
+        # Get unique Mes and Empresa for recibidos_historicos and emitidos_historicos
+        recibidos_df = recibidos_historicos[recibidos_historicos['Razon Social'] == selected_razon_social]
+        emitidos_df = emitidos_historicos[emitidos_historicos['Razon Social'] == selected_razon_social]
+
+        # MES filter (descending)
+        all_meses = sorted(
+            set(recibidos_df['Mes'].unique()).union(emitidos_df['Mes'].unique()),
+            reverse=True
+        )
+
+
+        # EMPRESA filter (ascending)
+        all_empresas = sorted(
+            set(recibidos_df['Empresa'].unique()).union(emitidos_df['Empresa'].unique())
+        )
+        
+        # Apply filters
+        def filter_df(df):
+            df = df[df['Mes'] == selected_mes]
+            if selected_empresa != "(Todos)":
+                df = df[df['Empresa'] == selected_empresa]
+            return df
+        
+        sub_col1, sub_col2, sub_col3 = st.columns([2, 1, 1])
+        with sub_col1:
+            st.subheader("Detalle Recibidos")
+        with sub_col2:
+            selected_empresa = st.selectbox("Filtrar por Empresa", ["(Todos)"] + all_empresas, key="empresa_filter_tab1")
+        with sub_col3:
+            selected_mes = st.selectbox("Filtrar por Mes", all_meses, key="mes_filter_tab1")
+        
+        st.dataframe(
+            filter_df(recibidos_df).drop(columns=["Razon Social", "Mes"]),
+            hide_index=True
+        )
+        st.subheader("Detalle Emitidos")
+        st.dataframe(
+            filter_df(emitidos_df).drop(columns=["Razon Social", "Mes"]),
+            hide_index=True
+        )
+
     with tab2:
         tab2_col1, tab2_col2 = st.columns([2, 1])
         with tab2_col1:
@@ -113,7 +107,7 @@ def show_page(username):
             pivoted_data = filtered_data.pivot(index="Mes", columns="Variable", values="Monto").reset_index()
             pivoted_data = pivoted_data[["Mes", "IVA Ventas", "IVA Compras", "Saldo IVA"]]
             for column in [ "IVA Ventas", "IVA Compras", "Saldo IVA"]:
-                pivoted_data[column] = pivoted_data[column].apply(format_currency)
+                pivoted_data[column] = pivoted_data[column]
             pivoted_data.sort_values(by="Mes", ascending=False, inplace=True)
             st.dataframe(pivoted_data, hide_index=True)
 
@@ -131,7 +125,7 @@ def show_page(username):
         pivoted_data_clientes.sort_values(by="Total", ascending=False, inplace=True)
         pivoted_data_clientes_formatted = pivoted_data_clientes.copy()
         for column in pivoted_data_clientes_formatted.columns[1:]:
-            pivoted_data_clientes_formatted[column] = pivoted_data_clientes_formatted[column].apply(format_currency)
+            pivoted_data_clientes_formatted[column] = pivoted_data_clientes_formatted[column]
         pivoted_data_clientes_formatted.rename(columns={"Empresa": "Cliente"}, inplace=True)
         st.dataframe(pivoted_data_clientes_formatted, hide_index=True)
         if not filtered_data.empty:   
@@ -180,37 +174,4 @@ def show_page(username):
         st.subheader("Análisis clientes activos/perdidos")
         clientes_activos_filtered = clientes_activos[clientes_activos['Razon Social'] == selected_razon_social].drop(columns=['Razon Social'])
         st.dataframe(clientes_activos_filtered)
-    # Add a download button for all numeric data
-    if st.button("Generar informe en Excel"):
-        # Prepare dataframes for download
-        ventas_compras_df = comprobantes_historicos[
-            (comprobantes_historicos['Razon Social'] == selected_razon_social) &
-            (comprobantes_historicos['Variable'].isin(['Neto Ventas', 'Neto Compras']))
-        ][['Mes', 'Variable', 'Monto']]
 
-        iva_df = comprobantes_historicos[
-            (comprobantes_historicos['Razon Social'] == selected_razon_social) &
-            (comprobantes_historicos['Variable'].isin(['IVA Ventas', 'IVA Compras', 'Saldo IVA']))
-        ][['Mes', 'Variable', 'Monto']]
-
-        clientes_df = ventas_por_empresa_cliente[
-            ventas_por_empresa_cliente['Razon Social'] == selected_razon_social
-        ][['Empresa', 'Mes', 'Neto']]
-
-        proveedores_df = compras_por_empresa_proveedor[
-            compras_por_empresa_proveedor['Razon Social'] == selected_razon_social
-        ][['Empresa', 'Mes', 'Neto']]
-
-        # Generate Excel file
-        excel_data = download_excel(
-            [ventas_compras_df, iva_df, clientes_df, proveedores_df],
-            ["Ventas y Compras", "IVA", "Clientes", "Proveedores"]
-        )
-
-        # Provide download link
-        st.download_button(
-            label="Descargar Excel",
-            data=excel_data,
-            file_name="resumen_contable_historico.xlsx",
-            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-        )
