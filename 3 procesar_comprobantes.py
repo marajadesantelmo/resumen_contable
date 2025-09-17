@@ -365,6 +365,7 @@ emitidos_por_empresa = emitidos.groupby(['Razon Social', 'Empresa']).agg({
     'Op. Exentas': 'sum',
     'Neto': 'sum', 
     'IVA': 'sum', 
+    'Imp. Total': 'sum'
 }).reset_index()
 emitidos_por_empresa['Imp. Total'] = emitidos_por_empresa['Neto'] + emitidos_por_empresa['IVA']
 emitidos_por_empresa = emitidos_por_empresa.sort_values('Neto', ascending=False)
@@ -380,6 +381,7 @@ recibidos_por_empresa = recibidos.groupby(['Razon Social', 'Empresa']).agg({
     'Op. Exentas': 'sum',
     'Neto': 'sum', 
     'IVA': 'sum', 
+    'Imp. Total': 'sum'
 }).reset_index()
 recibidos_por_empresa['Imp. Total'] = recibidos_por_empresa['Neto'] + recibidos_por_empresa['IVA']
 recibidos_por_empresa = recibidos_por_empresa.sort_values('Imp. Total', ascending=False)

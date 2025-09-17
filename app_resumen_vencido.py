@@ -32,6 +32,7 @@ def fetch_data():
         'Op. Exentas': 'sum',
         'Neto': 'sum', 
         'IVA': 'sum', 
+        'Imp. Total': 'sum'
     }).reset_index()
     emitidos_por_empresa = emitidos_por_empresa.sort_values('Neto', ascending=False)
     emitidos_por_empresa_excel = emitidos_por_empresa.copy()
@@ -48,6 +49,7 @@ def fetch_data():
         'Op. Exentas': 'sum',
         'Neto': 'sum',
         'IVA': 'sum',
+        'Imp. Total': 'sum'
     }).reset_index()
     recibidos_por_empresa = recibidos_por_empresa.sort_values('Neto', ascending=False)
     recibidos_por_empresa_excel = recibidos_por_empresa.copy()
@@ -204,6 +206,7 @@ def show_page(username):
         total_exentas = filtered_emitidos_por_empresa_excel['Op. Exentas'].sum()
         total_iva = filtered_emitidos_por_empresa_excel['IVA'].sum()
         total_neto = filtered_emitidos_por_empresa_excel['Neto'].sum()
+        total_imp_total = filtered_emitidos_por_empresa_excel['Imp. Total'].sum()
 
         col_m1, col_m2, col_m3, col_m4, col_m5 = st.columns(5)
         # Use markdown for smaller font size in metrics
@@ -211,7 +214,7 @@ def show_page(username):
         col_m2.markdown(f"<span style='font-size:14px'><b>Neto No Gravado</b><br>{format_currency(total_no_gravado)}</span>", unsafe_allow_html=True)
         col_m3.markdown(f"<span style='font-size:14px'><b>Op. Exentas</b><br>{format_currency(total_exentas)}</span>", unsafe_allow_html=True)
         col_m4.markdown(f"<span style='font-size:14px'><b>IVA</b><br>{format_currency(total_iva)}</span>", unsafe_allow_html=True)
-        col_m5.markdown(f"<span style='font-size:14px'><b>Neto</b><br>{format_currency(total_neto)}</span>", unsafe_allow_html=True)
+        col_m5.markdown(f"<span style='font-size:14px'><b>Imp. Total</b><br>{format_currency(total_imp_total)}</span>", unsafe_allow_html=True)
         with st.container():
             st.dataframe(filtered_emitidos_por_empresa, use_container_width=True, hide_index=True)
     with col2:
@@ -228,7 +231,7 @@ def show_page(username):
         col_m2.markdown(f"<span style='font-size:14px'><b>Neto No Gravado</b><br>{format_currency(total_no_gravado)}</span>", unsafe_allow_html=True)
         col_m3.markdown(f"<span style='font-size:14px'><b>Op. Exentas</b><br>{format_currency(total_exentas)}</span>", unsafe_allow_html=True)
         col_m4.markdown(f"<span style='font-size:14px'><b>IVA</b><br>{format_currency(total_iva)}</span>", unsafe_allow_html=True)
-        col_m5.markdown(f"<span style='font-size:14px'><b>Neto</b><br>{format_currency(total_neto)}</span>", unsafe_allow_html=True)
+        col_m5.markdown(f"<span style='font-size:14px'><b>Imp. Total</b><br>{format_currency(total_imp_total)}</span>", unsafe_allow_html=True)
         with st.container():
             st.dataframe(filtered_recibidos_por_empresa, use_container_width=True, hide_index=True)
     
