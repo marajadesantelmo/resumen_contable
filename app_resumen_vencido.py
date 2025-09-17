@@ -117,7 +117,11 @@ def to_excel_multiple_sheets(resumen_contable_excel, emitidos_excel, recibidos_e
 def show_page(username):
     with open('data/leyenda_resumen_contable_mes_vencido.txt', encoding='utf-8') as f:
         leyenda = f.read()
-    st.title(leyenda)
+    coltitle, collogo= st.columns([7, 1])
+    with coltitle:
+        st.title(leyenda)
+    with collogo:   
+        st.image("data/logo.png", width=40)
     #st.info("En construcción")
     # Get both formatted data (for display) and raw data (for Excel)
     (
@@ -165,7 +169,6 @@ def show_page(username):
         
         # Now that razon_social is defined, we can add the download button
         with col_download:
-            st.image("data/logo.png")
             filtered_emitidos_excel = filter_by_razon_social(emitidos_excel, razon_social)
             filtered_recibidos_excel = filter_by_razon_social(recibidos_excel, razon_social)
             filtered_emitidos_por_empresa_excel = filter_by_razon_social(emitidos_por_empresa_excel, razon_social)
