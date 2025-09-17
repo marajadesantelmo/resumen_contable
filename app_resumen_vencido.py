@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 from io import BytesIO
-#
+from supabase_connection import fetch_table_data
+
 def format_currency(x):
     """Format number as Argentine peso currency"""
     # Handle non-numeric values
@@ -21,7 +22,7 @@ def format_currency(x):
         return f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
 
 def fetch_data():
-    emitidos = pd.read_csv('data/emitidos_mes_vencido.csv')
+    emitidos = fetch_table_data('emitidos_mes_vencido')
     emitidos_excel = emitidos.copy()
     for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
         emitidos[column] = emitidos[column].apply(format_currency)
@@ -37,7 +38,7 @@ def fetch_data():
     for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
         emitidos_por_empresa[column] = emitidos_por_empresa[column].apply(format_currency)
 
-    recibidos = pd.read_csv('data/recibidos_mes_vencido.csv')
+    recibidos = fetch_table_data('recibidos_mes_vencido')
     recibidos_excel = recibidos.copy()
     for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
         recibidos[column] = recibidos[column].apply(format_currency)
@@ -53,12 +54,12 @@ def fetch_data():
     for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
         recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
 
-    resumen_contable = pd.read_csv('data/resumen_contable_mes_vencido.csv')
+    resumen_contable = fetch_table_data('resumen_contable_mes_vencido')
     resumen_contable_excel = resumen_contable.copy()
     for column in resumen_contable.columns:
         if column != 'Sociedad' and column != 'Razon Social':
             resumen_contable[column] = resumen_contable[column].apply(format_currency)
-    resumen_contable_total = pd.read_csv('data/resumen_contable_total.csv')
+    resumen_contable_total = fetch_table_data('resumen_contable_total')
     for column in resumen_contable_total.columns:
         if column != 'Sociedad' and column != 'Razon Social':
             resumen_contable_total[column] = resumen_contable_total[column].apply(format_currency)
