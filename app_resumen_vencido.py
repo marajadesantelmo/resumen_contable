@@ -36,6 +36,7 @@ def fetch_data():
         'Imp. Total': 'sum'
     }).reset_index()
     emitidos_por_empresa = emitidos_por_empresa.sort_values('Neto', ascending=False)
+    emitidos_por_empresa.drop(columns=['Neto'], inplace=True, errors='ignore')
     emitidos_por_empresa_excel = emitidos_por_empresa.copy()
     for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
         emitidos_por_empresa[column] = emitidos_por_empresa[column].apply(format_currency)
@@ -53,6 +54,7 @@ def fetch_data():
         'Imp. Total': 'sum'
     }).reset_index()
     recibidos_por_empresa = recibidos_por_empresa.sort_values('Neto', ascending=False)
+    recibidos_por_empresa.drop(columns=['Neto'], inplace=True, errors='ignore')
     recibidos_por_empresa_excel = recibidos_por_empresa.copy()
     for column in ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Neto']:
         recibidos_por_empresa[column] = recibidos_por_empresa[column].apply(format_currency)
