@@ -230,7 +230,6 @@ def show_page(username):
         total_no_gravado = filtered_recibidos_por_empresa_excel['Neto No Gravado'].sum()
         total_exentas = filtered_recibidos_por_empresa_excel['Op. Exentas'].sum()
         total_iva = filtered_recibidos_por_empresa_excel['IVA'].sum()
-        total_neto = filtered_recibidos_por_empresa_excel['Neto'].sum()
 
         col_m1, col_m2, col_m3, col_m4, col_m5 = st.columns(5)
         col_m1.markdown(f"<span style='font-size:14px'><b>Neto Gravado</b><br>{format_currency(total_gravado)}</span>", unsafe_allow_html=True)
