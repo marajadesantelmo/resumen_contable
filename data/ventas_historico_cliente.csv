@@ -6,7 +6,7 @@ BA Comex,Aerofit Srl,2025-07,600000,0,0,600000,126000,726000
 BA Comex,Alsina Motos Srl,2025-02,2511447,0,0,2511447,527404,3038852
 BA Comex,Alsina Motos Srl,2025-07,3797105,0,0,3797105,797392,4594497
 BA Comex,Alsina Motos Srl,2025-08,3422700,0,0,3422700,718767,4141467
-BA Comex,Aspee Monee Srl,2025-01,4500000,0,0,4500000,945000,16335000
+BA Comex,Aspee Monee Srl,2025-01,4500000,0,0,4500000,945000,5445000
 BA Comex,Aspee Monee Srl,2025-03,1400000,0,0,1400000,294000,1694000
 BA Comex,Aspee Monee Srl,2025-04,2100000,0,0,2100000,441000,2541000
 BA Comex,Aspee Monee Srl,2025-05,1600000,0,0,1600000,336000,1936000
@@ -26,7 +26,7 @@ BA Comex,Fedtex,2025-07,240000,0,0,240000,50400,290400
 BA Comex,Fedtex,2025-08,80000,0,0,80000,16800,96800
 BA Comex,Gulmez Hermanos Sociedad Anonima,2025-04,218800,0,0,218800,45948,264748
 BA Comex,Ing Hector J Resino Sociedad De Responsabilidad Limitada,2025-01,1000582,0,0,1000582,210122,1210704
-BA Comex,Jupam Sa,2025-01,6114135,0,0,6114135,1283968,8754037
+BA Comex,Jupam Sa,2025-01,6114135,0,0,6114135,1283968,7398103
 BA Comex,Jupam Sa,2025-02,13538987,0,0,13538987,2843185,16382172
 BA Comex,Jupam Sa,2025-03,6620169,0,0,6620169,1390235,8010402
 BA Comex,Jupam Sa,2025-05,8675146,0,0,8675146,1821778,10496923
@@ -50,14 +50,14 @@ BA Comex,Novelty Trend S.R.L.,2025-05,583645,0,0,583645,122566,706211
 BA Comex,Novelty Trend S.R.L.,2025-06,657675,0,0,657675,138112,795787
 BA Comex,Novelty Trend S.R.L.,2025-07,546911,0,0,546911,114851,661762
 BA Comex,Novelty Trend S.R.L.,2025-08,696743,0,0,696743,146316,843059
-BA Comex,Two Sharks S.R.L.,2025-01,-599400,0,0,-599400,-125874,1209274
+BA Comex,Two Sharks S.R.L.,2025-01,-599400,0,0,-599400,-125874,-725274
 BA Comex,Vc Textil S.R.L.,2025-05,200000,0,0,200000,42000,242000
 De la Arena Coll Manuel,Deposito Avellaneda Sur S.A.,2025-01,0,3500000,0,3500000,0,3500000
 De la Arena Coll Manuel,Deposito Avellaneda Sur S.A.,2025-02,0,4000000,0,4000000,0,4000000
 De la Arena Coll Manuel,Deposito Avellaneda Sur S.A.,2025-03,0,4000000,0,4000000,0,4000000
 De la Arena Coll Manuel,Deposito Avellaneda Sur S.A.,2025-04,0,4000000,0,4000000,0,4000000
 De la Arena Coll Manuel,Deposito Avellaneda Sur S.A.,2025-05,0,4000000,0,4000000,0,4000000
-De la Arena Coll Manuel,Deposito Avellaneda Sur S.A.,2025-06,0,6002000,0,6002000,0,6004000
+De la Arena Coll Manuel,Deposito Avellaneda Sur S.A.,2025-06,0,6002000,0,6002000,0,6000000
 De la Arena Coll Manuel,Deposito Avellaneda Sur S.A.,2025-07,0,4000000,0,4000000,0,4000000
 De la Arena Coll Manuel,Leoni Maria Jose,2025-05,0,176000,0,176000,0,176000
 De la Arena Coll Manuel,Leoni Maria Jose,2025-07,0,176000,0,176000,0,176000
@@ -81,24 +81,24 @@ De la Arena Martin,Osde Organizacion De Servicios Directos Empresarios,2025-03,1
 De la Arena Martin,Osde Organizacion De Servicios Directos Empresarios,2025-04,2879871,0,14303707,17183578,302386,17485965
 De la Arena Martin,Osde Organizacion De Servicios Directos Empresarios,2025-05,1179804,0,8202911,9382715,123879,9506594
 De la Arena Martin,Osde Organizacion De Servicios Directos Empresarios,2025-06,6236730,0,10625540,16862270,654857,17517127
-De la Arena Martin,Osde Organizacion De Servicios Directos Empresarios,2025-08,3440799,0,5060976,8501775,361284,12243059
+De la Arena Martin,Osde Organizacion De Servicios Directos Empresarios,2025-08,3440799,0,5060976,8501775,361284,8863059
 De la Arena Martin,Sanatorio Modelo S A,2025-02,0,0,6669583,6669583,0,6669583
 De la Arena Martin,Sanatorio Modelo S A,2025-08,0,0,15133824,15133824,0,15133824
 De la Arena Martin,Tisec Srl,2025-02,0,0,9843595,9843595,0,9843595
 Deposito Avellaneda Sur,20N S.R.L.,2025-01,3034663,0,0,3034663,637279,3671942
 Deposito Avellaneda Sur,A&S Logistics S.A.,2025-07,5210400,0,0,5210400,1094184,6304584
-Deposito Avellaneda Sur,A&S Logistics S.A.,2025-08,-120000,0,0,-120000,-25200,145200
+Deposito Avellaneda Sur,A&S Logistics S.A.,2025-08,-120000,0,0,-120000,-25200,-145200
 Deposito Avellaneda Sur,Aceptyourdestiny,2025-04,7352400,0,0,7352400,1544004,8896404
 Deposito Avellaneda Sur,Aceptyourdestiny,2025-05,2848600,0,0,2848600,598206,3446806
-Deposito Avellaneda Sur,Aceptyourdestiny,2025-06,-1221240,0,0,-1221240,-256460,10610054
+Deposito Avellaneda Sur,Aceptyourdestiny,2025-06,-1221240,0,0,-1221240,-256460,-1477700
 Deposito Avellaneda Sur,Aceptyourdestiny,2025-08,1324200,0,0,1324200,278082,1602282
-Deposito Avellaneda Sur,Aceros Fb S.R.L.,2025-06,5038236,0,0,5038236,1058030,8920422
-Deposito Avellaneda Sur,Aceros Fb S.R.L.,2025-07,2221438,2978312,0,5199750,466502,6254312
-Deposito Avellaneda Sur,Aceros Zapla S A,2025-07,219112,2442882,0,2661994,46014,12293424
-Deposito Avellaneda Sur,Aceros Zapla S A,2025-08,-219112,-2442882,0,-2661994,-46014,2708008
+Deposito Avellaneda Sur,Aceros Fb S.R.L.,2025-06,5038236,0,0,5038236,1058030,6096264
+Deposito Avellaneda Sur,Aceros Fb S.R.L.,2025-07,2221438,2978312,0,5199750,466502,5666252
+Deposito Avellaneda Sur,Aceros Zapla S A,2025-07,219112,2442882,0,2661994,46014,2708008
+Deposito Avellaneda Sur,Aceros Zapla S A,2025-08,-219112,-2442882,0,-2661994,-46014,-2708008
 Deposito Avellaneda Sur,Adp Trading S.R.L.,2025-01,2856000,0,0,2856000,599760,3455760
 Deposito Avellaneda Sur,Adp Trading S.R.L.,2025-03,454920,0,0,454920,95533,550453
-Deposito Avellaneda Sur,Adp Trading S.R.L.,2025-04,3184440,0,0,3184440,668732,6054984
+Deposito Avellaneda Sur,Adp Trading S.R.L.,2025-04,3184440,0,0,3184440,668732,3853172
 Deposito Avellaneda Sur,Adp Trading S.R.L.,2025-05,3471055,0,0,3471055,728922,4199977
 Deposito Avellaneda Sur,Adp Trading S.R.L.,2025-06,2287595,0,0,2287595,480395,2767990
 Deposito Avellaneda Sur,Adp Trading S.R.L.,2025-07,3471063,0,0,3471063,728924,4199987
@@ -116,14 +116,14 @@ Deposito Avellaneda Sur,Aj Comercio Exterior Srl,2025-08,400000,0,0,400000,84000
 Deposito Avellaneda Sur,Ajec Autoadhesivos S A,2025-02,1175660,0,0,1175660,246889,1422549
 Deposito Avellaneda Sur,Alfonso Sabbatini E Hijo Srl.,2025-08,448269,0,0,448269,94136,542405
 Deposito Avellaneda Sur,Algodonera Aconcagua S A,2025-04,55140000,0,0,55140000,11579400,66719400
-Deposito Avellaneda Sur,Alimentaria S.A.,2025-07,20485235,0,0,20485235,4301900,57246595
-Deposito Avellaneda Sur,Alimentaria S.A.,2025-08,21405120,0,0,21405120,4495075,26771395
+Deposito Avellaneda Sur,Alimentaria S.A.,2025-07,20485235,0,0,20485235,4301900,24787135
+Deposito Avellaneda Sur,Alimentaria S.A.,2025-08,21405120,0,0,21405120,4495075,25900195
 Deposito Avellaneda Sur,All Trade S.A.,2025-07,3261083,0,0,3261083,684828,3945911
 Deposito Avellaneda Sur,Alsina Motos Srl,2025-01,3217252,0,0,3217252,675623,3892874
 Deposito Avellaneda Sur,Alsina Motos Srl,2025-02,1001355,0,0,1001355,210285,1211640
 Deposito Avellaneda Sur,Alsina Motos Srl,2025-06,5809034,0,0,5809034,1219897,7028931
 Deposito Avellaneda Sur,Alsina Motos Srl,2025-07,596904,0,0,596904,125350,722254
-Deposito Avellaneda Sur,Alsina Motos Srl,2025-08,3046038,1821981,0,4868019,639668,9155716
+Deposito Avellaneda Sur,Alsina Motos Srl,2025-08,3046038,1821981,0,4868019,639668,5507688
 Deposito Avellaneda Sur,American Transport,2025-01,520000,0,0,520000,109200,629200
 Deposito Avellaneda Sur,American Transport,2025-05,858217,0,0,858217,180226,1038443
 Deposito Avellaneda Sur,American Transport,2025-07,2264803,3135201,0,5400004,475609,5875613
@@ -147,8 +147,8 @@ Deposito Avellaneda Sur,Arauco Argentina S.A,2025-03,1396106,0,0,1396106,293182,
 Deposito Avellaneda Sur,Arauco Argentina S.A,2025-08,1503441,0,0,1503441,315723,1819163
 Deposito Avellaneda Sur,Arleather S.R.L.,2025-01,1283400,0,0,1283400,269514,1552914
 Deposito Avellaneda Sur,Arleather S.R.L.,2025-02,3314355,0,0,3314355,696014,4010369
-Deposito Avellaneda Sur,Arleather S.R.L.,2025-03,2255300,0,0,2255300,473613,3333913
-Deposito Avellaneda Sur,Arleather S.R.L.,2025-04,3062590,0,0,3062590,643143,7588865
+Deposito Avellaneda Sur,Arleather S.R.L.,2025-03,2255300,0,0,2255300,473613,2728913
+Deposito Avellaneda Sur,Arleather S.R.L.,2025-04,3062590,0,0,3062590,643143,3705733
 Deposito Avellaneda Sur,Ascensores Servas S A,2025-05,8594525,0,0,8594525,1804850,10399375
 Deposito Avellaneda Sur,Asociacion De Los Testigos De Jehova I. E. R.,2025-08,1803036,481950,0,2284986,378638,2663623
 Deposito Avellaneda Sur,Aspee Monee Srl,2025-08,5673750,0,0,5673750,1191490,6865240
@@ -159,7 +159,7 @@ Deposito Avellaneda Sur,Awam Tex S.R.L.,2025-03,4870367,0,0,4870367,1022780,5893
 Deposito Avellaneda Sur,Awam Tex S.R.L.,2025-04,1224972,0,0,1224972,257244,1482217
 Deposito Avellaneda Sur,Awam Tex S.R.L.,2025-05,4107316,0,0,4107316,862536,4969852
 Deposito Avellaneda Sur,Awam Tex S.R.L.,2025-06,2638100,0,0,2638100,554001,3192101
-Deposito Avellaneda Sur,Awam Tex S.R.L.,2025-07,2051800,0,0,2051800,430878,3224746
+Deposito Avellaneda Sur,Awam Tex S.R.L.,2025-07,2051800,0,0,2051800,430878,2482678
 Deposito Avellaneda Sur,Awam Tex S.R.L.,2025-08,2158951,0,0,2158951,453380,2612331
 Deposito Avellaneda Sur,Ayb Srl,2025-05,2757096,0,0,2757096,578990,3336086
 Deposito Avellaneda Sur,Baires International Transport S.R.L.,2025-06,109556,1451209,0,1560765,23007,1583771
@@ -174,9 +174,9 @@ Deposito Avellaneda Sur,Bdfm Sa,2025-07,1010240,0,0,1010240,212150,1222390
 Deposito Avellaneda Sur,Bdfm Sa,2025-08,2829245,0,0,2829245,594141,3423386
 Deposito Avellaneda Sur,Be Investment,2025-08,9527426,0,0,9527426,2000759,11528185
 Deposito Avellaneda Sur,Beauty Solutions S.A.,2025-07,3906100,0,0,3906100,820281,4726381
-Deposito Avellaneda Sur,Berant Daniel Ariel,2025-02,-1238825,0,0,-1238825,-260153,9244720
+Deposito Avellaneda Sur,Berant Daniel Ariel,2025-02,-1238825,0,0,-1238825,-260153,-1498978
 Deposito Avellaneda Sur,Berant Daniel Ariel,2025-04,9017825,0,0,9017825,1893743,10911568
-Deposito Avellaneda Sur,Berant Daniel Ariel,2025-05,-9017825,0,0,-9017825,-1893743,10911568
+Deposito Avellaneda Sur,Berant Daniel Ariel,2025-05,-9017825,0,0,-9017825,-1893743,-10911568
 Deposito Avellaneda Sur,Berkma S A,2025-01,150000,0,0,150000,31500,181500
 Deposito Avellaneda Sur,Berkma S A,2025-02,90000,0,0,90000,18900,108900
 Deposito Avellaneda Sur,Berkma S A,2025-03,150000,0,0,150000,31500,181500
@@ -195,12 +195,12 @@ Deposito Avellaneda Sur,Blu Logistics Argentina S.A.,2025-02,2720680,0,0,2720680
 Deposito Avellaneda Sur,Blu Logistics Argentina S.A.,2025-03,3400990,0,0,3400990,714208,4115198
 Deposito Avellaneda Sur,Blue Mail Sociedad Anonima,2025-02,1804190,0,0,1804190,378880,2183070
 Deposito Avellaneda Sur,Blue Mail Sociedad Anonima,2025-08,4229472,0,0,4229472,888189,5117662
-Deposito Avellaneda Sur,Borax Argentina S A,2025-01,19950248,0,0,19950248,4189553,52907294
+Deposito Avellaneda Sur,Borax Argentina S A,2025-01,19950248,0,0,19950248,4189553,24139802
 Deposito Avellaneda Sur,Borax Argentina S A,2025-02,17333247,0,0,17333247,3639979,20973227
-Deposito Avellaneda Sur,Borax Argentina S A,2025-03,18152714,0,0,18152714,3812069,45582805
-Deposito Avellaneda Sur,Borax Argentina S A,2025-04,1179976,0,0,1179976,247794,13488878
-Deposito Avellaneda Sur,Borax Argentina S A,2025-05,19519025,0,0,19519025,4098996,24126225
-Deposito Avellaneda Sur,Borax Argentina S A,2025-06,29461896,0,0,29461896,6186997,39555799
+Deposito Avellaneda Sur,Borax Argentina S A,2025-03,18152714,0,0,18152714,3812069,21964785
+Deposito Avellaneda Sur,Borax Argentina S A,2025-04,1179976,0,0,1179976,247794,1427770
+Deposito Avellaneda Sur,Borax Argentina S A,2025-05,19519025,0,0,19519025,4098996,23618021
+Deposito Avellaneda Sur,Borax Argentina S A,2025-06,29461896,0,0,29461896,6186997,35648893
 Deposito Avellaneda Sur,Borax Argentina S A,2025-07,16950720,0,0,16950720,3559650,20510370
 Deposito Avellaneda Sur,Borax Argentina S A S. A.,2025-08,15820672,0,0,15820672,3322340,19143012
 Deposito Avellaneda Sur,Bratton Srl,2025-01,1562035,0,0,1562035,328027,1890062
@@ -209,40 +209,40 @@ Deposito Avellaneda Sur,Breyer Hnos S A,2025-02,3512766,0,0,3512766,737681,42504
 Deposito Avellaneda Sur,Breyer Hnos S A,2025-03,276200,0,0,276200,58002,334202
 Deposito Avellaneda Sur,Buenos Aires Comex S.R.L.,2025-04,103000,375000,0,478000,21630,499630
 Deposito Avellaneda Sur,Bulldog Solutions S.A,2025-05,12519020,0,0,12519020,2628994,15148014
-Deposito Avellaneda Sur,Bulldog Solutions S.A,2025-06,-10322400,0,0,-10322400,-2167704,12490104
+Deposito Avellaneda Sur,Bulldog Solutions S.A,2025-06,-10322400,0,0,-10322400,-2167704,-12490104
 Deposito Avellaneda Sur,Bulldog Solutions S.A,2025-07,15358250,0,0,15358250,3225232,18583482
 Deposito Avellaneda Sur,Bulldog Solutions S.A,2025-08,25020400,0,0,25020400,5254284,30274684
 Deposito Avellaneda Sur,C Y M Shipbroker Argentina S.R.L,2025-05,626565,0,0,626565,131579,758144
 Deposito Avellaneda Sur,C Y M Shipbroker Argentina S.R.L,2025-06,7962480,0,0,7962480,1672121,9634601
-Deposito Avellaneda Sur,C Y M Shipbroker Argentina S.R.L,2025-07,-1378080,0,0,-1378080,-289397,1667477
-Deposito Avellaneda Sur,Caddell Construction Co. (De) Llc,2025-08,0,31824000,0,31824000,0,31824000
+Deposito Avellaneda Sur,C Y M Shipbroker Argentina S.R.L,2025-07,-1378080,0,0,-1378080,-289397,-1667477
+Deposito Avellaneda Sur,Caddell Construction Co. (De) Llc,2025-08,0,0,0,0,0,0
 Deposito Avellaneda Sur,Candalar S.A.,2025-02,3050780,0,0,3050780,640664,3691444
 Deposito Avellaneda Sur,Candalar S.A.,2025-03,785788,0,0,785788,165015,950803
 Deposito Avellaneda Sur,Capilatis Sa,2025-01,2770550,0,0,2770550,581816,3352366
 Deposito Avellaneda Sur,Capilatis Sa,2025-02,1521603,0,0,1521603,319537,1841140
-Deposito Avellaneda Sur,Capilatis Sa,2025-04,8631555,0,0,8631555,1812626,14126462
+Deposito Avellaneda Sur,Capilatis Sa,2025-04,8631555,0,0,8631555,1812626,10444182
 Deposito Avellaneda Sur,Capilatis Sa,2025-05,3317094,0,0,3317094,696590,4013684
 Deposito Avellaneda Sur,Capilatis Sa,2025-06,3317094,0,0,3317094,696590,4013684
 Deposito Avellaneda Sur,Capilatis Sa,2025-08,4975641,0,0,4975641,1044885,6020526
-Deposito Avellaneda Sur,Cargo Staff Logistics S.A.,2025-06,2781000,0,0,2781000,584010,4570170
+Deposito Avellaneda Sur,Cargo Staff Logistics S.A.,2025-06,2781000,0,0,2781000,584010,3365010
 Deposito Avellaneda Sur,Cargocorp Argentina,2025-08,2233971,0,0,2233971,469134,2703105
 Deposito Avellaneda Sur,Casa Rami S.R.L.,2025-08,1510660,0,0,1510660,317239,1827899
 Deposito Avellaneda Sur,Chaguar  Sociedad Anonima,2025-07,5703680,0,0,5703680,1197773,6901453
 Deposito Avellaneda Sur,Chaguar  Sociedad Anonima,2025-08,13098485,0,0,13098485,2750682,15849167
 Deposito Avellaneda Sur,Chelatex,2025-03,4885417,0,0,4885417,1025939,5911356
 Deposito Avellaneda Sur,Chelatex,2025-04,2275000,0,0,2275000,477750,2752750
-Deposito Avellaneda Sur,Chelatex,2025-05,2245200,0,0,2245200,471491,3548445
+Deposito Avellaneda Sur,Chelatex,2025-05,2245200,0,0,2245200,471491,2716691
 Deposito Avellaneda Sur,Chemotecnica Sociedad Anonima,2025-01,5346156,0,0,5346156,1122693,6468848
-Deposito Avellaneda Sur,Chemotecnica Sociedad Anonima,2025-03,5949424,0,0,5949424,1249379,10658048
+Deposito Avellaneda Sur,Chemotecnica Sociedad Anonima,2025-03,5949424,0,0,5949424,1249379,7198804
 Deposito Avellaneda Sur,Chemotecnica Sociedad Anonima,2025-04,14472254,0,0,14472254,3039173,17511429
 Deposito Avellaneda Sur,Chemotecnica Sociedad Anonima,2025-05,9163315,0,0,9163315,1924296,11087611
 Deposito Avellaneda Sur,Chemotecnica Sociedad Anonima,2025-06,6385675,0,0,6385675,1340992,7726667
 Deposito Avellaneda Sur,Chemotecnica Sociedad Anonima,2025-07,3751186,0,0,3751186,787749,4538936
-Deposito Avellaneda Sur,Chemotecnica Sociedad Anonima,2025-08,9448338,0,0,9448338,1984151,12304826
+Deposito Avellaneda Sur,Chemotecnica Sociedad Anonima,2025-08,9448338,0,0,9448338,1984151,11432488
 Deposito Avellaneda Sur,Cibus Global S. A. S.,2025-05,2220240,0,0,2220240,466250,2686490
-Deposito Avellaneda Sur,Coffee Hunters S.A.,2025-07,371729,0,0,371729,78063,763908
-Deposito Avellaneda Sur,Compañia Bulk Sa,2025-05,0,0,0,0,0,260550
-Deposito Avellaneda Sur,Comtec S. A.,2025-08,2485703,0,0,2485703,521997,3571154
+Deposito Avellaneda Sur,Coffee Hunters S.A.,2025-07,371729,0,0,371729,78063,449792
+Deposito Avellaneda Sur,Compañia Bulk Sa,2025-05,0,0,0,0,0,0
+Deposito Avellaneda Sur,Comtec S. A.,2025-08,2485703,0,0,2485703,521997,3007700
 Deposito Avellaneda Sur,Comunicaciones 360 S.A.,2025-01,5733825,0,0,5733825,1204103,6937928
 Deposito Avellaneda Sur,Comunicaciones Valles Calchaquies S.R.L.,2025-04,1982946,0,0,1982946,416419,2399365
 Deposito Avellaneda Sur,Conextube Sa,2025-01,1253100,0,0,1253100,263151,1516251
@@ -252,16 +252,16 @@ Deposito Avellaneda Sur,Conextube Sa,2025-07,626550,0,0,626550,131576,758126
 Deposito Avellaneda Sur,Cordova Camila Valeria,2025-08,4687890,0,0,4687890,984457,5672347
 Deposito Avellaneda Sur,Corona Insumos S.R.L.,2025-02,2274916,0,0,2274916,477732,2752648
 Deposito Avellaneda Sur,Corona Insumos S.R.L.,2025-04,4672901,0,0,4672901,981309,5654210
-Deposito Avellaneda Sur,Corona Insumos S.R.L.,2025-05,-4672901,0,0,-4672901,-981309,5654210
+Deposito Avellaneda Sur,Corona Insumos S.R.L.,2025-05,-4672901,0,0,-4672901,-981309,-5654210
 Deposito Avellaneda Sur,Corteza S.R.L.,2025-01,230100,0,0,230100,48321,278421
 Deposito Avellaneda Sur,Cosmopolitan Sociedad Anonima,2025-08,1037405,0,0,1037405,217855,1255260
 Deposito Avellaneda Sur,Coteca S A,2025-03,51500,366092,0,417592,10815,428407
 Deposito Avellaneda Sur,Coteca S A,2025-04,1675609,0,0,1675609,351878,2027486
 Deposito Avellaneda Sur,Coteca S A,2025-05,458994,0,0,458994,96389,555383
-Deposito Avellaneda Sur,Cotton Work,2025-06,0,0,0,0,0,7235498
+Deposito Avellaneda Sur,Cotton Work,2025-06,0,0,0,0,0,0
 Deposito Avellaneda Sur,Cri Fa Autopartes,2025-07,1225650,0,0,1225650,257386,1483036
 Deposito Avellaneda Sur,Crosby Argentina S.A.,2025-04,801675,0,0,801675,168352,970027
-Deposito Avellaneda Sur,Crosby Argentina S.A.,2025-06,961475,0,0,961475,201910,3127155
+Deposito Avellaneda Sur,Crosby Argentina S.A.,2025-06,961475,0,0,961475,201910,1163385
 Deposito Avellaneda Sur,Curtiembre Infante S A,2025-03,774000,0,0,774000,162540,936540
 Deposito Avellaneda Sur,Curtiembre Infante S A,2025-04,8588159,0,0,8588159,1803513,10391672
 Deposito Avellaneda Sur,Curtiembre Infante S A,2025-05,835000,0,0,835000,175350,1010350
@@ -275,10 +275,10 @@ Deposito Avellaneda Sur,Danisco Argentina Sa,2025-04,2209406,0,0,2209406,463975,
 Deposito Avellaneda Sur,Danisco Argentina Sa,2025-05,1190611,0,0,1190611,250028,1440639
 Deposito Avellaneda Sur,Danisco Argentina Sa,2025-06,2359745,0,0,2359745,495546,2855291
 Deposito Avellaneda Sur,Danisco Argentina Sa,2025-07,3805341,0,0,3805341,799122,4604463
-Deposito Avellaneda Sur,Danisco Argentina Sa,2025-08,-1503441,0,0,-1503441,-315723,1819163
-Deposito Avellaneda Sur,Dautec Argentina S. A. S.,2025-07,25160011,12928896,0,38088907,5283602,46359183
+Deposito Avellaneda Sur,Danisco Argentina Sa,2025-08,-1503441,0,0,-1503441,-315723,-1819163
+Deposito Avellaneda Sur,Dautec Argentina S. A. S.,2025-07,25160011,12928896,0,38088907,5283602,43372509
 Deposito Avellaneda Sur,De La Fuente Ricardo Jose,2025-04,5539236,0,0,5539236,1163240,6702476
-Deposito Avellaneda Sur,Dgm Dangerous Goods Management Argentina S R L,2025-01,-202882,0,0,-202882,-42605,245487
+Deposito Avellaneda Sur,Dgm Dangerous Goods Management Argentina S R L,2025-01,-202882,0,0,-202882,-42605,-245487
 Deposito Avellaneda Sur,Distribuidora V.R. S.R.L.,2025-01,379939,0,0,379939,79787,459726
 Deposito Avellaneda Sur,Dobronich Mario Eduardo,2025-05,940822,0,0,940822,197573,1138394
 Deposito Avellaneda Sur,Domatel S. R. L.,2025-03,836861,0,0,836861,175741,1012602
@@ -310,7 +310,7 @@ Deposito Avellaneda Sur,Eco Rides Srl,2025-04,2181875,0,0,2181875,458194,2640069
 Deposito Avellaneda Sur,Ecomet S.R.L.,2025-05,2656150,0,0,2656150,557792,3213942
 Deposito Avellaneda Sur,Ecomet S.R.L.,2025-08,13379250,0,0,13379250,2809642,16188892
 Deposito Avellaneda Sur,Edelweiss Spedition Srl,2025-01,7580653,0,0,7580653,1591937,9172590
-Deposito Avellaneda Sur,Edelweiss Spedition Srl,2025-02,8123714,0,0,8123714,1705980,9861334
+Deposito Avellaneda Sur,Edelweiss Spedition Srl,2025-02,8123714,0,0,8123714,1705980,9829696
 Deposito Avellaneda Sur,Edelweiss Spedition Srl,2025-03,15914495,0,0,15914495,3342044,19256540
 Deposito Avellaneda Sur,Edelweiss Spedition Srl,2025-04,21930965,0,0,21930965,4605503,26536468
 Deposito Avellaneda Sur,Edelweiss Spedition Srl,2025-05,13696653,0,0,13696653,2876297,16572952
@@ -344,7 +344,7 @@ Deposito Avellaneda Sur,Fedtex,2025-07,109556,2100102,0,2209658,23007,2232664
 Deposito Avellaneda Sur,Fenisan S.A.,2025-02,1532197,0,0,1532197,321761,1853958
 Deposito Avellaneda Sur,Fenisan S.A.,2025-03,101441,2492776,0,2594217,21303,2615520
 Deposito Avellaneda Sur,Fenisan S.A.,2025-05,5088935,3787656,0,8876591,1068676,9945267
-Deposito Avellaneda Sur,Fenisan S.A.,2025-06,331035,4980953,0,5311988,69518,15985015
+Deposito Avellaneda Sur,Fenisan S.A.,2025-06,331035,4980953,0,5311988,69518,5381505
 Deposito Avellaneda Sur,Fijaciones Py S . A .,2025-07,1441042,0,0,1441042,302619,1743661
 Deposito Avellaneda Sur,Fijaciones Py S . A .,2025-08,1109365,0,0,1109365,232967,1342332
 Deposito Avellaneda Sur,Fineport S.A.,2025-04,1589460,0,0,1589460,333787,1923247
@@ -363,7 +363,7 @@ Deposito Avellaneda Sur,Gador S A,2025-02,1403046,0,0,1403046,294640,1697686
 Deposito Avellaneda Sur,Gematec S R L,2025-03,7256795,0,0,7256795,1523927,8780722
 Deposito Avellaneda Sur,Gematec S R L,2025-04,7398172,0,0,7398172,1553616,8951789
 Deposito Avellaneda Sur,Geo Logistics Argentina S.R.L.,2025-01,2177327,0,0,2177327,457239,2634566
-Deposito Avellaneda Sur,Geo Logistics Argentina S.R.L.,2025-02,-865225,0,0,-865225,-181697,1046922
+Deposito Avellaneda Sur,Geo Logistics Argentina S.R.L.,2025-02,-865225,0,0,-865225,-181697,-1046922
 Deposito Avellaneda Sur,Geo Logistics Argentina S.R.L.,2025-07,2017699,0,0,2017699,423717,2441416
 Deposito Avellaneda Sur,Geo-Trade Comercio Exterior Srl,2025-07,3234979,0,0,3234979,679346,3914325
 Deposito Avellaneda Sur,Gestion Forward Srl,2025-01,770000,0,0,770000,161700,931700
@@ -373,15 +373,15 @@ Deposito Avellaneda Sur,Gestion Forward Srl,2025-06,1775175,0,0,1775175,372787,2
 Deposito Avellaneda Sur,Glamtex,2025-06,2693800,0,0,2693800,565698,3259498
 Deposito Avellaneda Sur,Glamtex,2025-07,3321660,0,0,3321660,697549,4019209
 Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-01,46893145,0,0,46893145,9847561,56740706
-Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-02,50457010,786757,0,51243767,10595972,62614139
-Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-03,43488895,0,0,43488895,9132668,53043865
+Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-02,50457010,786757,0,51243767,10595972,61839739
+Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-03,43488895,0,0,43488895,9132668,52621563
 Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-04,41785198,0,0,41785198,8774890,50560088
-Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-05,48547845,0,0,48547845,10195047,60572412
-Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-06,36058660,0,0,36058660,7572318,48443896
-Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-07,53702840,0,0,53702840,11277596,70213444
+Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-05,48547845,0,0,48547845,10195047,58742892
+Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-06,36058660,0,0,36058660,7572318,43630978
+Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-07,53702840,0,0,53702840,11277596,64980436
 Deposito Avellaneda Sur,Global Rover Logistic Srl,2025-08,33700200,0,0,33700200,7077042,40777242
 Deposito Avellaneda Sur,Gobbi Novag Sa,2025-05,2601475,0,0,2601475,546310,3147785
-Deposito Avellaneda Sur,Grapot Sa,2025-02,2114959,0,0,2114959,444141,4042052
+Deposito Avellaneda Sur,Grapot Sa,2025-02,2114959,0,0,2114959,444141,2559100
 Deposito Avellaneda Sur,Grapot Sa,2025-03,2087795,0,0,2087795,438438,2526233
 Deposito Avellaneda Sur,Grapot Sa,2025-04,1169722,0,0,1169722,245642,1415364
 Deposito Avellaneda Sur,Grass S. R. L.,2025-01,1420583,0,0,1420583,298322,1718905
@@ -391,7 +391,7 @@ Deposito Avellaneda Sur,Grass S. R. L.,2025-04,1693894,0,0,1693894,355718,204961
 Deposito Avellaneda Sur,Grass S. R. L.,2025-05,3839304,0,0,3839304,806254,4645558
 Deposito Avellaneda Sur,Grass S. R. L.,2025-08,3432242,0,0,3432242,720771,4153013
 Deposito Avellaneda Sur,Grouport Srl,2025-01,5129906,0,0,5129906,1077281,6207185
-Deposito Avellaneda Sur,Grouport Srl,2025-02,3793222,0,0,3793222,796576,5098886
+Deposito Avellaneda Sur,Grouport Srl,2025-02,3793222,0,0,3793222,796576,4589798
 Deposito Avellaneda Sur,Grouport Srl,2025-03,7452708,0,0,7452708,1565069,9017776
 Deposito Avellaneda Sur,Grouport Srl,2025-04,7613029,0,0,7613029,1598737,9211765
 Deposito Avellaneda Sur,Grouport Srl,2025-05,7156778,0,0,7156778,1502923,8659701
@@ -400,7 +400,7 @@ Deposito Avellaneda Sur,Grouport Srl,2025-07,2165407,0,0,2165407,454736,2620143
 Deposito Avellaneda Sur,Grouport Srl,2025-08,4471343,0,0,4471343,938983,5410326
 Deposito Avellaneda Sur,Gruas Daniele Srl,2025-05,2871220,0,0,2871220,602956,3474176
 Deposito Avellaneda Sur,Grupo In 360,2025-05,24866720,0,0,24866720,5222011,30088731
-Deposito Avellaneda Sur,Grupo In 360,2025-06,-20209200,0,0,-20209200,-4243932,24453132
+Deposito Avellaneda Sur,Grupo In 360,2025-06,-20209200,0,0,-20209200,-4243932,-24453132
 Deposito Avellaneda Sur,Grupo In 360,2025-08,8551350,0,0,8551350,1795784,10347134
 Deposito Avellaneda Sur,Grupo Leal-Tex S.R.L.,2025-02,1458630,0,0,1458630,306312,1764942
 Deposito Avellaneda Sur,Grupo Leal-Tex S.R.L.,2025-03,1147868,0,0,1147868,241052,1388920
@@ -410,7 +410,7 @@ Deposito Avellaneda Sur,Grupo Leal-Tex S.R.L.,2025-06,2120865,0,0,2120865,445382
 Deposito Avellaneda Sur,Grupo Leal-Tex S.R.L.,2025-07,2895900,0,0,2895900,608139,3504039
 Deposito Avellaneda Sur,Grupo Leal-Tex S.R.L.,2025-08,2137033,0,0,2137033,448777,2585810
 Deposito Avellaneda Sur,Grupo Rsm S.R.L.,2025-05,6775000,0,0,6775000,1422750,8197750
-Deposito Avellaneda Sur,Grupo Simpa S A,2025-01,29805066,0,0,29805066,6259064,36064130
+Deposito Avellaneda Sur,Grupo Simpa S A,2025-01,22307744,0,0,22307744,4684626,26992370
 Deposito Avellaneda Sur,Grupo Simpa S A,2025-02,15347360,0,0,15347360,3222946,18570306
 Deposito Avellaneda Sur,Grupo Simpa S A,2025-03,768660,0,0,768660,161419,930079
 Deposito Avellaneda Sur,Grupo Simpa S A,2025-04,22459345,0,0,22459345,4716462,27175807
@@ -419,8 +419,8 @@ Deposito Avellaneda Sur,Grupo Simpa S A,2025-06,8525495,0,0,8525495,1790354,1031
 Deposito Avellaneda Sur,Grupo Simpa S A,2025-07,14446695,0,0,14446695,3033804,17480499
 Deposito Avellaneda Sur,Grupo Simpa S A,2025-08,10614620,0,0,10614620,2229071,12843691
 Deposito Avellaneda Sur,Harbor Express S.A.,2025-08,3641245,0,0,3641245,764661,4405906
-Deposito Avellaneda Sur,Hdv Leather Srl,2025-05,3852145,0,0,3852145,808951,4734616
-Deposito Avellaneda Sur,Hdv Leather Srl,2025-06,5936190,0,0,5936190,1246601,7381473
+Deposito Avellaneda Sur,Hdv Leather Srl,2025-05,3852145,0,0,3852145,808951,4661096
+Deposito Avellaneda Sur,Hdv Leather Srl,2025-06,5936190,0,0,5936190,1246601,7182791
 Deposito Avellaneda Sur,Hdv Leather Srl,2025-07,4266575,0,0,4266575,895982,5162557
 Deposito Avellaneda Sur,Hdv Leather Srl,2025-08,2299870,0,0,2299870,482973,2782843
 Deposito Avellaneda Sur,Hellmann Worldwide Logistics  Sociedad Anonima,2025-02,491568,0,0,491568,103229,594797
@@ -433,23 +433,23 @@ Deposito Avellaneda Sur,Henn Y Cia Srl,2025-02,17945334,0,0,17945334,3768521,217
 Deposito Avellaneda Sur,Henn Y Cia Srl,2025-03,19844646,0,0,19844646,4167376,24012022
 Deposito Avellaneda Sur,Henn Y Cia Srl,2025-04,11371000,0,0,11371000,2387910,13758910
 Deposito Avellaneda Sur,Henn Y Cia Srl,2025-05,23577200,0,0,23577200,4951212,28528412
-Deposito Avellaneda Sur,Henn Y Cia Srl,2025-06,43242000,0,0,43242000,9080820,56344860
+Deposito Avellaneda Sur,Henn Y Cia Srl,2025-06,43242000,0,0,43242000,9080820,52322820
 Deposito Avellaneda Sur,Henn Y Cia Srl,2025-07,29902800,0,0,29902800,6279588,36182388
 Deposito Avellaneda Sur,Henn Y Cia Srl,2025-08,22060300,0,0,22060300,4632663,26692963
 Deposito Avellaneda Sur,Hilado S.A.,2025-01,2396703,0,0,2396703,503308,2900011
 Deposito Avellaneda Sur,Hilado S.A.,2025-02,11515013,0,0,11515013,2418153,13933166
 Deposito Avellaneda Sur,Hilado S.A.,2025-03,7523504,0,0,7523504,1579936,9103440
 Deposito Avellaneda Sur,Hilado S.A.,2025-04,18298467,0,0,18298467,3842678,22141145
-Deposito Avellaneda Sur,Hilado S.A.,2025-05,12437719,0,0,12437719,2611921,16121216
+Deposito Avellaneda Sur,Hilado S.A.,2025-05,12437719,0,0,12437719,2611921,15049640
 Deposito Avellaneda Sur,Hilado S.A.,2025-06,21059751,0,0,21059751,4422549,25482300
-Deposito Avellaneda Sur,Hilado S.A.,2025-07,25883008,0,0,25883008,5435432,35192918
+Deposito Avellaneda Sur,Hilado S.A.,2025-07,25883008,0,0,25883008,5435432,31318440
 Deposito Avellaneda Sur,Hilado S.A.,2025-08,6935807,0,0,6935807,1456520,8392327
 Deposito Avellaneda Sur,Hilansur S.A.,2025-03,2715060,0,0,2715060,570163,3285223
 Deposito Avellaneda Sur,Hometex S.A,2025-04,3440487,0,0,3440487,722503,4162990
 Deposito Avellaneda Sur,Hra Consultora Srl,2025-04,1416000,0,0,1416000,297360,1713360
 Deposito Avellaneda Sur,Hra Consultora Srl,2025-05,260900,0,0,260900,54789,315689
 Deposito Avellaneda Sur,Hra Consultora Srl,2025-07,5110744,0,0,5110744,1073256,6184000
-Deposito Avellaneda Sur,Hyt Investments Sa,2025-01,-320000,0,0,-320000,-67200,387200
+Deposito Avellaneda Sur,Hyt Investments Sa,2025-01,-320000,0,0,-320000,-67200,-387200
 Deposito Avellaneda Sur,Hyt Investments Sa,2025-02,6915784,0,0,6915784,1452315,8368099
 Deposito Avellaneda Sur,Ilatex Sa,2025-06,825950,0,0,825950,173450,999400
 Deposito Avellaneda Sur,Imporiente S.A.,2025-05,1455957,0,0,1455957,305751,1761708
@@ -458,8 +458,8 @@ Deposito Avellaneda Sur,Importadora Mediterranea Sa,2025-08,5353747,0,0,5353747,
 Deposito Avellaneda Sur,Indelplas S.R.L,2025-01,6789796,0,0,6789796,1425857,8215652
 Deposito Avellaneda Sur,Indelplas S.R.L,2025-02,435255,0,0,435255,91404,526658
 Deposito Avellaneda Sur,Industrias Kc S R L,2025-01,1103422,0,0,1103422,231719,1335140
-Deposito Avellaneda Sur,Industrias Kc S R L,2025-02,-202882,0,0,-202882,-42606,2424793
-Deposito Avellaneda Sur,Industrias Kc S R L,2025-03,0,0,0,0,0,4912600
+Deposito Avellaneda Sur,Industrias Kc S R L,2025-02,-202882,0,0,-202882,-42606,-245487
+Deposito Avellaneda Sur,Industrias Kc S R L,2025-03,0,0,0,0,0,0
 Deposito Avellaneda Sur,Industrias Pugliese S A,2025-05,2485715,0,0,2485715,522000,3007715
 Deposito Avellaneda Sur,Industrias Quimicas Independencia S A,2025-03,593000,0,0,593000,124530,717530
 Deposito Avellaneda Sur,Industrias Quimicas Independencia S A,2025-04,1110300,0,0,1110300,233163,1343463
@@ -471,34 +471,34 @@ Deposito Avellaneda Sur,Industrias Saladillo Sa,2025-04,4873300,0,0,4873300,1023
 Deposito Avellaneda Sur,Industrias Saladillo Sa,2025-05,9302190,0,0,9302190,1953460,11255651
 Deposito Avellaneda Sur,Industrias Saladillo Sa,2025-06,7697340,0,0,7697340,1616440,9313781
 Deposito Avellaneda Sur,Industrias Saladillo Sa,2025-07,7608980,0,0,7608980,1597887,9206867
-Deposito Avellaneda Sur,Industrias Saladillo Sa,2025-08,8656356,0,0,8656356,1817834,14563506
+Deposito Avellaneda Sur,Industrias Saladillo Sa,2025-08,8656356,0,0,8656356,1817834,10474190
 Deposito Avellaneda Sur,Industrias Santa Maria Del Mar  S R L,2025-04,5908150,0,0,5908150,1240712,7148862
 Deposito Avellaneda Sur,Industrias Zapla S. A.,2025-07,3960916,0,0,3960916,831792,4792708
 Deposito Avellaneda Sur,Industrias Zapla S. A.,2025-08,219112,2442882,0,2661994,46014,2708008
 Deposito Avellaneda Sur,Infilo,2025-03,4224557,0,0,4224557,887157,5111714
 Deposito Avellaneda Sur,Ing Hector J Resino Sociedad De Responsabilidad Limitada,2025-01,1125685,0,0,1125685,236394,1362079
 Deposito Avellaneda Sur,Integracion Minera S.R.L.,2025-04,3835346,0,0,3835346,805423,4640769
-Deposito Avellaneda Sur,Inter American Cargo Group Sa,2025-03,1181165,0,0,1181165,248044,1657077
+Deposito Avellaneda Sur,Inter American Cargo Group Sa,2025-03,1181165,0,0,1181165,248044,1429209
 Deposito Avellaneda Sur,Inter American Cargo Group Sa,2025-06,2989875,0,0,2989875,627874,3617749
 Deposito Avellaneda Sur,Inter American Cargo Group Sa,2025-07,599100,0,0,599100,125811,724911
 Deposito Avellaneda Sur,Intertrader Sa,2025-02,1497082,0,0,1497082,314387,1811469
-Deposito Avellaneda Sur,Intertrader Sa,2025-03,1470000,0,0,1470000,308700,3133900
+Deposito Avellaneda Sur,Intertrader Sa,2025-03,1470000,0,0,1470000,308700,1778700
 Deposito Avellaneda Sur,Inversiones Para El Agro S.A. S. A.,2025-02,3894060,0,0,3894060,817753,4711813
-Deposito Avellaneda Sur,Ionatex Srl,2025-02,1670264,0,0,1670264,350755,4404211
+Deposito Avellaneda Sur,Ionatex Srl,2025-02,1670264,0,0,1670264,350755,2021019
 Deposito Avellaneda Sur,Ipa Argentina S A,2025-08,5371901,0,0,5371901,1128099,6500000
 Deposito Avellaneda Sur,Isla Perez Manuel Santiago,2025-01,1485925,0,0,1485925,312044,1797969
 Deposito Avellaneda Sur,J Llorente Y Cia  S A,2025-02,1412455,0,0,1412455,296616,1709071
 Deposito Avellaneda Sur,J Llorente Y Cia  S A,2025-03,1442877,0,0,1442877,303004,1745881
 Deposito Avellaneda Sur,Jakytextil S.A.,2025-02,3675410,0,0,3675410,771836,4447246
-Deposito Avellaneda Sur,Jakytextil S.A.,2025-03,2257480,0,0,2257480,474070,4555026
-Deposito Avellaneda Sur,Jakytextil S.A.,2025-04,8505280,0,0,8505280,1786109,11776639
-Deposito Avellaneda Sur,Jakytextil S.A.,2025-05,1036968,0,0,1036968,217763,2559111
+Deposito Avellaneda Sur,Jakytextil S.A.,2025-03,2257480,0,0,2257480,474070,2731550
+Deposito Avellaneda Sur,Jakytextil S.A.,2025-04,8505280,0,0,8505280,1786109,10291389
+Deposito Avellaneda Sur,Jakytextil S.A.,2025-05,1036968,0,0,1036968,217763,1254731
 Deposito Avellaneda Sur,Jakytextil S.A.,2025-06,825000,0,0,825000,173250,998250
-Deposito Avellaneda Sur,Jakytextil S.A.,2025-07,2807225,0,0,2807225,589518,10840011
+Deposito Avellaneda Sur,Jakytextil S.A.,2025-07,2807225,0,0,2807225,589518,3396743
 Deposito Avellaneda Sur,Javier Luque S.R.L.,2025-08,3349050,0,0,3349050,703300,4052350
-Deposito Avellaneda Sur,Jsos S.R.L.,2025-05,-197896,0,0,-197896,-41558,239455
+Deposito Avellaneda Sur,Jsos S.R.L.,2025-05,-197896,0,0,-197896,-41558,-239455
 Deposito Avellaneda Sur,Juguetech S A,2025-01,1203364,0,0,1203364,252706,1456070
-Deposito Avellaneda Sur,Juguetech S A,2025-02,0,0,0,0,0,2912140
+Deposito Avellaneda Sur,Juguetech S A,2025-02,0,0,0,0,0,0
 Deposito Avellaneda Sur,Juguetech S A,2025-05,1146217,0,0,1146217,240706,1386923
 Deposito Avellaneda Sur,Juguetech S A,2025-06,2302034,0,0,2302034,483428,2785462
 Deposito Avellaneda Sur,Juguetech S A,2025-07,3900893,0,0,3900893,819188,4720082
@@ -506,7 +506,7 @@ Deposito Avellaneda Sur,Juguetech S A,2025-08,3996003,0,0,3996003,839161,4835164
 Deposito Avellaneda Sur,Jul & Ana S.R.L.,2025-01,2045146,1117156,0,3162302,429481,3591783
 Deposito Avellaneda Sur,Juliana Sa,2025-02,2472090,0,0,2472090,519139,2991229
 Deposito Avellaneda Sur,Juliana Sa,2025-06,900600,0,0,900600,189126,1089726
-Deposito Avellaneda Sur,Juliana Sa,2025-07,-900600,0,0,-900600,-189126,1089726
+Deposito Avellaneda Sur,Juliana Sa,2025-07,-900600,0,0,-900600,-189126,-1089726
 Deposito Avellaneda Sur,Jupam Sa,2025-01,15409380,0,0,15409380,3235972,18645352
 Deposito Avellaneda Sur,Jupam Sa,2025-02,12377077,1784198,0,14161275,2599187,16760462
 Deposito Avellaneda Sur,Jupam Sa,2025-03,10955158,3657391,0,14612549,2300581,16913130
@@ -520,16 +520,16 @@ Deposito Avellaneda Sur,Jutel S.A.,2025-06,824525,0,0,824525,173150,997675
 Deposito Avellaneda Sur,Kapselmaker S.A.,2025-07,377273,0,0,377273,79227,456500
 Deposito Avellaneda Sur,Kraster Argentina S.A.,2025-06,1554860,0,0,1554860,326521,1881381
 Deposito Avellaneda Sur,La Casa De Los Terminales S R L,2025-07,578256,0,0,578256,121434,699690
-Deposito Avellaneda Sur,La Nueva Textil De Lugano S.R.L.,2025-02,1552440,0,0,1552440,326012,2047852
+Deposito Avellaneda Sur,La Nueva Textil De Lugano S.R.L.,2025-02,1552440,0,0,1552440,326012,1878452
 Deposito Avellaneda Sur,La Nueva Textil De Lugano S.R.L.,2025-03,3746775,0,0,3746775,786824,4533599
 Deposito Avellaneda Sur,La Nueva Textil De Lugano S.R.L.,2025-04,3160490,0,0,3160490,663703,3824193
 Deposito Avellaneda Sur,La Nueva Textil De Lugano S.R.L.,2025-05,802250,0,0,802250,168472,970722
 Deposito Avellaneda Sur,La Platense Sociedad Anonima,2025-07,790685,0,0,790685,166044,956729
 Deposito Avellaneda Sur,La Tela S.R.L.,2025-05,8374768,0,0,8374768,1758702,10133470
 Deposito Avellaneda Sur,La Tela S.R.L.,2025-06,8354432,0,0,8354432,1754431,10108863
-Deposito Avellaneda Sur,La Tela S.R.L.,2025-07,15492380,0,0,15492380,3253400,29262695
+Deposito Avellaneda Sur,La Tela S.R.L.,2025-07,15492380,0,0,15492380,3253400,18745781
 Deposito Avellaneda Sur,La Tela S.R.L.,2025-08,1153721,0,0,1153721,242281,1396002
-Deposito Avellaneda Sur,Laboratorio Pyam Sa,2025-01,16531500,0,0,16531500,3471616,20989749
+Deposito Avellaneda Sur,Laboratorio Pyam Sa,2025-01,16531500,0,0,16531500,3471616,20003115
 Deposito Avellaneda Sur,Laboratorio Pyam Sa,2025-02,5220022,0,0,5220022,1096205,6316227
 Deposito Avellaneda Sur,Laboratorio Pyam Sa,2025-03,8321002,0,0,8321002,1747411,10068413
 Deposito Avellaneda Sur,Labranza Estrategica  S. A.,2025-01,1176570,1915718,0,3092288,247079,3339368
@@ -542,7 +542,7 @@ Deposito Avellaneda Sur,Lawter Argentina S.A.,2025-04,14289795,0,0,14289795,3000
 Deposito Avellaneda Sur,Lawter Argentina S.A.,2025-05,14794317,0,0,14794317,3106805,17901122
 Deposito Avellaneda Sur,Lawter Argentina S.A.,2025-06,7721884,0,0,7721884,1621595,9343479
 Deposito Avellaneda Sur,Lawter Argentina S.A.,2025-07,6759356,0,0,6759356,1419465,8178821
-Deposito Avellaneda Sur,Lawter Argentina S.A.,2025-08,4359741,0,0,4359741,915544,9978931
+Deposito Avellaneda Sur,Lawter Argentina S.A.,2025-08,4359741,0,0,4359741,915544,5275285
 Deposito Avellaneda Sur,Leanval S.A.,2025-06,0,6998070,0,6998070,0,6998070
 Deposito Avellaneda Sur,Leanval S.A.,2025-07,0,10507402,0,10507402,0,10507402
 Deposito Avellaneda Sur,Lectus Sa,2025-01,327500,0,0,327500,68775,396275
@@ -560,11 +560,11 @@ Deposito Avellaneda Sur,Libertun Hermanos Sociedad De Responsabilidad Limitada,2
 Deposito Avellaneda Sur,Libertun Hermanos Sociedad De Responsabilidad Limitada,2025-04,4549200,0,0,4549200,955332,5504532
 Deposito Avellaneda Sur,Libertun Hermanos Sociedad De Responsabilidad Limitada,2025-05,109556,5504532,0,5614088,23007,5637095
 Deposito Avellaneda Sur,Lichytex S.A.,2025-01,805600,0,0,805600,169176,974776
-Deposito Avellaneda Sur,Liftvan International Company S A C,2025-01,56612828,0,0,56612828,11888691,69750085
-Deposito Avellaneda Sur,Liftvan International Company S A C,2025-02,44880588,0,0,44880588,9424922,61472097
-Deposito Avellaneda Sur,Liftvan International Company S A C,2025-03,72290877,0,0,72290877,15181081,107609875
-Deposito Avellaneda Sur,Liftvan International Company S A C,2025-04,55341796,0,0,55341796,11621775,80610701
-Deposito Avellaneda Sur,Liftvan International Company S A C,2025-05,32430749,0,0,32430749,6810457,42328080
+Deposito Avellaneda Sur,Liftvan International Company S A C,2025-01,56612828,0,0,56612828,11888691,68501521
+Deposito Avellaneda Sur,Liftvan International Company S A C,2025-02,44880588,0,0,44880588,9424922,54305509
+Deposito Avellaneda Sur,Liftvan International Company S A C,2025-03,72290877,0,0,72290877,15181081,87471959
+Deposito Avellaneda Sur,Liftvan International Company S A C,2025-04,55341796,0,0,55341796,11621775,66963569
+Deposito Avellaneda Sur,Liftvan International Company S A C,2025-05,32430749,0,0,32430749,6810457,39241206
 Deposito Avellaneda Sur,Liftvan International Company S A C,2025-06,29715500,0,0,29715500,6240255,35955757
 Deposito Avellaneda Sur,Liftvan International Company S A C,2025-07,48606302,0,0,48606302,10207325,58813629
 Deposito Avellaneda Sur,Liftvan International Company S A C,2025-08,42817255,0,0,42817255,8991625,51808881
@@ -574,7 +574,7 @@ Deposito Avellaneda Sur,Litoral Citrus S A,2025-05,2730000,0,0,2730000,573300,33
 Deposito Avellaneda Sur,Litoral Citrus S A,2025-07,1365000,0,0,1365000,286650,1651650
 Deposito Avellaneda Sur,Litoral Citrus S A,2025-08,1365000,0,0,1365000,286650,1651650
 Deposito Avellaneda Sur,Lolotex S.R.L.,2025-04,18292220,0,0,18292220,3841366,22133586
-Deposito Avellaneda Sur,Lolotex S.R.L.,2025-06,-13150520,0,0,-13150520,-2761609,15912129
+Deposito Avellaneda Sur,Lolotex S.R.L.,2025-06,-13150520,0,0,-13150520,-2761609,-15912129
 Deposito Avellaneda Sur,Lopez Andres Ignacio,2025-03,420000,0,0,420000,88200,508200
 Deposito Avellaneda Sur,Luial S A,2025-01,1616520,0,0,1616520,339470,1955990
 Deposito Avellaneda Sur,Luial S A,2025-02,819280,0,0,819280,172049,991329
@@ -590,12 +590,12 @@ Deposito Avellaneda Sur,Mafralac Alimenticia Srl,2025-08,1070000,0,0,1070000,224
 Deposito Avellaneda Sur,Malu Ma Tex S.A.,2025-01,4953200,0,0,4953200,1040172,5993372
 Deposito Avellaneda Sur,Malu Ma Tex S.A.,2025-04,1284240,0,0,1284240,269690,1553930
 Deposito Avellaneda Sur,Malu Ma Tex S.A.,2025-05,26185950,0,0,26185950,5499049,31684999
-Deposito Avellaneda Sur,Malu Ma Tex S.A.,2025-06,-17057700,0,0,-17057700,-3582117,20639817
+Deposito Avellaneda Sur,Malu Ma Tex S.A.,2025-06,-17057700,0,0,-17057700,-3582117,-20639817
 Deposito Avellaneda Sur,Malu Ma Tex S.A.,2025-08,35672050,0,0,35672050,7491131,43163181
 Deposito Avellaneda Sur,Manufacturas Los Andes S.A,2025-02,1597558,0,0,1597558,335487,1933045
 Deposito Avellaneda Sur,Manufacturas Los Andes S.A,2025-03,2505579,0,0,2505579,526172,3031751
 Deposito Avellaneda Sur,Manufacturas Los Andes S.A,2025-07,17293782,0,0,17293782,3631694,20925476
-Deposito Avellaneda Sur,Manufacturas Los Andes S.A,2025-08,-100000,0,0,-100000,-21000,121000
+Deposito Avellaneda Sur,Manufacturas Los Andes S.A,2025-08,-100000,0,0,-100000,-21000,-121000
 Deposito Avellaneda Sur,Maquinarias Independencia Sa,2025-01,225000,0,0,225000,47250,272250
 Deposito Avellaneda Sur,Maquinarias Independencia Sa,2025-02,450000,0,0,450000,94500,544500
 Deposito Avellaneda Sur,Maquinarias Independencia Sa,2025-03,3940000,0,0,3940000,827400,4767400
@@ -606,41 +606,41 @@ Deposito Avellaneda Sur,Maquinarias Independencia Sa,2025-07,1736000,0,0,1736000
 Deposito Avellaneda Sur,Maquinarias Independencia Sa,2025-08,5931450,0,0,5931450,1245605,7177055
 Deposito Avellaneda Sur,Maransi S.A.,2025-02,11781158,0,0,11781158,2474043,14255201
 Deposito Avellaneda Sur,Maransi S.A.,2025-04,1342676,0,0,1342676,281962,1624638
-Deposito Avellaneda Sur,Maransi S.A.,2025-05,6757953,0,0,6757953,1419170,8177123
+Deposito Avellaneda Sur,Maransi S.A.,2025-05,5910777,0,0,5910777,1241264,7152041
 Deposito Avellaneda Sur,Maransi S.A.,2025-06,747964,0,0,747964,157072,905036
 Deposito Avellaneda Sur,Maransi S.A.,2025-08,578256,0,0,578256,121434,699690
 Deposito Avellaneda Sur,Mavi Textil Sa,2025-02,612790,0,0,612790,128686,741476
-Deposito Avellaneda Sur,Mayta Condori Franck Reynaldo,2025-06,2404265,0,0,2404265,504896,8364483
+Deposito Avellaneda Sur,Mayta Condori Franck Reynaldo,2025-06,2404265,0,0,2404265,504896,2909161
 Deposito Avellaneda Sur,Mazon Textil Sa,2025-03,1037502,0,0,1037502,217876,1255378
 Deposito Avellaneda Sur,Mcm  Security S.R.L.,2025-01,16331325,0,0,16331325,3429579,19760904
-Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-01,15876000,0,0,15876000,3333960,22259160
-Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-02,18609620,0,0,18609620,3908020,26786520
-Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-03,13116000,0,0,13116000,2754360,18825180
-Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-04,13860000,0,0,13860000,2910600,16770600
-Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-05,12600000,0,0,12600000,2646000,17075520
-Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-06,5040000,0,0,5040000,1058400,10977120
+Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-01,15876000,0,0,15876000,3333960,19209960
+Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-02,18609620,0,0,18609620,3908020,22517640
+Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-03,13116000,0,0,13116000,2754360,15870360
+Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-04,6300000,0,0,6300000,1323000,7623000
+Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-05,12600000,0,0,12600000,2646000,15246000
+Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-06,5040000,0,0,5040000,1058400,6098400
 Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-07,6048000,0,0,6048000,1270080,7318080
-Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-08,1512000,0,0,1512000,317520,4268880
+Deposito Avellaneda Sur,Mediterranean Shipping Company S A,2025-08,1512000,0,0,1512000,317520,1829520
 Deposito Avellaneda Sur,Medlog Argentina S.A.,2025-03,465000,0,0,465000,97650,562650
 Deposito Avellaneda Sur,Medula Edgardo Gabriel,2025-02,1636520,0,0,1636520,343669,1980189
-Deposito Avellaneda Sur,Mercovan Argentina S.A.,2025-01,4105204,0,0,4105204,862093,9105984
+Deposito Avellaneda Sur,Mercovan Argentina S.A.,2025-01,4105204,0,0,4105204,862093,4967296
 Deposito Avellaneda Sur,Mercovan Argentina S.A.,2025-02,14462645,0,0,14462645,3037156,17499802
 Deposito Avellaneda Sur,Mercovan Argentina S.A.,2025-03,31811876,0,0,31811876,6680495,38492374
 Deposito Avellaneda Sur,Mercovan Argentina S.A.,2025-04,20361445,0,0,20361445,4275904,24637348
-Deposito Avellaneda Sur,Mercovan Argentina S.A.,2025-05,35024401,0,0,35024401,7355123,45803472
+Deposito Avellaneda Sur,Mercovan Argentina S.A.,2025-05,35024401,0,0,35024401,7355123,42379526
 Deposito Avellaneda Sur,Mercovan Argentina S.A.,2025-06,11617262,819994,0,12437256,2439625,14876880
 Deposito Avellaneda Sur,Mercovan Argentina S.A.,2025-07,17541758,0,0,17541758,3683769,21225527
 Deposito Avellaneda Sur,Mercovan Argentina S.A.,2025-08,27890697,0,0,27890697,5857047,33747744
-Deposito Avellaneda Sur,Metalsa Argentina S.A.,2025-03,0,0,0,0,0,1203388
+Deposito Avellaneda Sur,Metalsa Argentina S.A.,2025-03,0,0,0,0,0,0
 Deposito Avellaneda Sur,Metalurgica Vazquez S.A.,2025-01,830070,0,0,830070,174315,1004385
-Deposito Avellaneda Sur,Minera Santa Rita Srl,2025-01,28065229,0,0,28065229,5893698,68124795
+Deposito Avellaneda Sur,Minera Santa Rita Srl,2025-01,28065229,0,0,28065229,5893698,33958925
 Deposito Avellaneda Sur,Minera Santa Rita Srl,2025-02,9024412,0,0,9024412,1895126,10919538
 Deposito Avellaneda Sur,Minera Santa Rita Srl,2025-03,2797995,0,0,2797995,587579,3385574
 Deposito Avellaneda Sur,Minera Santa Rita Srl,2025-04,6586976,0,0,6586976,1383265,7970241
 Deposito Avellaneda Sur,Minera Santa Rita Srl,2025-05,4799904,0,0,4799904,1007979,5807883
 Deposito Avellaneda Sur,Minera Santa Rita Srl,2025-06,6861656,0,0,6861656,1440947,8302603
-Deposito Avellaneda Sur,Minera Santa Rita Srl,2025-07,13723312,1160289,0,14883601,2881893,18186678
-Deposito Avellaneda Sur,Minera Santa Rita Srl,2025-08,8577070,0,0,8577070,1801184,11700704
+Deposito Avellaneda Sur,Minera Santa Rita Srl,2025-07,13723312,1160289,0,14883601,2881893,17765494
+Deposito Avellaneda Sur,Minera Santa Rita Srl,2025-08,8577070,0,0,8577070,1801184,10378254
 Deposito Avellaneda Sur,Mma Tex S.A.,2025-03,5175030,0,0,5175030,1086756,6261786
 Deposito Avellaneda Sur,Mma Tex S.A.,2025-04,11504710,0,0,11504710,2415989,13920699
 Deposito Avellaneda Sur,Mma Tex S.A.,2025-05,6508590,0,0,6508590,1366804,7875394
@@ -668,7 +668,7 @@ Deposito Avellaneda Sur,Net Quality Srl,2025-06,1146200,0,0,1146200,240702,13869
 Deposito Avellaneda Sur,Net Quality Srl,2025-08,0,127823,0,127823,0,127823
 Deposito Avellaneda Sur,Neumaticos Bisso S. R. L.,2025-05,1245020,0,0,1245020,261454,1506474
 Deposito Avellaneda Sur,Neumaticos Bisso S. R. L.,2025-06,1585483,0,0,1585483,332951,1918434
-Deposito Avellaneda Sur,Newsan Sociedad Anonima,2025-02,14742705,0,0,14742705,3095968,17838673
+Deposito Avellaneda Sur,Newsan Sociedad Anonima,2025-02,8011605,0,0,8011605,1682436,9694041
 Deposito Avellaneda Sur,Newsan Sociedad Anonima,2025-03,12200054,0,0,12200054,2562011,14762066
 Deposito Avellaneda Sur,Newsan Sociedad Anonima,2025-04,12200054,0,0,12200054,2562011,14762066
 Deposito Avellaneda Sur,Newtral  S.A.,2025-04,1428190,0,0,1428190,299920,1728110
@@ -679,7 +679,7 @@ Deposito Avellaneda Sur,Nikin S.R.L.,2025-01,1582766,0,0,1582766,332381,1915147
 Deposito Avellaneda Sur,Nikin S.R.L.,2025-05,5370946,0,0,5370946,1127899,6498845
 Deposito Avellaneda Sur,Nip Cargo S.R.L.,2025-02,24044200,0,0,24044200,5049282,29093482
 Deposito Avellaneda Sur,Nip Cargo S.R.L.,2025-03,8465320,0,0,8465320,1777716,10243036
-Deposito Avellaneda Sur,Nip Cargo S.R.L.,2025-04,10196980,0,0,10196980,2141365,13318203
+Deposito Avellaneda Sur,Nip Cargo S.R.L.,2025-04,10196980,0,0,10196980,2141365,12338345
 Deposito Avellaneda Sur,Nip Cargo S.R.L.,2025-05,4812360,0,0,4812360,1010596,5822956
 Deposito Avellaneda Sur,Nip Cargo S.R.L.,2025-06,5171400,0,0,5171400,1085994,6257394
 Deposito Avellaneda Sur,Nip Cargo S.R.L.,2025-07,1023400,0,0,1023400,214914,1238314
@@ -699,10 +699,10 @@ Deposito Avellaneda Sur,Overprint S.R.L,2025-01,1117077,0,0,1117077,234586,13516
 Deposito Avellaneda Sur,Overprint S.R.L,2025-04,3542014,0,0,3542014,743823,4285837
 Deposito Avellaneda Sur,Overprint S.R.L,2025-06,3992442,0,0,3992442,838413,4830855
 Deposito Avellaneda Sur,Overprint S.R.L,2025-07,1109926,0,0,1109926,233084,1343010
-Deposito Avellaneda Sur,Overprint S.R.L,2025-08,2514106,0,0,2514106,527962,4457662
-Deposito Avellaneda Sur,Pachamama Products S.R.L.,2025-07,0,0,0,0,0,8374168
+Deposito Avellaneda Sur,Overprint S.R.L,2025-08,2514106,0,0,2514106,527962,3042068
+Deposito Avellaneda Sur,Pachamama Products S.R.L.,2025-07,0,0,0,0,0,0
 Deposito Avellaneda Sur,Pampa Logistica Internacional S.A.,2025-07,6591156,0,0,6591156,1384143,7975299
-Deposito Avellaneda Sur,Pampa Logistica Internacional S.A.,2025-08,4989500,0,0,4989500,1047796,6505082
+Deposito Avellaneda Sur,Pampa Logistica Internacional S.A.,2025-08,4989500,0,0,4989500,1047796,6037296
 Deposito Avellaneda Sur,Pantografos Cam Cnc,2025-08,931520,0,0,931520,195619,1127139
 Deposito Avellaneda Sur,Parnacar S.A.,2025-03,1479767,1598010,0,3077777,310752,3388529
 Deposito Avellaneda Sur,Parnacar S.A.,2025-07,1190415,0,0,1190415,249987,1440402
@@ -718,7 +718,7 @@ Deposito Avellaneda Sur,Planet Seguridad Srl,2025-01,1332200,0,0,1332200,279762,
 Deposito Avellaneda Sur,Planet Seguridad Srl,2025-02,1067320,0,0,1067320,224137,1291457
 Deposito Avellaneda Sur,Planet Seguridad Srl,2025-03,79819,0,0,79819,16762,96581
 Deposito Avellaneda Sur,Plano Y Punto S.A.,2025-03,1403040,0,0,1403040,294638,1697678
-Deposito Avellaneda Sur,Plasticos Dise S. A.,2025-04,0,0,0,0,0,4718866
+Deposito Avellaneda Sur,Plasticos Dise S. A.,2025-04,0,0,0,0,0,0
 Deposito Avellaneda Sur,Poka S A,2025-01,90000,0,0,90000,18900,108900
 Deposito Avellaneda Sur,Poka S A,2025-02,570000,0,0,570000,119700,689700
 Deposito Avellaneda Sur,Poka S A,2025-03,570000,0,0,570000,119700,689700
@@ -731,7 +731,7 @@ Deposito Avellaneda Sur,Presmar Sociedad Anonima,2025-03,3302700,0,0,3302700,693
 Deposito Avellaneda Sur,Presmar Sociedad Anonima,2025-05,2272650,0,0,2272650,477256,2749906
 Deposito Avellaneda Sur,Presmar Sociedad Anonima,2025-07,1261900,0,0,1261900,264999,1526899
 Deposito Avellaneda Sur,Presmar Sociedad Anonima,2025-08,1088700,0,0,1088700,228627,1317327
-Deposito Avellaneda Sur,Printel S A,2025-01,2571335,0,0,2571335,539981,3853069
+Deposito Avellaneda Sur,Printel S A,2025-01,2571335,0,0,2571335,539981,3111315
 Deposito Avellaneda Sur,Protan S A,2025-08,1333095,0,0,1333095,279950,1613045
 Deposito Avellaneda Sur,Prowood S.A.,2025-03,2712176,0,0,2712176,569557,3281734
 Deposito Avellaneda Sur,Puglisi Diego Martin,2025-08,1323000,0,0,1323000,277830,1600830
@@ -746,10 +746,10 @@ Deposito Avellaneda Sur,Raisvic Srl,2025-08,2876500,0,0,2876500,604065,3480565
 Deposito Avellaneda Sur,Rb Global Srl.,2025-06,1028904,0,0,1028904,216070,1244974
 Deposito Avellaneda Sur,Refractarios Argentinos Saicm,2025-01,1799755,0,0,1799755,377949,2177704
 Deposito Avellaneda Sur,Refractarios Argentinos Saicm,2025-02,1715901,0,0,1715901,360339,2076240
-Deposito Avellaneda Sur,Refractarios Argentinos Saicm,2025-03,1572001,0,0,1572001,330119,6054600
+Deposito Avellaneda Sur,Refractarios Argentinos Saicm,2025-03,1572001,0,0,1572001,330119,1902120
 Deposito Avellaneda Sur,Refractarios Argentinos Saicm,2025-04,783288,0,0,783288,164490,947778
 Deposito Avellaneda Sur,Refractarios Argentinos Saicm,2025-06,2054438,0,0,2054438,431432,2485869
-Deposito Avellaneda Sur,Refractarios Argentinos Saicm,2025-07,10479075,0,0,10479075,2200606,13025257
+Deposito Avellaneda Sur,Refractarios Argentinos Saicm,2025-07,10479075,0,0,10479075,2200606,12679681
 Deposito Avellaneda Sur,Refractarios Argentinos Saicm,2025-08,3362210,0,0,3362210,706064,4068274
 Deposito Avellaneda Sur,Robinson Logistics S. A.,2025-01,839140,0,0,839140,176219,1015359
 Deposito Avellaneda Sur,Rodriguez Jonathan Jesus,2025-03,879340,0,0,879340,184661,1064001
@@ -757,13 +757,13 @@ Deposito Avellaneda Sur,Rohlig Argentina S R L,2025-03,1256928,0,0,1256928,26395
 Deposito Avellaneda Sur,Rohlig Argentina S R L,2025-06,2124000,0,0,2124000,446040,2570040
 Deposito Avellaneda Sur,Rohlig Argentina S R L,2025-07,906520,0,0,906520,190369,1096889
 Deposito Avellaneda Sur,Rohlig Argentina S R L,2025-08,923820,0,0,923820,194002,1117822
-Deposito Avellaneda Sur,Rotta Franco,2025-05,5271104,0,0,5271104,1106932,6633158
+Deposito Avellaneda Sur,Rotta Franco,2025-05,5271104,0,0,5271104,1106932,6378036
 Deposito Avellaneda Sur,Rowners S.A.,2025-04,1196290,0,0,1196290,251221,1447511
 Deposito Avellaneda Sur,Rs Stones S.R.L. S. R. L.,2025-03,4493390,0,0,4493390,943612,5437002
 Deposito Avellaneda Sur,Rueda Oeste S A,2025-04,1883850,0,0,1883850,395608,2279458
 Deposito Avellaneda Sur,Rueda Oeste S A,2025-08,1090500,0,0,1090500,229005,1319505
 Deposito Avellaneda Sur,Rush Cargo S. R. L.,2025-06,2190000,0,0,2190000,459900,2649900
-Deposito Avellaneda Sur,Sam Logistic S.R.L.,2025-02,789325,0,0,789325,165758,1085279
+Deposito Avellaneda Sur,Sam Logistic S.R.L.,2025-02,789325,0,0,789325,165758,955083
 Deposito Avellaneda Sur,Santana Textil Chaco Sa,2025-07,1718748,0,0,1718748,360937,2079685
 Deposito Avellaneda Sur,Santana Textil Chaco Sa,2025-08,115111,0,0,115111,24174,139284
 Deposito Avellaneda Sur,Santoro Carlos Horacio,2025-06,2621100,0,0,2621100,550431,3171531
@@ -790,7 +790,7 @@ Deposito Avellaneda Sur,Shipy S.A.,2025-04,60000,0,0,60000,12600,72600
 Deposito Avellaneda Sur,Shipy S.A.,2025-05,120000,0,0,120000,25200,145200
 Deposito Avellaneda Sur,Shipy S.A.,2025-06,120000,0,0,120000,25200,145200
 Deposito Avellaneda Sur,Shipy S.A.,2025-07,180000,0,0,180000,37800,217800
-Deposito Avellaneda Sur,Sky Cargo S.R.L.,2025-06,6474450,0,0,6474450,1359634,8543292
+Deposito Avellaneda Sur,Sky Cargo S.R.L.,2025-06,6474450,0,0,6474450,1359634,7834084
 Deposito Avellaneda Sur,Smart Logistics S.A.,2025-08,2981446,0,0,2981446,626104,3607550
 Deposito Avellaneda Sur,Smart Trading S.A.S,2025-06,1464000,0,0,1464000,307440,1771440
 Deposito Avellaneda Sur,Smart Trading S.A.S,2025-07,7664190,0,0,7664190,1609480,9273670
@@ -801,38 +801,38 @@ Deposito Avellaneda Sur,Southcross Logistics  S.A,2025-07,1585616,0,0,1585616,33
 Deposito Avellaneda Sur,Southcross Logistics  S.A,2025-08,3443458,0,0,3443458,723126,4166584
 Deposito Avellaneda Sur,Splash Kids Srl,2025-07,2324160,0,0,2324160,488074,2812234
 Deposito Avellaneda Sur,Styropek S.A.,2025-03,51500,366092,0,417592,10815,428407
-Deposito Avellaneda Sur,Styropek S.A.,2025-04,1097855,0,0,1097855,230550,5934839
+Deposito Avellaneda Sur,Styropek S.A.,2025-04,1097855,0,0,1097855,230550,1328405
 Deposito Avellaneda Sur,Sunstar Americas Inc. Suc. Arg.,2025-03,510000,0,0,510000,107100,617100
 Deposito Avellaneda Sur,Suri Motor Sport S.R.L.,2025-08,747964,0,0,747964,157072,905036
 Deposito Avellaneda Sur,Syra Sa,2025-04,1162800,0,0,1162800,244188,1406988
 Deposito Avellaneda Sur,Syra Sa,2025-05,1189000,0,0,1189000,249690,1438690
-Deposito Avellaneda Sur,Taeda S A,2025-08,0,0,0,0,0,3204564
+Deposito Avellaneda Sur,Taeda S A,2025-08,0,0,0,0,0,0
 Deposito Avellaneda Sur,Talamo Leonardo,2025-08,4419825,0,0,4419825,928163,5347988
 Deposito Avellaneda Sur,Tandem Global Logistics S.A.,2025-02,1593690,0,0,1593690,334675,1928365
-Deposito Avellaneda Sur,Tandem Global Logistics S.A.,2025-03,0,0,0,0,0,1234200
+Deposito Avellaneda Sur,Tandem Global Logistics S.A.,2025-03,0,0,0,0,0,0
 Deposito Avellaneda Sur,Tandem Global Logistics S.A.,2025-04,3887710,0,0,3887710,816420,4704130
 Deposito Avellaneda Sur,Tandem Global Logistics S.A.,2025-05,2944103,0,0,2944103,618260,3562363
 Deposito Avellaneda Sur,Tandem Global Logistics S.A.,2025-06,312640,0,0,312640,65654,378295
 Deposito Avellaneda Sur,Tandem Global Logistics S.A.,2025-08,10742695,0,0,10742695,2255966,12998661
 Deposito Avellaneda Sur,Targuetmusic  S.A.,2025-02,1237400,0,0,1237400,259854,1497254
-Deposito Avellaneda Sur,Tavasci Mena Mariana Andrea,2025-01,4873746,1148750,0,6022496,1023490,8707593
+Deposito Avellaneda Sur,Tavasci Mena Mariana Andrea,2025-01,4873746,1148750,0,6022496,1023490,7045985
 Deposito Avellaneda Sur,Tavasci Mena Mariana Andrea,2025-02,4105977,0,0,4105977,862255,4968232
 Deposito Avellaneda Sur,Tavasci Mena Mariana Andrea,2025-03,3016589,0,0,3016589,633484,3650074
-Deposito Avellaneda Sur,Tavasci Mena Mariana Andrea,2025-04,3447745,0,0,3447745,724028,4403759
+Deposito Avellaneda Sur,Tavasci Mena Mariana Andrea,2025-04,3447745,0,0,3447745,724028,4171773
 Deposito Avellaneda Sur,Tavasci Mena Mariana Andrea,2025-05,8252443,0,0,8252443,1733016,9985459
 Deposito Avellaneda Sur,Tavasci Mena Mariana Andrea,2025-06,7645622,0,0,7645622,1605583,9251205
 Deposito Avellaneda Sur,Tavasci Mena Mariana Andrea,2025-07,7600189,0,0,7600189,1596040,9196229
-Deposito Avellaneda Sur,Tavasci Mena Mariana Andrea,2025-08,8659508,0,0,8659508,1818500,11098546
+Deposito Avellaneda Sur,Tavasci Mena Mariana Andrea,2025-08,8659508,0,0,8659508,1818500,10478008
 Deposito Avellaneda Sur,Tecma S.A.,2025-02,4026690,0,0,4026690,845604,4872294
 Deposito Avellaneda Sur,Telamania S.R.L.,2025-01,5823599,3176664,0,9000263,1222955,10223219
-Deposito Avellaneda Sur,Telamania S.R.L.,2025-02,7343708,0,0,7343708,1542179,9327763
+Deposito Avellaneda Sur,Telamania S.R.L.,2025-02,7343708,0,0,7343708,1542179,8885887
 Deposito Avellaneda Sur,Telamania S.R.L.,2025-03,16973289,0,0,16973289,3564391,20537679
 Deposito Avellaneda Sur,Telamania S.R.L.,2025-04,67242533,0,0,67242533,14120931,81363467
 Deposito Avellaneda Sur,Telamania S.R.L.,2025-05,19414201,0,0,19414201,4076983,23491184
 Deposito Avellaneda Sur,Telamania S.R.L.,2025-06,2697851,0,0,2697851,566549,3264400
 Deposito Avellaneda Sur,Telamania S.R.L.,2025-07,19892984,0,0,19892984,4177526,24070510
 Deposito Avellaneda Sur,Telamania S.R.L.,2025-08,32563836,0,0,32563836,6838408,39402243
-Deposito Avellaneda Sur,Telefonica Moviles Argentina Sociedad Anonima,2025-08,-8041000,0,0,-8041000,-1688610,9729610
+Deposito Avellaneda Sur,Telefonica Moviles Argentina Sociedad Anonima,2025-08,-8041000,0,0,-8041000,-1688610,-9729610
 Deposito Avellaneda Sur,Termoplasticos Del Sur S.A.,2025-07,2492770,0,0,2492770,523482,3016252
 Deposito Avellaneda Sur,Teva Logistics Group S.R.L.,2025-01,1220632,0,0,1220632,256333,1476964
 Deposito Avellaneda Sur,Tex Fabric S.A.,2025-01,2617240,0,0,2617240,549620,3166860
@@ -840,7 +840,7 @@ Deposito Avellaneda Sur,Tex Fabric S.A.,2025-06,1048500,0,0,1048500,220185,12686
 Deposito Avellaneda Sur,Textil Praga Srl,2025-02,1607910,0,0,1607910,337661,1945571
 Deposito Avellaneda Sur,Textil Praga Srl,2025-03,3733120,0,0,3733120,783955,4517075
 Deposito Avellaneda Sur,Textil Praga Srl,2025-05,5608490,0,0,5608490,1177782,6786272
-Deposito Avellaneda Sur,Textil Praga Srl,2025-06,18962420,0,0,18962420,3982108,29702862
+Deposito Avellaneda Sur,Textil Praga Srl,2025-06,18962420,0,0,18962420,3982108,22944528
 Deposito Avellaneda Sur,Tio Musa Sociedad Anonima,2025-03,2189955,0,0,2189955,459891,2649846
 Deposito Avellaneda Sur,Tio Musa Sociedad Anonima,2025-04,2258485,0,0,2258485,474282,2732767
 Deposito Avellaneda Sur,Tipoiti S A T I C,2025-01,4316790,0,0,4316790,906526,5223316
@@ -854,30 +854,30 @@ Deposito Avellaneda Sur,Tmcp S.A.S.,2025-02,2212262,0,0,2212262,464575,2676837
 Deposito Avellaneda Sur,Tmcp S.A.S.,2025-03,2084035,0,0,2084035,437647,2521682
 Deposito Avellaneda Sur,Tmcp S.A.S.,2025-07,8593302,0,0,8593302,1804595,10397897
 Deposito Avellaneda Sur,Toy Store S.A.,2025-01,1181496,0,0,1181496,248114,1429610
-Deposito Avellaneda Sur,Toy Store S.A.,2025-02,-1181496,0,0,-1181496,-248114,1429610
+Deposito Avellaneda Sur,Toy Store S.A.,2025-02,-1181496,0,0,-1181496,-248114,-1429610
 Deposito Avellaneda Sur,Trading Sud S.R.L.,2025-01,1171440,0,0,1171440,246002,1417442
 Deposito Avellaneda Sur,Transcar Srl,2025-03,1177430,906334,0,2083764,247260,2331024
 Deposito Avellaneda Sur,Trefelt Argentina S. A.,2025-06,4348460,0,0,4348460,913177,5261637
-Deposito Avellaneda Sur,Trice Transport Company S.R.L.,2025-01,0,0,0,0,0,10455042
+Deposito Avellaneda Sur,Trice Transport Company S.R.L.,2025-01,0,0,0,0,0,0
 Deposito Avellaneda Sur,Trice Transport Company S.R.L.,2025-08,3474937,0,0,3474937,729737,4204674
 Deposito Avellaneda Sur,Uld Global Trade Srl,2025-08,7766300,0,0,7766300,1630923,9397223
 Deposito Avellaneda Sur,Unimers Argentina Sa,2025-01,825000,0,0,825000,173250,998250
 Deposito Avellaneda Sur,Unimers Argentina Sa,2025-02,825000,0,0,825000,173250,998250
 Deposito Avellaneda Sur,Unimers Argentina Sa,2025-03,2778850,0,0,2778850,583558,3362408
-Deposito Avellaneda Sur,Unimers Argentina Sa,2025-04,987000,0,0,987000,207270,3660250
+Deposito Avellaneda Sur,Unimers Argentina Sa,2025-04,987000,0,0,987000,207270,1194270
 Deposito Avellaneda Sur,Unimers Argentina Sa,2025-05,1100000,0,0,1100000,231000,1331000
 Deposito Avellaneda Sur,Unimers Argentina Sa,2025-06,825000,0,0,825000,173250,998250
 Deposito Avellaneda Sur,Universal Cargo Srl,2025-02,2012762,0,0,2012762,422680,2435442
 Deposito Avellaneda Sur,Universal Cargo Srl,2025-03,144000,0,0,144000,30240,174240
-Deposito Avellaneda Sur,Varteco Quimica Puntana S A,2025-01,1360592,0,0,1360592,285724,3292628
+Deposito Avellaneda Sur,Varteco Quimica Puntana S A,2025-01,1360592,0,0,1360592,285724,1646318
 Deposito Avellaneda Sur,Vazquez Sergio Gabriel,2025-05,990798,1056505,0,2047303,208068,2255371
 Deposito Avellaneda Sur,Vazquez Sergio Gabriel,2025-06,4507200,0,0,4507200,946512,5453712
 Deposito Avellaneda Sur,Vc Textil S.R.L.,2025-05,2002325,3953631,0,5955956,420489,6376444
-Deposito Avellaneda Sur,Verde Fuerte Srl,2025-05,1536255,0,0,1536255,322614,5221613
+Deposito Avellaneda Sur,Verde Fuerte Srl,2025-05,1536255,0,0,1536255,322614,1858869
 Deposito Avellaneda Sur,Verde Fuerte Srl,2025-07,5380304,0,0,5380304,1129864,6510168
 Deposito Avellaneda Sur,Verde Fuerte Srl,2025-08,6217166,0,0,6217166,1305605,7522771
-Deposito Avellaneda Sur,Verzino Diego Nicolas,2025-07,-606472,0,0,-606472,-127359,733831
-Deposito Avellaneda Sur,Warplast Srl,2025-05,451310,0,0,451310,94775,2078263
+Deposito Avellaneda Sur,Verzino Diego Nicolas,2025-07,-606472,0,0,-606472,-127359,-733831
+Deposito Avellaneda Sur,Warplast Srl,2025-05,451310,0,0,451310,94775,546085
 Deposito Avellaneda Sur,Warplast Srl,2025-06,451310,0,0,451310,94775,546085
 Deposito Avellaneda Sur,World Sport S.R.L.,2025-07,2912850,0,0,2912850,611698,3524548
 Deposito Avellaneda Sur,Xcmg Group Latam S.A.,2025-04,3400000,0,0,3400000,714000,4114000
@@ -885,13 +885,13 @@ Deposito Avellaneda Sur,Xiadex Srl,2025-06,1919625,0,0,1919625,403121,2322746
 Deposito Avellaneda Sur,Xiadex Srl,2025-07,3407992,0,0,3407992,715678,4123670
 Deposito Avellaneda Sur,Yamaha Motor Argentina Sa,2025-02,100000,0,0,100000,21000,121000
 Deposito Avellaneda Sur,Yamaha Motor Argentina Sa,2025-07,10001521,0,0,10001521,2100319,12101840
-Deposito Avellaneda Sur,Yamaha Motor Argentina Sa,2025-08,-1915870,0,0,-1915870,-402333,2318203
+Deposito Avellaneda Sur,Yamaha Motor Argentina Sa,2025-08,-1915870,0,0,-1915870,-402333,-2318203
 Edelweiss Spedition,-,2025-02,643200,0,4266385,4909585,135072,5044657
-Edelweiss Spedition,Agencia France Presse,2025-02,0,0,665500,665500,0,1996500
+Edelweiss Spedition,Agencia France Presse,2025-02,0,0,665500,665500,0,665500
 Edelweiss Spedition,Alberdi Ignacio Maria,2025-04,0,0,4489222,4489222,0,4489222
 Edelweiss Spedition,Assi Yamil,2025-05,0,0,2906357,2906357,0,2906357
 Edelweiss Spedition,Baetti Maria Silvia,2025-02,270000,1320000,3558600,5148600,56160,5204760
-Edelweiss Spedition,Baetti Maria Silvia,2025-04,0,0,0,0,0,4250790
+Edelweiss Spedition,Baetti Maria Silvia,2025-04,0,0,0,0,0,0
 Edelweiss Spedition,Barcelo Arezo Ricardo Alberto,2025-04,4068,0,0,4068,854,4922
 Edelweiss Spedition,Bauer Heidy Noemi,2025-02,1456650,0,2110468,3567118,306436,3873554
 Edelweiss Spedition,Bauer Heidy Noemi,2025-03,1920320,0,0,1920320,403648,2323968
@@ -911,11 +911,11 @@ Edelweiss Spedition,Degasa S.A.,2025-04,164250,0,0,164250,35040,199290
 Edelweiss Spedition,Dunham Richard Allyn,2025-01,550000,0,0,550000,115500,665500
 Edelweiss Spedition,Dunham Richard Allyn,2025-03,550000,0,0,550000,115500,665500
 Edelweiss Spedition,Dunham Richard Allyn,2025-07,550000,0,0,550000,115500,665500
-Edelweiss Spedition,Edelweiss Spedition Srl,2025-06,0,33267300,0,33267300,0,33267300
+Edelweiss Spedition,Edelweiss Spedition Srl,2025-06,0,0,0,0,0,0
 Edelweiss Spedition,Embajada De Filipinas,2025-06,7132604,0,3380100,10512704,1497918,12009436
 Edelweiss Spedition,Evergreen Shipping Agency Argentina S.A.,2025-08,550000,0,0,550000,115500,665500
 Edelweiss Spedition,Gandolfo Juan Martin,2025-05,0,0,4330352,4330352,0,4330352
-Edelweiss Spedition,Genskowsky Vargas Camila Alejandra,2025-01,5360000,1983200,9444320,16787520,1125600,17946540
+Edelweiss Spedition,Genskowsky Vargas Camila Alejandra,2025-01,5360000,1983200,9444320,16787520,1125600,17913120
 Edelweiss Spedition,Genskowsky Vargas Camila Alejandra,2025-05,0,0,5046740,5046740,0,5046740
 Edelweiss Spedition,Kunze S.R.L.,2025-01,229168,0,0,229168,48125,277293
 Edelweiss Spedition,Kunze S.R.L.,2025-02,229168,0,0,229168,48125,277293
@@ -927,27 +927,27 @@ Edelweiss Spedition,Kunze S.R.L.,2025-07,229168,0,0,229168,48125,277293
 Edelweiss Spedition,Kunze S.R.L.,2025-08,229168,0,0,229168,48125,277293
 Edelweiss Spedition,Lamberti Susana Noemi,2025-01,0,0,479700,479700,0,479700
 Edelweiss Spedition,Mazzoni Maria Florencia,2025-03,1530350,0,0,1530350,321374,1851724
-Edelweiss Spedition,Mazzoni Maria Florencia,2025-04,-182060,0,4722920,4540860,-38616,4943596
-Edelweiss Spedition,Merz Therapeutics Gmbh,2025-06,0,10144200,0,10144200,0,10144200
+Edelweiss Spedition,Mazzoni Maria Florencia,2025-04,-182060,0,4722920,4540860,-38616,4502244
+Edelweiss Spedition,Merz Therapeutics Gmbh,2025-06,0,10088100,0,10088100,0,10088100
 Edelweiss Spedition,Mickiewicz Paula Adriana,2025-02,644400,0,3511531,4155931,135324,4291255
 Edelweiss Spedition,Munoz Wright Maria Jimena,2025-02,1825800,0,0,1825800,383418,2209218
-Edelweiss Spedition,Munoz Wright Maria Jimena,2025-03,217450,0,5967911,6185361,45664,6757133
+Edelweiss Spedition,Munoz Wright Maria Jimena,2025-03,217450,0,5967911,6185361,45664,6231025
 Edelweiss Spedition,Nuevas Fronteras Sa,2025-08,550000,0,0,550000,115500,665500
 Edelweiss Spedition,Organizacion Internacional Para Las Migraciones,2025-03,2691712,0,3503360,6195072,564672,6759744
 Edelweiss Spedition,Palermo Gabriela Nora,2025-02,592900,0,0,592900,125048,717948
 Edelweiss Spedition,Pedemonte Fernando Horacio,2025-02,0,0,1433840,1433840,0,1433840
 Edelweiss Spedition,Quiroga Broggi Miguel Roberto,2025-03,0,0,2625105,2625105,0,2625105
 Edelweiss Spedition,Ritchie Mariela Francisca,2025-04,0,0,5228733,5228733,0,5228733
-Edelweiss Spedition,Robert Pascale Anne Coralie,2025-02,432000,153360,1400168,1985528,90720,2382968
+Edelweiss Spedition,Robert Pascale Anne Coralie,2025-02,432000,153360,1400168,1985528,90720,2076248
 Edelweiss Spedition,Scania Argentina S. A. U.,2025-08,550000,0,0,550000,115500,665500
-Edelweiss Spedition,Siegfried S.A,2025-02,10471692,0,13535368,24007060,2199120,26206180
+Edelweiss Spedition,Siegfried S.A,2025-02,0,0,0,0,0,0
 Edelweiss Spedition,Siemens Energy S.A.,2025-08,5160060,328750,5728140,11216950,1083560,12300510
-Edelweiss Spedition,Techint Compañia Tecnica Internacional Sociedad Anonima Comercial E Industrial,2025-07,31067335,0,36816000,67883335,6523335,74406670
+Edelweiss Spedition,Techint Compañia Tecnica Internacional Sociedad Anonima Comercial E Industrial,2025-07,10328775,0,12240000,22568775,2168775,24737550
 Edelweiss Spedition,Tecpetrol S A,2025-03,36724800,0,0,36724800,7712208,44437008
-Edelweiss Spedition,Tecpetrol S A,2025-04,72878400,0,0,72878400,15304464,88182864
+Edelweiss Spedition,Tecpetrol S A,2025-04,-571200,0,0,-571200,-119952,-691152
 Edelweiss Spedition,Tecpetrol S A,2025-05,12757280,3163139,9065898,24986317,2678688,27665005
 Edelweiss Spedition,Tecpetrol S A,2025-06,0,0,5594036,5594036,0,5594036
-Edelweiss Spedition,Tecpetrol S A,2025-08,21643200,0,41643120,63286320,4545072,67831392
+Edelweiss Spedition,Tecpetrol S A,2025-08,7322400,0,14088840,21411240,1537704,22948944
 Edelweiss Spedition,Telesca Ezequiel,2025-05,284000,0,3106327,3390327,59072,3449399
 Edelweiss Spedition,Trox Mexico S.A. De C.V.,2025-06,0,19415682,0,19415682,0,19415682
 Edelweiss Spedition,Villota Graciela Noemi,2025-03,1805076,0,32839716,34644792,378924,35023716
@@ -972,7 +972,7 @@ El Marques,Framat Rental S.A.,2025-03,10157600,0,0,10157600,2133096,12290696
 El Marques,Framat Rental S.A.,2025-04,10663288,0,0,10663288,2239290,12902578
 El Marques,Framat Rental S.A.,2025-06,19161610,0,0,19161610,4023938,23185548
 El Marques,Framat Rental S.A.,2025-07,10691070,0,0,10691070,2245125,12936195
-El Marques,Liftvan International Company S A C,2025-01,-3003730,0,0,-3003730,-630783,16369763
+El Marques,Liftvan International Company S A C,2025-01,-3003730,0,0,-3003730,-630783,-3634513
 El Marques,Liftvan International Company S A C,2025-02,5370000,0,0,5370000,1127700,6497700
 El Marques,Liftvan International Company S A C,2025-03,5422500,0,0,5422500,1138725,6561225
 El Marques,Liftvan International Company S A C,2025-04,5471250,0,0,5471250,1148962,6620212
@@ -1028,7 +1028,7 @@ Hermosalta SRL,Miranda Cynthia Soledad,2025-01,0,0,18000,18000,0,18000
 Hermosalta SRL,Miranda Sosa Bautista Joaquin,2025-03,0,0,221000,221000,0,221000
 Hermosalta SRL,Miranda Sosa Bautista Joaquin,2025-04,0,0,682000,682000,0,682000
 Hermosalta SRL,Moya Gladys Noemi,2025-07,0,0,150000,150000,0,150000
-Hermosalta SRL,Obra Social De Petroleros O S Pe,2025-03,0,0,0,0,0,452952
+Hermosalta SRL,Obra Social De Petroleros O S Pe,2025-03,0,0,0,0,0,0
 Hermosalta SRL,Orellana Daiana Maria Celeste,2025-03,0,0,294000,294000,0,294000
 Hermosalta SRL,Orellana Daiana Maria Celeste,2025-04,0,0,294000,294000,0,294000
 Hermosalta SRL,Paludi Armando Pascual,2025-07,0,0,216000,216000,0,216000
@@ -1042,7 +1042,7 @@ Hermosalta SRL,Sanatorio San Roque S.A.,2025-03,0,0,334770,334770,0,334770
 Hermosalta SRL,Sanatorio San Roque S.A.,2025-04,0,0,1236489,1236489,0,1236489
 Hermosalta SRL,Sanatorio San Roque S.A.,2025-07,0,0,993098,993098,0,993098
 Hermosalta SRL,Sanchez Paulino Ramon,2025-06,0,0,36000,36000,0,36000
-Hermosalta SRL,Sanz Cespedes Dolores Raquel,2025-03,0,0,939000,939000,0,1453000
+Hermosalta SRL,Sanz Cespedes Dolores Raquel,2025-03,0,0,939000,939000,0,939000
 Hermosalta SRL,Saravia Veronica Andrea,2025-07,0,0,150000,150000,0,150000
 Hermosalta SRL,Swiss Medical S A,2025-01,6725704,0,12490593,19216297,706199,19922497
 Hermosalta SRL,Tarifa Sofia Del Milagro,2025-08,0,0,150000,150000,0,150000
@@ -1059,38 +1059,38 @@ Hermosalta SRL,Utradial Srl,2025-08,0,0,358177,358177,0,358177
 Hermosalta SRL,Valdez Ramon,2025-02,0,0,36000,36000,0,36000
 Hermosalta SRL,Valdez Ramon,2025-03,0,0,468000,468000,0,468000
 Hermosalta SRL,Zelaya Gil Sofia,2025-06,0,0,150000,150000,0,150000
-L A R M Argentina,Abrego Oscar Mario,2025-02,1056569,0,0,1056569,221879,7286448
-L A R M Argentina,Accenture Service Center S.R.L.,2025-07,0,0,0,0,0,1599756
+L A R M Argentina,Abrego Oscar Mario,2025-02,1056569,0,0,1056569,221879,1278448
+L A R M Argentina,Accenture Service Center S.R.L.,2025-07,0,0,0,0,0,0
 L A R M Argentina,Accenture Sociedad De Responsabilidad Limitada,2025-05,280000,0,0,280000,58800,338800
 L A R M Argentina,Barrea Ciro Octavio,2025-08,2677686,0,0,2677686,562314,3240000
 L A R M Argentina,Baterias Moura De Argentina S. A.,2025-04,2564891,285000,0,2849891,538627,3388518
 L A R M Argentina,Briceno Gil Lenin Alexander,2025-04,436054,66280,0,502334,91571,593905
 L A R M Argentina,Castro Y Regini Sa,2025-07,198750,0,0,198750,41738,240488
-L A R M Argentina,Chevron Argentina Sociedad De Responsabilidad Limitada,2025-01,7487299,0,0,7487299,1572333,27178893
-L A R M Argentina,Chevron Argentina Sociedad De Responsabilidad Limitada,2025-02,7485060,0,0,7485060,1571863,27170769
+L A R M Argentina,Chevron Argentina Sociedad De Responsabilidad Limitada,2025-01,7487299,0,0,7487299,1572333,9059631
+L A R M Argentina,Chevron Argentina Sociedad De Responsabilidad Limitada,2025-02,7485060,0,0,7485060,1571863,9056923
 L A R M Argentina,Chevron Argentina Sociedad De Responsabilidad Limitada,2025-03,7485060,0,0,7485060,1571863,9056923
 L A R M Argentina,Chevron Argentina Sociedad De Responsabilidad Limitada,2025-04,5824940,0,0,5824940,1223237,7048177
 L A R M Argentina,Chevron Argentina Sociedad De Responsabilidad Limitada,2025-05,4798860,0,0,4798860,1007761,5806621
-L A R M Argentina,Chevron Argentina Sociedad De Responsabilidad Limitada,2025-07,11021114,0,0,11021114,2314434,13434228
-L A R M Argentina,Chevron Argentina Sociedad De Responsabilidad Limitada,2025-08,5090853,0,0,5090853,1069079,9420925
+L A R M Argentina,Chevron Argentina Sociedad De Responsabilidad Limitada,2025-07,11021114,0,0,11021114,2314434,13335548
+L A R M Argentina,Chevron Argentina Sociedad De Responsabilidad Limitada,2025-08,5090853,0,0,5090853,1069079,6159933
 L A R M Argentina,Estudio Bosch Abogados S.R.L.,2025-01,40000000,0,0,40000000,8400000,48400000
 L A R M Argentina,Evonik Argentina S.A,2025-03,3537600,0,0,3537600,742896,4280496
-L A R M Argentina,Evonik Argentina S.A,2025-04,19800,0,0,19800,4158,8584950
+L A R M Argentina,Evonik Argentina S.A,2025-04,19800,0,0,19800,4158,23958
 L A R M Argentina,Exxonmobil Business Support Center Argentina Srl,2025-04,192350,0,0,192350,40394,232744
 L A R M Argentina,Exxonmobil Business Support Center Argentina Srl,2025-06,233317,7992,0,241309,48997,290306
 L A R M Argentina,Exxonmobil Business Support Center Argentina Srl,2025-08,192350,0,0,192350,40394,232744
-L A R M Argentina,Fast Food Sudamericana S A,2025-04,-523784,0,0,-523784,-109994,633778
-L A R M Argentina,Flotas Comerciales S R L,2025-01,164458,0,0,164458,34536,429409
+L A R M Argentina,Fast Food Sudamericana S A,2025-04,-523784,0,0,-523784,-109994,-633778
+L A R M Argentina,Flotas Comerciales S R L,2025-01,164458,0,0,164458,34536,198995
 L A R M Argentina,Grupo Tergo Laf  Srl,2025-01,1266892,475653,0,1742545,266047,2008593
 L A R M Argentina,Harari Khafif Roberto Menahem,2025-05,793249,456000,0,1249249,166582,1415831
-L A R M Argentina,Harari Khafif Roberto Menahem,2025-07,-793249,-456000,0,-1249249,-166582,1415831
+L A R M Argentina,Harari Khafif Roberto Menahem,2025-07,-793249,-456000,0,-1249249,-166582,-1415831
 L A R M Argentina,Ldc Argentina S.A.,2025-03,2058985,5449171,0,7508156,432387,7940544
 L A R M Argentina,Ldc Argentina S.A.,2025-06,281390,0,0,281390,59092,340482
 L A R M Argentina,Ldc Argentina S.A.,2025-08,1719900,17550000,0,19269900,361179,19631079
-L A R M Argentina,Leonel Blanco De La Cruz,2025-05,0,0,0,0,0,3623072
+L A R M Argentina,Leonel Blanco De La Cruz,2025-05,0,0,0,0,0,0
 L A R M Argentina,Liftvan International Company S A C,2025-01,11500,115000,0,126500,2415,128915
-L A R M Argentina,Liftvan International Company S A C,2025-02,1695647,189829,0,1885476,355408,2618404
-L A R M Argentina,Liftvan International Company S A C,2025-04,-783944,698321,0,-85623,-164283,12346978
+L A R M Argentina,Liftvan International Company S A C,2025-02,1695647,189829,0,1885476,355408,2240884
+L A R M Argentina,Liftvan International Company S A C,2025-04,-783944,698321,0,-85623,-164283,-249906
 L A R M Argentina,Liftvan International Company S A C,2025-06,12893840,0,0,12893840,2707232,15601072
 L A R M Argentina,Liftvan International Company S A C,2025-07,1420100,0,0,1420100,299512,1719612
 L A R M Argentina,Liftvan International Company S A C,2025-08,185658,1856579,0,2042237,38988,2081225
@@ -1098,26 +1098,26 @@ L A R M Argentina,M.S. Technologies Argentina S.R.L.,2025-01,1448240,0,0,1448240
 L A R M Argentina,M.S. Technologies Argentina S.R.L.,2025-02,1477824,0,0,1477824,310343,1788167
 L A R M Argentina,Maria Victoria Di Sebastiano Delgado,2025-04,255734,297739,0,553473,53704,607177
 L A R M Argentina,Massalin Particulares S. R. L.,2025-01,27887,0,0,27887,5856,33743
-L A R M Argentina,Massalin Particulares S. R. L.,2025-03,441000,4900000,0,5341000,92610,5433610
+L A R M Argentina,Massalin Particulares S. R. L.,2025-03,0,0,0,0,0,0
 L A R M Argentina,Massalin Particulares S. R. L.,2025-05,51462,0,0,51462,10807,62269
 L A R M Argentina,Massalin Particulares S. R. L.,2025-06,1981670,870000,0,2851670,416151,3267821
 L A R M Argentina,Massalin Particulares S. R. L.,2025-08,2069037,838500,0,2907537,434498,3342035
 L A R M Argentina,Mercovan Argentina S.A.,2025-06,7240000,0,0,7240000,1520400,8760400
 L A R M Argentina,Mirande Juan Martin,2025-01,3960406,1398080,0,5358486,831685,6190172
 L A R M Argentina,Mirande Juan Martin,2025-05,1672870,530300,0,2203170,351303,2554472
-L A R M Argentina,"Pan American Energy, S.L., Sucursal Argentina",2025-04,5407637,0,0,5407637,1135605,6543242
+L A R M Argentina,"Pan American Energy, S.L., Sucursal Argentina",2025-04,-2979479,0,0,-2979479,-625691,-3605170
 L A R M Argentina,"Pan American Energy, S.L., Sucursal Argentina",2025-06,730448,329000,0,1059448,153394,1212842
-L A R M Argentina,"Pan American Energy, S.L., Sucursal Argentina",2025-07,23332170,13854900,0,37187070,4899756,42086826
-L A R M Argentina,Sanchez Garcia Miguel Santiago,2025-02,4288900,0,0,4288900,900669,15568707
+L A R M Argentina,"Pan American Energy, S.L., Sucursal Argentina",2025-07,7777390,4618300,0,12395690,1633252,14028942
+L A R M Argentina,Sanchez Garcia Miguel Santiago,2025-02,4288900,0,0,4288900,900669,5189569
 L A R M Argentina,Sandro Vinces Reyna,2025-08,131860,8500,0,140360,27691,168051
-L A R M Argentina,Schlumberger Argentina S. A.,2025-01,7484607,5485679,0,12970286,1571766,16627424
-L A R M Argentina,Schlumberger Argentina S. A.,2025-02,7652178,17317008,0,24969186,1606950,27271677
-L A R M Argentina,Schlumberger Argentina S. A.,2025-03,12768746,21694795,0,34463541,2681429,43709911
-L A R M Argentina,Schlumberger Argentina S. A.,2025-04,6820301,8160492,0,14980793,1432261,21356183
-L A R M Argentina,Schlumberger Argentina S. A.,2025-05,10021978,22059291,0,32081269,2104615,38673768
-L A R M Argentina,Schlumberger Argentina S. A.,2025-06,10074453,29988296,0,40062749,2115634,48728157
-L A R M Argentina,Schlumberger Argentina S. A.,2025-07,6961264,43312481,0,50273745,1461865,52811746
-L A R M Argentina,Schlumberger Argentina S. A.,2025-08,10114621,6475612,0,16590233,2124069,19083781
+L A R M Argentina,Schlumberger Argentina S. A.,2025-01,7484607,5485679,0,12970286,1571766,14542052
+L A R M Argentina,Schlumberger Argentina S. A.,2025-02,7652178,10700796,0,18352974,1606950,19959929
+L A R M Argentina,Schlumberger Argentina S. A.,2025-03,12768746,21694795,0,34463541,2681429,37144977
+L A R M Argentina,Schlumberger Argentina S. A.,2025-04,6820301,8160492,0,14980793,1432261,16413047
+L A R M Argentina,Schlumberger Argentina S. A.,2025-05,10021978,12065039,0,22087017,2104615,24191632
+L A R M Argentina,Schlumberger Argentina S. A.,2025-06,10074453,13765790,0,23840243,2115634,25955875
+L A R M Argentina,Schlumberger Argentina S. A.,2025-07,6961264,43312481,0,50273745,1461865,51735610
+L A R M Argentina,Schlumberger Argentina S. A.,2025-08,10114621,6475612,0,16590233,2124069,18714303
 L A R M Argentina,Southbay S. R. L.,2025-04,1005263,106000,0,1111263,211105,1322368
 L A R M Argentina,Southbay S. R. L.,2025-07,793249,456000,0,1249249,166582,1415831
 L A R M Argentina,Stine Seed Argentina S.R.L.,2025-03,1585539,0,0,1585539,332963,1918502
@@ -1129,17 +1129,17 @@ L A R M Argentina,Stine Seed Argentina S.R.L.,2025-08,2017560,0,0,2017560,423688
 L A R M Argentina,Syngenta Agro Sociedad Anonima,2025-03,728960,7952096,0,8681056,153296,8833280
 L A R M Argentina,Syngenta Agro Sociedad Anonima,2025-04,733040,11267256,0,12000296,154154,12154450
 L A R M Argentina,Syngenta Agro Sociedad Anonima,2025-05,175500,8985600,0,9161100,37440,9198540
-L A R M Argentina,Syngenta Agro Sociedad Anonima,2025-06,5102172,4063236,0,9165408,1072144,15387436
+L A R M Argentina,Syngenta Agro Sociedad Anonima,2025-06,0,0,0,0,0,0
 L A R M Argentina,Syngenta Agro Sociedad Anonima,2025-07,3900160,9824000,0,13724160,819200,14543360
 L A R M Argentina,Team Uno Srl,2025-08,413089,0,0,413089,86749,499837
 L A R M Argentina,Tecpetrol S A,2025-03,3999525,0,0,3999525,839900,4839425
-L A R M Argentina,Tecpetrol S A,2025-04,50000,500000,0,550000,10500,1681500
+L A R M Argentina,Tecpetrol S A,2025-04,50000,500000,0,550000,10500,560500
 L A R M Argentina,Tecpetrol S A,2025-05,410000,4100000,0,4510000,86100,4596100
 L A R M Argentina,Tecpetrol S A,2025-07,5409777,0,0,5409777,1136053,6545830
-L A R M Argentina,Tecpetrol S A,2025-08,8320072,0,0,8320072,1747211,11697779
+L A R M Argentina,Tecpetrol S A,2025-08,8320072,0,0,8320072,1747211,10067283
 L A R M Argentina,Wintershall Dea Argentina S.A,2025-01,457600,4576000,0,5033600,96096,5129696
 L A R M Argentina,Wintershall Dea Argentina S.A,2025-02,102480,1024800,0,1127280,21521,1148801
-L A R M Argentina,Wintershall Dea Argentina S.A,2025-03,0,0,0,0,0,2442614
+L A R M Argentina,Wintershall Dea Argentina S.A,2025-03,0,0,0,0,0,0
 L A R M Argentina,Wintershall Dea Argentina S.A,2025-04,1410252,0,0,1410252,296153,1706405
 L A R M Argentina,Wintershall Dea Argentina S.A,2025-06,611936,6119357,0,6731293,128506,6859800
 L A R M Argentina,Wintershall Dea Argentina S.A,2025-07,1988378,15442112,0,17430490,417559,17848050
@@ -1156,14 +1156,14 @@ Leoni Maria Jose,Aguerre Bernardo Emilio,2025-04,80000,10042,0,90042,16800,10684
 Leoni Maria Jose,Aguerre Bernardo Emilio,2025-07,35000,3919,0,38919,7350,46269
 Leoni Maria Jose,Alpha Grains S. A.,2025-05,20000,19671,0,39671,4200,43871
 Leoni Maria Jose,Amg Obras Civiles Sa,2025-05,75000,5956,0,80956,15750,96706
-Leoni Maria Jose,Angular Desarrollos S.A.,2025-04,0,0,0,0,0,1145400
+Leoni Maria Jose,Angular Desarrollos S.A.,2025-04,0,0,0,0,0,0
 Leoni Maria Jose,Aprile Garcia Fernando,2025-01,1812910,304230,0,2117140,380711,2497851
 Leoni Maria Jose,"Arevalo 2381, C.A.B.A. Fideicomiso",2025-04,390000,100800,0,490800,81900,572700
 Leoni Maria Jose,Argenbrokers S.A.,2025-08,146000,53570,0,199570,30660,230230
 Leoni Maria Jose,Bardengo Gaston Luis,2025-07,1605000,858975,0,2463975,337050,3646025
 Leoni Maria Jose,Bazooka Realty S.R.L.,2025-08,227000,47219,0,274219,47670,321889
 Leoni Maria Jose,Behrensen Chiara Macarena,2025-03,512000,188700,0,700700,107520,808220
-Leoni Maria Jose,Bensousan Jonathan Uriel,2025-05,67800,67800,0,135600,14238,449514
+Leoni Maria Jose,Bensousan Jonathan Uriel,2025-05,67800,67800,0,135600,14238,149838
 Leoni Maria Jose,Berenyi Alejandro Daniel,2025-03,520000,228100,0,748100,109200,857300
 Leoni Maria Jose,Bergada Pablo,2025-07,1706220,2877864,0,4584084,358306,4942390
 Leoni Maria Jose,Blanco Maria De Los Angeles,2025-05,70000,108670,0,178670,14700,193370
@@ -1183,7 +1183,7 @@ Leoni Maria Jose,Coco Lesibiani S.A.,2025-06,2162000,530200,0,2692200,454020,119
 Leoni Maria Jose,Colombo Natalia,2025-05,0,1128000,0,1128000,0,1128000
 Leoni Maria Jose,Colombo Natalia,2025-07,2463918,66144,0,2530062,517423,7404985
 Leoni Maria Jose,Conde Diego Rodolfo,2025-08,314000,137560,0,451560,65940,517500
-Leoni Maria Jose,Consultora Renanco S.A,2025-05,0,0,0,0,0,750660
+Leoni Maria Jose,Consultora Renanco S.A,2025-05,0,0,0,0,0,0
 Leoni Maria Jose,Consultora Videco S. A.,2025-02,467000,142806,0,609806,98070,707876
 Leoni Maria Jose,Consultora Videco S. A.,2025-05,200000,133330,0,333330,42000,375330
 Leoni Maria Jose,Consultora Videco S. A.,2025-07,44000,41643,0,85643,9240,94883
@@ -1197,18 +1197,18 @@ Leoni Maria Jose,De Achaval Nahuel Maria,2025-07,155000,662838,0,817838,32550,24
 Leoni Maria Jose,De Royere Eduardo Jose Maria,2025-03,78000,165000,0,243000,16380,259380
 Leoni Maria Jose,De Royere Gerardo Juan Maria,2025-05,150000,26561,0,176561,31500,208061
 Leoni Maria Jose,De Royere Gerardo Juan Maria,2025-08,132000,58830,0,190830,27720,218550
-Leoni Maria Jose,Del Castillo Aurelio Alberto Ange,2025-06,270000,69000,0,339000,56700,1187100
+Leoni Maria Jose,Del Castillo Aurelio Alberto Ange,2025-06,270000,69000,0,339000,56700,395700
 Leoni Maria Jose,Deposito Avellaneda Sur S.A.,2025-03,40000,24960,0,64960,8400,73360
 Leoni Maria Jose,Deposito Avellaneda Sur S.A.,2025-08,195000,51450,0,246450,40950,287400
 Leoni Maria Jose,Di Cio Pilar,2025-01,138000,93538,0,231538,28980,260518
 Leoni Maria Jose,Diaz Graciana Mercedes,2025-04,2401000,2078500,0,4479500,504210,12897210
-Leoni Maria Jose,Dominguez Sebastian Javier,2025-04,1456062,210400,0,1666462,305773,32961807
+Leoni Maria Jose,Dominguez Sebastian Javier,2025-04,1456062,210400,0,1666462,305773,9885735
 Leoni Maria Jose,Don Luis Esteban S A,2025-08,150000,32027,0,182027,31500,213527
 Leoni Maria Jose,Downes Marcos Andres,2025-05,1980000,892300,0,2872300,415800,6768100
 Leoni Maria Jose,Durañona Soledad,2025-03,2953803,2849925,0,5803728,620299,9312787
 Leoni Maria Jose,Echeguren Martin,2025-01,700000,675936,0,1375936,147000,1522936
-Leoni Maria Jose,El Guardian S.A.- Empresa De Seguridad Privada,2025-02,-150000,-43556,0,-193556,-31500,1118392
-Leoni Maria Jose,El Guardian S.A.- Empresa De Seguridad Privada,2025-03,-115000,-58914,0,-173914,-24150,198064
+Leoni Maria Jose,El Guardian S.A.- Empresa De Seguridad Privada,2025-02,-150000,-43556,0,-193556,-31500,-225056
+Leoni Maria Jose,El Guardian S.A.- Empresa De Seguridad Privada,2025-03,-115000,-58914,0,-173914,-24150,-198064
 Leoni Maria Jose,El Patacon Sa,2025-05,149000,73680,0,222680,31290,253970
 Leoni Maria Jose,Escasany Eduardo Jose,2025-06,169000,45510,0,214510,35490,250000
 Leoni Maria Jose,España,2025-01,90000,39276,0,129276,18900,148176
@@ -1223,7 +1223,7 @@ Leoni Maria Jose,Fenda Sa,2025-01,45000,3538,0,48538,9450,57988
 Leoni Maria Jose,Fenda Sa,2025-02,1086000,305910,0,1391910,228060,1619970
 Leoni Maria Jose,Firmesa S.A.,2025-07,170000,183500,0,353500,35700,389200
 Leoni Maria Jose,Fitz Roy Expeditions S.A.,2025-06,245000,149940,0,394940,51450,446390
-Leoni Maria Jose,Fitz Roy Expeditions S.A.,2025-07,-200000,-138440,0,-338440,-42000,380440
+Leoni Maria Jose,Fitz Roy Expeditions S.A.,2025-07,-200000,-138440,0,-338440,-42000,-380440
 Leoni Maria Jose,Fuego Red S. A.,2025-02,364000,103830,0,467830,76440,544270
 Leoni Maria Jose,Fuego Red S. A.,2025-05,400000,266660,0,666660,84000,750660
 Leoni Maria Jose,Fuego Red S. A.,2025-07,40000,39344,0,79344,8400,87744
@@ -1236,7 +1236,7 @@ Leoni Maria Jose,Golosetti Luisina Gala,2025-04,60000,51156,0,111156,12600,12375
 Leoni Maria Jose,Golosetti Luisina Gala,2025-05,40000,44800,0,84800,8400,93200
 Leoni Maria Jose,Golosetti Luisina Gala,2025-06,100000,39956,0,139956,21000,160956
 Leoni Maria Jose,Golosetti Luisina Gala,2025-07,40000,22400,0,62400,8400,70800
-Leoni Maria Jose,Gorra Blanca Sa,2025-06,0,0,0,0,0,539552
+Leoni Maria Jose,Gorra Blanca Sa,2025-06,0,0,0,0,0,0
 Leoni Maria Jose,Grand Circle Argentina S.R.L.,2025-04,50000,5806,0,55806,10500,66306
 Leoni Maria Jose,Guarna Maria Cecilia,2025-03,164000,184120,0,348120,34440,382560
 Leoni Maria Jose,Gyp 2845 S.R.L.,2025-03,0,0,0,0,0,11849340
@@ -1244,8 +1244,8 @@ Leoni Maria Jose,Gyp 2845 S.R.L.,2025-05,0,0,0,0,0,5096801
 Leoni Maria Jose,Gyp 2845 S.R.L.,2025-07,0,0,0,0,0,7477875
 Leoni Maria Jose,Hijos De Omar Cobian  Sa,2025-01,45000,6218,0,51218,9450,60668
 Leoni Maria Jose,Hortelano Sabrina,2025-03,512000,3960352,0,4472352,107520,4579872
-Leoni Maria Jose,Indave Patagonico Sociedad Anonima,2025-05,0,0,0,0,0,227622
-Leoni Maria Jose,Indave Patagonico Sociedad Anonima,2025-08,0,0,0,0,0,840900
+Leoni Maria Jose,Indave Patagonico Sociedad Anonima,2025-05,0,0,0,0,0,0
+Leoni Maria Jose,Indave Patagonico Sociedad Anonima,2025-08,0,0,0,0,0,0
 Leoni Maria Jose,Indave S A,2025-05,60000,41211,0,101211,12600,113811
 Leoni Maria Jose,Indave S A,2025-08,318000,35670,0,353670,66780,420450
 Leoni Maria Jose,Inversiones Delta Sa,2025-04,55000,3616,0,58616,11550,70166
@@ -1296,26 +1296,26 @@ Leoni Maria Jose,Rossi Sergio Hugo,2025-03,3611465,807133,0,4418598,758408,60553
 Leoni Maria Jose,Rousseau Portalis Juana Maria Alicia,2025-07,288505,100910,0,389415,60586,450001
 Leoni Maria Jose,Sagranichne Pablo Andres,2025-07,1758820,125530,0,1884350,369352,5017827
 Leoni Maria Jose,Saizar Juan Ignacio,2025-07,1698050,981025,0,2679075,356590,5799790
-Leoni Maria Jose,Scaa Hospitality S.L,2025-08,6581575,3266460,0,9848035,1382065,66399341
+Leoni Maria Jose,Scaa Hospitality S.L,2025-08,6581575,3266460,0,9848035,1382065,22474665
 Leoni Maria Jose,Secar Security Argentina S. A.,2025-02,1263000,352208,0,1615208,265230,1880438
 Leoni Maria Jose,Secar Security Argentina S. A.,2025-03,124000,37620,0,161620,26040,187660
-Leoni Maria Jose,Secar Security Argentina S. A.,2025-05,24000,6770,0,30770,5040,107430
+Leoni Maria Jose,Secar Security Argentina S. A.,2025-05,24000,6770,0,30770,5040,35810
 Leoni Maria Jose,Secar Security Argentina S. A.,2025-06,750000,307160,0,1057160,157500,1214660
 Leoni Maria Jose,Secar Security Argentina S. A.,2025-07,1949000,946610,0,2895610,409290,3304900
 Leoni Maria Jose,Secar Security Argentina S. A.,2025-08,1927000,1546193,0,3473193,404670,3877863
 Leoni Maria Jose,Secar Security Buenos Aires 1 S. A.,2025-06,150000,60440,0,210440,31500,241940
 Leoni Maria Jose,Secar Security Buenos Aires S. A.,2025-02,352000,103530,0,455530,73920,529450
 Leoni Maria Jose,Secar Security Buenos Aires S. A.,2025-05,400000,373486,0,773486,84000,857486
-Leoni Maria Jose,Secar Security Buenos Aires S. A.,2025-06,0,0,0,0,0,967760
+Leoni Maria Jose,Secar Security Buenos Aires S. A.,2025-06,0,0,0,0,0,0
 Leoni Maria Jose,Secar Security Buenos Aires S. A.,2025-07,110000,104109,0,214109,23100,237209
 Leoni Maria Jose,Secar Security Buenos Aires S. A.,2025-08,1066000,634812,0,1700812,223860,1924672
 Leoni Maria Jose,Secar Security Countries S. A.,2025-02,716000,207360,0,923360,150360,1073720
-Leoni Maria Jose,Secar Security Countries S. A.,2025-03,100000,97200,0,197200,21000,748960
+Leoni Maria Jose,Secar Security Countries S. A.,2025-03,100000,97200,0,197200,21000,218200
 Leoni Maria Jose,Secar Security Countries S. A.,2025-06,450000,181320,0,631320,94500,725820
 Leoni Maria Jose,Secar Security Countries S. A.,2025-07,40000,39344,0,79344,8400,87744
 Leoni Maria Jose,Secar Security Countries S. A.,2025-08,1039000,595580,0,1634580,218190,1852770
 Leoni Maria Jose,Secar Security Group S.A.,2025-03,116000,32780,0,148780,24360,173140
-Leoni Maria Jose,Secar Security Group S.A.,2025-05,0,0,0,0,0,71620
+Leoni Maria Jose,Secar Security Group S.A.,2025-05,0,0,0,0,0,0
 Leoni Maria Jose,Secar Security Servicios S. A.,2025-02,360000,103730,0,463730,75600,539330
 Leoni Maria Jose,Secar Security Servicios S. A.,2025-05,200000,99500,0,299500,42000,341500
 Leoni Maria Jose,Secar Security Servicios S. A.,2025-06,300000,120880,0,420880,63000,483880
@@ -1359,12 +1359,12 @@ Leoni Maria Jose,Vigilan S.A.,2025-07,80000,62533,0,142533,16800,159333
 Leoni Maria Jose,Vigilan S.A.,2025-08,1238000,801535,0,2039535,259980,2299515
 Leoni Maria Jose,Yacht Club Puerto Madero S A,2025-03,616000,215720,0,831720,129360,961080
 Leoni Maria Jose,Yerba Daniel Oscar,2025-07,1715880,363200,0,2079080,360335,3284415
-Liftvan International,-,2025-01,0,0,3814672,3814672,0,5072992
+Liftvan International,-,2025-01,0,0,3814672,3814672,0,3814672
 Liftvan International,-,2025-02,6962796,0,18057432,25020228,1462284,26482512
 Liftvan International,-,2025-03,0,0,3187864,3187864,0,3187864
 Liftvan International,-,2025-06,1344000,0,0,1344000,282000,1626000
 Liftvan International,-,2025-07,2717440,0,2540523,5257963,570880,5828843
-Liftvan International,-,2025-08,0,0,-3187864,-3187864,0,3187864
+Liftvan International,-,2025-08,0,0,-3187864,-3187864,0,-3187864
 Liftvan International,Agro Comercial Del Carmen Sa,2025-01,6275030,0,18783399,25058429,1318077,26376506
 Liftvan International,Ajates Jaclyn Leigh,2025-02,96500,0,0,96500,20265,116765
 Liftvan International,Alfa Laval Sociedad Anonima,2025-06,28150800,0,4615200,32766000,5911200,38677200
@@ -1372,16 +1372,16 @@ Liftvan International,Argentina Fortescue Future Industries S. A.,2025-02,483300
 Liftvan International,Argentina Fortescue S.A.U.,2025-05,522000,0,0,522000,109040,631040
 Liftvan International,Asociacion Escuelas Lincoln,2025-02,483300,0,0,483300,100956,584256
 Liftvan International,Barreto Maria Victoria,2025-02,1731200,0,6481180,8212380,363552,8575932
-Liftvan International,Barrick Exploraciones Argentina S A,2025-05,2772866,0,0,2772866,582302,8900900
+Liftvan International,Barrick Exploraciones Argentina S A,2025-05,2772866,0,0,2772866,582302,3355168
 Liftvan International,Basf Argentina S A,2025-02,1425825,0,18536,1444361,299423,1743784
 Liftvan International,Basf Argentina S A,2025-03,489600,0,5875,495475,102816,598291
 Liftvan International,Basf Argentina S A,2025-04,940050,0,11280,951330,197410,1148742
 Liftvan International,Bayer Sociedad Anonima,2025-04,8559720,0,13330980,21890700,1797120,23688990
-Liftvan International,Bergesio Sergio Hector,2025-03,100327,0,0,100327,21069,320926972
-Liftvan International,Bosch Rexroth Saic,2025-02,40600,0,2088,42688,8584,2803878
+Liftvan International,Bergesio Sergio Hector,2025-03,100327,0,0,100327,21069,121396
+Liftvan International,Bosch Rexroth Saic,2025-02,40600,0,2088,42688,8584,51156
 Liftvan International,Bosch Rexroth Saic,2025-04,986400,0,48224,1034624,206048,1242864
 Liftvan International,Bosch Rexroth Saic,2025-07,1170000,0,57200,1227200,244400,1474200
-Liftvan International,Bosch Rexroth Saic,2025-08,-755300,0,-38844,-794144,-159692,951678
+Liftvan International,Bosch Rexroth Saic,2025-08,-755300,0,-38844,-794144,-159692,-951678
 Liftvan International,Brasil,2025-02,0,0,93299328,93299328,0,93299328
 Liftvan International,Brasil,2025-05,0,0,17220100,17220100,0,17220100
 Liftvan International,Brasil,2025-06,0,0,20263500,20263500,0,20263500
@@ -1390,30 +1390,30 @@ Liftvan International,Canada,2025-04,0,0,55965048,55965048,0,55965048
 Liftvan International,Caride Siritto Juan Jose,2025-04,0,0,2455358,2455358,0,2455358
 Liftvan International,Cervantes Fernandez Valentina,2025-04,2082400,0,5270002,7352402,437304,7789706
 Liftvan International,Cheil Argentina S.A.,2025-05,519750,0,1155,520905,108570,630630
-Liftvan International,Colgate Palmolive Argentina S.A.,2025-01,361375,0,5782,367157,75889,2248278
-Liftvan International,Cooperatieve Rabobank U.A. - Oficina De Representacion,2025-01,151991,0,0,151991,31918,628969
+Liftvan International,Colgate Palmolive Argentina S.A.,2025-01,361375,0,5782,367157,75889,443046
+Liftvan International,Cooperatieve Rabobank U.A. - Oficina De Representacion,2025-01,151991,0,0,151991,31918,183909
 Liftvan International,De Noia Josue Gabriel,2025-04,1120000,0,6394019,7514019,235200,7749219
-Liftvan International,De Noia Josue Gabriel,2025-08,0,0,-399373,-399373,0,399373
+Liftvan International,De Noia Josue Gabriel,2025-08,0,0,-399373,-399373,0,-399373
 Liftvan International,Delivery Hero E-Commerce S. A.,2025-08,13055280,0,65170,13120450,2741130,15861580
 Liftvan International,Deposito Avellaneda Sur S.A.,2025-01,54971871,0,2748594,57720465,11544093,69264557
 Liftvan International,Deposito Avellaneda Sur S.A.,2025-02,49961792,0,2498090,52459882,10491976,62951858
 Liftvan International,Deposito Avellaneda Sur S.A.,2025-03,39418239,0,1970912,41389151,8277830,49666981
 Liftvan International,Deposito Avellaneda Sur S.A.,2025-04,20751542,0,1037577,21789119,4357824,26146943
 Liftvan International,Deposito Avellaneda Sur S.A.,2025-05,43640352,0,2182018,45822370,9164474,54986844
-Liftvan International,Deposito Avellaneda Sur S.A.,2025-06,-11098020,0,-554901,-11652921,-2330584,36416495
+Liftvan International,Deposito Avellaneda Sur S.A.,2025-06,-11098020,0,-554901,-11652921,-2330584,-13983505
 Liftvan International,Deposito Avellaneda Sur S.A.,2025-07,23619179,0,1180962,24800141,4960028,29760168
 Liftvan International,Deposito Avellaneda Sur S.A.,2025-08,13640688,0,682034,14322722,2864544,17187267
 Liftvan International,Dhl Global Forwarding (Argentina) Sa,2025-03,4450004,0,35600,4485604,934501,5420104
 Liftvan International,Dhl Global Forwarding (Argentina) Sa,2025-04,2137249,0,17098,2154347,448822,2603169
-Liftvan International,"Dominicana, Republica",2025-01,0,0,11115182,11115182,0,13584038
+Liftvan International,"Dominicana, Republica",2025-01,0,0,11115182,11115182,0,11115182
 Liftvan International,Duran Quarin Valentina,2025-05,3266560,0,5138800,8405360,685560,9090920
 Liftvan International,Duran Quarin Valentina,2025-07,0,0,762450,762450,0,762450
 Liftvan International,Echeverz Ignacio Jose,2025-01,0,0,53600,53600,0,53600
 Liftvan International,Ecuador,2025-02,0,0,18063510,18063510,0,18063510
 Liftvan International,Ejercito De Salvacion I. E. R.,2025-04,492525,0,19701,512226,103430,615656
 Liftvan International,Ejercito De Salvacion I. E. R.,2025-07,590000,0,23600,613600,123900,737500
-Liftvan International,Embajada De La Republica Federal De Alemania,2025-08,-97384,0,0,-97384,-20720,118104
-Liftvan International,Embajada De Los Ee Uu De Norteamerica,2025-01,8657016,0,13630381,22287397,1818080,26152389
+Liftvan International,Embajada De La Republica Federal De Alemania,2025-08,-97384,0,0,-97384,-20720,-118104
+Liftvan International,Embajada De Los Ee Uu De Norteamerica,2025-01,8657016,0,13630381,22287397,1818080,24106549
 Liftvan International,Embajada De Los Ee Uu De Norteamerica,2025-03,1143433,0,33075529,34218962,239350,34458312
 Liftvan International,Embajada De Los Ee Uu De Norteamerica,2025-04,690480,0,5459289,6149769,144672,6294441
 Liftvan International,Embajada De Los Ee Uu De Norteamerica,2025-05,1021860,0,6245101,7266961,214335,7481296
@@ -1426,7 +1426,7 @@ Liftvan International,Empresa Distribuidora De Energia Atlantica Sa,2025-03,1040
 Liftvan International,Empresa Distribuidora De Energia Atlantica Sa,2025-04,10400000,0,0,10400000,2184000,12584000
 Liftvan International,Empresa Distribuidora De Energia Atlantica Sa,2025-05,10400000,0,0,10400000,2184000,12584000
 Liftvan International,Empresa Distribuidora De Energia Atlantica Sa,2025-06,10400000,0,0,10400000,2184000,12584000
-Liftvan International,Empresa Distribuidora De Energia Atlantica Sa,2025-07,10400000,0,0,10400000,2184000,12584000
+Liftvan International,Empresa Distribuidora De Energia Atlantica Sa,2025-07,-10400000,0,0,-10400000,-2184000,-12584000
 Liftvan International,Empresa Distribuidora De Energia Norte Sa,2025-01,10400000,0,0,10400000,2184000,12584000
 Liftvan International,Empresa Distribuidora De Energia Norte Sa,2025-02,10400000,0,0,10400000,2184000,12584000
 Liftvan International,Empresa Distribuidora De Energia Norte Sa,2025-03,10400000,0,0,10400000,2184000,12584000
@@ -1450,22 +1450,22 @@ Liftvan International,España,2025-04,5852900,0,8152488,14005388,1229656,1523504
 Liftvan International,Estados Unidos,2025-01,0,0,18275200,18275200,0,18275200
 Liftvan International,Estados Unidos,2025-02,0,0,114129814,114129814,0,114129814
 Liftvan International,Estados Unidos,2025-03,0,0,76350060,76350060,0,76350060
-Liftvan International,Estados Unidos,2025-04,10557100,0,64411314,74968414,2216444,77910258
+Liftvan International,Estados Unidos,2025-04,10557100,0,64411314,74968414,2216444,77184858
 Liftvan International,Estados Unidos,2025-05,0,0,225092275,225092275,0,225092275
 Liftvan International,Estados Unidos,2025-06,0,0,12946305,12946305,0,12946305
 Liftvan International,Estados Unidos,2025-07,0,0,58085925,58085925,0,58085925
-Liftvan International,Estados Unidos,2025-08,0,0,61611335,61611335,0,63219335
+Liftvan International,Estados Unidos,2025-08,0,0,61611335,61611335,0,61611335
 Liftvan International,Finiello Leandro Anibal,2025-07,165289,0,0,165289,34711,200000
 Liftvan International,Framaco Bozdemir Sa,2025-01,1070000,0,3579870,4649870,224700,4874570
 Liftvan International,Framaco Bozdemir Sa,2025-03,1825310,0,0,1825310,383643,2208953
-Liftvan International,Framaco Bozdemir Sa,2025-04,416480,0,0,416480,87680,1299856
+Liftvan International,Framaco Bozdemir Sa,2025-04,416480,0,0,416480,87680,504160
 Liftvan International,Francia,2025-05,16931750,0,3348750,20280500,3555550,23836050
-Liftvan International,Francia,2025-06,-4291300,0,6632265,2340965,-900935,49112130
+Liftvan International,Francia,2025-06,-4291300,0,6632265,2340965,-900935,1440030
 Liftvan International,Freson Ronald Jesse,2025-02,1514800,0,1684309,3199109,318108,3517217
-Liftvan International,Frey Martinez Jose Manuel,2025-01,955800,0,0,955800,199656,1156544
-Liftvan International,Gaubin Liliana Catalina,2025-03,380800,0,0,380800,80512,1222212
+Liftvan International,Frey Martinez Jose Manuel,2025-01,955800,0,0,955800,199656,1155456
+Liftvan International,Gaubin Liliana Catalina,2025-03,380800,0,0,380800,80512,461312
 Liftvan International,Gaubin Liliana Catalina,2025-06,4015540,0,2532411,6547951,843700,7391651
-Liftvan International,Genomma Laboratories Argentina S.A.,2025-03,64825200,0,51901202,116726402,13613292,130339694
+Liftvan International,Genomma Laboratories Argentina S.A.,2025-03,21621600,0,19225752,40847352,4540536,45387888
 Liftvan International,Glasman Laura Rosana,2025-07,22285755,0,25205715,47491470,4679970,52171440
 Liftvan International,Gomes Ferreira Jhonatan,2025-04,0,0,3317592,3317592,0,3317592
 Liftvan International,Gomez Silvia Graciela,2025-03,1468800,0,3264000,4732800,308992,5041792
@@ -1490,38 +1490,38 @@ Liftvan International,Martinez Graciela Angelica,2025-07,420000,0,3905364,432536
 Liftvan International,Minera Andina Del Sol Srl,2025-02,4490125,0,0,4490125,942926,5433051
 Liftvan International,Minera Andina Del Sol Srl,2025-03,1304100,0,0,1304100,273860,1577960
 Liftvan International,Minera Andina Del Sol Srl,2025-04,1391962,0,0,1391962,292912,1684875
-Liftvan International,Minera Andina Del Sol Srl,2025-06,2626600,0,0,2626600,550908,14401652
-Liftvan International,Minera Andina Del Sol Srl,2025-07,-3106500,0,0,-3106500,-652356,3758856
+Liftvan International,Minera Andina Del Sol Srl,2025-06,2626600,0,0,2626600,550908,3177508
+Liftvan International,Minera Andina Del Sol Srl,2025-07,-3106500,0,0,-3106500,-652356,-3758856
 Liftvan International,Muy Mucho S.R.L.,2025-08,11187300,0,14228430,25415730,2349600,27765330
-Liftvan International,Nabors International Argentina S.R.L.,2025-08,0,0,0,0,0,8107000
+Liftvan International,Nabors International Argentina S.R.L.,2025-08,0,0,0,0,0,0
 Liftvan International,Natura Cosmeticos  Sa,2025-01,5437900,0,54650895,60088795,1141959,61230754
 Liftvan International,Natura Cosmeticos  Sa,2025-02,4762273,0,30794104,35556377,999387,36555765
-Liftvan International,Natura Cosmeticos  Sa,2025-04,4356318,0,52326410,56682728,915173,59827427
-Liftvan International,Natura Cosmeticos  Sa,2025-05,0,0,95450,95450,0,286350
+Liftvan International,Natura Cosmeticos  Sa,2025-04,3889966,0,47639580,51529546,817239,52346785
+Liftvan International,Natura Cosmeticos  Sa,2025-05,0,0,95450,95450,0,95450
 Liftvan International,Natura Cosmeticos  Sa,2025-06,8919450,0,55193165,64112615,1872002,65985822
-Liftvan International,Natura Cosmeticos  Sa,2025-07,1430000,0,72800,1502800,301600,2017600
-Liftvan International,Natura Cosmeticos  Sa,2025-08,19215388,0,31855197,51070585,4035178,56788118
-Liftvan International,Navilli Aldo Luciano,2025-04,3674112,0,2826504,6500616,771564,36360905
+Liftvan International,Natura Cosmeticos  Sa,2025-07,1430000,0,72800,1502800,301600,1801800
+Liftvan International,Natura Cosmeticos  Sa,2025-08,19215388,0,31855197,51070585,4035178,55105938
+Liftvan International,Navilli Aldo Luciano,2025-04,3674112,0,2826504,6500616,771564,7272181
 Liftvan International,Nestle Argentina S A,2025-03,35871000,0,466323,36337323,7532910,43870233
-Liftvan International,Nestle Argentina S A,2025-05,73161000,0,951093,74112093,15363810,89475903
+Liftvan International,Nestle Argentina S A,2025-05,1419000,0,18447,1437447,297990,1735437
 Liftvan International,Nestle Argentina S A,2025-07,585000,0,9100,594100,122200,717600
 Liftvan International,Nieto Pablo Javier,2025-01,0,0,2022661,2022661,0,2022661
 Liftvan International,Paises Bajos,2025-01,0,0,70685256,70685256,0,70685256
 Liftvan International,Paises Bajos,2025-03,0,0,51792426,51792426,0,51792426
-Liftvan International,Paises Bajos,2025-06,0,0,32797245,32797245,0,32798145
+Liftvan International,Paises Bajos,2025-06,0,0,32797245,32797245,0,32797245
 Liftvan International,Perez Varela Mariano Federico,2025-08,0,0,892885,892885,0,892885
 Liftvan International,Philip Morris Latin America Services S.R.L.,2025-02,3705300,0,184728,3890028,777576,4668678
-Liftvan International,Philip Morris Latin America Services S.R.L.,2025-04,-3705300,0,-184728,-3890028,-777576,4668678
+Liftvan International,Philip Morris Latin America Services S.R.L.,2025-04,-3705300,0,-184728,-3890028,-777576,-4668678
 Liftvan International,Polonia,2025-01,0,0,3791400,3791400,0,3791400
 Liftvan International,Pricolo Federico Carlos,2025-04,388500,0,0,388500,82140,470640
 Liftvan International,Pricolo Federico Carlos,2025-06,5110800,0,2414444,7525244,1072800,8599244
 Liftvan International,Pricolo Federico Carlos,2025-07,0,0,2000000,2000000,0,2000000
-Liftvan International,Productos Destilados S A C I Y F,2025-04,11137841,0,1496528,12634369,2338946,34791141
+Liftvan International,Productos Destilados S A C I Y F,2025-04,11137841,0,1496528,12634369,2338946,14973315
 Liftvan International,Productos Roche S A Quimica E Industrial,2025-04,2164600,0,0,2164600,454840,2619440
 Liftvan International,Productos Roche S A Quimica E Industrial,2025-06,1553500,0,0,1553500,326235,1879735
 Liftvan International,Prosegur Activa Argentina Sa,2025-04,4161770,0,208088,4369858,873972,5243830
 Liftvan International,Pugliese Santiago Jose,2025-07,0,0,5062976,5062976,0,5062976
-Liftvan International,Reino Unido,2025-08,0,0,0,0,0,19320000
+Liftvan International,Reino Unido,2025-08,0,0,0,0,0,0
 Liftvan International,Renault Argentina S.A,2025-04,7010016,0,11278936,18288952,1471928,19760880
 Liftvan International,Renault Argentina S.A,2025-08,591750,0,2630,594380,123610,719305
 Liftvan International,Rincon Mining Pty Limited,2025-01,845800,0,0,845800,177616,1023416
@@ -1539,8 +1539,8 @@ Liftvan International,Schlumberger Argentina S. A.,2025-07,11044450,0,12063230,2
 Liftvan International,Schlumberger Argentina S. A.,2025-08,4205250,0,0,4205250,883770,5089020
 Liftvan International,Services Techniques Sas,2025-01,481050,0,0,481050,100486,581536
 Liftvan International,Skinner Cristian,2025-03,24046000,0,8306800,32352800,5049660,37402460
-Liftvan International,Skinner Cristian,2025-04,-6558000,0,0,-6558000,-1377180,7935180
-Liftvan International,Skinner Cristian,2025-05,0,0,3089080,3089080,0,9267240
+Liftvan International,Skinner Cristian,2025-04,-6558000,0,0,-6558000,-1377180,-7935180
+Liftvan International,Skinner Cristian,2025-05,0,0,3089080,3089080,0,3089080
 Liftvan International,Sucesion De Luna Roberto Andres,2025-04,639990,0,0,639990,134562,774552
 Liftvan International,Sucesion De Luna Roberto Andres,2025-06,702000,0,0,702000,147600,849600
 Liftvan International,Sucesion De Luna Roberto Andres,2025-07,760500,0,0,760500,159900,920400
@@ -1550,10 +1550,10 @@ Liftvan International,Suecia,2025-08,0,0,3582550,3582550,0,3582550
 Liftvan International,Supermercados Mayoristas Makro Sa,2025-02,1611000,0,40812,1651812,338310,1989048
 Liftvan International,Syngenta Agro Sociedad Anonima,2025-04,35379309,0,17141186,52520495,7429655,59950152
 Liftvan International,Syngenta Agro Sociedad Anonima,2025-05,10271825,0,92446,10364271,2157083,12521355
-Liftvan International,Syngenta Agro Sociedad Anonima,2025-06,30941006,0,17101241,48042247,6497611,54539858
+Liftvan International,Syngenta Agro Sociedad Anonima,2025-06,-6835578,0,-16884293,-23719871,-1435471,-25155342
 Liftvan International,Tarbagayre Emilie Dorothee Marie,2025-04,590000,0,0,590000,123900,713900
 Liftvan International,Tarulla Dario Ezequiel,2025-04,0,0,472874,472874,0,472874
-Liftvan International,Teadit Argentina Sa,2025-06,17383330,0,-4687450,12695880,3649945,33010975
+Liftvan International,Teadit Argentina Sa,2025-06,17383330,0,-4687450,12695880,3649945,16345825
 Liftvan International,Tecplata S.A.,2025-01,482400,0,23584,505984,100768,607824
 Liftvan International,Tecplata S.A.,2025-03,489150,0,23914,513064,102178,616329
 Liftvan International,Tecplata S.A.,2025-04,493200,0,24112,517312,103024,621432
@@ -1561,34 +1561,34 @@ Liftvan International,Tecplata S.A.,2025-08,221176,0,11059,232235,46447,278683
 Liftvan International,Tverdovsky Lidia Ines,2025-02,644400,0,2095374,2739774,135324,2875098
 Liftvan International,Uruguay,2025-02,0,0,15501540,15501540,0,15501540
 Liftvan International,Vallejos Miguel Angel,2025-08,22895928,0,0,22895928,2404072,25300000
-Liftvan International,Viola Daniel Alberto,2025-04,8896408,0,9704874,18601282,1867458,23215774
-Liftvan International,Ypf Sociedad Anonima,2025-01,2417038145,0,7020459623,-7742371416,507574468,-7234792669
-Liftvan International,Ypf Sociedad Anonima,2025-02,103572535,0,517698,104090233,21750751,126273335
+Liftvan International,Viola Daniel Alberto,2025-04,8896408,0,9704874,18601282,1867458,20469834
+Liftvan International,Ypf Sociedad Anonima,2025-01,89917949,0,9284233,99202182,18882306,118084489
+Liftvan International,Ypf Sociedad Anonima,2025-02,103572535,0,517698,104090233,21750751,125839929
 Liftvan International,Ypf Sociedad Anonima,2025-03,81995058,0,409975,82405033,17218962,99623996
-Liftvan International,Ypf Sociedad Anonima,2025-05,151108178,0,759649,151867827,31732718,183600544
+Liftvan International,Ypf Sociedad Anonima,2025-05,147000000,0,730891,147730891,30870000,178600892
 Liftvan International,Ypf Sociedad Anonima,2025-07,178363641,0,891818,179255459,37456365,216711825
 Liftvan International,Ypf Sociedad Anonima,2025-08,134202713,0,7343904,141546617,28182570,169729186
 Mercovan Argentina,-,2025-01,12441548,10215387,0,22656935,2614032,25269901
 Mercovan Argentina,-,2025-02,8555883,15940976,0,24496859,1796423,26293282
 Mercovan Argentina,-,2025-03,26248418,37946984,0,64195402,5510709,69707200
-Mercovan Argentina,-,2025-04,4356700,-423360,0,3933340,915220,5695280
+Mercovan Argentina,-,2025-04,4356700,-423360,0,3933340,915220,4848560
 Mercovan Argentina,-,2025-05,2075603,2847075,0,4922678,435876,5358554
-Mercovan Argentina,-,2025-06,21095769,37560150,0,58655919,4430501,64121720
+Mercovan Argentina,-,2025-06,21095769,37560150,0,58655919,4430501,63086420
 Mercovan Argentina,-,2025-07,37671974,70844300,0,108516274,7909876,116426150
 Mercovan Argentina,-,2025-08,45199429,37140316,0,82339745,9489120,91830199
 Mercovan Argentina,Agencia Cordoba Cultura Sociedad Del Estado,2025-05,6177284,0,0,6177284,1297230,7474513
 Mercovan Argentina,Agencia Cordoba Cultura Sociedad Del Estado,2025-08,6177284,0,0,6177284,1297230,7474513
 Mercovan Argentina,Air Liquide Argentina S A,2025-01,6888552,0,0,6888552,1446596,8335148
-Mercovan Argentina,Air Liquide Argentina S A,2025-03,13901382,0,0,13901382,2919290,16820672
+Mercovan Argentina,Air Liquide Argentina S A,2025-03,124278,0,0,124278,26098,150376
 Mercovan Argentina,Air Liquide Argentina S. A.,2025-06,11044000,21100200,0,32144200,2319240,34463440
-Mercovan Argentina,Air Liquide Argentina S. A.,2025-07,22088000,42200400,0,64288400,4638480,68926880
+Mercovan Argentina,Air Liquide Argentina S. A.,2025-07,0,0,0,0,0,0
 Mercovan Argentina,Arias Eguez Zulma,2025-03,809472,1523200,0,2332672,169728,2502400
 Mercovan Argentina,Armadora Acrux Sociedad Anonima,2025-08,1770000,0,0,1770000,371700,2141700
 Mercovan Argentina,Cheval Des Andes Sa,2025-07,23751060,15151380,0,38902440,4987890,43890330
 Mercovan Argentina,Chile,2025-03,0,18497088,0,18497088,0,18497088
 Mercovan Argentina,Chile,2025-05,0,3170150,0,3170150,0,3170150
 Mercovan Argentina,Cia Industrial Cervecera S A,2025-03,13127568,8850900,0,21978468,2756268,24734736
-Mercovan Argentina,Comercializadora Online Sa,2025-08,2482066,0,0,2482066,521234,9609900
+Mercovan Argentina,Comercializadora Online Sa,2025-08,2482066,0,0,2482066,521234,3003300
 Mercovan Argentina,Compañia Sud Americana De Dragados S. A.,2025-01,1323416,4234300,0,5557716,277728,5835444
 Mercovan Argentina,Corea Democratica,2025-06,0,16681200,0,16681200,0,16681200
 Mercovan Argentina,Corea Republicana,2025-07,0,51295635,0,51295635,0,51295635
@@ -1598,7 +1598,7 @@ Mercovan Argentina,Deposito Avellaneda Sur S.A.,2025-02,30135124,0,0,30135124,63
 Mercovan Argentina,Deposito Avellaneda Sur S.A.,2025-03,888843,0,0,888843,186657,1075500
 Mercovan Argentina,Deposito Avellaneda Sur S.A.,2025-04,2244318,0,0,2244318,471307,2715625
 Mercovan Argentina,Deposito Avellaneda Sur S.A.,2025-05,47410402,0,0,47410402,9956184,57366587
-Mercovan Argentina,Deposito Avellaneda Sur S.A.,2025-06,2538513,0,0,2538513,533087,3035711600
+Mercovan Argentina,Deposito Avellaneda Sur S.A.,2025-06,2538513,0,0,2538513,533087,3071600
 Mercovan Argentina,Deposito Avellaneda Sur S.A.,2025-07,5117046,0,0,5117046,1074579,6191625
 Mercovan Argentina,Deposito Avellaneda Sur S.A.,2025-08,1111570,0,0,1111570,233430,1345000
 Mercovan Argentina,Desarrollos Sucre Sa,2025-08,13725000,0,0,13725000,2882250,16607250
@@ -1607,7 +1607,7 @@ Mercovan Argentina,Durlock Sociedad Anonima,2025-08,320000,0,0,320000,67200,3872
 Mercovan Argentina,Embajada De Los Ee Uu De Norteamerica,2025-01,2975606,436579,0,3412185,625038,4036153
 Mercovan Argentina,Embajada De Los Ee Uu De Norteamerica,2025-02,3545708,699448,0,4245156,744395,4989551
 Mercovan Argentina,Embajada De Los Ee Uu De Norteamerica,2025-05,125441836,319948,0,125761784,26343042,152104826
-Mercovan Argentina,Embajada De Los Ee Uu De Norteamerica,2025-06,-115162522,3029696,0,-112132826,-24183684,155513970
+Mercovan Argentina,Embajada De Los Ee Uu De Norteamerica,2025-06,-115162522,3029696,0,-112132826,-24183684,-136316510
 Mercovan Argentina,Embajada De Los Ee Uu De Norteamerica,2025-07,2001718,0,0,2001718,420231,2421950
 Mercovan Argentina,Embajada De Los Ee Uu De Norteamerica,2025-08,5044516,739815,0,5784331,1059482,6843813
 Mercovan Argentina,Emiratos Arabes Unidos (Estado Independiente),2025-07,0,14395500,0,14395500,0,14395500
@@ -1617,34 +1617,34 @@ Mercovan Argentina,Empresa Distribuidora De Energia Atlantica Sa,2025-03,5430000
 Mercovan Argentina,Empresa Distribuidora De Energia Atlantica Sa,2025-04,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Atlantica Sa,2025-05,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Atlantica Sa,2025-06,5430000,0,0,5430000,1140300,6570300
-Mercovan Argentina,Empresa Distribuidora De Energia Atlantica Sa,2025-07,21720000,0,0,21720000,4561200,26281200
+Mercovan Argentina,Empresa Distribuidora De Energia Atlantica Sa,2025-07,0,0,0,0,0,0
 Mercovan Argentina,Empresa Distribuidora De Energia Norte Sa,2025-01,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Norte Sa,2025-02,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Norte Sa,2025-03,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Norte Sa,2025-04,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Norte Sa,2025-05,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Norte Sa,2025-06,5430000,0,0,5430000,1140300,6570300
-Mercovan Argentina,Empresa Distribuidora De Energia Norte Sa,2025-07,10860000,0,0,10860000,2280600,13140600
+Mercovan Argentina,Empresa Distribuidora De Energia Norte Sa,2025-07,0,0,0,0,0,0
 Mercovan Argentina,Empresa Distribuidora De Energia Sur    Sa,2025-01,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Sur    Sa,2025-02,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Sur    Sa,2025-03,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Sur    Sa,2025-04,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Sur    Sa,2025-05,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora De Energia Sur    Sa,2025-06,5430000,0,0,5430000,1140300,6570300
-Mercovan Argentina,Empresa Distribuidora De Energia Sur    Sa,2025-07,10860000,0,0,10860000,2280600,13140600
+Mercovan Argentina,Empresa Distribuidora De Energia Sur    Sa,2025-07,0,0,0,0,0,0
 Mercovan Argentina,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,2025-01,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,2025-02,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,2025-03,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,2025-04,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,2025-05,5430000,0,0,5430000,1140300,6570300
 Mercovan Argentina,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,2025-06,5430000,0,0,5430000,1140300,6570300
-Mercovan Argentina,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,2025-07,10860000,0,0,10860000,2280600,13140600
+Mercovan Argentina,Empresa Distribuidora La Plata Sociedad Anonima Edelap S A,2025-07,0,0,0,0,0,0
 Mercovan Argentina,Enel Generacion  El Chocon  S A,2025-03,891264,0,0,891264,187165,1078429
 Mercovan Argentina,España,2025-06,0,901200,0,901200,0,901200
 Mercovan Argentina,Estado De Qatar (Estado Independiente),2025-02,0,9282547,0,9282547,0,9282547
 Mercovan Argentina,Estados Unidos,2025-06,1586400,0,0,1586400,333600,1920000
-Mercovan Argentina,Fundacion Malba,2025-03,3770000,0,0,3770000,791700,12204302
-Mercovan Argentina,Fundacion Malba,2025-08,2747000,0,0,2747000,576870,10944450
+Mercovan Argentina,Fundacion Malba,2025-03,3770000,0,0,3770000,791700,4561700
+Mercovan Argentina,Fundacion Malba,2025-08,2747000,0,0,2747000,576870,3323870
 Mercovan Argentina,Holistic Relocation Srl,2025-02,6373486,13375500,0,19748986,1338432,21087418
 Mercovan Argentina,Industrias Quilmes S A.U.,2025-02,320000,0,0,320000,67200,387200
 Mercovan Argentina,Industrias Quilmes S A.U.,2025-03,320000,0,0,320000,67200,387200
@@ -1667,9 +1667,9 @@ Mercovan Argentina,Lx Pantos Argentina S. A.,2025-05,424350,0,0,424350,89700,514
 Mercovan Argentina,Masina Rinaldo,2025-06,863040,1044000,0,1907040,180960,2088000
 Mercovan Argentina,Nasone Stephane,2025-07,4313645,5180000,0,9493645,905205,10398850
 Mercovan Argentina,Nestle Argentina S A,2025-05,8478119,1937128,0,10415247,1780405,12195652
-Mercovan Argentina,Nestle Argentina S A,2025-06,16956238,3874256,0,20830494,3560810,24391304
+Mercovan Argentina,Nestle Argentina S A,2025-06,0,0,0,0,0,0
 Mercovan Argentina,Oiltanking Argentina Soc.Anonima,2025-05,3037500,0,0,3037500,637875,3675375
-Mercovan Argentina,Oiltanking Argentina Soc.Anonima,2025-06,-3037500,0,0,-3037500,-637875,3675375
+Mercovan Argentina,Oiltanking Argentina Soc.Anonima,2025-06,-3037500,0,0,-3037500,-637875,-3675375
 Mercovan Argentina,Organizacion Internacional Para Las Migraciones,2025-04,10494610,17139570,0,27634180,2203880,29838060
 Mercovan Argentina,Paises Bajos,2025-07,0,3315000,0,3315000,0,3315000
 Mercovan Argentina,Patagonia Sur S.A.S.,2025-08,1000000,0,0,1000000,210000,1210000
@@ -1689,7 +1689,7 @@ Mercovan Argentina,Posco Argentina Sau,2025-08,2110000,0,0,2110000,443100,255310
 Mercovan Argentina,Posco International Corporation,2025-01,0,11313380,0,11313380,0,11313380
 Mercovan Argentina,Renault Argentina S.A,2025-05,570000,0,0,570000,119700,689700
 Mercovan Argentina,Renault Argentina S.A,2025-07,17423360,16614400,0,34037760,3659520,37697280
-Mercovan Argentina,Romero Catalina Alejandra,2025-03,-8211520,0,0,-8211520,-1724848,9936368
+Mercovan Argentina,Romero Catalina Alejandra,2025-03,-8211520,0,0,-8211520,-1724848,-9936368
 Mercovan Argentina,Samsung Electronics Argentina S A,2025-01,320000,0,0,320000,67200,387200
 Mercovan Argentina,Samsung Electronics Argentina S A,2025-06,4766318,419045,0,5185363,1000927,6186290
 Mercovan Argentina,Samsung Electronics Argentina S A,2025-08,675000,0,0,675000,141750,816750
@@ -1701,7 +1701,7 @@ Mercovan Argentina,Schlumberger Argentina S. A.,2025-07,1200000,2722850,0,392285
 Mercovan Argentina,Schlumberger Argentina S. A.,2025-08,1600000,0,0,1600000,336000,1936000
 Mercovan Argentina,Secretaria De Cultura De La Nacion,2025-01,522645,0,0,522645,109755,632400
 Mercovan Argentina,Secretaria De Cultura De La Nacion,2025-05,1189587,0,0,1189587,249813,1439400
-Mercovan Argentina,Somos Sivori Asociacion Civil,2025-03,2314050,0,0,2314050,485950,9576000
+Mercovan Argentina,Somos Sivori Asociacion Civil,2025-03,2314050,0,0,2314050,485950,2800000
 Mercovan Argentina,Torres Albuernes Keny Yenny,2025-03,1155336,2620800,0,3776136,242424,4018560
 Mercovan Argentina,Total Austral Sociedad Anonima Sucursal Argentina,2025-01,573266,0,0,573266,120386,693652
 Mercovan Argentina,Total Austral Sociedad Anonima Sucursal Argentina,2025-02,0,372768,0,372768,0,372768
@@ -1719,16 +1719,16 @@ Mercovan Argentina,Wintershall Dea Argentina S.A,2025-02,320000,0,0,320000,67200
 Mercovan Argentina,Zelei Jozsef,2025-01,1310276,3414400,0,4724676,275286,4999962
 Nerococina,Agencia Numero Tres S.A.,2025-04,4580000,0,0,4580000,961800,5541800
 Nerococina,Bl Catering Srl,2025-04,4120044,0,0,4120044,865208,4985252
-Nerococina,Bl Catering Srl,2025-06,149800,0,0,149800,31458,1258320
+Nerococina,Bl Catering Srl,2025-06,149800,0,0,149800,31458,181258
 Nerococina,Criteria Wm S. A.,2025-01,3261500,0,0,3261500,684915,3946415
-Nerococina,Criteria Wm S. A.,2025-03,3807749,0,0,3807749,799627,13303435
+Nerococina,Criteria Wm S. A.,2025-03,3807749,0,0,3807749,799627,4607377
 Nerococina,Echeveste Arteaga Ignacio,2025-04,350000,0,0,350000,73500,423500
-Nerococina,Fathers S.R.L.,2025-06,6720000,0,0,6720000,1411200,24393600
+Nerococina,Fathers S.R.L.,2025-06,6720000,0,0,6720000,1411200,8131200
 Nerococina,Landeira Johana Gabriela,2025-02,1800000,0,0,1800000,378000,2178000
 Nerococina,Landeira Johana Gabriela,2025-03,400000,0,0,400000,84000,484000
 Nerococina,Mazal Bs. As.,2025-06,138400,0,0,138400,29064,167464
 Nerococina,Mazal Bs. As.,2025-07,69200,0,0,69200,14532,83732
-Nerococina,Pirelli Neumaticos Sociedad Anonima Industrial Y Comercial,2025-05,2212000,0,0,2212000,464520,4525400
+Nerococina,Pirelli Neumaticos Sociedad Anonima Industrial Y Comercial,2025-05,2212000,0,0,2212000,464520,2676520
 Nerococina,Pole Position Coffee,2025-04,1260000,0,0,1260000,264600,1524600
 Nerococina,Pole Position Coffee,2025-05,1680000,0,0,1680000,352800,2032800
 Nerococina,Pole Position Coffee,2025-06,1680000,0,0,1680000,352800,2032800
@@ -1911,25 +1911,25 @@ Ulog,Deposito Avellaneda Sur S.A.,2025-05,8044400,0,0,8044400,1689324,9733724
 Ulog,Interborders Srl,2025-06,3553000,0,0,3553000,746130,4299130
 Ulog,Interborders Srl,2025-07,1406500,0,0,1406500,295365,1701865
 Ulog,Interborders Srl,2025-08,136750,0,0,136750,28718,165468
-Ulog,Winehaus S.A.,2025-05,0,0,0,0,0,90877728
-Ulog,Winehaus S.A.,2025-06,0,0,0,0,0,7100006
+Ulog,Winehaus S.A.,2025-05,0,0,0,0,0,0
+Ulog,Winehaus S.A.,2025-06,0,0,0,0,0,0
 Unapa,Telecom Argentina Sociedad Anonima,2025-05,45240000,0,0,45240000,9500400,54740400
 Valenzuela Ricardo Patricio,Capital Markets Argentina S.A.,2025-01,0,6323000,0,6323000,0,6323000
 Valenzuela Ricardo Patricio,Capital Markets Argentina S.A.,2025-02,0,6500000,0,6500000,0,6500000
 Valenzuela Ricardo Patricio,Capital Markets Argentina S.A.,2025-03,0,6500000,0,6500000,0,6500000
 Valenzuela Ricardo Patricio,Capital Markets Argentina S.A.,2025-04,0,6500000,0,6500000,0,6500000
-Valenzuela Ricardo Patricio,Capital Markets Argentina S.A.,2025-05,0,0,0,0,0,32245590
+Valenzuela Ricardo Patricio,Capital Markets Argentina S.A.,2025-05,0,0,0,0,0,0
 Valenzuela Ricardo Patricio,Capital Markets Argentina S.A.,2025-06,13324624,0,0,13324624,2798171,16122795
 Valenzuela Ricardo Patricio,Capital Markets Argentina S.A.,2025-07,104862117,0,0,104862117,22021045,126883162
 Valenzuela Ricardo Patricio,Capital Markets Argentina S.A.,2025-08,11575644,0,0,11575644,2430885,14006529
-Viñas En Flor,-,2025-01,19761151,0,0,19761151,4149829,24222180
-Viñas En Flor,-,2025-02,15309197,0,0,15309197,3214918,19091915
-Viñas En Flor,-,2025-03,33554680,0,0,33554680,7046480,41631160
-Viñas En Flor,-,2025-04,33913361,0,0,33913361,7121839,41182000
-Viñas En Flor,-,2025-05,35995297,0,0,35995297,7559023,43926240
-Viñas En Flor,-,2025-06,58684671,0,0,58684671,12323754,73264385
-Viñas En Flor,-,2025-07,63615160,0,0,63615160,13359140,80354100
-Viñas En Flor,-,2025-08,59289774,0,0,59289774,12450811,74158785
+Viñas En Flor,-,2025-01,19761151,0,0,19761151,4149829,23910980
+Viñas En Flor,-,2025-02,15309197,0,0,15309197,3214918,18524115
+Viñas En Flor,-,2025-03,33554680,0,0,33554680,7046480,40601160
+Viñas En Flor,-,2025-04,33913361,0,0,33913361,7121839,41035200
+Viñas En Flor,-,2025-05,35995297,0,0,35995297,7559023,43554320
+Viñas En Flor,-,2025-06,58684671,0,0,58684671,12323754,71008425
+Viñas En Flor,-,2025-07,63615160,0,0,63615160,13359140,76974300
+Viñas En Flor,-,2025-08,59289774,0,0,59289774,12450811,71740585
 Viñas En Flor,Aguirre Rosa Corazon,2025-07,171570,0,0,171570,36030,207600
 Viñas En Flor,Alarcon Bruno Alfredo,2025-01,42479,0,0,42479,8921,51400
 Viñas En Flor,Alem Hector Leonardo,2025-05,450000,0,0,450000,94500,544500
@@ -1991,8 +1991,8 @@ Viñas En Flor,Di-Ga Tractores Sociedad Anonima,2025-03,633600,0,0,633600,133056
 Viñas En Flor,Diaz Eduardo Andres,2025-07,595041,0,0,595041,124959,720000
 Viñas En Flor,Diesel Frenos Srl,2025-04,69421,0,0,69421,14579,84000
 Viñas En Flor,Distlit S.A.S.,2025-08,73058,0,0,73058,15342,88400
-Viñas En Flor,Dux Software S.A.S.,2025-06,176033,0,0,176033,36967,643000
-Viñas En Flor,Estatica S.A.S.U.,2025-06,0,0,0,0,0,363400
+Viñas En Flor,Dux Software S.A.S.,2025-06,176033,0,0,176033,36967,213000
+Viñas En Flor,Estatica S.A.S.U.,2025-06,0,0,0,0,0,0
 Viñas En Flor,Estudio Mercer Sa,2025-03,304959,0,0,304959,64041,369000
 Viñas En Flor,Expreso Alex Srl,2025-08,121653,0,0,121653,25547,147200
 Viñas En Flor,Flor De Bodegas S. A. S.,2025-07,529752,0,0,529752,111248,641000
@@ -2000,7 +2000,7 @@ Viñas En Flor,Flor De Bodegas S. A. S.,2025-08,461157,0,0,461157,96843,558000
 Viñas En Flor,Fonda Mendoza S.A.,2025-06,806361,0,0,806361,169336,975697
 Viñas En Flor,Four Universe S.R.L,2025-08,190661,0,0,190661,40039,230700
 Viñas En Flor,Franco Juana,2025-03,1019008,0,0,1019008,213992,1233000
-Viñas En Flor,Fratres S.R.L.,2025-02,0,0,0,0,0,80000
+Viñas En Flor,Fratres S.R.L.,2025-02,0,0,0,0,0,0
 Viñas En Flor,Fratres S.R.L.,2025-04,208264,0,0,208264,43736,252000
 Viñas En Flor,Fratres S.R.L.,2025-05,525620,0,0,525620,110380,636000
 Viñas En Flor,Fratres S.R.L.,2025-06,381818,0,0,381818,80182,462000
@@ -2045,7 +2045,7 @@ Viñas En Flor,Lobo Saldaño Dana Valentina,2025-08,179421,0,0,179421,37679,2171
 Viñas En Flor,Lopez Camila Tamara,2025-01,4299406,0,0,4299406,902874,5202280
 Viñas En Flor,Lopez Camila Tamara,2025-02,2657604,0,0,2657604,558096,3215700
 Viñas En Flor,Lopez Camila Tamara,2025-03,9383640,0,0,9383640,1970560,11354200
-Viñas En Flor,Lopez Camila Tamara,2025-04,11291373,0,0,11291373,2371187,14572960
+Viñas En Flor,Lopez Camila Tamara,2025-04,11291373,0,0,11291373,2371187,13662560
 Viñas En Flor,Lopez Camila Tamara,2025-05,6788594,0,0,6788594,1425606,8214200
 Viñas En Flor,Los Nenecos S.R.L.,2025-06,1005029,0,0,1005029,211056,1216085
 Viñas En Flor,Los Nenecos S.R.L.,2025-08,1118637,0,0,1118637,234914,1353550
@@ -2070,7 +2070,7 @@ Viñas En Flor,Miguel Ernesto Galindo S.A.,2025-01,114380,0,0,114380,24020,13840
 Viñas En Flor,Miranda Oscari Luciana Milagros,2025-08,793388,0,0,793388,166612,960000
 Viñas En Flor,Mirolo Carlos Daniel,2025-04,3304959,0,0,3304959,694041,3999000
 Viñas En Flor,Mirolo Carlos Daniel,2025-06,477273,0,0,477273,100227,577500
-Viñas En Flor,Molinos San Jose S.A.,2025-04,348893,0,0,348893,73267,618160
+Viñas En Flor,Molinos San Jose S.A.,2025-04,348893,0,0,348893,73267,422160
 Viñas En Flor,Morales Maria Gabriela,2025-02,440992,0,0,440992,92608,533600
 Viñas En Flor,Mounier Jose Luis,2025-06,9840000,0,0,9840000,2066400,11906400
 Viñas En Flor,Muller Maximiliano,2025-06,378017,0,0,378017,79383,457400
@@ -2089,7 +2089,7 @@ Viñas En Flor,Ovc S.A.,2025-08,230661,0,0,230661,48439,279100
 Viñas En Flor,Ovejero Edgardo Alberto,2025-01,419009,0,0,419009,87991,507000
 Viñas En Flor,P & M Citrus S. R. L.,2025-05,330744,0,0,330744,69456,400200
 Viñas En Flor,Pablo Mauricio Barcellona S. A. S.,2025-08,307438,0,0,307438,64562,372000
-Viñas En Flor,Paez Mariana Silvina,2025-05,0,0,0,0,0,3267000
+Viñas En Flor,Paez Mariana Silvina,2025-05,0,0,0,0,0,0
 Viñas En Flor,Pecarrere Emanuel,2025-08,1564066,0,0,1564066,328454,1892520
 Viñas En Flor,Piatti Francisco Nicolas,2025-01,146777,0,0,146777,30823,177600
 Viñas En Flor,Piatti Francisco Nicolas,2025-03,214215,0,0,214215,44985,259200
@@ -2100,7 +2100,7 @@ Viñas En Flor,Pinturerias Rex S A,2025-03,68099,0,0,68099,14301,82400
 Viñas En Flor,Pinturerias Rex S A,2025-07,104133,0,0,104133,21867,126000
 Viñas En Flor,Portal Maria Elena,2025-01,327851,0,0,327851,68849,396700
 Viñas En Flor,Racedo Pablo,2025-02,145372,0,0,145372,30528,175900
-Viñas En Flor,Rafas S.A.,2025-05,0,0,0,0,0,3042000
+Viñas En Flor,Rafas S.A.,2025-05,0,0,0,0,0,0
 Viñas En Flor,Rame Travel Co 0822 S.R.L.,2025-03,251240,0,0,251240,52760,304000
 Viñas En Flor,Ramirez Maria Gabriela,2025-08,378099,0,0,378099,79401,457500
 Viñas En Flor,Ramirez Pablo,2025-07,427438,0,0,427438,89762,517200
@@ -2137,12 +2137,12 @@ Viñas En Flor,Turismo Del Norte Sociedad Anonima,2025-01,231405,0,0,231405,4859
 Viñas En Flor,Turismo Del Norte Sociedad Anonima,2025-02,99174,0,0,99174,20826,120000
 Viñas En Flor,Turismo Del Norte Sociedad Anonima,2025-08,36364,0,0,36364,7636,44000
 Viñas En Flor,"Turismo Tastil S.R.L,",2025-02,1398347,0,0,1398347,293653,1692000
-Viñas En Flor,"Turismo Tastil S.R.L,",2025-03,-727273,0,0,-727273,-152727,880000
-Viñas En Flor,Uma Travel Srl,2025-02,33058,0,0,33058,6942,156000
+Viñas En Flor,"Turismo Tastil S.R.L,",2025-03,-727273,0,0,-727273,-152727,-880000
+Viñas En Flor,Uma Travel Srl,2025-02,33058,0,0,33058,6942,40000
 Viñas En Flor,Uma Travel Srl,2025-03,1160331,0,0,1160331,243669,1404000
 Viñas En Flor,Uma Travel Srl,2025-04,66116,0,0,66116,13884,80000
 Viñas En Flor,Uma Travel Srl,2025-05,2206612,0,0,2206612,463388,2670000
-Viñas En Flor,Uma Travel Srl,2025-08,6169423,0,0,6169423,1295577,8513000
+Viñas En Flor,Uma Travel Srl,2025-08,6169423,0,0,6169423,1295577,7465000
 Viñas En Flor,Unq S.R.L.,2025-02,33058,0,0,33058,6942,40000
 Viñas En Flor,Unq S.R.L.,2025-03,829753,0,0,829753,174247,1004000
 Viñas En Flor,Unq S.R.L.,2025-07,190083,0,0,190083,39917,230000

@@ -22,22 +22,22 @@ De la Arena Martin,2025-05,Neto Ventas,11934321
 De la Arena Martin,2025-06,Neto Ventas,20424268
 De la Arena Martin,2025-07,Neto Ventas,3641712
 De la Arena Martin,2025-08,Neto Ventas,29339633
-Deposito Avellaneda Sur,2025-01,Neto Ventas,442585165
-Deposito Avellaneda Sur,2025-02,Neto Ventas,447482540
+Deposito Avellaneda Sur,2025-01,Neto Ventas,435087843
+Deposito Avellaneda Sur,2025-02,Neto Ventas,440751440
 Deposito Avellaneda Sur,2025-03,Neto Ventas,539117021
-Deposito Avellaneda Sur,2025-04,Neto Ventas,719550780
-Deposito Avellaneda Sur,2025-05,Neto Ventas,536428340
+Deposito Avellaneda Sur,2025-04,Neto Ventas,711990780
+Deposito Avellaneda Sur,2025-05,Neto Ventas,535581164
 Deposito Avellaneda Sur,2025-06,Neto Ventas,449800926
 Deposito Avellaneda Sur,2025-07,Neto Ventas,691953385
-Deposito Avellaneda Sur,2025-08,Neto Ventas,650892858
+Deposito Avellaneda Sur,2025-08,Neto Ventas,619068858
 Edelweiss Spedition,2025-01,Neto Ventas,18046388
-Edelweiss Spedition,2025-02,Neto Ventas,55638568
+Edelweiss Spedition,2025-02,Neto Ventas,31631508
 Edelweiss Spedition,2025-03,Neto Ventas,91745530
-Edelweiss Spedition,2025-04,Neto Ventas,93385610
+Edelweiss Spedition,2025-04,Neto Ventas,19936010
 Edelweiss Spedition,2025-05,Neto Ventas,59477812
-Edelweiss Spedition,2025-06,Neto Ventas,90931640
-Edelweiss Spedition,2025-07,Neto Ventas,86188170
-Edelweiss Spedition,2025-08,Neto Ventas,76382438
+Edelweiss Spedition,2025-06,Neto Ventas,57608240
+Edelweiss Spedition,2025-07,Neto Ventas,40873610
+Edelweiss Spedition,2025-08,Neto Ventas,34507358
 El Llamito,2025-01,Neto Ventas,15750000
 El Llamito,2025-02,Neto Ventas,21240000
 El Llamito,2025-03,Neto Ventas,21480000
@@ -63,12 +63,12 @@ Hermosalta SRL,2025-06,Neto Ventas,3161987
 Hermosalta SRL,2025-07,Neto Ventas,2337098
 Hermosalta SRL,2025-08,Neto Ventas,3478177
 L A R M Argentina,2025-01,Neto Ventas,74359301
-L A R M Argentina,2025-02,Neto Ventas,42290295
-L A R M Argentina,2025-03,Neto Ventas,72601477
-L A R M Argentina,2025-04,Neto Ventas,46393416
-L A R M Argentina,2025-05,Neto Ventas,56074890
-L A R M Argentina,2025-06,Neto Ventas,82281507
-L A R M Argentina,2025-07,Neto Ventas,138470776
+L A R M Argentina,2025-02,Neto Ventas,35674083
+L A R M Argentina,2025-03,Neto Ventas,67260477
+L A R M Argentina,2025-04,Neto Ventas,38006300
+L A R M Argentina,2025-05,Neto Ventas,46080638
+L A R M Argentina,2025-06,Neto Ventas,56893593
+L A R M Argentina,2025-07,Neto Ventas,113679396
 L A R M Argentina,2025-08,Neto Ventas,59834607
 Leoni Maria Jose,2025-01,Neto Ventas,4878236
 Leoni Maria Jose,2025-02,Neto Ventas,22971145
@@ -78,21 +78,21 @@ Leoni Maria Jose,2025-05,Neto Ventas,38115145
 Leoni Maria Jose,2025-06,Neto Ventas,21072201
 Leoni Maria Jose,2025-07,Neto Ventas,55647372
 Leoni Maria Jose,2025-08,Neto Ventas,43270538
-Liftvan International,2025-01,Neto Ventas,1225892150
+Liftvan International,2025-01,Neto Ventas,477531156
 Liftvan International,2025-02,Neto Ventas,561212348
-Liftvan International,2025-03,Neto Ventas,553860824
-Liftvan International,2025-04,Neto Ventas,578462310
-Liftvan International,2025-05,Neto Ventas,638234544
-Liftvan International,2025-06,Neto Ventas,287451810
-Liftvan International,2025-07,Neto Ventas,391224330
+Liftvan International,2025-03,Neto Ventas,477981774
+Liftvan International,2025-04,Neto Ventas,573309128
+Liftvan International,2025-05,Neto Ventas,561422962
+Liftvan International,2025-06,Neto Ventas,215689692
+Liftvan International,2025-07,Neto Ventas,370424330
 Liftvan International,2025-08,Neto Ventas,361285372
 Mercovan Argentina,2025-01,Neto Ventas,115303437
 Mercovan Argentina,2025-02,Neto Ventas,224612655
-Mercovan Argentina,2025-03,Neto Ventas,213334188
+Mercovan Argentina,2025-03,Neto Ventas,199557084
 Mercovan Argentina,2025-04,Neto Ventas,118099488
 Mercovan Argentina,2025-05,Neto Ventas,294598803
-Mercovan Argentina,2025-06,Neto Ventas,116546280
-Mercovan Argentina,2025-07,Neto Ventas,414284972
+Mercovan Argentina,2025-06,Neto Ventas,95715786
+Mercovan Argentina,2025-07,Neto Ventas,295696572
 Mercovan Argentina,2025-08,Neto Ventas,126240829
 Nerococina,2025-01,Neto Ventas,3261500
 Nerococina,2025-02,Neto Ventas,1800000
@@ -157,22 +157,22 @@ De la Arena Martin,2025-05,IVA Ventas,123879
 De la Arena Martin,2025-06,IVA Ventas,654857
 De la Arena Martin,2025-07,IVA Ventas,0
 De la Arena Martin,2025-08,IVA Ventas,361284
-Deposito Avellaneda Sur,2025-01,IVA Ventas,91397653
-Deposito Avellaneda Sur,2025-02,IVA Ventas,90539571
+Deposito Avellaneda Sur,2025-01,IVA Ventas,89823215
+Deposito Avellaneda Sur,2025-02,IVA Ventas,89126039
 Deposito Avellaneda Sur,2025-03,IVA Ventas,107389158
-Deposito Avellaneda Sur,2025-04,IVA Ventas,150696960
-Deposito Avellaneda Sur,2025-05,IVA Ventas,107334932
+Deposito Avellaneda Sur,2025-04,IVA Ventas,149109360
+Deposito Avellaneda Sur,2025-05,IVA Ventas,107157026
 Deposito Avellaneda Sur,2025-06,IVA Ventas,90085491
 Deposito Avellaneda Sur,2025-07,IVA Ventas,137293234
 Deposito Avellaneda Sur,2025-08,IVA Ventas,129012088
 Edelweiss Spedition,2025-01,IVA Ventas,1289225
-Edelweiss Spedition,2025-02,IVA Ventas,3877513
+Edelweiss Spedition,2025-02,IVA Ventas,1678393
 Edelweiss Spedition,2025-03,IVA Ventas,9829633
-Edelweiss Spedition,2025-04,IVA Ventas,15349867
+Edelweiss Spedition,2025-04,IVA Ventas,-74549
 Edelweiss Spedition,2025-05,IVA Ventas,3001093
 Edelweiss Spedition,2025-06,IVA Ventas,2268863
-Edelweiss Spedition,2025-07,IVA Ventas,7090832
-Edelweiss Spedition,2025-08,IVA Ventas,6023257
+Edelweiss Spedition,2025-07,IVA Ventas,2736272
+Edelweiss Spedition,2025-08,IVA Ventas,3015889
 El Llamito,2025-01,IVA Ventas,3307500
 El Llamito,2025-02,IVA Ventas,4460400
 El Llamito,2025-03,IVA Ventas,4510800
@@ -199,11 +199,11 @@ Hermosalta SRL,2025-07,IVA Ventas,0
 Hermosalta SRL,2025-08,IVA Ventas,0
 L A R M Argentina,2025-01,IVA Ventas,13084864
 L A R M Argentina,2025-02,IVA Ventas,4988633
-L A R M Argentina,2025-03,IVA Ventas,6847344
-L A R M Argentina,2025-04,IVA Ventas,5253149
+L A R M Argentina,2025-03,IVA Ventas,6754734
+L A R M Argentina,2025-04,IVA Ventas,3491853
 L A R M Argentina,2025-05,IVA Ventas,4188762
-L A R M Argentina,2025-06,IVA Ventas,8589974
-L A R M Argentina,2025-07,IVA Ventas,11769287
+L A R M Argentina,2025-06,IVA Ventas,7517830
+L A R M Argentina,2025-07,IVA Ventas,8502783
 L A R M Argentina,2025-08,IVA Ventas,6919163
 Leoni Maria Jose,2025-01,IVA Ventas,749891
 Leoni Maria Jose,2025-02,IVA Ventas,3491718
@@ -213,21 +213,21 @@ Leoni Maria Jose,2025-05,IVA Ventas,4000711
 Leoni Maria Jose,2025-06,IVA Ventas,2570904
 Leoni Maria Jose,2025-07,IVA Ventas,6285730
 Leoni Maria Jose,2025-08,IVA Ventas,5649013
-Liftvan International,2025-01,IVA Ventas,536209960
+Liftvan International,2025-01,IVA Ventas,47517798
 Liftvan International,2025-02,IVA Ventas,46909378
-Liftvan International,2025-03,IVA Ventas,65843117
-Liftvan International,2025-04,IVA Ventas,39460065
-Liftvan International,2025-05,IVA Ventas,73390782
-Liftvan International,2025-06,IVA Ventas,28173070
-Liftvan International,2025-07,IVA Ventas,55631310
+Liftvan International,2025-03,IVA Ventas,56770361
+Liftvan International,2025-04,IVA Ventas,39362131
+Liftvan International,2025-05,IVA Ventas,57462244
+Liftvan International,2025-06,IVA Ventas,20239988
+Liftvan International,2025-07,IVA Ventas,51263310
 Liftvan International,2025-08,IVA Ventas,45525699
 Mercovan Argentina,2025-01,IVA Ventas,12872043
 Mercovan Argentina,2025-02,IVA Ventas,28596127
-Mercovan Argentina,2025-03,IVA Ventas,22725941
+Mercovan Argentina,2025-03,IVA Ventas,19832749
 Mercovan Argentina,2025-04,IVA Ventas,16372119
 Mercovan Argentina,2025-05,IVA Ventas,58114957
-Mercovan Argentina,2025-06,IVA Ventas,321609
-Mercovan Argentina,2025-07,IVA Ventas,38936432
+Mercovan Argentina,2025-06,IVA Ventas,-3239201
+Mercovan Argentina,2025-07,IVA Ventas,22894952
 Mercovan Argentina,2025-08,IVA Ventas,18552623
 Nerococina,2025-01,IVA Ventas,684915
 Nerococina,2025-02,IVA Ventas,378000
@@ -269,7 +269,7 @@ Viñas En Flor,2025-05,IVA Ventas,13258930
 Viñas En Flor,2025-06,IVA Ventas,15619858
 Viñas En Flor,2025-07,IVA Ventas,20361238
 Viñas En Flor,2025-08,IVA Ventas,15960202
-BA Comex,2025-01,Imp. Total Ventas,29143751
+BA Comex,2025-01,Imp. Total Ventas,14963269
 BA Comex,2025-02,Imp. Total Ventas,20207185
 BA Comex,2025-03,Imp. Total Ventas,11695770
 BA Comex,2025-04,Imp. Total Ventas,9232153
@@ -282,7 +282,7 @@ De la Arena Coll Manuel,2025-02,Imp. Total Ventas,4000000
 De la Arena Coll Manuel,2025-03,Imp. Total Ventas,4000000
 De la Arena Coll Manuel,2025-04,Imp. Total Ventas,4000000
 De la Arena Coll Manuel,2025-05,Imp. Total Ventas,4338500
-De la Arena Coll Manuel,2025-06,Imp. Total Ventas,6166500
+De la Arena Coll Manuel,2025-06,Imp. Total Ventas,6162500
 De la Arena Coll Manuel,2025-07,Imp. Total Ventas,4338500
 De la Arena Martin,2025-01,Imp. Total Ventas,11577150
 De la Arena Martin,2025-02,Imp. Total Ventas,24438382
@@ -291,23 +291,23 @@ De la Arena Martin,2025-04,Imp. Total Ventas,19698059
 De la Arena Martin,2025-05,Imp. Total Ventas,12058200
 De la Arena Martin,2025-06,Imp. Total Ventas,21079125
 De la Arena Martin,2025-07,Imp. Total Ventas,3641712
-De la Arena Martin,2025-08,Imp. Total Ventas,33080917
-Deposito Avellaneda Sur,2025-01,Imp. Total Ventas,622109348
-Deposito Avellaneda Sur,2025-02,Imp. Total Ventas,576659505
-Deposito Avellaneda Sur,2025-03,Imp. Total Ventas,712612706
-Deposito Avellaneda Sur,2025-04,Imp. Total Ventas,920211583
-Deposito Avellaneda Sur,2025-05,Imp. Total Ventas,696743629
-Deposito Avellaneda Sur,2025-06,Imp. Total Ventas,753538761
-Deposito Avellaneda Sur,2025-07,Imp. Total Ventas,919113088
-Deposito Avellaneda Sur,2025-08,Imp. Total Ventas,837805590
-Edelweiss Spedition,2025-01,Imp. Total Ventas,19369033
-Edelweiss Spedition,2025-02,Imp. Total Ventas,61153801
-Edelweiss Spedition,2025-03,Imp. Total Ventas,102101272
-Edelweiss Spedition,2025-04,Imp. Total Ventas,113427619
+De la Arena Martin,2025-08,Imp. Total Ventas,29700917
+Deposito Avellaneda Sur,2025-01,Imp. Total Ventas,524911052
+Deposito Avellaneda Sur,2025-02,Imp. Total Ventas,529877481
+Deposito Avellaneda Sur,2025-03,Imp. Total Ventas,646506192
+Deposito Avellaneda Sur,2025-04,Imp. Total Ventas,861100145
+Deposito Avellaneda Sur,2025-05,Imp. Total Ventas,642738193
+Deposito Avellaneda Sur,2025-06,Imp. Total Ventas,539886417
+Deposito Avellaneda Sur,2025-07,Imp. Total Ventas,829246630
+Deposito Avellaneda Sur,2025-08,Imp. Total Ventas,748080948
+Edelweiss Spedition,2025-01,Imp. Total Ventas,19335613
+Edelweiss Spedition,2025-02,Imp. Total Ventas,33309901
+Edelweiss Spedition,2025-03,Imp. Total Ventas,101575164
+Edelweiss Spedition,2025-04,Imp. Total Ventas,19861461
 Edelweiss Spedition,2025-05,Imp. Total Ventas,62478905
-Edelweiss Spedition,2025-06,Imp. Total Ventas,93199317
-Edelweiss Spedition,2025-07,Imp. Total Ventas,93279002
-Edelweiss Spedition,2025-08,Imp. Total Ventas,82405695
+Edelweiss Spedition,2025-06,Imp. Total Ventas,59875917
+Edelweiss Spedition,2025-07,Imp. Total Ventas,43609882
+Edelweiss Spedition,2025-08,Imp. Total Ventas,37523247
 El Llamito,2025-01,Imp. Total Ventas,19057500
 El Llamito,2025-02,Imp. Total Ventas,25700400
 El Llamito,2025-03,Imp. Total Ventas,25990800
@@ -316,7 +316,7 @@ El Llamito,2025-05,Imp. Total Ventas,41490900
 El Llamito,2025-06,Imp. Total Ventas,28773800
 El Llamito,2025-07,Imp. Total Ventas,46863300
 El Llamito,2025-08,Imp. Total Ventas,15912000
-El Marques,2025-01,Imp. Total Ventas,49187556
+El Marques,2025-01,Imp. Total Ventas,29183280
 El Marques,2025-02,Imp. Total Ventas,29509315
 El Marques,2025-03,Imp. Total Ventas,30170929
 El Marques,2025-04,Imp. Total Ventas,31829361
@@ -326,50 +326,50 @@ El Marques,2025-07,Imp. Total Ventas,34276925
 El Marques,2025-08,Imp. Total Ventas,21440232
 Hermosalta SRL,2025-01,Imp. Total Ventas,24028590
 Hermosalta SRL,2025-02,Imp. Total Ventas,1224000
-Hermosalta SRL,2025-03,Imp. Total Ventas,4591261
+Hermosalta SRL,2025-03,Imp. Total Ventas,3624309
 Hermosalta SRL,2025-04,Imp. Total Ventas,4261393
 Hermosalta SRL,2025-05,Imp. Total Ventas,2678587
 Hermosalta SRL,2025-06,Imp. Total Ventas,3161987
 Hermosalta SRL,2025-07,Imp. Total Ventas,2337098
 Hermosalta SRL,2025-08,Imp. Total Ventas,3478177
-L A R M Argentina,2025-01,Imp. Total Ventas,107879215
-L A R M Argentina,2025-02,Imp. Total Ventas,82852973
-L A R M Argentina,2025-03,Imp. Total Ventas,88455305
-L A R M Argentina,2025-04,Imp. Total Ventas,80136125
-L A R M Argentina,2025-05,Imp. Total Ventas,68374607
-L A R M Argentina,2025-06,Imp. Total Ventas,102571140
-L A R M Argentina,2025-07,Imp. Total Ventas,155846298
-L A R M Argentina,2025-08,Imp. Total Ventas,72014737
+L A R M Argentina,2025-01,Imp. Total Ventas,87444167
+L A R M Argentina,2025-02,Imp. Total Ventas,40662721
+L A R M Argentina,2025-03,Imp. Total Ventas,74014147
+L A R M Argentina,2025-04,Imp. Total Ventas,41498145
+L A R M Argentina,2025-05,Imp. Total Ventas,50269399
+L A R M Argentina,2025-06,Imp. Total Ventas,64411422
+L A R M Argentina,2025-07,Imp. Total Ventas,122182180
+L A R M Argentina,2025-08,Imp. Total Ventas,66753771
 Leoni Maria Jose,2025-01,Imp. Total Ventas,5628127
-Leoni Maria Jose,2025-02,Imp. Total Ventas,30259839
-Leoni Maria Jose,2025-03,Imp. Total Ventas,49575922
-Leoni Maria Jose,2025-04,Imp. Total Ventas,49768895
-Leoni Maria Jose,2025-05,Imp. Total Ventas,71500522
-Leoni Maria Jose,2025-06,Imp. Total Ventas,47546197
-Leoni Maria Jose,2025-07,Imp. Total Ventas,93889950
-Leoni Maria Jose,2025-08,Imp. Total Ventas,124720001
-Liftvan International,2025-01,Imp. Total Ventas,1770132928
-Liftvan International,2025-02,Imp. Total Ventas,611306684
-Liftvan International,2025-03,Imp. Total Ventas,941271505
-Liftvan International,2025-04,Imp. Total Ventas,698537688
-Liftvan International,2025-05,Imp. Total Ventas,723541273
-Liftvan International,2025-06,Imp. Total Ventas,441588394
-Liftvan International,2025-07,Imp. Total Ventas,454590389
-Liftvan International,2025-08,Imp. Total Ventas,446844613
+Leoni Maria Jose,2025-02,Imp. Total Ventas,28916391
+Leoni Maria Jose,2025-03,Imp. Total Ventas,48649034
+Leoni Maria Jose,2025-04,Imp. Total Ventas,25547423
+Leoni Maria Jose,2025-05,Imp. Total Ventas,70079324
+Leoni Maria Jose,2025-06,Imp. Total Ventas,45247485
+Leoni Maria Jose,2025-07,Imp. Total Ventas,93129070
+Leoni Maria Jose,2025-08,Imp. Total Ventas,79954425
+Liftvan International,2025-01,Imp. Total Ventas,525051098
+Liftvan International,2025-02,Imp. Total Ventas,608120556
+Liftvan International,2025-03,Imp. Total Ventas,534753223
+Liftvan International,2025-04,Imp. Total Ventas,612675744
+Liftvan International,2025-05,Imp. Total Ventas,618886363
+Liftvan International,2025-06,Imp. Total Ventas,235930900
+Liftvan International,2025-07,Imp. Total Ventas,421688877
+Liftvan International,2025-08,Imp. Total Ventas,406813395
 Mercovan Argentina,2025-01,Imp. Total Ventas,128173344
 Mercovan Argentina,2025-02,Imp. Total Ventas,253207702
-Mercovan Argentina,2025-03,Imp. Total Ventas,270352556
-Mercovan Argentina,2025-04,Imp. Total Ventas,135318327
+Mercovan Argentina,2025-03,Imp. Total Ventas,219390922
+Mercovan Argentina,2025-04,Imp. Total Ventas,134471607
 Mercovan Argentina,2025-05,Imp. Total Ventas,352713761
-Mercovan Argentina,2025-06,Imp. Total Ventas,-845242875
-Mercovan Argentina,2025-07,Imp. Total Ventas,453221407
-Mercovan Argentina,2025-08,Imp. Total Ventas,159023314
+Mercovan Argentina,2025-06,Imp. Total Ventas,92476587
+Mercovan Argentina,2025-07,Imp. Total Ventas,318591527
+Mercovan Argentina,2025-08,Imp. Total Ventas,144796134
 Nerococina,2025-01,Imp. Total Ventas,3946415
 Nerococina,2025-02,Imp. Total Ventas,2178000
-Nerococina,2025-03,Imp. Total Ventas,13787435
+Nerococina,2025-03,Imp. Total Ventas,5091377
 Nerococina,2025-04,Imp. Total Ventas,12475152
-Nerococina,2025-05,Imp. Total Ventas,6558200
-Nerococina,2025-06,Imp. Total Ventas,32555454
+Nerococina,2025-05,Imp. Total Ventas,4709320
+Nerococina,2025-06,Imp. Total Ventas,15215992
 Nerococina,2025-07,Imp. Total Ventas,2116532
 Nerococina,2025-08,Imp. Total Ventas,5178921
 U-Bros,2025-01,Imp. Total Ventas,11271714
@@ -383,8 +383,8 @@ U-Bros,2025-08,Imp. Total Ventas,17487181
 Ulog,2025-01,Imp. Total Ventas,4699830
 Ulog,2025-03,Imp. Total Ventas,9008014
 Ulog,2025-04,Imp. Total Ventas,9365110
-Ulog,2025-05,Imp. Total Ventas,100611452
-Ulog,2025-06,Imp. Total Ventas,11399136
+Ulog,2025-05,Imp. Total Ventas,9733724
+Ulog,2025-06,Imp. Total Ventas,4299130
 Ulog,2025-07,Imp. Total Ventas,1701865
 Ulog,2025-08,Imp. Total Ventas,1134678
 Unapa,2025-05,Imp. Total Ventas,54740400
@@ -392,18 +392,18 @@ Valenzuela Ricardo Patricio,2025-01,Imp. Total Ventas,6323000
 Valenzuela Ricardo Patricio,2025-02,Imp. Total Ventas,6500000
 Valenzuela Ricardo Patricio,2025-03,Imp. Total Ventas,6500000
 Valenzuela Ricardo Patricio,2025-04,Imp. Total Ventas,6500000
-Valenzuela Ricardo Patricio,2025-05,Imp. Total Ventas,32245590
+Valenzuela Ricardo Patricio,2025-05,Imp. Total Ventas,0
 Valenzuela Ricardo Patricio,2025-06,Imp. Total Ventas,16122795
 Valenzuela Ricardo Patricio,2025-07,Imp. Total Ventas,126883162
 Valenzuela Ricardo Patricio,2025-08,Imp. Total Ventas,14006529
-Viñas En Flor,2025-01,Imp. Total Ventas,60882766
-Viñas En Flor,2025-02,Imp. Total Ventas,79155379
-Viñas En Flor,2025-03,Imp. Total Ventas,87927731
-Viñas En Flor,2025-04,Imp. Total Ventas,147527048
-Viñas En Flor,2025-05,Imp. Total Ventas,83077575
-Viñas En Flor,2025-06,Imp. Total Ventas,97334783
-Viñas En Flor,2025-07,Imp. Total Ventas,120699531
-Viñas En Flor,2025-08,Imp. Total Ventas,95427577
+Viñas En Flor,2025-01,Imp. Total Ventas,60571566
+Viñas En Flor,2025-02,Imp. Total Ventas,78391579
+Viñas En Flor,2025-03,Imp. Total Ventas,85137731
+Viñas En Flor,2025-04,Imp. Total Ventas,146273848
+Viñas En Flor,2025-05,Imp. Total Ventas,76396655
+Viñas En Flor,2025-06,Imp. Total Ventas,94285423
+Viñas En Flor,2025-07,Imp. Total Ventas,117319731
+Viñas En Flor,2025-08,Imp. Total Ventas,91961377
 BA Comex,2025-01,Neto Compras,1648089
 BA Comex,2025-02,Neto Compras,3017082
 BA Comex,2025-03,Neto Compras,2048298
@@ -677,7 +677,7 @@ Viñas En Flor,2025-08,IVA Compras,-7861219
 BA Comex,2025-01,Imp. Total Compras,1937222
 BA Comex,2025-02,Imp. Total Compras,3711373
 BA Comex,2025-03,Imp. Total Compras,2540192
-BA Comex,2025-04,Imp. Total Compras,2091700
+BA Comex,2025-04,Imp. Total Compras,1992192
 BA Comex,2025-05,Imp. Total Compras,2388224
 BA Comex,2025-06,Imp. Total Compras,1777541
 BA Comex,2025-07,Imp. Total Compras,2522963
@@ -689,29 +689,29 @@ De la Arena Coll Manuel,2025-04,Imp. Total Compras,674964
 De la Arena Coll Manuel,2025-05,Imp. Total Compras,5142062
 De la Arena Coll Manuel,2025-06,Imp. Total Compras,463094
 De la Arena Coll Manuel,2025-07,Imp. Total Compras,551680
-De la Arena Martin,2025-01,Imp. Total Compras,57310189
-De la Arena Martin,2025-02,Imp. Total Compras,3500041
+De la Arena Martin,2025-01,Imp. Total Compras,22310187
+De la Arena Martin,2025-02,Imp. Total Compras,2416033
 De la Arena Martin,2025-03,Imp. Total Compras,1346901
 De la Arena Martin,2025-04,Imp. Total Compras,2967497
 De la Arena Martin,2025-05,Imp. Total Compras,6031421
 De la Arena Martin,2025-06,Imp. Total Compras,37500007
 De la Arena Martin,2025-07,Imp. Total Compras,14559009
 De la Arena Martin,2025-08,Imp. Total Compras,2948853
-Deposito Avellaneda Sur,2025-01,Imp. Total Compras,476073338
-Deposito Avellaneda Sur,2025-02,Imp. Total Compras,1451453855
-Deposito Avellaneda Sur,2025-03,Imp. Total Compras,482855660
-Deposito Avellaneda Sur,2025-04,Imp. Total Compras,552407230
-Deposito Avellaneda Sur,2025-05,Imp. Total Compras,621092004
-Deposito Avellaneda Sur,2025-06,Imp. Total Compras,-2147483648
-Deposito Avellaneda Sur,2025-07,Imp. Total Compras,422847448
-Deposito Avellaneda Sur,2025-08,Imp. Total Compras,549915223
+Deposito Avellaneda Sur,2025-01,Imp. Total Compras,439311476
+Deposito Avellaneda Sur,2025-02,Imp. Total Compras,473405417
+Deposito Avellaneda Sur,2025-03,Imp. Total Compras,427582796
+Deposito Avellaneda Sur,2025-04,Imp. Total Compras,506546230
+Deposito Avellaneda Sur,2025-05,Imp. Total Compras,575208424
+Deposito Avellaneda Sur,2025-06,Imp. Total Compras,413785593
+Deposito Avellaneda Sur,2025-07,Imp. Total Compras,417959268
+Deposito Avellaneda Sur,2025-08,Imp. Total Compras,543423521
 Edelweiss Spedition,2025-01,Imp. Total Compras,35863144
-Edelweiss Spedition,2025-02,Imp. Total Compras,47383696
-Edelweiss Spedition,2025-03,Imp. Total Compras,84095757
-Edelweiss Spedition,2025-04,Imp. Total Compras,58513249
+Edelweiss Spedition,2025-02,Imp. Total Compras,47352058
+Edelweiss Spedition,2025-03,Imp. Total Compras,78954437
+Edelweiss Spedition,2025-04,Imp. Total Compras,55410809
 Edelweiss Spedition,2025-05,Imp. Total Compras,41731743
-Edelweiss Spedition,2025-06,Imp. Total Compras,26452544
-Edelweiss Spedition,2025-07,Imp. Total Compras,33394340
+Edelweiss Spedition,2025-06,Imp. Total Compras,24652544
+Edelweiss Spedition,2025-07,Imp. Total Compras,25136164
 Edelweiss Spedition,2025-08,Imp. Total Compras,15321331
 El Llamito,2025-01,Imp. Total Compras,0
 El Llamito,2025-02,Imp. Total Compras,0
@@ -733,82 +733,82 @@ Hermosalta SRL,2025-01,Imp. Total Compras,39267790
 Hermosalta SRL,2025-02,Imp. Total Compras,45869254
 Hermosalta SRL,2025-03,Imp. Total Compras,31887109
 Hermosalta SRL,2025-04,Imp. Total Compras,40176318
-Hermosalta SRL,2025-05,Imp. Total Compras,49819858
-Hermosalta SRL,2025-06,Imp. Total Compras,39256814
+Hermosalta SRL,2025-05,Imp. Total Compras,42559858
+Hermosalta SRL,2025-06,Imp. Total Compras,36410814
 Hermosalta SRL,2025-07,Imp. Total Compras,33675640
 Hermosalta SRL,2025-08,Imp. Total Compras,37475910
 L A R M Argentina,2025-01,Imp. Total Compras,11790520
-L A R M Argentina,2025-02,Imp. Total Compras,13797056
+L A R M Argentina,2025-02,Imp. Total Compras,9069680
 L A R M Argentina,2025-03,Imp. Total Compras,9175331
-L A R M Argentina,2025-04,Imp. Total Compras,11259371
+L A R M Argentina,2025-04,Imp. Total Compras,11223371
 L A R M Argentina,2025-05,Imp. Total Compras,10744379
-L A R M Argentina,2025-06,Imp. Total Compras,8005390
-L A R M Argentina,2025-07,Imp. Total Compras,34327750
-L A R M Argentina,2025-08,Imp. Total Compras,16055722
-Leoni Maria Jose,2025-01,Imp. Total Compras,19275861
-Leoni Maria Jose,2025-02,Imp. Total Compras,5225690
+L A R M Argentina,2025-06,Imp. Total Compras,7896490
+L A R M Argentina,2025-07,Imp. Total Compras,23405152
+L A R M Argentina,2025-08,Imp. Total Compras,14945322
+Leoni Maria Jose,2025-01,Imp. Total Compras,16961749
+Leoni Maria Jose,2025-02,Imp. Total Compras,2425690
 Leoni Maria Jose,2025-03,Imp. Total Compras,4103780
-Leoni Maria Jose,2025-04,Imp. Total Compras,3796487
+Leoni Maria Jose,2025-04,Imp. Total Compras,3477189
 Leoni Maria Jose,2025-05,Imp. Total Compras,8611997
 Leoni Maria Jose,2025-06,Imp. Total Compras,7843629
 Leoni Maria Jose,2025-07,Imp. Total Compras,8957970
-Leoni Maria Jose,2025-08,Imp. Total Compras,3816521
-Liftvan International,2025-01,Imp. Total Compras,194613822
-Liftvan International,2025-02,Imp. Total Compras,237537794
-Liftvan International,2025-03,Imp. Total Compras,281061152
-Liftvan International,2025-04,Imp. Total Compras,279712187
-Liftvan International,2025-05,Imp. Total Compras,284524774
-Liftvan International,2025-06,Imp. Total Compras,332856283
-Liftvan International,2025-07,Imp. Total Compras,300599038
-Liftvan International,2025-08,Imp. Total Compras,248712192
-Mercovan Argentina,2025-01,Imp. Total Compras,54433736
+Leoni Maria Jose,2025-08,Imp. Total Compras,3805521
+Liftvan International,2025-01,Imp. Total Compras,165292982
+Liftvan International,2025-02,Imp. Total Compras,223280012
+Liftvan International,2025-03,Imp. Total Compras,246416248
+Liftvan International,2025-04,Imp. Total Compras,249663445
+Liftvan International,2025-05,Imp. Total Compras,270292152
+Liftvan International,2025-06,Imp. Total Compras,249234337
+Liftvan International,2025-07,Imp. Total Compras,276550928
+Liftvan International,2025-08,Imp. Total Compras,223676220
+Mercovan Argentina,2025-01,Imp. Total Compras,50019652
 Mercovan Argentina,2025-02,Imp. Total Compras,85669178
 Mercovan Argentina,2025-03,Imp. Total Compras,101288953
 Mercovan Argentina,2025-04,Imp. Total Compras,92127048
-Mercovan Argentina,2025-05,Imp. Total Compras,153277997
-Mercovan Argentina,2025-06,Imp. Total Compras,114611749
-Mercovan Argentina,2025-07,Imp. Total Compras,149161215
-Mercovan Argentina,2025-08,Imp. Total Compras,364796024
-Nerococina,2025-01,Imp. Total Compras,4531232
-Nerococina,2025-02,Imp. Total Compras,7423575
+Mercovan Argentina,2025-05,Imp. Total Compras,123139611
+Mercovan Argentina,2025-06,Imp. Total Compras,96678347
+Mercovan Argentina,2025-07,Imp. Total Compras,143968503
+Mercovan Argentina,2025-08,Imp. Total Compras,170721548
+Nerococina,2025-01,Imp. Total Compras,4343438
+Nerococina,2025-02,Imp. Total Compras,7059391
 Nerococina,2025-03,Imp. Total Compras,10642348
 Nerococina,2025-04,Imp. Total Compras,8931543
-Nerococina,2025-05,Imp. Total Compras,15543474
-Nerococina,2025-06,Imp. Total Compras,433285427
+Nerococina,2025-05,Imp. Total Compras,14912200
+Nerococina,2025-06,Imp. Total Compras,7408481
 Nerococina,2025-07,Imp. Total Compras,7539400
-Nerococina,2025-08,Imp. Total Compras,6540613
+Nerococina,2025-08,Imp. Total Compras,6496153
 U-Bros,2025-01,Imp. Total Compras,1125301
 U-Bros,2025-02,Imp. Total Compras,6047576
 U-Bros,2025-03,Imp. Total Compras,826956
 U-Bros,2025-04,Imp. Total Compras,2468516
-U-Bros,2025-05,Imp. Total Compras,2396768
-U-Bros,2025-06,Imp. Total Compras,3676199
-U-Bros,2025-07,Imp. Total Compras,3478158
-U-Bros,2025-08,Imp. Total Compras,1885443
+U-Bros,2025-05,Imp. Total Compras,2145184
+U-Bros,2025-06,Imp. Total Compras,3613751
+U-Bros,2025-07,Imp. Total Compras,3364416
+U-Bros,2025-08,Imp. Total Compras,1861629
 Ulog,2025-01,Imp. Total Compras,1392455
 Ulog,2025-03,Imp. Total Compras,196114
 Ulog,2025-04,Imp. Total Compras,636789
-Ulog,2025-05,Imp. Total Compras,10965063
+Ulog,2025-05,Imp. Total Compras,6253973
 Ulog,2025-06,Imp. Total Compras,244789
-Ulog,2025-07,Imp. Total Compras,87879975
-Ulog,2025-08,Imp. Total Compras,156994
-Unapa,2025-05,Imp. Total Compras,35060460
-Valenzuela Ricardo Patricio,2025-01,Imp. Total Compras,2173393
+Ulog,2025-07,Imp. Total Compras,6103335
+Ulog,2025-08,Imp. Total Compras,-5146
+Unapa,2025-05,Imp. Total Compras,34929360
+Valenzuela Ricardo Patricio,2025-01,Imp. Total Compras,2160349
 Valenzuela Ricardo Patricio,2025-02,Imp. Total Compras,1687121
 Valenzuela Ricardo Patricio,2025-03,Imp. Total Compras,2136432
 Valenzuela Ricardo Patricio,2025-04,Imp. Total Compras,3913646
-Valenzuela Ricardo Patricio,2025-05,Imp. Total Compras,5052441
-Valenzuela Ricardo Patricio,2025-06,Imp. Total Compras,4156139
+Valenzuela Ricardo Patricio,2025-05,Imp. Total Compras,4152441
+Valenzuela Ricardo Patricio,2025-06,Imp. Total Compras,3225339
 Valenzuela Ricardo Patricio,2025-07,Imp. Total Compras,6306773
-Valenzuela Ricardo Patricio,2025-08,Imp. Total Compras,6581860
-Viñas En Flor,2025-01,Imp. Total Compras,19674274
-Viñas En Flor,2025-02,Imp. Total Compras,39498921
-Viñas En Flor,2025-03,Imp. Total Compras,51420430
-Viñas En Flor,2025-04,Imp. Total Compras,42757382
-Viñas En Flor,2025-05,Imp. Total Compras,44024993
-Viñas En Flor,2025-06,Imp. Total Compras,113292786
-Viñas En Flor,2025-07,Imp. Total Compras,213193325
-Viñas En Flor,2025-08,Imp. Total Compras,110036207
+Valenzuela Ricardo Patricio,2025-08,Imp. Total Compras,6398980
+Viñas En Flor,2025-01,Imp. Total Compras,19597164
+Viñas En Flor,2025-02,Imp. Total Compras,35656735
+Viñas En Flor,2025-03,Imp. Total Compras,49707374
+Viñas En Flor,2025-04,Imp. Total Compras,42206018
+Viñas En Flor,2025-05,Imp. Total Compras,40234113
+Viñas En Flor,2025-06,Imp. Total Compras,113142666
+Viñas En Flor,2025-07,Imp. Total Compras,212691725
+Viñas En Flor,2025-08,Imp. Total Compras,-38174793
 BA Comex,2025-01,Saldo IVA,2353208
 BA Comex,2025-02,Saldo IVA,2873445
 BA Comex,2025-03,Saldo IVA,1599700
@@ -832,22 +832,22 @@ De la Arena Martin,2025-05,Saldo IVA,-227275
 De la Arena Martin,2025-06,Saldo IVA,-2875300
 De la Arena Martin,2025-07,Saldo IVA,-370542
 De la Arena Martin,2025-08,Saldo IVA,118425
-Deposito Avellaneda Sur,2025-01,Saldo IVA,23493798
-Deposito Avellaneda Sur,2025-02,Saldo IVA,16318837
+Deposito Avellaneda Sur,2025-01,Saldo IVA,21919360
+Deposito Avellaneda Sur,2025-02,Saldo IVA,14905305
 Deposito Avellaneda Sur,2025-03,Saldo IVA,39808322
-Deposito Avellaneda Sur,2025-04,Saldo IVA,72704737
-Deposito Avellaneda Sur,2025-05,Saldo IVA,17165182
+Deposito Avellaneda Sur,2025-04,Saldo IVA,71117137
+Deposito Avellaneda Sur,2025-05,Saldo IVA,16987276
 Deposito Avellaneda Sur,2025-06,Saldo IVA,29189855
 Deposito Avellaneda Sur,2025-07,Saldo IVA,71162346
 Deposito Avellaneda Sur,2025-08,Saldo IVA,42697510
 Edelweiss Spedition,2025-01,Saldo IVA,-1522252
-Edelweiss Spedition,2025-02,Saldo IVA,-1256736
+Edelweiss Spedition,2025-02,Saldo IVA,-3455856
 Edelweiss Spedition,2025-03,Saldo IVA,358215
-Edelweiss Spedition,2025-04,Saldo IVA,8533103
+Edelweiss Spedition,2025-04,Saldo IVA,-6891313
 Edelweiss Spedition,2025-05,Saldo IVA,-1841441
 Edelweiss Spedition,2025-06,Saldo IVA,-127083
-Edelweiss Spedition,2025-07,Saldo IVA,4889110
-Edelweiss Spedition,2025-08,Saldo IVA,4376589
+Edelweiss Spedition,2025-07,Saldo IVA,534550
+Edelweiss Spedition,2025-08,Saldo IVA,1369221
 El Llamito,2025-01,Saldo IVA,3307500
 El Llamito,2025-02,Saldo IVA,4460400
 El Llamito,2025-03,Saldo IVA,4510800
@@ -874,11 +874,11 @@ Hermosalta SRL,2025-07,Saldo IVA,-73545
 Hermosalta SRL,2025-08,Saldo IVA,-169339
 L A R M Argentina,2025-01,Saldo IVA,11853928
 L A R M Argentina,2025-02,Saldo IVA,3728974
-L A R M Argentina,2025-03,Saldo IVA,5669267
-L A R M Argentina,2025-04,Saldo IVA,4306136
+L A R M Argentina,2025-03,Saldo IVA,5576657
+L A R M Argentina,2025-04,Saldo IVA,2544840
 L A R M Argentina,2025-05,Saldo IVA,2932218
-L A R M Argentina,2025-06,Saldo IVA,7691538
-L A R M Argentina,2025-07,Saldo IVA,10671957
+L A R M Argentina,2025-06,Saldo IVA,6619394
+L A R M Argentina,2025-07,Saldo IVA,7405453
 L A R M Argentina,2025-08,Saldo IVA,5080329
 Leoni Maria Jose,2025-01,Saldo IVA,-1632229
 Leoni Maria Jose,2025-02,Saldo IVA,3213291
@@ -888,21 +888,21 @@ Leoni Maria Jose,2025-05,Saldo IVA,3226875
 Leoni Maria Jose,2025-06,Saldo IVA,1974613
 Leoni Maria Jose,2025-07,Saldo IVA,5768370
 Leoni Maria Jose,2025-08,Saldo IVA,5341731
-Liftvan International,2025-01,Saldo IVA,514706184
+Liftvan International,2025-01,Saldo IVA,26014022
 Liftvan International,2025-02,Saldo IVA,15422304
-Liftvan International,2025-03,Saldo IVA,29630686
-Liftvan International,2025-04,Saldo IVA,4491224
-Liftvan International,2025-05,Saldo IVA,36713880
-Liftvan International,2025-06,Saldo IVA,-3295382
-Liftvan International,2025-07,Saldo IVA,17268532
+Liftvan International,2025-03,Saldo IVA,20557930
+Liftvan International,2025-04,Saldo IVA,4393290
+Liftvan International,2025-05,Saldo IVA,20785342
+Liftvan International,2025-06,Saldo IVA,-11228464
+Liftvan International,2025-07,Saldo IVA,12900532
 Liftvan International,2025-08,Saldo IVA,16206442
 Mercovan Argentina,2025-01,Saldo IVA,6974464
 Mercovan Argentina,2025-02,Saldo IVA,18816885
-Mercovan Argentina,2025-03,Saldo IVA,8053013
+Mercovan Argentina,2025-03,Saldo IVA,5159821
 Mercovan Argentina,2025-04,Saldo IVA,3709091
 Mercovan Argentina,2025-05,Saldo IVA,40883636
-Mercovan Argentina,2025-06,Saldo IVA,-11334528
-Mercovan Argentina,2025-07,Saldo IVA,22034760
+Mercovan Argentina,2025-06,Saldo IVA,-14895338
+Mercovan Argentina,2025-07,Saldo IVA,5993280
 Mercovan Argentina,2025-08,Saldo IVA,679906
 Nerococina,2025-01,Saldo IVA,403468
 Nerococina,2025-02,Saldo IVA,-237168

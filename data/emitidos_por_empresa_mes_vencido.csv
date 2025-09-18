@@ -1,7 +1,6 @@
 Razon Social,Empresa,Neto Gravado,Neto No Gravado,Op. Exentas,Neto,IVA,Imp. Total
 Liftvan International,Ypf Sociedad Anonima,134202713,0,7343904,141546617,28182570,169729187
 Mercovan Argentina,-,45199429,37140316,0,82339745,9489120,91828865
-Edelweiss Spedition,Tecpetrol S A,21643200,0,41643120,63286320,4545072,67831392
 Liftvan International,Estados Unidos,0,0,61611335,61611335,0,61611335
 Viñas En Flor,-,59289774,0,0,59289774,12450811,71740585
 Liftvan International,Natura Cosmeticos  Sa,19215388,0,31855197,51070585,4035178,55105763
@@ -10,13 +9,13 @@ Deposito Avellaneda Sur,Espert S.A.,38794370,0,0,38794370,8146818,46941188
 Deposito Avellaneda Sur,Malu Ma Tex S.A.,35672050,0,0,35672050,7491131,43163181
 Deposito Avellaneda Sur,Global Rover Logistic Srl,33700200,0,0,33700200,7077042,40777242
 Deposito Avellaneda Sur,Telamania S.R.L.,32563836,0,0,32563836,6838408,39402244
-Deposito Avellaneda Sur,Caddell Construction Co. (De) Llc,0,31824000,0,31824000,0,31824000
 Deposito Avellaneda Sur,Mercovan Argentina S.A.,27890697,0,0,27890697,5857047,33747744
 Liftvan International,Muy Mucho S.R.L.,11187300,0,14228430,25415730,2349600,27765330
 Deposito Avellaneda Sur,Bulldog Solutions S.A,25020400,0,0,25020400,5254284,30274684
 Liftvan International,Vallejos Miguel Angel,22895928,0,0,22895928,2404072,25300000
 Deposito Avellaneda Sur,Henn Y Cia Srl,22060300,0,0,22060300,4632663,26692963
 Liftvan International,Embajada De Los Ee Uu De Norteamerica,8148535,0,13809543,21958078,1711830,23669908
+Edelweiss Spedition,Tecpetrol S A,7322400,0,14088840,21411240,1537704,22948944
 Deposito Avellaneda Sur,Alimentaria S.A.,21405120,0,0,21405120,4495075,25900195
 L A R M Argentina,Ldc Argentina S.A.,1719900,17550000,0,19269900,361179,19631079
 L A R M Argentina,Schlumberger Argentina S. A.,10114621,6475612,0,16590233,2124069,18714302
@@ -186,9 +185,9 @@ Mercovan Argentina,Lg Electronics Argentina S.A.,640000,0,0,640000,134400,774400
 Liftvan International,Renault Argentina S.A,591750,0,2630,594380,123610,717990
 Viñas En Flor,Kallpa Tour Operator Srl,583174,0,0,583174,122466,705640
 Deposito Avellaneda Sur,Maransi S.A.,578256,0,0,578256,121434,699690
+Edelweiss Spedition,Evergreen Shipping Agency Argentina S.A.,550000,0,0,550000,115500,665500
 Edelweiss Spedition,Nuevas Fronteras Sa,550000,0,0,550000,115500,665500
 Edelweiss Spedition,Scania Argentina S. A. U.,550000,0,0,550000,115500,665500
-Edelweiss Spedition,Evergreen Shipping Agency Argentina S.A.,550000,0,0,550000,115500,665500
 Viñas En Flor,Black Tree S. Cap I Secc Iv,528099,0,0,528099,110901,639000
 Viñas En Flor,Real Pedro Sebastian,493140,0,0,493140,103560,596700
 Deposito Avellaneda Sur,Poka S A,480000,0,0,480000,100800,580800
@@ -229,13 +228,13 @@ L A R M Argentina,Wintershall Dea Argentina S.A,15730,157000,0,172730,3303,17603
 Viñas En Flor,Suero Miguel Alejandro,170248,0,0,170248,35752,206000
 Viñas En Flor,Landtur Sa,165554,0,0,165554,34766,200320
 Viñas En Flor,Mercado Inteligente S. A.,153719,0,0,153719,32281,186000
-Hermosalta SRL,Domene Emilio,0,0,150000,150000,0,150000
-Hermosalta SRL,Teran Hanna Nicol,0,0,150000,150000,0,150000
 Deposito Avellaneda Sur,Berkma S A,150000,0,0,150000,31500,181500
 Hermosalta SRL,Tarifa Sofia Del Milagro,0,0,150000,150000,0,150000
+Hermosalta SRL,Domene Emilio,0,0,150000,150000,0,150000
+Hermosalta SRL,Teran Hanna Nicol,0,0,150000,150000,0,150000
 Viñas En Flor,Hoteles Dionysos S.A.,146281,0,0,146281,30719,177000
-Viñas En Flor,Barbot Cristian,145455,0,0,145455,30545,176000
 Viñas En Flor,Serra Leonardo Pablo,145455,0,0,145455,30545,176000
+Viñas En Flor,Barbot Cristian,145455,0,0,145455,30545,176000
 Viñas En Flor,Conrado Juan Llapur S. A. S.,145372,0,0,145372,30528,175900
 Hermosalta SRL,Paludi Armando Pascual,0,0,144000,144000,0,144000
 L A R M Argentina,Sandro Vinces Reyna,131860,8500,0,140360,27691,168051
@@ -258,10 +257,11 @@ Viñas En Flor,Tekno Arquitectura S R L,36364,0,0,36364,7636,44000
 Viñas En Flor,Turismo Del Norte Sociedad Anonima,36364,0,0,36364,7636,44000
 Viñas En Flor,Cruz Jose Guillermo,26446,0,0,26446,5554,32000
 Viñas En Flor,Wine Pass S.A.S,14050,0,0,14050,2950,17000
-Leoni Maria Jose,Indave Patagonico Sociedad Anonima,0,0,0,0,0,0
-Deposito Avellaneda Sur,Taeda S A,0,0,0,0,0,0
-Liftvan International,Nabors International Argentina S.R.L.,0,0,0,0,0,0
 Liftvan International,Reino Unido,0,0,0,0,0,0
+Liftvan International,Nabors International Argentina S.R.L.,0,0,0,0,0,0
+Leoni Maria Jose,Indave Patagonico Sociedad Anonima,0,0,0,0,0,0
+Deposito Avellaneda Sur,Caddell Construction Co. (De) Llc,0,0,0,0,0,0
+Deposito Avellaneda Sur,Taeda S A,0,0,0,0,0,0
 Liftvan International,Embajada De La Republica Federal De Alemania,-97384,0,0,-97384,-20720,-118104
 Deposito Avellaneda Sur,Manufacturas Los Andes S.A,-100000,0,0,-100000,-21000,-121000
 Deposito Avellaneda Sur,A&S Logistics S.A.,-120000,0,0,-120000,-25200,-145200

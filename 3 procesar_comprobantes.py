@@ -176,9 +176,20 @@ comprobantes = comprobantes[['Fecha de Emisión', 'Base', 'Tipo de Comprobante',
     'Número Desde', 'Tipo Cambio', 'Moneda', 'Neto Gravado', 'Neto No Gravado',
     'Op. Exentas', 'IVA', 'Imp. Total', 'Razon Social', 'Empresa']]
 
+codigos_tipos_comprobante = pd.read_excel('codigos_tipos_comprobante.xls')
+codigos_tipos_comprobante['Descripción'] = codigos_tipos_comprobante['Descripción'].str.title()
+codigos_tipos_comprobante = codigos_tipos_comprobante.rename(columns={'Código': 'Tipo de Comprobante', 'Descripción': 'Tipo'})
+
+# Reemplaza los valores de 'Tipo de Comprobante' por la descripción usando 'Código' como clave
+comprobantes = comprobantes.merge(
+    codigos_tipos_comprobante,
+    on='Tipo de Comprobante',
+    how='left'
+)
+
 # Notas de credito
-comprobantes.loc[comprobantes['Tipo de Comprobante'] == 3, ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA']] *= -1
-comprobantes.loc[comprobantes['Tipo de Comprobante'] == 8, ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA']] *= -1
+comprobantes.loc[comprobantes['Tipo'].str.contains('Credito'), 
+    ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Imp. Total']] *= -1
 # Factura C
 comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Neto No Gravado'] = comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Imp. Total']
 
@@ -208,16 +219,6 @@ comprobantes['Fecha de Emisión'] = pd.to_datetime(comprobantes['Fecha de Emisi�
 comprobantes['Mes'] = comprobantes['Fecha de Emisión'].dt.strftime('%Y-%m')
 comprobantes['Fecha'] = comprobantes['Fecha de Emisión'].dt.strftime('%d/%m/%Y')
 
-codigos_tipos_comprobante = pd.read_excel('codigos_tipos_comprobante.xls')
-codigos_tipos_comprobante['Descripción'] = codigos_tipos_comprobante['Descripción'].str.title()
-codigos_tipos_comprobante = codigos_tipos_comprobante.rename(columns={'Código': 'Tipo de Comprobante', 'Descripción': 'Tipo'})
-
-# Reemplaza los valores de 'Tipo de Comprobante' por la descripción usando 'Código' como clave
-comprobantes = comprobantes.merge(
-    codigos_tipos_comprobante,
-    on='Tipo de Comprobante',
-    how='left'
-)
 
 comprobantes = comprobantes[['Fecha', 'Empresa', 'Tipo', 'Número Desde',
         'Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA',
@@ -226,6 +227,8 @@ comprobantes = comprobantes[['Fecha', 'Empresa', 'Tipo', 'Número Desde',
 
 emitidos_historico = comprobantes[comprobantes['Base'] == 'Emitidos'].drop(columns=['Base'])
 recibidos_historico = comprobantes[comprobantes['Base'] == 'Recibidos'].drop(columns=['Base'])
+
+emitidos_historico[(emitidos_historico['Razon Social'].str.contains('Edel')) & (emitidos_historico['Fecha'].str.contains('08/2025'))]
 
 ### Sacar datos para graficos
 
