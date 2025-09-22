@@ -105,6 +105,7 @@ company_names = [cuit_to_name.get(cuit) for cuit in cuit_numbers]
 
 comprobantes_dfs = []
 error_log = []  # List to store problematic files
+#csv_file = "comprobantes_consulta_csv_recibidos_126144327_30718108728_20250903-1025 (montos expresados en pesos).csv"
 for csv_file in csv_files:
     match = cuit_pattern.search(csv_file)
     if match:
@@ -144,7 +145,6 @@ if error_log:
         log_file.write("\n".join(error_log))
 
 comprobantes = pd.concat(comprobantes_dfs, ignore_index=True)
-
 comprobantes['Empresa'] = comprobantes['Denominación Receptor'].fillna(comprobantes['Denominación Emisor']).str.strip().str.title().fillna("-")
 
 comprobantes = comprobantes[['Fecha de Emisión', 'Tipo de Comprobante', 'Punto de Venta',
@@ -188,8 +188,10 @@ comprobantes = comprobantes.merge(
 )
 
 # Notas de credito
-comprobantes.loc[comprobantes['Tipo'].str.contains('Nota De Credito|Notas De Credito'), 
+#check= comprobantes[comprobantes['Tipo'].isna()|comprobantes['Tipo'].isnull()]  # Chequeo comprobantes con NA o NULL 
+comprobantes.loc[comprobantes['Tipo'].str.contains('Nota De Credito|Notas De Credito', na=False), 
     ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Imp. Total']] *= -1
+
 # Factura C
 comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Neto No Gravado'] = comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Imp. Total']
 
@@ -228,7 +230,7 @@ comprobantes = comprobantes[['Fecha', 'Empresa', 'Tipo', 'Número Desde',
 emitidos_historico = comprobantes[comprobantes['Base'] == 'Emitidos'].drop(columns=['Base'])
 recibidos_historico = comprobantes[comprobantes['Base'] == 'Recibidos'].drop(columns=['Base'])
 
-emitidos_historico[(emitidos_historico['Razon Social'].str.contains('Edel')) & (emitidos_historico['Fecha'].str.contains('08/2025'))]
+#emitidos_historico[(emitidos_historico['Razon Social'].str.contains('Edel')) & (emitidos_historico['Fecha'].str.contains('08/2025'))]
 
 ### Sacar datos para graficos
 
@@ -285,19 +287,39 @@ comprobantes_historicos = comprobantes_historico.melt(
 ventas_por_empresa_cliente_activo = ventas_por_empresa_cliente.copy()
 ventas_por_empresa_cliente_activo['Mes'] = pd.to_datetime(ventas_por_empresa_cliente_activo['Mes'], format='%Y-%m')
 last_month = ventas_por_empresa_cliente_activo['Mes'].max()
+initial_month = ventas_por_empresa_cliente_activo['Mes'].min()
 three_months = [last_month - pd.DateOffset(months=i) for i in range(3)]
+six_months = [last_month - pd.DateOffset(months=i) for i in range(6)]
 three_months_str = [m.strftime('%Y-%m') for m in three_months]
+six_months_str = [m.strftime('%Y-%m') for m in six_months]
+# Boolean masks
 
-def is_active(group):
-    active = group['Mes'].dt.strftime('%Y-%m').isin(three_months_str).any()
+def categorize_clients(group):
+    
+    in_last_3 = group['Mes'].dt.strftime('%Y-%m').isin(three_months_str)
+    in_last_6 = group['Mes'].dt.strftime('%Y-%m').isin(six_months_str)
+    in_before_3 = ~in_last_3
+    # Categorization
+    if not in_last_6.any():
+        categoria = "Inactivo"
+    else:
+        categoria = "Activo"
+    if in_last_3.any() and not in_before_3.any():
+        categoria = "Nuevo"
+    # Last transaction info
+    last_row = group.loc[group['Mes'].idxmax()]
+    ultimo_mes_transaccion = last_row['Mes'].strftime('%Y-%m')
+    importe_total_mensual = last_row['Imp. Total']
+
     return pd.Series({
         'Razon Social': group['Razon Social'].iloc[0],
         'Empresa': group['Empresa'].iloc[0],
-        'cliente_activo': 'Si' if active else 'No',
-        'mes_corriente': last_month.strftime('%Y-%m')
+        'Categoria Cliente': categoria,
+        'Ultimo mes transaccion': ultimo_mes_transaccion,
+        'Importe total mensual': importe_total_mensual
     })
 
-active_clients = ventas_por_empresa_cliente_activo.groupby(['Razon Social', 'Empresa']).apply(is_active).reset_index(drop=True)
+active_clients = ventas_por_empresa_cliente_activo.groupby(by =['Razon Social', 'Empresa']).apply(categorize_clients).reset_index(drop=True)
 
 emitidos_historico.to_csv('data/emitidos_historico.csv', index=False)
 recibidos_historico.to_csv('data/recibidos_historico.csv', index=False)
