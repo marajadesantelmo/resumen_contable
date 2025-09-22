@@ -188,7 +188,7 @@ comprobantes = comprobantes.merge(
 )
 
 # Notas de credito
-comprobantes.loc[comprobantes['Tipo'].str.contains('Credito'), 
+comprobantes.loc[comprobantes['Tipo'].str.contains('Nota De Credito|Notas De Credito'), 
     ['Neto Gravado', 'Neto No Gravado', 'Op. Exentas', 'IVA', 'Imp. Total']] *= -1
 # Factura C
 comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Neto No Gravado'] = comprobantes.loc[comprobantes['Tipo de Comprobante'] == 11, 'Imp. Total']
