@@ -6,7 +6,21 @@ from supabase_connection import fetch_table_data
 
 def format_currency(x):
     """Format number as Argentine peso currency"""
-    return f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".") if x >= 0 else f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
+    # Handle non-numeric values
+    if pd.isna(x) or x == '' or x is None:
+        return "$0"
+    
+    # Convert to float if it's a string
+    try:
+        x = float(x)
+    except (ValueError, TypeError):
+        return "$0"
+    
+    # Format the number
+    if x >= 0:
+        return f"${x:,.0f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    else:
+        return f"(${abs(x):,.0f})".replace(",", "X").replace(".", ",").replace("X", ".")
 
 def filter_restricted_data(df, username):
     """ATENCION: Se define la funcion una vez por pagina de la app"""
@@ -89,6 +103,18 @@ def show_page(username):
         with tab1_col2:
             # Pivot the data to have columns Mes, Neto Ventas, and Neto Compras
             pivoted_data_ventas_compras = filtered_data.pivot(index="Mes", columns="Variable", values="Monto").reset_index()
+            
+            # Ensure both columns exist (fill with 0 if missing)
+            if "Neto Ventas" not in pivoted_data_ventas_compras.columns:
+                pivoted_data_ventas_compras["Neto Ventas"] = 0
+            if "Neto Compras" not in pivoted_data_ventas_compras.columns:
+                pivoted_data_ventas_compras["Neto Compras"] = 0
+            
+            # Fill NaN values with 0
+            pivoted_data_ventas_compras["Neto Ventas"] = pivoted_data_ventas_compras["Neto Ventas"].fillna(0)
+            pivoted_data_ventas_compras["Neto Compras"] = pivoted_data_ventas_compras["Neto Compras"].fillna(0)
+            
+            # Reorder columns
             pivoted_data_ventas_compras = pivoted_data_ventas_compras[["Mes", "Neto Ventas", "Neto Compras"]]
             pivoted_data_ventas_compras['Dif.'] = pivoted_data_ventas_compras['Neto Ventas'] - pivoted_data_ventas_compras['Neto Compras']
             for column in [ "Neto Ventas", "Neto Compras", 'Dif.']:
