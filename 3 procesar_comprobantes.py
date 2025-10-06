@@ -356,8 +356,6 @@ print("Database upload completed!")
 
 # -*- coding: utf-8 -*-
 """
-INGRESAR MES A MANO
-
 Genera tabla resumen sobre mes vencido en base a datos descargados y procesados en data/emitidos_historico.csv
 Ver si es posible mejorarlo integrando descarga y procesamiento en este repositorio
 """
