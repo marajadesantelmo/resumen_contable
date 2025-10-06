@@ -137,8 +137,12 @@ def show_page(username):
         with tab2_col2:
             # Pivot the data to have columns Mes, IVA Ventas, IVA Compras, and Saldo IVA
             pivoted_data = filtered_data.pivot(index="Mes", columns="Variable", values="Monto").reset_index()
+            # Ensure all required columns exist, fill missing with 0
+            for col in ["IVA Ventas", "IVA Compras", "Saldo IVA"]:
+                if col not in pivoted_data.columns:
+                    pivoted_data[col] = 0
             pivoted_data = pivoted_data[["Mes", "IVA Ventas", "IVA Compras", "Saldo IVA"]]
-            for column in [ "IVA Ventas", "IVA Compras", "Saldo IVA"]:
+            for column in ["IVA Ventas", "IVA Compras", "Saldo IVA"]:
                 pivoted_data[column] = pivoted_data[column].apply(format_currency)
             pivoted_data.sort_values(by="Mes", ascending=False, inplace=True)
             st.dataframe(pivoted_data, hide_index=True)
