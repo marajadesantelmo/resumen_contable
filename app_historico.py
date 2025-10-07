@@ -76,6 +76,8 @@ def fetch_data(username):
 
     tabla1_ventas_y_compras = fetch_table_data('tabla1_ventas_y_compras')
     tabla1_ventas_y_compras = filter_restricted_data(tabla1_ventas_y_compras, username)
+    for column in ["Neto Ventas", "Neto Compras", "Dif"]:
+        tabla1_ventas_y_compras[column] = tabla1_ventas_y_compras[column].apply(format_currency)
 
     return (comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor, clientes_activos, tabla1_ventas_y_compras)
 
