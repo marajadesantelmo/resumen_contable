@@ -73,10 +73,14 @@ def fetch_data(username):
 
     clientes_activos = fetch_table_data('clientes_activos')
     clientes_activos = filter_restricted_data(clientes_activos, username)
-    return (comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor, clientes_activos)
+
+    tabla1_ventas_y_compras = fetch_table_data('tabla1_ventas_y_compras')
+    tabla1_ventas_y_compras = filter_restricted_data(tabla1_ventas_y_compras, username)
+
+    return (comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor, clientes_activos, tabla1_ventas_y_compras)
 
 def show_page(username):
-    comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor, clientes_activos = fetch_data(username)
+    comprobantes_historicos, emitidos_historicos, recibidos_historicos, ventas_por_empresa_cliente, compras_por_empresa_proveedor, clientes_activos, tabla1_ventas_y_compras = fetch_data(username)
     st.title("Resumen Contable - Histórico")
     st.info("Datos Históricos en base a Comprobantes de ARCA")
 
@@ -92,35 +96,17 @@ def show_page(username):
         tab1_col1, tab1_col2 = st.columns([2, 1])
         with tab1_col1:
             st.subheader("Ventas y Compras")
-            filtered_data = comprobantes_historicos[
+            filtered_data = tabla1_ventas_y_compras[
                 (comprobantes_historicos['Razon Social'] == selected_razon_social) &
-                (comprobantes_historicos['Variable'].isin(['Neto Ventas', 'Neto Compras']))
-            ]
+                (comprobantes_historicos['Variable'].isin(['Neto Ventas', 'Neto Compras']))]
             if not filtered_data.empty:
                 st.bar_chart(filtered_data, x="Mes", y="Monto", color="Variable", stack=False)
             else:
                 st.warning("No hay datos disponibles para la Razón Social seleccionada.")
         with tab1_col2:
-            # Pivot the data to have columns Mes, Neto Ventas, and Neto Compras
-            pivoted_data_ventas_compras = filtered_data.pivot(index="Mes", columns="Variable", values="Monto").reset_index()
-            
-            # Ensure both columns exist (fill with 0 if missing)
-            if "Neto Ventas" not in pivoted_data_ventas_compras.columns:
-                pivoted_data_ventas_compras["Neto Ventas"] = 0
-            if "Neto Compras" not in pivoted_data_ventas_compras.columns:
-                pivoted_data_ventas_compras["Neto Compras"] = 0
-            
-            # Fill NaN values with 0
-            pivoted_data_ventas_compras["Neto Ventas"] = pivoted_data_ventas_compras["Neto Ventas"].fillna(0)
-            pivoted_data_ventas_compras["Neto Compras"] = pivoted_data_ventas_compras["Neto Compras"].fillna(0)
-            
-            # Reorder columns
-            pivoted_data_ventas_compras = pivoted_data_ventas_compras[["Mes", "Neto Ventas", "Neto Compras"]]
-            pivoted_data_ventas_compras['Dif.'] = pivoted_data_ventas_compras['Neto Ventas'] - pivoted_data_ventas_compras['Neto Compras']
-            for column in [ "Neto Ventas", "Neto Compras", 'Dif.']:
-                pivoted_data_ventas_compras[column] = pivoted_data_ventas_compras[column].apply(format_currency)
-            pivoted_data_ventas_compras.sort_values(by="Mes", ascending=False, inplace=True)
-            st.dataframe(pivoted_data_ventas_compras, hide_index=True)
+            filtered_tabla1_ventas_y_compras = tabla1_ventas_y_compras[(tabla1_ventas_y_compras['Razon Social'] == selected_razon_social)]
+            filtered_tabla1_ventas_y_compras = filtered_tabla1_ventas_y_compras[['Mes', 'Neto Ventas', 'Neto Compras', 'Dif']]
+            st.dataframe(filtered_tabla1_ventas_y_compras, hide_index=True)
 
     with tab2:
         tab2_col1, tab2_col2 = st.columns([2, 1])

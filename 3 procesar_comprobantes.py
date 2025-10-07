@@ -321,6 +321,19 @@ def categorize_clients(group):
 
 active_clients = ventas_por_empresa_cliente_activo.groupby(by =['Razon Social', 'Empresa']).apply(categorize_clients).reset_index(drop=True)
 
+
+### Tablas resumenes
+
+ventas = ventas_por_empresa[['Razon Social', 'Mes', 'Neto']]
+ventas.columns = ['Razon Social', 'Mes', 'Neto Ventas']
+compras = compras_por_empresa[['Razon Social', 'Mes', 'Neto']]
+compras.columns = ['Razon Social', 'Mes', 'Neto Compras']
+tabla1_ventas_y_compras = ventas.merge(compras, on=['Razon Social', 'Mes'], how='outer')
+tabla1_ventas_y_compras = tabla1_ventas_y_compras.fillna(0)
+tabla1_ventas_y_compras['Dif'] = tabla1_ventas_y_compras['Neto Ventas'] - tabla1_ventas_y_compras['Neto Compras']
+
+tabla1_ventas_y_compras.to_csv('data/tabla1_ventas_y_compras.csv', index=False)
+
 emitidos_historico.to_csv('data/emitidos_historico.csv', index=False)
 recibidos_historico.to_csv('data/recibidos_historico.csv', index=False)
 comprobantes_historicos.to_csv('data/comprobantes_historicos.csv', index=False)
@@ -350,6 +363,8 @@ delete_table_data('compras_historico_proveedor')
 upload_dataframe_to_supabase(compras_por_empresa_proveedor, 'compras_historico_proveedor')
 delete_table_data('clientes_activos')
 upload_dataframe_to_supabase(active_clients, 'clientes_activos')
+delete_table_data('tabla1_ventas_y_compras')
+upload_dataframe_to_supabase(tabla1_ventas_y_compras, 'tabla1_ventas_y_compras')
 print("Database upload completed!")
 
 
