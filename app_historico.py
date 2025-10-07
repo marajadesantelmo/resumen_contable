@@ -96,7 +96,7 @@ def show_page(username):
         tab1_col1, tab1_col2 = st.columns([2, 1])
         with tab1_col1:
             st.subheader("Ventas y Compras")
-            filtered_data = tabla1_ventas_y_compras[
+            filtered_data = comprobantes_historicos[
                 (comprobantes_historicos['Razon Social'] == selected_razon_social) &
                 (comprobantes_historicos['Variable'].isin(['Neto Ventas', 'Neto Compras']))]
             if not filtered_data.empty:
